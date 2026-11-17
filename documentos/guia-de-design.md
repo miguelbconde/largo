@@ -1,5 +1,5 @@
 # Guia de design — Largo
-versão 0.4 · 17/11/2026 · **direção em estudo, ainda não aplicada ao site**
+versão 0.5 · 17/11/2026 · **direção em estudo, ainda não aplicada ao site**
 
 Este guia orienta qualquer trabalho futuro na aparência do site. Ele registra de onde vem a linguagem visual, o que aproveitamos de cada referência e o que fica de fora. Deve ser lido antes de qualquer mudança de layout.
 
@@ -199,6 +199,28 @@ Preocupação registrada pela coordenação editorial: o diálogo com a tradiç�
 - "Grátis" em etiqueta preta cheia; preço popular em etiqueta de contorno; demais informações em rótulos espaçados.
 - Contraste medido: texto 17:1, texto secundário 6,8:1, vermelho 5,4:1 (claro); 16:1, 7,6:1 e 6,7:1 (escuro).
 - Ainda não feito: marca modular, ícones de seção, curvas à Burle Marx.
+
+**Avaliação do Estudo A pela coordenação editorial (17/11/2026).** Interessante, mas a versão anterior agradava mais. O título "a boa" ficou grande e espaçado demais, e a caixa-baixa não convenceu: são heranças diretas do SDJB. Orientação: **o minimalismo dos anos 1950 e 1960 serve para pensar uma linhagem, não para ser implementado diretamente.** O Estudo A fica arquivado como registro.
+
+**Paleta da paisagem.** Proposta da coordenação editorial: as cores vêm da paisagem do Rio, não do cânone gráfico. Cada cor tem uma função, para que o conjunto não pese:
+
+| Cor | Origem | Função |
+|---|---|---|
+| Areia | praia | fundo da página |
+| Gnaisse | pedra das montanhas (gnaisse facoidal) | texto e elementos escuros |
+| Mar | azul do mar | marca, links, horários, o que está selecionado |
+| Mata | verde da floresta | gratuidade |
+| Terra | tom quente da pedra e do barro | preço popular |
+
+Isso substitui a tríade preto, branco e vermelho das seções 2.2 e 2.7. A regra antiga contra "paleta tropical com muitas cores" continua valendo no espírito: tons naturais e rebaixados, nunca saturados, e nenhuma informação dependendo só de cor.
+
+**Estudo B (17/11/2026).** Parte do site original, que agradou, e muda pouco. Arquivo: `ferramentas/modelo-estudo-b.html`.
+- Paleta da paisagem, no claro e no escuro. Contraste medido: texto 12,7:1; texto secundário 5,7:1; mar 6,3:1; mata 6,4:1 (claro). No escuro, todos acima de 7:1.
+- Títulos em serifa, em caixa normal e tamanho moderado, como no original.
+- Source Serif 4 embutida, para a serifa ser a mesma em qualquer celular.
+- "Grátis" em etiqueta verde cheia, a de maior peso na ficha.
+- Horário curto: "11h", "19h30".
+- Do que foi estudado na linhagem histórica, ficam os princípios discretos: hierarquia clara, bastante respiro, uma cor de destaque por função, marca simples.
 
 **Passos seguintes, quando for a hora:**
 1. Dois ou três estudos da mesma tela (o dia de hoje, no celular), lado a lado.
