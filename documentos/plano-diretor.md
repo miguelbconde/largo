@@ -172,7 +172,7 @@ A coleta e a curadoria podem rodar como uma **tarefa agendada** feita por mim, c
 ### Mudança no modo de trabalho (17/11/2026)
 
 O app Claude foi desinstalado do computador do projeto. O trabalho passa a ser feito só pelo navegador. Consequências:
-- **Sem acesso à pasta do computador.** A cópia completa do projeto é entregue em `.zip` ao fim de cada sessão. O destino definitivo é um repositório no GitHub, que também hospeda o site.
+- **O projeto mora no GitHub**, em `github.com/miguelbconde/largo` (repositório público, criado em 17/11/2026). Ele substitui a pasta do computador e o `.zip`. O site publicado fica na pasta `docs/` e os documentos em `documentos/`. Imagens de referência de terceiros ficam fora do repositório.
 - **Sem o navegador do computador para a coleta.** Os sites que bloqueiam o acesso a partir da nuvem, como o da Secretaria Municipal de Cultura, dependem de a coordenação editorial baixar o PDF semanal e anexá-lo na conversa (cerca de um minuto por semana). O pedido de dados abertos à Prefeitura fica ainda mais importante.
 - Os sites que abrem pela nuvem continuam sendo lidos diretamente.
 
@@ -180,7 +180,7 @@ O app Claude foi desinstalado do computador do projeto. O trabalho passa a ser f
 
 Sempre que, numa conversa nova, o assunto for a coleta ou as fontes de programação, o Claude lembra a coordenação editorial do que precisa receber:
 1. **O PDF semanal da Secretaria Municipal de Cultura** (cultura.prefeitura.rio/agendacultural, sai na quarta ou quinta), anexado na conversa.
-2. **O `.zip` mais recente do projeto**, enquanto o repositório do GitHub não estiver ligado à conversa.
+2. **O repositório `miguelbconde/largo`**: se ele não estiver ligado à conversa, o Claude pede para ligá-lo.
 3. **Qualquer programação recebida diretamente** de espaços e coletivos (mensagens, flyers, capturas de tela).
 
 O Claude também avisa quais fontes não conseguiu abrir naquela semana, para que a coordenação decida se vale buscar à mão.
