@@ -1,5 +1,5 @@
 # Guia de design — Largo
-versão 0.5 · 17/11/2026 · **direção em estudo, ainda não aplicada ao site**
+versão 0.6 · 17/11/2026 · **direção em estudo, ainda não aplicada ao site**
 
 Este guia orienta qualquer trabalho futuro na aparência do site. Ele registra de onde vem a linguagem visual, o que aproveitamos de cada referência e o que fica de fora. Deve ser lido antes de qualquer mudança de layout.
 
@@ -221,6 +221,22 @@ Isso substitui a tríade preto, branco e vermelho das seções 2.2 e 2.7. A regr
 - "Grátis" em etiqueta verde cheia, a de maior peso na ficha.
 - Horário curto: "11h", "19h30".
 - Do que foi estudado na linhagem histórica, ficam os princípios discretos: hierarquia clara, bastante respiro, uma cor de destaque por função, marca simples.
+
+**Avaliação da primeira paleta do Estudo B pela coordenação editorial (17/11/2026).** Não agradou: predominava um "verde cor de caldo de cana", que lembra o mar poluído. Causa: o azul escolhido era um azul-petróleo, que puxa para o verde, sobre um bege amarelado, com um fundo de seleção cinza-esverdeado. **Regra que fica:** o azul do mar é azul de verdade, de mar limpo, nunca petróleo nem turquesa turvo; a areia é clara e quase neutra, nunca amarelada; o verde aparece só na etiqueta "Grátis", em tom fechado de mata.
+
+**Estudo B, segunda paleta (17/11/2026).** Mesmo layout, tons corrigidos.
+
+| Cor | Claro | Escuro |
+|---|---|---|
+| Areia (fundo) | `#f8f4ec` | `#1a1918` |
+| Fundo das caixas | `#eee7d9` | `#262422` |
+| Gnaisse (texto) | `#2a2623` | `#efe8da` |
+| Texto secundário | `#5f574e` | `#b5ab9b` |
+| Mar | `#1b4e8f` | `#93bdf0` |
+| Mata (Grátis) | `#1d5a3c` | `#86cfa3` |
+| Terra (preço popular) | `#75461f` | `#e0bf7c` |
+
+Contraste medido no claro: texto 13,7:1; secundário 6,5:1; mar 7,6:1; mata 7,4:1; terra 7,2:1. No escuro, todos acima de 7:1.
 
 **Passos seguintes, quando for a hora:**
 1. Dois ou três estudos da mesma tela (o dia de hoje, no celular), lado a lado.
