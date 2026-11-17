@@ -123,6 +123,17 @@ Recomendações personalizadas que respeitam os princípios do projeto: **sem ca
   Dentro das regras, pesam a relevância artística, a raridade (estreia, última sessão, evento único) e o valor de memória e território. Os destaques ficam em `destaques.json` e entram no relatório semanal. A coordenação editorial pode vetar ou trocar algum, mas não precisa: se ninguém mexer, eles saem como estão.
 - **Fase posterior:** boletim semanal por seção (e-mail ou RSS), para quem quiser receber sem abrir o site.
 
+### Roteiros do Largo (decisão de 17/11/2026)
+Passeios a pé organizados pelo próprio projeto, no espírito do direito à cidade. O primeiro formato previsto são roteiros pelo Centro histórico que articulam a história literária com a história afro do Rio, conduzidos por uma parceira convidada pela coordenação editorial (convite em andamento; o nome entra aqui quando ela aceitar). É também a única fonte de renda prevista: todo o resto continua de acesso livre.
+
+Regras, para que os roteiros não comprometam a independência da agenda:
+1. **Casa separada da curadoria.** Os roteiros têm retranca própria, identificada como programação do Largo. Nunca entram em "A boa" nem recebem tratamento de destaque na agenda. A regra "nunca patrocínio" vale também para nós mesmos.
+2. **Preço no espírito do projeto.** Preço popular (inteira até R$ 40) ou vagas gratuitas em cada saída. O valor e o número de vagas são definidos pela coordenação editorial com a parceira.
+3. **Inscrição sem cadastro nem rastreador.** A página mostra datas, ponto de encontro, vagas e preço. A inscrição é feita por mensagem direta com quem conduz o passeio, e o pagamento vai direto a ela (Pix). O site não guarda dado de ninguém nem tem sistema de pagamento. Se a procura crescer, a regra é revista.
+4. **Transparência.** A página diz quem conduz, para onde vai o dinheiro e que os roteiros ajudam a manter o projeto.
+
+**A conferir antes de anunciar passeio pago:** se a atividade exige registro de guia de turismo (Cadastur, Ministério do Turismo) ou se se enquadra como atividade educativa ou cultural.
+
 ### Divisão do trabalho: código comum × IA
 - **Coleta mecânica (sem IA, custo zero):** baixar o PDF da SMC e ler os sites e os dados estruturados é tarefa de programas comuns. Eles rodam de graça num serviço de automação na nuvem. Só as fontes que bloqueiam acesso automático usam o navegador do computador do projeto.
 - **IA apenas onde há julgamento:** classificar, juntar duplicatas, escrever sinopses e fazer a dupla checagem.
@@ -192,6 +203,7 @@ O Claude também avisa quais fontes não conseguiu abrir naquela semana, para qu
 3. **Criar o canal de envio** e uma página "Envie sua programação".
 4. **Publicar** (você cria uma conta gratuita de hospedagem; eu guio cada passo).
 5. **Ampliar o território**: buscar ativamente fontes nas Zonas Norte, Oeste e Sudoeste até a meta de 40%.
+6. **Roteiros do Largo**: depois do aceite da parceira, criar a retranca e a página dos roteiros (seção 7).
 
 ## 12. Decisões
 
@@ -201,6 +213,11 @@ O Claude também avisa quais fontes não conseguiu abrir naquela semana, para qu
 - Licenças abertas formalizadas num Protocolo de Acesso Aberto (CC BY-SA 4.0 para textos e ODbL 1.0 para dados, ver seção 7).
 - Sem revisão humana evento a evento. Em seu lugar, dupla checagem automática, relatório de exceções e auditoria por amostragem (seção 8).
 - Fazer pedido formal à Prefeitura (Lei de Acesso à Informação) para que a programação seja publicada como dado aberto.
+
+**Tomadas (17/11/2026):**
+- Aparência: Estudo B com a segunda paleta da paisagem vira o site principal, por enquanto (ver guia de design).
+- Integração com o Google Agenda: botão de assinatura (o Google só permite assinar pelo computador) e botão "adicionar ao Google Agenda" em cada ficha. Exige cuidar da versão do site para computador.
+- Roteiros do Largo: passeios próprios, com retranca separada da agenda e fora dos destaques (seção 7).
 
 **Pendente:**
 - Nome definitivo do projeto.
