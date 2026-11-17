@@ -1,0 +1,284 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Largo//Agenda cultural do Rio de Janeiro//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Largo · Zona Sul
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:2026-11-15-001-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T210000Z
+DTEND:20261115T230000Z
+SUMMARY:Equina
+LOCATION:Espaço Cultural Sérgio Porto\, Rua Visconde de Silva\, ao lado
+  do nº 292 – Humaitá
+DESCRIPTION:Espetáculo de dança de Aline Bernardi e Dani Lima sobre os 
+ laços de cuidado entre humanos e cavalos\, a partir da pesquisa de dout
+ orado de Aline.\n\nR$ 30 a R$ 60 · 18 anos\n\nFonte: https://cultura.pr
+ efeitura.rio/agendacultural/\nLargo — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-001-1@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261121T220000Z
+DTEND:20261122T000000Z
+SUMMARY:Equina
+LOCATION:Espaço Cultural Sérgio Porto\, Rua Visconde de Silva\, ao lado
+  do nº 292 – Humaitá
+DESCRIPTION:Espetáculo de dança de Aline Bernardi e Dani Lima sobre os 
+ laços de cuidado entre humanos e cavalos\, a partir da pesquisa de dout
+ orado de Aline.\n\nR$ 30 a R$ 60 · 18 anos\n\nFonte: https://cultura.pr
+ efeitura.rio/agendacultural/\nLargo — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-001-2@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261122T210000Z
+DTEND:20261122T230000Z
+SUMMARY:Equina
+LOCATION:Espaço Cultural Sérgio Porto\, Rua Visconde de Silva\, ao lado
+  do nº 292 – Humaitá
+DESCRIPTION:Espetáculo de dança de Aline Bernardi e Dani Lima sobre os 
+ laços de cuidado entre humanos e cavalos\, a partir da pesquisa de dout
+ orado de Aline.\n\nR$ 30 a R$ 60 · 18 anos\n\nFonte: https://cultura.pr
+ efeitura.rio/agendacultural/\nLargo — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-002-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T220000Z
+DTEND:20261116T000000Z
+SUMMARY:O Extermínio da Cegonha
+LOCATION:Espaço Cultural Sérgio Porto\, Rua Visconde de Silva\, ao lado
+  do nº 292 – Humaitá
+DESCRIPTION:Um feriado de Finados em família vira acerto de contas quand
+ o um amigo de infância reaparece\; a tecnologia funciona como gatilho t
+ rágico.\n\nR$ 30 a R$ 60 · 14 anos\n\nFonte: https://cultura.prefeitur
+ a.rio/agendacultural/\nLargo — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-003-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261117T230000Z
+DTEND:20261118T010000Z
+SUMMARY:O Último Dia da Minha Vida
+LOCATION:Teatro Municipal Café Pequeno\, Av. Ataulfo de Paiva\, 269 – 
+ Leblon
+DESCRIPTION:Numa noite decisiva\, um homem abre o baú de memórias que t
+ entou esquecer. Drama com humor ácido.\n\nR$ 10 a R$ 20 · 14 anos\n\nF
+ onte: https://cultura.prefeitura.rio/agendacultural/\nLargo — agenda c
+ ultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-003-1@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261118T230000Z
+DTEND:20261119T010000Z
+SUMMARY:O Último Dia da Minha Vida
+LOCATION:Teatro Municipal Café Pequeno\, Av. Ataulfo de Paiva\, 269 – 
+ Leblon
+DESCRIPTION:Numa noite decisiva\, um homem abre o baú de memórias que t
+ entou esquecer. Drama com humor ácido.\n\nR$ 10 a R$ 20 · 14 anos\n\nF
+ onte: https://cultura.prefeitura.rio/agendacultural/\nLargo — agenda c
+ ultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-003-2@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261124T230000Z
+DTEND:20261125T010000Z
+SUMMARY:O Último Dia da Minha Vida
+LOCATION:Teatro Municipal Café Pequeno\, Av. Ataulfo de Paiva\, 269 – 
+ Leblon
+DESCRIPTION:Numa noite decisiva\, um homem abre o baú de memórias que t
+ entou esquecer. Drama com humor ácido.\n\nR$ 10 a R$ 20 · 14 anos\n\nF
+ onte: https://cultura.prefeitura.rio/agendacultural/\nLargo — agenda c
+ ultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-003-3@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261125T230000Z
+DTEND:20261126T010000Z
+SUMMARY:O Último Dia da Minha Vida
+LOCATION:Teatro Municipal Café Pequeno\, Av. Ataulfo de Paiva\, 269 – 
+ Leblon
+DESCRIPTION:Numa noite decisiva\, um homem abre o baú de memórias que t
+ entou esquecer. Drama com humor ácido.\n\nR$ 10 a R$ 20 · 14 anos\n\nF
+ onte: https://cultura.prefeitura.rio/agendacultural/\nLargo — agenda c
+ ultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-004-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T220000Z
+DTEND:20261116T000000Z
+SUMMARY:Nada sob Controle
+LOCATION:Teatro Municipal Café Pequeno\, Av. Ataulfo de Paiva\, 269 – 
+ Leblon
+DESCRIPTION:Comédia circense do Circo Teatro Saltimbanco\, com palhaços
+ \, desencontros e improviso na tradição do circo brasileiro.\n\nR$ 15 
+ a R$ 30 · 14 anos\n\nATENÇÃO: informação a confirmar na fonte.\n\nF
+ onte: https://cultura.prefeitura.rio/agendacultural/\nLargo — agenda c
+ ultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Teatro\,Infantil
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-004-1@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261120T230000Z
+DTEND:20261121T010000Z
+SUMMARY:Nada sob Controle
+LOCATION:Teatro Municipal Café Pequeno\, Av. Ataulfo de Paiva\, 269 – 
+ Leblon
+DESCRIPTION:Comédia circense do Circo Teatro Saltimbanco\, com palhaços
+ \, desencontros e improviso na tradição do circo brasileiro.\n\nR$ 15 
+ a R$ 30 · 14 anos\n\nATENÇÃO: informação a confirmar na fonte.\n\nF
+ onte: https://cultura.prefeitura.rio/agendacultural/\nLargo — agenda c
+ ultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Teatro\,Infantil
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-004-2@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261121T230000Z
+DTEND:20261122T010000Z
+SUMMARY:Nada sob Controle
+LOCATION:Teatro Municipal Café Pequeno\, Av. Ataulfo de Paiva\, 269 – 
+ Leblon
+DESCRIPTION:Comédia circense do Circo Teatro Saltimbanco\, com palhaços
+ \, desencontros e improviso na tradição do circo brasileiro.\n\nR$ 15 
+ a R$ 30 · 14 anos\n\nATENÇÃO: informação a confirmar na fonte.\n\nF
+ onte: https://cultura.prefeitura.rio/agendacultural/\nLargo — agenda c
+ ultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Teatro\,Infantil
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-004-3@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261122T220000Z
+DTEND:20261123T000000Z
+SUMMARY:Nada sob Controle
+LOCATION:Teatro Municipal Café Pequeno\, Av. Ataulfo de Paiva\, 269 – 
+ Leblon
+DESCRIPTION:Comédia circense do Circo Teatro Saltimbanco\, com palhaços
+ \, desencontros e improviso na tradição do circo brasileiro.\n\nR$ 15 
+ a R$ 30 · 14 anos\n\nATENÇÃO: informação a confirmar na fonte.\n\nF
+ onte: https://cultura.prefeitura.rio/agendacultural/\nLargo — agenda c
+ ultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Teatro\,Infantil
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-005-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261119T230000Z
+DTEND:20261120T010000Z
+SUMMARY:WD – Eclipse Tour
+LOCATION:Teatro Municipal Domingos Oliveira (Planetário)\, Rua Padre Leo
+ nel Franca\, 240 – Gávea
+DESCRIPTION:Show que mistura canto\, dança e imagens inspiradas no sol\,
+  na lua e no eclipse.\n\nR$ 30 a R$ 60 · Livre\n\nFonte: https://cultur
+ a.prefeitura.rio/agendacultural/\nLargo — agenda cultural aberta do Ri
+ o
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-006-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T220000Z
+DTEND:20261116T000000Z
+SUMMARY:Superiores
+LOCATION:Teatro Municipal Domingos Oliveira (Planetário)\, Rua Padre Leo
+ nel Franca\, 240 – Gávea
+DESCRIPTION:Nove atores criam toda a sonoplastia com o corpo e a voz\, nu
+ ma língua inventada\, numa fábula sobre poder e opressão.\n\nR$ 30 a 
+ R$ 60 · Livre\n\nFonte: https://cultura.prefeitura.rio/agendacultural/\
+ nLargo — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-006-1@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261120T230000Z
+DTEND:20261121T010000Z
+SUMMARY:Superiores
+LOCATION:Teatro Municipal Domingos Oliveira (Planetário)\, Rua Padre Leo
+ nel Franca\, 240 – Gávea
+DESCRIPTION:Nove atores criam toda a sonoplastia com o corpo e a voz\, nu
+ ma língua inventada\, numa fábula sobre poder e opressão.\n\nR$ 30 a 
+ R$ 60 · Livre\n\nFonte: https://cultura.prefeitura.rio/agendacultural/\
+ nLargo — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-006-2@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261121T230000Z
+DTEND:20261122T010000Z
+SUMMARY:Superiores
+LOCATION:Teatro Municipal Domingos Oliveira (Planetário)\, Rua Padre Leo
+ nel Franca\, 240 – Gávea
+DESCRIPTION:Nove atores criam toda a sonoplastia com o corpo e a voz\, nu
+ ma língua inventada\, numa fábula sobre poder e opressão.\n\nR$ 30 a 
+ R$ 60 · Livre\n\nFonte: https://cultura.prefeitura.rio/agendacultural/\
+ nLargo — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-006-3@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261122T220000Z
+DTEND:20261123T000000Z
+SUMMARY:Superiores
+LOCATION:Teatro Municipal Domingos Oliveira (Planetário)\, Rua Padre Leo
+ nel Franca\, 240 – Gávea
+DESCRIPTION:Nove atores criam toda a sonoplastia com o corpo e a voz\, nu
+ ma língua inventada\, numa fábula sobre poder e opressão.\n\nR$ 30 a 
+ R$ 60 · Livre\n\nFonte: https://cultura.prefeitura.rio/agendacultural/\
+ nLargo — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-007-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T180000Z
+DTEND:20261115T200000Z
+SUMMARY:O Salto – 20 Anos
+LOCATION:Teatro de Fantoches e Marionetes Carlos Werneck de Carvalho\, At
+ erro do Flamengo\, altura do Posto 3 – Flamengo
+DESCRIPTION:O palhaço Migué Bruguelo promete três saltos de olhos vend
+ ados — e até lá tudo pode acontecer.\n\nGrátis · Livre\n\nFonte: h
+ ttps://cultura.prefeitura.rio/agendacultural/\nLargo — agenda cultural
+  aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Infantil\,Teatro
+END:VEVENT
+END:VCALENDAR

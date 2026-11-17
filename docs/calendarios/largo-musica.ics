@@ -1,0 +1,326 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Largo//Agenda cultural do Rio de Janeiro//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Largo · Música
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:2026-11-15-005-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261119T230000Z
+DTEND:20261120T010000Z
+SUMMARY:WD – Eclipse Tour
+LOCATION:Teatro Municipal Domingos Oliveira (Planetário)\, Rua Padre Leo
+ nel Franca\, 240 – Gávea
+DESCRIPTION:Show que mistura canto\, dança e imagens inspiradas no sol\,
+  na lua e no eclipse.\n\nR$ 30 a R$ 60 · Livre\n\nFonte: https://cultur
+ a.prefeitura.rio/agendacultural/\nLargo — agenda cultural aberta do Ri
+ o
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-012-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T200000Z
+DTEND:20261115T220000Z
+SUMMARY:Moraes Musical Moreira
+LOCATION:Teatro Municipal Carlos Gomes\, Praça Tiradentes\, s/nº – Ce
+ ntro
+DESCRIPTION:Musical inspirado no cordel que percorre a vida e a obra de M
+ oraes Moreira.\n\nR$ 40 a R$ 80 · 12 anos\n\nFonte: https://cultura.pre
+ feitura.rio/agendacultural/\nLargo — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Música\,Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-014-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T200000Z
+DTEND:20261115T220000Z
+SUMMARY:Cia Banto – 20 Anos em Movimento
+LOCATION:Teatro Municipal Ruth de Souza\, Rua Murtinho Nobre\, 169 – Sa
+ nta Teresa
+DESCRIPTION:Primeiro grupo de jongo da Zona Oeste celebra 20 anos com jon
+ go\, samba de roda e ijexá.\n\nGrátis (retirada no dia\, na bilheteria
+ ) · Livre\n\nFonte: https://cultura.prefeitura.rio/agendacultural/\nLar
+ go — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Música\,Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-019-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T150000Z
+DTEND:20261115T170000Z
+SUMMARY:Pagode da Gigi
+LOCATION:Muhcab – Museu da História e da Cultura Afro-Brasileira\, Rua
+  Pedro Ernesto\, 80 – Gamboa
+DESCRIPTION:Tradicional roda de samba que celebra a cultura negra e os la
+ ços comunitários.\n\nR$ 15 a R$ 25 · Livre\n\nFonte: https://cultura.
+ prefeitura.rio/agendacultural/\nLargo — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-027-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T180000Z
+DTEND:20261115T200000Z
+SUMMARY:Dominguinho – João Gomes\, Jota.pê e Mestrinho
+LOCATION:Cidade das Artes\, Av. das Américas\, 5.300 – Barra da Tijuca
+DESCRIPTION:Segunda etapa da turnê que reúne os três artistas numa gra
+ nde roda de forró.\n\nR$ 180 a R$ 360 · 18 anos\n\nFonte: https://cult
+ ura.prefeitura.rio/agendacultural/\nLargo — agenda cultural aberta do 
+ Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-028-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T190000Z
+DTEND:20261115T210000Z
+SUMMARY:Canta o Brasil | Corais
+LOCATION:Cidade das Artes\, Av. das Américas\, 5.300 – Barra da Tijuca
+DESCRIPTION:Todos os corais do projeto do maestro Luiz Lima reunidos numa
+  só apresentação.\n\nR$ 40 a R$ 80 · Livre\n\nFonte: https://cultura
+ .prefeitura.rio/agendacultural/\nLargo — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-032-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T170000Z
+DTEND:20261115T190000Z
+SUMMARY:Consciência – Baile o Charme
+LOCATION:Areninha Cultural Jacob do Bandolim\, Praça do Barro Vermelho (
+ Praça Geraldo Simonard)\, s/nº – Pechincha
+DESCRIPTION:Baile charme em celebração à cultura negra\, com música\,
+  dança e elegância.\n\nR$ 10 · Livre\n\nFonte: https://cultura.prefei
+ tura.rio/agendacultural/\nLargo — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-037-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T190000Z
+DTEND:20261115T210000Z
+SUMMARY:SuperAções
+LOCATION:Teatro Municipal de Guignol da Tijuca\, Praça Comandante Xavier
+  de Brito\, s/nº – Tijuca
+DESCRIPTION:Monólogo circense-musical: um homem-banda toca até 11 instr
+ umentos ao mesmo tempo e se equilibra em pernas de pau.\n\nGrátis · Li
+ vre\n\nFonte: https://cultura.prefeitura.rio/agendacultural/\nLargo — 
+ agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Infantil\,Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-038-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T140000Z
+DTEND:20261115T160000Z
+SUMMARY:Grupo Lekê: Música\, Arte e Ancestralidade
+LOCATION:Centro da Música Carioca Artur da Távola\, Rua Conde de Bonfim
+ \, 824 – Tijuca
+DESCRIPTION:Músicos negros aproximam a música de concerto da música af
+ ro-brasileira\, de pontos de terreiro a arranjos orquestrais.\n\nR$ 15 a
+  R$ 30 · Livre\n\nFonte: https://cultura.prefeitura.rio/agendacultural/
+ \nLargo — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-040-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261118T220000Z
+DTEND:20261119T000000Z
+SUMMARY:Julio! em O Canto que a História Não Conta
+LOCATION:Centro da Música Carioca Artur da Távola\, Rua Conde de Bonfim
+ \, 824 – Tijuca
+DESCRIPTION:Show acústico do cantor e professor de História sobre os gr
+ andes intérpretes e compositores negros do samba.\n\nR$ 30 a R$ 60 · L
+ ivre\n\nFonte: https://cultura.prefeitura.rio/agendacultural/\nLargo —
+  agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-046-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T200000Z
+DTEND:20261115T220000Z
+SUMMARY:Em Gira: Ela Encruzilhada
+LOCATION:Areninha Cultural Terra\, Rua Marcos de Macedo\, s/nº – Guada
+ lupe
+DESCRIPTION:A passista Iara Cassano percorre as encruzilhadas do samba\, 
+ do quintal da avó à avenida.\n\nGrátis · Livre\n\nFonte: https://cul
+ tura.prefeitura.rio/agendacultural/\nLargo — agenda cultural aberta do
+  Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Teatro\,Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-047-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T210000Z
+DTEND:20261115T230000Z
+SUMMARY:Roda de Samba Democráticos de Guadalupe
+LOCATION:Areninha Cultural Terra\, Rua Marcos de Macedo\, s/nº – Guada
+ lupe
+DESCRIPTION:Grupo tradicional do bairro\, ligado ao Trem do Samba\, com a
+  raiz do samba de quintal suburbano.\n\nGrátis · Livre\n\nFonte: https
+ ://cultura.prefeitura.rio/agendacultural/\nLargo — agenda cultural abe
+ rta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-051-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T150000Z
+DTEND:20261115T170000Z
+SUMMARY:Acorda & Samba convida João Martins
+LOCATION:Areninha Cultural Hermeto Pascoal\, Praça Primeiro de Maio\, s/
+ nº – Bangu
+DESCRIPTION:Roda de samba com convidado\, feira de artesãos locais e roc
+ k no encerramento.\n\nGrátis · 14 anos\n\nFonte: https://cultura.prefe
+ itura.rio/agendacultural/\nLargo — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-060-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261118T153000Z
+DTEND:20261118T173000Z
+SUMMARY:Música no Museu
+LOCATION:Centro Cultural Banco do Brasil (CCBB)\, Rua Primeiro de Março\
+ , 66 – Centro
+DESCRIPTION:Concertos gratuitos ao meio-dia\; em novembro\, com o RioWind
+ s Festival e o RioHarp Festival.\n\nGrátis · Livre\n\nFonte: https://c
+ cbb.com.br/rio-de-janeiro/programacao/musica-no-museu-2/\nLargo — agen
+ da cultural aberta do Rio
+URL:https://ccbb.com.br/rio-de-janeiro/programacao/musica-no-museu-2/
+CATEGORIES:Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-060-1@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261125T153000Z
+DTEND:20261125T173000Z
+SUMMARY:Música no Museu
+LOCATION:Centro Cultural Banco do Brasil (CCBB)\, Rua Primeiro de Março\
+ , 66 – Centro
+DESCRIPTION:Concertos gratuitos ao meio-dia\; em novembro\, com o RioWind
+ s Festival e o RioHarp Festival.\n\nGrátis · Livre\n\nFonte: https://c
+ cbb.com.br/rio-de-janeiro/programacao/musica-no-museu-2/\nLargo — agen
+ da cultural aberta do Rio
+URL:https://ccbb.com.br/rio-de-janeiro/programacao/musica-no-museu-2/
+CATEGORIES:Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-065-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261121T200000Z
+DTEND:20261121T220000Z
+SUMMARY:Samba do Sacramento
+LOCATION:Centro Cultural Banco do Brasil (CCBB)\, Rua Primeiro de Março\
+ , 66 – Centro
+DESCRIPTION:A roda comandada por Marcos Sacramento volta ao CCBB\, com Ri
+ ta Benneditto\, Nilze Carvalho\, Nina Rosa e DJs.\n\nGrátis · Livre\n\
+ nFonte: https://ccbb.com.br/rio-de-janeiro/programacao/samba-do-sacramen
+ to/\nLargo — agenda cultural aberta do Rio
+URL:https://ccbb.com.br/rio-de-janeiro/programacao/samba-do-sacramento/
+CATEGORIES:Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-067-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261119T230000Z
+DTEND:20261120T010000Z
+SUMMARY:Festival Abraço Negro – Ilê Aiyê convida Surdo Um da Manguei
+ ra
+LOCATION:Circo Voador\, Rua dos Arcos\, s/nº – Lapa
+DESCRIPTION:Na véspera do feriado da Consciência Negra\, o bloco baiano
+  Ilê Aiyê recebe o Surdo Um da Mangueira\; abertura com Kazen Sorriso 
+ e convidados.\n\nPreço não informado\n\nFonte: https://www.circovoador
+ .com.br/\nLargo — agenda cultural aberta do Rio
+URL:https://www.circovoador.com.br/
+CATEGORIES:Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-068-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261120T230000Z
+DTEND:20261121T010000Z
+SUMMARY:Ajulliacosta – turnê Novo Testamento
+LOCATION:Circo Voador\, Rua dos Arcos\, s/nº – Lapa
+DESCRIPTION:A turnê do álbum Novo Testamento ganha data extra no Circo 
+ Voador.\n\nPreço não informado\n\nFonte: https://www.circovoador.com.b
+ r/\nLargo — agenda cultural aberta do Rio
+URL:https://www.circovoador.com.br/
+CATEGORIES:Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-069-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261122T000000Z
+DTEND:20261122T020000Z
+SUMMARY:Rockeria 14 anos
+LOCATION:Circo Voador\, Rua dos Arcos\, s/nº – Lapa
+DESCRIPTION:A festa de rock celebra 14 anos com show da Vaa Surf Band e D
+ Js convidados.\n\nPreço não informado\n\nFonte: https://www.circovoado
+ r.com.br/\nLargo — agenda cultural aberta do Rio
+URL:https://www.circovoador.com.br/
+CATEGORIES:Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-071-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261117T220000Z
+DTEND:20261118T000000Z
+SUMMARY:Gean Pankararu
+LOCATION:Sesc Tijuca\, Rua Barão de Mesquita\, 539 – Tijuca
+DESCRIPTION:Músico do povo Pankararu (PE)\, indicado ao Indigenous Music
+  Awards\, une tradição indígena e música contemporânea do Nordeste.
+ \n\nGrátis · Livre\n\nFonte: https://cultura.sescrio.org.br/programaca
+ o/gean-pankararu\nLargo — agenda cultural aberta do Rio
+URL:https://cultura.sescrio.org.br/programacao/gean-pankararu
+CATEGORIES:Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-072-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261120T170000Z
+DTEND:20261120T190000Z
+SUMMARY:Terreiro de Mangueira – Cordel Negro
+LOCATION:Sesc Tijuca\, Rua Barão de Mesquita\, 539 – Tijuca
+DESCRIPTION:O grupo Cordel Negro mistura ritmos afro-indígenas com samba
+ \, choro\, forró e carimbó.\n\nGrátis · Livre\n\nFonte: https://cult
+ ura.sescrio.org.br/programacao/terreiro-de-mangueira\nLargo — agenda c
+ ultural aberta do Rio
+URL:https://cultura.sescrio.org.br/programacao/terreiro-de-mangueira
+CATEGORIES:Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-073-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261122T180000Z
+DTEND:20261122T200000Z
+SUMMARY:Rio Maracatu
+LOCATION:Sesc Tijuca\, Rua Barão de Mesquita\, 539 – Tijuca
+DESCRIPTION:Há 28 anos nas ruas do Centro\, o grupo apresenta toadas das
+  nações de maracatu de baque virado\, ciranda e coco.\n\nGrátis · Li
+ vre\n\nFonte: https://cultura.sescrio.org.br/programacao/rio-maracatu\nL
+ argo — agenda cultural aberta do Rio
+URL:https://cultura.sescrio.org.br/programacao/rio-maracatu
+CATEGORIES:Música
+END:VEVENT
+END:VCALENDAR

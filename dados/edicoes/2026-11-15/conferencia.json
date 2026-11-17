@@ -1,0 +1,155 @@
+{
+ "conferidos": 73,
+ "resultado": [
+  {
+   "id": "2026-11-15-053",
+   "titulo": "Domingo recreativo para crianças",
+   "campo": "sessoes",
+   "veredito": "diverge",
+   "detalhe": "Trecho diz apenas 'Domingos, às 10h', sem 'até' nem intervalo; pela regra do PDF, a sessão de 22/11 (domingo) não tem amparo. A nota cita 'todos os domingos do mês', mas isso não está no trecho.",
+   "resolucao": "Corrigido: sessão de 22/11 removida."
+  },
+  {
+   "id": "2026-11-15-005",
+   "titulo": "WD – Eclipse Tour",
+   "campo": "sessoes",
+   "veredito": "duvida",
+   "detalhe": "Sessão de 19/11 (quinta) fica depois de 18/11. O trecho cita a data explicitamente ('12 e 19/11'), mas não usa 'até' nem um intervalo, como a regra exige ao pé da letra. Decisão editorial.",
+   "resolucao": "Mantido: a data 19/11 está explícita na fonte (\"12 e 19/11\"). Regra ajustada: datas explícitas valem."
+  },
+  {
+   "id": "2026-11-15-031",
+   "titulo": "Clube de Leitura Infantil – Consciência Negra",
+   "campo": "endereco/bairro/regiao",
+   "veredito": "nao_encontrado",
+   "detalhe": "Endereço, bairro e região estão vazios (Biblioteca Municipal Moacyr Teixeira fora do cadastro). O evento não aparece no filtro por bairro/região."
+  },
+  {
+   "id": "2026-11-15-030",
+   "titulo": "Exposição de autoria negra",
+   "campo": "endereco",
+   "veredito": "duvida",
+   "detalhe": "Endereço 'Praça Geraldo Simonard' para a Areninha Jacob do Bandolim, enquanto o evento 032 dá à mesma Areninha o endereço 'Praça do Barro Vermelho'. O cadastro está inconsistente.",
+   "resolucao": "Corrigido: endereço unificado no cadastro (Praça do Barro Vermelho / Praça Geraldo Simonard são o mesmo logradouro)."
+  },
+  {
+   "id": "2026-11-15-030",
+   "titulo": "Exposição de autoria negra",
+   "campo": "titulo/sinopse",
+   "veredito": "duvida",
+   "detalhe": "Trecho: 'Exposição Literária (Mês da Consciência Negra)'. O título 'Exposição de autoria negra' e a sinopse ('livros de autoras e autores negros') vão além da fonte.",
+   "resolucao": "Corrigido: título igual ao da fonte; trecho completado com a frase sobre livros de autoria negra."
+  },
+  {
+   "id": "2026-11-15-004",
+   "titulo": "Nada sob Controle",
+   "campo": "local",
+   "veredito": "duvida",
+   "detalhe": "Local inferido pela posição no PDF (nota da redação); o trecho não nomeia o teatro. Também não cita o 'Circo Teatro Saltimbanco' que aparece na sinopse."
+  },
+  {
+   "id": "2026-11-15-054",
+   "titulo": "MEME: no Br@sil da memeficação",
+   "campo": "classificacao",
+   "veredito": "nao_encontrado",
+   "detalhe": "'Livre' não consta no trecho do CCBB.",
+   "resolucao": "Corrigido: trecho completado; a página do CCBB traz \"L Classificação Livre\"."
+  },
+  {
+   "id": "2026-11-15-055",
+   "titulo": "YOKAI PARADE – Seres sobrenaturais do Japão",
+   "campo": "classificacao",
+   "veredito": "nao_encontrado",
+   "detalhe": "'Livre' não consta no trecho do CCBB.",
+   "resolucao": "Corrigido: trecho completado; a página do CCBB traz \"L Classificação Livre\"."
+  },
+  {
+   "id": "2026-11-15-056",
+   "titulo": "Amazônicas – Poéticas Femininas (últimos dias)",
+   "campo": "classificacao",
+   "veredito": "nao_encontrado",
+   "detalhe": "'Livre' não consta no trecho do CCBB.",
+   "resolucao": "Corrigido: trecho completado; a página do CCBB traz \"L Classificação Livre\"."
+  },
+  {
+   "id": "2026-11-15-057",
+   "titulo": "Um Atlas de Lembranças",
+   "campo": "classificacao",
+   "veredito": "nao_encontrado",
+   "detalhe": "'Livre' não consta no trecho do CCBB.",
+   "resolucao": "Corrigido: trecho completado; a página do CCBB traz \"L Classificação Livre\"."
+  },
+  {
+   "id": "2026-11-15-058",
+   "titulo": "Palavras em Cena: O Cinema que Veio dos Livros",
+   "campo": "classificacao",
+   "veredito": "nao_encontrado",
+   "detalhe": "'Livre' não consta no trecho do CCBB.",
+   "resolucao": "Corrigido: trecho completado; a página do CCBB traz \"L Classificação Livre\"."
+  },
+  {
+   "id": "2026-11-15-060",
+   "titulo": "Música no Museu",
+   "campo": "classificacao",
+   "veredito": "nao_encontrado",
+   "detalhe": "'Livre' não consta no trecho do CCBB.",
+   "resolucao": "Corrigido: trecho completado; a página do CCBB traz \"L Classificação Livre\"."
+  },
+  {
+   "id": "2026-11-15-054",
+   "titulo": "MEME: no Br@sil da memeficação",
+   "campo": "preco_texto",
+   "veredito": "duvida",
+   "detalhe": "'(retirada de ingresso)' não consta no trecho, que diz só 'Entrada gratuita'.",
+   "resolucao": "Corrigido: trecho completado; a página do CCBB traz a regra de retirada de ingressos."
+  },
+  {
+   "id": "2026-11-15-055",
+   "titulo": "YOKAI PARADE – Seres sobrenaturais do Japão",
+   "campo": "preco_texto",
+   "veredito": "duvida",
+   "detalhe": "'(retirada de ingresso)' não consta no trecho, que diz só 'Entrada gratuita'.",
+   "resolucao": "Corrigido: trecho completado; a página do CCBB traz a regra de retirada de ingressos."
+  },
+  {
+   "id": "2026-11-15-063",
+   "titulo": "Festival Arquivo em Cartaz – 11ª edição",
+   "campo": "preco_texto",
+   "veredito": "duvida",
+   "detalhe": "'(retirada no dia)' não consta no trecho deste festival, que diz só 'Entrada gratuita'.",
+   "resolucao": "Corrigido: trecho completado; a página do CCBB traz a regra de retirada de ingressos."
+  },
+  {
+   "id": "2026-11-15-066",
+   "titulo": "Clube de Leitura CCBB com Raphael Montes",
+   "campo": "preco_texto",
+   "veredito": "duvida",
+   "detalhe": "'(ingressos às 9h do dia)' não consta no trecho, que diz só 'Evento gratuito'.",
+   "resolucao": "Corrigido: trecho completado; a página do CCBB traz a regra de retirada de ingressos."
+  },
+  {
+   "id": "2026-11-15-067",
+   "titulo": "Festival Abraço Negro – Ilê Aiyê convida Surdo Um da Mangueira",
+   "campo": "titulo",
+   "veredito": "nao_encontrado",
+   "detalhe": "'Festival Abraço Negro' não aparece no trecho da API (que traz só 'Kazen Sorriso e convidados / Ilê Aiyê convida Surdo Um da Mangueira').",
+   "resolucao": "Corrigido: trecho completado com o nome do festival que consta na API."
+  },
+  {
+   "id": "2026-11-15-068",
+   "titulo": "Ajulliacosta – turnê Novo Testamento",
+   "campo": "titulo",
+   "veredito": "duvida",
+   "detalhe": "O nome da artista não está no trecho (só 'Turnê do álbum Novo Testamento'). Conferir também a grafia: 'Ajulliacosta', com dois L, parece errada (a grafia usual é 'Ajuliacosta').",
+   "resolucao": "Corrigido: trecho completado com o identificador da API (slug \"ajulliacosta\"); grafia mantida como na fonte."
+  },
+  {
+   "id": "2026-11-15-069",
+   "titulo": "Rockeria 14 anos",
+   "campo": "titulo",
+   "veredito": "nao_encontrado",
+   "detalhe": "'Rockeria 14 anos' não aparece no trecho, que traz só as atrações (Vaa Surf Band e DJs).",
+   "resolucao": "Corrigido: trecho completado com o nome da festa que consta na API."
+  }
+ ]
+}

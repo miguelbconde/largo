@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Largo//Agenda cultural do Rio de Janeiro//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Largo · Na rua
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:2026-11-15-007-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T180000Z
+DTEND:20261115T200000Z
+SUMMARY:O Salto – 20 Anos
+LOCATION:Teatro de Fantoches e Marionetes Carlos Werneck de Carvalho\, At
+ erro do Flamengo\, altura do Posto 3 – Flamengo
+DESCRIPTION:O palhaço Migué Bruguelo promete três saltos de olhos vend
+ ados — e até lá tudo pode acontecer.\n\nGrátis · Livre\n\nFonte: h
+ ttps://cultura.prefeitura.rio/agendacultural/\nLargo — agenda cultural
+  aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Infantil\,Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-037-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T190000Z
+DTEND:20261115T210000Z
+SUMMARY:SuperAções
+LOCATION:Teatro Municipal de Guignol da Tijuca\, Praça Comandante Xavier
+  de Brito\, s/nº – Tijuca
+DESCRIPTION:Monólogo circense-musical: um homem-banda toca até 11 instr
+ umentos ao mesmo tempo e se equilibra em pernas de pau.\n\nGrátis · Li
+ vre\n\nFonte: https://cultura.prefeitura.rio/agendacultural/\nLargo — 
+ agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Infantil\,Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-065-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261121T200000Z
+DTEND:20261121T220000Z
+SUMMARY:Samba do Sacramento
+LOCATION:Centro Cultural Banco do Brasil (CCBB)\, Rua Primeiro de Março\
+ , 66 – Centro
+DESCRIPTION:A roda comandada por Marcos Sacramento volta ao CCBB\, com Ri
+ ta Benneditto\, Nilze Carvalho\, Nina Rosa e DJs.\n\nGrátis · Livre\n\
+ nFonte: https://ccbb.com.br/rio-de-janeiro/programacao/samba-do-sacramen
+ to/\nLargo — agenda cultural aberta do Rio
+URL:https://ccbb.com.br/rio-de-janeiro/programacao/samba-do-sacramento/
+CATEGORIES:Música
+END:VEVENT
+END:VCALENDAR

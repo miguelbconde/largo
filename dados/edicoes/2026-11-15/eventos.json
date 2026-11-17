@@ -1,0 +1,2372 @@
+{
+ "edicao": {
+  "id": "2026-11-15",
+  "inicio": "2026-11-15",
+  "fim": "2026-11-25",
+  "titulo": "Edição de teste · 15 a 25 de novembro de 2026"
+ },
+ "eventos": [
+  {
+   "titulo": "Equina",
+   "areas": [
+    "Teatro"
+   ],
+   "tipo": "evento",
+   "local": "Espaço Cultural Sérgio Porto",
+   "endereco": "Rua Visconde de Silva, ao lado do nº 292",
+   "bairro": "Humaitá",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-15",
+     "hora": "18:00"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "19:00"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "18:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 30 a R$ 60",
+   "preco_min": 30,
+   "preco_max": 60,
+   "gratis": false,
+   "classificacao": "18 anos",
+   "acessibilidade": "Sala Preta, 2º andar, acesso apenas por escadas",
+   "na_rua": false,
+   "sinopse": "Espetáculo de dança de Aline Bernardi e Dani Lima sobre os laços de cuidado entre humanos e cavalos, a partir da pesquisa de doutorado de Aline.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Espetáculo \"Equina\" sábados 19h e domingos 18h. Até 29/11. R$ 30 a R$ 60. 18 anos.",
+   "nota_redacao": "",
+   "id": "2026-11-15-001"
+  },
+  {
+   "titulo": "O Extermínio da Cegonha",
+   "areas": [
+    "Teatro"
+   ],
+   "tipo": "evento",
+   "local": "Espaço Cultural Sérgio Porto",
+   "endereco": "Rua Visconde de Silva, ao lado do nº 292",
+   "bairro": "Humaitá",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-15",
+     "hora": "19:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 30 a R$ 60",
+   "preco_min": 30,
+   "preco_max": 60,
+   "gratis": false,
+   "classificacao": "14 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Um feriado de Finados em família vira acerto de contas quando um amigo de infância reaparece; a tecnologia funciona como gatilho trágico.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Sexta-feiras e sábados, às 20h, e domingo, às 19h. Até 15/11. R$ 30 a R$ 60. 14 anos.",
+   "nota_redacao": "",
+   "id": "2026-11-15-002"
+  },
+  {
+   "titulo": "O Último Dia da Minha Vida",
+   "areas": [
+    "Teatro"
+   ],
+   "tipo": "evento",
+   "local": "Teatro Municipal Café Pequeno",
+   "endereco": "Av. Ataulfo de Paiva, 269",
+   "bairro": "Leblon",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-17",
+     "hora": "20:00"
+    },
+    {
+     "data": "2026-11-18",
+     "hora": "20:00"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "20:00"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "20:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 10 a R$ 20",
+   "preco_min": 10,
+   "preco_max": 20,
+   "gratis": false,
+   "classificacao": "14 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Numa noite decisiva, um homem abre o baú de memórias que tentou esquecer. Drama com humor ácido.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Terças e quartas-feiras, às 20h. De 17 a 25/11, R$ 10 a R$20. 14 anos.",
+   "nota_redacao": "",
+   "id": "2026-11-15-003"
+  },
+  {
+   "titulo": "Nada sob Controle",
+   "areas": [
+    "Teatro",
+    "Infantil"
+   ],
+   "tipo": "evento",
+   "local": "Teatro Municipal Café Pequeno",
+   "endereco": "Av. Ataulfo de Paiva, 269",
+   "bairro": "Leblon",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-15",
+     "hora": "19:00"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "20:00"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "20:00"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "19:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 15 a R$ 30",
+   "preco_min": 15,
+   "preco_max": 30,
+   "gratis": false,
+   "classificacao": "14 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Comédia circense do Circo Teatro Saltimbanco, com palhaços, desencontros e improviso na tradição do circo brasileiro.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "\"Nada sob Controle\" 13 a 22 de novembro Sextas e Sábados às 20h e Domingos às 19h R$ 15 | R$ 30. 14 anos. Nada Sob Controle é um espetáculo de comédia circense do Circo Teatro Saltimbanco",
+   "nota_redacao": "Local inferido pela posição no PDF (bloco do Teatro Café Pequeno).",
+   "id": "2026-11-15-004"
+  },
+  {
+   "titulo": "WD – Eclipse Tour",
+   "areas": [
+    "Música"
+   ],
+   "tipo": "evento",
+   "local": "Teatro Municipal Domingos Oliveira (Planetário)",
+   "endereco": "Rua Padre Leonel Franca, 240",
+   "bairro": "Gávea",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-19",
+     "hora": "20:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 30 a R$ 60",
+   "preco_min": 30,
+   "preco_max": 60,
+   "gratis": false,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Show que mistura canto, dança e imagens inspiradas no sol, na lua e no eclipse.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Show\"WD - Eclipse Tour\" Quintas-feiras, (12 e 19/11), às 20h. R$ 60 a R$ 30. Livre",
+   "nota_redacao": "",
+   "id": "2026-11-15-005"
+  },
+  {
+   "titulo": "Superiores",
+   "areas": [
+    "Teatro"
+   ],
+   "tipo": "evento",
+   "local": "Teatro Municipal Domingos Oliveira (Planetário)",
+   "endereco": "Rua Padre Leonel Franca, 240",
+   "bairro": "Gávea",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-15",
+     "hora": "19:00"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "20:00"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "20:00"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "19:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 30 a R$ 60",
+   "preco_min": 30,
+   "preco_max": 60,
+   "gratis": false,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Nove atores criam toda a sonoplastia com o corpo e a voz, numa língua inventada, numa fábula sobre poder e opressão.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Espetáculo \"Superiores\" Sextas e sábados, 20h, domingos, 19h. Até 29/11. R$ 30 a R$ 60. Livre.",
+   "nota_redacao": "",
+   "id": "2026-11-15-006"
+  },
+  {
+   "titulo": "O Salto – 20 Anos",
+   "areas": [
+    "Infantil",
+    "Teatro"
+   ],
+   "tipo": "evento",
+   "local": "Teatro de Fantoches e Marionetes Carlos Werneck de Carvalho",
+   "endereco": "Aterro do Flamengo, altura do Posto 3",
+   "bairro": "Flamengo",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-15",
+     "hora": "15:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "Grátis",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": true,
+   "sinopse": "O palhaço Migué Bruguelo promete três saltos de olhos vendados — e até lá tudo pode acontecer.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Espetáculo \"O Salto – 20 Anos\" Domingo (15/11), às 15h. Grátis. Livre.",
+   "nota_redacao": "",
+   "id": "2026-11-15-007"
+  },
+  {
+   "titulo": "Exposição principal do Museu Histórico da Cidade",
+   "areas": [
+    "Artes Visuais"
+   ],
+   "tipo": "cartaz",
+   "local": "Museu Histórico da Cidade",
+   "endereco": "Estrada Santa Marinha, s/nº",
+   "bairro": "Gávea",
+   "regiao": "Zona Sul",
+   "sessoes": [],
+   "cartaz": {
+    "inicio": null,
+    "fim": null,
+    "horario": "Terça a domingo, 9h–16h"
+   },
+   "preco_texto": "Grátis",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Acervo permanente sobre a história do Rio, na antiga chácara da Gávea.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Exposição Principal do Museu Histórico da Cidade Terça-feira a domingo, das 9h às 16h. Grátis. Livre.",
+   "nota_redacao": "",
+   "id": "2026-11-15-008"
+  },
+  {
+   "titulo": "Pai – Pretos no Branco, de Diogo Brozoski",
+   "areas": [
+    "Artes Visuais"
+   ],
+   "tipo": "cartaz",
+   "local": "Memorial Getúlio Vargas",
+   "endereco": "Praça Luís de Camões, s/nº",
+   "bairro": "Glória",
+   "regiao": "Zona Sul",
+   "sessoes": [],
+   "cartaz": {
+    "inicio": null,
+    "fim": "2026-12-06",
+    "horario": "Quarta a domingo, 10h–17h"
+   },
+   "preco_texto": "Grátis",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Ilustrações e pinturas em que o artista, pai branco de duas crianças negras, reflete sobre paternidade e questões afrodiaspóricas.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "\"Pai – Pretos no Branco\", de Diogo Brozoski Quarta-feira a domingo, das 10h às 17h. Até 06/12 . Grátis. Livre",
+   "nota_redacao": "",
+   "id": "2026-11-15-009"
+  },
+  {
+   "titulo": "CORPO: onde a memória e os processos se inscrevem",
+   "areas": [
+    "Artes Visuais"
+   ],
+   "tipo": "cartaz",
+   "local": "Memorial Getúlio Vargas",
+   "endereco": "Praça Luís de Camões, s/nº",
+   "bairro": "Glória",
+   "regiao": "Zona Sul",
+   "sessoes": [],
+   "cartaz": {
+    "inicio": null,
+    "fim": "2026-12-06",
+    "horario": "Quarta a domingo, 10h–17h"
+   },
+   "preco_texto": "Grátis",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Coletiva com 67 artistas de várias regiões do país sobre o corpo como arquivo vivo.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Exposição \"CORPO: onde a memória e os processos se inscrevem\" Quarta-feira a domingo, das 10h às 17h. Até 06/12 . Grátis. Livre",
+   "nota_redacao": "",
+   "id": "2026-11-15-010"
+  },
+  {
+   "titulo": "Uma vida à beira-mar sob o olhar do arquiteto, de Gisele Nossar",
+   "areas": [
+    "Artes Visuais"
+   ],
+   "tipo": "cartaz",
+   "local": "Memorial Getúlio Vargas",
+   "endereco": "Praça Luís de Camões, s/nº",
+   "bairro": "Glória",
+   "regiao": "Zona Sul",
+   "sessoes": [],
+   "cartaz": {
+    "inicio": null,
+    "fim": "2026-12-06",
+    "horario": "Quarta a domingo, 10h–17h"
+   },
+   "preco_texto": "Grátis",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Bordados que traduzem em linha as curvas da arquitetura carioca e os croquis de Niemeyer e Le Corbusier.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Exposição \"Uma vida à beira-mar sob o olhar do arquiteto\", de Gisele Nossar Quarta-feira a domingo, das 10h às 17h. Até 06/12 . Grátis. Livre",
+   "nota_redacao": "",
+   "id": "2026-11-15-011"
+  },
+  {
+   "titulo": "Moraes Musical Moreira",
+   "areas": [
+    "Música",
+    "Teatro"
+   ],
+   "tipo": "evento",
+   "local": "Teatro Municipal Carlos Gomes",
+   "endereco": "Praça Tiradentes, s/nº",
+   "bairro": "Centro",
+   "regiao": "Centro",
+   "sessoes": [
+    {
+     "data": "2026-11-15",
+     "hora": "17:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 40 a R$ 80",
+   "preco_min": 40,
+   "preco_max": 80,
+   "gratis": false,
+   "classificacao": "12 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Musical inspirado no cordel que percorre a vida e a obra de Moraes Moreira.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Espetáculo \"Moraes Musical Moreira\" Quintas e sextas-feiras, às 19h, sábados, às 17h e às 20h, e domingos, às 17h. R$ 40 a R$ 80. 12 anos.",
+   "nota_redacao": "Fonte sem data final; incluídas só as sessões até 18/11 (validade do PDF).",
+   "id": "2026-11-15-012"
+  },
+  {
+   "titulo": "Zuzuê Contos Africanos",
+   "areas": [
+    "Infantil",
+    "Teatro"
+   ],
+   "tipo": "evento",
+   "local": "Teatro Municipal Ruth de Souza",
+   "endereco": "Rua Murtinho Nobre, 169",
+   "bairro": "Santa Teresa",
+   "regiao": "Centro",
+   "sessoes": [
+    {
+     "data": "2026-11-15",
+     "hora": "11:00"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "11:00"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "11:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 20 a R$ 40",
+   "preco_min": 20,
+   "preco_max": 40,
+   "gratis": false,
+   "classificacao": "Livre",
+   "acessibilidade": "Libras integrada à cena",
+   "na_rua": false,
+   "sinopse": "Narração de histórias afro-diaspóricas, com Libras integrada à cena. Cerca de 50 minutos.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Espetáculo \"Zuzuê Contos Africanos\" Sábado e domingo, às 11h. Até 29/11. R$ 20 a R$ 40. Livre.",
+   "nota_redacao": "",
+   "id": "2026-11-15-013"
+  },
+  {
+   "titulo": "Cia Banto – 20 Anos em Movimento",
+   "areas": [
+    "Música",
+    "Teatro"
+   ],
+   "tipo": "evento",
+   "local": "Teatro Municipal Ruth de Souza",
+   "endereco": "Rua Murtinho Nobre, 169",
+   "bairro": "Santa Teresa",
+   "regiao": "Centro",
+   "sessoes": [
+    {
+     "data": "2026-11-15",
+     "hora": "17:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "Grátis (retirada no dia, na bilheteria)",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "Livre",
+   "acessibilidade": "Intérprete de Libras",
+   "na_rua": false,
+   "sinopse": "Primeiro grupo de jongo da Zona Oeste celebra 20 anos com jongo, samba de roda e ijexá.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Cia Banto - 20 Anos em Movimento Domingo 15 de novembro às 17h classificação Livre - Acessibilidade - Intérprete de Libras ... Ingressos Gratuitos com retirada no dia na bilheteria do teatro.",
+   "nota_redacao": "",
+   "id": "2026-11-15-014"
+  },
+  {
+   "titulo": "Carnaval: Memória para o Amanhã",
+   "areas": [
+    "Livros & Debates"
+   ],
+   "tipo": "evento",
+   "local": "Museu do Amanhã",
+   "endereco": "Praça Mauá, 1",
+   "bairro": "Centro",
+   "regiao": "Centro",
+   "sessoes": [
+    {
+     "data": "2026-11-16",
+     "hora": "14:30"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "Grátis",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Roda de conversa sobre o carnaval como guardião da memória de povos e territórios pouco representados.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Carnaval: Memória para o Amanhã Segunda-feira (16/11), , às 14h30. Grátis. Livre.",
+   "nota_redacao": "",
+   "id": "2026-11-15-015"
+  },
+  {
+   "titulo": "País Brasa, Planeta Fogo",
+   "areas": [
+    "Artes Visuais"
+   ],
+   "tipo": "cartaz",
+   "local": "Museu do Amanhã",
+   "endereco": "Praça Mauá, 1",
+   "bairro": "Centro",
+   "regiao": "Centro",
+   "sessoes": [],
+   "cartaz": {
+    "inicio": null,
+    "fim": "2027-08-03",
+    "horario": "Quinta a terça, 10h–18h (última entrada 17h)"
+   },
+   "preco_texto": "R$ 20 a R$ 40",
+   "preco_min": 20,
+   "preco_max": 40,
+   "gratis": false,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Exposição imersiva que trata o fogo como tecnologia, linguagem e força política.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Exposição \"País Brasa, Planeta Fogo\" Quinta a terça-feira, das 10h às 18h (última entrada às 17h). Até 03/08/2027. R$ 20 a R$ 40. Livre.",
+   "nota_redacao": "",
+   "id": "2026-11-15-016"
+  },
+  {
+   "titulo": "A Cidade entre o Jardim e a Baía",
+   "areas": [
+    "Artes Visuais"
+   ],
+   "tipo": "cartaz",
+   "local": "Museu do Amanhã",
+   "endereco": "Praça Mauá, 1",
+   "bairro": "Centro",
+   "regiao": "Centro",
+   "sessoes": [],
+   "cartaz": {
+    "inicio": null,
+    "fim": "2027-09-21",
+    "horario": "Quinta a terça, 10h–18h"
+   },
+   "preco_texto": "R$ 20 a R$ 40",
+   "preco_min": 20,
+   "preco_max": 40,
+   "gratis": false,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Instalação ao ar livre sobre a relação do Rio com a natureza, o espaço público e a Baía de Guanabara.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Exposição \"A Cidade entre o Jardim e a Baía\" Quinta a terça-feira, das 10h às 18h (última entrada às 17h). Até 21/09/27. R$ 20 a R$ 40. Livre.",
+   "nota_redacao": "",
+   "id": "2026-11-15-017"
+  },
+  {
+   "titulo": "Lançamento: Vivências Pedagógicas – Terreiros e Escolas na Luta Antirracista",
+   "areas": [
+    "Livros & Debates"
+   ],
+   "tipo": "evento",
+   "local": "Muhcab – Museu da História e da Cultura Afro-Brasileira",
+   "endereco": "Rua Pedro Ernesto, 80",
+   "bairro": "Gamboa",
+   "regiao": "Centro",
+   "sessoes": [
+    {
+     "data": "2026-11-15",
+     "hora": "09:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "Grátis",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Livro organizado por Gisele Rose sobre o encontro entre escola e saberes de terreiro no combate ao racismo.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Lançamento do livro Vivências Pedagógicas: Terreiros e Escolas na Luta Antirracista Domingo (15/11), das 9h às 12h. Grátis. Livre.",
+   "nota_redacao": "",
+   "id": "2026-11-15-018"
+  },
+  {
+   "titulo": "Pagode da Gigi",
+   "areas": [
+    "Música"
+   ],
+   "tipo": "evento",
+   "local": "Muhcab – Museu da História e da Cultura Afro-Brasileira",
+   "endereco": "Rua Pedro Ernesto, 80",
+   "bairro": "Gamboa",
+   "regiao": "Centro",
+   "sessoes": [
+    {
+     "data": "2026-11-15",
+     "hora": "12:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 15 a R$ 25",
+   "preco_min": 15,
+   "preco_max": 25,
+   "gratis": false,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Tradicional roda de samba que celebra a cultura negra e os laços comunitários.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Pagode da Gigi Domingo (15/11), das 12h às 22h. R$ 15 a R$ 25. Livre.",
+   "nota_redacao": "",
+   "id": "2026-11-15-019"
+  },
+  {
+   "titulo": "Protagonismos: Memória, Orgulho e Identidade",
+   "areas": [
+    "Artes Visuais"
+   ],
+   "tipo": "cartaz",
+   "local": "Muhcab – Museu da História e da Cultura Afro-Brasileira",
+   "endereco": "Rua Pedro Ernesto, 80",
+   "bairro": "Gamboa",
+   "regiao": "Centro",
+   "sessoes": [],
+   "cartaz": {
+    "inicio": null,
+    "fim": null,
+    "horario": "Terça a domingo, 10h–17h"
+   },
+   "preco_texto": "Grátis",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Exposição do Muhcab sobre memória e identidade.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Exposição \"Protagonismos: Memória, Orgulho e Identidade\" Terça-feira a domingo, das 10h às 17h. Grátis. Livre.",
+   "nota_redacao": "",
+   "id": "2026-11-15-020"
+  },
+  {
+   "titulo": "Zanele Muholi",
+   "areas": [
+    "Artes Visuais"
+   ],
+   "tipo": "cartaz",
+   "local": "Museu de Arte do Rio (MAR)",
+   "endereco": "Praça Mauá, 5",
+   "bairro": "Centro",
+   "regiao": "Centro",
+   "sessoes": [],
+   "cartaz": {
+    "inicio": null,
+    "fim": "2026-11-29",
+    "horario": "Quinta a terça, 11h–18h · grátis às terças"
+   },
+   "preco_texto": "R$ 10 a R$ 20 (grátis às terças)",
+   "preco_min": 10,
+   "preco_max": 20,
+   "gratis": false,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Fotografias do(a) ativista visual sul-africano(a) que documenta a vida de pessoas negras LGBTI na África do Sul.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Exposição \"Zanele Muholi\" Quinta a terça-feira, das 11h às 18h (última entrada às 17h). Até 29/11. R$ 10 a R$ 20 (terças-feiras são gratuitas). Livre.",
+   "nota_redacao": "",
+   "id": "2026-11-15-021"
+  },
+  {
+   "titulo": "Tião – Um fotógrafo da Providência",
+   "areas": [
+    "Artes Visuais"
+   ],
+   "tipo": "cartaz",
+   "local": "Museu de Arte do Rio (MAR)",
+   "endereco": "Praça Mauá, 5",
+   "bairro": "Centro",
+   "regiao": "Centro",
+   "sessoes": [],
+   "cartaz": {
+    "inicio": null,
+    "fim": "2026-11-29",
+    "horario": "Quinta a terça, 11h–18h · grátis às terças"
+   },
+   "preco_texto": "R$ 10 a R$ 20 (grátis às terças)",
+   "preco_min": 10,
+   "preco_max": 20,
+   "gratis": false,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "O acervo de Sebastião Pires, o Tião, fotógrafo vizinho do museu, morador do Morro da Providência.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Exposição \"Tião-Um fotógrafo da Providência\" Quinta a terça-feira, das 11h às 18h (última entrada às 17h). Até 29/11 R$ 10 a R$ 20 (terças-feiras são gratuitas). Livre.",
+   "nota_redacao": "",
+   "id": "2026-11-15-022"
+  },
+  {
+   "titulo": "Ponto de Leitura: Brasilidades que vêm de Áfricas",
+   "areas": [
+    "Livros & Debates"
+   ],
+   "tipo": "cartaz",
+   "local": "Museu de Arte do Rio (MAR)",
+   "endereco": "Praça Mauá, 5",
+   "bairro": "Centro",
+   "regiao": "Centro",
+   "sessoes": [],
+   "cartaz": {
+    "inicio": null,
+    "fim": "2026-11-30",
+    "horario": "Quinta a terça, 11h–17h"
+   },
+   "preco_texto": "R$ 10 a R$ 20 (grátis às terças)",
+   "preco_min": 10,
+   "preco_max": 20,
+   "gratis": false,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Livros, imagens e sons sobre contribuições africanas à cultura brasileira, do pretuguês de Lélia Gonzalez às cozinhas diaspóricas.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Ponto de Leitura - Brasilidades que vêm de Áfricas Quinta a terça-feira, das 11h às 17h. Até 30/11. R$ 10 a R$ 20 (terças-feiras são gratuitas). Livre.",
+   "nota_redacao": "",
+   "id": "2026-11-15-023"
+  },
+  {
+   "titulo": "Programa Hélio Oiticica",
+   "areas": [
+    "Artes Visuais"
+   ],
+   "tipo": "cartaz",
+   "local": "Centro Municipal de Arte Hélio Oiticica",
+   "endereco": "Rua Luís de Camões, 68",
+   "bairro": "Centro",
+   "regiao": "Centro",
+   "sessoes": [],
+   "cartaz": {
+    "inicio": null,
+    "fim": null,
+    "horario": "Segunda a sábado, 10h–18h"
+   },
+   "preco_texto": "Grátis",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Exposição dedicada à obra de Hélio Oiticica no centro que leva seu nome.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Exposição \"Programa Hélio Oiticica\" Segunda-feira a sábado, das 10h às 18h. Grátis. Livre.",
+   "nota_redacao": "",
+   "id": "2026-11-15-024"
+  },
+  {
+   "titulo": "MULTIARTE 2026",
+   "areas": [
+    "Artes Visuais"
+   ],
+   "tipo": "cartaz",
+   "local": "Centro Municipal de Artes Calouste Gulbenkian",
+   "endereco": "Rua Benedito Hipólito, 125",
+   "bairro": "Praça XI",
+   "regiao": "Centro",
+   "sessoes": [],
+   "cartaz": {
+    "inicio": null,
+    "fim": "2026-12-19",
+    "horario": "Segunda a sábado, 9h–20h45"
+   },
+   "preco_texto": "Grátis",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Mostra anual das oficinas do Coletivo Calouste: pintura, gravura, cerâmica, mosaico, estamparia e mais.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "MULTIARTE 2026 – Exposição Anual das Oficinas do Coletivo Calouste Segunda à sábado, das 09h às 20h45. Até 19/12. Grátis. Livre.",
+   "nota_redacao": "",
+   "id": "2026-11-15-025"
+  },
+  {
+   "titulo": "Maquete da Biblioteca dos Saberes",
+   "areas": [
+    "Artes Visuais"
+   ],
+   "tipo": "cartaz",
+   "local": "Biblioteca Municipal Annita Porto Martins",
+   "endereco": "Rua Sampaio Viana, 357",
+   "bairro": "Rio Comprido",
+   "regiao": "Centro",
+   "sessoes": [],
+   "cartaz": {
+    "inicio": null,
+    "fim": null,
+    "horario": "Segunda a sexta, 9h–17h"
+   },
+   "preco_texto": "Grátis",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Modelo da futura biblioteca projetada por Francis Kéré para a Praça Onze, legado do Rio Capital Mundial do Livro.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Exposição da Maquete da Biblioteca dos Saberes Segunda a sexta-feira, das 9h às 17h. Grátis. Livre.",
+   "nota_redacao": "",
+   "id": "2026-11-15-026"
+  },
+  {
+   "titulo": "Dominguinho – João Gomes, Jota.pê e Mestrinho",
+   "areas": [
+    "Música"
+   ],
+   "tipo": "evento",
+   "local": "Cidade das Artes",
+   "endereco": "Av. das Américas, 5.300",
+   "bairro": "Barra da Tijuca",
+   "regiao": "Zona Sudoeste",
+   "sessoes": [
+    {
+     "data": "2026-11-15",
+     "hora": "15:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 180 a R$ 360",
+   "preco_min": 180,
+   "preco_max": 360,
+   "gratis": false,
+   "classificacao": "18 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Segunda etapa da turnê que reúne os três artistas numa grande roda de forró.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Show \"Turnê Dominguinho com João Gomes, Jota.pê e Mestrinho\" Sábado e domingo, (14 e 15/11), às 15h. R$ 180 a R$ 360. 18 anos.",
+   "nota_redacao": "",
+   "id": "2026-11-15-027"
+  },
+  {
+   "titulo": "Canta o Brasil | Corais",
+   "areas": [
+    "Música"
+   ],
+   "tipo": "evento",
+   "local": "Cidade das Artes",
+   "endereco": "Av. das Américas, 5.300",
+   "bairro": "Barra da Tijuca",
+   "regiao": "Zona Sudoeste",
+   "sessoes": [
+    {
+     "data": "2026-11-15",
+     "hora": "16:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 40 a R$ 80",
+   "preco_min": 40,
+   "preco_max": 80,
+   "gratis": false,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Todos os corais do projeto do maestro Luiz Lima reunidos numa só apresentação.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Concerto \"Canta o Brasil | Corais\" Domingo, (15/11) às 16h. R$ 40 a R$ 80. Livre.",
+   "nota_redacao": "",
+   "id": "2026-11-15-028"
+  },
+  {
+   "titulo": "Maquete de Lego do Rio de Janeiro",
+   "areas": [
+    "Infantil",
+    "Artes Visuais"
+   ],
+   "tipo": "cartaz",
+   "local": "Cidade das Artes",
+   "endereco": "Av. das Américas, 5.300",
+   "bairro": "Barra da Tijuca",
+   "regiao": "Zona Sudoeste",
+   "sessoes": [],
+   "cartaz": {
+    "inicio": null,
+    "fim": null,
+    "horario": "Todos os dias, 10h–18h"
+   },
+   "preco_texto": "Grátis",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "A cidade inteira montada em peças de Lego, em exposição permanente.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Exposição permanente \"Maquete de Lego do Rio de Janeiro\" Domingo a sábado, das 10h às 18h. Grátis. Livre.",
+   "nota_redacao": "",
+   "id": "2026-11-15-029"
+  },
+  {
+   "titulo": "Exposição Literária – Mês da Consciência Negra",
+   "areas": [
+    "Livros & Debates"
+   ],
+   "tipo": "cartaz",
+   "local": "Biblioteca Municipal Milton Santos (Areninha Jacob do Bandolim)",
+   "endereco": "Praça do Barro Vermelho (Praça Geraldo Simonard), s/nº",
+   "bairro": "Pechincha",
+   "regiao": "Zona Sudoeste",
+   "sessoes": [],
+   "cartaz": {
+    "inicio": "2026-11-01",
+    "fim": "2026-11-30",
+    "horario": "A partir das 10h"
+   },
+   "preco_texto": "",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": false,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "No mês da Consciência Negra, a biblioteca expõe livros de autoras e autores negros.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Exposição Literária (Mês da Consciência Negra) 01/11 a 30/11, à partir das 10:00 Classificação livre ... a Biblioteca aproveita o tema e promove uma exposição de livros de autoria negra.",
+   "nota_redacao": "Preço não informado na fonte.",
+   "id": "2026-11-15-030"
+  },
+  {
+   "titulo": "Clube de Leitura Infantil – Consciência Negra",
+   "areas": [
+    "Infantil",
+    "Livros & Debates"
+   ],
+   "tipo": "evento",
+   "local": "Biblioteca Municipal Moacyr Teixeira",
+   "endereco": "",
+   "bairro": "",
+   "regiao": "",
+   "sessoes": [
+    {
+     "data": "2026-11-17",
+     "hora": "15:00"
+    },
+    {
+     "data": "2026-11-18",
+     "hora": "15:00"
+    },
+    {
+     "data": "2026-11-19",
+     "hora": "15:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": false,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Leituras de livros infantis sobre a temática negra.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Clube de Leitura Infantil - mês da Consciência Negra 17/11 a 19/11 - 15:00 Classificação livre",
+   "nota_redacao": "Endereço da biblioteca não consta no PDF; preço não informado.",
+   "id": "2026-11-15-031"
+  },
+  {
+   "titulo": "Consciência – Baile o Charme",
+   "areas": [
+    "Música"
+   ],
+   "tipo": "evento",
+   "local": "Areninha Cultural Jacob do Bandolim",
+   "endereco": "Praça do Barro Vermelho (Praça Geraldo Simonard), s/nº",
+   "bairro": "Pechincha",
+   "regiao": "Zona Sudoeste",
+   "sessoes": [
+    {
+     "data": "2026-11-15",
+     "hora": "14:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 10",
+   "preco_min": 10,
+   "preco_max": 10,
+   "gratis": false,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Baile charme em celebração à cultura negra, com música, dança e elegância.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Consciência – Baile o Charme Domingo (15/11), às 14h. R$ 10. Livre.",
+   "nota_redacao": "",
+   "id": "2026-11-15-032"
+  },
+  {
+   "titulo": "Ecos da Diáspora: Medida Provisória",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Centro Cultural Professora Dyla Sylvia de Sá",
+   "endereco": "Rua Barão, 1.180",
+   "bairro": "Praça Seca",
+   "regiao": "Zona Sudoeste",
+   "sessoes": [
+    {
+     "data": "2026-11-18",
+     "hora": "14:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "Grátis",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "14 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Exibição do filme de Lázaro Ramos no projeto Ecos da Diáspora, com o Cine Praça Seca.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Projeto Ecos da Diáspora, em parceria com o Cine Praça Seca, exibe \"Medida Provisória\" Quarta-feira(18/11), às 14h. Grátis. 14 anos.",
+   "nota_redacao": "",
+   "id": "2026-11-15-033"
+  },
+  {
+   "titulo": "As Irmãs Pereira",
+   "areas": [
+    "Teatro"
+   ],
+   "tipo": "evento",
+   "local": "Teatro Municipal Ziembinski",
+   "endereco": "Rua Heitor Beltrão, s/nº",
+   "bairro": "Tijuca",
+   "regiao": "Zona Norte",
+   "sessoes": [
+    {
+     "data": "2026-11-15",
+     "hora": "19:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 35 a R$ 70",
+   "preco_min": 35,
+   "preco_max": 70,
+   "gratis": false,
+   "classificacao": "12 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Três irmãs na casa da família, no Largo do Boticário, decidem onde jogar as cinzas da mãe e revisitam desejos e memórias.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Espetáculo \"As Irmãs Pereira\" Sextas-feiras e sábados às 20h, e domingo às 19h. R$ 35 a R$ 70. 12 anos.",
+   "nota_redacao": "Fonte sem data final; incluída só a sessão até 18/11.",
+   "id": "2026-11-15-034"
+  },
+  {
+   "titulo": "Quintal",
+   "areas": [
+    "Infantil",
+    "Teatro"
+   ],
+   "tipo": "evento",
+   "local": "Teatro Municipal Ziembinski",
+   "endereco": "Rua Heitor Beltrão, s/nº",
+   "bairro": "Tijuca",
+   "regiao": "Zona Norte",
+   "sessoes": [
+    {
+     "data": "2026-11-15",
+     "hora": "16:00"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "16:00"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "16:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 20 a R$ 40",
+   "preco_min": 20,
+   "preco_max": 40,
+   "gratis": false,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Cinco crianças do subúrbio lutam para salvar o quintal onde brincam da especulação imobiliária.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Espetáculo \"Quintal\" Sábados e domingos às 16h. Até 22/11. R$ 20 a R$40. Livre.",
+   "nota_redacao": "",
+   "id": "2026-11-15-035"
+  },
+  {
+   "titulo": "Rei de Copas",
+   "areas": [
+    "Teatro"
+   ],
+   "tipo": "evento",
+   "local": "Teatro Municipal Ziembinski",
+   "endereco": "Rua Heitor Beltrão, s/nº",
+   "bairro": "Tijuca",
+   "regiao": "Zona Norte",
+   "sessoes": [
+    {
+     "data": "2026-11-17",
+     "hora": "20:00"
+    },
+    {
+     "data": "2026-11-18",
+     "hora": "20:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 30 a R$ 60",
+   "preco_min": 30,
+   "preco_max": 60,
+   "gratis": false,
+   "classificacao": "12 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Após a morte do pai, irmãos e o viúvo precisam decidir o destino de um bar de jogos de tabuleiro que só dá prejuízo.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Espetáculo \"Rei De Copas\" Terças e quartas-feiras, às 20h. Até 18/11. R$ 30 a R$ 60. 12 anos.",
+   "nota_redacao": "",
+   "id": "2026-11-15-036"
+  },
+  {
+   "titulo": "SuperAções",
+   "areas": [
+    "Infantil",
+    "Música"
+   ],
+   "tipo": "evento",
+   "local": "Teatro Municipal de Guignol da Tijuca",
+   "endereco": "Praça Comandante Xavier de Brito, s/nº",
+   "bairro": "Tijuca",
+   "regiao": "Zona Norte",
+   "sessoes": [
+    {
+     "data": "2026-11-15",
+     "hora": "16:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "Grátis",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": true,
+   "sinopse": "Monólogo circense-musical: um homem-banda toca até 11 instrumentos ao mesmo tempo e se equilibra em pernas de pau.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Peça \"SuperAções\" Domingo (15/11), às 16h. Grátis. Livre.",
+   "nota_redacao": "",
+   "id": "2026-11-15-037"
+  },
+  {
+   "titulo": "Grupo Lekê: Música, Arte e Ancestralidade",
+   "areas": [
+    "Música"
+   ],
+   "tipo": "evento",
+   "local": "Centro da Música Carioca Artur da Távola",
+   "endereco": "Rua Conde de Bonfim, 824",
+   "bairro": "Tijuca",
+   "regiao": "Zona Norte",
+   "sessoes": [
+    {
+     "data": "2026-11-15",
+     "hora": "11:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 15 a R$ 30",
+   "preco_min": 15,
+   "preco_max": 30,
+   "gratis": false,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Músicos negros aproximam a música de concerto da música afro-brasileira, de pontos de terreiro a arranjos orquestrais.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Clássicos Domingos apresenta Grupo Lekê: Música, Arte e Ancestralidade Domingo (15/11), às 11h. Ingressos: R$ 15 a R$ 30. Livre.",
+   "nota_redacao": "",
+   "id": "2026-11-15-038"
+  },
+  {
+   "titulo": "Pérolas Negras – Histórias da Mãe África",
+   "areas": [
+    "Infantil",
+    "Teatro"
+   ],
+   "tipo": "evento",
+   "local": "Centro da Música Carioca Artur da Távola",
+   "endereco": "Rua Conde de Bonfim, 824",
+   "bairro": "Tijuca",
+   "regiao": "Zona Norte",
+   "sessoes": [
+    {
+     "data": "2026-11-15",
+     "hora": "16:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 20 a R$ 40",
+   "preco_min": 20,
+   "preco_max": 40,
+   "gratis": false,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "A Cia. Mimos conta três histórias da tradição oral africana com mímica, objetos e música ao vivo.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Domingo das Crianças: Cia Mimos apresenta Pérolas Negras – Histórias da Mãe África Domingo (15/11), às 16h. R$ 20 a R$ 40. Livre.",
+   "nota_redacao": "",
+   "id": "2026-11-15-039"
+  },
+  {
+   "titulo": "Julio! em O Canto que a História Não Conta",
+   "areas": [
+    "Música"
+   ],
+   "tipo": "evento",
+   "local": "Centro da Música Carioca Artur da Távola",
+   "endereco": "Rua Conde de Bonfim, 824",
+   "bairro": "Tijuca",
+   "regiao": "Zona Norte",
+   "sessoes": [
+    {
+     "data": "2026-11-18",
+     "hora": "19:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 30 a R$ 60",
+   "preco_min": 30,
+   "preco_max": 60,
+   "gratis": false,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Show acústico do cantor e professor de História sobre os grandes intérpretes e compositores negros do samba.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Quartas Acústicas: Julio! em \"O Canto que a História Não Conta\" Quarta-feira (18/11), às 19h. R$ 30 a R$ 60. Livre.",
+   "nota_redacao": "",
+   "id": "2026-11-15-040"
+  },
+  {
+   "titulo": "Música Brasilis",
+   "areas": [
+    "Artes Visuais",
+    "Música"
+   ],
+   "tipo": "cartaz",
+   "local": "Centro da Música Carioca Artur da Távola",
+   "endereco": "Rua Conde de Bonfim, 824",
+   "bairro": "Tijuca",
+   "regiao": "Zona Norte",
+   "sessoes": [],
+   "cartaz": {
+    "inicio": null,
+    "fim": null,
+    "horario": "Terça a domingo, 10h–17h"
+   },
+   "preco_texto": "Grátis",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Exposição sobre a música brasileira no Centro da Música Carioca.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Exposição \"Música Brasilis\" Terça-feira a domingo, das 10h às 17h. Grátis. Livre.",
+   "nota_redacao": "",
+   "id": "2026-11-15-041"
+  },
+  {
+   "titulo": "Festival MonStra – Tripas, Coração (último dia)",
+   "areas": [
+    "Teatro"
+   ],
+   "tipo": "evento",
+   "local": "Centro Coreográfico da Cidade do Rio de Janeiro",
+   "endereco": "Rua José Higino, 115",
+   "bairro": "Tijuca",
+   "regiao": "Zona Norte",
+   "sessoes": [
+    {
+     "data": "2026-11-15",
+     "hora": "18:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 20 a R$ 40",
+   "preco_min": 20,
+   "preco_max": 40,
+   "gratis": false,
+   "classificacao": "14 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Encerramento da mostra de dança e performance com três trabalhos: Uma Coisa de Cada Vez, Manual de Feitiço e Nuca.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Festival MonStra – 7ª edição: Tripas, Coração Sexta-feira e sábado (13 e 14/11) às 19h, e domingo (15/11), às 18h. R$ 20 a R$ 40. 14 anos.",
+   "nota_redacao": "",
+   "id": "2026-11-15-042"
+  },
+  {
+   "titulo": "Aladdin – Um Novo Mundo",
+   "areas": [
+    "Infantil",
+    "Teatro"
+   ],
+   "tipo": "evento",
+   "local": "Arena Carioca Dicró",
+   "endereco": "Rua Flora Lobo, Parque Ary Barroso, s/nº",
+   "bairro": "Penha Circular",
+   "regiao": "Zona Norte",
+   "sessoes": [
+    {
+     "data": "2026-11-15",
+     "hora": "15:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 20 a R$ 40",
+   "preco_min": 20,
+   "preco_max": 40,
+   "gratis": false,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Montagem infantil da história do jovem que encontra uma lâmpada mágica.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Espetáculo \"Aladdin - Um Novo Mundo\" Domingo (15/11),às 15h. R$ 20 a R$ 40. Livre.",
+   "nota_redacao": "",
+   "id": "2026-11-15-043"
+  },
+  {
+   "titulo": "Cravejar o Corpo, Inventar o Mundo – Madah Sodré",
+   "areas": [
+    "Artes Visuais"
+   ],
+   "tipo": "cartaz",
+   "local": "Arena Carioca Dicró",
+   "endereco": "Rua Flora Lobo, Parque Ary Barroso, s/nº",
+   "bairro": "Penha Circular",
+   "regiao": "Zona Norte",
+   "sessoes": [],
+   "cartaz": {
+    "inicio": null,
+    "fim": "2027-01-12",
+    "horario": "Terça a domingo, a partir das 10h"
+   },
+   "preco_texto": "Grátis",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Pinturas que partem do corpo trans e travesti como lugar de memória, desejo e invenção.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Ocupação Galeria L: \"Cravejar o Corpo, Inventar o Mundo com: Madah Sodré\" Visitação de terça a domingo, das 10h. Até 12/01/2027. Grátis. Livre.",
+   "nota_redacao": "",
+   "id": "2026-11-15-044"
+  },
+  {
+   "titulo": "Bora Lá – Comédia de Improviso",
+   "areas": [
+    "Teatro"
+   ],
+   "tipo": "evento",
+   "local": "Arena Cultural Fernando Torres",
+   "endereco": "Rua Bernardino de Andrade, 200 (Parque de Madureira)",
+   "bairro": "Madureira",
+   "regiao": "Zona Norte",
+   "sessoes": [
+    {
+     "data": "2026-11-15",
+     "hora": "18:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 30 a R$ 60",
+   "preco_min": 30,
+   "preco_max": 60,
+   "gratis": false,
+   "classificacao": "16 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Quatro artistas e um convidado criam cenas na hora a partir de sugestões da plateia.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Espetáculo \"Bora Lá – Comédia de Improviso' Domingo (15/11), às 18h. R$ 30 a R$ 60. 16 anos.",
+   "nota_redacao": "",
+   "id": "2026-11-15-045"
+  },
+  {
+   "titulo": "Em Gira: Ela Encruzilhada",
+   "areas": [
+    "Teatro",
+    "Música"
+   ],
+   "tipo": "evento",
+   "local": "Areninha Cultural Terra",
+   "endereco": "Rua Marcos de Macedo, s/nº",
+   "bairro": "Guadalupe",
+   "regiao": "Zona Norte",
+   "sessoes": [
+    {
+     "data": "2026-11-15",
+     "hora": "17:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "Grátis",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "A passista Iara Cassano percorre as encruzilhadas do samba, do quintal da avó à avenida.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Espetáculo \"Em Gira: Ela Encruzilhada\" Domingo (15/11), às 17h. Grátis. Livre.",
+   "nota_redacao": "",
+   "id": "2026-11-15-046"
+  },
+  {
+   "titulo": "Roda de Samba Democráticos de Guadalupe",
+   "areas": [
+    "Música"
+   ],
+   "tipo": "evento",
+   "local": "Areninha Cultural Terra",
+   "endereco": "Rua Marcos de Macedo, s/nº",
+   "bairro": "Guadalupe",
+   "regiao": "Zona Norte",
+   "sessoes": [
+    {
+     "data": "2026-11-15",
+     "hora": "18:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "Grátis",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Grupo tradicional do bairro, ligado ao Trem do Samba, com a raiz do samba de quintal suburbano.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Roda de Samba Democráticos de Guadalupe Domingo (15/11), às 18h. Grátis. Livre.",
+   "nota_redacao": "",
+   "id": "2026-11-15-047"
+  },
+  {
+   "titulo": "Encontro Anual de Mulheres Tèmiloju Brasil",
+   "areas": [
+    "Livros & Debates"
+   ],
+   "tipo": "evento",
+   "local": "Areninha Cultural Carlos Zéfiro",
+   "endereco": "Estrada Marechal Alencastro, s/nº",
+   "bairro": "Anchieta",
+   "regiao": "Zona Norte",
+   "sessoes": [
+    {
+     "data": "2026-11-15",
+     "hora": "09:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "Grátis",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Roda de conversa com mulheres e lideranças comunitárias sobre trajetórias femininas.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Roda de conversa \"Encontro Anual de Mulheres Tèmiloju Brasil - Minha Vida é mais importante\" Domingo (15/11), às 09h. Grátis. Livre.",
+   "nota_redacao": "",
+   "id": "2026-11-15-048"
+  },
+  {
+   "titulo": "Cine Jorge Amado: Autoestima de Crianças Negras",
+   "areas": [
+    "Cinema",
+    "Infantil"
+   ],
+   "tipo": "evento",
+   "local": "Biblioteca Municipal Jorge Amado (Areninha Herbert Vianna)",
+   "endereco": "Rua Ivanildo Alves, s/nº",
+   "bairro": "Maré",
+   "regiao": "Zona Norte",
+   "sessoes": [
+    {
+     "data": "2026-11-16",
+     "hora": "17:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "Grátis",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Exibição sobre a formação da identidade étnica e o empoderamento de crianças negras.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Exibição de filme \"Cine Jorge Amado – Programa Nação: Autoestima de Crianças Negras' Segunda-feira(16/11), às 17h. Grátis. Livre.",
+   "nota_redacao": "",
+   "id": "2026-11-15-049"
+  },
+  {
+   "titulo": "Júlia Lopes de Almeida: Um Fenômeno Literário na Cena Carioca",
+   "areas": [
+    "Livros & Debates",
+    "Artes Visuais"
+   ],
+   "tipo": "cartaz",
+   "local": "Biblioteca Municipal Marques Rebelo",
+   "endereco": "Rua Guapeni, 61",
+   "bairro": "Tijuca",
+   "regiao": "Zona Norte",
+   "sessoes": [],
+   "cartaz": {
+    "inicio": null,
+    "fim": null,
+    "horario": "Sábados, 9h–13h"
+   },
+   "preco_texto": "Grátis",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Fotos, publicações e objetos da escritora, do acervo mantido por seus netos.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Exposição Júlia Lopes de Almeida: Um Fenômeno Literário na Cena Carioca Sábados das 9 às 13 h. Grátis. Livre.",
+   "nota_redacao": "",
+   "id": "2026-11-15-050"
+  },
+  {
+   "titulo": "Acorda & Samba convida João Martins",
+   "areas": [
+    "Música"
+   ],
+   "tipo": "evento",
+   "local": "Areninha Cultural Hermeto Pascoal",
+   "endereco": "Praça Primeiro de Maio, s/nº",
+   "bairro": "Bangu",
+   "regiao": "Zona Oeste",
+   "sessoes": [
+    {
+     "data": "2026-11-15",
+     "hora": "12:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "Grátis",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "14 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Roda de samba com convidado, feira de artesãos locais e rock no encerramento.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Festival Acorda & Samba convida João Martins Domingo (15/11), às 12h. Grátis. 14 anos.",
+   "nota_redacao": "",
+   "id": "2026-11-15-051"
+  },
+  {
+   "titulo": "Ônibus Biblioteca – Livros nas Praças",
+   "areas": [
+    "Livros & Debates",
+    "Infantil"
+   ],
+   "tipo": "cartaz",
+   "local": "Areninha Cultural Hermeto Pascoal",
+   "endereco": "Praça Primeiro de Maio, s/nº",
+   "bairro": "Bangu",
+   "regiao": "Zona Oeste",
+   "sessoes": [],
+   "cartaz": {
+    "inicio": "2026-11-13",
+    "fim": "2026-11-27",
+    "horario": "A partir das 11h"
+   },
+   "preco_texto": "Grátis",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": true,
+   "sinopse": "Biblioteca itinerante com empréstimo gratuito, leitura dramatizada e contação de histórias.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Ônibus Biblioteca – Livros nas Praças De 13 a 27 de novembro, às 11h. Grátis. Livre.",
+   "nota_redacao": "",
+   "id": "2026-11-15-052"
+  },
+  {
+   "titulo": "Domingo recreativo para crianças",
+   "areas": [
+    "Infantil"
+   ],
+   "tipo": "evento",
+   "local": "Areninha Cultural Sandra de Sá",
+   "endereco": "Rua Doze, 1",
+   "bairro": "Santa Cruz",
+   "regiao": "Zona Oeste",
+   "sessoes": [
+    {
+     "data": "2026-11-15",
+     "hora": "10:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "Grátis",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Jogos, brincadeiras e pintura para a criançada, todo domingo.",
+   "fonte": "Programação Semanal da Cultura Rio 12–18/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Domingo recreativo para crianças Domingos, às 10h. Grátis. Livre.",
+   "nota_redacao": "Fonte diz 'todos os domingos do mês', mas o PDF só vale até 18/11; 22/11 removido após conferência.",
+   "id": "2026-11-15-053"
+  },
+  {
+   "titulo": "MEME: no Br@sil da memeficação",
+   "areas": [
+    "Artes Visuais"
+   ],
+   "tipo": "cartaz",
+   "local": "Centro Cultural Banco do Brasil (CCBB)",
+   "endereco": "Rua Primeiro de Março, 66",
+   "bairro": "Centro",
+   "regiao": "Centro",
+   "sessoes": [],
+   "cartaz": {
+    "inicio": "2026-11-07",
+    "fim": "2027-02-01",
+    "horario": "Quarta a segunda, 9h–20h"
+   },
+   "preco_texto": "Grátis (retirada de ingresso)",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Primeira grande exposição brasileira sobre memes: cerca de 800 obras e conteúdos de 200 artistas e criadores.",
+   "fonte": "Site CCBB Rio",
+   "link": "https://ccbb.com.br/rio-de-janeiro/programacao/meme-no-brsil-da-memeficacao/",
+   "trecho_fonte": "MEME: no Br@sil da memeficação 07/11/26 a 01/02/27 Ingressos L Classificação Livre Quarta a segunda, 9h às 20h. Fecha terça. 1º andar Entrada gratuita. Retirada de ingressos na bilheteria ou no site.",
+   "nota_redacao": "",
+   "id": "2026-11-15-054"
+  },
+  {
+   "titulo": "YOKAI PARADE – Seres sobrenaturais do Japão",
+   "areas": [
+    "Artes Visuais"
+   ],
+   "tipo": "cartaz",
+   "local": "Centro Cultural Banco do Brasil (CCBB)",
+   "endereco": "Rua Primeiro de Março, 66",
+   "bairro": "Centro",
+   "regiao": "Centro",
+   "sessoes": [],
+   "cartaz": {
+    "inicio": "2026-11-13",
+    "fim": "2027-01-03",
+    "horario": "Quarta a segunda, 9h–20h"
+   },
+   "preco_texto": "Grátis (retirada de ingresso)",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Seres do folclore japonês em gravuras, pergaminhos e animação, pela primeira vez no Brasil.",
+   "fonte": "Site CCBB Rio",
+   "link": "https://ccbb.com.br/rio-de-janeiro/programacao/yokai-parade-seres-sobrenaturais-do-japao/",
+   "trecho_fonte": "YOKAI PARADE – Seres sobrenaturais do Japão 13/11/26 a 03/01/27 Ingressos L Classificação Livre Quarta a segunda, das 9h às 20h 4º andar Entrada gratuita. Retirada de ingressos na bilheteria ou no site.",
+   "nota_redacao": "",
+   "id": "2026-11-15-055"
+  },
+  {
+   "titulo": "Amazônicas – Poéticas Femininas (últimos dias)",
+   "areas": [
+    "Artes Visuais"
+   ],
+   "tipo": "cartaz",
+   "local": "Centro Cultural Banco do Brasil (CCBB)",
+   "endereco": "Rua Primeiro de Março, 66",
+   "bairro": "Centro",
+   "regiao": "Centro",
+   "sessoes": [],
+   "cartaz": {
+    "inicio": "2026-09-02",
+    "fim": "2026-11-16",
+    "horario": "Quarta a segunda, 9h–20h"
+   },
+   "preco_texto": "Grátis",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Arte contemporânea de mulheres do Pará, Acre e Amazonas, dos anos 1970 a hoje.",
+   "fonte": "Site CCBB Rio",
+   "link": "https://ccbb.com.br/rio-de-janeiro/programacao/amazonicas-poeticas-femininas/",
+   "trecho_fonte": "Amazônicas – Poéticas Femininas 02/09/26 a 16/11/26 Ingressos L Classificação Livre Quarta a segunda, 9h às 20h. Fecha terça. 2º andar Entrada gratuita.",
+   "nota_redacao": "",
+   "id": "2026-11-15-056"
+  },
+  {
+   "titulo": "Um Atlas de Lembranças",
+   "areas": [
+    "Artes Visuais"
+   ],
+   "tipo": "cartaz",
+   "local": "Centro Cultural Banco do Brasil (CCBB)",
+   "endereco": "Rua Primeiro de Março, 66",
+   "bairro": "Centro",
+   "regiao": "Centro",
+   "sessoes": [],
+   "cartaz": {
+    "inicio": null,
+    "fim": null,
+    "horario": "Quarta a segunda, 9h–20h"
+   },
+   "preco_texto": "Grátis",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Documentos, fotos e objetos sobre os 120 anos do prédio do CCBB.",
+   "fonte": "Site CCBB Rio",
+   "link": "https://ccbb.com.br/rio-de-janeiro/programacao/um-atlas-de-lembrancas/",
+   "trecho_fonte": "Um Atlas de Lembranças Ingressos L Classificação Livre Qua a seg, 9h às 20h 4º andar - Museu BB Entrada gratuita.",
+   "nota_redacao": "",
+   "id": "2026-11-15-057"
+  },
+  {
+   "titulo": "Palavras em Cena: O Cinema que Veio dos Livros",
+   "areas": [
+    "Livros & Debates",
+    "Cinema"
+   ],
+   "tipo": "cartaz",
+   "local": "Centro Cultural Banco do Brasil (CCBB)",
+   "endereco": "Rua Primeiro de Março, 66",
+   "bairro": "Centro",
+   "regiao": "Centro",
+   "sessoes": [],
+   "cartaz": {
+    "inicio": null,
+    "fim": "2027-01-04",
+    "horario": "Quarta a segunda, 9h–20h"
+   },
+   "preco_texto": "Grátis",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Na biblioteca do CCBB, livros e filmes lado a lado: dos clássicos brasileiros às grandes adaptações internacionais.",
+   "fonte": "Site CCBB Rio",
+   "link": "https://ccbb.com.br/rio-de-janeiro/programacao/palavras-em-cena-o-cinema-que-veio-dos-livros/",
+   "trecho_fonte": "Palavras em Cena: O Cinema que Veio dos Livros Até 04/01/27 L Classificação Livre Qua a seg, 9h às 20h Biblioteca, 5º andar Entrada gratuita.",
+   "nota_redacao": "",
+   "id": "2026-11-15-058"
+  },
+  {
+   "titulo": "Entre o Sim e o Nunca",
+   "areas": [
+    "Teatro"
+   ],
+   "tipo": "evento",
+   "local": "Centro Cultural Banco do Brasil (CCBB)",
+   "endereco": "Rua Primeiro de Março, 66",
+   "bairro": "Centro",
+   "regiao": "Centro",
+   "sessoes": [
+    {
+     "data": "2026-11-15",
+     "hora": "17:00"
+    },
+    {
+     "data": "2026-11-18",
+     "hora": "19:00"
+    },
+    {
+     "data": "2026-11-19",
+     "hora": "19:00"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "19:00"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "19:00"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "17:00"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "19:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 30 (meia R$ 15)",
+   "preco_min": 15,
+   "preco_max": 30,
+   "gratis": false,
+   "classificacao": "12 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Aos 35 anos, uma mulher descobre que o pai registrado não é o biológico e sai em busca da própria origem. Drama com humor.",
+   "fonte": "Site CCBB Rio",
+   "link": "https://ccbb.com.br/rio-de-janeiro/programacao/entre-sim-e-o-nunca/",
+   "trecho_fonte": "Entre o Sim e o Nunca 04/11/26 a 29/11/26 ... 12 anos Qua a Sáb, 19h | Dom, 17h Teatro III R$ 30 (inteira) | R$ 15 (meia-entrada)",
+   "nota_redacao": "",
+   "id": "2026-11-15-059"
+  },
+  {
+   "titulo": "Música no Museu",
+   "areas": [
+    "Música"
+   ],
+   "tipo": "evento",
+   "local": "Centro Cultural Banco do Brasil (CCBB)",
+   "endereco": "Rua Primeiro de Março, 66",
+   "bairro": "Centro",
+   "regiao": "Centro",
+   "sessoes": [
+    {
+     "data": "2026-11-18",
+     "hora": "12:30"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "12:30"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "Grátis",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Concertos gratuitos ao meio-dia; em novembro, com o RioWinds Festival e o RioHarp Festival.",
+   "fonte": "Site CCBB Rio",
+   "link": "https://ccbb.com.br/rio-de-janeiro/programacao/musica-no-museu-2/",
+   "trecho_fonte": "Música no Museu 04/11/26 a 25/11/26 Ingressos L Classificação Livre Dias 04, 07, 08, 11, 18, 22 e 25/11 4º andar - sala 26 Entrada gratuita ... os concertos acontecem sempre às quartas-feiras, às 12h30",
+   "nota_redacao": "Fonte lista também 22/11 (domingo), mas só dá horário para as quartas; 22/11 fica de fora até confirmação.",
+   "id": "2026-11-15-060"
+  },
+  {
+   "titulo": "21º Festival de Cinema Italiano no Brasil",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "cartaz",
+   "local": "Centro Cultural Banco do Brasil (CCBB)",
+   "endereco": "Rua Primeiro de Março, 66",
+   "bairro": "Centro",
+   "regiao": "Centro",
+   "sessoes": [],
+   "cartaz": {
+    "inicio": "2026-11-05",
+    "fim": "2026-11-30",
+    "horario": "Sessões diárias (ver grade no site)"
+   },
+   "preco_texto": "Grátis (retirada no dia, a partir das 9h)",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "Verificar por filme",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Lançamentos e clássicos de Fellini, Rossellini e outros mestres do cinema italiano.",
+   "fonte": "Site CCBB Rio",
+   "link": "https://ccbb.com.br/rio-de-janeiro/programacao/21o-festival-de-cinema-italiano-no-brasil/",
+   "trecho_fonte": "21º Festival de Cinema Italiano no Brasil 05/11/26 a 30/11/26 ... Cinema I Entrada gratuita. Retirada de ingressos a partir das 9h, no dia da sessão.",
+   "nota_redacao": "",
+   "id": "2026-11-15-061"
+  },
+  {
+   "titulo": "Cinemateca do MAM no CCBB",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "cartaz",
+   "local": "Centro Cultural Banco do Brasil (CCBB)",
+   "endereco": "Rua Primeiro de Março, 66",
+   "bairro": "Centro",
+   "regiao": "Centro",
+   "sessoes": [],
+   "cartaz": {
+    "inicio": "2026-11-15",
+    "fim": "2026-11-30",
+    "horario": "Sessões diárias (ver grade no site)"
+   },
+   "preco_texto": "Grátis (retirada no dia, a partir das 9h)",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "Verificar por filme",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Mostras da Cinemateca do MAM, entre elas o centenário de Maria Della Costa e uma trajetória do cinema feminino brasileiro.",
+   "fonte": "Site CCBB Rio",
+   "link": "https://ccbb.com.br/rio-de-janeiro/programacao/cinemateca-do-mam-no-ccbb/",
+   "trecho_fonte": "Cinemateca do MAM no CCBB 15/11/26 a 30/11/26 ... Cinema II Entrada gratuita. Retirada de ingressos a partir das 9h, no dia da sessão.",
+   "nota_redacao": "",
+   "id": "2026-11-15-062"
+  },
+  {
+   "titulo": "Festival Arquivo em Cartaz – 11ª edição",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "cartaz",
+   "local": "Centro Cultural Banco do Brasil (CCBB)",
+   "endereco": "Rua Primeiro de Março, 66",
+   "bairro": "Centro",
+   "regiao": "Centro",
+   "sessoes": [],
+   "cartaz": {
+    "inicio": "2026-11-20",
+    "fim": "2026-11-22",
+    "horario": "Ver horários no site"
+   },
+   "preco_texto": "Grátis (retirada no dia)",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "18 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Seis filmes premiados do festival do Arquivo Nacional, com o tema Cinema, memória e justiça.",
+   "fonte": "Site CCBB Rio",
+   "link": "https://ccbb.com.br/rio-de-janeiro/programacao/festival-arquivo-em-cartaz-11a-edicao/",
+   "trecho_fonte": "Festival Arquivo em Cartaz – 11ª Edição 20/11/26 a 22/11/26 Ingressos 18 Classificação 18 anos ... Cinema II Entrada gratuita. Retirada de ingressos a partir das 9h, no dia da sessão.",
+   "nota_redacao": "",
+   "id": "2026-11-15-063"
+  },
+  {
+   "titulo": "Sudi – O Elogio da Surdez",
+   "areas": [
+    "Infantil",
+    "Teatro"
+   ],
+   "tipo": "evento",
+   "local": "Centro Cultural Banco do Brasil (CCBB)",
+   "endereco": "Rua Primeiro de Março, 66",
+   "bairro": "Centro",
+   "regiao": "Centro",
+   "sessoes": [
+    {
+     "data": "2026-11-21",
+     "hora": "16:00"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "16:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 30 (meia R$ 15)",
+   "preco_min": 15,
+   "preco_max": 30,
+   "gratis": false,
+   "classificacao": "Livre",
+   "acessibilidade": "Libras em cena",
+   "na_rua": false,
+   "sinopse": "Uma menina que percebe o mundo pelos olhos, pela pele e pelas mãos parte em busca da Flor de Oto, ao lado de uma amiga que fala Libras.",
+   "fonte": "Site CCBB Rio",
+   "link": "https://ccbb.com.br/rio-de-janeiro/programacao/sudi-o-elogio-da-surdez/",
+   "trecho_fonte": "Sudi – O Elogio da Surdez 21/11/26 a 22/11/26 ... Livre 16h Teatro I R$30 (inteira) | R$15 (meia-entrada)",
+   "nota_redacao": "",
+   "id": "2026-11-15-064"
+  },
+  {
+   "titulo": "Samba do Sacramento",
+   "areas": [
+    "Música"
+   ],
+   "tipo": "evento",
+   "local": "Centro Cultural Banco do Brasil (CCBB)",
+   "endereco": "Rua Primeiro de Março, 66",
+   "bairro": "Centro",
+   "regiao": "Centro",
+   "sessoes": [
+    {
+     "data": "2026-11-21",
+     "hora": "17:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "Grátis",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": true,
+   "sinopse": "A roda comandada por Marcos Sacramento volta ao CCBB, com Rita Benneditto, Nilze Carvalho, Nina Rosa e DJs.",
+   "fonte": "Site CCBB Rio",
+   "link": "https://ccbb.com.br/rio-de-janeiro/programacao/samba-do-sacramento/",
+   "trecho_fonte": "Samba do Sacramento no CCBB 21/11/26 ... Livre Sábado, 17h às 3h Área Externa Entrada gratuita",
+   "nota_redacao": "",
+   "id": "2026-11-15-065"
+  },
+  {
+   "titulo": "Clube de Leitura CCBB com Raphael Montes",
+   "areas": [
+    "Livros & Debates"
+   ],
+   "tipo": "evento",
+   "local": "Centro Cultural Banco do Brasil (CCBB)",
+   "endereco": "Rua Primeiro de Março, 66",
+   "bairro": "Centro",
+   "regiao": "Centro",
+   "sessoes": [
+    {
+     "data": "2026-11-25",
+     "hora": "17:30"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "Grátis (ingressos às 9h do dia)",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "14 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Conversa sobre suspense e crime na literatura a partir do romance Dias Perfeitos, com o autor.",
+   "fonte": "Site CCBB Rio",
+   "link": "https://ccbb.com.br/rio-de-janeiro/programacao/clube-de-leitura-ccbb/",
+   "trecho_fonte": "Clube de Leitura CCBB 25/11/26 Com Raphael Montes Ingressos 14 Classificação 14 anos Quarta, 17h30 Salão de Leitura da Biblioteca, 5º andar Evento gratuito. Ingressos às 9h, no dia do evento, na bilheteria física ou no site bb.com.br/cultura ... O livro escolhido para o encontro foi Dias Perfeitos.",
+   "nota_redacao": "",
+   "id": "2026-11-15-066"
+  },
+  {
+   "titulo": "Festival Abraço Negro – Ilê Aiyê convida Surdo Um da Mangueira",
+   "areas": [
+    "Música"
+   ],
+   "tipo": "evento",
+   "local": "Circo Voador",
+   "endereco": "Rua dos Arcos, s/nº",
+   "bairro": "Lapa",
+   "regiao": "Centro",
+   "sessoes": [
+    {
+     "data": "2026-11-19",
+     "hora": "20:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": false,
+   "classificacao": "",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Na véspera do feriado da Consciência Negra, o bloco baiano Ilê Aiyê recebe o Surdo Um da Mangueira; abertura com Kazen Sorriso e convidados.",
+   "fonte": "API pública do Circo Voador",
+   "link": "https://www.circovoador.com.br/",
+   "trecho_fonte": "slug 2026-11-19-festival-abraco-negro · data_raw 20261119 · chamada: \"o Circo Voador recebe o Festival Abraço Negro\" · \"Kazen Sorriso e convidados / Ilê Aiyê convida Surdo Um da Mangueira – Abertura dos Portões: 20:00\"",
+   "nota_redacao": "Horário = abertura dos portões. Preço só na ticketeira (camada Apoio).",
+   "id": "2026-11-15-067"
+  },
+  {
+   "titulo": "Ajulliacosta – turnê Novo Testamento",
+   "areas": [
+    "Música"
+   ],
+   "tipo": "evento",
+   "local": "Circo Voador",
+   "endereco": "Rua dos Arcos, s/nº",
+   "bairro": "Lapa",
+   "regiao": "Centro",
+   "sessoes": [
+    {
+     "data": "2026-11-20",
+     "hora": "20:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": false,
+   "classificacao": "",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "A turnê do álbum Novo Testamento ganha data extra no Circo Voador.",
+   "fonte": "API pública do Circo Voador",
+   "link": "https://www.circovoador.com.br/",
+   "trecho_fonte": "slug 2026-11-20-ajulliacosta · data_raw 20261120 · \"Turnê do álbum \"Novo Testamento\" – Abertura dos Portões: 20:00\" · chamada: \"Uma noite não foi suficiente!\"",
+   "nota_redacao": "Horário = abertura dos portões. Preço só na ticketeira.",
+   "id": "2026-11-15-068"
+  },
+  {
+   "titulo": "Rockeria 14 anos",
+   "areas": [
+    "Música"
+   ],
+   "tipo": "evento",
+   "local": "Circo Voador",
+   "endereco": "Rua dos Arcos, s/nº",
+   "bairro": "Lapa",
+   "regiao": "Centro",
+   "sessoes": [
+    {
+     "data": "2026-11-21",
+     "hora": "21:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": false,
+   "classificacao": "",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "A festa de rock celebra 14 anos com show da Vaa Surf Band e DJs convidados.",
+   "fonte": "API pública do Circo Voador",
+   "link": "https://www.circovoador.com.br/",
+   "trecho_fonte": "slug 2026-11-21-rockeria · data_raw 20261121 · chamada: \"Uma das festas mais queridas do Rio está completando 14 anos\" · \"Show: Vaa Surf Band / DJs Leo Paes Leme convida DJ Saddam e DJ Felipe Guga – Abertura dos Portões: 21:00\"",
+   "nota_redacao": "Horário = abertura dos portões. Preço só na ticketeira.",
+   "id": "2026-11-15-069"
+  },
+  {
+   "titulo": "La Strada – Os Que Vieram Antes de Nós",
+   "areas": [
+    "Teatro"
+   ],
+   "tipo": "evento",
+   "local": "Sesc Tijuca",
+   "endereco": "Rua Barão de Mesquita, 539",
+   "bairro": "Tijuca",
+   "regiao": "Zona Norte",
+   "sessoes": [
+    {
+     "data": "2026-11-15",
+     "hora": "18:00"
+    },
+    {
+     "data": "2026-11-19",
+     "hora": "19:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 30 (meia R$ 15)",
+   "preco_min": 15,
+   "preco_max": 30,
+   "gratis": false,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Palhaçaria e teatro documentário sobre gerações de palhaços anônimos que fizeram a história do circo no Brasil.",
+   "fonte": "Site Sesc RJ +cultura",
+   "link": "https://cultura.sescrio.org.br/programacao/la-strada-os-que-vieram-antes-de-nos",
+   "trecho_fonte": "Sesc Tijuca domingo, 15/11/2026 18:00 R$ 30 Inteira | 15 Meia ... quinta-feira, 19/11/2026 19:00 R$ 30 Inteira | 15 Meia · APRESENTAÇÃO LIVRE · Duração: 1h10min",
+   "nota_redacao": "O site oculta datas posteriores atrás de 'Ver mais'; podem existir outras sessões.",
+   "id": "2026-11-15-070"
+  },
+  {
+   "titulo": "Gean Pankararu",
+   "areas": [
+    "Música"
+   ],
+   "tipo": "evento",
+   "local": "Sesc Tijuca",
+   "endereco": "Rua Barão de Mesquita, 539",
+   "bairro": "Tijuca",
+   "regiao": "Zona Norte",
+   "sessoes": [
+    {
+     "data": "2026-11-17",
+     "hora": "19:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "Grátis",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "Livre",
+   "acessibilidade": "Libras",
+   "na_rua": false,
+   "sinopse": "Músico do povo Pankararu (PE), indicado ao Indigenous Music Awards, une tradição indígena e música contemporânea do Nordeste.",
+   "fonte": "Site Sesc RJ +cultura",
+   "link": "https://cultura.sescrio.org.br/programacao/gean-pankararu",
+   "trecho_fonte": "Gean Pankararu ... SHOW LIVRE ... Sesc Tijuca terça-feira, 17/11/2026 19:00 Grátis Libras",
+   "nota_redacao": "",
+   "id": "2026-11-15-071"
+  },
+  {
+   "titulo": "Terreiro de Mangueira – Cordel Negro",
+   "areas": [
+    "Música"
+   ],
+   "tipo": "evento",
+   "local": "Sesc Tijuca",
+   "endereco": "Rua Barão de Mesquita, 539",
+   "bairro": "Tijuca",
+   "regiao": "Zona Norte",
+   "sessoes": [
+    {
+     "data": "2026-11-20",
+     "hora": "14:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "Grátis",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "O grupo Cordel Negro mistura ritmos afro-indígenas com samba, choro, forró e carimbó.",
+   "fonte": "Site Sesc RJ +cultura",
+   "link": "https://cultura.sescrio.org.br/programacao/terreiro-de-mangueira",
+   "trecho_fonte": "Terreiro de Mangueira Cordel Negro ... SHOW LIVRE ... Sesc Tijuca sexta-feira, 20/11/2026 14:00 Grátis",
+   "nota_redacao": "",
+   "id": "2026-11-15-072"
+  },
+  {
+   "titulo": "Rio Maracatu",
+   "areas": [
+    "Música"
+   ],
+   "tipo": "evento",
+   "local": "Sesc Tijuca",
+   "endereco": "Rua Barão de Mesquita, 539",
+   "bairro": "Tijuca",
+   "regiao": "Zona Norte",
+   "sessoes": [
+    {
+     "data": "2026-11-22",
+     "hora": "15:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "Grátis",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Há 28 anos nas ruas do Centro, o grupo apresenta toadas das nações de maracatu de baque virado, ciranda e coco.",
+   "fonte": "Site Sesc RJ +cultura",
+   "link": "https://cultura.sescrio.org.br/programacao/rio-maracatu",
+   "trecho_fonte": "Rio Maracatu ... SHOW LIVRE ... Sesc Tijuca domingo, 22/11/2026 15:00 Grátis",
+   "nota_redacao": "",
+   "id": "2026-11-15-073"
+  }
+ ]
+}

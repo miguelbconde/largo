@@ -1,0 +1,66 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Largo//Agenda cultural do Rio de Janeiro//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Largo · Zona Sudoeste
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:2026-11-15-027-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T180000Z
+DTEND:20261115T200000Z
+SUMMARY:Dominguinho – João Gomes\, Jota.pê e Mestrinho
+LOCATION:Cidade das Artes\, Av. das Américas\, 5.300 – Barra da Tijuca
+DESCRIPTION:Segunda etapa da turnê que reúne os três artistas numa gra
+ nde roda de forró.\n\nR$ 180 a R$ 360 · 18 anos\n\nFonte: https://cult
+ ura.prefeitura.rio/agendacultural/\nLargo — agenda cultural aberta do 
+ Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-028-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T190000Z
+DTEND:20261115T210000Z
+SUMMARY:Canta o Brasil | Corais
+LOCATION:Cidade das Artes\, Av. das Américas\, 5.300 – Barra da Tijuca
+DESCRIPTION:Todos os corais do projeto do maestro Luiz Lima reunidos numa
+  só apresentação.\n\nR$ 40 a R$ 80 · Livre\n\nFonte: https://cultura
+ .prefeitura.rio/agendacultural/\nLargo — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-032-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T170000Z
+DTEND:20261115T190000Z
+SUMMARY:Consciência – Baile o Charme
+LOCATION:Areninha Cultural Jacob do Bandolim\, Praça do Barro Vermelho (
+ Praça Geraldo Simonard)\, s/nº – Pechincha
+DESCRIPTION:Baile charme em celebração à cultura negra\, com música\,
+  dança e elegância.\n\nR$ 10 · Livre\n\nFonte: https://cultura.prefei
+ tura.rio/agendacultural/\nLargo — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-033-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261118T170000Z
+DTEND:20261118T190000Z
+SUMMARY:Ecos da Diáspora: Medida Provisória
+LOCATION:Centro Cultural Professora Dyla Sylvia de Sá\, Rua Barão\, 1.1
+ 80 – Praça Seca
+DESCRIPTION:Exibição do filme de Lázaro Ramos no projeto Ecos da Diás
+ pora\, com o Cine Praça Seca.\n\nGrátis · 14 anos\n\nFonte: https://c
+ ultura.prefeitura.rio/agendacultural/\nLargo — agenda cultural aberta 
+ do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Cinema
+END:VEVENT
+END:VCALENDAR

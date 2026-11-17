@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Largo//Agenda cultural do Rio de Janeiro//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Largo · Cinema
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:2026-11-15-033-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261118T170000Z
+DTEND:20261118T190000Z
+SUMMARY:Ecos da Diáspora: Medida Provisória
+LOCATION:Centro Cultural Professora Dyla Sylvia de Sá\, Rua Barão\, 1.1
+ 80 – Praça Seca
+DESCRIPTION:Exibição do filme de Lázaro Ramos no projeto Ecos da Diás
+ pora\, com o Cine Praça Seca.\n\nGrátis · 14 anos\n\nFonte: https://c
+ ultura.prefeitura.rio/agendacultural/\nLargo — agenda cultural aberta 
+ do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-049-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261116T200000Z
+DTEND:20261116T220000Z
+SUMMARY:Cine Jorge Amado: Autoestima de Crianças Negras
+LOCATION:Biblioteca Municipal Jorge Amado (Areninha Herbert Vianna)\, Rua
+  Ivanildo Alves\, s/nº – Maré
+DESCRIPTION:Exibição sobre a formação da identidade étnica e o empod
+ eramento de crianças negras.\n\nGrátis · Livre\n\nFonte: https://cult
+ ura.prefeitura.rio/agendacultural/\nLargo — agenda cultural aberta do 
+ Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Cinema\,Infantil
+END:VEVENT
+END:VCALENDAR

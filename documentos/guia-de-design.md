@@ -1,0 +1,224 @@
+# Guia de design — Largo
+versão 0.4 · 17/11/2026 · **direção em estudo, ainda não aplicada ao site**
+
+Este guia orienta qualquer trabalho futuro na aparência do site. Ele registra de onde vem a linguagem visual, o que aproveitamos de cada referência e o que fica de fora. Deve ser lido antes de qualquer mudança de layout.
+
+## 1. Regra de precedência
+
+A boa experiência de uso vem antes da referência histórica. Quando houver conflito, vence esta lista, nesta ordem:
+
+1. **Legibilidade e acessibilidade.** Contraste de texto medido (mínimo 4,5:1), corpo de texto de 16 px ou mais, áreas de toque de 44 px ou mais, navegação por teclado e leitor de tela, respeito a modo escuro e a movimento reduzido.
+2. **Leveza.** Página rápida com sinal fraco e plano de dados limitado. Sem imagens pesadas e sem fontes carregadas de terceiros (fontes abertas, hospedadas junto com o site).
+3. **Clareza funcional.** Dia, hora, lugar, bairro e preço sempre visíveis sem abrir nada.
+4. **Identidade carioca.** Só depois de garantidos os três itens acima.
+
+Nenhuma referência entra como enfeite. Cada uma tem de resolver um problema de leitura ou de uso.
+
+## 2. As referências e o que tiramos de cada uma
+
+### 2.1 A reforma gráfica do Jornal do Brasil (1956–1961)
+**O que foi.** Uma reforma coletiva que mudou o jornal impresso brasileiro. Começou pelo Suplemento Dominical (SDJB), criado em 1956 por Reynaldo Jardim e tratado pelos estudiosos como laboratório da reforma. O escultor Amilcar de Castro trabalhou no jornal de 1957 a 1961 e é o principal nome do projeto gráfico. Janio de Freitas, editor de 1959 a 1962, é apontado como responsável pela retirada dos fios da primeira página. Ferreira Gullar também participou. Em 1960 nasceu o Caderno B, considerado o primeiro suplemento cultural do país. O SDJB publicou o Manifesto Neoconcreto em 1959.
+
+**Princípios.** Eliminar os fios entre as matérias. Valorizar o espaço em branco. Deixar a tipografia e a fotografia organizarem a página. Composição assimétrica.
+
+**O que aproveitamos.**
+- Separar blocos com espaço, não com linhas. Fios só onde forem indispensáveis.
+- Hierarquia feita por tamanho e peso da letra: título forte, informação de serviço sóbria.
+- Alinhamento à esquerda, com margens generosas e assimetria discreta.
+- A ideia de "caderno": cada dia é uma página com começo, destaque e lista.
+
+**O que não aproveitamos.** Títulos girados ou verticais e composições experimentais do SDJB. São bonitos no papel e ruins para leitura em tela pequena e para leitores de tela.
+
+### 2.2 As capas da gravadora Elenco (anos 1960)
+**O que foi.** A gravadora de bossa nova fundada por Aloysio de Oliveira no começo dos anos 1960, no Rio. Cesar Villela desenhou as 16 primeiras capas e criou a identidade visual do selo, muitas vezes com fotos de Chico Pereira. Villela é comparado a Reid Miles, da Blue Note.
+
+**Princípios.** Economia extrema: preto, branco e um ponto de vermelho. Alto contraste. Muito espaço vazio.
+
+**O que aproveitamos.**
+- Paleta de três tons: fundo claro, tinta quase preta e **um único vermelho** de destaque.
+- O vermelho é raro e tem função: marca o destaque ("A boa") e o que está selecionado. Nunca decora.
+- O modo escuro é a mesma lógica invertida.
+
+**O que não aproveitamos.** Reproduzir capas, fotos ou composições específicas. A referência é o princípio, não as obras.
+
+**Atenção.** "Grátis" hoje usa verde. Numa paleta de três tons, a gratuidade precisa de outra solução (peso da letra, etiqueta preenchida em preto, ícone). É a principal questão a resolver nos estudos, porque destacar o que é grátis é compromisso do projeto. Informação nunca pode depender só de cor.
+
+### 2.3 Aloisio Magalhães e o símbolo do IV Centenário (1965)
+**O que foi.** Aloisio Magalhães, designer pernambucano radicado no Rio e um dos fundadores da ESDI (1963), venceu o concurso do símbolo dos 400 anos da cidade. A população se apropriou do símbolo de forma espontânea e irrestrita, e isso virou objeto de estudo no design.
+
+**O que aproveitamos.**
+- A marca do Largo deve ser simples a ponto de qualquer pessoa conseguir redesenhá-la à mão.
+- Marca publicada com licença aberta, com um kit para espaços e coletivos usarem ("estamos no Largo").
+- É a tradução visual do princípio do projeto: a agenda como bem comum.
+
+### 2.4 A pedra portuguesa e o "Mar Largo"
+**O que foi.** O mosaico de calcário branco e basalto preto que cobre calçadas do Rio. O padrão de ondas da Praça do Rossio, em Lisboa (1848–1849), chama-se **"Mar Largo"**. Ele foi replicado em Copacabana no começo do século XX e redesenhado por Burle Marx nos anos 1970.
+
+**O que aproveitamos.**
+- A lógica do mosaico: módulos pequenos, preto e branco, que formam desenho. Serve para a marca, para ícones de seção e para pequenos detalhes.
+- A coincidência do nome: o Largo tem, no chão da cidade, um desenho chamado Mar Largo. Vale para a página "Sobre" e pode inspirar a marca.
+
+**O que não aproveitamos.**
+- A onda de Copacabana literal como elemento principal. Está gasta por usos turísticos e comerciais e remete à orla da Zona Sul. A pedra portuguesa está em calçadas da cidade inteira; a onda, não.
+- Padrão de mosaico como fundo de texto. Prejudica a leitura.
+
+### 2.5 A letra popular (uso restrito)
+Letreiros pintados à mão, placas de botequim e os escritos do Profeta Gentileza. É a tradição mais afetiva e a mais arriscada.
+- Não entra na tipografia do site: prejudica a leitura e vira pastiche.
+- A obra do Gentileza tem autor. Cabe homenagem pontual e creditada, nunca imitação.
+- Uso possível no futuro: ilustrações de campanhas ou cartazes, feitas por letristas de verdade, contratados e creditados.
+
+### 2.6 Observação direta do SDJB (17 páginas, 1959–1960)
+
+Páginas enviadas pela coordenação editorial em 16/11/2026, guardadas fora do repositório (pasta de referências da coordenação editorial), por serem imagens de terceiros. Orientação recebida: a referência não deve ser usada de forma literal; parte do que se vê é marca de época.
+
+**O que se vê nas páginas.**
+- Títulos em grotesca muito pesada, em caixa-baixa, com as letras bem espaçadas ("m a n i f e s t o", "n e o c o n c r e t o"). O título funciona como estrutura da página e às vezes atravessa duas páginas.
+- Nenhum fio entre colunas. O branco separa e também compõe: há páginas com metade da área vazia.
+- Imagens tratadas como módulos: quadrados e retângulos pretos alinhados em fila ou em coluna, com legenda pequena em caixa-alta.
+- Rótulos de seção e de autor pequenos, em sem serifa espaçada ("Artes plásticas · Ferreira Gullar").
+- Contraste extremo de escala: título enorme, texto corrido miúdo.
+- Blocos de texto de larguras diferentes na mesma página, com a última linha do parágrafo jogada para a direita.
+- Títulos na vertical e mistura de três ou quatro tipos de letra na mesma página.
+- A página de 7/5/1960 já traz fios e título serifado: o próprio jornal não manteve o partido radical o tempo todo.
+
+**O que vale hoje (princípio).**
+- Título em grotesca pesada, caixa-baixa, como assinatura visual: "a boa" e o nome do dia.
+- Contraste forte de escala entre título e informação de serviço.
+- Branco no lugar de fios.
+- Módulos quadrados como sistema: ícones de seção e marca feitos de planos geométricos simples, em preto e branco.
+- Rótulos pequenos e espaçados para área, região e preço.
+- Alinhamento à esquerda com a margem direita solta.
+
+**O que é marca de época e fica de fora.**
+- Texto corrido miúdo, denso e justificado. No celular o corpo do texto continua grande.
+- Texto longo em itálico e letras espaçadas dentro de parágrafo.
+- Títulos na vertical ou partidos entre páginas.
+- Última linha jogada à direita.
+- Vários tipos de letra misturados. O site usa uma família, no máximo duas.
+- Espaçamento largo em títulos longos. Só funciona em palavras curtas.
+
+**Cuidado técnico.** O espaçamento entre letras deve ser feito pelo estilo da página, nunca digitando espaços entre as letras, para que leitores de tela leiam a palavra inteira.
+
+**Efeito sobre a seção 4.** A questão "serifa ou grotesca nos títulos" pende para a grotesca pesada em caixa-baixa. A serifa atual pode ficar no texto ou sair. Decidir nos estudos.
+
+**As obras reproduzidas nas páginas** (Lygia Clark, Lygia Pape, Amilcar de Castro, Weissmann, Oiticica) não serão copiadas nem imitadas. Os módulos do Largo terão desenho próprio.
+
+### 2.7 Observação direta das capas da Elenco (6 capas)
+
+Imagens guardadas fora do repositório, por serem de terceiros.
+
+**O que se vê.**
+- O branco domina: ocupa bem mais da metade de cada capa.
+- O preto entra em massas chapadas, sem meios-tons: fotos em alto contraste, letras enormes, silhuetas.
+- O vermelho quase não ocupa área. Aparece como **pontos**: três ou quatro bolinhas por capa, ou pequenos quadrados espalhados como notas de música. É pontuação, não superfície.
+- O ponto vermelho faz parte da própria marca da gravadora.
+- As letras mudam de capa para capa (grotesca estreita e pesada, caixa-baixa apertada, letra desenhada à mão). A unidade vem da paleta e do ponto, não do tipo de letra.
+
+**O que aproveitamos.**
+- **O ponto vermelho como sinal do sistema.** A marca do Largo já termina num ponto vermelho. Ele passa a ter um significado só: marca o que é destaque ("A boa") e o que está selecionado.
+- Vermelho nunca como fundo nem em áreas grandes.
+- **"Grátis" em etiqueta preta cheia**, com letra clara. Resolve a questão da seção 2.2 sem depender de cor: o grátis vira a etiqueta de maior peso visual da ficha. Evento pago leva etiqueta só de contorno.
+
+**O que fica de fora.** Fotos em alto contraste de artistas (direitos de imagem e peso da página) e letras desenhadas à mão.
+
+### 2.8 Observação direta do símbolo do IV Centenário (6 imagens)
+
+Imagens guardadas fora do repositório, por serem de terceiros.
+
+**O que se vê.** O símbolo é um losango cortado por uma cruz de linhas duplas, que forma quatro triângulos. As imagens mostram o mesmo desenho em suportes muito diferentes: placa de uma comissão de bairro da Tijuca, caixote de uma bicicleta de entrega (pintado à mão), cartaz, adesivo colorido, medalha e calçada de pedra portuguesa.
+
+**Lições para a marca do Largo.**
+- Feita só de linhas retas e poucos elementos. Funciona em uma cor.
+- Aguenta ser pintada à mão, cunhada em metal e montada em pedra.
+- Não depende de letra nem de cor para ser reconhecida.
+- Teste prático: a marca tem de poder ser desenhada num caixote e assentada em pedra portuguesa.
+
+### 2.9 Roberto Burle Marx
+
+Incluído por indicação da coordenação editorial em 16/11/2026.
+
+**O que foi.** Paisagista nascido em São Paulo que viveu quase toda a vida no Rio. Redesenhou a orla de Copacabana em 1970: manteve as ondas junto ao mar e criou, nas calçadas centrais e junto aos prédios, um grande painel abstrato de cerca de 4,5 km em pedra portuguesa **preta, branca e vermelha**. O Sítio Burle Marx fica em Barra de Guaratiba, na Zona Oeste (dado de memória, a conferir).
+
+**O que acrescenta.**
+- A mesma tríade preto, branco e vermelho da Elenco, agora no chão da cidade. A paleta proposta passa a ter duas raízes cariocas independentes.
+- A forma orgânica. Curvas e manchas equilibram a geometria reta do neoconcretismo e evitam que o site fique frio.
+- Desenho pensado para o espaço público e para ser percorrido a pé: afinidade direta com o direito à cidade.
+
+**O que aproveitamos.** Liberdade para usar curvas nos módulos da marca e dos ícones, convivendo com as retas.
+
+**O que não aproveitamos.** Copiar os desenhos de Copacabana, que são obra autoral e da Zona Sul.
+
+### 2.10 Pedra portuguesa além da onda
+
+Busca de imagens feita em 16/11/2026. Além das ondas, aparecem nas calçadas do Rio: os "peixinhos", círculos concêntricos, xadrez de quadrados, frisos geométricos e as manchas abstratas de Burle Marx. O repertório é bem mais largo que o cartão-postal e confirma a ideia de usar o mosaico como lógica, não a onda como desenho.
+
+### 2.11 Designers contemporâneos
+
+Preocupação registrada pela coordenação editorial: o diálogo com a tradição não pode ficar só no cânone histórico. Vale olhar quem retrabalha essa linhagem hoje. Levantamento inicial, a aprofundar:
+
+- **Plau**, estúdio de tipografia do Rio. Fez com a Tátil Design a identidade do Rio Carnaval, com letras que se movem no ritmo do samba.
+- **Vinila**, fonte de Flora de Carvalho distribuída pela Plau. Foi usada na identidade da exposição "Casa Carioca", do Museu de Arte do Rio, que tratava de arquitetura popular e direito à moradia.
+- **Radiográfico**, estúdio carioca de Olívia Ferreira e Pedro Garavaglia, com vinte anos de trabalho para a área cultural.
+- **Pesquisa acadêmica.** A ESDI tem um projeto sobre pedras portuguesas e a imagem gráfica da cidade. Há dissertações que comparam a marca do IV Centenário (1965) com a dos 450 anos (2015) e estudos da UFRJ sobre os pintores de letras do Rio.
+
+**Caminhos possíveis.**
+- Usar uma fonte desenhada no Rio. As fontes da Plau são comerciais: é preciso conferir preço e licença, e comparar com fontes abertas.
+- No lançamento, convidar um designer ou estúdio carioca para desenhar a marca, com licença aberta.
+
+**O tijolinho.** A coordenação editorial indicou como referência de leitura agradável os tijolinhos impressos da Veja Rio e da Veja SP, compostos em serifa. Consequência: o par tipográfico tende a ser **grotesca pesada nos títulos e serifa de texto nas fichas**, o inverso do site atual.
+
+**Peso das referências.** O SDJB já está bem representado. Não buscar mais material do Jornal do Brasil.
+
+## 3. O que evitar sempre
+
+- Cartão-postal: Cristo, Pão de Açúcar, bondinho, arcos.
+- Paleta "tropical" com muitas cores.
+- Clichês de malandragem ou de carioquice caricata (pela mesma razão que levou a trocar "Qualé a boa?" por "A boa").
+- Qualquer imagem que associe o guia a uma só região da cidade.
+
+## 4. Direção proposta (a validar em estudos)
+
+**"Caderno neoconcreto":** JB + Elenco + mosaico. É uma evolução do site atual, não uma refação.
+
+| Elemento | Hoje | Proposta |
+|---|---|---|
+| Separação de blocos | Linhas e fios duplos | Espaço em branco; fio só em casos raros |
+| Paleta | Papel creme, tinta, vermelho, verde, amarelo | Claro, quase preto e um vermelho |
+| Destaques ("A boa") | Caixa com barra vermelha | Título maior e o único uso forte do vermelho |
+| Grátis | Etiqueta verde | A resolver sem depender de cor (ver 2.2) |
+| Tipografia | Serifada nos títulos, sem serifa no texto | Manter o par ou testar grotesca em tudo; decidir nos estudos |
+| Marca | Palavra "Largo" com ponto vermelho | Palavra + símbolo modular redesenhável |
+| Motivo gráfico | Nenhum | Módulos de mosaico em marca e ícones |
+
+**Estudo A (17/11/2026).** Primeira aplicação da direção, publicada como prévia separada, sem substituir o site. Arquivos: `ferramentas/modelo-estudo-a.html` e `ferramentas/estudo_a.css`.
+- Fontes abertas (licença OFL), embutidas no próprio arquivo, sem carregar nada de terceiros: **Archivo** nos títulos e rótulos, **Source Serif 4** nas fichas. Não há orçamento para fontes comerciais.
+- Títulos em caixa-baixa, peso máximo, com espaçamento feito por estilo.
+- Nenhum fio entre eventos; a hora, em grotesca pesada, separa os blocos.
+- Ponto vermelho só na marca e nos destaques. Dia e filtros selecionados ficam em preto cheio.
+- "Grátis" em etiqueta preta cheia; preço popular em etiqueta de contorno; demais informações em rótulos espaçados.
+- Contraste medido: texto 17:1, texto secundário 6,8:1, vermelho 5,4:1 (claro); 16:1, 7,6:1 e 6,7:1 (escuro).
+- Ainda não feito: marca modular, ícones de seção, curvas à Burle Marx.
+
+**Passos seguintes, quando for a hora:**
+1. Dois ou três estudos da mesma tela (o dia de hoje, no celular), lado a lado.
+2. Medir contraste e testar com letra ampliada e leitor de tela.
+3. Escolher, e só então mexer no modelo do site.
+
+## 5. Questões em aberto
+
+- "Grátis" em etiqueta preta cheia (proposta da seção 2.7): testar nos estudos.
+- Qual fonte usar: aberta ou de um estúdio carioca.
+- Referências atuais de roteiros culturais no exterior: levantamento ainda por fazer.
+- Serifa ou grotesca nos títulos.
+- Desenho da marca e do kit aberto.
+- Se o site terá fotografias. Hoje não tem, o que ajuda na leveza e evita problemas de direitos de imagem.
+
+## 6. Fontes consultadas
+
+- Sobre a reforma do JB: dissertações da PUC-Rio ("Amilcar de Castro e a página neoconcreta") e da USP ("Tentativa e acerto"); artigos da Intercom e da Unicamp; Jornal do Brasil (23/05/2018).
+- Sobre a Elenco: Marcello Montore, "O design da bossa nova", Estudos em Design, 2014; Sounds and Colours (14/12/2020).
+- Sobre o IV Centenário: dissertação de Celso Hartkopf Lopes Filho, UFPE, 2018.
+- Sobre o Mar Largo: Observador (02/08/2026); ArchDaily.
+
+Limite deste guia: SDJB, capas da Elenco e símbolo do IV Centenário foram observados diretamente (seções 2.6 a 2.8). As demais referências foram descritas a partir de textos. Imagens enviadas pela coordenação editorial refinam as decisões da seção 4.

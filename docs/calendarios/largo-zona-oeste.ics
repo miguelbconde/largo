@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Largo//Agenda cultural do Rio de Janeiro//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Largo · Zona Oeste
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:2026-11-15-051-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T150000Z
+DTEND:20261115T170000Z
+SUMMARY:Acorda & Samba convida João Martins
+LOCATION:Areninha Cultural Hermeto Pascoal\, Praça Primeiro de Maio\, s/
+ nº – Bangu
+DESCRIPTION:Roda de samba com convidado\, feira de artesãos locais e roc
+ k no encerramento.\n\nGrátis · 14 anos\n\nFonte: https://cultura.prefe
+ itura.rio/agendacultural/\nLargo — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-053-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T130000Z
+DTEND:20261115T150000Z
+SUMMARY:Domingo recreativo para crianças
+LOCATION:Areninha Cultural Sandra de Sá\, Rua Doze\, 1 – Santa Cruz
+DESCRIPTION:Jogos\, brincadeiras e pintura para a criançada\, todo domin
+ go.\n\nGrátis · Livre\n\nFonte: https://cultura.prefeitura.rio/agendac
+ ultural/\nLargo — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Infantil
+END:VEVENT
+END:VCALENDAR

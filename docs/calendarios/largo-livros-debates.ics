@@ -1,0 +1,111 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Largo//Agenda cultural do Rio de Janeiro//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Largo · Livros & Debates
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:2026-11-15-015-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261116T173000Z
+DTEND:20261116T193000Z
+SUMMARY:Carnaval: Memória para o Amanhã
+LOCATION:Museu do Amanhã\, Praça Mauá\, 1 – Centro
+DESCRIPTION:Roda de conversa sobre o carnaval como guardião da memória 
+ de povos e territórios pouco representados.\n\nGrátis · Livre\n\nFont
+ e: https://cultura.prefeitura.rio/agendacultural/\nLargo — agenda cult
+ ural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Livros & Debates
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-018-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T120000Z
+DTEND:20261115T140000Z
+SUMMARY:Lançamento: Vivências Pedagógicas – Terreiros e Escolas na L
+ uta Antirracista
+LOCATION:Muhcab – Museu da História e da Cultura Afro-Brasileira\, Rua
+  Pedro Ernesto\, 80 – Gamboa
+DESCRIPTION:Livro organizado por Gisele Rose sobre o encontro entre escol
+ a e saberes de terreiro no combate ao racismo.\n\nGrátis · Livre\n\nFo
+ nte: https://cultura.prefeitura.rio/agendacultural/\nLargo — agenda cu
+ ltural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Livros & Debates
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-031-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261117T180000Z
+DTEND:20261117T200000Z
+SUMMARY:Clube de Leitura Infantil – Consciência Negra
+LOCATION:Biblioteca Municipal Moacyr Teixeira\,  – 
+DESCRIPTION:Leituras de livros infantis sobre a temática negra.\n\nPreç
+ o não informado · Livre\n\nATENÇÃO: informação a confirmar na font
+ e.\n\nFonte: https://cultura.prefeitura.rio/agendacultural/\nLargo — a
+ genda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Infantil\,Livros & Debates
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-031-1@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261118T180000Z
+DTEND:20261118T200000Z
+SUMMARY:Clube de Leitura Infantil – Consciência Negra
+LOCATION:Biblioteca Municipal Moacyr Teixeira\,  – 
+DESCRIPTION:Leituras de livros infantis sobre a temática negra.\n\nPreç
+ o não informado · Livre\n\nATENÇÃO: informação a confirmar na font
+ e.\n\nFonte: https://cultura.prefeitura.rio/agendacultural/\nLargo — a
+ genda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Infantil\,Livros & Debates
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-031-2@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261119T180000Z
+DTEND:20261119T200000Z
+SUMMARY:Clube de Leitura Infantil – Consciência Negra
+LOCATION:Biblioteca Municipal Moacyr Teixeira\,  – 
+DESCRIPTION:Leituras de livros infantis sobre a temática negra.\n\nPreç
+ o não informado · Livre\n\nATENÇÃO: informação a confirmar na font
+ e.\n\nFonte: https://cultura.prefeitura.rio/agendacultural/\nLargo — a
+ genda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Infantil\,Livros & Debates
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-048-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T120000Z
+DTEND:20261115T140000Z
+SUMMARY:Encontro Anual de Mulheres Tèmiloju Brasil
+LOCATION:Areninha Cultural Carlos Zéfiro\, Estrada Marechal Alencastro\,
+  s/nº – Anchieta
+DESCRIPTION:Roda de conversa com mulheres e lideranças comunitárias sob
+ re trajetórias femininas.\n\nGrátis · Livre\n\nFonte: https://cultura
+ .prefeitura.rio/agendacultural/\nLargo — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Livros & Debates
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-066-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261125T203000Z
+DTEND:20261125T223000Z
+SUMMARY:Clube de Leitura CCBB com Raphael Montes
+LOCATION:Centro Cultural Banco do Brasil (CCBB)\, Rua Primeiro de Março\
+ , 66 – Centro
+DESCRIPTION:Conversa sobre suspense e crime na literatura a partir do rom
+ ance Dias Perfeitos\, com o autor.\n\nGrátis (ingressos às 9h do dia) 
+ · 14 anos\n\nFonte: https://ccbb.com.br/rio-de-janeiro/programacao/club
+ e-de-leitura-ccbb/\nLargo — agenda cultural aberta do Rio
+URL:https://ccbb.com.br/rio-de-janeiro/programacao/clube-de-leitura-ccbb/
+CATEGORIES:Livros & Debates
+END:VEVENT
+END:VCALENDAR

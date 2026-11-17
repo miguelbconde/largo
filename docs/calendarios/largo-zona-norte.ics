@@ -1,0 +1,337 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Largo//Agenda cultural do Rio de Janeiro//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Largo · Zona Norte
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:2026-11-15-034-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T220000Z
+DTEND:20261116T000000Z
+SUMMARY:As Irmãs Pereira
+LOCATION:Teatro Municipal Ziembinski\, Rua Heitor Beltrão\, s/nº – Ti
+ juca
+DESCRIPTION:Três irmãs na casa da família\, no Largo do Boticário\, d
+ ecidem onde jogar as cinzas da mãe e revisitam desejos e memórias.\n\n
+ R$ 35 a R$ 70 · 12 anos\n\nFonte: https://cultura.prefeitura.rio/agenda
+ cultural/\nLargo — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-035-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T190000Z
+DTEND:20261115T210000Z
+SUMMARY:Quintal
+LOCATION:Teatro Municipal Ziembinski\, Rua Heitor Beltrão\, s/nº – Ti
+ juca
+DESCRIPTION:Cinco crianças do subúrbio lutam para salvar o quintal onde
+  brincam da especulação imobiliária.\n\nR$ 20 a R$ 40 · Livre\n\nFon
+ te: https://cultura.prefeitura.rio/agendacultural/\nLargo — agenda cul
+ tural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Infantil\,Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-035-1@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261121T190000Z
+DTEND:20261121T210000Z
+SUMMARY:Quintal
+LOCATION:Teatro Municipal Ziembinski\, Rua Heitor Beltrão\, s/nº – Ti
+ juca
+DESCRIPTION:Cinco crianças do subúrbio lutam para salvar o quintal onde
+  brincam da especulação imobiliária.\n\nR$ 20 a R$ 40 · Livre\n\nFon
+ te: https://cultura.prefeitura.rio/agendacultural/\nLargo — agenda cul
+ tural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Infantil\,Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-035-2@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261122T190000Z
+DTEND:20261122T210000Z
+SUMMARY:Quintal
+LOCATION:Teatro Municipal Ziembinski\, Rua Heitor Beltrão\, s/nº – Ti
+ juca
+DESCRIPTION:Cinco crianças do subúrbio lutam para salvar o quintal onde
+  brincam da especulação imobiliária.\n\nR$ 20 a R$ 40 · Livre\n\nFon
+ te: https://cultura.prefeitura.rio/agendacultural/\nLargo — agenda cul
+ tural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Infantil\,Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-036-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261117T230000Z
+DTEND:20261118T010000Z
+SUMMARY:Rei de Copas
+LOCATION:Teatro Municipal Ziembinski\, Rua Heitor Beltrão\, s/nº – Ti
+ juca
+DESCRIPTION:Após a morte do pai\, irmãos e o viúvo precisam decidir o 
+ destino de um bar de jogos de tabuleiro que só dá prejuízo.\n\nR$ 30 
+ a R$ 60 · 12 anos\n\nFonte: https://cultura.prefeitura.rio/agendacultur
+ al/\nLargo — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-036-1@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261118T230000Z
+DTEND:20261119T010000Z
+SUMMARY:Rei de Copas
+LOCATION:Teatro Municipal Ziembinski\, Rua Heitor Beltrão\, s/nº – Ti
+ juca
+DESCRIPTION:Após a morte do pai\, irmãos e o viúvo precisam decidir o 
+ destino de um bar de jogos de tabuleiro que só dá prejuízo.\n\nR$ 30 
+ a R$ 60 · 12 anos\n\nFonte: https://cultura.prefeitura.rio/agendacultur
+ al/\nLargo — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-037-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T190000Z
+DTEND:20261115T210000Z
+SUMMARY:SuperAções
+LOCATION:Teatro Municipal de Guignol da Tijuca\, Praça Comandante Xavier
+  de Brito\, s/nº – Tijuca
+DESCRIPTION:Monólogo circense-musical: um homem-banda toca até 11 instr
+ umentos ao mesmo tempo e se equilibra em pernas de pau.\n\nGrátis · Li
+ vre\n\nFonte: https://cultura.prefeitura.rio/agendacultural/\nLargo — 
+ agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Infantil\,Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-038-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T140000Z
+DTEND:20261115T160000Z
+SUMMARY:Grupo Lekê: Música\, Arte e Ancestralidade
+LOCATION:Centro da Música Carioca Artur da Távola\, Rua Conde de Bonfim
+ \, 824 – Tijuca
+DESCRIPTION:Músicos negros aproximam a música de concerto da música af
+ ro-brasileira\, de pontos de terreiro a arranjos orquestrais.\n\nR$ 15 a
+  R$ 30 · Livre\n\nFonte: https://cultura.prefeitura.rio/agendacultural/
+ \nLargo — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-039-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T190000Z
+DTEND:20261115T210000Z
+SUMMARY:Pérolas Negras – Histórias da Mãe África
+LOCATION:Centro da Música Carioca Artur da Távola\, Rua Conde de Bonfim
+ \, 824 – Tijuca
+DESCRIPTION:A Cia. Mimos conta três histórias da tradição oral africa
+ na com mímica\, objetos e música ao vivo.\n\nR$ 20 a R$ 40 · Livre\n\
+ nFonte: https://cultura.prefeitura.rio/agendacultural/\nLargo — agenda
+  cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Infantil\,Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-040-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261118T220000Z
+DTEND:20261119T000000Z
+SUMMARY:Julio! em O Canto que a História Não Conta
+LOCATION:Centro da Música Carioca Artur da Távola\, Rua Conde de Bonfim
+ \, 824 – Tijuca
+DESCRIPTION:Show acústico do cantor e professor de História sobre os gr
+ andes intérpretes e compositores negros do samba.\n\nR$ 30 a R$ 60 · L
+ ivre\n\nFonte: https://cultura.prefeitura.rio/agendacultural/\nLargo —
+  agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-042-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T210000Z
+DTEND:20261115T230000Z
+SUMMARY:Festival MonStra – Tripas\, Coração (último dia)
+LOCATION:Centro Coreográfico da Cidade do Rio de Janeiro\, Rua José Hig
+ ino\, 115 – Tijuca
+DESCRIPTION:Encerramento da mostra de dança e performance com três trab
+ alhos: Uma Coisa de Cada Vez\, Manual de Feitiço e Nuca.\n\nR$ 20 a R$ 
+ 40 · 14 anos\n\nFonte: https://cultura.prefeitura.rio/agendacultural/\n
+ Largo — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-043-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T180000Z
+DTEND:20261115T200000Z
+SUMMARY:Aladdin – Um Novo Mundo
+LOCATION:Arena Carioca Dicró\, Rua Flora Lobo\, Parque Ary Barroso\, s/n
+ º – Penha Circular
+DESCRIPTION:Montagem infantil da história do jovem que encontra uma lâm
+ pada mágica.\n\nR$ 20 a R$ 40 · Livre\n\nFonte: https://cultura.prefei
+ tura.rio/agendacultural/\nLargo — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Infantil\,Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-045-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T210000Z
+DTEND:20261115T230000Z
+SUMMARY:Bora Lá – Comédia de Improviso
+LOCATION:Arena Cultural Fernando Torres\, Rua Bernardino de Andrade\, 200
+  (Parque de Madureira) – Madureira
+DESCRIPTION:Quatro artistas e um convidado criam cenas na hora a partir d
+ e sugestões da plateia.\n\nR$ 30 a R$ 60 · 16 anos\n\nFonte: https://c
+ ultura.prefeitura.rio/agendacultural/\nLargo — agenda cultural aberta 
+ do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-046-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T200000Z
+DTEND:20261115T220000Z
+SUMMARY:Em Gira: Ela Encruzilhada
+LOCATION:Areninha Cultural Terra\, Rua Marcos de Macedo\, s/nº – Guada
+ lupe
+DESCRIPTION:A passista Iara Cassano percorre as encruzilhadas do samba\, 
+ do quintal da avó à avenida.\n\nGrátis · Livre\n\nFonte: https://cul
+ tura.prefeitura.rio/agendacultural/\nLargo — agenda cultural aberta do
+  Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Teatro\,Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-047-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T210000Z
+DTEND:20261115T230000Z
+SUMMARY:Roda de Samba Democráticos de Guadalupe
+LOCATION:Areninha Cultural Terra\, Rua Marcos de Macedo\, s/nº – Guada
+ lupe
+DESCRIPTION:Grupo tradicional do bairro\, ligado ao Trem do Samba\, com a
+  raiz do samba de quintal suburbano.\n\nGrátis · Livre\n\nFonte: https
+ ://cultura.prefeitura.rio/agendacultural/\nLargo — agenda cultural abe
+ rta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-048-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T120000Z
+DTEND:20261115T140000Z
+SUMMARY:Encontro Anual de Mulheres Tèmiloju Brasil
+LOCATION:Areninha Cultural Carlos Zéfiro\, Estrada Marechal Alencastro\,
+  s/nº – Anchieta
+DESCRIPTION:Roda de conversa com mulheres e lideranças comunitárias sob
+ re trajetórias femininas.\n\nGrátis · Livre\n\nFonte: https://cultura
+ .prefeitura.rio/agendacultural/\nLargo — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Livros & Debates
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-049-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261116T200000Z
+DTEND:20261116T220000Z
+SUMMARY:Cine Jorge Amado: Autoestima de Crianças Negras
+LOCATION:Biblioteca Municipal Jorge Amado (Areninha Herbert Vianna)\, Rua
+  Ivanildo Alves\, s/nº – Maré
+DESCRIPTION:Exibição sobre a formação da identidade étnica e o empod
+ eramento de crianças negras.\n\nGrátis · Livre\n\nFonte: https://cult
+ ura.prefeitura.rio/agendacultural/\nLargo — agenda cultural aberta do 
+ Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Cinema\,Infantil
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-070-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T210000Z
+DTEND:20261115T230000Z
+SUMMARY:La Strada – Os Que Vieram Antes de Nós
+LOCATION:Sesc Tijuca\, Rua Barão de Mesquita\, 539 – Tijuca
+DESCRIPTION:Palhaçaria e teatro documentário sobre gerações de palha
+ ços anônimos que fizeram a história do circo no Brasil.\n\nR$ 30 (mei
+ a R$ 15) · Livre\n\nFonte: https://cultura.sescrio.org.br/programacao/l
+ a-strada-os-que-vieram-antes-de-nos\nLargo — agenda cultural aberta do
+  Rio
+URL:https://cultura.sescrio.org.br/programacao/la-strada-os-que-vieram-an
+ tes-de-nos
+CATEGORIES:Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-070-1@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261119T220000Z
+DTEND:20261120T000000Z
+SUMMARY:La Strada – Os Que Vieram Antes de Nós
+LOCATION:Sesc Tijuca\, Rua Barão de Mesquita\, 539 – Tijuca
+DESCRIPTION:Palhaçaria e teatro documentário sobre gerações de palha
+ ços anônimos que fizeram a história do circo no Brasil.\n\nR$ 30 (mei
+ a R$ 15) · Livre\n\nFonte: https://cultura.sescrio.org.br/programacao/l
+ a-strada-os-que-vieram-antes-de-nos\nLargo — agenda cultural aberta do
+  Rio
+URL:https://cultura.sescrio.org.br/programacao/la-strada-os-que-vieram-an
+ tes-de-nos
+CATEGORIES:Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-071-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261117T220000Z
+DTEND:20261118T000000Z
+SUMMARY:Gean Pankararu
+LOCATION:Sesc Tijuca\, Rua Barão de Mesquita\, 539 – Tijuca
+DESCRIPTION:Músico do povo Pankararu (PE)\, indicado ao Indigenous Music
+  Awards\, une tradição indígena e música contemporânea do Nordeste.
+ \n\nGrátis · Livre\n\nFonte: https://cultura.sescrio.org.br/programaca
+ o/gean-pankararu\nLargo — agenda cultural aberta do Rio
+URL:https://cultura.sescrio.org.br/programacao/gean-pankararu
+CATEGORIES:Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-072-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261120T170000Z
+DTEND:20261120T190000Z
+SUMMARY:Terreiro de Mangueira – Cordel Negro
+LOCATION:Sesc Tijuca\, Rua Barão de Mesquita\, 539 – Tijuca
+DESCRIPTION:O grupo Cordel Negro mistura ritmos afro-indígenas com samba
+ \, choro\, forró e carimbó.\n\nGrátis · Livre\n\nFonte: https://cult
+ ura.sescrio.org.br/programacao/terreiro-de-mangueira\nLargo — agenda c
+ ultural aberta do Rio
+URL:https://cultura.sescrio.org.br/programacao/terreiro-de-mangueira
+CATEGORIES:Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-073-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261122T180000Z
+DTEND:20261122T200000Z
+SUMMARY:Rio Maracatu
+LOCATION:Sesc Tijuca\, Rua Barão de Mesquita\, 539 – Tijuca
+DESCRIPTION:Há 28 anos nas ruas do Centro\, o grupo apresenta toadas das
+  nações de maracatu de baque virado\, ciranda e coco.\n\nGrátis · Li
+ vre\n\nFonte: https://cultura.sescrio.org.br/programacao/rio-maracatu\nL
+ argo — agenda cultural aberta do Rio
+URL:https://cultura.sescrio.org.br/programacao/rio-maracatu
+CATEGORIES:Música
+END:VEVENT
+END:VCALENDAR

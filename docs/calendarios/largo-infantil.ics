@@ -1,0 +1,327 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Largo//Agenda cultural do Rio de Janeiro//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Largo · Infantil
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:2026-11-15-004-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T220000Z
+DTEND:20261116T000000Z
+SUMMARY:Nada sob Controle
+LOCATION:Teatro Municipal Café Pequeno\, Av. Ataulfo de Paiva\, 269 – 
+ Leblon
+DESCRIPTION:Comédia circense do Circo Teatro Saltimbanco\, com palhaços
+ \, desencontros e improviso na tradição do circo brasileiro.\n\nR$ 15 
+ a R$ 30 · 14 anos\n\nATENÇÃO: informação a confirmar na fonte.\n\nF
+ onte: https://cultura.prefeitura.rio/agendacultural/\nLargo — agenda c
+ ultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Teatro\,Infantil
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-004-1@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261120T230000Z
+DTEND:20261121T010000Z
+SUMMARY:Nada sob Controle
+LOCATION:Teatro Municipal Café Pequeno\, Av. Ataulfo de Paiva\, 269 – 
+ Leblon
+DESCRIPTION:Comédia circense do Circo Teatro Saltimbanco\, com palhaços
+ \, desencontros e improviso na tradição do circo brasileiro.\n\nR$ 15 
+ a R$ 30 · 14 anos\n\nATENÇÃO: informação a confirmar na fonte.\n\nF
+ onte: https://cultura.prefeitura.rio/agendacultural/\nLargo — agenda c
+ ultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Teatro\,Infantil
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-004-2@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261121T230000Z
+DTEND:20261122T010000Z
+SUMMARY:Nada sob Controle
+LOCATION:Teatro Municipal Café Pequeno\, Av. Ataulfo de Paiva\, 269 – 
+ Leblon
+DESCRIPTION:Comédia circense do Circo Teatro Saltimbanco\, com palhaços
+ \, desencontros e improviso na tradição do circo brasileiro.\n\nR$ 15 
+ a R$ 30 · 14 anos\n\nATENÇÃO: informação a confirmar na fonte.\n\nF
+ onte: https://cultura.prefeitura.rio/agendacultural/\nLargo — agenda c
+ ultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Teatro\,Infantil
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-004-3@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261122T220000Z
+DTEND:20261123T000000Z
+SUMMARY:Nada sob Controle
+LOCATION:Teatro Municipal Café Pequeno\, Av. Ataulfo de Paiva\, 269 – 
+ Leblon
+DESCRIPTION:Comédia circense do Circo Teatro Saltimbanco\, com palhaços
+ \, desencontros e improviso na tradição do circo brasileiro.\n\nR$ 15 
+ a R$ 30 · 14 anos\n\nATENÇÃO: informação a confirmar na fonte.\n\nF
+ onte: https://cultura.prefeitura.rio/agendacultural/\nLargo — agenda c
+ ultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Teatro\,Infantil
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-007-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T180000Z
+DTEND:20261115T200000Z
+SUMMARY:O Salto – 20 Anos
+LOCATION:Teatro de Fantoches e Marionetes Carlos Werneck de Carvalho\, At
+ erro do Flamengo\, altura do Posto 3 – Flamengo
+DESCRIPTION:O palhaço Migué Bruguelo promete três saltos de olhos vend
+ ados — e até lá tudo pode acontecer.\n\nGrátis · Livre\n\nFonte: h
+ ttps://cultura.prefeitura.rio/agendacultural/\nLargo — agenda cultural
+  aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Infantil\,Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-013-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T140000Z
+DTEND:20261115T160000Z
+SUMMARY:Zuzuê Contos Africanos
+LOCATION:Teatro Municipal Ruth de Souza\, Rua Murtinho Nobre\, 169 – Sa
+ nta Teresa
+DESCRIPTION:Narração de histórias afro-diaspóricas\, com Libras integ
+ rada à cena. Cerca de 50 minutos.\n\nR$ 20 a R$ 40 · Livre\n\nFonte: h
+ ttps://cultura.prefeitura.rio/agendacultural/\nLargo — agenda cultural
+  aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Infantil\,Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-013-1@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261121T140000Z
+DTEND:20261121T160000Z
+SUMMARY:Zuzuê Contos Africanos
+LOCATION:Teatro Municipal Ruth de Souza\, Rua Murtinho Nobre\, 169 – Sa
+ nta Teresa
+DESCRIPTION:Narração de histórias afro-diaspóricas\, com Libras integ
+ rada à cena. Cerca de 50 minutos.\n\nR$ 20 a R$ 40 · Livre\n\nFonte: h
+ ttps://cultura.prefeitura.rio/agendacultural/\nLargo — agenda cultural
+  aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Infantil\,Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-013-2@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261122T140000Z
+DTEND:20261122T160000Z
+SUMMARY:Zuzuê Contos Africanos
+LOCATION:Teatro Municipal Ruth de Souza\, Rua Murtinho Nobre\, 169 – Sa
+ nta Teresa
+DESCRIPTION:Narração de histórias afro-diaspóricas\, com Libras integ
+ rada à cena. Cerca de 50 minutos.\n\nR$ 20 a R$ 40 · Livre\n\nFonte: h
+ ttps://cultura.prefeitura.rio/agendacultural/\nLargo — agenda cultural
+  aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Infantil\,Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-031-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261117T180000Z
+DTEND:20261117T200000Z
+SUMMARY:Clube de Leitura Infantil – Consciência Negra
+LOCATION:Biblioteca Municipal Moacyr Teixeira\,  – 
+DESCRIPTION:Leituras de livros infantis sobre a temática negra.\n\nPreç
+ o não informado · Livre\n\nATENÇÃO: informação a confirmar na font
+ e.\n\nFonte: https://cultura.prefeitura.rio/agendacultural/\nLargo — a
+ genda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Infantil\,Livros & Debates
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-031-1@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261118T180000Z
+DTEND:20261118T200000Z
+SUMMARY:Clube de Leitura Infantil – Consciência Negra
+LOCATION:Biblioteca Municipal Moacyr Teixeira\,  – 
+DESCRIPTION:Leituras de livros infantis sobre a temática negra.\n\nPreç
+ o não informado · Livre\n\nATENÇÃO: informação a confirmar na font
+ e.\n\nFonte: https://cultura.prefeitura.rio/agendacultural/\nLargo — a
+ genda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Infantil\,Livros & Debates
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-031-2@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261119T180000Z
+DTEND:20261119T200000Z
+SUMMARY:Clube de Leitura Infantil – Consciência Negra
+LOCATION:Biblioteca Municipal Moacyr Teixeira\,  – 
+DESCRIPTION:Leituras de livros infantis sobre a temática negra.\n\nPreç
+ o não informado · Livre\n\nATENÇÃO: informação a confirmar na font
+ e.\n\nFonte: https://cultura.prefeitura.rio/agendacultural/\nLargo — a
+ genda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Infantil\,Livros & Debates
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-035-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T190000Z
+DTEND:20261115T210000Z
+SUMMARY:Quintal
+LOCATION:Teatro Municipal Ziembinski\, Rua Heitor Beltrão\, s/nº – Ti
+ juca
+DESCRIPTION:Cinco crianças do subúrbio lutam para salvar o quintal onde
+  brincam da especulação imobiliária.\n\nR$ 20 a R$ 40 · Livre\n\nFon
+ te: https://cultura.prefeitura.rio/agendacultural/\nLargo — agenda cul
+ tural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Infantil\,Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-035-1@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261121T190000Z
+DTEND:20261121T210000Z
+SUMMARY:Quintal
+LOCATION:Teatro Municipal Ziembinski\, Rua Heitor Beltrão\, s/nº – Ti
+ juca
+DESCRIPTION:Cinco crianças do subúrbio lutam para salvar o quintal onde
+  brincam da especulação imobiliária.\n\nR$ 20 a R$ 40 · Livre\n\nFon
+ te: https://cultura.prefeitura.rio/agendacultural/\nLargo — agenda cul
+ tural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Infantil\,Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-035-2@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261122T190000Z
+DTEND:20261122T210000Z
+SUMMARY:Quintal
+LOCATION:Teatro Municipal Ziembinski\, Rua Heitor Beltrão\, s/nº – Ti
+ juca
+DESCRIPTION:Cinco crianças do subúrbio lutam para salvar o quintal onde
+  brincam da especulação imobiliária.\n\nR$ 20 a R$ 40 · Livre\n\nFon
+ te: https://cultura.prefeitura.rio/agendacultural/\nLargo — agenda cul
+ tural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Infantil\,Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-037-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T190000Z
+DTEND:20261115T210000Z
+SUMMARY:SuperAções
+LOCATION:Teatro Municipal de Guignol da Tijuca\, Praça Comandante Xavier
+  de Brito\, s/nº – Tijuca
+DESCRIPTION:Monólogo circense-musical: um homem-banda toca até 11 instr
+ umentos ao mesmo tempo e se equilibra em pernas de pau.\n\nGrátis · Li
+ vre\n\nFonte: https://cultura.prefeitura.rio/agendacultural/\nLargo — 
+ agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Infantil\,Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-039-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T190000Z
+DTEND:20261115T210000Z
+SUMMARY:Pérolas Negras – Histórias da Mãe África
+LOCATION:Centro da Música Carioca Artur da Távola\, Rua Conde de Bonfim
+ \, 824 – Tijuca
+DESCRIPTION:A Cia. Mimos conta três histórias da tradição oral africa
+ na com mímica\, objetos e música ao vivo.\n\nR$ 20 a R$ 40 · Livre\n\
+ nFonte: https://cultura.prefeitura.rio/agendacultural/\nLargo — agenda
+  cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Infantil\,Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-043-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T180000Z
+DTEND:20261115T200000Z
+SUMMARY:Aladdin – Um Novo Mundo
+LOCATION:Arena Carioca Dicró\, Rua Flora Lobo\, Parque Ary Barroso\, s/n
+ º – Penha Circular
+DESCRIPTION:Montagem infantil da história do jovem que encontra uma lâm
+ pada mágica.\n\nR$ 20 a R$ 40 · Livre\n\nFonte: https://cultura.prefei
+ tura.rio/agendacultural/\nLargo — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Infantil\,Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-049-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261116T200000Z
+DTEND:20261116T220000Z
+SUMMARY:Cine Jorge Amado: Autoestima de Crianças Negras
+LOCATION:Biblioteca Municipal Jorge Amado (Areninha Herbert Vianna)\, Rua
+  Ivanildo Alves\, s/nº – Maré
+DESCRIPTION:Exibição sobre a formação da identidade étnica e o empod
+ eramento de crianças negras.\n\nGrátis · Livre\n\nFonte: https://cult
+ ura.prefeitura.rio/agendacultural/\nLargo — agenda cultural aberta do 
+ Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Cinema\,Infantil
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-053-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T130000Z
+DTEND:20261115T150000Z
+SUMMARY:Domingo recreativo para crianças
+LOCATION:Areninha Cultural Sandra de Sá\, Rua Doze\, 1 – Santa Cruz
+DESCRIPTION:Jogos\, brincadeiras e pintura para a criançada\, todo domin
+ go.\n\nGrátis · Livre\n\nFonte: https://cultura.prefeitura.rio/agendac
+ ultural/\nLargo — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Infantil
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-064-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261121T190000Z
+DTEND:20261121T210000Z
+SUMMARY:Sudi – O Elogio da Surdez
+LOCATION:Centro Cultural Banco do Brasil (CCBB)\, Rua Primeiro de Março\
+ , 66 – Centro
+DESCRIPTION:Uma menina que percebe o mundo pelos olhos\, pela pele e pela
+ s mãos parte em busca da Flor de Oto\, ao lado de uma amiga que fala Li
+ bras.\n\nR$ 30 (meia R$ 15) · Livre\n\nFonte: https://ccbb.com.br/rio-d
+ e-janeiro/programacao/sudi-o-elogio-da-surdez/\nLargo — agenda cultura
+ l aberta do Rio
+URL:https://ccbb.com.br/rio-de-janeiro/programacao/sudi-o-elogio-da-surde
+ z/
+CATEGORIES:Infantil\,Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-064-1@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261122T190000Z
+DTEND:20261122T210000Z
+SUMMARY:Sudi – O Elogio da Surdez
+LOCATION:Centro Cultural Banco do Brasil (CCBB)\, Rua Primeiro de Março\
+ , 66 – Centro
+DESCRIPTION:Uma menina que percebe o mundo pelos olhos\, pela pele e pela
+ s mãos parte em busca da Flor de Oto\, ao lado de uma amiga que fala Li
+ bras.\n\nR$ 30 (meia R$ 15) · Livre\n\nFonte: https://ccbb.com.br/rio-d
+ e-janeiro/programacao/sudi-o-elogio-da-surdez/\nLargo — agenda cultura
+ l aberta do Rio
+URL:https://ccbb.com.br/rio-de-janeiro/programacao/sudi-o-elogio-da-surde
+ z/
+CATEGORIES:Infantil\,Teatro
+END:VEVENT
+END:VCALENDAR

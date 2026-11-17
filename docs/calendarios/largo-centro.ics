@@ -1,0 +1,375 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Largo//Agenda cultural do Rio de Janeiro//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Largo · Centro
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:2026-11-15-012-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T200000Z
+DTEND:20261115T220000Z
+SUMMARY:Moraes Musical Moreira
+LOCATION:Teatro Municipal Carlos Gomes\, Praça Tiradentes\, s/nº – Ce
+ ntro
+DESCRIPTION:Musical inspirado no cordel que percorre a vida e a obra de M
+ oraes Moreira.\n\nR$ 40 a R$ 80 · 12 anos\n\nFonte: https://cultura.pre
+ feitura.rio/agendacultural/\nLargo — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Música\,Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-013-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T140000Z
+DTEND:20261115T160000Z
+SUMMARY:Zuzuê Contos Africanos
+LOCATION:Teatro Municipal Ruth de Souza\, Rua Murtinho Nobre\, 169 – Sa
+ nta Teresa
+DESCRIPTION:Narração de histórias afro-diaspóricas\, com Libras integ
+ rada à cena. Cerca de 50 minutos.\n\nR$ 20 a R$ 40 · Livre\n\nFonte: h
+ ttps://cultura.prefeitura.rio/agendacultural/\nLargo — agenda cultural
+  aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Infantil\,Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-013-1@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261121T140000Z
+DTEND:20261121T160000Z
+SUMMARY:Zuzuê Contos Africanos
+LOCATION:Teatro Municipal Ruth de Souza\, Rua Murtinho Nobre\, 169 – Sa
+ nta Teresa
+DESCRIPTION:Narração de histórias afro-diaspóricas\, com Libras integ
+ rada à cena. Cerca de 50 minutos.\n\nR$ 20 a R$ 40 · Livre\n\nFonte: h
+ ttps://cultura.prefeitura.rio/agendacultural/\nLargo — agenda cultural
+  aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Infantil\,Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-013-2@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261122T140000Z
+DTEND:20261122T160000Z
+SUMMARY:Zuzuê Contos Africanos
+LOCATION:Teatro Municipal Ruth de Souza\, Rua Murtinho Nobre\, 169 – Sa
+ nta Teresa
+DESCRIPTION:Narração de histórias afro-diaspóricas\, com Libras integ
+ rada à cena. Cerca de 50 minutos.\n\nR$ 20 a R$ 40 · Livre\n\nFonte: h
+ ttps://cultura.prefeitura.rio/agendacultural/\nLargo — agenda cultural
+  aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Infantil\,Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-014-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T200000Z
+DTEND:20261115T220000Z
+SUMMARY:Cia Banto – 20 Anos em Movimento
+LOCATION:Teatro Municipal Ruth de Souza\, Rua Murtinho Nobre\, 169 – Sa
+ nta Teresa
+DESCRIPTION:Primeiro grupo de jongo da Zona Oeste celebra 20 anos com jon
+ go\, samba de roda e ijexá.\n\nGrátis (retirada no dia\, na bilheteria
+ ) · Livre\n\nFonte: https://cultura.prefeitura.rio/agendacultural/\nLar
+ go — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Música\,Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-015-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261116T173000Z
+DTEND:20261116T193000Z
+SUMMARY:Carnaval: Memória para o Amanhã
+LOCATION:Museu do Amanhã\, Praça Mauá\, 1 – Centro
+DESCRIPTION:Roda de conversa sobre o carnaval como guardião da memória 
+ de povos e territórios pouco representados.\n\nGrátis · Livre\n\nFont
+ e: https://cultura.prefeitura.rio/agendacultural/\nLargo — agenda cult
+ ural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Livros & Debates
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-018-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T120000Z
+DTEND:20261115T140000Z
+SUMMARY:Lançamento: Vivências Pedagógicas – Terreiros e Escolas na L
+ uta Antirracista
+LOCATION:Muhcab – Museu da História e da Cultura Afro-Brasileira\, Rua
+  Pedro Ernesto\, 80 – Gamboa
+DESCRIPTION:Livro organizado por Gisele Rose sobre o encontro entre escol
+ a e saberes de terreiro no combate ao racismo.\n\nGrátis · Livre\n\nFo
+ nte: https://cultura.prefeitura.rio/agendacultural/\nLargo — agenda cu
+ ltural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Livros & Debates
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-019-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T150000Z
+DTEND:20261115T170000Z
+SUMMARY:Pagode da Gigi
+LOCATION:Muhcab – Museu da História e da Cultura Afro-Brasileira\, Rua
+  Pedro Ernesto\, 80 – Gamboa
+DESCRIPTION:Tradicional roda de samba que celebra a cultura negra e os la
+ ços comunitários.\n\nR$ 15 a R$ 25 · Livre\n\nFonte: https://cultura.
+ prefeitura.rio/agendacultural/\nLargo — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-059-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261115T200000Z
+DTEND:20261115T220000Z
+SUMMARY:Entre o Sim e o Nunca
+LOCATION:Centro Cultural Banco do Brasil (CCBB)\, Rua Primeiro de Março\
+ , 66 – Centro
+DESCRIPTION:Aos 35 anos\, uma mulher descobre que o pai registrado não 
+ é o biológico e sai em busca da própria origem. Drama com humor.\n\nR
+ $ 30 (meia R$ 15) · 12 anos\n\nFonte: https://ccbb.com.br/rio-de-janeir
+ o/programacao/entre-sim-e-o-nunca/\nLargo — agenda cultural aberta do 
+ Rio
+URL:https://ccbb.com.br/rio-de-janeiro/programacao/entre-sim-e-o-nunca/
+CATEGORIES:Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-059-1@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261118T220000Z
+DTEND:20261119T000000Z
+SUMMARY:Entre o Sim e o Nunca
+LOCATION:Centro Cultural Banco do Brasil (CCBB)\, Rua Primeiro de Março\
+ , 66 – Centro
+DESCRIPTION:Aos 35 anos\, uma mulher descobre que o pai registrado não 
+ é o biológico e sai em busca da própria origem. Drama com humor.\n\nR
+ $ 30 (meia R$ 15) · 12 anos\n\nFonte: https://ccbb.com.br/rio-de-janeir
+ o/programacao/entre-sim-e-o-nunca/\nLargo — agenda cultural aberta do 
+ Rio
+URL:https://ccbb.com.br/rio-de-janeiro/programacao/entre-sim-e-o-nunca/
+CATEGORIES:Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-059-2@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261119T220000Z
+DTEND:20261120T000000Z
+SUMMARY:Entre o Sim e o Nunca
+LOCATION:Centro Cultural Banco do Brasil (CCBB)\, Rua Primeiro de Março\
+ , 66 – Centro
+DESCRIPTION:Aos 35 anos\, uma mulher descobre que o pai registrado não 
+ é o biológico e sai em busca da própria origem. Drama com humor.\n\nR
+ $ 30 (meia R$ 15) · 12 anos\n\nFonte: https://ccbb.com.br/rio-de-janeir
+ o/programacao/entre-sim-e-o-nunca/\nLargo — agenda cultural aberta do 
+ Rio
+URL:https://ccbb.com.br/rio-de-janeiro/programacao/entre-sim-e-o-nunca/
+CATEGORIES:Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-059-3@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261120T220000Z
+DTEND:20261121T000000Z
+SUMMARY:Entre o Sim e o Nunca
+LOCATION:Centro Cultural Banco do Brasil (CCBB)\, Rua Primeiro de Março\
+ , 66 – Centro
+DESCRIPTION:Aos 35 anos\, uma mulher descobre que o pai registrado não 
+ é o biológico e sai em busca da própria origem. Drama com humor.\n\nR
+ $ 30 (meia R$ 15) · 12 anos\n\nFonte: https://ccbb.com.br/rio-de-janeir
+ o/programacao/entre-sim-e-o-nunca/\nLargo — agenda cultural aberta do 
+ Rio
+URL:https://ccbb.com.br/rio-de-janeiro/programacao/entre-sim-e-o-nunca/
+CATEGORIES:Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-059-4@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261121T220000Z
+DTEND:20261122T000000Z
+SUMMARY:Entre o Sim e o Nunca
+LOCATION:Centro Cultural Banco do Brasil (CCBB)\, Rua Primeiro de Março\
+ , 66 – Centro
+DESCRIPTION:Aos 35 anos\, uma mulher descobre que o pai registrado não 
+ é o biológico e sai em busca da própria origem. Drama com humor.\n\nR
+ $ 30 (meia R$ 15) · 12 anos\n\nFonte: https://ccbb.com.br/rio-de-janeir
+ o/programacao/entre-sim-e-o-nunca/\nLargo — agenda cultural aberta do 
+ Rio
+URL:https://ccbb.com.br/rio-de-janeiro/programacao/entre-sim-e-o-nunca/
+CATEGORIES:Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-059-5@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261122T200000Z
+DTEND:20261122T220000Z
+SUMMARY:Entre o Sim e o Nunca
+LOCATION:Centro Cultural Banco do Brasil (CCBB)\, Rua Primeiro de Março\
+ , 66 – Centro
+DESCRIPTION:Aos 35 anos\, uma mulher descobre que o pai registrado não 
+ é o biológico e sai em busca da própria origem. Drama com humor.\n\nR
+ $ 30 (meia R$ 15) · 12 anos\n\nFonte: https://ccbb.com.br/rio-de-janeir
+ o/programacao/entre-sim-e-o-nunca/\nLargo — agenda cultural aberta do 
+ Rio
+URL:https://ccbb.com.br/rio-de-janeiro/programacao/entre-sim-e-o-nunca/
+CATEGORIES:Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-059-6@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261125T220000Z
+DTEND:20261126T000000Z
+SUMMARY:Entre o Sim e o Nunca
+LOCATION:Centro Cultural Banco do Brasil (CCBB)\, Rua Primeiro de Março\
+ , 66 – Centro
+DESCRIPTION:Aos 35 anos\, uma mulher descobre que o pai registrado não 
+ é o biológico e sai em busca da própria origem. Drama com humor.\n\nR
+ $ 30 (meia R$ 15) · 12 anos\n\nFonte: https://ccbb.com.br/rio-de-janeir
+ o/programacao/entre-sim-e-o-nunca/\nLargo — agenda cultural aberta do 
+ Rio
+URL:https://ccbb.com.br/rio-de-janeiro/programacao/entre-sim-e-o-nunca/
+CATEGORIES:Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-060-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261118T153000Z
+DTEND:20261118T173000Z
+SUMMARY:Música no Museu
+LOCATION:Centro Cultural Banco do Brasil (CCBB)\, Rua Primeiro de Março\
+ , 66 – Centro
+DESCRIPTION:Concertos gratuitos ao meio-dia\; em novembro\, com o RioWind
+ s Festival e o RioHarp Festival.\n\nGrátis · Livre\n\nFonte: https://c
+ cbb.com.br/rio-de-janeiro/programacao/musica-no-museu-2/\nLargo — agen
+ da cultural aberta do Rio
+URL:https://ccbb.com.br/rio-de-janeiro/programacao/musica-no-museu-2/
+CATEGORIES:Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-060-1@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261125T153000Z
+DTEND:20261125T173000Z
+SUMMARY:Música no Museu
+LOCATION:Centro Cultural Banco do Brasil (CCBB)\, Rua Primeiro de Março\
+ , 66 – Centro
+DESCRIPTION:Concertos gratuitos ao meio-dia\; em novembro\, com o RioWind
+ s Festival e o RioHarp Festival.\n\nGrátis · Livre\n\nFonte: https://c
+ cbb.com.br/rio-de-janeiro/programacao/musica-no-museu-2/\nLargo — agen
+ da cultural aberta do Rio
+URL:https://ccbb.com.br/rio-de-janeiro/programacao/musica-no-museu-2/
+CATEGORIES:Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-064-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261121T190000Z
+DTEND:20261121T210000Z
+SUMMARY:Sudi – O Elogio da Surdez
+LOCATION:Centro Cultural Banco do Brasil (CCBB)\, Rua Primeiro de Março\
+ , 66 – Centro
+DESCRIPTION:Uma menina que percebe o mundo pelos olhos\, pela pele e pela
+ s mãos parte em busca da Flor de Oto\, ao lado de uma amiga que fala Li
+ bras.\n\nR$ 30 (meia R$ 15) · Livre\n\nFonte: https://ccbb.com.br/rio-d
+ e-janeiro/programacao/sudi-o-elogio-da-surdez/\nLargo — agenda cultura
+ l aberta do Rio
+URL:https://ccbb.com.br/rio-de-janeiro/programacao/sudi-o-elogio-da-surde
+ z/
+CATEGORIES:Infantil\,Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-064-1@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261122T190000Z
+DTEND:20261122T210000Z
+SUMMARY:Sudi – O Elogio da Surdez
+LOCATION:Centro Cultural Banco do Brasil (CCBB)\, Rua Primeiro de Março\
+ , 66 – Centro
+DESCRIPTION:Uma menina que percebe o mundo pelos olhos\, pela pele e pela
+ s mãos parte em busca da Flor de Oto\, ao lado de uma amiga que fala Li
+ bras.\n\nR$ 30 (meia R$ 15) · Livre\n\nFonte: https://ccbb.com.br/rio-d
+ e-janeiro/programacao/sudi-o-elogio-da-surdez/\nLargo — agenda cultura
+ l aberta do Rio
+URL:https://ccbb.com.br/rio-de-janeiro/programacao/sudi-o-elogio-da-surde
+ z/
+CATEGORIES:Infantil\,Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-065-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261121T200000Z
+DTEND:20261121T220000Z
+SUMMARY:Samba do Sacramento
+LOCATION:Centro Cultural Banco do Brasil (CCBB)\, Rua Primeiro de Março\
+ , 66 – Centro
+DESCRIPTION:A roda comandada por Marcos Sacramento volta ao CCBB\, com Ri
+ ta Benneditto\, Nilze Carvalho\, Nina Rosa e DJs.\n\nGrátis · Livre\n\
+ nFonte: https://ccbb.com.br/rio-de-janeiro/programacao/samba-do-sacramen
+ to/\nLargo — agenda cultural aberta do Rio
+URL:https://ccbb.com.br/rio-de-janeiro/programacao/samba-do-sacramento/
+CATEGORIES:Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-066-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261125T203000Z
+DTEND:20261125T223000Z
+SUMMARY:Clube de Leitura CCBB com Raphael Montes
+LOCATION:Centro Cultural Banco do Brasil (CCBB)\, Rua Primeiro de Março\
+ , 66 – Centro
+DESCRIPTION:Conversa sobre suspense e crime na literatura a partir do rom
+ ance Dias Perfeitos\, com o autor.\n\nGrátis (ingressos às 9h do dia) 
+ · 14 anos\n\nFonte: https://ccbb.com.br/rio-de-janeiro/programacao/club
+ e-de-leitura-ccbb/\nLargo — agenda cultural aberta do Rio
+URL:https://ccbb.com.br/rio-de-janeiro/programacao/clube-de-leitura-ccbb/
+CATEGORIES:Livros & Debates
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-067-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261119T230000Z
+DTEND:20261120T010000Z
+SUMMARY:Festival Abraço Negro – Ilê Aiyê convida Surdo Um da Manguei
+ ra
+LOCATION:Circo Voador\, Rua dos Arcos\, s/nº – Lapa
+DESCRIPTION:Na véspera do feriado da Consciência Negra\, o bloco baiano
+  Ilê Aiyê recebe o Surdo Um da Mangueira\; abertura com Kazen Sorriso 
+ e convidados.\n\nPreço não informado\n\nFonte: https://www.circovoador
+ .com.br/\nLargo — agenda cultural aberta do Rio
+URL:https://www.circovoador.com.br/
+CATEGORIES:Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-068-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261120T230000Z
+DTEND:20261121T010000Z
+SUMMARY:Ajulliacosta – turnê Novo Testamento
+LOCATION:Circo Voador\, Rua dos Arcos\, s/nº – Lapa
+DESCRIPTION:A turnê do álbum Novo Testamento ganha data extra no Circo 
+ Voador.\n\nPreço não informado\n\nFonte: https://www.circovoador.com.b
+ r/\nLargo — agenda cultural aberta do Rio
+URL:https://www.circovoador.com.br/
+CATEGORIES:Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-069-0@largo.rio.br
+DTSTAMP:20261117T084402Z
+DTSTART:20261122T000000Z
+DTEND:20261122T020000Z
+SUMMARY:Rockeria 14 anos
+LOCATION:Circo Voador\, Rua dos Arcos\, s/nº – Lapa
+DESCRIPTION:A festa de rock celebra 14 anos com show da Vaa Surf Band e D
+ Js convidados.\n\nPreço não informado\n\nFonte: https://www.circovoado
+ r.com.br/\nLargo — agenda cultural aberta do Rio
+URL:https://www.circovoador.com.br/
+CATEGORIES:Música
+END:VEVENT
+END:VCALENDAR
