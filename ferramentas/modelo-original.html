@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Largo · Agenda cultural do Rio de Janeiro — o que fazer no Rio hoje, grátis e perto de você</title>
+<meta name="description" content="Agenda cultural pública, gratuita e aberta do Rio de Janeiro: música, teatro, artes visuais, cinema, literatura e programação infantil em todas as regiões da cidade. What's on in Rio · Agenda cultural de Río.">
+<meta name="theme-color" content="#f4efe4" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#16140f" media="(prefers-color-scheme: dark)">
+<style>
+:root{
+  --papel:#f4efe4; --papel2:#ebe4d4; --tinta:#1b1914; --tinta2:#5b5547; --linha:#d6ccb6;
+  --acento:#b4381f; --acento-suave:#f3d9cf; --gratis:#17694a; --gratis-suave:#d5eadf;
+  --popular:#7a5a00; --popular-suave:#f1e3b8; --alerta:#9a4d00;
+  --serif:"Iowan Old Style","Palatino Linotype","Book Antiqua",Palatino,Georgia,"Times New Roman",serif;
+  --sans:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --raio:14px;
+}
+@media (prefers-color-scheme: dark){
+  :root{ --papel:#16140f; --papel2:#221f18; --tinta:#efe8d8; --tinta2:#b3aa95; --linha:#3a352a;
+    --acento:#f07a5c; --acento-suave:#3d2119; --gratis:#6fd1a4; --gratis-suave:#173327;
+    --popular:#e8c45c; --popular-suave:#352b0f; --alerta:#f0a35c; }
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--papel);color:var(--tinta);font:16px/1.5 var(--sans);}
+a{color:inherit}
+.wrap{max-width:760px;margin:0 auto;padding:env(safe-area-inset-top) max(18px,env(safe-area-inset-right)) env(safe-area-inset-bottom) max(18px,env(safe-area-inset-left))}
+header.topo{padding:28px 0 8px;border-bottom:3px double var(--linha)}
+.marca{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.marca h1{font:600 clamp(44px,12vw,72px)/0.9 var(--serif);letter-spacing:-0.02em;margin:0}
+.marca h1 span{color:var(--acento)}
+.idiomas{display:flex;gap:4px}
+.idiomas button{font:600 12px var(--sans);border:1px solid var(--linha);background:transparent;color:var(--tinta2);
+  padding:4px 8px;border-radius:999px;cursor:pointer}
+.idiomas button[aria-pressed=true]{background:var(--tinta);color:var(--papel);border-color:var(--tinta)}
+.sub{font:500 15px var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--tinta2);margin:8px 0 2px}
+.edicao{font-size:13px;color:var(--tinta2);margin:0 0 14px}
+.qb{font:italic 500 clamp(26px,7vw,34px)/1.1 var(--serif);margin:22px 0 12px}
+.busca{position:relative;margin:4px 0 12px}
+.busca input{width:100%;font:16px var(--sans);padding:13px 14px 13px 42px;border-radius:var(--raio);
+  border:1px solid var(--linha);background:var(--papel2);color:var(--tinta)}
+.busca input:focus{outline:2px solid var(--acento);outline-offset:1px}
+.busca svg{position:absolute;left:14px;top:50%;transform:translateY(-50%);opacity:.6}
+.trilho{position:sticky;top:0;z-index:5;background:var(--papel);display:flex;gap:8px;overflow-x:auto;padding:4px 0 10px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.trilho::-webkit-scrollbar{display:none}
+.dia{flex:0 0 auto;min-width:58px;text-align:center;border:1px solid var(--linha);border-radius:12px;padding:6px 8px;
+  background:transparent;color:var(--tinta);cursor:pointer;font:inherit}
+.dia b{display:block;font:600 22px/1.1 var(--serif)}
+.dia small{font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--tinta2)}
+.dia[aria-pressed=true]{background:var(--tinta);color:var(--papel);border-color:var(--tinta)}
+.dia[aria-pressed=true] small{color:var(--papel)}
+.dia.passado{opacity:.45}
+.dia.cartaz{min-width:auto;padding:6px 14px}
+.dia.cartaz b{font-size:15px;line-height:2.2}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin:2px 0 8px}
+.chip{border:1px solid var(--linha);background:transparent;color:var(--tinta);border-radius:999px;
+  padding:6px 12px;font:500 14px var(--sans);cursor:pointer}
+.chip[aria-pressed=true]{background:var(--acento);border-color:var(--acento);color:#fff}
+.chip.g[aria-pressed=true]{background:var(--gratis);border-color:var(--gratis)}
+.rotulo{font:600 11px var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--tinta2);margin:12px 0 4px}
+details.filtros>summary{display:inline-block;list-style:none;cursor:pointer;font:600 14px var(--sans);color:var(--tinta2);padding:6px 0}
+details.filtros>summary::-webkit-details-marker{display:none}
+.contagem{display:flex;justify-content:space-between;align-items:center;gap:10px;margin:14px 0 6px;
+  font-size:14px;color:var(--tinta2);flex-wrap:wrap}
+.btn{border:1px solid var(--tinta);background:transparent;color:var(--tinta);padding:7px 12px;border-radius:999px;
+  font:600 13px var(--sans);cursor:pointer;text-decoration:none;display:inline-flex;gap:6px;align-items:center}
+.btn.cheio{background:var(--tinta);color:var(--papel)}
+.lista{list-style:none;margin:0;padding:0}
+.hora{font:600 13px var(--sans);letter-spacing:.1em;color:var(--acento);margin:22px 0 4px;
+  border-bottom:1px solid var(--linha);padding-bottom:4px}
+.ev{padding:14px 0;border-bottom:1px solid var(--linha)}
+.ev button.abre{all:unset;display:block;width:100%;cursor:pointer}
+.ev h3{font:600 20px/1.2 var(--serif);margin:0 0 4px}
+.ev .onde{font-size:14px;color:var(--tinta2)}
+.ev .onde strong{color:var(--tinta);font-weight:600}
+.tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.tag{font:600 11px var(--sans);letter-spacing:.04em;padding:3px 8px;border-radius:6px;background:var(--papel2);color:var(--tinta2)}
+.tag.gratis{background:var(--gratis-suave);color:var(--gratis)}
+.tag.popular{background:var(--popular-suave);color:var(--popular)}
+.tag.conf{background:transparent;border:1px dashed var(--alerta);color:var(--alerta)}
+.mais{display:none;margin-top:10px}
+.ev.aberto .mais{display:block}
+.mais p{margin:0 0 10px;font-size:15px}
+.acoes{display:flex;gap:8px;flex-wrap:wrap}
+.qb{margin:18px 0 2px}
+.nota-boa{font-size:13px;color:var(--tinta2);margin:0 0 4px}
+.nota-boa a{color:var(--acento)}
+#destaques .ev{border-left:3px solid var(--acento);padding-left:14px;border-bottom:none;margin:12px 0;background:var(--papel2);border-radius:0 var(--raio) var(--raio) 0;padding-right:12px}
+.porque{font:italic 16px/1.4 var(--serif);margin:6px 0 2px;color:var(--tinta)}
+.quando{font:600 12px var(--sans);letter-spacing:.08em;color:var(--acento);text-transform:uppercase}
+h2.secao{font:600 22px/1.2 var(--serif);margin:34px 0 10px;padding-top:16px;border-top:3px double var(--linha)}
+.vazio{padding:40px 0;text-align:center;color:var(--tinta2);font-style:italic}
+.radar{margin:26px 0 0;padding:16px;border-radius:var(--raio);background:var(--acento-suave)}
+.radar h4{margin:0 0 6px;font:600 13px var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--acento)}
+section.bloco{margin:44px 0 0;padding-top:20px;border-top:3px double var(--linha)}
+section.bloco h2{font:600 26px/1.15 var(--serif);margin:0 0 10px}
+.feeds{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px;margin:10px 0}
+.feeds a{border:1px solid var(--linha);border-radius:10px;padding:10px;text-decoration:none;font-size:14px}
+.barras{display:grid;gap:6px;margin:10px 0}
+.barra{display:grid;grid-template-columns:110px 1fr 34px;gap:8px;align-items:center;font-size:14px}
+.barra i{display:block;height:10px;border-radius:5px;background:var(--acento)}
+footer{margin:48px 0 30px;font-size:13px;color:var(--tinta2)}
+footer p{margin:6px 0}
+.aviso{font-size:13px;background:var(--popular-suave);color:var(--popular);padding:10px 12px;border-radius:10px;margin:14px 0}
+@media (min-width:720px){ .ev h3{font-size:22px} }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="topo">
+  <div class="marca">
+    <h1>Largo<span>.</span></h1>
+    <div class="idiomas" role="group" aria-label="Idioma / Language">
+      <button data-lang="pt" aria-pressed="true">PT</button><button data-lang="en" aria-pressed="false">EN</button><button data-lang="es" aria-pressed="false">ES</button>
+    </div>
+  </div>
+  <p class="sub" data-t="sub">Agenda cultural do Rio de Janeiro</p>
+  <p class="edicao" id="edicao"></p>
+</header>
+
+<div class="aviso" data-t="teste">Prévia de teste: poucas fontes ainda, e a programação da prefeitura vale só até 18/11.</div>
+
+<nav class="trilho" id="dias" aria-label="Dias"></nav>
+
+<section id="boa">
+  <h2 class="qb">A boa de hoje</h2>
+  <p class="nota-boa"><span data-t="boaSub">Os destaques do dia, escolhidos com critérios públicos.</span> <a href="#criterios" data-t="como">Como escolhemos</a></p>
+  <ul class="lista" id="destaques"></ul>
+</section>
+
+<h2 class="secao" id="tituloToda" data-t="toda">Toda a programação</h2>
+<div class="busca">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+  <input id="q" type="search" autocomplete="off" data-tp="busca" placeholder="Buscar: artista, lugar, bairro…" aria-label="Buscar">
+</div>
+
+<div class="chips" id="fGratis"></div>
+<details class="filtros" id="filtros">
+  <summary><span data-t="filtros">Filtros ▾</span> <span id="nfiltros"></span></summary>
+  <p class="rotulo" data-t="area">Área</p>
+  <div class="chips" id="fAreas"></div>
+  <p class="rotulo" data-t="regiao">Região</p>
+  <div class="chips" id="fRegioes"></div>
+</details>
+
+<div class="contagem">
+  <span id="contagem"></span>
+  <button class="btn" id="baixar" data-t="baixar">＋ Levar para minha agenda</button>
+</div>
+
+<ul class="lista" id="lista"></ul>
+<div id="radar"></div>
+
+<section class="bloco" id="calendario">
+  <h2 data-t="calTit">Receba a agenda no celular</h2>
+  <p data-t="calTxt">Assine um calendário e a programação aparece sozinha no app de agenda do seu celular ou computador (iPhone, Android, Google, Outlook). Sem cadastro, sem aplicativo. Também dá para montar o seu: em “Toda a programação”, escolha um dia e os filtros que quiser e toque em “Levar para minha agenda”.</p>
+  <div class="feeds" id="feeds"></div>
+  <p style="font-size:13px;color:var(--tinta2)" data-t="calNota">Tocar num link baixa o arquivo da semana. Para receber as atualizações sozinho, copie o endereço do link e adicione-o como assinatura de calendário no seu aplicativo de agenda.</p>
+</section>
+
+<section class="bloco">
+  <h2 data-t="terrTit">A cidade inteira</h2>
+  <p data-t="terrTxt">Quantas atividades desta edição há em cada região. Medimos isso toda semana para dar o mesmo peso a todos os cantos do Rio.</p>
+  <div class="barras" id="barras"></div>
+</section>
+
+<section class="bloco">
+  <h2 data-t="sobreTit">Por que Largo</h2>
+  <p data-t="sobreTxt">O largo é o espaço público por excelência: a céu aberto, sem catraca, lugar de encontro. Esta agenda nasce do direito à cidade. A informação sobre a vida cultural do Rio é um bem comum e deve circular livre, sem plataformas fechadas, algoritmos pagos ou cadastro.</p>
+  <p><strong data-t="protTit">Protocolo de acesso aberto</strong> · <span data-t="protTxt">sem rastreadores, sem publicidade, sem cadastro. Textos em CC BY-SA 4.0, dados em ODbL 1.0. Cada informação traz sua fonte. Os dados completos estão abertos para reuso:</span> <a href="dados/eventos.csv">CSV</a> · <a href="dados/eventos.json">JSON</a>.</p>
+  <h3 id="criterios" style="font:600 18px var(--serif);margin:22px 0 6px" data-t="critTit">Como escolhemos os destaques</h3>
+  <p data-t="critTxt"></p>
+  <p data-t="erro">Encontrou um erro ou quer enviar a programação do seu espaço? Escreva para nós (endereço de contato a definir).</p>
+</section>
+
+<footer>
+  <p id="fontes"></p>
+  <p>Largo · agenda cultural aberta do Rio de Janeiro</p>
+</footer>
+</div>
+
+<script>
+const D = /*__DADOS__*/null;
+const AREAS = ["Música","Teatro","Artes Visuais","Cinema","Livros & Debates","Festas & Feiras","Infantil"];
+const REGIOES = ["Centro","Zona Sul","Zona Sudoeste","Zona Norte","Zona Oeste"];
+const T = {
+ pt:{sub:"Agenda cultural do Rio de Janeiro",qb:"A boa de hoje",rua:"Na rua",ruaTag:"Na rua",busca:"Buscar: artista, lugar, bairro…",toda:"Toda a programação",boaSub:"Os destaques do dia, escolhidos com critérios públicos.",como:"Como escolhemos",semDest:"Nenhum destaque com esses filtros. Veja a programação completa abaixo.",critTit:"Como escolhemos os destaques",critTxt:"A curadoria é feita com apoio de inteligência artificial e regras fixas, conferidas automaticamente a cada edição: pelo menos três regiões da cidade e três áreas por dia; ao menos metade grátis ou a preço popular; no máximo um destaque por espaço; sempre algum espaço público, comunitário ou sem fins lucrativos; só eventos com informação conferida; nunca patrocínio. Dentro dessas regras pesam a relevância artística, a raridade (estreia, última sessão, evento único) e o valor para a memória e o território.",filtros:"Filtros ▾",area:"Área",regiao:"Região",gratis:"Só grátis",popular:"Até R$ 40",
+   baixar:"＋ Levar para minha agenda",cartaz:"Em cartaz",hoje:"Hoje",ate:"até",
+   n:(n)=>n===1?"1 atividade":`${n} atividades`,vazio:"Nada encontrado com esses filtros. Que tal outra região?",
+   agenda:"Adicionar à agenda",chegar:"Como chegar",fonte:"Fonte oficial",aconf:"a confirmar",gratisTag:"Grátis",popTag:"Preço popular",
+   radar:"Uma boa fora do seu radar",calTit:"Receba a agenda no celular",
+   calTxt:"Assine um calendário e a programação aparece sozinha no app de agenda do seu celular ou computador (iPhone, Android, Google, Outlook). Sem cadastro, sem aplicativo. Também dá para montar o seu: em “Toda a programação”, escolha um dia e os filtros que quiser e toque em “Levar para minha agenda”.",
+   calNota:"Tocar num link baixa o arquivo da semana. Para receber as atualizações sozinho, copie o endereço do link e adicione-o como assinatura de calendário no seu aplicativo de agenda.",
+   terrTit:"A cidade inteira",terrTxt:"Quantas atividades desta edição há em cada região. Medimos isso toda semana para dar o mesmo peso a todos os cantos do Rio.",
+   sobreTit:"Por que Largo",sobreTxt:"O largo é o espaço público por excelência: a céu aberto, sem catraca, lugar de encontro. Esta agenda nasce do direito à cidade. A informação sobre a vida cultural do Rio é um bem comum e deve circular livre, sem plataformas fechadas, algoritmos pagos ou cadastro.",
+   protTit:"Protocolo de acesso aberto",protTxt:"sem rastreadores, sem publicidade, sem cadastro. Textos em CC BY-SA 4.0, dados em ODbL 1.0. Cada informação traz sua fonte. Os dados completos estão abertos para reuso:",
+   erro:"Encontrou um erro ou quer enviar a programação do seu espaço? Escreva para nós (endereço de contato a definir).",
+   teste:"Prévia de teste: poucas fontes ainda, e a programação da prefeitura vale só até 18/11.",
+   dias:["Dom","Seg","Ter","Qua","Qui","Sex","Sáb"],fontes:"Fontes desta edição: ",naoinf:"Preço não informado"},
+ en:{sub:"What's on in Rio · Cultural guide",qb:"Today's picks",rua:"Outdoors",ruaTag:"Outdoors",busca:"Search: artist, venue, neighborhood…",toda:"Full programme",boaSub:"Today\u2019s highlights, chosen by public criteria.",como:"How we choose",semDest:"No highlights match these filters. See the full programme below.",critTit:"How we choose highlights",critTxt:"Curation is AI-assisted under fixed rules checked automatically every edition: at least three areas of the city and three categories a day; at least half free or low-price; one highlight per venue at most; always a public, community or non-profit venue; only verified listings; never sponsorship.",filtros:"Filters ▾",area:"Category",regiao:"Area of the city",gratis:"Free only",popular:"Up to R$ 40",
+   baixar:"＋ Add to my calendar",cartaz:"Exhibitions",hoje:"Today",ate:"until",
+   n:(n)=>n===1?"1 event":`${n} events`,vazio:"Nothing matches these filters. Try another area of the city?",
+   agenda:"Add to calendar",chegar:"Directions",fonte:"Official source",aconf:"to be confirmed",gratisTag:"Free",popTag:"Low price",
+   radar:"Something off your radar",calTit:"Get the guide on your phone",
+   calTxt:"Subscribe to a calendar and events show up in your phone or computer calendar app. No sign-up, no app. Or build your own: under “Full programme”, pick a day and filters, then tap “Add to my calendar”.",
+   calNota:"Tapping a link downloads this week's file. To get updates automatically, copy the link address and add it as a calendar subscription in your calendar app.",
+   terrTit:"The whole city",terrTxt:"How many events this edition lists in each area of Rio. We track this every week to give every part of the city the same weight.",
+   sobreTit:"Why “Largo”",sobreTxt:"A largo is a public square: open-air, no turnstiles, a meeting place. This guide stems from the right to the city: cultural information is a commons and should flow freely.",
+   protTit:"Open access protocol",protTxt:"no trackers, no ads, no sign-up. Texts CC BY-SA 4.0, data ODbL 1.0. Every listing cites its source. Full data for reuse:",
+   erro:"Found a mistake or want to send your venue's programme? Write to us (contact address to be defined).",
+   teste:"Test preview: few sources so far; city-hall listings valid only until Nov 18. Descriptions in Portuguese.",
+   dias:["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],fontes:"Sources: ",naoinf:"Price not informed"},
+ es:{sub:"Agenda cultural de Río de Janeiro",qb:"Lo bueno de hoy",rua:"En la calle",ruaTag:"En la calle",busca:"Buscar: artista, lugar, barrio…",toda:"Toda la programación",boaSub:"Los destacados del día, elegidos con criterios públicos.",como:"Cómo elegimos",semDest:"Ningún destacado con estos filtros. Mira la programación completa abajo.",critTit:"Cómo elegimos los destacados",critTxt:"La curaduría usa inteligencia artificial bajo reglas fijas verificadas en cada edición: al menos tres regiones y tres áreas por día; mitad o más gratis o a precio popular; un destacado por espacio como máximo; siempre algún espacio público, comunitario o sin fines de lucro; solo información verificada; nunca patrocinio.",filtros:"Filtros ▾",area:"Área",regiao:"Región",gratis:"Solo gratis",popular:"Hasta R$ 40",
+   baixar:"＋ Llevar a mi agenda",cartaz:"Exposiciones",hoje:"Hoy",ate:"hasta",
+   n:(n)=>n===1?"1 actividad":`${n} actividades`,vazio:"Nada con estos filtros. ¿Probamos otra región?",
+   agenda:"Añadir a la agenda",chegar:"Cómo llegar",fonte:"Fuente oficial",aconf:"por confirmar",gratisTag:"Gratis",popTag:"Precio popular",
+   radar:"Algo fuera de tu radar",calTit:"Recibe la agenda en el móvil",
+   calTxt:"Suscríbete a un calendario y la programación aparece sola en la app de agenda de tu móvil u ordenador. Sin registro, sin app. También puedes armar el tuyo: en “Toda la programación”, elige un día y filtros y toca “Llevar a mi agenda”.",
+   calNota:"Al tocar un enlace se descarga el archivo de la semana. Para recibir las actualizaciones, copia la dirección del enlace y añádela como suscripción en tu app de calendario.",
+   terrTit:"Toda la ciudad",terrTxt:"Cuántas actividades hay en cada región en esta edición. Lo medimos cada semana para dar el mismo peso a toda la ciudad.",
+   sobreTit:"Por qué “Largo”",sobreTxt:"El largo es la plaza pública: al aire libre, sin torniquetes, lugar de encuentro. Esta agenda nace del derecho a la ciudad: la información cultural es un bien común.",
+   protTit:"Protocolo de acceso abierto",protTxt:"sin rastreadores, sin publicidad, sin registro. Textos CC BY-SA 4.0, datos ODbL 1.0. Cada dato cita su fuente. Datos abiertos:",
+   erro:"¿Encontraste un error o quieres enviar la programación de tu espacio? Escríbenos (contacto por definir).",
+   teste:"Vista previa: pocas fuentes; la programación municipal vale solo hasta el 18/11. Descripciones en portugués.",
+   dias:["Dom","Lun","Mar","Mié","Jue","Vie","Sáb"],fontes:"Fuentes: ",naoinf:"Precio no informado"}
+};
+const AREA_T = {en:{"Música":"Music","Teatro":"Theatre & dance","Artes Visuais":"Visual arts","Cinema":"Film","Livros & Debates":"Books & talks","Festas & Feiras":"Festivals & fairs","Infantil":"Kids"},
+               es:{"Música":"Música","Teatro":"Teatro y danza","Artes Visuais":"Artes visuales","Cinema":"Cine","Livros & Debates":"Libros y debates","Festas & Feiras":"Fiestas y ferias","Infantil":"Infantil"}};
+const REG_T = {en:{"Centro":"Downtown","Zona Sul":"South Zone","Zona Sudoeste":"Southwest Zone","Zona Norte":"North Zone","Zona Oeste":"West Zone"}};
+
+// ---------- estado (preferências ficam só neste aparelho) ----------
+const guarda = {get(k,d){try{const v=localStorage.getItem("largo:"+k);return v?JSON.parse(v):d}catch(e){return d}},
+                set(k,v){try{localStorage.setItem("largo:"+k,JSON.stringify(v))}catch(e){}}};
+const hojeISO = (()=>{const n=new Date(Date.now()-3*3600e3);return n.toISOString().slice(0,10)})();
+const E = D.eventos, ED = D.edicao;
+const DIAS = []; for(let d=new Date(ED.inicio+"T12:00:00Z"); d<=new Date(ED.fim+"T12:00:00Z"); d=new Date(d.getTime()+864e5)) DIAS.push(d.toISOString().slice(0,10));
+let S = {lang:guarda.get("lang","pt"), dia:null, q:"", areas:guarda.get("areas",[]), regioes:guarda.get("regioes",[]), gratis:guarda.get("gratis",false), popular:guarda.get("popular",false), rua:guarda.get("rua",false), aberto:null};
+S.areas = S.areas.filter(a=>AREAS.includes(a));
+S.dia = DIAS.includes(hojeISO) ? hojeISO : DIAS[0];
+const t = (k)=> (T[S.lang][k] ?? T.pt[k]);
+const tA = (a)=> (AREA_T[S.lang]||{})[a]||a, tR=(r)=>(REG_T[S.lang]||{})[r]||r;
+const norm = (s)=> (s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
+const esc = (s)=> String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const dDia = (iso)=> new Date(iso+"T12:00:00Z");
+
+function passaFiltros(e){
+  if(S.areas.length && !e.areas.some(a=>S.areas.includes(a))) return false;
+  if(S.regioes.length && !S.regioes.includes(e.regiao)) return false;
+  if(S.gratis && !e.gratis) return false;
+  if(S.rua && !e.na_rua) return false;
+  if(S.popular && !(e.gratis || e.faixa==="popular")) return false;
+  if(S.q){ const alvo = norm([e.titulo,e.local,e.bairro,e.regiao,e.sinopse,e.areas.join(" ")].join(" "));
+    if(!norm(S.q).split(/\s+/).every(p=>alvo.includes(p))) return false; }
+  return true;
+}
+function emCartazNoDia(e,dia){ const c=e.cartaz; return (!c.inicio||c.inicio<=dia) && (!c.fim||c.fim>=dia); }
+function itens(){
+  if(S.dia==="cartaz") return E.filter(e=>e.tipo==="cartaz" && emCartazNoDia(e, DIAS.includes(hojeISO)?hojeISO:DIAS[0]) && passaFiltros(e))
+    .map(e=>({e,hora:null})).sort((a,b)=>(a.e.cartaz.fim||"9999")<(b.e.cartaz.fim||"9999")?-1:1);
+  const r=[]; for(const e of E){ if(e.tipo!=="evento"||!passaFiltros(e)) continue;
+    for(const s of e.sessoes) if(s.data===S.dia) r.push({e,hora:s.hora}); }
+  return r.sort((a,b)=>a.hora<b.hora?-1:a.hora>b.hora?1:a.e.titulo.localeCompare(b.e.titulo));
+}
+function precoTag(e){
+  if(e.gratis) return `<span class="tag gratis">${t("gratisTag")}</span>`;
+  if(e.faixa==="popular") return `<span class="tag popular">${esc(e.preco_texto)}</span>`;
+  return `<span class="tag">${esc(e.preco_texto||t("naoinf"))}</span>`;
+}
+function card(it,k,porque){
+  const e=it.e, id=(porque?"d":"")+e.id+"-"+k, aberto=S.aberto===id;
+  const quando = e.tipo==="cartaz" ? `${esc(e.cartaz.horario)}${e.cartaz.fim?` · ${t("ate")} ${e.cartaz.fim.slice(8,10)}/${e.cartaz.fim.slice(5,7)}`:""}` : "";
+  const mapa = "https://www.openstreetmap.org/search?query="+encodeURIComponent(`${e.endereco}, ${e.bairro}, Rio de Janeiro`);
+  return `<li class="ev${aberto?" aberto":""}" data-id="${id}">
+   <button class="abre" aria-expanded="${aberto}">${porque&&it.hora?`<div class="quando">★ ${it.hora.replace(":","h")}</div>`:""}<h3>${esc(e.titulo)}</h3>${porque?`<p class="porque">${esc(porque)}</p>`:""}
+   <div class="onde"><strong>${esc(e.local)}</strong> · ${esc(e.bairro||"—")}${quando?`<br>${quando}`:""}</div>
+   <div class="tags">${precoTag(e)}${e.areas.map(a=>`<span class="tag">${esc(tA(a))}</span>`).join("")}${e.na_rua?`<span class="tag">${t("ruaTag")}</span>`:""}${e.classificacao?`<span class="tag">${esc(e.classificacao)}</span>`:""}${e.acessibilidade?`<span class="tag" title="${esc(e.acessibilidade)}">♿︎ ${esc(e.acessibilidade)}</span>`:""}${e.status==="a_confirmar"?`<span class="tag conf">${t("aconf")}</span>`:""}</div></button>
+   <div class="mais"><p>${esc(e.sinopse)}</p>
+    <p style="font-size:13px;color:var(--tinta2)">${esc(e.endereco)} – ${esc(e.bairro)} · ${esc(e.regiao)}</p>
+    <div class="acoes">${e.tipo==="evento"?`<button class="btn cheio" data-ics="${e.id}|${it.hora}">${t("agenda")}</button>`:""}
+     <a class="btn" href="${mapa}" target="_blank" rel="noopener">${t("chegar")}</a>
+     <a class="btn" href="${esc(e.link)}" target="_blank" rel="noopener">${t("fonte")}</a></div></div></li>`;
+}
+// título do dia: "A boa da segunda, 16/11" (da para dias úteis, do para sábado e domingo)
+const DIAS_LONGOS = {pt:["do domingo","da segunda","da terça","da quarta","da quinta","da sexta","do sábado"],
+  en:["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+  es:["el domingo","el lunes","el martes","el miércoles","el jueves","el viernes","el sábado"]};
+const MESES_EN=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+function tituloDia(d){
+  const w=d.getUTCDay(), dd=String(d.getUTCDate()).padStart(2,"0"), mm=String(d.getUTCMonth()+1).padStart(2,"0");
+  if(S.lang==="en") return `Picks for ${DIAS_LONGOS.en[w]}, ${MESES_EN[d.getUTCMonth()]} ${d.getUTCDate()}`;
+  if(S.lang==="es") return `Lo bueno ${DIAS_LONGOS.es[w].replace("el ","del ")} ${dd}/${mm}`;
+  return `A boa ${DIAS_LONGOS.pt[w]}, ${dd}/${mm}`;
+}
+function render(){
+  document.documentElement.lang = S.lang==="pt"?"pt-BR":S.lang;
+  document.querySelectorAll("[data-t]").forEach(el=>{const v=t(el.dataset.t); if(typeof v==="string") el.textContent=v;});
+  document.querySelector("#q").placeholder=t("busca");
+  document.querySelectorAll(".idiomas button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.lang===S.lang));
+  document.querySelector("#edicao").textContent = ED.titulo;
+  const dn = S.dia==="cartaz"?null:dDia(S.dia);
+  document.querySelector(".qb").textContent = S.dia==="cartaz"? t("cartaz") : (S.dia===hojeISO? t("qb") :
+    tituloDia(dn));
+  // dias
+  document.querySelector("#dias").innerHTML = DIAS.map(d=>{const x=dDia(d);
+    return `<button class="dia${d<hojeISO?" passado":""}" data-dia="${d}" aria-pressed="${S.dia===d}"><small>${d===hojeISO?t("hoje"):t("dias")[x.getUTCDay()]}</small><b>${d.slice(8,10)}</b></button>`}).join("")
+    + `<button class="dia cartaz" data-dia="cartaz" aria-pressed="${S.dia==="cartaz"}"><b>${t("cartaz")}</b></button>`;
+  const sel=document.querySelector(`.dia[aria-pressed=true]`); if(sel&&!render.rolou){sel.scrollIntoView({inline:"center",block:"nearest"});render.rolou=true;}
+  // filtros
+  const nf=S.areas.length+S.regioes.length; document.querySelector("#nfiltros").textContent = nf?`· ${nf}`:"";
+  document.querySelector("#fGratis").innerHTML = `<button class="chip g" data-f="gratis" aria-pressed="${S.gratis}">${t("gratis")}</button><button class="chip g" data-f="popular" aria-pressed="${S.popular}">${t("popular")}</button><button class="chip g" data-f="rua" aria-pressed="${S.rua}">${t("rua")}</button>`+S.areas.map(a=>`<button class="chip" data-area="${a}" aria-pressed="true">${esc(tA(a))} ✕</button>`).join("")+S.regioes.map(r=>`<button class="chip" data-reg="${r}" aria-pressed="true">${esc(tR(r))} ✕</button>`).join("");
+  document.querySelector("#fAreas").innerHTML = AREAS.filter(a=>E.some(e=>e.areas.includes(a))).map(a=>`<button class="chip" data-area="${a}" aria-pressed="${S.areas.includes(a)}">${esc(tA(a))}</button>`).join("");
+  document.querySelector("#fRegioes").innerHTML = REGIOES.map(r=>`<button class="chip" data-reg="${r}" aria-pressed="${S.regioes.includes(r)}">${esc(tR(r))}</button>`).join("");
+  // destaques do dia (respeitam os filtros escolhidos)
+  const boa=document.querySelector("#boa");
+  if(S.dia==="cartaz"){ boa.style.display="none"; document.querySelector("#tituloToda").style.display="none"; }
+  else { boa.style.display=""; document.querySelector("#tituloToda").style.display="";
+    const ds=(D.destaques&&D.destaques[S.dia])||[];
+    const lst=ds.map(d=>{const e=E.find(x=>x.id===d.id); if(!e||!passaFiltros(e)) return null;
+      const s=e.sessoes.find(x=>x.data===S.dia); return s?{it:{e,hora:s.hora},porque:d.porque}:null;}).filter(Boolean)
+      .sort((a,b)=>a.it.hora<b.it.hora?-1:1);
+    document.querySelector("#destaques").innerHTML = lst.length? lst.map((x,k)=>card(x.it,k,x.porque)).join("")
+      : (ds.length? `<li class="vazio">${t("semDest")}</li>` : ""); }
+  // lista
+  const its = itens(); render.atual = its;
+  document.querySelector("#contagem").textContent = t("n")(its.length);
+  document.querySelector("#baixar").style.visibility = (S.dia!=="cartaz" && its.length)?"visible":"hidden";
+  let html="", ultima=null;
+  its.forEach((it,k)=>{ if(it.hora && it.hora!==ultima){ html+=`<li class="hora">${it.hora.replace(":", "h")}</li>`; ultima=it.hora;} html+=card(it,k); });
+  document.querySelector("#lista").innerHTML = html || `<li class="vazio">${t("vazio")}</li>`;
+  // uma boa fora do radar
+  const filtrado = S.areas.length||S.regioes.length;
+  let radar="";
+  if(filtrado && S.dia!=="cartaz"){
+    const fora = E.filter(e=>e.tipo==="evento" && e.sessoes.some(s=>s.data===S.dia) &&
+      !( (S.areas.length? e.areas.some(a=>S.areas.includes(a)) : true) && (S.regioes.length? S.regioes.includes(e.regiao):true) ));
+    if(fora.length){ const e=fora[(S.dia.charCodeAt(9)+fora.length)%fora.length]; const s=e.sessoes.find(s=>s.data===S.dia);
+      radar=`<div class="radar"><h4>${t("radar")}</h4><strong>${esc(e.titulo)}</strong><br><span style="font-size:14px">${s.hora.replace(":","h")} · ${esc(e.local)} · ${esc(e.bairro)} · ${e.gratis?t("gratisTag"):esc(e.preco_texto||"")}</span></div>`; }
+  }
+  document.querySelector("#radar").innerHTML = radar;
+  // calendários
+  document.querySelector("#feeds").innerHTML = Object.entries(D.feeds).map(([f,n])=>`<a href="calendarios/${f}">📅 ${esc(n.replace("Largo · ",""))}</a>`).join("");
+  // território
+  const cont = {}; E.forEach(e=>cont[e.regiao]=(cont[e.regiao]||0)+1); const mx=Math.max(...Object.values(cont));
+  document.querySelector("#barras").innerHTML = REGIOES.map(r=>`<div class="barra"><span>${esc(tR(r))}</span><i style="width:${(100*(cont[r]||0)/mx).toFixed(0)}%"></i><span>${cont[r]||0}</span></div>`).join("");
+  const fontes=[...new Set(E.map(e=>e.fonte))]; document.querySelector("#fontes").textContent = t("fontes")+fontes.join(" · ")+".";
+}
+
+// ---------- calendário (.ics) gerado no próprio aparelho ----------
+function icsEsc(s){return String(s).replace(/\\/g,"\\\\").replace(/;/g,"\\;").replace(/,/g,"\\,").replace(/\n/g,"\\n");}
+function utc(data,hora){const d=new Date(`${data}T${hora}:00-03:00`);return d.toISOString().replace(/[-:]/g,"").replace(/\.\d{3}/,"");}
+function icsDe(pares,nome){
+  const L=["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Largo//Agenda cultural do Rio//PT-BR","METHOD:PUBLISH","X-WR-CALNAME:"+icsEsc(nome)];
+  const st=new Date().toISOString().replace(/[-:]/g,"").replace(/\.\d{3}/,"");
+  pares.forEach(({e,hora,data})=>{const ini=utc(data,hora);const fim=new Date(new Date(`${data}T${hora}:00-03:00`).getTime()+7200e3).toISOString().replace(/[-:]/g,"").replace(/\.\d{3}/,"");
+    L.push("BEGIN:VEVENT","UID:"+e.id+"-"+data+hora.replace(":","")+"@largo.rio.br","DTSTAMP:"+st,"DTSTART:"+ini,"DTEND:"+fim,
+      "SUMMARY:"+icsEsc(e.titulo),"LOCATION:"+icsEsc(`${e.local}, ${e.endereco} – ${e.bairro}`),
+      "DESCRIPTION:"+icsEsc(`${e.sinopse}\n\n${e.gratis?"Grátis":(e.preco_texto||"")}\nFonte: ${e.link}\nLargo — agenda cultural aberta do Rio`),"URL:"+e.link,"END:VEVENT");});
+  L.push("END:VCALENDAR"); return L.join("\r\n");
+}
+function baixa(nome,texto){
+  const blob=new Blob([texto],{type:"text/calendar;charset=utf-8"}); const a=document.createElement("a");
+  a.href=URL.createObjectURL(blob); a.download=nome; document.body.appendChild(a); a.click(); setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove();},500);
+}
+
+// ---------- interação ----------
+document.addEventListener("click",ev=>{
+  const b=ev.target.closest("button"); if(!b) return;
+  if(b.dataset.lang){S.lang=b.dataset.lang;guarda.set("lang",S.lang);}
+  else if(b.dataset.dia){S.dia=b.dataset.dia;S.aberto=null;}
+  else if(b.dataset.area){const a=b.dataset.area;S.areas=S.areas.includes(a)?S.areas.filter(x=>x!==a):[...S.areas,a];guarda.set("areas",S.areas);}
+  else if(b.dataset.reg){const r=b.dataset.reg;S.regioes=S.regioes.includes(r)?S.regioes.filter(x=>x!==r):[...S.regioes,r];guarda.set("regioes",S.regioes);}
+  else if(b.dataset.f){S[b.dataset.f]=!S[b.dataset.f];guarda.set(b.dataset.f,S[b.dataset.f]);}
+  else if(b.classList.contains("abre")){const id=b.closest(".ev").dataset.id;S.aberto=S.aberto===id?null:id;}
+  else if(b.dataset.ics){const [id,hora]=b.dataset.ics.split("|");const e=E.find(x=>x.id===id);baixa(`largo-${id}.ics`,icsDe([{e,hora,data:S.dia}],e.titulo));return;}
+  else if(b.id==="baixar"){baixa(`largo-${S.dia}.ics`,icsDe(render.atual.map(it=>({e:it.e,hora:it.hora,data:S.dia})),"Largo · minha seleção"));return;}
+  else return;
+  render();
+});
+let tq; document.querySelector("#q").addEventListener("input",ev=>{clearTimeout(tq);tq=setTimeout(()=>{S.q=ev.target.value.trim();render();},120);});
+render();
+</script>
+</body>
+</html>

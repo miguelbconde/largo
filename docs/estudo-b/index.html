@@ -351,7 +351,7 @@ function render(){
   }
   document.querySelector("#radar").innerHTML = radar;
   // calendários
-  document.querySelector("#feeds").innerHTML = Object.entries(D.feeds).map(([f,n])=>`<a href="../calendarios/${f}">📅 ${esc(n.replace("Largo · ",""))}</a>`).join("");
+  document.querySelector("#feeds").innerHTML = Object.entries(D.feeds).map(([f,n])=>`<a href="../calendarios/${f}">${esc(n.replace("Largo · ",""))}</a>`).join("");
   // território
   const cont = {}; E.forEach(e=>cont[e.regiao]=(cont[e.regiao]||0)+1); const mx=Math.max(...Object.values(cont));
   document.querySelector("#barras").innerHTML = REGIOES.map(r=>`<div class="barra"><span>${esc(tR(r))}</span><i style="width:${(100*(cont[r]||0)/mx).toFixed(0)}%"></i><span>${cont[r]||0}</span></div>`).join("");

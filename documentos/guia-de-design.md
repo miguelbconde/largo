@@ -1,5 +1,5 @@
 # Guia de design — Largo
-versão 0.6 · 17/11/2026 · **direção em estudo, ainda não aplicada ao site**
+versão 0.7 · 17/11/2026 · **Estudo B (segunda paleta) aplicado ao site principal, por enquanto**
 
 Este guia orienta qualquer trabalho futuro na aparência do site. Ele registra de onde vem a linguagem visual, o que aproveitamos de cada referência e o que fica de fora. Deve ser lido antes de qualquer mudança de layout.
 
@@ -237,6 +237,8 @@ Isso substitui a tríade preto, branco e vermelho das seções 2.2 e 2.7. A regr
 | Terra (preço popular) | `#75461f` | `#e0bf7c` |
 
 Contraste medido no claro: texto 13,7:1; secundário 6,5:1; mar 7,6:1; mata 7,4:1; terra 7,2:1. No escuro, todos acima de 7:1.
+
+**Decisão de 17/11/2026.** A coordenação editorial aprovou a segunda paleta "por enquanto". O Estudo B passou a ser o modelo do site (`ferramentas/modelo.html`); o modelo anterior ficou guardado em `ferramentas/modelo-original.html`. **Regra nova:** nada de emojis ou ícones com cara de clipart. O ícone de calendário saiu da lista de calendários. Ícones, se vierem, terão desenho próprio (ver 2.4 e 2.8).
 
 **Passos seguintes, quando for a hora:**
 1. Dois ou três estudos da mesma tela (o dia de hoje, no celular), lado a lado.
