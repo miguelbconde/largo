@@ -1,11 +1,6 @@
 name: Teste das plataformas de ingresso
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - ferramentas/coleta/plataformas_teste.py
-      - .github/workflows/plataformas-teste.yml
 permissions:
   contents: write
 jobs:
