@@ -272,6 +272,7 @@ A coleta e a atualização do site passam a ser diárias.
 **Tomadas (19/11/2026):**
 - Aparência: o site passa a ter modo claro (areia, mar e sol) e modo escuro (mar no fundo), com botão para alternar; substitui a decisão de 17/11 sobre o Estudo B. Uma linha sinuosa de desenho próprio toma o lugar dos fios duplos, e o dia selecionado vira uma forma orgânica (ver guia de design, versão 1.1).
 
+- Site em inglês e espanhol: as sinopses e o "por que ir" dos destaques são traduzidos (por IA, na mesma rodada da redação; o cinema sai traduzido sem IA); os títulos dos eventos ficam sempre no original. O logo volta ao início.
 - Site: a busca fica logo abaixo do logo e procura em todos os dias da edição; as seções viram botões de filtro visíveis logo abaixo dela; a grade de cinema aparece num bloco próprio, agrupada por cinema; todos os cinemas da cidade entram, inclusive os de shopping.
 - Plataformas de ingresso: a informação que guardam é bem comum. Extraí-la e devolvê-la em formato aberto passa a ser prioridade do projeto, sem parceria nem afiliação, só com fatos sobre eventos e nunca dados de pessoas. Nas plataformas, o coletor segue os nossos limites, não as regras para robôs delas; chaves oficiais só sem restrição ao uso dos dados (seção 5; diretrizes políticas, seção 2.9).
 

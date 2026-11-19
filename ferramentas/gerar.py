@@ -10,7 +10,7 @@ do conferente (conferencia.json). Aplica as conferências mecânicas e gera:
   dados/edicoes/<id>/relatorio.md  relatório de exceções da edição
 Uso: python3 ferramentas/gerar.py 2026-11-15
 """
-import csv, json, os, re, sys, unicodedata, datetime as dt
+import hashlib, csv, json, os, re, sys, unicodedata, datetime as dt
 from collections import Counter
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -178,6 +178,16 @@ def main(edicao_id):
     pasta = os.path.join(RAIZ, "dados", "edicoes", edicao_id)
     base = json.load(open(os.path.join(pasta, "eventos.json"), encoding="utf-8"))
     ed, eventos = base["edicao"], base["eventos"]
+    # traduções das sinopses (dados/traducoes.json, feitas por ferramentas/redacao/traduzir.py); o título nunca é traduzido
+    trad_path = os.path.join(RAIZ, "dados", "traducoes.json")
+    trad = json.load(open(trad_path, encoding="utf-8")) if os.path.exists(trad_path) else {}
+    sem_traducao = []
+    for e in eventos:
+        t = trad.get(hashlib.sha1(" ".join(e.get("sinopse", "").split()).encode("utf-8")).hexdigest()[:16])
+        if t:
+            e["sinopse_en"], e["sinopse_es"] = t["en"], t["es"]
+        elif e.get("sinopse"):
+            sem_traducao.append(e["titulo"])
     cine_path = os.path.join(pasta, "cinema.json")  # fichas automáticas da Ingresso.com (ferramentas/redacao/cinema.py)
     if os.path.exists(cine_path):
         eventos = eventos + json.load(open(cine_path, encoding="utf-8"))["fichas"]
@@ -197,6 +207,13 @@ def main(edicao_id):
 
     dest_path = os.path.join(pasta, "destaques.json")
     destaques = json.load(open(dest_path, encoding="utf-8")) if os.path.exists(dest_path) else {"dias": {}}
+    for l in destaques["dias"].values():  # o "por que ir" de cada destaque também tem tradução
+        for d in l:
+            t = trad.get(hashlib.sha1(" ".join(d.get("porque", "").split()).encode("utf-8")).hexdigest()[:16])
+            if t:
+                d["porque_en"], d["porque_es"] = t["en"], t["es"]
+            elif d.get("porque"):
+                sem_traducao.append("destaque: " + d["porque"][:40] + "…")
     alertas_dest = validar_destaques([e for e in eventos if not e.get("automatica")], destaques)  # fichas automáticas (cinema) não concorrem à A boa
     sess_dest = {(d["id"], dia) for dia, l in destaques["dias"].items() for d in l}
 
@@ -267,6 +284,9 @@ def main(edicao_id):
     for dia, l in destaques["dias"].items():
         linhas.append(f"- **{dia[8:10]}/{dia[5:7]}**: " + "; ".join(nomes.get(d["id"], d["id"]) for d in l))
     linhas += ["", "Regras de curadoria:"] + ([f"- ⚠️ {d[8:10]}/{d[5:7]} — {a}" for d, a in alertas_dest] or ["- Todas as regras cumpridas."])
+    linhas += ["", "## Traduções", ""]
+    linhas += ([f"- Sem tradução (aparece em português no site em inglês e espanhol): {', '.join(sem_traducao)}"] if sem_traducao
+               else ["- Todas as sinopses têm versão em inglês e espanhol."])
     linhas += ["", "## Notas de redação", ""]
     linhas += [f"- **{e['titulo']}** — {e['nota_redacao']}" for e in eventos if e.get("nota_redacao")]
     open(os.path.join(pasta, "relatorio.md"), "w", encoding="utf-8").write("\n".join(linhas) + "\n")

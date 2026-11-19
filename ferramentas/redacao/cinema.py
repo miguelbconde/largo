@@ -30,6 +30,35 @@ def descricao(f):
     return " ".join(partes) or "Sessões de cinema."
 
 
+PAISES = {  # nomes de país como vêm da plataforma -> (inglês, espanhol); os que faltarem ficam em português
+    "Brasil": ("Brazil", "Brasil"), "Estados Unidos": ("United States", "Estados Unidos"), "EUA": ("United States", "Estados Unidos"),
+    "França": ("France", "Francia"), "Itália": ("Italy", "Italia"), "Alemanha": ("Germany", "Alemania"),
+    "Reino Unido": ("United Kingdom", "Reino Unido"), "Inglaterra": ("England", "Inglaterra"), "Espanha": ("Spain", "España"),
+    "Portugal": ("Portugal", "Portugal"), "Argentina": ("Argentina", "Argentina"), "México": ("Mexico", "México"),
+    "Japão": ("Japan", "Japón"), "Coreia do Sul": ("South Korea", "Corea del Sur"), "China": ("China", "China"),
+    "Canadá": ("Canada", "Canadá"), "Austrália": ("Australia", "Australia"), "Bélgica": ("Belgium", "Bélgica"),
+    "Irlanda": ("Ireland", "Irlanda"), "Índia": ("India", "India"), "Chile": ("Chile", "Chile"), "Colômbia": ("Colombia", "Colombia"),
+    "Arábia Saudita": ("Saudi Arabia", "Arabia Saudita"), "Dinamarca": ("Denmark", "Dinamarca"), "Suécia": ("Sweden", "Suecia"),
+    "Noruega": ("Norway", "Noruega"), "Polônia": ("Poland", "Polonia"), "Irã": ("Iran", "Irán"), "Rússia": ("Russia", "Rusia"),
+    "Holanda": ("Netherlands", "Países Bajos"), "Países Baixos": ("Netherlands", "Países Bajos"), "Suíça": ("Switzerland", "Suiza"),
+    "Áustria": ("Austria", "Austria"), "Uruguai": ("Uruguay", "Uruguay"), "Peru": ("Peru", "Perú"), "Grécia": ("Greece", "Grecia"),
+}
+
+
+def descricao_lang(f, lang):
+    k = 0 if lang == "en" else 1
+    pais = ", ".join(PAISES.get(x.strip(), (x.strip(), x.strip()))[k] for x in (f.get("pais") or "").split(",") if x.strip())
+    partes = []
+    if f.get("titulo_original") and f["titulo_original"].lower() != f["titulo"].lower():
+        partes.append(("Original title: " if k == 0 else "Título original: ") + f["titulo_original"] + ".")
+    if f.get("direcao"):
+        partes.append(("Directed by " if k == 0 else "Dirección de ") + f["direcao"] + ".")
+    dados = [x for x in (pais, str(f["ano"]) if f.get("ano") else "", f"{f['duracao_min']} min" if f.get("duracao_min") else "") if x]
+    if dados:
+        partes.append(", ".join(dados) + ".")
+    return " ".join(partes) or ("Film screenings." if k == 0 else "Sesiones de cine.")
+
+
 def main(edicao, caminho):
     pasta = os.path.join(RAIZ, "dados", "edicoes", edicao)
     ed = json.load(open(os.path.join(pasta, "eventos.json"), encoding="utf-8"))["edicao"]
@@ -61,7 +90,7 @@ def main(edicao, caminho):
             bairro=c["bairro"], regiao=c["regiao"], sessoes=sess, cartaz=None,
             preco_texto=(texto + " (preço da plataforma)") if texto else "", preco_min=pmin, preco_max=pmax,
             gratis=False, classificacao=f.get("classificacao", ""), acessibilidade="", na_rua=False,
-            sinopse=descricao(f), fonte="Ingresso.com (extração do Largo)",
+            sinopse=descricao(f), sinopse_en=descricao_lang(f, "en"), sinopse_es=descricao_lang(f, "es"), fonte="Ingresso.com (extração do Largo)",
             link=f.get("link") or c.get("site") or "", link_espaco=c.get("site", ""),
             trecho_fonte=trecho[:600],
             nota_redacao="Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",

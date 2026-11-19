@@ -311,6 +311,7 @@ const t = (k)=> (T[S.lang][k] ?? T.pt[k]);
 const tA = (a)=> (AREA_T[S.lang]||{})[a]||a, tR=(r)=>(REG_T[S.lang]||{})[r]||r;
 const hh = (h)=> h.slice(3)==="00" ? String(+h.slice(0,2))+"h" : String(+h.slice(0,2))+"h"+h.slice(3);
 const norm = (s)=> (s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
+const sin = (e)=> (S.lang!=="pt" && e["sinopse_"+S.lang]) || e.sinopse;   // a sinopse no idioma escolhido; o título fica no original
 const esc = (s)=> String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const dDia = (iso)=> new Date(iso+"T12:00:00Z");
 
@@ -320,7 +321,7 @@ function passaFiltros(e){
   if(S.gratis && !e.gratis) return false;
   if(S.rua && !e.na_rua) return false;
   if(S.popular && !(e.gratis || e.faixa==="popular")) return false;
-  if(S.q){ const alvo = norm([e.titulo,e.local,e.bairro,e.regiao,e.sinopse,e.areas.join(" ")].join(" "));
+  if(S.q){ const alvo = norm([e.titulo,e.local,e.bairro,e.regiao,e.sinopse,e.sinopse_en||"",e.sinopse_es||"",e.areas.join(" ")].join(" "));
     if(!norm(S.q).split(/\s+/).every(p=>alvo.includes(p))) return false; }
   return true;
 }
@@ -351,7 +352,7 @@ function card(it,k,porque,horaVisivel){
    <button class="abre" aria-expanded="${aberto}">${(porque||horaVisivel)&&it.hora?`<div class="quando">${hh(it.hora)}</div>`:""}<h3>${esc(e.titulo)}</h3>${porque?`<p class="porque">${esc(porque)}</p>`:""}
    <div class="onde"><strong>${esc(e.local)}</strong> · ${esc(e.bairro||"—")}${quando?`<br>${quando}`:""}</div>
    <div class="tags">${precoTag(e)}${e.areas.map(a=>`<span class="tag">${esc(tA(a))}</span>`).join("")}${e.na_rua?`<span class="tag">${t("ruaTag")}</span>`:""}${e.classificacao?`<span class="tag">${esc(e.classificacao)}</span>`:""}${e.acessibilidade?`<span class="tag" title="${esc(e.acessibilidade)}">♿︎ ${esc(e.acessibilidade)}</span>`:""}${e.status==="a_confirmar"?`<span class="tag conf">${t("aconf")}</span>`:""}</div></button>
-   <div class="mais"><p>${esc(e.sinopse)}</p>
+   <div class="mais"><p>${esc(sin(e))}</p>
     <p style="font-size:13px;color:var(--tinta2)">${esc(e.endereco)} – ${esc(e.bairro)} · ${esc(e.regiao)}</p>
     <div class="acoes">${e.tipo==="evento"?`<button class="btn cheio" data-ics="${e.id}|${it.hora}|${it.data&&it.data!=="~"?it.data:S.dia}">${t("agenda")}</button>`:""}
      <a class="btn" href="${mapa}" target="_blank" rel="noopener">${t("chegar")}</a>
@@ -396,7 +397,7 @@ function render(){
   else { boa.style.display=""; document.querySelector("#tituloToda").style.display="";
     const ds=(D.destaques&&D.destaques[S.dia])||[];
     const lst=ds.map(d=>{const e=E.find(x=>x.id===d.id); if(!e||!passaFiltros(e)) return null;
-      const s=e.sessoes.find(x=>x.data===S.dia); return s?{it:{e,hora:s.hora},porque:d.porque}:null;}).filter(Boolean)
+      const s=e.sessoes.find(x=>x.data===S.dia); return s?{it:{e,hora:s.hora},porque:(S.lang!=="pt"&&d["porque_"+S.lang])||d.porque}:null;}).filter(Boolean)
       .sort((a,b)=>a.it.hora<b.it.hora?-1:1);
     document.querySelector("#destaques").innerHTML = lst.length? lst.map((x,k)=>card(x.it,k,x.porque)).join("")
       : (ds.length? `<li class="vazio">${t("semDest")}</li>` : ""); }
@@ -419,7 +420,7 @@ function render(){
     if(cines.length){ const nf=cines.reduce((n,c)=>n+c.f.length,0);
       g=`<section class="grade"><h3>${t("gradeTit")}</h3><p>${t("gradeTxt")(cines.length,nf)}</p>`+cines.map(c=>
         `<details><summary>${esc(c.e.local)} <small>· ${esc(c.e.bairro)} · ${c.f.length}</small></summary><ul>`+
-        c.f.sort((a,b)=>a.e.titulo.localeCompare(b.e.titulo)).map(x=>`<li><a href="${esc(x.e.link)}" target="_blank" rel="noopener"><strong>${esc(x.e.titulo)}</strong></a> — ${x.hs.map(hh).join(", ")}<span>${esc(x.e.sinopse)}${x.e.classificacao?` · ${esc(x.e.classificacao)}`:""}${x.e.preco_texto?` · ${esc(x.e.preco_texto.replace(" (preço da plataforma)",""))}`:""}</span></li>`).join("")+
+        c.f.sort((a,b)=>a.e.titulo.localeCompare(b.e.titulo)).map(x=>`<li><a href="${esc(x.e.link)}" target="_blank" rel="noopener"><strong>${esc(x.e.titulo)}</strong></a> — ${x.hs.map(hh).join(", ")}<span>${esc(sin(x.e))}${x.e.classificacao?` · ${esc(x.e.classificacao)}`:""}${x.e.preco_texto?` · ${esc(x.e.preco_texto.replace(" (preço da plataforma)",""))}`:""}</span></li>`).join("")+
         `</ul></details>`).join("")+`</section>`; }
   }
   document.querySelector("#grade").innerHTML = g;
@@ -456,7 +457,7 @@ function icsDe(pares,nome){
   pares.forEach(({e,hora,data})=>{const ini=utc(data,hora);const fim=new Date(new Date(`${data}T${hora}:00-03:00`).getTime()+7200e3).toISOString().replace(/[-:]/g,"").replace(/\.\d{3}/,"");
     L.push("BEGIN:VEVENT","UID:"+e.id+"-"+data+hora.replace(":","")+"@largo.rio.br","DTSTAMP:"+st,"DTSTART:"+ini,"DTEND:"+fim,
       "SUMMARY:"+icsEsc(e.titulo),"LOCATION:"+icsEsc(`${e.local}, ${e.endereco} – ${e.bairro}`),
-      "DESCRIPTION:"+icsEsc(`${e.sinopse}\n\n${e.gratis?"Grátis":(e.preco_texto||"")}\nFonte: ${e.link}\nLargo — agenda cultural aberta do Rio`),"URL:"+e.link,"END:VEVENT");});
+      "DESCRIPTION:"+icsEsc(`${sin(e)}\n\n${e.gratis?"Grátis":(e.preco_texto||"")}\nFonte: ${e.link}\nLargo — agenda cultural aberta do Rio`),"URL:"+e.link,"END:VEVENT");});
   L.push("END:VCALENDAR"); return L.join("\r\n");
 }
 function baixa(nome,texto){

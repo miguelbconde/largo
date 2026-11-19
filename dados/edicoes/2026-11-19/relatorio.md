@@ -154,6 +154,10 @@
 Regras de curadoria:
 - Todas as regras cumpridas.
 
+## Traduções
+
+- Todas as sinopses têm versão em inglês e espanhol.
+
 ## Notas de redação
 
 - **Nada sob Controle** — O PDF traz o espetáculo dentro do bloco do Teatro Café Pequeno, logo depois de “O Último Dia da Minha Vida”, sem repetir o nome do teatro.
