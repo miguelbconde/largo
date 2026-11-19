@@ -1,5 +1,5 @@
 # Guia de design — Largo
-versão 0.8 · 18/11/2026 · **Estudo B (segunda paleta) aplicado ao site principal, por enquanto; Estudos C, D e E em avaliação**
+versão 0.9 · 19/11/2026 · **Estudo B (segunda paleta) aplicado ao site principal, por enquanto; Estudo F (claro e escuro) em avaliação**
 
 Este guia orienta qualquer trabalho futuro na aparência do site. Ele registra de onde vem a linguagem visual, o que aproveitamos de cada referência e o que fica de fora. Deve ser lido antes de qualquer mudança de layout.
 
@@ -249,7 +249,15 @@ O que os guias de uso de cor dizem, e vale como regra: azul e laranja são cores
 
 - **Estudo E (faixa azul).** Meio-termo proposto depois de ver C e D, em `docs/estudo-e/`. Só o cabeçalho vira uma faixa azul `#17437d` de ponta a ponta, com a marca em areia e o ponto em laranja claro `#ffb469`; o resto da página é o Estudo C (areia, sol só em "A boa", verde em "Grátis"). A barra do celular acompanha o azul. No escuro, a faixa fica em `#123a6e`.
 
-C, D e E aguardam avaliação da coordenação editorial.
+**Avaliação de C, D e E pela coordenação editorial (18/11/2026).** Quer o azul presente. O D atrai, mas pesa a ressalva de cansar na leitura longa; o E pareceu um pouco poluído; tendência ao C. Saída proposta: dois modos, cada um com o melhor resultado para si, e "Grátis" verde nos dois.
+
+**Estudo F (19/11/2026): modo claro e modo escuro.** Em `docs/estudo-f/`.
+- **Modo claro:** o Estudo C, com uma mudança: o que está selecionado ou é ação principal (dia escolhido, idioma ativo, "Adicionar à agenda") passa de preto para o azul do mar. Azul sobre areia: 7,6:1.
+- **Modo escuro:** o mar no fundo. Fundo `#143b70`, caixas `#0f2e59`, texto areia `#fbf7ee`, texto secundário `#c9d6ea`, laranja `#ffb469` organizando (ponto de "A boa", horários, links, o que está selecionado). **"Grátis" em verde claro `#86cfa3` com letra azul-marinho `#0d2748`**; preço popular em etiqueta de contorno. Contraste medido: texto 10,4:1; secundário 7,6:1; laranja 6,3:1; etiqueta verde sobre o fundo 6,1:1; letra sobre o verde 8,2:1.
+- **Regra:** um mesmo verde não serve aos dois fundos (o verde mata some no azul, o verde claro some na areia). A família de cor é a mesma e o tom muda com o modo.
+- **Botão de modo** no topo, ao lado dos idiomas, só com texto ("Escuro" / "Claro"), sem ícone. Sem escolha da pessoa, vale a configuração do aparelho. A escolha fica guardada só no aparelho, como as outras preferências.
+
+O Estudo F aguarda avaliação da coordenação editorial.
 
 **Passos seguintes, quando for a hora:**
 1. Dois ou três estudos da mesma tela (o dia de hoje, no celular), lado a lado.
