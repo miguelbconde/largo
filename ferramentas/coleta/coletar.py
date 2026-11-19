@@ -414,7 +414,7 @@ def main():
         os.makedirs(os.path.join(RAIZ, "dados", "coleta"), exist_ok=True)
         json.dump(resumo, open(os.path.join(RAIZ, "dados", "coleta", "resumo.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
         linhas = ["# Ronda das fontes — resumo", "", f"Feita em {resumo['feito_em']}, em {resumo['segundos']} segundos, no serviço de automação do GitHub.",
-                  "O texto recolhido dos sites não fica no repositório: é guardado à parte, por 14 dias, só para a redação das fichas.", "", "## Situação", ""]
+                  "O texto recolhido dos sites não entra na linha principal do repositório nem no site: fica num ramo temporário (coleta-bruta), substituído a cada ronda, só para a redação das fichas.", "", "## Situação", ""]
         linhas += [f"- {k}: **{v}**" for k, v in conta.most_common()]
         linhas += ["", "## Fonte a fonte", "", "| Fonte | Situação | O que veio |", "|---|---|---|"]
         linhas += [f"| {r['nome'][:70]} | {r['situacao']} | {', '.join(r['degraus'])} |" for r in sorted(resultados, key=lambda x: (x["situacao"], x["nome"]))]
