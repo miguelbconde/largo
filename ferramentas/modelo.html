@@ -153,6 +153,9 @@ h2.secao::before,section.bloco::before{top:2px}
 .dia[aria-pressed=true]{background:transparent;border-color:transparent;position:relative;z-index:0}
 .dia[aria-pressed=true]::before{content:"";position:absolute;inset:-6px -5px;z-index:-1;background:var(--sel);
   -webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpath d='M50 3 C70 -1 94 8 97 32 C99 50 89 58 92 76 C95 93 76 100 56 97 C40 95 30 101 15 92 C1 83 7 66 4 50 C1 33 -1 15 15 7 C27 1 38 5 50 3 Z'/%3E%3C/svg%3E") no-repeat center/100% 100%;mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpath d='M50 3 C70 -1 94 8 97 32 C99 50 89 58 92 76 C95 93 76 100 56 97 C40 95 30 101 15 92 C1 83 7 66 4 50 C1 33 -1 15 15 7 C27 1 38 5 50 3 Z'/%3E%3C/svg%3E") no-repeat center/100% 100%}
+.dia.novo[aria-pressed=true]::before{animation:assenta .26s cubic-bezier(.2,.9,.3,1.2)}
+@keyframes assenta{from{transform:scale(.72);opacity:.35}to{transform:scale(1);opacity:1}}
+@media (prefers-reduced-motion: reduce){.dia.novo[aria-pressed=true]::before{animation:none}}
 </style>
 </head>
 <body>
@@ -359,6 +362,8 @@ function render(){
     return `<button class="dia${d<hojeISO?" passado":""}" data-dia="${d}" aria-pressed="${S.dia===d}"><small>${d===hojeISO?t("hoje"):t("dias")[x.getUTCDay()]}</small><b>${d.slice(8,10)}</b></button>`}).join("")
     + `<button class="dia cartaz" data-dia="cartaz" aria-pressed="${S.dia==="cartaz"}"><b>${t("cartaz")}</b></button>`;
   const sel=document.querySelector(`.dia[aria-pressed=true]`); if(sel&&!render.rolou){sel.scrollIntoView({inline:"center",block:"nearest"});render.rolou=true;}
+  // a mancha do dia só "assenta" quando o dia muda, não a cada busca ou filtro
+  if(sel&&render.ultimoDia!==undefined&&render.ultimoDia!==S.dia) sel.classList.add("novo"); render.ultimoDia=S.dia;
   // filtros
   const nf=S.areas.length+S.regioes.length; document.querySelector("#nfiltros").textContent = nf?`· ${nf}`:"";
   document.querySelector("#fGratis").innerHTML = `<button class="chip g" data-f="gratis" aria-pressed="${S.gratis}">${t("gratis")}</button><button class="chip g" data-f="popular" aria-pressed="${S.popular}">${t("popular")}</button><button class="chip g" data-f="rua" aria-pressed="${S.rua}">${t("rua")}</button>`+S.areas.map(a=>`<button class="chip" data-area="${a}" aria-pressed="true">${esc(tA(a))} ✕</button>`).join("")+S.regioes.map(r=>`<button class="chip" data-reg="${r}" aria-pressed="true">${esc(tR(r))} ✕</button>`).join("");

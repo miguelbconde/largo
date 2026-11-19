@@ -284,6 +284,7 @@ O que os guias de uso de cor dizem, e vale como regra: azul e laranja são cores
 - Linha sinuosa azul (`#1b4e8f` no claro, `#8fb4e6` no escuro) no lugar dos fios duplos.
 - Dia selecionado como seixo: mancha de contorno irregular na cor de seleção, desenhada atrás do texto, que se estica para servir também ao botão "Em cartaz". O contorno de foco do teclado continua visível.
 - O G3 (barra curva e cantos desiguais) ficou de fora.
+- Transição: ao trocar de dia, a mancha "assenta" no novo dia (cresce de 72% ao tamanho final em cerca de um quarto de segundo). Só acontece quando o dia muda, não a cada busca ou filtro, e fica desligada para quem pede movimento reduzido no aparelho.
 
 Ressalva registrada: o que mais diz "Rio" tende a ser a marca, ainda por desenhar; a mesma curva pode nascer nela.
 
