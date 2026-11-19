@@ -196,6 +196,18 @@ Sempre que, numa conversa nova, o assunto for a coleta ou as fontes de programa�
 
 O Claude também avisa quais fontes não conseguiu abrir naquela semana, para que a coordenação decida se vale buscar à mão.
 
+### Coleta automática (em funcionamento desde 19/11/2026)
+
+A coleta mecânica prevista na seção 7 está montada. Um programa comum (`ferramentas/coleta/coletar.py`, sem inteligência artificial) roda toda quarta de manhã no serviço gratuito de automação do GitHub e pode ser disparado a qualquer hora.
+
+- **Escada de leitura**, do mais limpo ao mais bruto: feed (RSS) do site; eventos em dados estruturados; calendário de eventos do WordPress; texto da página inicial, das páginas de programação e das páginas de cada evento.
+- **Boas maneiras:** o coletor se identifica como LargoBot, com o endereço do projeto, e obedece às regras que cada site publica para leitores automáticos.
+- **Onde fica o texto recolhido:** num ramo temporário do repositório (`coleta-bruta`), fora do site e da linha principal, substituído a cada ronda. Esses textos pertencem aos sites de origem e não estão sob as licenças abertas do projeto. Na linha principal fica só o resumo da ronda (`dados/coleta/resumo.md`).
+- **Primeira ronda (19/11/2026):** 103 fontes com site no cadastro; cerca de 52 lidas com programação e datas, 13 lidas sem datas à vista, 16 sem resposta (várias por endereço errado no cadastro) e 9 que recusam visitas vindas da nuvem, entre elas os teatros estaduais.
+- **Ronda no computador:** o mesmo programa, rodado no computador da coordenação editorial, tenta só as fontes que a nuvem não conseguiu ler e gera um arquivo .zip para anexar na conversa. Não instala nada e não lê arquivos do computador.
+- **Sesc:** em espera. O site barra leitores de inteligência artificial; a decisão de coletar ou de pedir a programação ao Sesc é da coordenação editorial.
+- **Como o Claude lê:** nesta forma de trabalho o Claude não abre os sites diretamente; lê o que o coletor guardou.
+
 ## 11. Próximos passos
 
 1. **Verificar as fontes do Núcleo** (status "a verificar"): confirmar endereços, canais e métodos, e desdobrar as linhas agrupadas.
