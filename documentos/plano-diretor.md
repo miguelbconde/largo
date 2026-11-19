@@ -219,5 +219,8 @@ O Claude também avisa quais fontes não conseguiu abrir naquela semana, para qu
 - Integração com o Google Agenda: botão de assinatura (o Google só permite assinar pelo computador) e botão "adicionar ao Google Agenda" em cada ficha. Exige cuidar da versão do site para computador.
 - Roteiros do Largo: passeios próprios, com retranca separada da agenda e fora dos destaques (seção 7).
 
+**Tomadas (19/11/2026):**
+- Aparência: o site passa a ter modo claro (areia, mar e sol) e modo escuro (mar no fundo), com botão para alternar; substitui a decisão de 17/11 sobre o Estudo B. Uma linha sinuosa de desenho próprio toma o lugar dos fios duplos, e o dia selecionado vira uma forma orgânica (ver guia de design, versão 1.1).
+
 **Pendente:**
 - Nome definitivo do projeto.
