@@ -1,5 +1,5 @@
 # Guia de design — Largo
-versão 0.8 · 18/11/2026 · **Estudo B (segunda paleta) aplicado ao site principal, por enquanto; Estudos C e D em avaliação**
+versão 0.8 · 18/11/2026 · **Estudo B (segunda paleta) aplicado ao site principal, por enquanto; Estudos C, D e E em avaliação**
 
 Este guia orienta qualquer trabalho futuro na aparência do site. Ele registra de onde vem a linguagem visual, o que aproveitamos de cada referência e o que fica de fora. Deve ser lido antes de qualquer mudança de layout.
 
@@ -247,7 +247,9 @@ O que os guias de uso de cor dizem, e vale como regra: azul e laranja são cores
 - **Estudo C (areia + sol).** Paleta da paisagem mantida. Entra o **Sol** (`#d96c14` no claro, `#f29a45` no escuro) com uma função só: marcar "A boa" (ponto antes do título e barra dos destaques). O mar continua em marca, links, horários e seleção. Contraste do laranja como forma: 3,1:1 sobre a areia.
 - **Estudo D (mar no fundo).** Fundo azul `#17437d`, caixas `#113564`, texto areia `#fbf7ee`, laranja claro `#ffb469` como cor que organiza (ponto da marca, horários, links, dia selecionado). "Grátis" em etiqueta clara cheia; preço popular em etiqueta de contorno. O verde e o marrom saem. Contraste medido: texto 9,2:1; secundário 6,8:1; laranja 5,6:1. No escuro, fundo `#0f2444`, todos acima de 8:1.
 
-Aguardam avaliação da coordenação editorial.
+- **Estudo E (faixa azul).** Meio-termo proposto depois de ver C e D, em `docs/estudo-e/`. Só o cabeçalho vira uma faixa azul `#17437d` de ponta a ponta, com a marca em areia e o ponto em laranja claro `#ffb469`; o resto da página é o Estudo C (areia, sol só em "A boa", verde em "Grátis"). A barra do celular acompanha o azul. No escuro, a faixa fica em `#123a6e`.
+
+C, D e E aguardam avaliação da coordenação editorial.
 
 **Passos seguintes, quando for a hora:**
 1. Dois ou três estudos da mesma tela (o dia de hoje, no celular), lado a lado.

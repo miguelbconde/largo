@@ -22,6 +22,24 @@ ESTUDOS = {
 .qb::before{content:"";display:inline-block;width:.42em;height:.42em;border-radius:50%;background:var(--sol);margin-right:.32em;vertical-align:.12em}
 """,
     },
+    # Estudo E: meio-termo. Cabeçalho em faixa azul com marca em areia e ponto laranja; página em areia como no C.
+    "e": {
+        "nome": "Estudo E",
+        "tema": ("#17437d", "#123a6e"),
+        "css": """
+:root{ --sol:#d96c14; --faixa:#17437d; --faixa-texto:#fbf7ee; --faixa-texto2:#cbd8ec; --faixa-linha:#3d68a6; --faixa-sol:#ffb469; }
+@media (prefers-color-scheme: dark){ :root{ --sol:#f29a45; --faixa:#123a6e; } }
+header.topo{background:var(--faixa);color:var(--faixa-texto);border-bottom:none;padding:28px 0 16px;margin-bottom:16px;
+  box-shadow:0 0 0 100vmax var(--faixa);clip-path:inset(-100vmax -100vmax 0 -100vmax)}
+.marca h1 span{color:var(--faixa-sol)}
+header.topo .sub,header.topo .edicao{color:var(--faixa-texto2)}
+header.topo .edicao{margin-bottom:0}
+.idiomas button{border-color:var(--faixa-linha);color:var(--faixa-texto2)}
+.idiomas button[aria-pressed=true]{background:var(--faixa-texto);border-color:var(--faixa-texto);color:#0f2a50}
+#destaques .ev{border-left:4px solid var(--sol)}
+.qb::before{content:"";display:inline-block;width:.42em;height:.42em;border-radius:50%;background:var(--sol);margin-right:.32em;vertical-align:.12em}
+""",
+    },
     # Estudo D: mar como fundo, texto claro, laranja como cor que organiza.
     "d": {
         "nome": "Estudo D",
