@@ -1,15 +1,15 @@
 # Ronda das fontes — resumo
 
-Feita em 2026-11-19 04:51 UTC, em 143 segundos, no serviço de automação do GitHub.
+Feita em 2026-11-19 08:25 UTC, em 179 segundos, no serviço de automação do GitHub.
 O texto recolhido dos sites não entra na linha principal do repositório nem no site: fica num ramo temporário (coleta-bruta), substituído a cada ronda, só para a redação das fichas.
 
 ## Situação
 
 - coletada: **53**
 - não respondeu: **16**
-- coletada, mas sem datas à vista: **13**
-- recusou a visita: **8**
-- em espera: **1**
+- coletada, mas sem datas à vista: **14**
+- recusou a visita: **6**
+- em espera: **2**
 
 ## Fonte a fonte
 
@@ -17,6 +17,7 @@ O texto recolhido dos sites não entra na linha principal do repositório nem no
 |---|---|---|
 | A Gentil Carioca | coletada | texto de 13 página(s) |
 | Academia Brasileira de Letras (ABL) | coletada | texto de 12 página(s) |
+| Anita Schwartz Galeria de Arte | coletada | feed (1 itens), texto de 12 página(s) |
 | Arquivo Nacional | coletada | texto de 12 página(s) |
 | ArtRio | coletada | texto de 12 página(s) |
 | Biblioteca Parque Estadual; Bibliotecas Parque de Manguinhos e Rocinha | coletada | feed (10 itens), texto de 5 página(s) |
@@ -27,7 +28,6 @@ O texto recolhido dos sites não entra na linha principal do repositório nem no
 | Casa Museu Eva Klabin | coletada | texto de 13 página(s) |
 | Casa Roberto Marinho | coletada | texto de 12 página(s) |
 | Casa da Ciência da UFRJ | coletada | texto de 3 página(s) |
-| Centro Cultural Arte Sesc | coletada | texto de 14 página(s) |
 | Centro Cultural Correios RJ | coletada | feed (15 itens), feed (15 itens), texto de 13 página(s) |
 | Centro Cultural Justiça Federal (CCJF) | coletada | texto de 12 página(s) |
 | Circo Crescer e Viver | coletada | feed (8 itens), texto de 8 página(s) |
@@ -70,6 +70,7 @@ O texto recolhido dos sites não entra na linha principal do repositório nem no
 | Vivo Rio | coletada | texto de 12 página(s) |
 | Beco das Garrafas | coletada, mas sem datas à vista (a programação pode ser carregada depois) | texto de 2 página(s) |
 | Blue Note Rio | coletada, mas sem datas à vista (a programação pode ser carregada depois) | texto de 3 página(s) |
+| Caixa Cultural Rio de Janeiro | coletada, mas sem datas à vista (a programação pode ser carregada depois) | texto de 1 página(s) |
 | Casa do Choro | coletada, mas sem datas à vista (a programação pode ser carregada depois) | texto de 1 página(s) |
 | Cinesystem Belas Artes Botafogo | coletada, mas sem datas à vista (a programação pode ser carregada depois) | texto de 1 página(s) |
 | Circo Voador | coletada, mas sem datas à vista (a programação pode ser carregada depois) | texto de 1 página(s) |
@@ -81,6 +82,7 @@ O texto recolhido dos sites não entra na linha principal do repositório nem no
 | Museu Villa-Lobos | coletada, mas sem datas à vista (a programação pode ser carregada depois) | texto de 4 página(s) |
 | Museu da Imagem e do Som (MIS RJ) | coletada, mas sem datas à vista (a programação pode ser carregada depois) | texto de 1 página(s) |
 | Silvia Cintra + Box 4 | coletada, mas sem datas à vista (a programação pode ser carregada depois) | texto de 4 página(s) |
+| Centro Cultural Arte Sesc | em espera: o site barra leitores de inteligência artificial; aguardando decisão editorial ou contato com o Sesc |  |
 | Sesc Copacabana; Sesc Engenho de Dentro; Sesc Madureira; Sesc Ramos; S | em espera: o site barra leitores de inteligência artificial; aguardando decisão editorial ou contato com o Sesc |  |
 | Centro Cultural Light | não respondeu: URLError: <urlopen error [Errno -2] Name or service not known> |  |
 | Cine Santa Teresa | não respondeu: URLError: <urlopen error [Errno -2] Name or service not known> |  |
@@ -98,9 +100,7 @@ O texto recolhido dos sites não entra na linha principal do repositório nem no
 | Imperator (Centro Cultural João Nogueira) | não respondeu: URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1011)> |  |
 | Centro Cultural da UERJ (Teatro Odylo Costa Filho e outros) | não respondeu: URLError: <urlopen error timed out> |  |
 | Real Gabinete Português de Leitura | não respondeu: URLError: <urlopen error timed out> |  |
-| Anita Schwartz Galeria de Arte | recusou a visita (código 403) |  |
 | Biblioteca Nacional | recusou a visita (código 403) |  |
-| Caixa Cultural Rio de Janeiro | recusou a visita (código 403) |  |
 | Cineclube Macunaíma (ABI) | recusou a visita (código 403) |  |
 | Solar de Botafogo | recusou a visita (código 403) |  |
 | Teatro Rival Petrobras | recusou a visita (código 403) |  |

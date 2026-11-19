@@ -1,7 +1,7 @@
 {
  "origem": "nuvem",
- "feito_em": "2026-11-19 04:51 UTC",
- "segundos": 143,
+ "feito_em": "2026-11-19 08:25 UTC",
+ "segundos": 179,
  "fontes": [
   {
    "ids": [
@@ -130,7 +130,7 @@
     "feed (10 itens)",
     "texto de 5 página(s)"
    ],
-   "caracteres": 31795,
+   "caracteres": 31672,
    "url_final": "https://cultura.rj.gov.br",
    "paginas": [
     "https://cultura.rj.gov.br",
@@ -152,9 +152,17 @@
    "regioes": [
     "Centro"
    ],
-   "degraus": [],
-   "caracteres": 0,
-   "situacao": "recusou a visita (código 403)"
+   "degraus": [
+    "texto de 1 página(s)"
+   ],
+   "caracteres": 270,
+   "url_final": "https://www.caixacultural.gov.br/Paginas/default.aspx",
+   "paginas": [
+    "https://www.caixacultural.gov.br/Paginas/default.aspx"
+   ],
+   "mencoes_de_data": 0,
+   "situacao": "coletada, mas sem datas à vista (a programação pode ser carregada depois)",
+   "arquivo": "F014.txt"
   },
   {
    "ids": [
@@ -169,7 +177,7 @@
     "feed (20 itens)",
     "texto de 2 página(s)"
    ],
-   "caracteres": 10368,
+   "caracteres": 10354,
    "url_final": "https://www.barcariocadagema.com.br/",
    "paginas": [
     "https://www.barcariocadagema.com.br/",
@@ -212,7 +220,7 @@
    "degraus": [
     "texto de 12 página(s)"
    ],
-   "caracteres": 36910,
+   "caracteres": 36961,
    "url_final": "https://ccbb.com.br/rio-de-janeiro/",
    "paginas": [
     "https://ccbb.com.br/rio-de-janeiro/",
@@ -228,7 +236,7 @@
     "https://ccbb.com.br/rio-de-janeiro/programacao/21o-festival-de-cinema-italiano-no-brasil/",
     "https://ccbb.com.br/rio-de-janeiro/programacao/yokai-parade-seres-sobrenaturais-do-japao/"
    ],
-   "mencoes_de_data": 312,
+   "mencoes_de_data": 310,
    "situacao": "coletada",
    "arquivo": "F019.txt"
   },
@@ -401,7 +409,7 @@
     "feed (3 itens)",
     "texto de 1 página(s)"
    ],
-   "caracteres": 5536,
+   "caracteres": 1548,
    "url_final": "https://www.d-edge.com.br/",
    "paginas": [
     "https://www.d-edge.com.br/"
@@ -482,7 +490,7 @@
     "feed (20 itens)",
     "texto de 2 página(s)"
    ],
-   "caracteres": 8467,
+   "caracteres": 8464,
    "url_final": "https://www.riocarnaval.com/",
    "paginas": [
     "https://www.riocarnaval.com/",
@@ -702,9 +710,29 @@
    "regioes": [
     "Zona Sul"
    ],
-   "degraus": [],
-   "caracteres": 0,
-   "situacao": "recusou a visita (código 403)"
+   "degraus": [
+    "feed (1 itens)",
+    "texto de 12 página(s)"
+   ],
+   "caracteres": 88038,
+   "url_final": "https://www.anitaschwartz.com.br/",
+   "paginas": [
+    "https://www.anitaschwartz.com.br/",
+    "https://www.anitaschwartz.com.br/exposicoes/",
+    "https://www.anitaschwartz.com.br/exposicoes/nuas-e-vestidas-de-cristina-salgado/",
+    "https://www.anitaschwartz.com.br/2026/10/save-the-date-quintal-de-rosana-palazyan/",
+    "https://www.anitaschwartz.com.br/2026/08/save-the-date-nuas-e-vestidas-de-cristina-saldago/",
+    "https://www.anitaschwartz.com.br/2026/04/luciano-figueiredo-inaugura-a-individual-por-toda-parte-escreverei-o-teu-nome/",
+    "https://www.anitaschwartz.com.br/2026/04/michelle-rosset-participa-da-exposicao-coletiva-espacotempo/",
+    "https://www.anitaschwartz.com.br/2026/04/veludo-exposicao-coletiva-abre-dia-14-04-2026-com-curadoria-de-ulisses-carrilho/",
+    "https://www.anitaschwartz.com.br/2026/03/cristina-salgado-inaugura-instalacao-no-octogono-da-pinacote-da-sao-paulo/",
+    "https://www.anitaschwartz.com.br/2026/02/marjo-mizumoto-inaugura-aonde-eu-queria-estar/",
+    "https://www.anitaschwartz.com.br/2025/11/apresentando-abertura-da-exposicao-gas-25-26/",
+    "https://www.anitaschwartz.com.br/2025/11/visita-guiada-com-pedro-valera/"
+   ],
+   "mencoes_de_data": 370,
+   "situacao": "coletada",
+   "arquivo": "F065.txt"
   },
   {
    "ids": [
@@ -750,7 +778,7 @@
    "degraus": [
     "texto de 2 página(s)"
    ],
-   "caracteres": 7300,
+   "caracteres": 7291,
    "url_final": "https://becodasgarrafas.com.br",
    "paginas": [
     "https://becodasgarrafas.com.br",
@@ -942,30 +970,9 @@
    "regioes": [
     "Zona Sul"
    ],
-   "degraus": [
-    "texto de 14 página(s)"
-   ],
-   "caracteres": 56075,
-   "url_final": "https://sescrio.org.br",
-   "paginas": [
-    "https://sescrio.org.br",
-    "https://www.sescrio.org.br/natalsesc",
-    "https://sescrio.org.br/programacao/",
-    "https://www.sescrio.org.br/programacao/",
-    "https://www.sescrio.org.br/unidades/centro-de-referencia-em-educacao-inclusiva-sesc-e-senac/",
-    "https://www.sescrio.org.br/unidades/sesc-educacao-nova-friburgo/",
-    "https://www.sescrio.org.br/unidades/centro-de-ciencias-e-culturas-sesc-rj/",
-    "https://www.sescrio.org.br/unidades/centro-integrado-de-atividades-sesc-senac-piedade/",
-    "https://www.sescrio.org.br/unidades/centro-integrado-de-atividades-sesc-senac-rio-das-ostras/",
-    "https://www.sescrio.org.br/projeto/bibliosesc/",
-    "https://www.sescrio.org.br/projeto/saude-movel/",
-    "https://www.sescrio.org.br/projeto/sesc-mesa-brasil-rj/",
-    "https://www.sescrio.org.br/unidades/fazendinha-sesc/",
-    "https://www.sescrio.org.br/unidades/parque-sesc-nogueira/"
-   ],
-   "mencoes_de_data": 97,
-   "situacao": "coletada",
-   "arquivo": "F077.txt"
+   "degraus": [],
+   "caracteres": 0,
+   "situacao": "em espera: o site barra leitores de inteligência artificial; aguardando decisão editorial ou contato com o Sesc"
   },
   {
    "ids": [
@@ -1553,7 +1560,7 @@
    "degraus": [
     "texto de 4 página(s)"
    ],
-   "caracteres": 1746,
+   "caracteres": 1768,
    "url_final": "https://silviacintra.com.br",
    "paginas": [
     "https://silviacintra.com.br",
@@ -2054,7 +2061,7 @@
    "degraus": [
     "texto de 14 página(s)"
    ],
-   "caracteres": 63290,
+   "caracteres": 63205,
    "url_final": "https://www.travessa.com.br/eventos",
    "paginas": [
     "https://www.travessa.com.br/eventos",
