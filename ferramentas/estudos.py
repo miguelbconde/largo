@@ -52,6 +52,7 @@ header.topo .edicao{margin-bottom:0}
 :root[data-tema=escuro]{ %(escuro)s }
 .dia[aria-pressed=true],.idiomas button[aria-pressed=true],.btn.cheio{background:var(--sel);border-color:var(--sel);color:var(--sel-texto)}
 .dia[aria-pressed=true] small{color:var(--sel-texto)}
+.dia.passado[aria-pressed=true]{opacity:1}
 .tag.popular{border:1px solid var(--pop-borda)}
 .aviso{border:1px solid var(--pop-borda)}
 #destaques .ev{border-left:4px solid var(--sol)}
