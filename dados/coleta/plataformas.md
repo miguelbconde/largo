@@ -2,52 +2,52 @@
 
 Números da última ronda. Os dados brutos ficam no ramo `coleta-bruta` (`plataformas.json`).
 
-## Ingresso.com (cinema): 8251 sessões, 69 filmes
+## Ingresso.com (cinema): 8233 sessões, 73 filmes
 
 - Cine Araújo Jardim Guadalupe: 0 sessões
-- Cine Odeon: 38 sessões
-- Cine Santa Teresa: 27 sessões
-- CineCarioca José Wilker: 60 sessões
-- CineCarioca Méier: 124 sessões
-- Cineflix Center Shopping Rio de Janeiro (RIO): 131 sessões
-- Cineflix Taquara Plaza (TAQ): 146 sessões
-- Cinemark Botafogo: 372 sessões
-- Cinemark Carioca Shopping: 366 sessões
-- Cinemark Downtown: 654 sessões
-- Cinemark Metropolitano Barra: 323 sessões
-- Cinemark Village Mall: 238 sessões
-- Cinépolis Rio Design Barra: 134 sessões
-- Cinesystem Américas: 263 sessões
-- Cinesystem Bangu - Rio de Janeiro: 243 sessões
-- Cinesystem Belas Artes Botafogo: 198 sessões
-- Cinesystem Ilha do Governador: 162 sessões
-- Cinesystem Parque Shopping Sulacap: 274 sessões
-- Cinesystem Recreio: 112 sessões
-- Cinesystem Via Brasil: 246 sessões
-- Estação Claro Gávea: 152 sessões
-- Estação Claro Rio: 169 sessões
+- Cine Odeon: 37 sessões
+- Cine Santa Teresa: 26 sessões
+- CineCarioca José Wilker: 58 sessões
+- CineCarioca Méier: 121 sessões
+- Cineflix Center Shopping Rio de Janeiro (RIO): 129 sessões
+- Cineflix Taquara Plaza (TAQ): 143 sessões
+- Cinemark Botafogo: 371 sessões
+- Cinemark Carioca Shopping: 365 sessões
+- Cinemark Downtown: 649 sessões
+- Cinemark Metropolitano Barra: 321 sessões
+- Cinemark Village Mall: 236 sessões
+- Cinépolis Rio Design Barra: 133 sessões
+- Cinesystem Américas: 352 sessões
+- Cinesystem Bangu - Rio de Janeiro: 240 sessões
+- Cinesystem Belas Artes Botafogo: 193 sessões
+- Cinesystem Ilha do Governador: 160 sessões
+- Cinesystem Parque Shopping Sulacap: 271 sessões
+- Cinesystem Recreio: 111 sessões
+- Cinesystem Via Brasil: 244 sessões
+- Estação Claro Gávea: 148 sessões
+- Estação Claro Rio: 164 sessões
 - Festival do Rio: 0 sessões
 - Instituto Moreira Salles RJ: 0 sessões
-- Kinoplex Fashion Mall: 135 sessões
-- Kinoplex Leblon (rua): 110 sessões
-- Kinoplex Madureira: 194 sessões
-- Kinoplex Nova América: 267 sessões
-- Kinoplex RioSul: 271 sessões
-- Kinoplex São Luiz: 174 sessões
-- Kinoplex Shopping Boulevard RJ: 242 sessões
-- Kinoplex Shopping Leblon: 130 sessões
-- Kinoplex Tijuca: 269 sessões
-- Kinoplex Via Parque: 244 sessões
-- Kinoplex West Shopping: 208 sessões
-- Ponto Cine: 23 sessões
-- UCI Kinoplex Norte Shopping: 418 sessões
-- UCI New York City Center: 669 sessões
-- UCI Park Campo Grande: 255 sessões
-- UCI Park Jacarepagua: 210 sessões
+- Kinoplex Fashion Mall: 133 sessões
+- Kinoplex Leblon (rua): 109 sessões
+- Kinoplex Madureira: 191 sessões
+- Kinoplex Nova América: 264 sessões
+- Kinoplex RioSul: 267 sessões
+- Kinoplex São Luiz: 171 sessões
+- Kinoplex Shopping Boulevard RJ: 237 sessões
+- Kinoplex Shopping Leblon: 128 sessões
+- Kinoplex Tijuca: 264 sessões
+- Kinoplex Via Parque: 239 sessões
+- Kinoplex West Shopping: 205 sessões
+- Ponto Cine: 22 sessões
+- UCI Kinoplex Norte Shopping: 412 sessões
+- UCI New York City Center: 660 sessões
+- UCI Park Campo Grande: 251 sessões
+- UCI Park Jacarepagua: 208 sessões
 - Falhou: Cine Araújo Jardim Guadalupe (código 404)
 - Falhou: Festival do Rio (código 404)
 - Falhou: Instituto Moreira Salles RJ (código 404)
 
-## Sympla: 2254 eventos no Rio (97 páginas lidas)
+## Sympla: 2255 eventos no Rio (97 páginas lidas)
 
 - Sem falhas.

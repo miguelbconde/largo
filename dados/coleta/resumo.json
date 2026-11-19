@@ -1,7 +1,7 @@
 {
  "origem": "nuvem",
- "feito_em": "2026-11-19 18:56 UTC",
- "segundos": 187,
+ "feito_em": "2026-11-19 20:14 UTC",
+ "segundos": 207,
  "fontes": [
   {
    "ids": [
@@ -78,9 +78,9 @@
     "Centro"
    ],
    "degraus": [
-    "texto de 12 página(s)"
+    "texto de 6 página(s)"
    ],
-   "caracteres": 51496,
+   "caracteres": 30537,
    "url_final": "https://www.gov.br/arquivonacional/pt-br",
    "paginas": [
     "https://www.gov.br/arquivonacional/pt-br",
@@ -88,15 +88,9 @@
     "https://www.gov.br/arquivonacional/pt-br/servicos/atendimento",
     "https://www.gov.br/arquivonacional/pt-br/servicos/atendimento/atendimento-1",
     "https://www.gov.br/arquivonacional/pt-br/servicos/atendimento/bases-de-dados-e-instrumentos-de-pesquisa",
-    "https://www.gov.br/arquivonacional/pt-br/acesso-a-informacao/institucional/acervo",
-    "https://www.gov.br/arquivonacional/pt-br/servicos/atendimento/satisfacao",
-    "https://www.gov.br/arquivonacional/pt-br/servicos/atendimento/reproducao-de-documentos-e-emissao-de-certidoes",
-    "https://www.gov.br/arquivonacional/pt-br/servicos/gestao-de-documentos",
-    "https://www.gov.br/arquivonacional/pt-br/servicos/gestao-de-documentos/decreto",
-    "https://www.gov.br/arquivonacional/pt-br/servicos/gestao-de-documentos/orientacao-tecnica-1",
-    "https://www.gov.br/arquivonacional/pt-br/servicos/gestao-de-documentos/legislacao"
+    "https://www.gov.br/arquivonacional/pt-br/acesso-a-informacao/institucional/acervo"
    ],
-   "mencoes_de_data": 69,
+   "mencoes_de_data": 15,
    "situacao": "coletada",
    "arquivo": "F005.txt"
   },
@@ -130,7 +124,7 @@
     "feed (10 itens)",
     "texto de 7 página(s)"
    ],
-   "caracteres": 40989,
+   "caracteres": 41005,
    "url_final": "https://cultura.rj.gov.br",
    "paginas": [
     "https://cultura.rj.gov.br",
@@ -222,7 +216,7 @@
    "degraus": [
     "texto de 12 página(s)"
    ],
-   "caracteres": 37838,
+   "caracteres": 38082,
    "url_final": "https://ccbb.com.br/rio-de-janeiro/",
    "paginas": [
     "https://ccbb.com.br/rio-de-janeiro/",
@@ -238,7 +232,7 @@
     "https://ccbb.com.br/rio-de-janeiro/programacao/21o-festival-de-cinema-italiano-no-brasil/",
     "https://ccbb.com.br/rio-de-janeiro/programacao/yokai-parade-seres-sobrenaturais-do-japao/"
    ],
-   "mencoes_de_data": 321,
+   "mencoes_de_data": 317,
    "situacao": "coletada",
    "arquivo": "F019.txt"
   },
@@ -289,7 +283,7 @@
    "degraus": [
     "texto de 12 página(s)"
    ],
-   "caracteres": 25548,
+   "caracteres": 25637,
    "url_final": "https://ccjf.trf2.jus.br",
    "paginas": [
     "https://ccjf.trf2.jus.br",
@@ -344,9 +338,29 @@
    "regioes": [
     "Centro"
    ],
-   "degraus": [],
-   "caracteres": 0,
-   "situacao": "recusou a visita (código 403)"
+   "degraus": [
+    "feed (10 itens)",
+    "texto de 12 página(s)"
+   ],
+   "caracteres": 39118,
+   "url_final": "https://www.abi.org.br/",
+   "paginas": [
+    "https://www.abi.org.br/",
+    "https://www.abi.org.br/mostra-de-cinema-indigena-na-abi/",
+    "https://www.abi.org.br/institucional/historia/",
+    "https://www.abi.org.br/institucional/historia/presidentes/",
+    "https://www.abi.org.br/institucional/datas-da-abi/",
+    "https://www.abi.org.br/institucional/o-predio-da-abi/",
+    "https://www.abi.org.br/institucional/direcao/",
+    "http://www.abi.org.br/institucional/direcao/diretoria/",
+    "http://www.abi.org.br/institucional/direcao/conselho-deliberativo/",
+    "http://www.abi.org.br/institucional/direcao/conselho-consultivo/",
+    "http://www.abi.org.br/institucional/direcao/conselho-fiscal/",
+    "http://www.abi.org.br/institucional/direcao/comissoes/"
+   ],
+   "mencoes_de_data": 11,
+   "situacao": "coletada",
+   "arquivo": "F028.txt"
   },
   {
    "ids": [
@@ -445,7 +459,7 @@
    "degraus": [
     "texto de 13 página(s)"
    ],
-   "caracteres": 26454,
+   "caracteres": 26548,
    "url_final": "https://fundicaoprogresso.com.br",
    "paginas": [
     "https://fundicaoprogresso.com.br",
@@ -492,7 +506,7 @@
     "feed (20 itens)",
     "texto de 2 página(s)"
    ],
-   "caracteres": 8464,
+   "caracteres": 8467,
    "url_final": "https://www.riocarnaval.com/",
    "paginas": [
     "https://www.riocarnaval.com/",
@@ -606,7 +620,7 @@
    "degraus": [
     "texto de 12 página(s)"
    ],
-   "caracteres": 27060,
+   "caracteres": 27503,
    "url_final": "https://salaceciliameireles.rj.gov.br",
    "paginas": [
     "https://salaceciliameireles.rj.gov.br",
@@ -619,8 +633,8 @@
     "https://salaceciliameireles.rj.gov.br/programacao/centre-de-musique-baroque-de-versaille-a-lopera/",
     "https://salaceciliameireles.rj.gov.br/programacao/30-anos-da-academia-brasileira-de-literatura-de-cordel/",
     "https://salaceciliameireles.rj.gov.br/programacao/orquestra-sinfonica-da-unirio/",
-    "https://salaceciliameireles.rj.gov.br/programacao/guilherme-pozzi/",
-    "https://salaceciliameireles.rj.gov.br/programacao/cristiano-vogas/"
+    "https://salaceciliameireles.rj.gov.br/programacao/cristiano-vogas/",
+    "https://salaceciliameireles.rj.gov.br/programacao/orquestra-sinfonica-do-conservatorio-de-musica-de-sydney/"
    ],
    "mencoes_de_data": 118,
    "situacao": "coletada",
@@ -679,9 +693,21 @@
    "regioes": [
     "Centro"
    ],
-   "degraus": [],
-   "caracteres": 0,
-   "situacao": "recusou a visita (código 403)"
+   "degraus": [
+    "texto de 5 página(s)"
+   ],
+   "caracteres": 7017,
+   "url_final": "https://teatrorivalrefit.com.br",
+   "paginas": [
+    "https://teatrorivalrefit.com.br",
+    "https://teatrorivalrefit.com.br/",
+    "https://teatrorivalrefit.com.br/page/2/",
+    "https://teatrorivalrefit.com.br/page/3/",
+    "https://teatrorivalrefit.com.br/page/60/"
+   ],
+   "mencoes_de_data": 43,
+   "situacao": "coletada",
+   "arquivo": "F062.txt"
   },
   {
    "ids": [
@@ -799,7 +825,7 @@
    "degraus": [
     "texto de 2 página(s)"
    ],
-   "caracteres": 7315,
+   "caracteres": 7296,
    "url_final": "https://becodasgarrafas.com.br",
    "paginas": [
     "https://becodasgarrafas.com.br",
@@ -894,9 +920,9 @@
     "Zona Sul"
    ],
    "degraus": [
-    "texto de 11 página(s)"
+    "texto de 12 página(s)"
    ],
-   "caracteres": 85951,
+   "caracteres": 91964,
    "url_final": "https://casafirjan.com.br/",
    "paginas": [
     "https://casafirjan.com.br/",
@@ -909,9 +935,10 @@
     "https://casafirjan.com.br/fab-lab/o-que-e-fab-lab",
     "https://casafirjan.com.br/noticias/inscreva-se-no-fab-lab-open-day-e-vivencie-cultura-maker-na-casa-firjan",
     "https://casafirjan.com.br/fab-lab/fab-lab-para-empresas",
-    "https://casafirjan.com.br/palestras-debates-entrevistas/podcasts"
+    "https://casafirjan.com.br/palestras-debates-entrevistas/podcasts",
+    "https://casafirjan.com.br/palestras-debates-e-entrevistas/podcast/lab-de-tendencias"
    ],
-   "mencoes_de_data": 53,
+   "mencoes_de_data": 64,
    "situacao": "coletada",
    "arquivo": "F074.txt"
   },
@@ -927,7 +954,7 @@
    "degraus": [
     "texto de 13 página(s)"
    ],
-   "caracteres": 27775,
+   "caracteres": 28051,
    "url_final": "https://www.evaklabin.org.br/pt",
    "paginas": [
     "https://www.evaklabin.org.br/pt",
@@ -944,7 +971,7 @@
     "https://www.evaklabin.org.br/pt/explore/educacao",
     "https://www.evaklabin.org.br/pt/explore/musica"
    ],
-   "mencoes_de_data": 56,
+   "mencoes_de_data": 57,
    "situacao": "coletada",
    "arquivo": "F075.txt"
   },
@@ -1185,7 +1212,7 @@
     "feed (7 itens)",
     "texto de 14 página(s)"
    ],
-   "caracteres": 35209,
+   "caracteres": 35191,
    "url_final": "https://grupoestacao.com.br",
    "paginas": [
     "https://grupoestacao.com.br",
@@ -1444,22 +1471,23 @@
     "Zona Sul"
    ],
    "degraus": [
-    "feed (1 itens)",
-    "texto de 8 página(s)"
+    "feed (2 itens)",
+    "texto de 9 página(s)"
    ],
-   "caracteres": 21854,
+   "caracteres": 23079,
    "url_final": "https://museudarepublica.museus.gov.br",
    "paginas": [
     "https://museudarepublica.museus.gov.br",
     "https://museudarepublica.museus.gov.br/eventos-2/",
     "https://museudarepublica.museus.gov.br/exposicoes-2/",
-    "https://museudarepublica.museus.gov.br/agenda-de-maio/",
+    "https://museudarepublica.museus.gov.br/agenda-de-julho/",
     "https://museudarepublica.museus.gov.br/programa-de-memoria-institucional/",
     "https://museudarepublica.museus.gov.br/exposicoes-da-galeria-do-lago/",
     "https://museudarepublica.museus.gov.br/exposicoes-atuais/",
-    "https://museudarepublica.museus.gov.br/exposicoes-anteriores/"
+    "https://museudarepublica.museus.gov.br/exposicoes-anteriores/",
+    "https://museudarepublica.museus.gov.br/galeria-do-lago-recebe-o-jardim-da-memoria-exposicao-de-rodrigo-borges/"
    ],
-   "mencoes_de_data": 112,
+   "mencoes_de_data": 104,
    "situacao": "coletada",
    "arquivo": "F102.txt"
   },
@@ -1533,7 +1561,7 @@
    "degraus": [
     "texto de 6 página(s)"
    ],
-   "caracteres": 13547,
+   "caracteres": 13557,
    "url_final": "https://portasvilaseca.com.br/pt",
    "paginas": [
     "https://portasvilaseca.com.br/pt",
@@ -1579,7 +1607,7 @@
    "degraus": [
     "texto de 4 página(s)"
    ],
-   "caracteres": 1691,
+   "caracteres": 1743,
    "url_final": "https://silviacintra.com.br",
    "paginas": [
     "https://silviacintra.com.br",
@@ -2081,7 +2109,7 @@
    "degraus": [
     "texto de 14 página(s)"
    ],
-   "caracteres": 63250,
+   "caracteres": 63263,
    "url_final": "https://www.travessa.com.br/eventos",
    "paginas": [
     "https://www.travessa.com.br/eventos",
@@ -2178,7 +2206,7 @@
    "degraus": [
     "texto de 5 página(s)"
    ],
-   "caracteres": 26299,
+   "caracteres": 26285,
    "url_final": "https://firjan.com.br/atracoes/",
    "paginas": [
     "https://firjan.com.br/atracoes/",

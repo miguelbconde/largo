@@ -1,14 +1,14 @@
 # Ronda das fontes — resumo
 
-Feita em 2026-11-19 18:56 UTC, em 187 segundos, no serviço de automação do GitHub.
+Feita em 2026-11-19 20:14 UTC, em 207 segundos, no serviço de automação do GitHub.
 O texto recolhido dos sites não entra na linha principal do repositório nem no site: fica num ramo temporário (coleta-bruta), substituído a cada ronda, só para a redação das fichas.
 
 ## Situação
 
-- coletada: **54**
+- coletada: **56**
 - não respondeu: **15**
 - coletada, mas sem datas à vista: **14**
-- recusou a visita: **6**
+- recusou a visita: **4**
 - em espera: **2**
 
 ## Fonte a fonte
@@ -18,18 +18,19 @@ O texto recolhido dos sites não entra na linha principal do repositório nem no
 | A Gentil Carioca | coletada | texto de 13 página(s) |
 | Academia Brasileira de Letras (ABL) | coletada | texto de 12 página(s) |
 | Anita Schwartz Galeria de Arte | coletada | feed (1 itens), texto de 12 página(s) |
-| Arquivo Nacional | coletada | texto de 12 página(s) |
+| Arquivo Nacional | coletada | texto de 6 página(s) |
 | ArtRio | coletada | texto de 12 página(s) |
 | Biblioteca Parque Estadual; Bibliotecas Parque de Manguinhos e Rocinha | coletada | feed (10 itens), texto de 7 página(s) |
 | CCBB Rio | coletada | texto de 12 página(s) |
 | Carioca da Gema | coletada | feed (20 itens), texto de 2 página(s) |
 | Carpintaria (Fortes D'Aloia & Gabriel) | coletada | texto de 9 página(s) |
-| Casa Firjan | coletada | texto de 11 página(s) |
+| Casa Firjan | coletada | texto de 12 página(s) |
 | Casa Museu Eva Klabin | coletada | texto de 13 página(s) |
 | Casa Roberto Marinho | coletada | texto de 12 página(s) |
 | Casa da Ciência da UFRJ | coletada | texto de 3 página(s) |
 | Centro Cultural Correios RJ | coletada | feed (15 itens), feed (15 itens), texto de 13 página(s) |
 | Centro Cultural Justiça Federal (CCJF) | coletada | texto de 12 página(s) |
+| Cineclube Macunaíma (ABI) | coletada | feed (10 itens), texto de 12 página(s) |
 | Circo Crescer e Viver | coletada | feed (8 itens), texto de 8 página(s) |
 | D-Edge Rio | coletada | feed (3 itens), texto de 1 página(s) |
 | EAV Parque Lage | coletada | texto de 12 página(s) |
@@ -50,7 +51,7 @@ O texto recolhido dos sites não entra na linha principal do repositório nem no
 | Mul.ti.plo Espaço Arte | coletada | texto de 12 página(s) |
 | Museu Bispo do Rosário Arte Contemporânea | coletada | feed (1 itens), dados estruturados (1 eventos), texto de 6 página(s) |
 | Museu Histórico Nacional (MHN) | coletada | feed (9 itens), texto de 4 página(s) |
-| Museu da República (Palácio do Catete) | coletada | feed (1 itens), texto de 8 página(s) |
+| Museu da República (Palácio do Catete) | coletada | feed (2 itens), texto de 9 página(s) |
 | Museu do Pontal | coletada | feed (10 itens), texto de 13 página(s) |
 | Orquestra Sinfônica Brasileira (OSB) | coletada | texto de 9 página(s) |
 | Pinakotheke Cultural | coletada | texto de 14 página(s) |
@@ -64,6 +65,7 @@ O texto recolhido dos sites não entra na linha principal do repositório nem no
 | Teatro Multiplan | coletada | texto de 10 página(s) |
 | Teatro Poeira & Poeirinha | coletada | texto de 4 página(s) |
 | Teatro Riachuelo Rio | coletada | texto de 2 página(s) |
+| Teatro Rival Petrobras | coletada | texto de 5 página(s) |
 | Teatro TotalEnergies (antigo PetraGold) | coletada | dados estruturados (5 eventos), texto de 2 página(s) |
 | Teatro das Artes | coletada | dados estruturados (19 eventos), texto de 11 página(s) |
 | Teatros Firjan SESI | coletada | texto de 5 página(s) |
@@ -101,8 +103,6 @@ O texto recolhido dos sites não entra na linha principal do repositório nem no
 | Imperator (Centro Cultural João Nogueira) | não respondeu: URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1011)> |  |
 | Centro Cultural da UERJ (Teatro Odylo Costa Filho e outros) | não respondeu: URLError: <urlopen error timed out> |  |
 | Biblioteca Nacional | recusou a visita (código 403) |  |
-| Cineclube Macunaíma (ABI) | recusou a visita (código 403) |  |
 | Solar de Botafogo | recusou a visita (código 403) |  |
-| Teatro Rival Petrobras | recusou a visita (código 403) |  |
 | Fundação Casa de Rui Barbosa | recusou a visita (código 404) |  |
 | Teatro João Caetano; Teatro Glaucio Gill; Teatro Armando Gonzaga; Teat | recusou a visita (código 503) |  |
