@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:2026-11-19-021-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261120T140000Z
 DTEND:20261120T160000Z
 SUMMARY:Visita mediada: Imersão
@@ -23,7 +23,7 @@ CATEGORIES:Artes Visuais
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-022-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261121T130000Z
 DTEND:20261121T150000Z
 SUMMARY:Inside Out – 15 anos
@@ -38,7 +38,7 @@ CATEGORIES:Artes Visuais
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-022-1@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261122T130000Z
 DTEND:20261122T150000Z
 SUMMARY:Inside Out – 15 anos
@@ -53,7 +53,7 @@ CATEGORIES:Artes Visuais
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-024-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261119T210000Z
 DTEND:20261119T230000Z
 SUMMARY:Abertura da exposição “7 Ervas”
@@ -68,7 +68,7 @@ CATEGORIES:Artes Visuais
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-029-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261121T130000Z
 DTEND:20261121T150000Z
 SUMMARY:Bebês no MAR – exposição Guilherme Kid
@@ -82,7 +82,7 @@ CATEGORIES:Infantil\,Artes Visuais
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-029-1@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261121T140000Z
 DTEND:20261121T160000Z
 SUMMARY:Bebês no MAR – exposição Guilherme Kid
@@ -96,7 +96,7 @@ CATEGORIES:Infantil\,Artes Visuais
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-120-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261120T130000Z
 DTEND:20261120T150000Z
 SUMMARY:Café com Arte – Novembro Negro\, com Pandro Nobã
@@ -109,5 +109,48 @@ DESCRIPTION:Manhã de café\, pintura e conversa com o artista urbano e a
  nLargo — agenda cultural aberta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
 CATEGORIES:Artes Visuais\,Livros & Debates
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-138-0@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261121T190000Z
+DTEND:20261121T210000Z
+SUMMARY:Cartografia de Futuros Imaginários – Casa Aberta
+LOCATION:Casa Firjan\, Rua Guilhermina Guinle\, 211 – Botafogo
+DESCRIPTION:Atividade de uma hora para criar zines com palavras\, imagens
+  e recortes.\n\nGrátis (sujeito a lotação) · 12 anos\n\nFonte: https
+ ://casafirjan.com.br/\nLargo — agenda cultural aberta do Rio
+URL:https://casafirjan.com.br/
+CATEGORIES:Artes Visuais
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-138-1@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261122T190000Z
+DTEND:20261122T210000Z
+SUMMARY:Cartografia de Futuros Imaginários – Casa Aberta
+LOCATION:Casa Firjan\, Rua Guilhermina Guinle\, 211 – Botafogo
+DESCRIPTION:Atividade de uma hora para criar zines com palavras\, imagens
+  e recortes.\n\nGrátis (sujeito a lotação) · 12 anos\n\nFonte: https
+ ://casafirjan.com.br/\nLargo — agenda cultural aberta do Rio
+URL:https://casafirjan.com.br/
+CATEGORIES:Artes Visuais
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-160-0@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261122T190000Z
+DTEND:20261122T210000Z
+SUMMARY:Oficina de Batik Experimental\, com Val Pires
+LOCATION:Museu do Pontal\, Av. Célia Ribeiro da Silva Mendes\, s/nº –
+  Barra da Tijuca
+DESCRIPTION:A artista e arte-educadora ensina a estampar tecido com carim
+ bos de espuma\, numa introdução ao batik africano.\n\nGrátis (contrib
+ uição sugerida de R$ 20) · Livre\n\nFonte: https://museudopontal.org.
+ br/programacao/oficina-batik-experimental-22-nov/\nLargo — agenda cult
+ ural aberta do Rio
+URL:https://museudopontal.org.br/programacao/oficina-batik-experimental-2
+ 2-nov/
+CATEGORIES:Artes Visuais\,Infantil
 END:VEVENT
 END:VCALENDAR

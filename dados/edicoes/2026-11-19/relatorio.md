@@ -1,16 +1,16 @@
 # Relatório da edição — Edição de 19 a 25 de novembro de 2026
 
-- Eventos e exposições: **121** (90 eventos com 121 sessões; 31 em cartaz)
-- Grátis: **71** · preço popular (até R$ 40): **28**
-- Conferidos sem ressalva: **114** · a confirmar: **7**
+- Eventos e exposições: **170** (132 eventos com 180 sessões; 38 em cartaz)
+- Grátis: **80** · preço popular (até R$ 40): **33**
+- Conferidos sem ressalva: **162** · a confirmar: **8**
 
 ## Distribuição por região
 
-- Centro: 55
-- Zona Sul: 13
-- Zona Sudoeste: 8
-- Zona Norte: 35
-- Zona Oeste: 10
+- Centro: 68
+- Zona Sul: 37
+- Zona Sudoeste: 18
+- Zona Norte: 36
+- Zona Oeste: 11
 
 ## Conferente independente (IA)
 
@@ -56,6 +56,33 @@
 - **Cabaret – Edição Especial Consciência Negra** (2026-11-19-095) · bairro · *nao_encontrado* — A fonte dá só "Local: Rua Carmo Neto, 143", sem bairro. A ficha traz "Cidade Nova", região Centro. Nota do redator: "A fonte não dá o bairro. “Cidade Nova” vem do cadastro de fontes do projeto." → **Mantido: a rua vem da fonte; o bairro, do cadastro do projeto.**
 - **WD – Eclipse Tour** (2026-11-19-097) · sessoes · *duvida* — Apontamento da redação: a sessão de 19/11 vem do PDF semanal anterior (“12 e 19/11”). O PDF desta semana lista só “A Cura da Terra” e “Superiores” no mesmo teatro e não cita o show. Pode ter sido cancelado ou apenas omitido. → **pendente (sai como “a confirmar”)**
 - **Dança, Identidade e Resistência – aulão do Ballet Manguinhos** (2026-11-19-121) · bairro · *nao_encontrado* — A fonte (Novembro Negro) só diz "Local: Biblioteca Parque de Manguinhos", sem endereço nem bairro. A ficha traz bairro "Manguinhos" (e região Zona Norte), deduzido do nome do equipamento. A nota_redacao explica apenas a falta do endereço ("A fonte não dá o endereço da Biblioteca Parque de Manguinhos"), não a origem do bairro. O único endereço próximo na fonte é o da sede do Ballet Manguinhos ("Avenida dos Democráticos, 535, Higienópolis"), que é de outra atividade. → **pendente (sai como “a confirmar”)**
+- **OSB Jovem – Legado em Harmonia** (2026-11-19-129) · preco_texto · *nao_encontrado* — A ficha traz R$ 30 a R$ 60 (meia R$ 15 a R$ 30). Em F192, a linha "Plateia: R$60 (R$30 meia) | Frisa: R$50 (R$25 meia) | Camarote: R$40 (R$20 meia) | Galeria: R$30 (R$15 meia)" vem ANTES do bloco da OSB Jovem e pertence ao concerto anterior da lista (na Cidade das Artes); o bloco de 19/11 termina em "Local: Theatro Municipal do Rio de Janeiro (Praça Floriano, S/N – Centro – Rio de Janeiro)" seguido só de "Ingressos", sem valores. F063 também não dá preço. Preço (e preco_min/preco_max) sem apoio na fonte. → **Corrigido: preço retirado; a linha de valores era de outro concerto da lista.**
+- **OSB Jovem – Legado em Harmonia** (2026-11-19-129) · trecho_fonte · *diverge* — O trecho cola a linha de preços logo depois de "Rodrigo Herculano , oboé [...]" como se fosse do mesmo concerto; em F192 essa linha está no "SERVIÇO" de outro evento, antes do título "OSB Jovem | Legado em Harmonia". → **Corrigido: a linha de preços saiu do trecho.**
+- **CA7RIEL & Paco Amoroso – Free Spirits World Tour** (2026-11-19-152) · preco_texto · *diverge* — A ficha deixa o preço vazio e a nota diz que a coleta não trouxe preço. F126 (página do evento) traz "INGRESSOS A PARTIR DE: R$ 245 (meia) R$ 490 (inteira)". → **Corrigido: R$ 490 (meia R$ 245).**
+- **CA7RIEL & Paco Amoroso – Free Spirits World Tour** (2026-11-19-152) · classificacao · *diverge* — A ficha deixa vazio e a nota diz que a coleta não trouxe classificação. F126 traz "Classificação Etária 18" na página do evento. → **Corrigido: 18 anos.**
+- **Cartografia de Futuros Imaginários – Casa Aberta** (2026-11-19-138) · sessoes · *diverge* — A ficha só tem 21/11 às 16h. F074 lista também "22 de novembro de 2026 Domingo Horário: 16h00 | Duração: 1h Cartografia de Futuros Imaginários | Atividade Casa Aberta" e, na página de atividades, "Sábados e domingos Horário: 16h". Falta a sessão de domingo, 22/11. → **Corrigido: entra também domingo, 22/11, às 16h.**
+- **Cartografia de Futuros Imaginários – Casa Aberta** (2026-11-19-138) · gratis · *diverge* — A ficha traz preço vazio e gratis=false, e a nota diz que a fonte não informa preço. F074 (página Atividades) diz "Atividade gratuita, sujeito a lotação". → **Corrigido: grátis, sujeito a lotação.**
+- **Cartografia de Futuros Imaginários – Casa Aberta** (2026-11-19-138) · classificacao · *diverge* — A ficha deixa vazio (e está na seção Infantil); a nota diz que a fonte não informa. F074 traz "Classificação: 12 anos". → **Corrigido: 12 anos; a ficha saiu da seção Infantil.**
+- **Meninas e Mulheres na Ciência e Tecnologia: redes que abrem caminhos** (2026-11-19-139) · sinopse · *duvida* — A nota diz que a fonte não informa se é preciso se inscrever. Em F074 (página Atividades) há um destaque "Ciência e Tecnologia – Conheça iniciativas que ampliam a participação feminina na ciência e na tecnologia em um encontro [...]" seguido de "INSCREVA-SE"; parece ser o mesmo encontro, mas o destaque não repete o título nem a data. → **Mantido: a fonte não liga o botão de inscrição a este encontro com clareza; a dúvida fica anotada na ficha.**
+- **Guardar – Coleção Marcia e Luiz Chrysostomo** (2026-11-19-135) · preco_texto · *diverge* — A ficha traz só "R$ 10 (meia R$ 5), só na bilheteria". F066 (ArtRio) acrescenta "Às quartas-feiras, a entrada é franca para todos os públicos." e "Aos domingos, “ingresso família” a R$10 para grupos de quatro pessoas." A quarta gratuita (25/11 cai na edição) não aparece na ficha. → **Corrigido: acrescentado “grátis às quartas”.**
+- **O Nome do Bebê** (2026-11-19-147) · classificacao · *diverge* — A ficha deixa vazio. F114 traz "Classificação etária: 12 anos. Menores a partir de 10 anos entram acompanhados dos pais ou responsáveis." → **Corrigido: 12 anos.**
+- **O Nome do Bebê** (2026-11-19-147) · sinopse · *diverge* — A nota diz que a coleta não trouxe a sinopse, e a ficha só fala da temporada. F114 traz a sinopse completa: "a comédia O Nome do Bebê, com Bianca Bin e grande elenco", "da dupla francesa Matthieu Delaporte e Alexandre de la Patellière", "A direção é de Elias Andreato". A nota está errada (o preço, de fato, não aparece). → **Corrigido: sinopse refeita a partir da fonte.**
+- **O Mercador de Veneza** (2026-11-19-148) · classificacao · *diverge* — A ficha deixa vazio. F114 traz "Classificação etária: 14 anos. Menores a partir de 10 anos entram acompanhados dos pais ou responsáveis." → **Corrigido: 14 anos.**
+- **O Mercador de Veneza** (2026-11-19-148) · sinopse · *diverge* — A nota diz que a coleta não trouxe a sinopse. F114 traz: "O Mercador de Veneza, do dramaturgo inglês William Shakespeare [...] A peça tem direção de Daniela Stirbulov e é protagonizada por Dan Stulbach que dá vida ao marcante agiota Shylock" e "Duração: 120 minutos". A nota está errada (o preço, de fato, não aparece). → **Corrigido: sinopse refeita a partir da fonte.**
+- **Atom Pink Floyd – Pink Floyd Symphonic** (2026-11-19-149) · classificacao · *diverge* — A ficha deixa vazio. F114 traz "Classificação etária: 16 anos. Menores a partir de 10 anos entram acompanhados dos pais ou responsáveis." → **Corrigido: 16 anos.**
+- **Margaridas** (2026-11-19-150) · classificacao · *diverge* — A ficha deixa vazio. F123 traz "CLASSIFICAÇÃO ETÁRIA: 10 anos" (e "DURAÇÃO: 60 minutos"). → **Corrigido: 10 anos.**
+- **Adorável Face de Andronieva Petrosa** (2026-11-19-151) · classificacao · *diverge* — A ficha deixa vazio. F123 traz "CLASSIFICAÇÃO: Livre" (e "DURAÇÃO: 50 minutos"). → **Corrigido: Livre.**
+- **Sábado Musical com Batuca Jardim – Ritmos da Ancestralidade** (2026-11-19-144) · classificacao · *diverge* — A ficha deixa vazio. F084 traz, logo abaixo da data, "Classificação: Livre". → **Corrigido: Livre.**
+- **Oficina Da Imaginação à Selva: uma aventura pela floresta de Mogli** (2026-11-19-145) · classificacao · *diverge* — A ficha deixa vazio. F084 traz "21 de novembro | Sábado, das 10h30 às 12h30 Classificação: Livre". → **Corrigido: Livre.**
+- **Clube Akorin: Musicalizar Brincando** (2026-11-19-146) · classificacao · *diverge* — A ficha deixa vazio. F084 traz "22 de novembro | Domingo, às 11h Classificação: Livre". → **Corrigido: Livre.**
+- **Oficina Cliques e Movimento** (2026-11-19-140) · classificacao · *diverge* — A ficha deixa vazio. F075 traz no Serviço "Entrada gratuita Classificação livre" (e o texto diz "voltada para crianças a partir de 3 anos de idade"). → **Corrigido: Livre.**
+- **Oficina Cliques e Movimento** (2026-11-19-140) · endereco · *duvida* — A ficha traz Av. Epitácio Pessoa, 2.480, que aparece no rodapé do site ("Avenida Epitácio Pessoa, 2480"). Mas o Serviço da própria oficina, em F075, diz "Local: Casa Museu Eva Klabin Praça Benedito Cerqueira, 0 | Lagoa – Rio de Janeiro". A fonte dá dois endereços. → **Mantido: Av. Epitácio Pessoa, 2.480 é o endereço fixo da casa (rodapé do site); a divergência fica anotada na ficha.**
+- **Três a Varejo + 1** (2026-11-19-127) · sessoes · *duvida* — A ficha traz segunda, 23/11, 19h30, como na página inicial de F016 ("seg., 23 de nov. Três a Varejo / [...] 23 de nov. de 2026, 19:30"). Mas a listagem SHOWS do mesmo arquivo pula essa data (de "Leonardo Bessa sáb., 21 de nov." vai direto a "Branka ter., 24 de nov."), o botão é "Informações" e não "compre aqui", e o quadro de horários da casa só cita de terça a sábado. Fonte contraditória quanto ao show de segunda. → **pendente (sai como “a confirmar”)**
+- **ECOS – coletiva** (2026-11-19-136) · sinopse · *duvida* — A sinopse diz "19 trabalhos, entre pinturas, esculturas e um vídeo", como a ArtRio (F066: "São dezenove obras, entre pinturas, esculturas e um vídeo"). O site da galeria (F100) diz "Reunindo vinte trabalhos, entre pinturas, esculturas, serigrafias e vídeos". A nota declara a divergência de horário, mas não esta; e nela diz que vale o site da galeria. → **Corrigido: vale o site da galeria (cerca de vinte trabalhos); a divergência fica anotada.**
+- **O gesto do poder, o poder do gesto – um recorte da Coleção Instituto PIPA** (2026-11-19-132) · trecho_fonte · *duvida* — O campo arquivo_da_fonte aponta F016, que é o site do Carioca da Gema e não tem nada sobre a mostra. O trecho citado existe, mas em F001 (A Gentil Carioca): "Arjan Martins | O gesto do poder, o poder do gesto : Centro Cultural do Patrimônio Paço Imperial | Rio de Janeiro, Brasil [...] 26 Setembro - 22 Novembro 2026". Conferido em F001, o conteúdo da ficha bate; só o arquivo indicado está errado. → **Sem mudança: a ficha confere com a fonte certa (site da galeria A Gentil Carioca); o erro era só na indicação do arquivo dada ao conferente.**
+- **Debate de lançamento: As Três Mulheres do Alencar** (2026-11-19-169) · trecho_fonte · *duvida* — A segunda parte do trecho ("R. São Francisco Xavier, 524, Térreo, Bloco F – Sala T031") existe em F152, mas é o endereço do gabinete da reitoria (vem sob "Contato do gabinete: Campus Francisco Negrão de Lima Pavilhão João Lyra Filho"), não o da livraria. Sobre o local do debate a fonte só diz "na livraria da EdUERJ, localizada no térreo do campus Maracanã". O número 524 é o do campus, mas a fonte não dá endereço da livraria. → **Corrigido: saiu do trecho o endereço que era de outro setor; a ficha passa a dizer “campus Maracanã, térreo”.**
+- **O Grande Encontro – Leci Brandão, Sandro Luiz, Tião Casemiro e Luan Pureza** (2026-11-19-163) · sinopse · *duvida* — A sinopse fala em "três gerações da música de umbanda". F137 diz "reunindo diferentes gerações e grandes referências da música ligada à cultura afrobrasileira e à Umbanda" e "Completando esse encontro de gerações, Luan Pureza representa a renovação"; o número três é dedução de quem redigiu, não está na fonte. → **Corrigido: “diferentes gerações”, como na fonte.**
+- **Casa da Mônica** (2026-11-19-133) · endereco · *duvida* — O endereço da ficha está certo, mas a nota erra ao dizer que ele não está no texto coletado: F013 traz "Biblioteca Parque Estadual Av. Pres. Vargas, 1261 – Centro, Rio de Janeiro – RJ, 20071-004". → **Corrigido: a nota estava errada; o endereço consta na fonte e entrou no trecho.**
 
 ## Conferência mecânica (regras)
 
@@ -71,14 +98,49 @@
 - [baixa] **Rockeria 14 anos** (2026-11-19-114) — Preço não informado na fonte
 - [baixa] **Café com Arte – Novembro Negro, com Pandro Nobã** (2026-11-19-120) — Preço não informado na fonte
 - [alta] **Dança, Identidade e Resistência – aulão do Ballet Manguinhos** (2026-11-19-121) — Endereço ou bairro ausente
+- [baixa] **A retórica de Júlia Lopes de Almeida – Quinta é Cultura** (2026-11-19-122) — Preço não informado na fonte
+- [baixa] **A poesia brasileira na Coleção Ciranda da Poesia – ciclo de conferências** (2026-11-19-123) — Preço não informado na fonte
+- [baixa] **Três a Varejo + 1** (2026-11-19-127) — Preço não informado na fonte
+- [baixa] **OSB Jovem – Legado em Harmonia** (2026-11-19-129) — Preço não informado na fonte
+- [baixa] **Coral Brasil Ensemble – UFRJ (Música no Assyrio)** (2026-11-19-130) — Preço não informado na fonte
+- [baixa] **O gesto do poder, o poder do gesto – um recorte da Coleção Instituto PIPA** (2026-11-19-132) — Preço não informado na fonte
+- [baixa] **Lançamento: Migrantes da Descolonização** (2026-11-19-134) — Preço não informado na fonte
+- [baixa] **Meninas e Mulheres na Ciência e Tecnologia: redes que abrem caminhos** (2026-11-19-139) — Preço não informado na fonte
+- [baixa] **Encontro dos Povos Originários** (2026-11-19-141) — Preço não informado na fonte
+- [baixa] **Confissões de Adolescente – o musical** (2026-11-19-142) — Preço não informado na fonte
+- [baixa] **Escola do Rock** (2026-11-19-143) — Preço não informado na fonte
+- [baixa] **Sábado Musical com Batuca Jardim – Ritmos da Ancestralidade** (2026-11-19-144) — Preço não informado na fonte
+- [baixa] **Clube Akorin: Musicalizar Brincando** (2026-11-19-146) — Preço não informado na fonte
+- [baixa] **O Nome do Bebê** (2026-11-19-147) — Preço não informado na fonte
+- [baixa] **O Mercador de Veneza** (2026-11-19-148) — Preço não informado na fonte
+- [baixa] **Atom Pink Floyd – Pink Floyd Symphonic** (2026-11-19-149) — Preço não informado na fonte
+- [baixa] **Margaridas** (2026-11-19-150) — Preço não informado na fonte
+- [baixa] **Adorável Face de Andronieva Petrosa** (2026-11-19-151) — Preço não informado na fonte
+- [baixa] **Lançamento infantil: João Rapidão e Maria Devagarinha** (2026-11-19-153) — Preço não informado na fonte
+- [baixa] **Lançamento: Ministério do Tempo Livre – um manifesto** (2026-11-19-154) — Preço não informado na fonte
+- [baixa] **Lançamento: Música em Pauta** (2026-11-19-155) — Preço não informado na fonte
+- [baixa] **Lançamento duplo: A Vida Imprópria e O Arquivo como Gesto** (2026-11-19-156) — Preço não informado na fonte
+- [baixa] **Encontro literário Lia Benchimol: Wabi Sabi** (2026-11-19-157) — Preço não informado na fonte
+- [baixa] **Lançamento: Mistérios sob o Céu de Alcântara** (2026-11-19-158) — Preço não informado na fonte
+- [baixa] **Marcelo Falcão – turnê O Legado** (2026-11-19-161) — Preço não informado na fonte
+- [baixa] **Dino Fonseca – Barzim de Rock** (2026-11-19-162) — Preço não informado na fonte
+- [baixa] **O Grande Encontro – Leci Brandão, Sandro Luiz, Tião Casemiro e Luan Pureza** (2026-11-19-163) — Preço não informado na fonte
+- [baixa] **Bluey – Diversão em Família** (2026-11-19-164) — Preço não informado na fonte
+- [baixa] **Camila Cardoso – Antes e Depois do Plantão** (2026-11-19-165) — Preço não informado na fonte
+- [baixa] **Maurício Meirelles – Surto Coletivo** (2026-11-19-166) — Preço não informado na fonte
+- [baixa] **O Clube Romance: Quando, de Carla Madeira** (2026-11-19-167) — Preço não informado na fonte
+- [baixa] **Clube do Livro Trill: As Vacas Não Me Olham Mais na Cara, de Dora Freind** (2026-11-19-168) — Preço não informado na fonte
+- [baixa] **Debate de lançamento: As Três Mulheres do Alencar** (2026-11-19-169) — Preço não informado na fonte
+- [baixa] **Muato – DERÊ: Concerto sobre o Pagode** (2026-11-19-170) — Preço não informado na fonte
 
 ## Destaques (A boa)
 
-- **19/11**: Abertura da exposição “7 Ervas”; Festa, Fé e Luta (Mostra do Impossível); Poexistência: Consciência Negra; KD O Show; Festival Abraço Negro – Ilê Aiyê convida Surdo Um da Mangueira
+- **19/11**: Abertura da exposição “7 Ervas”; Festa, Fé e Luta (Mostra do Impossível); Poexistência: Consciência Negra; KD O Show; Festival Abraço Negro – Ilê Aiyê convida Surdo Um da Mangueira; Guilherme Pozzi – Série Piano na Sala
 - **20/11**: 12º Cortejo da Tia Ciata; Festival Terreiro 2026 – Dia da Consciência Negra; A Menina Dança; Cabeça de Porco – Retratos de um Território (Mostra do Impossível); Orquestra Agogô Carioca; Quintal do Renatin
 - **21/11**: Rolé Estácio – Berço do Samba; Baú da Dona Ivone Lara, com Bruno Castro e Áurea Martins; A Cura da Terra – Pequenas Revoluções; Baile Charme do Projeto Black Music Soul; Fora do Quadro; FIPAZO – Festival de Pole Dance, Aéreos e Danças da Zona Oeste
 - **22/11**: Amanhecer Rio – Festival Cultura e Cuidado; Mensageiras da Cultura – 50 anos da Kotekitai; Quintal; Festival Quem Dança é Mais Feliz; Equina; Domingo recreativo para crianças
-- **24/11**: O Último Dia da Minha Vida; Priscilla em 2L em A Cara da Mãe e o P@u do Pai; Alice no País das Maravilhas: O Despertar da União – O Musical; Seminário Estadual: Por uma Educação Antirracista
+- **23/11**: Lançamento: Migrantes da Descolonização; Lançamento: Música em Pauta
+- **24/11**: O Último Dia da Minha Vida; Priscilla em 2L em A Cara da Mãe e o P@u do Pai; Alice no País das Maravilhas: O Despertar da União – O Musical; A poesia brasileira na Coleção Ciranda da Poesia – ciclo de conferências; Seminário Estadual: Por uma Educação Antirracista
 - **25/11**: Rap & Repente – Artes do Improviso; Amanda Mendonça canta Djavan; Mesa-redonda: O Mundo que se Quer Esconder das Crianças; O Último Dia da Minha Vida
 
 Regras de curadoria:
@@ -107,18 +169,18 @@ Regras de curadoria:
 - **WD – Eclipse Tour** — Consta no PDF semanal anterior (“12 e 19/11”), mas não aparece no PDF desta semana, que lista só outros dois espetáculos no mesmo teatro. Pode ter sido cancelado ou apenas omitido.
 - **País Brasa, Planeta Fogo** — Consta no PDF semanal anterior, com data de encerramento em 2027; o PDF desta semana não repete a exposição.
 - **A Cidade entre o Jardim e a Baía** — Consta no PDF semanal anterior, com data de encerramento em 2027; o PDF desta semana não repete a exposição.
-- **MEME: no Br@sil da memeficação** — Coletado no site em 15–17/11 e não relido nesta edição.
-- **YOKAI PARADE – Seres sobrenaturais do Japão** — Coletado no site em 15–17/11 e não relido nesta edição.
-- **Um Atlas de Lembranças** — Coletado no site em 15–17/11 e não relido nesta edição.
-- **Palavras em Cena: O Cinema que Veio dos Livros** — Coletado no site em 15–17/11 e não relido nesta edição.
-- **Entre o Sim e o Nunca** — Coletado no site em 15–17/11 e não relido nesta edição.
-- **Música no Museu** — Coletado no site em 15–17/11 e não relido nesta edição. Fonte lista também 22/11 (domingo), mas só dá horário para as quartas; 22/11 fica de fora até confirmação.
-- **21º Festival de Cinema Italiano no Brasil** — Coletado no site em 15–17/11 e não relido nesta edição.
-- **Cinemateca do MAM no CCBB** — Coletado no site em 15–17/11 e não relido nesta edição.
-- **Festival Arquivo em Cartaz – 11ª edição** — Coletado no site em 15–17/11 e não relido nesta edição.
-- **Sudi – O Elogio da Surdez** — Coletado no site em 15–17/11 e não relido nesta edição.
-- **Samba do Sacramento** — Coletado no site em 15–17/11 e não relido nesta edição.
-- **Clube de Leitura CCBB com Raphael Montes** — Coletado no site em 15–17/11 e não relido nesta edição.
+- **MEME: no Br@sil da memeficação** — Coletado no site em 15–17/11 e relido na ronda de 19/11: datas conferem.
+- **YOKAI PARADE – Seres sobrenaturais do Japão** — Coletado no site em 15–17/11 e relido na ronda de 19/11: datas conferem.
+- **Um Atlas de Lembranças** — Coletado no site em 15–17/11 e relido na ronda de 19/11: datas conferem.
+- **Palavras em Cena: O Cinema que Veio dos Livros** — Coletado no site em 15–17/11 e relido na ronda de 19/11: datas conferem.
+- **Entre o Sim e o Nunca** — Coletado no site em 15–17/11 e relido na ronda de 19/11: datas conferem.
+- **Música no Museu** — Coletado no site em 15–17/11 e relido na ronda de 19/11: o site agora dá horário (13h) para o concerto de domingo, 22/11, que entra.
+- **21º Festival de Cinema Italiano no Brasil** — Coletado no site em 15–17/11 e relido na ronda de 19/11: datas conferem.
+- **Cinemateca do MAM no CCBB** — Coletado no site em 15–17/11 e relido na ronda de 19/11: datas conferem.
+- **Festival Arquivo em Cartaz – 11ª edição** — Coletado no site em 15–17/11 e relido na ronda de 19/11: datas conferem.
+- **Sudi – O Elogio da Surdez** — Coletado no site em 15–17/11 e relido na ronda de 19/11: datas conferem.
+- **Samba do Sacramento** — Coletado no site em 15–17/11 e relido na ronda de 19/11: datas conferem.
+- **Clube de Leitura CCBB com Raphael Montes** — Coletado no site em 15–17/11 e relido na ronda de 19/11: datas conferem.
 - **Festival Abraço Negro – Ilê Aiyê convida Surdo Um da Mangueira** — Coletado no site em 15–17/11 e não relido nesta edição. Horário = abertura dos portões. Preço só na ticketeira (camada Apoio).
 - **Ajulliacosta – turnê Novo Testamento** — Coletado no site em 15–17/11 e não relido nesta edição. Horário = abertura dos portões. Preço só na ticketeira.
 - **Rockeria 14 anos** — Coletado no site em 15–17/11 e não relido nesta edição. Horário = abertura dos portões. Preço só na ticketeira.
@@ -129,3 +191,44 @@ Regras de curadoria:
 - **Aula-baile de forró e samba de gafieira – Corpos em Diálogo** — No PDF semanal está na seção de atividades formativas.
 - **Café com Arte – Novembro Negro, com Pandro Nobã** — A fonte não informa preço, classificação nem como se inscrever.
 - **Dança, Identidade e Resistência – aulão do Ballet Manguinhos** — A fonte não dá o endereço da Biblioteca Parque de Manguinhos.
+- **A retórica de Júlia Lopes de Almeida – Quinta é Cultura** — A fonte não informa preço nem classificação.
+- **A poesia brasileira na Coleção Ciranda da Poesia – ciclo de conferências** — A fonte não informa preço nem classificação.
+- **Andrezão do Cacique** — Quinta, 19/11, é véspera de feriado: vale o preço de véspera (R$ 35), não o de quinta (R$ 30). O horário é o que a página do bar dá para a noite; a mesma página avisa que o show principal pode começar mais tarde.
+- **Pedro Menezes** — O horário é o que a página do bar dá para a noite; a mesma página avisa que o show principal pode começar mais tarde.
+- **Leonardo Bessa** — 20h30 é a abertura da casa; a página informa que, aos sábados, o show principal começa às 22h.
+- **Três a Varejo + 1** — A página só dá o preço de terça a sábado; o de segunda-feira não é informado. O horário é o que a página do bar dá para a noite; a mesma página avisa que o show principal pode começar mais tarde.
+- **Guilherme Pozzi – Série Piano na Sala** — A fonte não informa o valor da meia-entrada nem a classificação.
+- **OSB Jovem – Legado em Harmonia** — As fontes não trazem o preço deste concerto.
+- **Coral Brasil Ensemble – UFRJ (Música no Assyrio)** — O trecho coletado não traz o preço do ingresso.
+- **O gesto do poder, o poder do gesto – um recorte da Coleção Instituto PIPA** — A fonte desta mostra não dá horário nem preço. O horário é o do Paço Imperial informado na ficha de “Claudia Hersz: Mostra sua cara”.
+- **Casa da Mônica** — Fecha no feriado de 20/11.
+- **Lançamento: Migrantes da Descolonização** — A fonte não informa preço.
+- **ECOS – coletiva** — As fontes divergem num ponto: o site da galeria diz “segunda a sexta”; a ArtRio diz “terça a sexta”. Vale o site da galeria. Também divergem no número de obras (vinte no site da galeria, dezenove na ArtRio); vale o site da galeria.
+- **Meninas e Mulheres na Ciência e Tecnologia: redes que abrem caminhos** — A fonte não informa preço. A página de atividades da casa tem um botão de inscrição que parece ser deste encontro, mas não repete o título nem a data.
+- **Oficina Cliques e Movimento** — A fonte dá dois endereços para a casa: “Avenida Epitácio Pessoa, 2480”, no rodapé do site, e “Praça Benedito Cerqueira, 0 | Lagoa”, no serviço da oficina. Fica o do rodapé, que é o endereço fixo da instituição.
+- **Encontro dos Povos Originários** — A coleta só trouxe o período e a chamada do evento, sem a grade de atividades nem o preço.
+- **Confissões de Adolescente – o musical** — A fonte não informa o preço.
+- **Escola do Rock** — A fonte não informa o preço.
+- **Sábado Musical com Batuca Jardim – Ritmos da Ancestralidade** — A fonte não informa o preço.
+- **Clube Akorin: Musicalizar Brincando** — A fonte não informa o preço.
+- **O Nome do Bebê** — A coleta não trouxe o preço.
+- **O Mercador de Veneza** — A coleta não trouxe o preço.
+- **Atom Pink Floyd – Pink Floyd Symphonic** — A coleta não trouxe o preço.
+- **Margaridas** — A coleta não trouxe o preço.
+- **Adorável Face de Andronieva Petrosa** — A coleta não trouxe o preço.
+- **Lançamento infantil: João Rapidão e Maria Devagarinha** — A fonte não informa preço. O endereço não está no texto coletado; é o endereço público do espaço.
+- **Lançamento: Ministério do Tempo Livre – um manifesto** — A fonte não informa preço. O endereço não está no texto coletado; é o endereço público do espaço.
+- **Lançamento: Música em Pauta** — A fonte não informa preço. O endereço não está no texto coletado; é o endereço público do espaço.
+- **Lançamento duplo: A Vida Imprópria e O Arquivo como Gesto** — A fonte não informa preço. O endereço não está no texto coletado; é o endereço público do espaço.
+- **Encontro literário Lia Benchimol: Wabi Sabi** — A fonte não informa preço. O endereço não está no texto coletado; é o endereço público do espaço.
+- **Lançamento: Mistérios sob o Céu de Alcântara** — A fonte não informa preço. O endereço não está no texto coletado; é o endereço público do espaço.
+- **Marcelo Falcão – turnê O Legado** — O site só dá o preço inicial. O endereço não está no texto coletado; é o endereço público do espaço.
+- **Dino Fonseca – Barzim de Rock** — O site só dá o preço inicial. O endereço não está no texto coletado; é o endereço público do espaço.
+- **O Grande Encontro – Leci Brandão, Sandro Luiz, Tião Casemiro e Luan Pureza** — O site só dá o preço inicial. O endereço não está no texto coletado; é o endereço público do espaço.
+- **Bluey – Diversão em Família** — O site só dá o preço inicial.
+- **Camila Cardoso – Antes e Depois do Plantão** — O site só dá o preço inicial.
+- **Maurício Meirelles – Surto Coletivo** — O site só dá o preço inicial.
+- **O Clube Romance: Quando, de Carla Madeira** — A fonte não informa preço. O endereço não está no texto coletado; é o endereço público do espaço.
+- **Clube do Livro Trill: As Vacas Não Me Olham Mais na Cara, de Dora Freind** — A fonte não informa preço. O endereço não está no texto coletado; é o endereço público do espaço.
+- **Debate de lançamento: As Três Mulheres do Alencar** — Lido na ronda feita no computador da coordenação editorial (a nuvem não conseguiu abrir o site). A fonte não informa preço. Sobre o lugar, a fonte só diz “na livraria da EdUERJ, localizada no térreo do campus Maracanã”; o número 524 é o endereço do campus, que aparece em outras páginas do mesmo site.
+- **Muato – DERÊ: Concerto sobre o Pagode** — A coleta não trouxe o preço.

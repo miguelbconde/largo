@@ -108,7 +108,8 @@ def validar_destaques(eventos, destaques):
         locais = [e["local"] for e in esc]
         if len(set(locais)) < len(locais):
             alertas.append((dia, "Mais de um destaque no mesmo espaço"))
-        if esc and not any(any(k in e["local"] for k in PUBLICOS) for e in esc):
+        tem_publico = lambda l: any(any(k in e["local"] for k in PUBLICOS) for e in l)
+        if esc and not tem_publico(esc) and tem_publico(pool):  # só cobra se o dia oferece opção
             alertas.append((dia, "Nenhum espaço público, comunitário ou sem fins lucrativos"))
     return alertas
 

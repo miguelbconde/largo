@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:2026-11-19-001-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261120T230000Z
 DTEND:20261121T010000Z
 SUMMARY:Minha Vó Ri
@@ -25,7 +25,7 @@ CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-001-1@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261121T230000Z
 DTEND:20261122T010000Z
 SUMMARY:Minha Vó Ri
@@ -41,7 +41,7 @@ CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-001-2@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261122T220000Z
 DTEND:20261123T000000Z
 SUMMARY:Minha Vó Ri
@@ -57,7 +57,7 @@ CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-002-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261121T220000Z
 DTEND:20261122T000000Z
 SUMMARY:Equina
@@ -72,7 +72,7 @@ CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-002-1@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261122T210000Z
 DTEND:20261122T230000Z
 SUMMARY:Equina
@@ -87,7 +87,7 @@ CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-003-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261124T230000Z
 DTEND:20261125T010000Z
 SUMMARY:O Último Dia da Minha Vida
@@ -102,7 +102,7 @@ CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-003-1@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261125T230000Z
 DTEND:20261126T010000Z
 SUMMARY:O Último Dia da Minha Vida
@@ -117,7 +117,7 @@ CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-004-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261120T230000Z
 DTEND:20261121T010000Z
 SUMMARY:Nada sob Controle
@@ -133,7 +133,7 @@ CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-004-1@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261121T230000Z
 DTEND:20261122T010000Z
 SUMMARY:Nada sob Controle
@@ -149,7 +149,7 @@ CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-004-2@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261122T220000Z
 DTEND:20261123T000000Z
 SUMMARY:Nada sob Controle
@@ -165,7 +165,7 @@ CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-005-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261121T140000Z
 DTEND:20261121T160000Z
 SUMMARY:A Cura da Terra – Pequenas Revoluções
@@ -181,7 +181,7 @@ CATEGORIES:Teatro\,Música
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-005-1@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261122T140000Z
 DTEND:20261122T160000Z
 SUMMARY:A Cura da Terra – Pequenas Revoluções
@@ -197,7 +197,7 @@ CATEGORIES:Teatro\,Música
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-006-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261120T230000Z
 DTEND:20261121T010000Z
 SUMMARY:Superiores
@@ -213,7 +213,7 @@ CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-006-1@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261121T230000Z
 DTEND:20261122T010000Z
 SUMMARY:Superiores
@@ -229,7 +229,7 @@ CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-006-2@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261122T220000Z
 DTEND:20261123T000000Z
 SUMMARY:Superiores
@@ -245,7 +245,7 @@ CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-007-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261120T140000Z
 DTEND:20261120T160000Z
 SUMMARY:A Menina Dança
@@ -261,7 +261,7 @@ CATEGORIES:Infantil\,Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-097-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261119T230000Z
 DTEND:20261120T010000Z
 SUMMARY:WD – Eclipse Tour
@@ -273,5 +273,470 @@ DESCRIPTION:Show que mistura canto\, dança e imagens inspiradas no sol\,
  acultural/\nLargo — agenda cultural aberta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
 CATEGORIES:Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-138-0@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261121T190000Z
+DTEND:20261121T210000Z
+SUMMARY:Cartografia de Futuros Imaginários – Casa Aberta
+LOCATION:Casa Firjan\, Rua Guilhermina Guinle\, 211 – Botafogo
+DESCRIPTION:Atividade de uma hora para criar zines com palavras\, imagens
+  e recortes.\n\nGrátis (sujeito a lotação) · 12 anos\n\nFonte: https
+ ://casafirjan.com.br/\nLargo — agenda cultural aberta do Rio
+URL:https://casafirjan.com.br/
+CATEGORIES:Artes Visuais
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-138-1@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261122T190000Z
+DTEND:20261122T210000Z
+SUMMARY:Cartografia de Futuros Imaginários – Casa Aberta
+LOCATION:Casa Firjan\, Rua Guilhermina Guinle\, 211 – Botafogo
+DESCRIPTION:Atividade de uma hora para criar zines com palavras\, imagens
+  e recortes.\n\nGrátis (sujeito a lotação) · 12 anos\n\nFonte: https
+ ://casafirjan.com.br/\nLargo — agenda cultural aberta do Rio
+URL:https://casafirjan.com.br/
+CATEGORIES:Artes Visuais
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-139-0@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261124T170000Z
+DTEND:20261124T190000Z
+SUMMARY:Meninas e Mulheres na Ciência e Tecnologia: redes que abrem cami
+ nhos
+LOCATION:Casa Firjan\, Rua Guilhermina Guinle\, 211 – Botafogo
+DESCRIPTION:Encontro de quatro horas para aproximar iniciativas que forta
+ lecem a participação feminina na ciência e na tecnologia.\n\nPreço n
+ ão informado\n\nFonte: https://casafirjan.com.br/\nLargo — agenda cul
+ tural aberta do Rio
+URL:https://casafirjan.com.br/
+CATEGORIES:Livros & Debates
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-140-0@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261121T180000Z
+DTEND:20261121T200000Z
+SUMMARY:Oficina Cliques e Movimento
+LOCATION:Casa Museu Eva Klabin\, Av. Epitácio Pessoa\, 2.480 – Lagoa
+DESCRIPTION:Crianças a partir de 3 anos criam cenas e histórias em stop
+  motion\, com celular\, corpo e tecidos. As senhas são distribuídas de
+ z minutos antes.\n\nGrátis (senha 10 minutos antes) · Livre\n\nFonte: 
+ https://www.evaklabin.org.br/pt\nLargo — agenda cultural aberta do Rio
+URL:https://www.evaklabin.org.br/pt
+CATEGORIES:Infantil
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-140-1@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261122T180000Z
+DTEND:20261122T200000Z
+SUMMARY:Oficina Cliques e Movimento
+LOCATION:Casa Museu Eva Klabin\, Av. Epitácio Pessoa\, 2.480 – Lagoa
+DESCRIPTION:Crianças a partir de 3 anos criam cenas e histórias em stop
+  motion\, com celular\, corpo e tecidos. As senhas são distribuídas de
+ z minutos antes.\n\nGrátis (senha 10 minutos antes) · Livre\n\nFonte: 
+ https://www.evaklabin.org.br/pt\nLargo — agenda cultural aberta do Rio
+URL:https://www.evaklabin.org.br/pt
+CATEGORIES:Infantil
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-142-0@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261120T230000Z
+DTEND:20261121T010000Z
+SUMMARY:Confissões de Adolescente – o musical
+LOCATION:EcoVilla Ri Happy\, Rua Jardim Botânico\, 1.008 – Jardim Bot
+ ânico
+DESCRIPTION:Versão musical inédita da história sobre as dores e as des
+ cobertas de crescer.\n\nPreço não informado · 16 anos\n\nFonte: https
+ ://ecovillarihappy.com.br/programacao/\nLargo — agenda cultural aberta
+  do Rio
+URL:https://ecovillarihappy.com.br/programacao/
+CATEGORIES:Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-142-1@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261121T220000Z
+DTEND:20261122T000000Z
+SUMMARY:Confissões de Adolescente – o musical
+LOCATION:EcoVilla Ri Happy\, Rua Jardim Botânico\, 1.008 – Jardim Bot
+ ânico
+DESCRIPTION:Versão musical inédita da história sobre as dores e as des
+ cobertas de crescer.\n\nPreço não informado · 16 anos\n\nFonte: https
+ ://ecovillarihappy.com.br/programacao/\nLargo — agenda cultural aberta
+  do Rio
+URL:https://ecovillarihappy.com.br/programacao/
+CATEGORIES:Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-142-2@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261122T220000Z
+DTEND:20261123T000000Z
+SUMMARY:Confissões de Adolescente – o musical
+LOCATION:EcoVilla Ri Happy\, Rua Jardim Botânico\, 1.008 – Jardim Bot
+ ânico
+DESCRIPTION:Versão musical inédita da história sobre as dores e as des
+ cobertas de crescer.\n\nPreço não informado · 16 anos\n\nFonte: https
+ ://ecovillarihappy.com.br/programacao/\nLargo — agenda cultural aberta
+  do Rio
+URL:https://ecovillarihappy.com.br/programacao/
+CATEGORIES:Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-143-0@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261121T180000Z
+DTEND:20261121T200000Z
+SUMMARY:Escola do Rock
+LOCATION:EcoVilla Ri Happy\, Rua Jardim Botânico\, 1.008 – Jardim Bot
+ ânico
+DESCRIPTION:Musical baseado no filme de 2003: um guitarrista se passa por
+  professor substituto e monta uma banda com alunos do quinto ano para di
+ sputar a Batalha das Bandas.\n\nPreço não informado · Livre\n\nFonte:
+  https://ecovillarihappy.com.br/programacao/\nLargo — agenda cultural 
+ aberta do Rio
+URL:https://ecovillarihappy.com.br/programacao/
+CATEGORIES:Teatro\,Infantil
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-143-1@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261122T180000Z
+DTEND:20261122T200000Z
+SUMMARY:Escola do Rock
+LOCATION:EcoVilla Ri Happy\, Rua Jardim Botânico\, 1.008 – Jardim Bot
+ ânico
+DESCRIPTION:Musical baseado no filme de 2003: um guitarrista se passa por
+  professor substituto e monta uma banda com alunos do quinto ano para di
+ sputar a Batalha das Bandas.\n\nPreço não informado · Livre\n\nFonte:
+  https://ecovillarihappy.com.br/programacao/\nLargo — agenda cultural 
+ aberta do Rio
+URL:https://ecovillarihappy.com.br/programacao/
+CATEGORIES:Teatro\,Infantil
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-144-0@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261121T123000Z
+DTEND:20261121T143000Z
+SUMMARY:Sábado Musical com Batuca Jardim – Ritmos da Ancestralidade
+LOCATION:EcoVilla Ri Happy\, Rua Jardim Botânico\, 1.008 – Jardim Bot
+ ânico
+DESCRIPTION:Manhã de percussão\, canto e brincadeiras em família sobre
+  ritmos e tradições afro-brasileiras\, em homenagem ao Dia da Consciê
+ ncia Negra.\n\nPreço não informado · Livre\n\nFonte: https://ecovilla
+ rihappy.com.br/programacao/\nLargo — agenda cultural aberta do Rio
+URL:https://ecovillarihappy.com.br/programacao/
+CATEGORIES:Infantil\,Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-145-0@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261121T133000Z
+DTEND:20261121T153000Z
+SUMMARY:Oficina Da Imaginação à Selva: uma aventura pela floresta de M
+ ogli
+LOCATION:EcoVilla Ri Happy\, Rua Jardim Botânico\, 1.008 – Jardim Bot
+ ânico
+DESCRIPTION:Duas horas de atividades para crianças em torno da mata\, do
+ s bichos e das histórias da floresta de Mogli\, dentro da Temporada da 
+ Consciência Negra.\n\nGrátis · Livre\n\nFonte: https://ecovillarihapp
+ y.com.br/programacao/\nLargo — agenda cultural aberta do Rio
+URL:https://ecovillarihappy.com.br/programacao/
+CATEGORIES:Infantil
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-146-0@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261122T140000Z
+DTEND:20261122T160000Z
+SUMMARY:Clube Akorin: Musicalizar Brincando
+LOCATION:EcoVilla Ri Happy\, Rua Jardim Botânico\, 1.008 – Jardim Bot
+ ânico
+DESCRIPTION:O músico e ator Alan Rocha encerra a turnê do projeto com c
+ anções autorais\, cultura popular e brincadeiras com a plateia\, em to
+ rno das matrizes da cultura afro-brasileira.\n\nPreço não informado ·
+  Livre\n\nFonte: https://ecovillarihappy.com.br/programacao/\nLargo — 
+ agenda cultural aberta do Rio
+URL:https://ecovillarihappy.com.br/programacao/
+CATEGORIES:Infantil\,Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-147-0@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261119T230000Z
+DTEND:20261120T010000Z
+SUMMARY:O Nome do Bebê
+LOCATION:Teatro Casa Grande (Teatro Axia Casa Grande)\, Av. Afrânio de M
+ elo Franco\, 290 – Leblon
+DESCRIPTION:Comédia da dupla francesa Matthieu Delaporte e Alexandre de 
+ la Patellière\, com Bianca Bin no elenco e direção de Elias Andreato.
+  Curtíssima temporada\, até 27 de novembro.\n\nPreço não informado 
+ · 12 anos\n\nFonte: https://www.teatroaxiacasagrande.com.br/programacao
+ /detalhes/o-nome-do-bebe/\nLargo — agenda cultural aberta do Rio
+URL:https://www.teatroaxiacasagrande.com.br/programacao/detalhes/o-nome-d
+ o-bebe/
+CATEGORIES:Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-147-1@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261120T230000Z
+DTEND:20261121T010000Z
+SUMMARY:O Nome do Bebê
+LOCATION:Teatro Casa Grande (Teatro Axia Casa Grande)\, Av. Afrânio de M
+ elo Franco\, 290 – Leblon
+DESCRIPTION:Comédia da dupla francesa Matthieu Delaporte e Alexandre de 
+ la Patellière\, com Bianca Bin no elenco e direção de Elias Andreato.
+  Curtíssima temporada\, até 27 de novembro.\n\nPreço não informado 
+ · 12 anos\n\nFonte: https://www.teatroaxiacasagrande.com.br/programacao
+ /detalhes/o-nome-do-bebe/\nLargo — agenda cultural aberta do Rio
+URL:https://www.teatroaxiacasagrande.com.br/programacao/detalhes/o-nome-d
+ o-bebe/
+CATEGORIES:Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-148-0@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261122T000000Z
+DTEND:20261122T020000Z
+SUMMARY:O Mercador de Veneza
+LOCATION:Teatro Casa Grande (Teatro Axia Casa Grande)\, Av. Afrânio de M
+ elo Franco\, 290 – Leblon
+DESCRIPTION:A peça de William Shakespeare\, com direção de Daniela Sti
+ rbulov e Dan Stulbach no papel do agiota Shylock. Dura duas horas. Curta
+  temporada\, até 29 de novembro.\n\nPreço não informado · 14 anos\n\
+ nFonte: https://www.teatroaxiacasagrande.com.br/programacao/\nLargo — 
+ agenda cultural aberta do Rio
+URL:https://www.teatroaxiacasagrande.com.br/programacao/
+CATEGORIES:Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-148-1@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261122T220000Z
+DTEND:20261123T000000Z
+SUMMARY:O Mercador de Veneza
+LOCATION:Teatro Casa Grande (Teatro Axia Casa Grande)\, Av. Afrânio de M
+ elo Franco\, 290 – Leblon
+DESCRIPTION:A peça de William Shakespeare\, com direção de Daniela Sti
+ rbulov e Dan Stulbach no papel do agiota Shylock. Dura duas horas. Curta
+  temporada\, até 29 de novembro.\n\nPreço não informado · 14 anos\n\
+ nFonte: https://www.teatroaxiacasagrande.com.br/programacao/\nLargo — 
+ agenda cultural aberta do Rio
+URL:https://www.teatroaxiacasagrande.com.br/programacao/
+CATEGORIES:Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-149-0@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261125T230000Z
+DTEND:20261126T010000Z
+SUMMARY:Atom Pink Floyd – Pink Floyd Symphonic
+LOCATION:Teatro Casa Grande (Teatro Axia Casa Grande)\, Av. Afrânio de M
+ elo Franco\, 290 – Leblon
+DESCRIPTION:A banda de tributo ao Pink Floyd festeja dez anos tocando o r
+ epertório com uma orquestra de câmara ao vivo. Apresentação única.\
+ n\nPreço não informado · 16 anos\n\nFonte: https://www.teatroaxiacasa
+ grande.com.br/programacao/detalhes/2895/\nLargo — agenda cultural aber
+ ta do Rio
+URL:https://www.teatroaxiacasagrande.com.br/programacao/detalhes/2895/
+CATEGORIES:Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-150-0@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261124T230000Z
+DTEND:20261125T010000Z
+SUMMARY:Margaridas
+LOCATION:Teatro Poeira\, Rua São João Batista\, 104 – Botafogo
+DESCRIPTION:Com texto de Cecília Ripoll e direção de Natasha Corbelino
+ \, a peça percorre 200 anos de educação\, de 1916 a um futuro imagina
+ do em 2116.\n\nPreço não informado · 10 anos\n\nFonte: https://www.te
+ atropoeira.com.br/\nLargo — agenda cultural aberta do Rio
+URL:https://www.teatropoeira.com.br/
+CATEGORIES:Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-150-1@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261125T230000Z
+DTEND:20261126T010000Z
+SUMMARY:Margaridas
+LOCATION:Teatro Poeira\, Rua São João Batista\, 104 – Botafogo
+DESCRIPTION:Com texto de Cecília Ripoll e direção de Natasha Corbelino
+ \, a peça percorre 200 anos de educação\, de 1916 a um futuro imagina
+ do em 2116.\n\nPreço não informado · 10 anos\n\nFonte: https://www.te
+ atropoeira.com.br/\nLargo — agenda cultural aberta do Rio
+URL:https://www.teatropoeira.com.br/
+CATEGORIES:Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-151-0@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261119T230000Z
+DTEND:20261120T010000Z
+SUMMARY:Adorável Face de Andronieva Petrosa
+LOCATION:Teatro Poeirinha\, Rua São João Batista\, 104 – Botafogo
+DESCRIPTION:Primeiro solo de Fabianna de Mello e Souza\, em 40 anos de ca
+ rreira: uma atriz recebe uma carta anônima que a acusa de plágio e pas
+ sa a se perguntar o que é original. Dramaturgia de Cecilia Ripoll e dir
+ eção de Denise Stutz.\n\nPreço não informado · Livre\n\nFonte: http
+ s://www.teatropoeira.com.br/\nLargo — agenda cultural aberta do Rio
+URL:https://www.teatropoeira.com.br/
+CATEGORIES:Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-151-1@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261120T230000Z
+DTEND:20261121T010000Z
+SUMMARY:Adorável Face de Andronieva Petrosa
+LOCATION:Teatro Poeirinha\, Rua São João Batista\, 104 – Botafogo
+DESCRIPTION:Primeiro solo de Fabianna de Mello e Souza\, em 40 anos de ca
+ rreira: uma atriz recebe uma carta anônima que a acusa de plágio e pas
+ sa a se perguntar o que é original. Dramaturgia de Cecilia Ripoll e dir
+ eção de Denise Stutz.\n\nPreço não informado · Livre\n\nFonte: http
+ s://www.teatropoeira.com.br/\nLargo — agenda cultural aberta do Rio
+URL:https://www.teatropoeira.com.br/
+CATEGORIES:Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-151-2@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261121T230000Z
+DTEND:20261122T010000Z
+SUMMARY:Adorável Face de Andronieva Petrosa
+LOCATION:Teatro Poeirinha\, Rua São João Batista\, 104 – Botafogo
+DESCRIPTION:Primeiro solo de Fabianna de Mello e Souza\, em 40 anos de ca
+ rreira: uma atriz recebe uma carta anônima que a acusa de plágio e pas
+ sa a se perguntar o que é original. Dramaturgia de Cecilia Ripoll e dir
+ eção de Denise Stutz.\n\nPreço não informado · Livre\n\nFonte: http
+ s://www.teatropoeira.com.br/\nLargo — agenda cultural aberta do Rio
+URL:https://www.teatropoeira.com.br/
+CATEGORIES:Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-151-3@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261122T220000Z
+DTEND:20261123T000000Z
+SUMMARY:Adorável Face de Andronieva Petrosa
+LOCATION:Teatro Poeirinha\, Rua São João Batista\, 104 – Botafogo
+DESCRIPTION:Primeiro solo de Fabianna de Mello e Souza\, em 40 anos de ca
+ rreira: uma atriz recebe uma carta anônima que a acusa de plágio e pas
+ sa a se perguntar o que é original. Dramaturgia de Cecilia Ripoll e dir
+ eção de Denise Stutz.\n\nPreço não informado · Livre\n\nFonte: http
+ s://www.teatropoeira.com.br/\nLargo — agenda cultural aberta do Rio
+URL:https://www.teatropoeira.com.br/
+CATEGORIES:Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-152-0@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261120T000000Z
+DTEND:20261120T020000Z
+SUMMARY:CA7RIEL & Paco Amoroso – Free Spirits World Tour
+LOCATION:Vivo Rio\, Av. Infante Dom Henrique\, 85 – Glória (Aterro do 
+ Flamengo)
+DESCRIPTION:A dupla argentina\, que mistura trap\, rock e pop\, traz ao R
+ io a turnê do álbum “Free Spirits”. O show foi remarcado para esta
+  data.\n\nR$ 490 (meia R$ 245) · 18 anos\n\nFonte: https://vivorio.com.
+ br/eventos/ca7riel-paco-amoroso/\nLargo — agenda cultural aberta do Ri
+ o
+URL:https://vivorio.com.br/eventos/ca7riel-paco-amoroso/
+CATEGORIES:Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-153-0@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261122T190000Z
+DTEND:20261122T210000Z
+SUMMARY:Lançamento infantil: João Rapidão e Maria Devagarinha
+LOCATION:Livraria da Travessa – Ipanema\, Rua Visconde de Pirajá\, 572
+  – Ipanema
+DESCRIPTION:Wania Pinto autografa o livro sobre duas crianças de ritmos 
+ completamente diferentes.\n\nPreço não informado\n\nFonte: https://www
+ .travessa.com.br/eventos\nLargo — agenda cultural aberta do Rio
+URL:https://www.travessa.com.br/eventos
+CATEGORIES:Infantil\,Livros & Debates
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-154-0@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261123T220000Z
+DTEND:20261124T000000Z
+SUMMARY:Lançamento: Ministério do Tempo Livre – um manifesto
+LOCATION:Livraria da Travessa – Shopping Leblon\, Av. Afrânio de Melo 
+ Franco\, 290 – Leblon
+DESCRIPTION:Miguel Lago autografa o livro e conversa com Laura Carvalho.\
+ n\nPreço não informado\n\nFonte: https://www.travessa.com.br/eventos\n
+ Largo — agenda cultural aberta do Rio
+URL:https://www.travessa.com.br/eventos
+CATEGORIES:Livros & Debates
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-155-0@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261123T220000Z
+DTEND:20261124T000000Z
+SUMMARY:Lançamento: Música em Pauta
+LOCATION:Livraria da Travessa – Ipanema\, Rua Visconde de Pirajá\, 572
+  – Ipanema
+DESCRIPTION:Mariana Camargo lança o livro que reúne textos inéditos e 
+ textos saídos na coluna de mesmo nome.\n\nPreço não informado\n\nFont
+ e: https://www.travessa.com.br/eventos\nLargo — agenda cultural aberta
+  do Rio
+URL:https://www.travessa.com.br/eventos
+CATEGORIES:Livros & Debates\,Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-156-0@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261124T220000Z
+DTEND:20261125T000000Z
+SUMMARY:Lançamento duplo: A Vida Imprópria e O Arquivo como Gesto
+LOCATION:Livraria da Travessa – Botafogo\, Rua Voluntários da Pátria\
+ , 97 – Botafogo
+DESCRIPTION:Noite de lançamento dos livros de Florencia Garramuño e de 
+ Mario Cámara.\n\nPreço não informado\n\nFonte: https://www.travessa.c
+ om.br/eventos\nLargo — agenda cultural aberta do Rio
+URL:https://www.travessa.com.br/eventos
+CATEGORIES:Livros & Debates
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-157-0@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261125T190000Z
+DTEND:20261125T210000Z
+SUMMARY:Encontro literário Lia Benchimol: Wabi Sabi
+LOCATION:Livraria da Travessa – Shopping Leblon\, Av. Afrânio de Melo 
+ Franco\, 290 – Leblon
+DESCRIPTION:Encontro de leitura mediado por Lia Benchimol sobre “Wabi S
+ abi: a sabedoria japonesa de apreciar o imperfeito”\, de Nobuo Suzuki.
+ \n\nPreço não informado\n\nFonte: https://www.travessa.com.br/eventos\
+ nLargo — agenda cultural aberta do Rio
+URL:https://www.travessa.com.br/eventos
+CATEGORIES:Livros & Debates
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-158-0@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261125T220000Z
+DTEND:20261126T000000Z
+SUMMARY:Lançamento: Mistérios sob o Céu de Alcântara
+LOCATION:Livraria da Travessa – Botafogo\, Rua Voluntários da Pátria\
+ , 97 – Botafogo
+DESCRIPTION:Alexandre Maia Lago autografa o livro.\n\nPreço não informa
+ do\n\nFonte: https://www.travessa.com.br/eventos\nLargo — agenda cultu
+ ral aberta do Rio
+URL:https://www.travessa.com.br/eventos
+CATEGORIES:Livros & Debates
 END:VEVENT
 END:VCALENDAR

@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:2026-11-19-007-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261120T140000Z
 DTEND:20261120T160000Z
 SUMMARY:A Menina Dança
@@ -25,7 +25,7 @@ CATEGORIES:Infantil\,Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-019-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261121T140000Z
 DTEND:20261121T160000Z
 SUMMARY:Zuzuê Contos Africanos
@@ -40,7 +40,7 @@ CATEGORIES:Infantil\,Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-019-1@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261122T140000Z
 DTEND:20261122T160000Z
 SUMMARY:Zuzuê Contos Africanos
@@ -55,7 +55,7 @@ CATEGORIES:Infantil\,Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-029-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261121T130000Z
 DTEND:20261121T150000Z
 SUMMARY:Bebês no MAR – exposição Guilherme Kid
@@ -69,7 +69,7 @@ CATEGORIES:Infantil\,Artes Visuais
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-029-1@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261121T140000Z
 DTEND:20261121T160000Z
 SUMMARY:Bebês no MAR – exposição Guilherme Kid
@@ -83,7 +83,7 @@ CATEGORIES:Infantil\,Artes Visuais
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-039-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261119T180000Z
 DTEND:20261119T200000Z
 SUMMARY:Clube literário infantil
@@ -97,7 +97,7 @@ CATEGORIES:Infantil\,Livros & Debates
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-045-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261121T190000Z
 DTEND:20261121T210000Z
 SUMMARY:Encontro literário: Maria e o Segredo da Poupança
@@ -111,7 +111,7 @@ CATEGORIES:Livros & Debates\,Infantil
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-054-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261121T190000Z
 DTEND:20261121T210000Z
 SUMMARY:Quintal
@@ -127,7 +127,7 @@ CATEGORIES:Infantil\,Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-054-1@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261122T190000Z
 DTEND:20261122T210000Z
 SUMMARY:Quintal
@@ -143,7 +143,7 @@ CATEGORIES:Infantil\,Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-055-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261120T190000Z
 DTEND:20261120T210000Z
 SUMMARY:A Menina Dança
@@ -159,7 +159,7 @@ CATEGORIES:Infantil\,Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-060-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261122T190000Z
 DTEND:20261122T210000Z
 SUMMARY:Meu Amigo Tempo – O Tempo Também Brinca
@@ -175,7 +175,7 @@ CATEGORIES:Infantil
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-065-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261121T130000Z
 DTEND:20261121T150000Z
 SUMMARY:Contação de histórias: Mapa do Tesouro
@@ -190,7 +190,7 @@ CATEGORIES:Infantil
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-086-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261122T130000Z
 DTEND:20261122T150000Z
 SUMMARY:Domingo recreativo para crianças
@@ -203,7 +203,7 @@ CATEGORIES:Infantil
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-089-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261119T180000Z
 DTEND:20261119T200000Z
 SUMMARY:Clube de Leitura Infantil – mês da Consciência Negra
@@ -217,7 +217,7 @@ CATEGORIES:Infantil\,Livros & Debates
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-096-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261120T160000Z
 DTEND:20261120T180000Z
 SUMMARY:Festival Terreiro 2026 – Dia da Consciência Negra
@@ -233,7 +233,7 @@ CATEGORIES:Música\,Festas & Feiras\,Infantil
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-109-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261121T190000Z
 DTEND:20261121T210000Z
 SUMMARY:Sudi – O Elogio da Surdez
@@ -250,7 +250,7 @@ CATEGORIES:Infantil\,Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-109-1@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261122T190000Z
 DTEND:20261122T210000Z
 SUMMARY:Sudi – O Elogio da Surdez
@@ -263,6 +263,228 @@ DESCRIPTION:Uma menina que percebe o mundo pelos olhos\, pela pele e pela
  l aberta do Rio
 URL:https://ccbb.com.br/rio-de-janeiro/programacao/sudi-o-elogio-da-surde
  z/
+CATEGORIES:Infantil\,Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-140-0@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261121T180000Z
+DTEND:20261121T200000Z
+SUMMARY:Oficina Cliques e Movimento
+LOCATION:Casa Museu Eva Klabin\, Av. Epitácio Pessoa\, 2.480 – Lagoa
+DESCRIPTION:Crianças a partir de 3 anos criam cenas e histórias em stop
+  motion\, com celular\, corpo e tecidos. As senhas são distribuídas de
+ z minutos antes.\n\nGrátis (senha 10 minutos antes) · Livre\n\nFonte: 
+ https://www.evaklabin.org.br/pt\nLargo — agenda cultural aberta do Rio
+URL:https://www.evaklabin.org.br/pt
+CATEGORIES:Infantil
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-140-1@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261122T180000Z
+DTEND:20261122T200000Z
+SUMMARY:Oficina Cliques e Movimento
+LOCATION:Casa Museu Eva Klabin\, Av. Epitácio Pessoa\, 2.480 – Lagoa
+DESCRIPTION:Crianças a partir de 3 anos criam cenas e histórias em stop
+  motion\, com celular\, corpo e tecidos. As senhas são distribuídas de
+ z minutos antes.\n\nGrátis (senha 10 minutos antes) · Livre\n\nFonte: 
+ https://www.evaklabin.org.br/pt\nLargo — agenda cultural aberta do Rio
+URL:https://www.evaklabin.org.br/pt
+CATEGORIES:Infantil
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-143-0@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261121T180000Z
+DTEND:20261121T200000Z
+SUMMARY:Escola do Rock
+LOCATION:EcoVilla Ri Happy\, Rua Jardim Botânico\, 1.008 – Jardim Bot
+ ânico
+DESCRIPTION:Musical baseado no filme de 2003: um guitarrista se passa por
+  professor substituto e monta uma banda com alunos do quinto ano para di
+ sputar a Batalha das Bandas.\n\nPreço não informado · Livre\n\nFonte:
+  https://ecovillarihappy.com.br/programacao/\nLargo — agenda cultural 
+ aberta do Rio
+URL:https://ecovillarihappy.com.br/programacao/
+CATEGORIES:Teatro\,Infantil
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-143-1@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261122T180000Z
+DTEND:20261122T200000Z
+SUMMARY:Escola do Rock
+LOCATION:EcoVilla Ri Happy\, Rua Jardim Botânico\, 1.008 – Jardim Bot
+ ânico
+DESCRIPTION:Musical baseado no filme de 2003: um guitarrista se passa por
+  professor substituto e monta uma banda com alunos do quinto ano para di
+ sputar a Batalha das Bandas.\n\nPreço não informado · Livre\n\nFonte:
+  https://ecovillarihappy.com.br/programacao/\nLargo — agenda cultural 
+ aberta do Rio
+URL:https://ecovillarihappy.com.br/programacao/
+CATEGORIES:Teatro\,Infantil
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-144-0@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261121T123000Z
+DTEND:20261121T143000Z
+SUMMARY:Sábado Musical com Batuca Jardim – Ritmos da Ancestralidade
+LOCATION:EcoVilla Ri Happy\, Rua Jardim Botânico\, 1.008 – Jardim Bot
+ ânico
+DESCRIPTION:Manhã de percussão\, canto e brincadeiras em família sobre
+  ritmos e tradições afro-brasileiras\, em homenagem ao Dia da Consciê
+ ncia Negra.\n\nPreço não informado · Livre\n\nFonte: https://ecovilla
+ rihappy.com.br/programacao/\nLargo — agenda cultural aberta do Rio
+URL:https://ecovillarihappy.com.br/programacao/
+CATEGORIES:Infantil\,Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-145-0@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261121T133000Z
+DTEND:20261121T153000Z
+SUMMARY:Oficina Da Imaginação à Selva: uma aventura pela floresta de M
+ ogli
+LOCATION:EcoVilla Ri Happy\, Rua Jardim Botânico\, 1.008 – Jardim Bot
+ ânico
+DESCRIPTION:Duas horas de atividades para crianças em torno da mata\, do
+ s bichos e das histórias da floresta de Mogli\, dentro da Temporada da 
+ Consciência Negra.\n\nGrátis · Livre\n\nFonte: https://ecovillarihapp
+ y.com.br/programacao/\nLargo — agenda cultural aberta do Rio
+URL:https://ecovillarihappy.com.br/programacao/
+CATEGORIES:Infantil
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-146-0@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261122T140000Z
+DTEND:20261122T160000Z
+SUMMARY:Clube Akorin: Musicalizar Brincando
+LOCATION:EcoVilla Ri Happy\, Rua Jardim Botânico\, 1.008 – Jardim Bot
+ ânico
+DESCRIPTION:O músico e ator Alan Rocha encerra a turnê do projeto com c
+ anções autorais\, cultura popular e brincadeiras com a plateia\, em to
+ rno das matrizes da cultura afro-brasileira.\n\nPreço não informado ·
+  Livre\n\nFonte: https://ecovillarihappy.com.br/programacao/\nLargo — 
+ agenda cultural aberta do Rio
+URL:https://ecovillarihappy.com.br/programacao/
+CATEGORIES:Infantil\,Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-153-0@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261122T190000Z
+DTEND:20261122T210000Z
+SUMMARY:Lançamento infantil: João Rapidão e Maria Devagarinha
+LOCATION:Livraria da Travessa – Ipanema\, Rua Visconde de Pirajá\, 572
+  – Ipanema
+DESCRIPTION:Wania Pinto autografa o livro sobre duas crianças de ritmos 
+ completamente diferentes.\n\nPreço não informado\n\nFonte: https://www
+ .travessa.com.br/eventos\nLargo — agenda cultural aberta do Rio
+URL:https://www.travessa.com.br/eventos
+CATEGORIES:Infantil\,Livros & Debates
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-160-0@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261122T190000Z
+DTEND:20261122T210000Z
+SUMMARY:Oficina de Batik Experimental\, com Val Pires
+LOCATION:Museu do Pontal\, Av. Célia Ribeiro da Silva Mendes\, s/nº –
+  Barra da Tijuca
+DESCRIPTION:A artista e arte-educadora ensina a estampar tecido com carim
+ bos de espuma\, numa introdução ao batik africano.\n\nGrátis (contrib
+ uição sugerida de R$ 20) · Livre\n\nFonte: https://museudopontal.org.
+ br/programacao/oficina-batik-experimental-22-nov/\nLargo — agenda cult
+ ural aberta do Rio
+URL:https://museudopontal.org.br/programacao/oficina-batik-experimental-2
+ 2-nov/
+CATEGORIES:Artes Visuais\,Infantil
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-164-0@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261120T140000Z
+DTEND:20261120T160000Z
+SUMMARY:Bluey – Diversão em Família
+LOCATION:Teatro Multiplan\, Av. das Américas\, 3.900 – Barra da Tijuca
+DESCRIPTION:Show oficial da série de animação\, numa adaptação para 
+ o palco feita para a América Latina. Último fim de semana.\n\nA partir
+  de R$ 25 · Livre\n\nFonte: https://teatromultiplan.com.br/eventos/blue
+ y-2026/\nLargo — agenda cultural aberta do Rio
+URL:https://teatromultiplan.com.br/eventos/bluey-2026/
+CATEGORIES:Infantil\,Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-164-1@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261121T140000Z
+DTEND:20261121T160000Z
+SUMMARY:Bluey – Diversão em Família
+LOCATION:Teatro Multiplan\, Av. das Américas\, 3.900 – Barra da Tijuca
+DESCRIPTION:Show oficial da série de animação\, numa adaptação para 
+ o palco feita para a América Latina. Último fim de semana.\n\nA partir
+  de R$ 25 · Livre\n\nFonte: https://teatromultiplan.com.br/eventos/blue
+ y-2026/\nLargo — agenda cultural aberta do Rio
+URL:https://teatromultiplan.com.br/eventos/bluey-2026/
+CATEGORIES:Infantil\,Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-164-2@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261121T180000Z
+DTEND:20261121T200000Z
+SUMMARY:Bluey – Diversão em Família
+LOCATION:Teatro Multiplan\, Av. das Américas\, 3.900 – Barra da Tijuca
+DESCRIPTION:Show oficial da série de animação\, numa adaptação para 
+ o palco feita para a América Latina. Último fim de semana.\n\nA partir
+  de R$ 25 · Livre\n\nFonte: https://teatromultiplan.com.br/eventos/blue
+ y-2026/\nLargo — agenda cultural aberta do Rio
+URL:https://teatromultiplan.com.br/eventos/bluey-2026/
+CATEGORIES:Infantil\,Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-164-3@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261121T210000Z
+DTEND:20261121T230000Z
+SUMMARY:Bluey – Diversão em Família
+LOCATION:Teatro Multiplan\, Av. das Américas\, 3.900 – Barra da Tijuca
+DESCRIPTION:Show oficial da série de animação\, numa adaptação para 
+ o palco feita para a América Latina. Último fim de semana.\n\nA partir
+  de R$ 25 · Livre\n\nFonte: https://teatromultiplan.com.br/eventos/blue
+ y-2026/\nLargo — agenda cultural aberta do Rio
+URL:https://teatromultiplan.com.br/eventos/bluey-2026/
+CATEGORIES:Infantil\,Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-164-4@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261122T140000Z
+DTEND:20261122T160000Z
+SUMMARY:Bluey – Diversão em Família
+LOCATION:Teatro Multiplan\, Av. das Américas\, 3.900 – Barra da Tijuca
+DESCRIPTION:Show oficial da série de animação\, numa adaptação para 
+ o palco feita para a América Latina. Último fim de semana.\n\nA partir
+  de R$ 25 · Livre\n\nFonte: https://teatromultiplan.com.br/eventos/blue
+ y-2026/\nLargo — agenda cultural aberta do Rio
+URL:https://teatromultiplan.com.br/eventos/bluey-2026/
+CATEGORIES:Infantil\,Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-164-5@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261122T180000Z
+DTEND:20261122T200000Z
+SUMMARY:Bluey – Diversão em Família
+LOCATION:Teatro Multiplan\, Av. das Américas\, 3.900 – Barra da Tijuca
+DESCRIPTION:Show oficial da série de animação\, numa adaptação para 
+ o palco feita para a América Latina. Último fim de semana.\n\nA partir
+  de R$ 25 · Livre\n\nFonte: https://teatromultiplan.com.br/eventos/blue
+ y-2026/\nLargo — agenda cultural aberta do Rio
+URL:https://teatromultiplan.com.br/eventos/bluey-2026/
 CATEGORIES:Infantil\,Teatro
 END:VEVENT
 END:VCALENDAR

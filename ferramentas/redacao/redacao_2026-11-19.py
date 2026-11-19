@@ -546,6 +546,373 @@ ev("Dança, Identidade e Resistência – aulão do Ballet Manguinhos", "Festas 
    sessoes=D("20 14:00"), preco="Grátis (senha no local, 30 min antes)", gratis=True, classif="16 anos",
    nota="A fonte não dá o endereço da Biblioteca Parque de Manguinhos.")
 
+
+# =========== RONDA DAS FONTES DE 19/11 (coleta automática na nuvem + ronda no computador da coordenação) ===========
+# Ficam no fim da lista para não mudar a numeração das fichas já conferidas.
+# Só entra o que a fonte dá com dia, hora e lugar. O texto bruto fica no ramo coleta-bruta (nuvem) e no .zip da ronda do PC.
+RONDA = "Ronda das fontes de 19/11"
+def F(nome, link): return (nome + " (ronda de 19/11)", link)
+
+# --- CCBB: relido na ronda. As datas da edição anterior conferem; Música no Museu ganhou o concerto de domingo.
+for e in EV:
+    if e["local"].startswith("Centro Cultural Banco do Brasil") and N_SITE in e["nota_redacao"]:
+        e["nota_redacao"] = e["nota_redacao"].replace(N_SITE, "Coletado no site em 15–17/11 e relido na ronda de 19/11: datas conferem.")
+        if e["titulo"] == "Música no Museu":
+            e["sessoes"] = [{"data": "2026-11-22", "hora": "13:00"}, {"data": "2026-11-25", "hora": "12:30"}]
+            e["trecho_fonte"] += " || Ronda de 19/11: 22/11, domingo 13h , Ernesto Leston, oboé, e Mariana Airaudo, piano (Uruguai). [...] 25/11, quarta 12h30 , William Wielgus, oboé, e Matthew Van Hoose, piano (EUA)."
+            e["nota_redacao"] = "Coletado no site em 15–17/11 e relido na ronda de 19/11: o site agora dá horário (13h) para o concerto de domingo, 22/11, que entra."
+
+L.update({
+ "abl": ("Academia Brasileira de Letras (ABL)", "Av. Presidente Wilson, 203", "Centro (Castelo)", "Centro"),
+ "cariocadagema": ("Carioca da Gema", "Av. Mem de Sá, 79", "Lapa", "Centro"),
+ "salacecilia": ("Sala Cecília Meireles", "Largo da Lapa, 47", "Lapa", "Centro"),
+ "tm": ("Theatro Municipal do Rio de Janeiro", "Praça Floriano, s/nº", "Centro (Cinelândia)", "Centro"),
+ "tmassyrio": ("Theatro Municipal do Rio de Janeiro – Salão Assyrio", "Praça Floriano, s/nº", "Centro (Cinelândia)", "Centro"),
+ "paco": ("Paço Imperial", "Praça XV de Novembro, 48", "Centro", "Centro"),
+ "bpe": ("Biblioteca Parque Estadual", "Av. Presidente Vargas, 1.261", "Centro", "Centro"),
+ "travcentro": ("Livraria da Travessa – Centro", "Rua Graça Aranha, 296", "Centro", "Centro"),
+ "crm": ("Casa Roberto Marinho", "Rua Cosme Velho, 1.105", "Cosme Velho", "Zona Sul"),
+ "mviegas": ("Galeria Mercedes Viegas", "Rua Abreu Fialho, 5, sobrado", "Jardim Botânico", "Zona Sul"),
+ "futuros": ("Petrobras Futuros – Arte e Tecnologia", "Rua Dois de Dezembro, 63", "Flamengo", "Zona Sul"),
+ "casafirjan": ("Casa Firjan", "Rua Guilhermina Guinle, 211", "Botafogo", "Zona Sul"),
+ "evaklabin": ("Casa Museu Eva Klabin", "Av. Epitácio Pessoa, 2.480", "Lagoa", "Zona Sul"),
+ "eav": ("EAV Parque Lage", "Rua Jardim Botânico, 414", "Jardim Botânico", "Zona Sul"),
+ "ecovilla": ("EcoVilla Ri Happy", "Rua Jardim Botânico, 1.008", "Jardim Botânico", "Zona Sul"),
+ "casagrande": ("Teatro Casa Grande (Teatro Axia Casa Grande)", "Av. Afrânio de Melo Franco, 290", "Leblon", "Zona Sul"),
+ "poeira": ("Teatro Poeira", "Rua São João Batista, 104", "Botafogo", "Zona Sul"),
+ "poeirinha": ("Teatro Poeirinha", "Rua São João Batista, 104", "Botafogo", "Zona Sul"),
+ "vivorio": ("Vivo Rio", "Av. Infante Dom Henrique, 85", "Glória (Aterro do Flamengo)", "Zona Sul"),
+ "travipanema": ("Livraria da Travessa – Ipanema", "Rua Visconde de Pirajá, 572", "Ipanema", "Zona Sul"),
+ "travleblon": ("Livraria da Travessa – Shopping Leblon", "Av. Afrânio de Melo Franco, 290", "Leblon", "Zona Sul"),
+ "travbotafogo": ("Livraria da Travessa – Botafogo", "Rua Voluntários da Pátria, 97", "Botafogo", "Zona Sul"),
+ "travbarra": ("Livraria da Travessa – BarraShopping", "Av. das Américas, 4.666", "Barra da Tijuca", "Zona Sudoeste"),
+ "pontal": ("Museu do Pontal", "Av. Célia Ribeiro da Silva Mendes, s/nº", "Barra da Tijuca", "Zona Sudoeste"),
+ "qualistage": ("Qualistage", "Av. Ayrton Senna, 3.000 (Via Parque Shopping)", "Barra da Tijuca", "Zona Sudoeste"),
+ "multiplan": ("Teatro Multiplan", "Av. das Américas, 3.900", "Barra da Tijuca", "Zona Sudoeste"),
+ "eduerj": ("Livraria da EdUERJ (campus Maracanã da Uerj)", "Rua São Francisco Xavier, 524, térreo", "Maracanã", "Zona Norte"),
+ "bangu": ("Teatro Bangu Shopping", "Rua da Fonseca, 240", "Bangu", "Zona Oeste"),
+})
+N_END = "O endereço não está no texto coletado; é o endereço público do espaço."
+N_ABERT = "O horário é o que a página do bar dá para a noite; a mesma página avisa que o show principal pode começar mais tarde."
+
+# ---------------- CENTRO ----------------
+ABL = F("Site da ABL", "https://academia.org.br/eventos")
+ev("A retórica de Júlia Lopes de Almeida – Quinta é Cultura", "Livros & Debates", "abl",
+   "Encontro da série Quinta é Cultura dedicado à retórica de Júlia Lopes de Almeida, com coordenação do acadêmico Godofredo de Oliveira Neto. A inscrição é feita pelo site da Academia.",
+   'Próximos eventos A retórica de Júlia Lopes de Almeida Quinta é Cultura Data e horário: 19 de Novembro de 2026 às 17h30 Coordenação: Acadêmico Godofredo de Oliveira Neto INSCREVA-SE CLICANDO AQUI', ABL,
+   sessoes=D("19 17:30"), nota="A fonte não informa preço nem classificação.")
+ev("A poesia brasileira na Coleção Ciranda da Poesia – ciclo de conferências", "Livros & Debates", "abl",
+   "Conferência do ciclo sobre a poesia brasileira na Coleção Ciranda da Poesia, com coordenação do acadêmico Paulo Henriques Britto. A inscrição é feita pelo site da Academia.",
+   '"A poesia brasileira na Coleção Ciranda da Poesia" ciclo de conferências Data e horário: 24 de Novembro de 2026 às 16h00 Coordenação: Acadêmico Paulo Henriques Britto INSCREVA-SE CLICANDO AQUI', ABL,
+   sessoes=D("24 16:00"), nota="A fonte não informa preço nem classificação.")
+
+CG = F("Site do Carioca da Gema", "https://www.barcariocadagema.com.br/shows")
+CG_PRECO = ' || Valor entrada de terça ate quinta - R$ 30,00 sexta e sábado - R$ 35,00 véspera de feriado - R$35,00'
+ev("Andrezão do Cacique", "Música", "cariocadagema",
+   "Noite de samba em homenagem aos compositores que se reuniam em volta da tamarineira, como Arlindo Cruz, Sombrinha, Jorge Aragão, Zeca Pagodinho, Almir Guineto e Luiz Carlos da Vila, com sucessos do Fundo de Quintal.",
+   'qui., 19 de nov. Andrezão do Cacique / 19 de nov. de 2026, 21:30 Carioca da Gema, Av. Mem de Sá, 79 - Centro, Rio de Janeiro - RJ' + CG_PRECO, CG,
+   sessoes=D("19 21:30"), preco="R$ 35 (véspera de feriado)", pmin=35, pmax=35,
+   nota="Quinta, 19/11, é véspera de feriado: vale o preço de véspera (R$ 35), não o de quinta (R$ 30). " + N_ABERT)
+ev("Pedro Menezes", "Música", "cariocadagema",
+   "Show de samba tradicional com toque contemporâneo, na Lapa.",
+   'sex., 20 de nov. Pedro Menezes / 20 de nov. de 2026, 20:00 [...] Samba de verdade com raízes fortes no gênero [...] a essência do samba tradicional com toque contemporâneo' + CG_PRECO, CG,
+   sessoes=D("20 20:00"), preco="R$ 35", pmin=35, pmax=35, nota=N_ABERT)
+ev("Leonardo Bessa", "Música", "cariocadagema",
+   "O cantor e compositor do Salgueiro passa por samba de raiz, pagode e sambas-enredo, com histórias entre as músicas.",
+   'sáb., 21 de nov. Leonardo Bessa / 21 de nov. de 2026, 20:30 BRT [...] Cantor e compositor do Salgueiro, passeia pelo samba de raiz, pagode e grandes sambas-enredo, com histórias, bom humor e muita interação. || SÁBADOS-abertura 20:30/inicio show principal 22:00' + CG_PRECO, CG,
+   sessoes=D("21 20:30"), preco="R$ 35", pmin=35, pmax=35,
+   nota="20h30 é a abertura da casa; a página informa que, aos sábados, o show principal começa às 22h.")
+ev("Três a Varejo + 1", "Música", "cariocadagema",
+   "Show para dançar que vai do samba ao maxixe, ao ijexá, ao xote, ao baião e ao frevo.",
+   'seg., 23 de nov. Três a Varejo / 23 de nov. de 2026, 19:30 [...] Três a Varejo + 1 celebra a brasilidade em um show que vai do samba ao maxixe, ijexá, xote, baião e frevo.', CG,
+   sessoes=D("23 19:30"), nota="A página só dá o preço de terça a sábado; o de segunda-feira não é informado. " + N_ABERT)
+
+ev("Guilherme Pozzi – Série Piano na Sala", "Música", "salacecilia",
+   "Recital do pianista com obras de Schumann, Beethoven, Chopin e Prokofiev, da Arabeske à Sonata nº 7, passando pela “Appassionata” e pela Balada nº 4.",
+   'Série Piano na Sala 2026-11-19 19:00:00 • qui, 19 nov • 19H00 Guilherme Pozzi Sala Cecília Meireles R$ 40 [...] recital que reúne obras de Robert Schumann, Ludwig van Beethoven, Frédéric Chopin e Sergei Prokofiev. O programa percorre [...] da Arabeske , de Schumann, à Sonata nº 7 , de Prokofiev, passando pela Sonata “Appassionata” , de Beethoven, e pela Balada nº 4 , de Chopin.',
+   F("Site da Sala Cecília Meireles", "https://salaceciliameireles.rj.gov.br/programacao/guilherme-pozzi/"),
+   sessoes=D("19 19:00"), preco="R$ 40", pmin=40, pmax=40, nota="A fonte não informa o valor da meia-entrada nem a classificação.")
+
+ev("OSB Jovem – Legado em Harmonia", "Música", "tm",
+   "A Orquestra Sinfônica Brasileira Jovem toca Bizet, Lebrun e Tchaikovsky, com regência de Anderson Alves e o oboísta Rodrigo Herculano como solista.",
+   'OSB Jovem | Legado em Harmonia 19 de novembro (quinta-feira) – 19h Theatro Municipal do Rio de Janeiro Anderson Alves , regência Rodrigo Herculano , oboé [...] Ingressos: Plateia: R$60 (R$30 meia) | Frisa: R$50 (R$25 meia) | Camarote: R$40 (R$20 meia) | Galeria: R$30 (R$15 meia) || Site do Theatro Municipal: No dia 19 de novembro , a Orquestra Sinfônica Brasileira Jovem leva ao palco do Theatro Municipal do Rio de Janeiro o espetáculo Legado em Harmonia . [...] No repertório, obras de Georges Bizet , Ludwig August Lebrun e Piotr Ilitch Tchaikovsky .',
+   F("Sites da OSB e do Theatro Municipal", "https://www.osb.com.br/osb-jovem/"),
+   sessoes=D("19 19:00"), preco="R$ 30 a R$ 60 (meia de R$ 15 a R$ 30)", pmin=15, pmax=60)
+ev("Coral Brasil Ensemble – UFRJ (Música no Assyrio)", "Música", "tmassyrio",
+   "O coral da UFRJ, voltado à música brasileira contemporânea, canta com André Santos e Claudia Feitosa ao piano, sob regência de Maria José Chevitarese.",
+   'TMRJ recebe o Coral Brasil Ensemble – UFRJ – Dia 22/11, às 11h | A série Música no Assyrio recebe, no dia 22 de novembro, às 11 horas, o Coral Brasil Ensemble – UFRJ, com André Santos e Claudia Feitosa no piano, sob regência e direção artística de Maria José Chevitarese. [...] tem como propósito principal promover a música brasileira contemporânea. [...] Os ingressos estão disponíveis através do site theatromunicipal.rj.gov.br ou na Bilheteria do Theatro.',
+   F("Site do Theatro Municipal", "https://theatromunicipal.rj.gov.br/tmrj-recebe-o-coral-brasil-ensemble-ufrj-dia-22-11-as-11h/"),
+   sessoes=D("22 11:00"), nota="O trecho coletado não traz o preço do ingresso.")
+
+ev("Claudia Hersz: Mostra sua cara", "Artes Visuais", "paco",
+   "Cerca de 140 obras feitas entre 2018 e 2026, entre objetos, instalações e vídeos, em que a artista rasga, cola e remonta mapas, capas de disco e outras imagens conhecidas do Brasil. Curadoria de Fernanda Lopes. Últimos dias.",
+   'Mostra sua cara reúne cerca de 140 obras, a maioria inéditas, produzidas entre 2018 e 2026, incluindo objetos, instalações e vídeos. Com curadoria de Fernanda Lopes [...] Local : Paço Imperial — Praça XV de Novembro, 48, Centro, Rio de Janeiro – RJ Visitação : 26 de setembro a 22 de novembro de 2026 Horário : Terça a domingo e feriados, das 12h às 18h Entrada gratuita',
+   F("Site da galeria Portas Vilaseca", "https://portasvilaseca.com.br/pt"),
+   cartaz=C("2026-09-26", "2026-11-22", "Terça a domingo e feriados, 12h–18h"), **G)
+ev("O gesto do poder, o poder do gesto – um recorte da Coleção Instituto PIPA", "Artes Visuais", "paco",
+   "Recorte da Coleção Instituto PIPA sobre as relações entre arte, autoridade e memória, com curadoria de Lucrécia Vinhaes. Entre as obras está a pintura “Rio Setecentista” (2013), de Arjan Martins. Últimos dias.",
+   'Arjan Martins | O gesto do poder, o poder do gesto Centro Cultural do Patrimônio Paço Imperial | Rio de Janeiro, Brasil 26 Setembro - 22 Novembro 2026 Curadoria: Lucrécia Vinhaes Expografia: Carla Marins Em “O gesto do poder, o poder do gesto - um recorte da Coleção Instituto PIPA”, a relação estrutural entre arte, autoridade e memória é o eixo central. [...] Arjan Martins apresenta a pintura “Rio Setecentista” (2013).',
+   F("Site da galeria A Gentil Carioca", "https://www.agentilcarioca.com.br/exhibitions/"),
+   cartaz=C("2026-09-26", "2026-11-22", "Terça a domingo e feriados, 12h–18h"),
+   nota="A fonte desta mostra não dá horário nem preço. O horário é o do Paço Imperial informado na ficha de “Claudia Hersz: Mostra sua cara”.")
+
+ev("Casa da Mônica", "Infantil|Artes Visuais", "bpe",
+   "Exposição interativa com cenários do Bairro do Limoeiro, como a casa da Mônica, a cozinha da Magali e o estúdio de Mauricio de Sousa. Os ingressos gratuitos são liberados toda segunda-feira, às 10h, pela internet.",
+   'Serviço: Exposição Casa da Mônica Período: 28 de outubro a 22 de dezembro Dias de visitação: segunda a sexta-feira (exceto feriados), das 10h às 17h Retirada de ingressos: toda segunda-feira, às 10h, através da plataforma Sympla || Gratuita, a exposição fica disponível para visitação de segunda-feira a sexta-feira até o dia 22 de dezembro',
+   F("Site da Secretaria de Estado de Cultura", "https://cultura.rj.gov.br/biblioteca-parque-estadual-inaugura-exposicao-inspirada-no-universo-da-turma-da-monica/"),
+   cartaz=C("2026-10-28", "2026-12-22", "Segunda a sexta, 10h–17h (fecha nos feriados)"),
+   preco="Grátis (ingresso pela internet, liberado às segundas, 10h)", gratis=True,
+   nota="Fecha no feriado de 20/11. " + N_END)
+
+TRAV = F("Site da Livraria da Travessa", "https://www.travessa.com.br/eventos")
+N_TRAV = "A fonte não informa preço. " + N_END
+ev("Lançamento: Migrantes da Descolonização", "Livros & Debates", "travcentro",
+   "Isabel de Souza Lima Junqueira Barreto autografa o livro sobre portugueses e luso-angolanos que vieram para o Brasil entre 1974 e 1977, depois da guerra em Angola.",
+   '23/11 . SEGUNDA Centro - Graça Aranha - RJ | 17:00 MIGRANTES DA DESCOLONIZAÇÃO: PORTUGUESES E LUSO-ANGOLANOS NO BRASIL (1974-1977) Autor(a): Isabel de Souza Lima Junqueira Barreto AUTÓGRAFOS Após uma longa guerra (1961-1974), Angola tornou-se independente em 11 de novembro de 1975', TRAV,
+   sessoes=D("23 17:00"), nota="A fonte não informa preço.")
+
+# ---------------- ZONA SUL ----------------
+ev("Guardar – Coleção Marcia e Luiz Chrysostomo", "Artes Visuais", "crm",
+   "Abre nesta quinta a mostra com cerca de 300 obras de uma coleção particular, das vanguardas do início do século XX à produção contemporânea, com curadoria de Paulo Venancio Filho.",
+   'Exposição Guardar Coleção Marcia e Luiz Chrysostomo 19 Nov a 14 Mar De terça-feira a domingo das 12h às 18h *Entrada até 17h15 [...] R. Cosme Velho, 1105 || ArtRio: Com curadoria de Paulo Venancio Filho, a mostra apresenta cerca de 300 obras e percorre diferentes momentos da arte brasileira e internacional, das vanguardas do início do século XX à produção contemporânea. [...] Abertura pública: 19 de novembro de 2026, às 12h Encerramento: 14 de março de 2027 De terça a domingo, das 12h às 18h Ingressos à venda exclusivamente na bilheteria: R$ 10 (inteira) / R$ 5 (meia entrada)',
+   F("Sites da Casa Roberto Marinho e da ArtRio", "https://casarobertomarinho.org.br"),
+   cartaz=C("2026-11-19", "2027-03-14", "Terça a domingo, 12h–18h (entrada até 17h15)"),
+   preco="R$ 10 (meia R$ 5), só na bilheteria", pmin=5, pmax=10)
+ev("ECOS – coletiva", "Artes Visuais", "mviegas",
+   "Coletiva com obras de Antonio Bokel, Hildebranda, Nathan Braga, Omar Salomão, Regina de Paula e Tetê Sá: 19 trabalhos, entre pinturas, esculturas e um vídeo.",
+   'ECOS | antonio bokel + hildebranda + nathan braga + omar salomão + regina de paula + tetê sá | 14.11.26 > 23.01.27 abertura: 14.11.26 exposição : 17.11.26 – 23.01.27 horários: de segunda a sexta: 12h - 19h; sábados: 15h30 - 19h30 || ArtRio: Mostra reúne 19 obras, entre pinturas, esculturas e um vídeo sob curadoria de Amanda Mujica [...] Galeria Mercedes Viegas | Rua Abreu Fialho 5, sobrado – Jardim Botânico [...] Até 23 de janeiro de 2027 De terça a sexta, das 12h às 19h. Sábados, das 15h30 e 19h30. Entrada gratuita',
+   F("Sites da galeria Mercedes Viegas e da ArtRio", "https://www.mercedesviegas.com.br/exposicoes/ecos"),
+   cartaz=C("2026-11-17", "2027-01-23", "Segunda a sexta, 12h–19h; sábado, 15h30–19h30"), **G,
+   nota="As fontes divergem num ponto: o site da galeria diz “segunda a sexta”; a ArtRio diz “terça a sexta”. Vale o site da galeria.")
+ev("Escrevendo com a Luz – Zumví Arquivo Afro Fotográfico", "Artes Visuais", "futuros",
+   "Fotografias do arquivo baiano Zumví que registram corpos, territórios e manifestações culturais da população negra, numa ponte entre Salvador e o Rio. Curadoria de Lázaro Roberto e Luedji Luna.",
+   'SERVIÇO Exposição “Escrevendo com a Luz” | Zumví Arquivo Afro Fotográfico Data: 29 de outubro a 20 de dezembro de 2026 Horário: quarta a domingo, das 11h às 20h Local: Petrobras Futuros - Arte e Tecnologia - Galeria 2 Endereço: Rua Dois de Dezembro, 63, Flamengo, Rio de Janeiro - RJ Entrada franca || Com curadoria de Lázaro Roberto e Luedji Luna, mostra fotográfica estabelece uma ponte entre Salvador e Rio de Janeiro [...] Fotografias que registram corpos, territórios, manifestações culturais e diferentes experiências da população negra',
+   F("Site do Petrobras Futuros", "https://petrobrasfuturos.com.br/programacao/exposicao-escrevendo-com-a-luz-zumvi/"),
+   cartaz=C("2026-10-29", "2026-12-20", "Quarta a domingo, 11h–20h"), **G)
+
+CF = F("Site da Casa Firjan", "https://casafirjan.com.br/")
+ev("Cartografia de Futuros Imaginários – Casa Aberta", "Artes Visuais|Infantil", "casafirjan",
+   "Atividade de uma hora para criar zines com palavras, imagens e recortes.",
+   '21 de novembro de 2026 Sábado Horário: 16h00 | Duração: 1h Cartografia de Futuros Imaginários | Atividade Casa Aberta Crie zines com palavras, imagens e recortes, transforme ideias em narrativas e explore diferentes caminhos para o amanhã.', CF,
+   sessoes=D("21 16:00"), nota="A fonte não informa preço, classificação nem se é preciso se inscrever.")
+ev("Meninas e Mulheres na Ciência e Tecnologia: redes que abrem caminhos", "Livros & Debates", "casafirjan",
+   "Encontro de quatro horas para aproximar iniciativas que fortalecem a participação feminina na ciência e na tecnologia.",
+   '24 de novembro de 2026 Terça Horário: 14h00 | Duração: 4h Meninas e Mulheres na Ciência e Tecnologia: redes que abrem caminhos | Aquário Edu Casa Firjan Conecte iniciativas e fortaleça a participação feminina na ciência e na tecnologia', CF,
+   sessoes=D("24 14:00"), nota="A fonte não informa preço nem se é preciso se inscrever.")
+
+ev("Oficina Cliques e Movimento", "Infantil", "evaklabin",
+   "Crianças a partir de 3 anos criam cenas e histórias em stop motion, com celular, corpo e tecidos. As senhas são distribuídas dez minutos antes.",
+   'A oficina de práticas artísticas [...] Chamada de "Cliques e Movimentos", se baseia no uso do "Stop Motion Studio", corpos e tecidos [...] voltada para crianças a partir de 3 anos de idade. [...] As oficinas são gratuitas e a participação ocorre mediante a retirada de senhas, dez minutos antes da atividade. Essa atividade estará aberta ao público nos dias 15, 21, 22 e 29 de novembro, sempre às 15h.',
+   F("Site da Casa Museu Eva Klabin", "https://www.evaklabin.org.br/pt"),
+   sessoes=D("21 15:00", "22 15:00"), preco="Grátis (senha 10 minutos antes)", gratis=True)
+
+ev("Encontro dos Povos Originários", "Artes Visuais|Festas & Feiras", "eav",
+   "Três dias de programação reunida por artistas indígenas na Escola de Artes Visuais. A grade de atividades está no site da escola.",
+   'ENCONTRO DOS POVOS ORIGINÁRIOS Artistas indígenas reúnem mais uma grande programação na EAV Parque Lage. 20 NOV 2026 SEX - 10h 22 NOV 2026 DOM - 17h',
+   F("Site da EAV Parque Lage", "https://eavparquelage.rj.gov.br/acontece"),
+   cartaz=C("2026-11-20", "2026-11-22", "De sexta, 10h, a domingo, 17h (ver a grade no site)"),
+   nota="A coleta só trouxe o período e a chamada do evento, sem a grade de atividades nem o preço.")
+
+ECO = F("Site da EcoVilla Ri Happy", "https://ecovillarihappy.com.br/programacao/")
+N_ECO = "A fonte não informa o preço."
+ev("Confissões de Adolescente – o musical", "Teatro", "ecovilla",
+   "Versão musical inédita da história sobre as dores e as descobertas de crescer.",
+   'Confissões de Adolescente 23 de outubro a 29 de novembro | Sextas às 20h, Sábados e Domingos às 19h Classificação: 16 anos FENÔMENO QUE MARCOU GERAÇÕES, ‘CONFISSÕES DE ADOLESOCENTE’ RETORNA AOS PALCOS EM VERSÃO MUSICAL INÉDITA.', ECO,
+   sessoes=D("20 20:00", "21 19:00", "22 19:00"), classif="16 anos", nota=N_ECO)
+ev("Escola do Rock", "Teatro|Infantil", "ecovilla",
+   "Musical baseado no filme de 2003: um guitarrista se passa por professor substituto e monta uma banda com alunos do quinto ano para disputar a Batalha das Bandas.",
+   'Escola do Rock - CEFTEM 14 de novembro a 13 de dezembro | Sábados e Domingos, às 15h e dia 04 e 11 de dezembro | Sexta-feiras às 19h30 Classificação: Livre Baseado no filme School of Rock, de 2003 [...] ao fingir ser um professor substituto em uma prestigiosa e conservadora escola, Dewey forma um grupo do quinto ano, na tentativa de ganhar o próximo concurso: a Batalha das Bandas.', ECO,
+   sessoes=D("21 15:00", "22 15:00"), classif="Livre", nota=N_ECO)
+ev("Sábado Musical com Batuca Jardim – Ritmos da Ancestralidade", "Infantil|Música", "ecovilla",
+   "Manhã de percussão, canto e brincadeiras em família sobre ritmos e tradições afro-brasileiras, em homenagem ao Dia da Consciência Negra.",
+   'Sábado Musical, com Batuca Jardim - Ritmos da Ancestralidade” 21 de novembro | Sábado às 09h30 [...] Em homenagem ao Dia da Consciência Negra, o Batuca Jardim convida crianças e famílias para uma experiência musical [...] Por meio da percussão, do canto e de atividades lúdicas e coletivas', ECO,
+   sessoes=D("21 09:30"), nota=N_ECO)
+ev("Oficina Da Imaginação à Selva: uma aventura pela floresta de Mogli", "Infantil", "ecovilla",
+   "Duas horas de atividades para crianças em torno da mata, dos bichos e das histórias da floresta de Mogli, dentro da Temporada da Consciência Negra.",
+   'Oficina Da Imaginação à Selva: Uma Aventura pela Floresta de Mogli (Gratuito) 21 de novembro | Sábado, das 10h30 às 12h30 [...] Como parte da Temporada da Consciência Negra, a EcoVilla Ri Happy convidará as crianças a embarcar na oficina gratuita Da Imaginação à Selva, uma aventura inspirada na floresta de Mogli. Em duas horas de atividades lúdicas e criativas', ECO,
+   sessoes=D("21 10:30"), **G)
+ev("Clube Akorin: Musicalizar Brincando", "Infantil|Música", "ecovilla",
+   "O músico e ator Alan Rocha encerra a turnê do projeto com canções autorais, cultura popular e brincadeiras com a plateia, em torno das matrizes da cultura afro-brasileira.",
+   'Clube Akorin 22 de novembro | Domingo, às 11h [...] O músico e ator Alan Rocha subirá ao palco do Teatro EcoVilla Ri Happy com Clube Akorin: Musicalizar Brincando, show que encerrará a turnê oficial do projeto e unirá música autoral e cultura popular [...] canções e histórias que celebrarão as matrizes da cultura afro-brasileira.', ECO,
+   sessoes=D("22 11:00"), nota=N_ECO)
+
+TCG = "https://www.teatroaxiacasagrande.com.br/programacao/"
+N_TCG = "A coleta trouxe datas e horários, mas não a sinopse nem o preço."
+ev("O Nome do Bebê", "Teatro", "casagrande",
+   "Peça em curtíssima temporada no Leblon, às quintas e sextas, até 27 de novembro.",
+   'CURTÍSSIMA TEMPORADA O Nome do Bebê 05 de Novembro a 27 de Novembro [...] Data: De 5 a 27 de novembro de 2026 Horário: Quintas e sextas às 20h00 Abertura da casa: 1h antes', F("Site do Teatro Casa Grande", TCG + "detalhes/o-nome-do-bebe/"),
+   sessoes=D("19 20:00", "20 20:00"), nota=N_TCG)
+ev("O Mercador de Veneza", "Teatro", "casagrande",
+   "Peça em curta temporada no Leblon, aos sábados e domingos, até 29 de novembro.",
+   'CURTA TEMPORADA O Mercador de Veneza 07 de Novembro a 29 de Novembro [...] Data: 7 a 29 de novembro de 2026 Horário: Sábado às 21h00 e Domingo às 19h00 Abertura da casa: 1 hora antes do evento', F("Site do Teatro Casa Grande", TCG),
+   sessoes=D("21 21:00", "22 19:00"), nota=N_TCG)
+ev("Atom Pink Floyd – Pink Floyd Symphonic", "Música", "casagrande",
+   "A banda de tributo ao Pink Floyd festeja dez anos tocando o repertório com uma orquestra de câmara ao vivo. Apresentação única.",
+   'ÚNICA APRESENTAÇÃO ATOM PINK FLOYD SYMPHONIC [...] um espetáculo que marca uma década de trajetória [...] Uma orquestra em formação camerística dialoga com os músicos em tempo real [...] SERVIÇO Data: 25/11/2026 Horário: 20h00 Local: Teatro Axia Casa Grande Endereço: Avenida Afrânio de Melo Franco, 290 – Loja A- Leblon – Rio de Janeiro/RJ Abertura da casa: 01h00 antes',
+   F("Site do Teatro Casa Grande", TCG + "detalhes/2895/"),
+   sessoes=D("25 20:00"), nota="A coleta não trouxe o preço.")
+
+POE = F("Site do Teatro Poeira", "https://www.teatropoeira.com.br/")
+ev("Margaridas", "Teatro", "poeira",
+   "Com texto de Cecília Ripoll e direção de Natasha Corbelino, a peça percorre 200 anos de educação, de 1916 a um futuro imaginado em 2116.",
+   'Margaridas — Teatro Poeira TEATRO POEIRA 03 NOV a 16 DEZ TER e QUA 20h ingressos Com texto de Cecília Ripoll e direção de Natasha Corbelino, a montagem faz um passeio por temas presentes em 200 anos de educação, de 1916 a um futuro imaginado em 2116', POE,
+   sessoes=D("24 20:00", "25 20:00"), nota="A coleta não trouxe o preço.")
+ev("Adorável Face de Andronieva Petrosa", "Teatro", "poeirinha",
+   "Primeiro solo de Fabianna de Mello e Souza, em 40 anos de carreira: uma atriz recebe uma carta anônima que a acusa de plágio e passa a se perguntar o que é original. Dramaturgia de Cecilia Ripoll e direção de Denise Stutz.",
+   'Adoravel Face TEATRO POEIRINHA 29 OUT a 20 DEZ QUI a SAB 20h e DOM 19h [...] Após 40 anos de carreira, Fabianna de Mello e Souza atua em seu primeiro solo, que transforma uma acusação de plágio em reflexão [...] ‘Adorável Face de Andronieva Petrosa’, solo de Fabianna de Mello e Souza, com dramaturgia de Cecilia Ripoll e direção de Denise Stutz, fará uma temporada no Teatro Poeirinha, de 29 de outubro a 20 de dezembro, com sessões de quinta à sábado, às 20h e domingos [...] Em cena, uma atriz recebe uma carta anônima acusando-a de plágio. [...] o que é original?', POE,
+   sessoes=D("19 20:00", "20 20:00", "21 20:00", "22 19:00"), nota="A coleta não trouxe o preço.")
+
+ev("CA7RIEL & Paco Amoroso – Free Spirits World Tour", "Música", "vivorio",
+   "A dupla argentina, que mistura trap, rock e pop, traz ao Rio a turnê do álbum “Free Spirits”. O show foi remarcado para esta data.",
+   'Gênero Internacional Data e Horário do Evento Nova Data Quinta, 19 de Novembro às 21h Ingressos CA7RIEL & Paco Amoroso Após o lançamento do novo álbum FREE SPIRITS, CA7RIEL & Paco Amoroso anunciam a FREE SPIRITS World Tour [...] mistura de trap, rock, pop [...] artistas mais magnéticos surgidos na Argentina neste século. [...] Av. Infante Dom Henrique, 85',
+   F("Site do Vivo Rio", "https://vivorio.com.br/eventos/ca7riel-paco-amoroso/"),
+   sessoes=D("19 21:00"), nota="A coleta não trouxe o preço nem a classificação.")
+
+ev("Lançamento infantil: João Rapidão e Maria Devagarinha", "Infantil|Livros & Debates", "travipanema",
+   "Wania Pinto autografa o livro sobre duas crianças de ritmos completamente diferentes.",
+   '22/11 . DOMINGO Ipanema | 16:00 JOÃO RAPIDÃO E MARIA DEVAGARINHA Autor(a): Wania Pinto AUTÓGRAFOS João e Maria têm ritmos completamente diferentes. Ele é tão rápido que não quer parar nem ...', TRAV,
+   sessoes=D("22 16:00"), nota=N_TRAV)
+ev("Lançamento: Ministério do Tempo Livre – um manifesto", "Livros & Debates", "travleblon",
+   "Miguel Lago autografa o livro e conversa com Laura Carvalho.",
+   '23/11 . SEGUNDA Shopping Leblon | 19:00 MINISTÉRIO DO TEMPO LIVRE: UM MANIFESTO Autor(a): Miguel Lago AUTÓGRAFOS + BATE-PAPO COM AUTOR E LAURA CARVALHO', TRAV,
+   sessoes=D("23 19:00"), nota=N_TRAV)
+ev("Lançamento: Música em Pauta", "Livros & Debates|Música", "travipanema",
+   "Mariana Camargo lança o livro que reúne textos inéditos e textos saídos na coluna de mesmo nome.",
+   '23/11 . SEGUNDA Ipanema | 19:00 MUSICA EM PAUTA Autor(a): Mariana Camargo LANÇAMENTO “Música em Pauta” reúne textos inéditos e textos publicados originalmente na coluna homônima, escrita por Mariana ...', TRAV,
+   sessoes=D("23 19:00"), nota=N_TRAV)
+ev("Lançamento duplo: A Vida Imprópria e O Arquivo como Gesto", "Livros & Debates", "travbotafogo",
+   "Noite de lançamento dos livros de Florencia Garramuño e de Mario Cámara.",
+   '24/11 . TERÇA Botafogo | 19:00 A VIDA IMPRÓPRIA Autor(a): Florencia Garramuno O ARQUIVO COMO GESTO Autor(a): , Mario Camara', TRAV,
+   sessoes=D("24 19:00"), nota=N_TRAV)
+ev("Encontro literário Lia Benchimol: Wabi Sabi", "Livros & Debates", "travleblon",
+   "Encontro de leitura mediado por Lia Benchimol sobre “Wabi Sabi: a sabedoria japonesa de apreciar o imperfeito”, de Nobuo Suzuki.",
+   '25/11 . QUARTA Shopping Leblon | 16:00 WABI SABI: A SABEDORIA JAPONESA DE APRECIAR O IMPERFEITO Autor(a): Nobuo Suzuki ENCONTRO LITERÁRIO LIA BENCHIMOL MEDIAÇÃO: LIA BENCHIMOL', TRAV,
+   sessoes=D("25 16:00"), nota=N_TRAV)
+ev("Lançamento: Mistérios sob o Céu de Alcântara", "Livros & Debates", "travbotafogo",
+   "Alexandre Maia Lago autografa o livro.",
+   '25/11 . QUARTA Botafogo | 19:00 MISTÉRIOS SOB O CÉU DE ALCÂNTARA Autor(a): Alexandre Maia Lago AUTÓGRAFOS', TRAV,
+   sessoes=D("25 19:00"), nota=N_TRAV)
+
+# ---------------- ZONA SUDOESTE ----------------
+PONTAL_G = dict(preco="Grátis (contribuição sugerida de R$ 20)", gratis=True)
+PONTAL_T = ' || A entrada no Museu do Pontal é gratuita para todos . Entretanto, sugerimos uma contribuição mínima de R$ 20 àqueles que puderem apoiar as atividades do Museu.'
+ev("Danças populares de Moçambique, com Bela Zango", "Festas & Feiras|Música", "pontal",
+   "A cantora e bailarina moçambicana apresenta a música e as danças tradicionais do seu país. Ela é uma das poucas mulheres a dominar a timbila, xilofone do povo Chopi.",
+   'Danças populares de Moçambique – 21 de novembro, 16h | Neste sábado, 21 de novembro, a cantora e bailarina moçambicana Bela Zango conduz uma atividade que apresenta ao público elementos da música e da dança tradicional de Moçambique. A atividade acontece às 16h. [...] É também uma das poucas mulheres a dominar a Timbila, xilofone tradicional do povo Chopi' + PONTAL_T,
+   F("Site do Museu do Pontal", "https://museudopontal.org.br/programacao/dancas-populares-mocambique-21nov/"),
+   sessoes=D("21 16:00"), **PONTAL_G)
+ev("Oficina de Batik Experimental, com Val Pires", "Artes Visuais|Infantil", "pontal",
+   "A artista e arte-educadora ensina a estampar tecido com carimbos de espuma, numa introdução ao batik africano.",
+   'Oficina de Batik Experimental – 22 de novembro, 16h | Neste domingo, 22 de novembro , a artista visual, arte-educadora e xilógrafa Val Pires comanda a oficina de Batik Experimental, que apresenta uma técnica artesanal de tingimento e criação de estampas manuais. A atividade tem classificação livre e começa às 16h. A oficina propõe uma introdução ao Batik Africano, técnica de estamparia que utiliza carimbos de espuma.' + PONTAL_T,
+   F("Site do Museu do Pontal", "https://museudopontal.org.br/programacao/oficina-batik-experimental-22-nov/"),
+   sessoes=D("22 16:00"), classif="Livre", **PONTAL_G)
+
+N_QS = "O site só dá o preço inicial. " + N_END
+ev("Marcelo Falcão – turnê O Legado", "Música", "qualistage",
+   "Cerca de três horas de show e mais de 40 músicas, num passeio por 30 anos de carreira entre rap, reggae e rock.",
+   'Marcelo Falcão anuncia nova data da turnê “O Legado” no Rio de Janeiro [...] retorna à capital fluminense no dia 20 de novembro, no Qualistage. [...] São cerca de três horas de espetáculo com um setlist que ultrapassa mais de 40 faixas. [...] mais de 30 anos de carreira [...] rap, reggae, rock || A partir de R$ 87,50 Sexta - 20 | NOVEMBRO 22h30 16 anos',
+   F("Site do Qualistage", "https://qualistage.com.br/evento/439/marcelo-falcao"),
+   sessoes=D("20 22:30"), preco="A partir de R$ 87,50", pmin=87.5, classif="16 anos", nota=N_QS)
+ev("Dino Fonseca – Barzim de Rock", "Música", "qualistage",
+   "Mais de três horas de sucessos do rock nacional e internacional.",
+   'O Barzim de Rock é uma turnê [...] Com mais de 3 horas de apresentação de Dino Fonseca, que conduz uma verdadeira viagem pelos maiores sucessos do rock nacional e internacional || A partir de R$ 85,00 Sábado - 21 | NOVEMBRO 21h30 18 anos',
+   F("Site do Qualistage", "https://qualistage.com.br/evento/437/dino-fonseca"),
+   sessoes=D("21 21:30"), preco="A partir de R$ 85", pmin=85, classif="18 anos", nota=N_QS)
+ev("O Grande Encontro – Leci Brandão, Sandro Luiz, Tião Casemiro e Luan Pureza", "Música", "qualistage",
+   "Tarde que junta o samba de Leci Brandão a três gerações da música de umbanda: o mestre Tião Casemiro, Sandro Luiz e Luan Pureza.",
+   'No dia 22 de novembro de 2026 [...] O Qualistage [...] recebe “O Grande Encontro”, reunindo diferentes gerações e grandes referências da música ligada à cultura afrobrasileira e à Umbanda: Leci Brandão, Sandro Luiz, Tião Casemiro e Luan Pureza. || A partir de R$ 60,00 Domingo - 22 | NOVEMBRO 16h00 18 anos',
+   F("Site do Qualistage", "https://qualistage.com.br/evento/436/sandro-luiz"),
+   sessoes=D("22 16:00"), preco="A partir de R$ 60", pmin=60, classif="18 anos", nota=N_QS)
+
+MULT = "https://teatromultiplan.com.br/"
+ev("Bluey – Diversão em Família", "Infantil|Teatro", "multiplan",
+   "Show oficial da série de animação, numa adaptação para o palco feita para a América Latina. Último fim de semana.",
+   'Bluey - Diversão em Família 07 a 22 de novembro Sexta, Sábado e Domingo às 11h, Sábado e Domingo às 15h, Sábado às 18h [...] O espetáculo faz únicas apresentações de 7 a 22 de novembro, no Teatro Multiplan. [...] adaptação teatral original desenvolvida especialmente para a América Latina. [...] Duração 60 min Classificação etária Livre Ingressos a partir de a partir de R$ 25',
+   F("Site do Teatro Multiplan", MULT + "eventos/bluey-2026/"),
+   sessoes=D("20 11:00", "21 11:00", "21 15:00", "21 18:00", "22 11:00", "22 15:00"), preco="A partir de R$ 25", pmin=25, classif="Livre",
+   nota="O site só dá o preço inicial.")
+ev("Camila Cardoso – Antes e Depois do Plantão", "Teatro", "multiplan",
+   "Apresentação de stand-up, com 90 minutos.",
+   'Camila Cardoso com Ante e Depois do Plantão 23 de novembro Segunda às 20h30 [...] CAMILA CARDOSO – ANTES E DEPOIS DO PLANTÃO [...] Duração 90 min Classificação etária 14 Ingressos a partir de a partir de R$55',
+   F("Site do Teatro Multiplan", MULT + "eventos/camila-cardoso-2026/"),
+   sessoes=D("23 20:30"), preco="A partir de R$ 55", pmin=55, classif="14 anos", nota="O site só dá o preço inicial.")
+ev("Maurício Meirelles – Surto Coletivo", "Teatro", "multiplan",
+   "Apresentação de stand-up, com 90 minutos.",
+   'Maurício Meirelles com Surto Coletivo 25 de novembro Quarta às 20h [...] SURTO COLETIVO | MAURÍCIO MEIRELLES | TEMPORADA 2026 [...] Duração 90 min Classificação etária 14 Ingressos a partir de a partir de R$ 60',
+   F("Site do Teatro Multiplan", MULT + "eventos/mauricio-meirelles-2026/"),
+   sessoes=D("25 20:00"), preco="A partir de R$ 60", pmin=60, classif="14 anos", nota="O site só dá o preço inicial.")
+
+ev("O Clube Romance: Quando, de Carla Madeira", "Livros & Debates", "travbarra",
+   "Encontro do clube de leitura sobre o romance de Carla Madeira, com mediação de Gabriela Campany.",
+   '21/11 . SÁBADO BarraShopping | 13:30 QUANDO Autor(a): Carla Madeira O CLUBE ROMANCE MEDIAÇÃO GABRIELA CAMPANY', TRAV,
+   sessoes=D("21 13:30"), nota=N_TRAV)
+ev("Clube do Livro Trill: As Vacas Não Me Olham Mais na Cara, de Dora Freind", "Livros & Debates", "travbarra",
+   "Encontro do clube de leitura sobre o livro de Dora Freind, com mediação de Rooh.",
+   '22/11 . DOMINGO BarraShopping | 13:00 AS VACAS NÃO ME OLHAM MAIS NA CARA Autor(a): Dora Freind CLUBE DO LIVRO TRILL MEDIAÇÃO: ROOH', TRAV,
+   sessoes=D("22 13:00"), nota=N_TRAV)
+
+# ---------------- ZONA NORTE ----------------
+ev("Debate de lançamento: As Três Mulheres do Alencar", "Livros & Debates", "eduerj",
+   "Gustavo Bernardo debate o seu livro “As três mulheres do Alencar: sementes do fascismo na literatura brasileira”, que sai pela editora da universidade.",
+   'Debate de lançamento do livro “As três mulheres do Alencar: sementes do fascismo na literatura brasileira” | A Editora da Universidade do Estado do Rio de Janeiro (EdUERJ) promove um debate com o autor Gustavo Bernardo no lançamento do seu livro “As três mulheres do Alencar: sementes do fascismo na literatura brasileira” no dia 19 de novembro, às 17h, na livraria da EdUERJ, localizada no térreo do campus Maracanã. || R. São Francisco Xavier, 524, Térreo, Bloco F – Sala T031',
+   F("Agenda do site da Uerj", "https://www.uerj.br/agenda/debate-de-lancamento-do-livro-as-tres-mulheres-do-alencar-sementes-do-fascismo-na-literatura-brasileira/"),
+   sessoes=D("19 17:00"), nota="Lido na ronda feita no computador da coordenação editorial (a nuvem não conseguiu abrir o site). A fonte não informa preço.")
+
+# ---------------- ZONA OESTE ----------------
+ev("Muato – DERÊ: Concerto sobre o Pagode", "Música", "bangu",
+   "Sozinho no palco, com voz, violão de oito cordas, guitarra, pedais de loop e samples, o artista revisita o pagode nascido no subúrbio carioca nos anos 90, entre música, manifesto e poesia.",
+   'Muato - Concerto Sobre o Pagode [...] sáb, 21 de novembro de 2026 20h00 Em “DERÊ - CONCERTO SOBRE O PAGODE”, o premiado artista Muato, apresenta um show que flutua entre a música, o manifesto e a poesia. O artista se expressa através de sua voz, violão de 8 cordas, guitarra, pedais de loop, samples [...] repertório baseado no Pagode, gênero que nasceu no subúrbio carioca nos anos 90. [...] 21/11/2026 Livre || Rua da Fonseca, 240 – Espaço 174 – Bangu – Rio de Janeiro – RJ',
+   F("Site do Teatro Bangu Shopping", "https://teatrobangushopping.com.br/evento/muato-concerto-sobre-o-pagode"),
+   sessoes=D("21 20:00"), classif="Livre", nota="A coleta não trouxe o preço.")
+
+
+# =========== CORREÇÕES DEPOIS DO CONFERENTE (ronda de 19/11) ===========
+def achar(t):
+    c = [e for e in EV if e["titulo"].startswith(t)]; assert len(c) == 1, t; return c[0]
+e = achar("OSB Jovem")
+e.update(preco_texto="", preco_min=None, preco_max=None, nota_redacao="As fontes não trazem o preço deste concerto.")
+e["trecho_fonte"] = 'OSB Jovem | Legado em Harmonia 19 de novembro (quinta-feira) – 19h Theatro Municipal do Rio de Janeiro Anderson Alves , regência Rodrigo Herculano , oboé || Site do Theatro Municipal: No dia 19 de novembro , a Orquestra Sinfônica Brasileira Jovem leva ao palco do Theatro Municipal do Rio de Janeiro o espetáculo Legado em Harmonia . [...] No repertório, obras de Georges Bizet , Ludwig August Lebrun e Piotr Ilitch Tchaikovsky .'
+e = achar("CA7RIEL")
+e.update(preco_texto="R$ 490 (meia R$ 245)", preco_min=245, preco_max=490, classificacao="18 anos", nota_redacao="")
+e["trecho_fonte"] += " || INGRESSOS A PARTIR DE: R$ 245 (meia) R$ 490 (inteira) [...] Classificação Etária 18"
+e = achar("Cartografia de Futuros")
+e.update(areas=["Artes Visuais"], sessoes=[{"data": "2026-11-21", "hora": "16:00"}, {"data": "2026-11-22", "hora": "16:00"}],
+         preco_texto="Grátis (sujeito a lotação)", gratis=True, classificacao="12 anos", nota_redacao="")
+e["trecho_fonte"] += " || 22 de novembro de 2026 Domingo Horário: 16h00 | Duração: 1h Cartografia de Futuros Imaginários | Atividade Casa Aberta || Sábados e domingos Horário: 16h [...] Atividade gratuita, sujeito a lotação [...] Classificação: 12 anos"
+e = achar("Meninas e Mulheres")
+e["nota_redacao"] = "A fonte não informa preço. A página de atividades da casa tem um botão de inscrição que parece ser deste encontro, mas não repete o título nem a data."
+e = achar("Guardar")
+e.update(preco_texto="R$ 10 (meia R$ 5), só na bilheteria; grátis às quartas")
+e["trecho_fonte"] += " || Às quartas-feiras, a entrada é franca para todos os públicos."
+e = achar("O Nome do Bebê")
+e.update(classificacao="12 anos", nota_redacao="A coleta não trouxe o preço.",
+         sinopse="Comédia da dupla francesa Matthieu Delaporte e Alexandre de la Patellière, com Bianca Bin no elenco e direção de Elias Andreato. Curtíssima temporada, até 27 de novembro.")
+e["trecho_fonte"] += " || a comédia O Nome do Bebê, com Bianca Bin e grande elenco [...] da dupla francesa Matthieu Delaporte e Alexandre de la Patellière [...] A direção é de Elias Andreato [...] Classificação etária: 12 anos."
+e = achar("O Mercador de Veneza")
+e.update(classificacao="14 anos", nota_redacao="A coleta não trouxe o preço.",
+         sinopse="A peça de William Shakespeare, com direção de Daniela Stirbulov e Dan Stulbach no papel do agiota Shylock. Dura duas horas. Curta temporada, até 29 de novembro.")
+e["trecho_fonte"] += " || O Mercador de Veneza, do dramaturgo inglês William Shakespeare [...] A peça tem direção de Daniela Stirbulov e é protagonizada por Dan Stulbach que dá vida ao marcante agiota Shylock [...] Duração: 120 minutos [...] Classificação etária: 14 anos."
+e = achar("Atom Pink Floyd"); e["classificacao"] = "16 anos"; e["trecho_fonte"] += " || Classificação etária: 16 anos."
+e = achar("Margaridas"); e["classificacao"] = "10 anos"; e["trecho_fonte"] += " || CLASSIFICAÇÃO ETÁRIA: 10 anos"
+e = achar("Adorável Face"); e["classificacao"] = "Livre"; e["trecho_fonte"] += " || CLASSIFICAÇÃO: Livre"
+for t in ("Sábado Musical com Batuca", "Oficina Da Imaginação", "Clube Akorin"):
+    e = achar(t); e["classificacao"] = "Livre"; e["trecho_fonte"] += " || Classificação: Livre"
+e = achar("Oficina Cliques e Movimento")
+e.update(classificacao="Livre", nota_redacao="A fonte dá dois endereços para a casa: “Avenida Epitácio Pessoa, 2480”, no rodapé do site, e “Praça Benedito Cerqueira, 0 | Lagoa”, no serviço da oficina. Fica o do rodapé, que é o endereço fixo da instituição.")
+e["trecho_fonte"] += " || Entrada gratuita Classificação livre"
+e = achar("ECOS")
+e["sinopse"] = "Coletiva com obras de Antonio Bokel, Hildebranda, Nathan Braga, Omar Salomão, Regina de Paula e Tetê Sá: cerca de vinte trabalhos, entre pinturas, esculturas, serigrafias e vídeos."
+e["trecho_fonte"] += " || Site da galeria: Reunindo vinte trabalhos, entre pinturas, esculturas, serigrafias e vídeos"
+e["nota_redacao"] += " Também divergem no número de obras (vinte no site da galeria, dezenove na ArtRio); vale o site da galeria."
+e = achar("Debate de lançamento: As Três Mulheres")
+e["endereco"] = "Rua São Francisco Xavier, 524 (campus Maracanã), térreo"
+e["trecho_fonte"] = e["trecho_fonte"].split(" || R. São Francisco")[0]
+e["nota_redacao"] += " Sobre o lugar, a fonte só diz “na livraria da EdUERJ, localizada no térreo do campus Maracanã”; o número 524 é o endereço do campus, que aparece em outras páginas do mesmo site."
+e = achar("O Grande Encontro")
+e["sinopse"] = "Tarde que junta o samba de Leci Brandão a diferentes gerações da música de umbanda: o mestre Tião Casemiro, Sandro Luiz e Luan Pureza."
+e = achar("Casa da Mônica"); e["nota_redacao"] = "Fecha no feriado de 20/11."
+e["trecho_fonte"] += " || Biblioteca Parque Estadual Av. Pres. Vargas, 1261 – Centro, Rio de Janeiro – RJ"
+
 for i, e in enumerate(EV, 1):
     e["id"] = f"2026-11-19-{i:03d}"
 pasta = os.path.join(RAIZ, "dados", "edicoes", EDICAO["id"])

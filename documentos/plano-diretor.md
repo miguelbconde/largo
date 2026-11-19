@@ -207,6 +207,10 @@ A coleta mecânica prevista na seção 7 está montada. Um programa comum (`ferr
 - **Ronda no computador:** o mesmo programa, rodado no computador da coordenação editorial, tenta só as fontes que a nuvem não conseguiu ler e gera um arquivo .zip para anexar na conversa. Não instala nada e não lê arquivos do computador.
 - **Sesc:** em espera. O site barra leitores de inteligência artificial; a decisão de coletar ou de pedir a programação ao Sesc é da coordenação editorial.
 - **Como o Claude lê:** nesta forma de trabalho o Claude não abre os sites diretamente; lê o que o coletor guardou.
+- **Peneira:** um segundo programa comum (`ferramentas/coleta/peneirar.py`) separa, do texto recolhido, só os trechos que citam dias da semana da edição. É o que a redação lê; o resto fica de lado.
+- **Primeira ronda no computador (19/11/2026):** das 24 fontes que a nuvem não leu, o computador da coordenação leu 5 (Uerj, Real Gabinete, Anita Schwartz, É Tudo Verdade e Imperator); 6 recusam a visita de qualquer lugar; 7 têm endereço que não existe e 6 têm o certificado de segurança vencido ou trocado, sinal de endereço errado no cadastro. O resumo fica em `dados/coleta/resumo-pc.md` e as 24 fontes estão anotadas no cadastro.
+- **Primeiro cotejo (19/11/2026):** as duas rondas renderam 49 fichas novas para a edição de 19 a 25/11, de 23 fontes, todas com dia, hora e lugar tirados da fonte e passadas pelo conferente. Limites que apareceram: muitos sites não mostram preço nem horário de visitação na página que o coletor alcança; exposições de galeria quase nunca trazem horário; grades diárias de cinema (Grupo Estação, IMS) ficaram de fora; o IMS Rio está fechado para obras. O que a ronda acha fora do eixo Centro–Zona Sul ainda é pouco: é o retrato do cadastro, não da cidade.
+- **Sesc:** o endereço geral do Sesc RJ (`sescrio.org.br`) entrou na mesma lista de espera do endereço de cultura, para o coletor não ler um e pular o outro.
 
 ## 11. Próximos passos
 

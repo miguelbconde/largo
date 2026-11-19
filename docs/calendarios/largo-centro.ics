@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:2026-11-19-013-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261119T220000Z
 DTEND:20261120T000000Z
 SUMMARY:Moraes Musical Moreira
@@ -24,7 +24,7 @@ CATEGORIES:Teatro\,Música
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-013-1@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261120T220000Z
 DTEND:20261121T000000Z
 SUMMARY:Moraes Musical Moreira
@@ -39,7 +39,7 @@ CATEGORIES:Teatro\,Música
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-013-2@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261121T200000Z
 DTEND:20261121T220000Z
 SUMMARY:Moraes Musical Moreira
@@ -54,7 +54,7 @@ CATEGORIES:Teatro\,Música
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-013-3@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261121T230000Z
 DTEND:20261122T010000Z
 SUMMARY:Moraes Musical Moreira
@@ -69,7 +69,7 @@ CATEGORIES:Teatro\,Música
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-013-4@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261122T200000Z
 DTEND:20261122T220000Z
 SUMMARY:Moraes Musical Moreira
@@ -84,7 +84,7 @@ CATEGORIES:Teatro\,Música
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-014-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261120T220000Z
 DTEND:20261121T000000Z
 SUMMARY:Superfície: O Encontro das Marés
@@ -100,7 +100,7 @@ CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-015-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261119T220000Z
 DTEND:20261120T000000Z
 SUMMARY:Festa\, Fé e Luta (Mostra do Impossível)
@@ -117,7 +117,7 @@ CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-016-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261120T210000Z
 DTEND:20261120T230000Z
 SUMMARY:Sortilégios – leitura dramatizada (Mostra do Impossível)
@@ -132,7 +132,7 @@ CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-017-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261120T220000Z
 DTEND:20261121T000000Z
 SUMMARY:Cabeça de Porco – Retratos de um Território (Mostra do Imposs
@@ -150,7 +150,7 @@ CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-018-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261121T210000Z
 DTEND:20261121T230000Z
 SUMMARY:Tudo Entre Nós – leitura dramatizada e roda de conversa
@@ -166,7 +166,7 @@ CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-019-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261121T140000Z
 DTEND:20261121T160000Z
 SUMMARY:Zuzuê Contos Africanos
@@ -181,7 +181,7 @@ CATEGORIES:Infantil\,Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-019-1@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261122T140000Z
 DTEND:20261122T160000Z
 SUMMARY:Zuzuê Contos Africanos
@@ -196,7 +196,7 @@ CATEGORIES:Infantil\,Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-021-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261120T140000Z
 DTEND:20261120T160000Z
 SUMMARY:Visita mediada: Imersão
@@ -210,7 +210,7 @@ CATEGORIES:Artes Visuais
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-022-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261121T130000Z
 DTEND:20261121T150000Z
 SUMMARY:Inside Out – 15 anos
@@ -225,7 +225,7 @@ CATEGORIES:Artes Visuais
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-022-1@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261122T130000Z
 DTEND:20261122T150000Z
 SUMMARY:Inside Out – 15 anos
@@ -240,7 +240,7 @@ CATEGORIES:Artes Visuais
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-024-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261119T210000Z
 DTEND:20261119T230000Z
 SUMMARY:Abertura da exposição “7 Ervas”
@@ -255,7 +255,7 @@ CATEGORIES:Artes Visuais
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-026-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261120T150000Z
 DTEND:20261120T170000Z
 SUMMARY:Samba da Dida Bar
@@ -269,7 +269,7 @@ CATEGORIES:Música
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-027-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261122T130000Z
 DTEND:20261122T150000Z
 SUMMARY:Festival Trançando Cultura do Ayó
@@ -283,7 +283,7 @@ CATEGORIES:Festas & Feiras
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-029-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261121T130000Z
 DTEND:20261121T150000Z
 SUMMARY:Bebês no MAR – exposição Guilherme Kid
@@ -297,7 +297,7 @@ CATEGORIES:Infantil\,Artes Visuais
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-029-1@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261121T140000Z
 DTEND:20261121T160000Z
 SUMMARY:Bebês no MAR – exposição Guilherme Kid
@@ -311,7 +311,7 @@ CATEGORIES:Infantil\,Artes Visuais
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-033-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261121T130000Z
 DTEND:20261121T150000Z
 SUMMARY:Festival Rio Santa – Edição Especial Zumbi dos Palmares
@@ -325,7 +325,7 @@ CATEGORIES:Festas & Feiras
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-034-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261121T170000Z
 DTEND:20261121T190000Z
 SUMMARY:Na capoeira de Carybé
@@ -340,7 +340,7 @@ CATEGORIES:Livros & Debates
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-036-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261120T130000Z
 DTEND:20261120T150000Z
 SUMMARY:12º Cortejo da Tia Ciata
@@ -356,7 +356,7 @@ CATEGORIES:Festas & Feiras\,Música
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-038-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261121T170000Z
 DTEND:20261121T190000Z
 SUMMARY:Encontro com Vanessa Gomes\, autora de “Fora do Lugar”
@@ -371,7 +371,7 @@ CATEGORIES:Livros & Debates
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-039-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261119T180000Z
 DTEND:20261119T200000Z
 SUMMARY:Clube literário infantil
@@ -385,7 +385,7 @@ CATEGORIES:Infantil\,Livros & Debates
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-040-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261125T130000Z
 DTEND:20261125T150000Z
 SUMMARY:Mesa-redonda: O Mundo que se Quer Esconder das Crianças
@@ -400,7 +400,7 @@ CATEGORIES:Livros & Debates
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-042-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261119T160000Z
 DTEND:20261119T180000Z
 SUMMARY:Roda de conversa com Vanessa Gomes sobre “Fora do Lugar”
@@ -416,7 +416,7 @@ CATEGORIES:Livros & Debates
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-090-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261120T110000Z
 DTEND:20261120T130000Z
 SUMMARY:Amanhecer Rio – Festival Cultura e Cuidado
@@ -431,7 +431,7 @@ CATEGORIES:Festas & Feiras\,Música
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-090-1@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261121T110000Z
 DTEND:20261121T130000Z
 SUMMARY:Amanhecer Rio – Festival Cultura e Cuidado
@@ -446,7 +446,7 @@ CATEGORIES:Festas & Feiras\,Música
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-090-2@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261122T110000Z
 DTEND:20261122T130000Z
 SUMMARY:Amanhecer Rio – Festival Cultura e Cuidado
@@ -461,7 +461,7 @@ CATEGORIES:Festas & Feiras\,Música
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-091-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261121T130000Z
 DTEND:20261121T150000Z
 SUMMARY:Rolé Estácio – Berço do Samba
@@ -477,7 +477,7 @@ CATEGORIES:Festas & Feiras\,Música
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-092-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261119T090000Z
 DTEND:20261119T110000Z
 SUMMARY:40 Anos do Monumento a Zumbi
@@ -492,7 +492,7 @@ CATEGORIES:Festas & Feiras
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-092-1@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261120T090000Z
 DTEND:20261120T110000Z
 SUMMARY:40 Anos do Monumento a Zumbi
@@ -507,7 +507,7 @@ CATEGORIES:Festas & Feiras
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-092-2@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261121T090000Z
 DTEND:20261121T110000Z
 SUMMARY:40 Anos do Monumento a Zumbi
@@ -522,7 +522,7 @@ CATEGORIES:Festas & Feiras
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-093-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261121T220000Z
 DTEND:20261122T000000Z
 SUMMARY:Mostra de Cenas e Performances (Mostra do Impossível)
@@ -538,7 +538,7 @@ CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-095-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261120T230000Z
 DTEND:20261121T010000Z
 SUMMARY:Cabaret – Edição Especial Consciência Negra
@@ -553,7 +553,7 @@ CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-104-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261119T220000Z
 DTEND:20261120T000000Z
 SUMMARY:Entre o Sim e o Nunca
@@ -569,7 +569,7 @@ CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-104-1@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261120T220000Z
 DTEND:20261121T000000Z
 SUMMARY:Entre o Sim e o Nunca
@@ -585,7 +585,7 @@ CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-104-2@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261121T220000Z
 DTEND:20261122T000000Z
 SUMMARY:Entre o Sim e o Nunca
@@ -601,7 +601,7 @@ CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-104-3@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261122T200000Z
 DTEND:20261122T220000Z
 SUMMARY:Entre o Sim e o Nunca
@@ -617,7 +617,7 @@ CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-104-4@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261125T220000Z
 DTEND:20261126T000000Z
 SUMMARY:Entre o Sim e o Nunca
@@ -633,7 +633,22 @@ CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-105-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
+DTSTART:20261122T160000Z
+DTEND:20261122T180000Z
+SUMMARY:Música no Museu
+LOCATION:Centro Cultural Banco do Brasil (CCBB)\, Rua Primeiro de Março\
+ , 66 – Centro
+DESCRIPTION:Concertos gratuitos ao meio-dia\; em novembro\, com o RioWind
+ s Festival e o RioHarp Festival.\n\nGrátis · Livre\n\nFonte: https://c
+ cbb.com.br/rio-de-janeiro/programacao/musica-no-museu-2/\nLargo — agen
+ da cultural aberta do Rio
+URL:https://ccbb.com.br/rio-de-janeiro/programacao/musica-no-museu-2/
+CATEGORIES:Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-105-1@largo.rio.br
+DTSTAMP:20261119T082123Z
 DTSTART:20261125T153000Z
 DTEND:20261125T173000Z
 SUMMARY:Música no Museu
@@ -648,7 +663,7 @@ CATEGORIES:Música
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-109-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261121T190000Z
 DTEND:20261121T210000Z
 SUMMARY:Sudi – O Elogio da Surdez
@@ -665,7 +680,7 @@ CATEGORIES:Infantil\,Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-109-1@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261122T190000Z
 DTEND:20261122T210000Z
 SUMMARY:Sudi – O Elogio da Surdez
@@ -682,7 +697,7 @@ CATEGORIES:Infantil\,Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-110-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261121T200000Z
 DTEND:20261121T220000Z
 SUMMARY:Samba do Sacramento
@@ -697,7 +712,7 @@ CATEGORIES:Música
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-111-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261125T203000Z
 DTEND:20261125T223000Z
 SUMMARY:Clube de Leitura CCBB com Raphael Montes
@@ -712,7 +727,7 @@ CATEGORIES:Livros & Debates
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-112-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261119T230000Z
 DTEND:20261120T010000Z
 SUMMARY:Festival Abraço Negro – Ilê Aiyê convida Surdo Um da Manguei
@@ -727,7 +742,7 @@ CATEGORIES:Música
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-113-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261120T230000Z
 DTEND:20261121T010000Z
 SUMMARY:Ajulliacosta – turnê Novo Testamento
@@ -740,7 +755,7 @@ CATEGORIES:Música
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-114-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261122T000000Z
 DTEND:20261122T020000Z
 SUMMARY:Rockeria 14 anos
@@ -753,7 +768,7 @@ CATEGORIES:Música
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-118-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261124T130000Z
 DTEND:20261124T150000Z
 SUMMARY:Seminário Estadual: Por uma Educação Antirracista
@@ -768,7 +783,7 @@ CATEGORIES:Livros & Debates
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-120-0@largo.rio.br
-DTSTAMP:20261119T040257Z
+DTSTAMP:20261119T082123Z
 DTSTART:20261120T130000Z
 DTEND:20261120T150000Z
 SUMMARY:Café com Arte – Novembro Negro\, com Pandro Nobã
@@ -781,5 +796,156 @@ DESCRIPTION:Manhã de café\, pintura e conversa com o artista urbano e a
  nLargo — agenda cultural aberta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
 CATEGORIES:Artes Visuais\,Livros & Debates
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-122-0@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261119T203000Z
+DTEND:20261119T223000Z
+SUMMARY:A retórica de Júlia Lopes de Almeida – Quinta é Cultura
+LOCATION:Academia Brasileira de Letras (ABL)\, Av. Presidente Wilson\, 20
+ 3 – Centro (Castelo)
+DESCRIPTION:Encontro da série Quinta é Cultura dedicado à retórica de
+  Júlia Lopes de Almeida\, com coordenação do acadêmico Godofredo de 
+ Oliveira Neto. A inscrição é feita pelo site da Academia.\n\nPreço n
+ ão informado\n\nFonte: https://academia.org.br/eventos\nLargo — agend
+ a cultural aberta do Rio
+URL:https://academia.org.br/eventos
+CATEGORIES:Livros & Debates
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-123-0@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261124T190000Z
+DTEND:20261124T210000Z
+SUMMARY:A poesia brasileira na Coleção Ciranda da Poesia – ciclo de c
+ onferências
+LOCATION:Academia Brasileira de Letras (ABL)\, Av. Presidente Wilson\, 20
+ 3 – Centro (Castelo)
+DESCRIPTION:Conferência do ciclo sobre a poesia brasileira na Coleção 
+ Ciranda da Poesia\, com coordenação do acadêmico Paulo Henriques Brit
+ to. A inscrição é feita pelo site da Academia.\n\nPreço não informa
+ do\n\nFonte: https://academia.org.br/eventos\nLargo — agenda cultural 
+ aberta do Rio
+URL:https://academia.org.br/eventos
+CATEGORIES:Livros & Debates
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-124-0@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261120T003000Z
+DTEND:20261120T023000Z
+SUMMARY:Andrezão do Cacique
+LOCATION:Carioca da Gema\, Av. Mem de Sá\, 79 – Lapa
+DESCRIPTION:Noite de samba em homenagem aos compositores que se reuniam e
+ m volta da tamarineira\, como Arlindo Cruz\, Sombrinha\, Jorge Aragão\,
+  Zeca Pagodinho\, Almir Guineto e Luiz Carlos da Vila\, com sucessos do 
+ Fundo de Quintal.\n\nR$ 35 (véspera de feriado)\n\nFonte: https://www.b
+ arcariocadagema.com.br/shows\nLargo — agenda cultural aberta do Rio
+URL:https://www.barcariocadagema.com.br/shows
+CATEGORIES:Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-125-0@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261120T230000Z
+DTEND:20261121T010000Z
+SUMMARY:Pedro Menezes
+LOCATION:Carioca da Gema\, Av. Mem de Sá\, 79 – Lapa
+DESCRIPTION:Show de samba tradicional com toque contemporâneo\, na Lapa.
+ \n\nR$ 35\n\nFonte: https://www.barcariocadagema.com.br/shows\nLargo —
+  agenda cultural aberta do Rio
+URL:https://www.barcariocadagema.com.br/shows
+CATEGORIES:Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-126-0@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261121T233000Z
+DTEND:20261122T013000Z
+SUMMARY:Leonardo Bessa
+LOCATION:Carioca da Gema\, Av. Mem de Sá\, 79 – Lapa
+DESCRIPTION:O cantor e compositor do Salgueiro passa por samba de raiz\, 
+ pagode e sambas-enredo\, com histórias entre as músicas.\n\nR$ 35\n\nF
+ onte: https://www.barcariocadagema.com.br/shows\nLargo — agenda cultur
+ al aberta do Rio
+URL:https://www.barcariocadagema.com.br/shows
+CATEGORIES:Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-127-0@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261123T223000Z
+DTEND:20261124T003000Z
+SUMMARY:Três a Varejo + 1
+LOCATION:Carioca da Gema\, Av. Mem de Sá\, 79 – Lapa
+DESCRIPTION:Show para dançar que vai do samba ao maxixe\, ao ijexá\, ao
+  xote\, ao baião e ao frevo.\n\nPreço não informado\n\nATENÇÃO: inf
+ ormação a confirmar na fonte.\n\nFonte: https://www.barcariocadagema.c
+ om.br/shows\nLargo — agenda cultural aberta do Rio
+URL:https://www.barcariocadagema.com.br/shows
+CATEGORIES:Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-128-0@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261119T220000Z
+DTEND:20261120T000000Z
+SUMMARY:Guilherme Pozzi – Série Piano na Sala
+LOCATION:Sala Cecília Meireles\, Largo da Lapa\, 47 – Lapa
+DESCRIPTION:Recital do pianista com obras de Schumann\, Beethoven\, Chopi
+ n e Prokofiev\, da Arabeske à Sonata nº 7\, passando pela “Appassion
+ ata” e pela Balada nº 4.\n\nR$ 40\n\nFonte: https://salaceciliameirel
+ es.rj.gov.br/programacao/guilherme-pozzi/\nLargo — agenda cultural abe
+ rta do Rio
+URL:https://salaceciliameireles.rj.gov.br/programacao/guilherme-pozzi/
+CATEGORIES:Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-129-0@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261119T220000Z
+DTEND:20261120T000000Z
+SUMMARY:OSB Jovem – Legado em Harmonia
+LOCATION:Theatro Municipal do Rio de Janeiro\, Praça Floriano\, s/nº 
+ – Centro (Cinelândia)
+DESCRIPTION:A Orquestra Sinfônica Brasileira Jovem toca Bizet\, Lebrun e
+  Tchaikovsky\, com regência de Anderson Alves e o oboísta Rodrigo Herc
+ ulano como solista.\n\nPreço não informado\n\nFonte: https://www.osb.c
+ om.br/osb-jovem/\nLargo — agenda cultural aberta do Rio
+URL:https://www.osb.com.br/osb-jovem/
+CATEGORIES:Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-130-0@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261122T140000Z
+DTEND:20261122T160000Z
+SUMMARY:Coral Brasil Ensemble – UFRJ (Música no Assyrio)
+LOCATION:Theatro Municipal do Rio de Janeiro – Salão Assyrio\, Praça 
+ Floriano\, s/nº – Centro (Cinelândia)
+DESCRIPTION:O coral da UFRJ\, voltado à música brasileira contemporâne
+ a\, canta com André Santos e Claudia Feitosa ao piano\, sob regência d
+ e Maria José Chevitarese.\n\nPreço não informado\n\nFonte: https://th
+ eatromunicipal.rj.gov.br/tmrj-recebe-o-coral-brasil-ensemble-ufrj-dia-22
+ -11-as-11h/\nLargo — agenda cultural aberta do Rio
+URL:https://theatromunicipal.rj.gov.br/tmrj-recebe-o-coral-brasil-ensembl
+ e-ufrj-dia-22-11-as-11h/
+CATEGORIES:Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-134-0@largo.rio.br
+DTSTAMP:20261119T082123Z
+DTSTART:20261123T200000Z
+DTEND:20261123T220000Z
+SUMMARY:Lançamento: Migrantes da Descolonização
+LOCATION:Livraria da Travessa – Centro\, Rua Graça Aranha\, 296 – Ce
+ ntro
+DESCRIPTION:Isabel de Souza Lima Junqueira Barreto autografa o livro sobr
+ e portugueses e luso-angolanos que vieram para o Brasil entre 1974 e 197
+ 7\, depois da guerra em Angola.\n\nPreço não informado\n\nFonte: https
+ ://www.travessa.com.br/eventos\nLargo — agenda cultural aberta do Rio
+URL:https://www.travessa.com.br/eventos
+CATEGORIES:Livros & Debates
 END:VEVENT
 END:VCALENDAR

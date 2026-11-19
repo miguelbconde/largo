@@ -11,6 +11,7 @@ D={
  (i("Poexistência"),"Sarau de microfone aberto numa biblioteca pública da Tijuca: é chegar e ler."),
  (i("KD O Show"),"Humor feito com a plateia em Pedra de Guaratiba, a preço popular."),
  (i("Festival Abraço Negro"),"O Ilê Aiyê recebe o Surdo Um da Mangueira na véspera do feriado."),
+ (i("Guilherme Pozzi"),"Schumann, Beethoven, Chopin e Prokofiev ao piano, a R$ 40, numa sala pública da Lapa."),
 ],
 "2026-11-20":[
  (i("12º Cortejo da Tia Ciata"),"Uma Tia Ciata de cinco metros puxa afoxés, maracatus e sambas pelas ruas da Pequena África. De graça e na rua."),
@@ -36,10 +37,15 @@ D={
  (i("Equina"),"Dança sobre o cuidado entre gente e cavalos, em temporada só até o dia 29."),
  (i("Domingo recreativo"),"Brincadeira de graça para as crianças de Santa Cruz, todo domingo."),
 ],
+"2026-11-23":[
+ (i("Lançamento: Migrantes da Descolonização"),"Um livro sobre os portugueses e luso-angolanos que chegaram ao Brasil depois de 1974, com a autora, no Centro."),
+ (i("Lançamento: Música em Pauta"),"Crítica de música reunida em livro, com a autora, numa segunda à noite em Ipanema."),
+],
 "2026-11-24":[
  (i("O Último Dia da Minha Vida"),"Penúltima sessão do drama de humor ácido, em teatro municipal a no máximo R$ 20."),
  (i("Priscilla em 2L"),"Stand-up e palhaçaria sobre uma transição de gênero depois dos 30, na Semana da Comédia."),
  (i("Alice no País das Maravilhas"),"Um musical em Pedra de Guaratiba, numa terça à noite."),
+ (i("A poesia brasileira na Coleção Ciranda"),"Uma tarde de conferência sobre poesia brasileira na Academia, com Paulo Henriques Britto na coordenação."),
  (i("Seminário Estadual"),"Dia de debates gratuitos sobre educação antirracista no Muhcab. A prefeitura avisa que pode haver mudança: confirme antes de ir."),
 ],
 "2026-11-25":[
