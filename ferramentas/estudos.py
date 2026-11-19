@@ -6,7 +6,7 @@ em docs/estudo-<letra>/index.html. Não altera o site principal.
 
 ATENÇÃO: os estudos C, D, E e F foram gerados quando o site principal era o Estudo B.
 Em 19/11/2026 o Estudo F virou o site. As prévias em docs/estudo-* ficam como registro;
-rodar este script de novo as refaria sobre o site atual e mudaria o resultado.
+por isso estão marcadas como arquivadas e este script não as refaz.
 
 Uso: python3 ferramentas/estudos.py
 """
@@ -17,6 +17,7 @@ RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ESTUDOS = {
     # Estudo C: paleta da paisagem + sol. Laranja só em "A boa", sempre como forma, nunca como letra.
     "c": {
+        "arquivado": True,
         "nome": "Estudo C",
         "tema": ("#f8f4ec", "#1a1918"),
         "css": """
@@ -28,6 +29,7 @@ ESTUDOS = {
     },
     # Estudo E: meio-termo. Cabeçalho em faixa azul com marca em areia e ponto laranja; página em areia como no C.
     "e": {
+        "arquivado": True,
         "nome": "Estudo E",
         "tema": ("#17437d", "#123a6e"),
         "css": """
@@ -46,6 +48,7 @@ header.topo .edicao{margin-bottom:0}
     },
     # Estudo F: dois modos com botão. Claro = areia + sol, com azul no que está selecionado. Escuro = mar no fundo.
     "f": {
+        "arquivado": True,
         "nome": "Estudo F",
         "tema": ("#f8f4ec", "#143b70"),
         "botao": True,
@@ -76,6 +79,7 @@ header.topo .edicao{margin-bottom:0}
     },
     # Estudo D: mar como fundo, texto claro, laranja como cor que organiza.
     "d": {
+        "arquivado": True,
         "nome": "Estudo D",
         "tema": ("#17437d", "#0f2444"),
         "css": """
@@ -99,6 +103,37 @@ header.topo .edicao{margin-bottom:0}
     },
 }
 
+# ---- Estudos G (19/11/2026): sinuosidade. Partem do site já com o Estudo F aplicado. ----
+# Linha sinuosa de desenho próprio (nem a onda de Copacabana, nem perfil de morro reconhecível).
+# O desenho se repete a cada 400 px e emenda sem costura.
+ONDA = ("url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='24' viewBox='0 0 400 24'%3E"
+        "%3Cpath d='M0 14 C30 14 45 4 80 5 S130 17 165 16 S215 6 250 9 S300 20 335 17 S380 14 400 14' fill='none' stroke='black' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E\")")
+TRACO = ("url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 100' preserveAspectRatio='none'%3E"
+         "%3Cpath d='M5 2 C9 18 1 34 5 50 S9 82 5 98' fill='none' stroke='black' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E\")")
+G1 = """
+:root,:root[data-tema=claro]{ --onda:#1b4e8f; }
+@media (prefers-color-scheme: dark){ :root{ --onda:#8fb4e6; } }
+:root[data-tema=claro]{ --onda:#1b4e8f; }
+:root[data-tema=escuro]{ --onda:#8fb4e6; }
+header.topo{border-bottom:none;position:relative;padding-bottom:26px}
+h2.secao,section.bloco{border-top:none;position:relative;padding-top:38px}
+header.topo::after,h2.secao::before,section.bloco::before{content:"";position:absolute;left:0;right:0;height:24px;background:var(--onda);
+  -webkit-mask:ONDA repeat-x left center/400px 24px;mask:ONDA repeat-x left center/400px 24px}
+header.topo::after{bottom:0}
+h2.secao::before,section.bloco::before{top:2px}
+""".replace("ONDA", ONDA)
+G2 = G1 + """
+.dia[aria-pressed=true]{border-radius:58% 42% 50% 50% / 46% 56% 44% 54%;padding:8px 10px;min-width:62px}
+"""
+G3 = G2 + """
+#destaques .ev{border-left:none;position:relative;padding-left:26px;border-radius:26px 14px 22px 12px}
+#destaques .ev::before{content:"";position:absolute;left:9px;top:12px;bottom:12px;width:10px;background:var(--sol);
+  -webkit-mask:TRACO no-repeat center/100% 100%;mask:TRACO no-repeat center/100% 100%}
+.qb::before{width:.5em;height:.44em;border-radius:58% 42% 50% 50% / 46% 56% 44% 54%}
+""".replace("TRACO", TRACO)
+for _l, _n, _c in [("g1", "Estudo G1", G1), ("g2", "Estudo G2", G2), ("g3", "Estudo G3", G3)]:
+    ESTUDOS[_l] = {"nome": _n, "tema": ("#f8f4ec", "#143b70"), "css": _c}
+
 # A escolha de modo fica guardada só no aparelho da pessoa. Sem escolha, vale a configuração do aparelho.
 TEMA_CEDO = """(function(){try{var m=localStorage.getItem('largo:tema');if(m==='claro'||m==='escuro')document.documentElement.dataset.tema=m}catch(e){}})();"""
 TEMA_BOTAO = """(function(){
@@ -118,6 +153,8 @@ matchMedia('(prefers-color-scheme: dark)').addEventListener('change',pinta); pin
 def main():
     base = open(os.path.join(RAIZ, "docs", "index.html"), encoding="utf-8").read()
     for letra, e in ESTUDOS.items():
+        if e.get("arquivado"):
+            continue
         html = base
         html = re.sub(r"<title>(Estudo \w+ · )?", "<title>%s · " % e["nome"], html, count=1)
         claro, escuro = e["tema"]

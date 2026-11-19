@@ -275,6 +275,13 @@ O que os guias de uso de cor dizem, e vale como regra: azul e laranja são cores
 
 **Azul do modo escuro (decidido em 19/11/2026).** A coordenação editorial perguntou se o azul do modo escuro poderia ficar um pouco mais claro. Três tons medidos (texto / secundário / laranja / etiqueta verde): `#143b70`, o aplicado, 10,4 / 7,6 / 6,3 / 6,1; `#17437d` 9,2 / 6,7 / 5,6 / 5,4; `#1b4e8f` 7,8 / 5,6 / 4,7 / 4,5. O terceiro fica no limite mínimo de 4,5:1 para laranja e verde. Decisão: fica o `#143b70`, o aplicado.
 
+**Estudos G (19/11/2026): sinuosidade.** Pergunta da coordenação editorial: como dizer "Rio de Janeiro" com mais força, com curvas que lembrem Burle Marx, a linha das montanhas ou o mar. Critérios combinados: a curva aparece poucas vezes por tela e sempre com função; nada de linha ondulada entre cada evento (vira ruído); nada de perfil de morro reconhecível nem da onda de Copacabana (ver seções 2.4 e 3); desenho próprio. Três prévias sobre o site atual, em `docs/estudo-g1`, `g2` e `g3`:
+- **G1:** uma linha sinuosa azul no lugar dos fios duplos (sob o cabeçalho, antes de "Toda a programação" e entre os blocos finais). O desenho é irregular, para ser lido como mar ou como serra.
+- **G2:** G1 mais o dia selecionado em forma orgânica, como um seixo.
+- **G3:** G2 mais a barra laranja de "A boa" em traço curvo, caixas dos destaques com cantos desiguais e ponto de "A boa" orgânico.
+
+Aguardam avaliação. Ressalva registrada: o que mais diz "Rio" tende a ser a marca, ainda por desenhar; a mesma curva pode nascer nela.
+
 **Passos seguintes, quando for a hora:**
 1. Dois ou três estudos da mesma tela (o dia de hoje, no celular), lado a lado.
 2. Medir contraste e testar com letra ampliada e leitor de tela.
