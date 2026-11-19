@@ -33,7 +33,7 @@ CINEMAS = {
     "1519": ("Ponto Cine", "Estrada do Camboatá, 2.300", "Guadalupe", "Zona Norte", ""),
 }
 CIDADE_INGRESSO = "2"  # Rio de Janeiro
-SYMPLA_PAGINAS = 60
+SYMPLA_PAGINAS = 100
 
 
 def baixar(url, limite=5_000_000):
