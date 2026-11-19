@@ -15,29 +15,19 @@ AGENTE = "Mozilla/5.0 (compatible; LargoBot/0.1; agenda cultural aberta do Rio; 
 SAIDA = os.environ.get("SAIDA", "saida-plataformas")
 PAUSA = 3
 
-ALVOS = {
+ALVOS = {  # segunda rodada
     "sympla": [
-        "https://www.sympla.com.br/robots.txt",
-        "https://www.sympla.com.br/eventos/rio-de-janeiro-rj",
-        "https://www.sympla.com.br/eventos/rio-de-janeiro-rj/teatro-espetaculo",
+        "https://discovery-next.svc.sympla.com.br/_next/static/chunks/app/eventos/page-14dc5065956e4075.js",
+        "https://www.sympla.com.br/eventos/rio-de-janeiro-rj?page=2",
     ],
     "ingresso": [
-        "https://www.ingresso.com/robots.txt",
-        "https://www.ingresso.com/?city=rio-de-janeiro",
-        "https://api-content.ingresso.com/v0/states",
-        "https://api-content.ingresso.com/v0/theaters/city/2?partnership=home",
-        "https://api-content.ingresso.com/v0/templates/nowplaying/2?partnership=home",
-        "https://api-content.ingresso.com/v0/events/city/2?partnership=home",
-    ],
-    "ticketmaster": [
-        "https://www.ticketmaster.com.br/robots.txt",
-        "https://www.ticketmaster.com.br/",
-        "https://developer.ticketmaster.com/support/terms-of-use/",
+        "https://api-content.ingresso.com/v0/sessions/city/2/theater/34?partnership=home",
+        "https://api-content.ingresso.com/v0/sessions/city/2/theater/506?partnership=home",
+        "https://api-content.ingresso.com/v0/sessions/city/2/theater/728?partnership=home",
     ],
     "eventim": [
         "https://www.eventim.com.br/robots.txt",
         "https://www.eventim.com.br/",
-        "https://www.eventim.com.br/city/rio-de-janeiro-1361/",
     ],
 }
 
@@ -47,7 +37,7 @@ def baixar(url, limite=3_000_000):
         "User-Agent": AGENTE, "Accept": "text/html,application/json;q=0.9,*/*;q=0.8",
         "Accept-Language": "pt-BR,pt;q=0.9"})
     try:
-        with urllib.request.urlopen(req, timeout=30, context=ssl.create_default_context()) as r:
+        with urllib.request.urlopen(req, timeout=60, context=ssl.create_default_context()) as r:
             corpo = r.read(limite)
             return r.status, r.geturl(), r.headers.get("Content-Type", ""), corpo.decode(r.headers.get_content_charset() or "utf-8", "replace")
     except urllib.error.HTTPError as e:
