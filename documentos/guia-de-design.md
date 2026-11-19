@@ -1,5 +1,5 @@
 # Guia de design — Largo
-versão 1.0 · 19/11/2026 · **Estudo F aplicado ao site principal: modo claro (areia, mar e sol) e modo escuro (mar no fundo), com botão**
+versão 1.1 · 19/11/2026 · **Site: Estudo F (modo claro e modo escuro, com botão) mais linha sinuosa e dia selecionado em forma orgânica (G1)**
 
 Este guia orienta qualquer trabalho futuro na aparência do site. Ele registra de onde vem a linguagem visual, o que aproveitamos de cada referência e o que fica de fora. Deve ser lido antes de qualquer mudança de layout.
 
@@ -280,7 +280,12 @@ O que os guias de uso de cor dizem, e vale como regra: azul e laranja são cores
 - **G2:** G1 mais o dia selecionado em forma orgânica, como um seixo.
 - **G3:** G2 mais a barra laranja de "A boa" em traço curvo, caixas dos destaques com cantos desiguais e ponto de "A boa" orgânico.
 
-Aguardam avaliação. Ressalva registrada: o que mais diz "Rio" tende a ser a marca, ainda por desenhar; a mesma curva pode nascer nela.
+**Decisão de 19/11/2026.** Fica o G1, mais o dia selecionado em forma orgânica **mais marcada** que a do G2. Aplicado ao site (`ferramentas/modelo.html`):
+- Linha sinuosa azul (`#1b4e8f` no claro, `#8fb4e6` no escuro) no lugar dos fios duplos.
+- Dia selecionado como seixo: mancha de contorno irregular na cor de seleção, desenhada atrás do texto, que se estica para servir também ao botão "Em cartaz". O contorno de foco do teclado continua visível.
+- O G3 (barra curva e cantos desiguais) ficou de fora.
+
+Ressalva registrada: o que mais diz "Rio" tende a ser a marca, ainda por desenhar; a mesma curva pode nascer nela.
 
 **Passos seguintes, quando for a hora:**
 1. Dois ou três estudos da mesma tela (o dia de hoje, no celular), lado a lado.

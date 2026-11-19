@@ -20,7 +20,7 @@
   --papel:#f8f4ec; --papel2:#eee7d9; --tinta:#2a2623; --tinta2:#5f574e; --linha:#dbd2c1;
   --acento:#1b4e8f; --acento-suave:#dfe7f2; --gratis:#1d5a3c; --gratis-suave:#1d5a3c;
   --popular:#75461f; --popular-suave:#eddcc0; --alerta:#8a4b12; --sobre-cor:#f8f4ec;
-  --sol:#d96c14; --sel:#1b4e8f; --sel-texto:#f8f4ec; --pop-borda:transparent;
+  --sol:#d96c14; --sel:#1b4e8f; --sel-texto:#f8f4ec; --pop-borda:transparent; --onda:#1b4e8f;
   --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
   --sans:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   --raio:14px;
@@ -29,16 +29,16 @@
   :root{ --papel:#143b70; --papel2:#0f2e59; --tinta:#fbf7ee; --tinta2:#c9d6ea; --linha:#3a629e;
   --acento:#ffb469; --acento-suave:#0f2e59; --gratis:#86cfa3; --gratis-suave:#86cfa3;
   --popular:#fbf7ee; --popular-suave:transparent; --alerta:#ffcf9e; --sobre-cor:#0d2748;
-  --sol:#ffb469; --sel:#ffb469; --sel-texto:#0d2748; --pop-borda:#fbf7ee; }
+  --sol:#ffb469; --sel:#ffb469; --sel-texto:#0d2748; --pop-borda:#fbf7ee; --onda:#8fb4e6; }
 }
 :root[data-tema=claro]{ --papel:#f8f4ec; --papel2:#eee7d9; --tinta:#2a2623; --tinta2:#5f574e; --linha:#dbd2c1;
   --acento:#1b4e8f; --acento-suave:#dfe7f2; --gratis:#1d5a3c; --gratis-suave:#1d5a3c;
   --popular:#75461f; --popular-suave:#eddcc0; --alerta:#8a4b12; --sobre-cor:#f8f4ec;
-  --sol:#d96c14; --sel:#1b4e8f; --sel-texto:#f8f4ec; --pop-borda:transparent; }
+  --sol:#d96c14; --sel:#1b4e8f; --sel-texto:#f8f4ec; --pop-borda:transparent; --onda:#1b4e8f; }
 :root[data-tema=escuro]{ --papel:#143b70; --papel2:#0f2e59; --tinta:#fbf7ee; --tinta2:#c9d6ea; --linha:#3a629e;
   --acento:#ffb469; --acento-suave:#0f2e59; --gratis:#86cfa3; --gratis-suave:#86cfa3;
   --popular:#fbf7ee; --popular-suave:transparent; --alerta:#ffcf9e; --sobre-cor:#0d2748;
-  --sol:#ffb469; --sel:#ffb469; --sel-texto:#0d2748; --pop-borda:#fbf7ee; }
+  --sol:#ffb469; --sel:#ffb469; --sel-texto:#0d2748; --pop-borda:#fbf7ee; --onda:#8fb4e6; }
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--papel);color:var(--tinta);font:16px/1.5 var(--sans);}
@@ -140,6 +140,19 @@ footer p{margin:6px 0}
 .qb::before{content:"";display:inline-block;width:.42em;height:.42em;border-radius:50%;background:var(--sol);margin-right:.32em;vertical-align:.12em}
 .controles{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
 #tema{font:600 12px var(--sans);border:1px solid var(--tinta2);background:transparent;color:var(--tinta);padding:4px 10px;border-radius:999px;cursor:pointer;min-height:26px}
+/* Sinuosidade (Estudo G1, 19/11/2026): uma linha de desenho próprio no lugar dos fios duplos.
+   Lê-se como mar ou como serra; não é a onda de Copacabana nem um morro reconhecível. Repete a cada 400 px. */
+header.topo{border-bottom:none;position:relative;padding-bottom:26px}
+h2.secao,section.bloco{border-top:none;position:relative;padding-top:38px}
+header.topo::after,h2.secao::before,section.bloco::before{content:"";position:absolute;left:0;right:0;height:24px;background:var(--onda);
+  -webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='24' viewBox='0 0 400 24'%3E%3Cpath d='M0 14 C30 14 45 4 80 5 S130 17 165 16 S215 6 250 9 S300 20 335 17 S380 14 400 14' fill='none' stroke='black' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E") repeat-x left center/400px 24px;mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='24' viewBox='0 0 400 24'%3E%3Cpath d='M0 14 C30 14 45 4 80 5 S130 17 165 16 S215 6 250 9 S300 20 335 17 S380 14 400 14' fill='none' stroke='black' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E") repeat-x left center/400px 24px}
+header.topo::after{bottom:0}
+h2.secao::before,section.bloco::before{top:2px}
+/* o dia selecionado é uma forma orgânica (um seixo), desenhada atrás do texto para não cortar o contorno de foco */
+.trilho{padding:8px 4px 12px}
+.dia[aria-pressed=true]{background:transparent;border-color:transparent;position:relative;z-index:0}
+.dia[aria-pressed=true]::before{content:"";position:absolute;inset:-6px -5px;z-index:-1;background:var(--sel);
+  -webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpath d='M50 3 C70 -1 94 8 97 32 C99 50 89 58 92 76 C95 93 76 100 56 97 C40 95 30 101 15 92 C1 83 7 66 4 50 C1 33 -1 15 15 7 C27 1 38 5 50 3 Z'/%3E%3C/svg%3E") no-repeat center/100% 100%;mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpath d='M50 3 C70 -1 94 8 97 32 C99 50 89 58 92 76 C95 93 76 100 56 97 C40 95 30 101 15 92 C1 83 7 66 4 50 C1 33 -1 15 15 7 C27 1 38 5 50 3 Z'/%3E%3C/svg%3E") no-repeat center/100% 100%}
 </style>
 </head>
 <body>
