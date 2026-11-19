@@ -78,12 +78,11 @@
 - **20/11**: 12º Cortejo da Tia Ciata; Festival Terreiro 2026 – Dia da Consciência Negra; A Menina Dança; Cabeça de Porco – Retratos de um Território (Mostra do Impossível); Orquestra Agogô Carioca; Quintal do Renatin
 - **21/11**: Rolé Estácio – Berço do Samba; Baú da Dona Ivone Lara, com Bruno Castro e Áurea Martins; A Cura da Terra – Pequenas Revoluções; Baile Charme do Projeto Black Music Soul; Fora do Quadro; FIPAZO – Festival de Pole Dance, Aéreos e Danças da Zona Oeste
 - **22/11**: Amanhecer Rio – Festival Cultura e Cuidado; Mensageiras da Cultura – 50 anos da Kotekitai; Quintal; Festival Quem Dança é Mais Feliz; Equina; Domingo recreativo para crianças
-- **24/11**: O Último Dia da Minha Vida; Priscilla em 2L em A Cara da Mãe e o P@u do Pai; Alice no País das Maravilhas: O Despertar da União – O Musical
+- **24/11**: O Último Dia da Minha Vida; Priscilla em 2L em A Cara da Mãe e o P@u do Pai; Alice no País das Maravilhas: O Despertar da União – O Musical; Seminário Estadual: Por uma Educação Antirracista
 - **25/11**: Rap & Repente – Artes do Improviso; Amanda Mendonça canta Djavan; Mesa-redonda: O Mundo que se Quer Esconder das Crianças; O Último Dia da Minha Vida
 
 Regras de curadoria:
-- ⚠️ 24/11 — Só 1 área(s); o dia oferecia 2
-- ⚠️ 24/11 — Só 1 de 3 destaques grátis ou a preço popular
+- Todas as regras cumpridas.
 
 ## Notas de redação
 
