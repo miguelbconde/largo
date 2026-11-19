@@ -1,14 +1,14 @@
 # Ronda das fontes — resumo
 
-Feita em 2026-11-19 08:43 UTC, em 153 segundos, no serviço de automação do GitHub.
+Feita em 2026-11-19 18:40 UTC, em 196 segundos, no serviço de automação do GitHub.
 O texto recolhido dos sites não entra na linha principal do repositório nem no site: fica num ramo temporário (coleta-bruta), substituído a cada ronda, só para a redação das fichas.
 
 ## Situação
 
-- coletada: **54**
-- não respondeu: **15**
-- coletada, mas sem datas à vista: **14**
-- recusou a visita: **6**
+- coletada: **53**
+- não respondeu: **16**
+- coletada, mas sem datas à vista: **13**
+- recusou a visita: **7**
 - em espera: **2**
 
 ## Fonte a fonte
@@ -20,7 +20,7 @@ O texto recolhido dos sites não entra na linha principal do repositório nem no
 | Anita Schwartz Galeria de Arte | coletada | feed (1 itens), texto de 12 página(s) |
 | Arquivo Nacional | coletada | texto de 12 página(s) |
 | ArtRio | coletada | texto de 12 página(s) |
-| Biblioteca Parque Estadual; Bibliotecas Parque de Manguinhos e Rocinha | coletada | feed (10 itens), texto de 5 página(s) |
+| Biblioteca Parque Estadual; Bibliotecas Parque de Manguinhos e Rocinha | coletada | feed (10 itens), texto de 7 página(s) |
 | CCBB Rio | coletada | texto de 12 página(s) |
 | Carioca da Gema | coletada | feed (20 itens), texto de 2 página(s) |
 | Carpintaria (Fortes D'Aloia & Gabriel) | coletada | texto de 9 página(s) |
@@ -33,12 +33,12 @@ O texto recolhido dos sites não entra na linha principal do repositório nem no
 | Circo Crescer e Viver | coletada | feed (8 itens), texto de 8 página(s) |
 | D-Edge Rio | coletada | feed (3 itens), texto de 1 página(s) |
 | EAV Parque Lage | coletada | texto de 12 página(s) |
-| EcoVilla Ri Happy | coletada | texto de 3 página(s) |
+| EcoVilla Ri Happy | coletada | texto de 2 página(s) |
 | Espaço Hall | coletada | feed (1 itens), texto de 2 página(s) |
 | Farmasi Arena | coletada | texto de 5 página(s) |
 | Fundição Progresso | coletada | texto de 13 página(s) |
 | Futuros – Arte e Tecnologia (Oi Futuro) | coletada | texto de 12 página(s) |
-| Fórum de Ciência e Cultura da UFRJ | coletada | feed (3 itens), texto de 12 página(s) |
+| Fórum de Ciência e Cultura da UFRJ | coletada | feed (1 itens), texto de 12 página(s) |
 | Galeria Athena | coletada | texto de 3 página(s) |
 | Grupo Estação (Botafogo, Gávea, Rio) | coletada | feed (7 itens), texto de 14 página(s) |
 | IMS Rio (Instituto Moreira Salles) | coletada | feed (5 itens), calendário WordPress (40 eventos), texto de 14 página(s) |
@@ -55,12 +55,11 @@ O texto recolhido dos sites não entra na linha principal do repositório nem no
 | Orquestra Sinfônica Brasileira (OSB) | coletada | texto de 9 página(s) |
 | Pinakotheke Cultural | coletada | texto de 14 página(s) |
 | Portas Vilaseca Galeria | coletada | texto de 6 página(s) |
-| Qualistage | coletada | texto de 11 página(s) |
-| Real Gabinete Português de Leitura | coletada | texto de 12 página(s) |
+| Qualistage | coletada | texto de 10 página(s) |
 | Rio Scenarium | coletada | texto de 2 página(s) |
 | Sala Cecília Meireles | coletada | texto de 12 página(s) |
 | Teatro Bangu Shopping | coletada | texto de 13 página(s) |
-| Teatro Casa Grande | coletada | texto de 7 página(s) |
+| Teatro Casa Grande | coletada | texto de 8 página(s) |
 | Teatro Multiplan | coletada | texto de 10 página(s) |
 | Teatro Poeira & Poeirinha | coletada | texto de 4 página(s) |
 | Teatro Riachuelo Rio | coletada | texto de 2 página(s) |
@@ -78,7 +77,6 @@ O texto recolhido dos sites não entra na linha principal do repositório nem no
 | Danielian Galeria | coletada, mas sem datas à vista (a programação pode ser carregada depois) | texto de 2 página(s) |
 | Festival do Rio | coletada, mas sem datas à vista (a programação pode ser carregada depois) | texto de 1 página(s) |
 | Galpão Bela Maré / Observatório de Favelas | coletada, mas sem datas à vista (a programação pode ser carregada depois) | texto de 4 página(s) |
-| Livraria Blooks | coletada, mas sem datas à vista (a programação pode ser carregada depois) | texto de 1 página(s) |
 | Marina da Glória | coletada, mas sem datas à vista (a programação pode ser carregada depois) | texto de 1 página(s) |
 | Museu Villa-Lobos | coletada, mas sem datas à vista (a programação pode ser carregada depois) | texto de 4 página(s) |
 | Museu da Imagem e do Som (MIS RJ) | coletada, mas sem datas à vista (a programação pode ser carregada depois) | texto de 1 página(s) |
@@ -100,8 +98,10 @@ O texto recolhido dos sites não entra na linha principal do repositório nem no
 | É Tudo Verdade | não respondeu: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)> |  |
 | Imperator (Centro Cultural João Nogueira) | não respondeu: URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1011)> |  |
 | Centro Cultural da UERJ (Teatro Odylo Costa Filho e outros) | não respondeu: URLError: <urlopen error timed out> |  |
+| Real Gabinete Português de Leitura | não respondeu: URLError: <urlopen error timed out> |  |
 | Biblioteca Nacional | recusou a visita (código 403) |  |
 | Cineclube Macunaíma (ABI) | recusou a visita (código 403) |  |
+| Livraria Blooks | recusou a visita (código 403) |  |
 | Solar de Botafogo | recusou a visita (código 403) |  |
 | Fundação Casa de Rui Barbosa | recusou a visita (código 404) |  |
 | Teatro João Caetano; Teatro Glaucio Gill; Teatro Armando Gonzaga; Teat | recusou a visita (código 503) |  |

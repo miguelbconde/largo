@@ -1,7 +1,7 @@
 {
  "origem": "nuvem",
- "feito_em": "2026-11-19 08:43 UTC",
- "segundos": 153,
+ "feito_em": "2026-11-19 18:40 UTC",
+ "segundos": 196,
  "fontes": [
   {
    "ids": [
@@ -48,7 +48,7 @@
    "degraus": [
     "texto de 12 página(s)"
    ],
-   "caracteres": 34722,
+   "caracteres": 34724,
    "url_final": "https://academia.org.br/eventos",
    "paginas": [
     "https://academia.org.br/eventos",
@@ -80,7 +80,7 @@
    "degraus": [
     "texto de 12 página(s)"
    ],
-   "caracteres": 51431,
+   "caracteres": 51496,
    "url_final": "https://www.gov.br/arquivonacional/pt-br",
    "paginas": [
     "https://www.gov.br/arquivonacional/pt-br",
@@ -128,18 +128,20 @@
    ],
    "degraus": [
     "feed (10 itens)",
-    "texto de 5 página(s)"
+    "texto de 7 página(s)"
    ],
-   "caracteres": 31679,
+   "caracteres": 40910,
    "url_final": "https://cultura.rj.gov.br",
    "paginas": [
     "https://cultura.rj.gov.br",
     "https://cultura.rj.gov.br/biblioteca-parque-estadual-inaugura-exposicao-inspirada-no-universo-da-turma-da-monica/",
+    "https://cultura.rj.gov.br/da-producao-de-espetaculos-a-comunicacao-conheca-profissoes-que-movimentam-a-economia-criativa/",
     "https://cultura.rj.gov.br/governo-do-estado-lanca-programa-cultura-em-dia-para-regularizacao-de-pendencias-de-projetos-culturais/",
     "https://cultura.rj.gov.br/biblioteca-parque-estadual-inaugura-exposicao-inspirada-no-universo-da-turma-da-monica/",
+    "https://cultura.rj.gov.br/da-producao-de-espetaculos-a-comunicacao-conheca-profissoes-que-movimentam-a-economia-criativa/",
     "https://cultura.rj.gov.br/governo-do-estado-lanca-programa-cultura-em-dia-para-regularizacao-de-pendencias-de-projetos-culturais/"
    ],
-   "mencoes_de_data": 29,
+   "mencoes_de_data": 31,
    "situacao": "coletada",
    "arquivo": "F013.txt"
   },
@@ -155,7 +157,7 @@
    "degraus": [
     "texto de 1 página(s)"
    ],
-   "caracteres": 290,
+   "caracteres": 270,
    "url_final": "https://www.caixacultural.gov.br/Paginas/default.aspx",
    "paginas": [
     "https://www.caixacultural.gov.br/Paginas/default.aspx"
@@ -177,7 +179,7 @@
     "feed (20 itens)",
     "texto de 2 página(s)"
    ],
-   "caracteres": 10368,
+   "caracteres": 10354,
    "url_final": "https://www.barcariocadagema.com.br/",
    "paginas": [
     "https://www.barcariocadagema.com.br/",
@@ -220,7 +222,7 @@
    "degraus": [
     "texto de 12 página(s)"
    ],
-   "caracteres": 36954,
+   "caracteres": 37795,
    "url_final": "https://ccbb.com.br/rio-de-janeiro/",
    "paginas": [
     "https://ccbb.com.br/rio-de-janeiro/",
@@ -236,7 +238,7 @@
     "https://ccbb.com.br/rio-de-janeiro/programacao/21o-festival-de-cinema-italiano-no-brasil/",
     "https://ccbb.com.br/rio-de-janeiro/programacao/yokai-parade-seres-sobrenaturais-do-japao/"
    ],
-   "mencoes_de_data": 307,
+   "mencoes_de_data": 325,
    "situacao": "coletada",
    "arquivo": "F019.txt"
   },
@@ -254,7 +256,7 @@
     "feed (15 itens)",
     "texto de 13 página(s)"
    ],
-   "caracteres": 71567,
+   "caracteres": 71553,
    "url_final": "https://www.correios.com.br/",
    "paginas": [
     "https://www.correios.com.br/",
@@ -287,7 +289,7 @@
    "degraus": [
     "texto de 12 página(s)"
    ],
-   "caracteres": 25426,
+   "caracteres": 25495,
    "url_final": "https://ccjf.trf2.jus.br",
    "paginas": [
     "https://ccjf.trf2.jus.br",
@@ -359,7 +361,7 @@
     "feed (8 itens)",
     "texto de 8 página(s)"
    ],
-   "caracteres": 28002,
+   "caracteres": 28151,
    "url_final": "https://circocrescereviver.org.br",
    "paginas": [
     "https://circocrescereviver.org.br",
@@ -409,7 +411,7 @@
     "feed (3 itens)",
     "texto de 1 página(s)"
    ],
-   "caracteres": 5536,
+   "caracteres": 5539,
    "url_final": "https://www.d-edge.com.br/",
    "paginas": [
     "https://www.d-edge.com.br/"
@@ -490,7 +492,7 @@
     "feed (20 itens)",
     "texto de 2 página(s)"
    ],
-   "caracteres": 8467,
+   "caracteres": 8464,
    "url_final": "https://www.riocarnaval.com/",
    "paginas": [
     "https://www.riocarnaval.com/",
@@ -547,28 +549,9 @@
    "regioes": [
     "Centro"
    ],
-   "degraus": [
-    "texto de 12 página(s)"
-   ],
-   "caracteres": 31891,
-   "url_final": "https://www.realgabinete.com.br",
-   "paginas": [
-    "https://www.realgabinete.com.br",
-    "https://www.realgabinete.com.br/Agenda",
-    "https://www.realgabinete.com.br/O-RGPL/Associe-se",
-    "https://www.realgabinete.com.br/O-RGPL/Diretoria-e-Conselhos",
-    "https://www.realgabinete.com.br/O-RGPL/Sobre-o-Real-Gabinete",
-    "https://www.realgabinete.com.br/O-Real-Gabinete/Sobre-o-Real-Gabinete/Historia",
-    "https://www.realgabinete.com.br/O-RGPL/Sobre-o-Real-Gabinete/Breve-Cronologia",
-    "https://www.realgabinete.com.br/O-RGPL/Sobre-o-Real-Gabinete/Presidentes",
-    "https://www.realgabinete.com.br/O-RGPL/Sobre-o-Real-Gabinete/Cooperadores",
-    "https://www.realgabinete.com.br/O-RGPL/Sobre-o-Real-Gabinete/Estatuto-Social",
-    "https://www.realgabinete.com.br/O-Real-Gabinete/Patrimonio-Artistico",
-    "https://www.realgabinete.com.br/O-Real-Gabinete/Patrimonio-Artistico/Apresentacao"
-   ],
-   "mencoes_de_data": 4,
-   "situacao": "coletada",
-   "arquivo": "F049.txt"
+   "degraus": [],
+   "caracteres": 0,
+   "situacao": "não respondeu: URLError: <urlopen error timed out>"
   },
   {
    "ids": [
@@ -797,7 +780,7 @@
    "degraus": [
     "texto de 2 página(s)"
    ],
-   "caracteres": 7266,
+   "caracteres": 7297,
    "url_final": "https://becodasgarrafas.com.br",
    "paginas": [
     "https://becodasgarrafas.com.br",
@@ -819,7 +802,7 @@
    "degraus": [
     "texto de 3 página(s)"
    ],
-   "caracteres": 4225,
+   "caracteres": 4332,
    "url_final": "https://bluenoterio.com.br",
    "paginas": [
     "https://bluenoterio.com.br",
@@ -894,7 +877,7 @@
    "degraus": [
     "texto de 13 página(s)"
    ],
-   "caracteres": 98282,
+   "caracteres": 97961,
    "url_final": "https://casafirjan.com.br/",
    "paginas": [
     "https://casafirjan.com.br/",
@@ -911,7 +894,7 @@
     "https://casafirjan.com.br/palestras-debates-entrevistas/podcasts",
     "https://casafirjan.com.br/palestras-debates-e-entrevistas/podcast/lab-de-tendencias"
    ],
-   "mencoes_de_data": 80,
+   "mencoes_de_data": 77,
    "situacao": "coletada",
    "arquivo": "F074.txt"
   },
@@ -927,24 +910,24 @@
    "degraus": [
     "texto de 13 página(s)"
    ],
-   "caracteres": 27775,
+   "caracteres": 30121,
    "url_final": "https://www.evaklabin.org.br/pt",
    "paginas": [
     "https://www.evaklabin.org.br/pt",
-    "https://www.evaklabin.org.br/pt/eventos",
+    "https://www.evaklabin.org.br/pt/programacao",
     "https://www.evaklabin.org.br/pt/programacao/oficina/oficinas-de-novembro-2",
     "https://www.evaklabin.org.br/pt/sobre/eva-klabin",
     "https://www.evaklabin.org.br/pt/sobre/casa-museu",
     "https://www.evaklabin.org.br/pt/sobre/quem-somos",
     "https://www.evaklabin.org.br/pt/sobre/fale-conosco",
     "https://www.evaklabin.org.br/pt/sobre/duvidas",
-    "https://www.evaklabin.org.br/pt/programacao",
     "https://www.evaklabin.org.br/pt/explore/colecao",
     "https://www.evaklabin.org.br/pt/explore/pesquisa-e-conservacao",
     "https://www.evaklabin.org.br/pt/explore/educacao",
-    "https://www.evaklabin.org.br/pt/explore/musica"
+    "https://www.evaklabin.org.br/pt/explore/musica",
+    "https://www.evaklabin.org.br/pt/explore/midia-e-publicacao"
    ],
-   "mencoes_de_data": 56,
+   "mencoes_de_data": 80,
    "situacao": "coletada",
    "arquivo": "F075.txt"
   },
@@ -1078,16 +1061,15 @@
     "Zona Sul"
    ],
    "degraus": [
-    "texto de 3 página(s)"
+    "texto de 2 página(s)"
    ],
-   "caracteres": 13130,
+   "caracteres": 11770,
    "url_final": "https://ecovillarihappy.com.br",
    "paginas": [
     "https://ecovillarihappy.com.br",
-    "https://ecovillarihappy.com.br/programacao/",
-    "https://ecovillarihappy.com.br/realize-seu-evento/"
+    "https://ecovillarihappy.com.br/programacao/"
    ],
-   "mencoes_de_data": 54,
+   "mencoes_de_data": 43,
    "situacao": "coletada",
    "arquivo": "F084.txt"
   },
@@ -1185,7 +1167,7 @@
     "feed (7 itens)",
     "texto de 14 página(s)"
    ],
-   "caracteres": 36483,
+   "caracteres": 35209,
    "url_final": "https://grupoestacao.com.br",
    "paginas": [
     "https://grupoestacao.com.br",
@@ -1255,7 +1237,7 @@
    "degraus": [
     "texto de 4 página(s)"
    ],
-   "caracteres": 5837,
+   "caracteres": 5912,
    "url_final": "https://www.gov.br/jbrj/pt-br",
    "paginas": [
     "https://www.gov.br/jbrj/pt-br",
@@ -1289,17 +1271,9 @@
    "regioes": [
     "Zona Sul"
    ],
-   "degraus": [
-    "texto de 1 página(s)"
-   ],
-   "caracteres": 8897,
-   "url_final": "https://blooks.com.br",
-   "paginas": [
-    "https://blooks.com.br"
-   ],
-   "mencoes_de_data": 0,
-   "situacao": "coletada, mas sem datas à vista (a programação pode ser carregada depois)",
-   "arquivo": "F095.txt"
+   "degraus": [],
+   "caracteres": 0,
+   "situacao": "recusou a visita (código 403)"
   },
   {
    "ids": [
@@ -1533,7 +1507,7 @@
    "degraus": [
     "texto de 6 página(s)"
    ],
-   "caracteres": 13522,
+   "caracteres": 13547,
    "url_final": "https://portasvilaseca.com.br/pt",
    "paginas": [
     "https://portasvilaseca.com.br/pt",
@@ -1543,7 +1517,7 @@
     "https://portasvilaseca.com.br/pt/exposicao/o-tempo-da-cor-kika-carvalho",
     "https://portasvilaseca.com.br/pt/exposicao/das-promessas-que-a-gente-fez-kika-carvalho"
    ],
-   "mencoes_de_data": 10,
+   "mencoes_de_data": 12,
    "situacao": "coletada",
    "arquivo": "F107.txt"
   },
@@ -1579,7 +1553,7 @@
    "degraus": [
     "texto de 4 página(s)"
    ],
-   "caracteres": 1757,
+   "caracteres": 1771,
    "url_final": "https://silviacintra.com.br",
    "paginas": [
     "https://silviacintra.com.br",
@@ -1614,9 +1588,9 @@
     "Zona Sul"
    ],
    "degraus": [
-    "texto de 7 página(s)"
+    "texto de 8 página(s)"
    ],
-   "caracteres": 28232,
+   "caracteres": 34510,
    "url_final": "https://www.teatroaxiacasagrande.com.br/",
    "paginas": [
     "https://www.teatroaxiacasagrande.com.br/",
@@ -1625,9 +1599,10 @@
     "https://www.teatroaxiacasagrande.com.br/programacao/detalhes/o-nome-do-bebe/",
     "https://www.teatroaxiacasagrande.com.br/programacao/detalhes/o-mercador-de-veneza/",
     "https://www.teatroaxiacasagrande.com.br/programacao/detalhes/2895/",
-    "https://www.teatroaxiacasagrande.com.br/programacao/detalhes/leo-gandelman-cosmos/"
+    "https://www.teatroaxiacasagrande.com.br/programacao/detalhes/leo-gandelman-cosmos/",
+    "https://www.teatroaxiacasagrande.com.br/programacao/detalhes/miraculous-o-show-oficial-da-ladybug/"
    ],
-   "mencoes_de_data": 99,
+   "mencoes_de_data": 108,
    "situacao": "coletada",
    "arquivo": "F114.txt"
   },
@@ -1735,7 +1710,7 @@
    "degraus": [
     "texto de 12 página(s)"
    ],
-   "caracteres": 32961,
+   "caracteres": 34018,
    "url_final": "https://vivorio.com.br",
    "paginas": [
     "https://vivorio.com.br",
@@ -1744,14 +1719,14 @@
     "https://vivorio.com.br/faca-seu-evento/",
     "https://vivorio.com.br/eventos/paulinho-da-viola-2/",
     "https://vivorio.com.br/eventos/leandro-karnal/",
+    "https://vivorio.com.br/eventos/pitty/",
     "https://vivorio.com.br/eventos/tarja-turunen/",
     "https://vivorio.com.br/eventos/ca7riel-paco-amoroso/",
     "https://vivorio.com.br/eventos/mundo-torajo/",
     "https://vivorio.com.br/eventos/natal-do-bita-com-orquestra-petrobras-sinfonica/",
-    "https://vivorio.com.br/eventos/kysha-e-mine/",
-    "https://vivorio.com.br/eventos/baby-do-brasil/"
+    "https://vivorio.com.br/eventos/kysha-e-mine/"
    ],
-   "mencoes_de_data": 77,
+   "mencoes_de_data": 79,
    "situacao": "coletada",
    "arquivo": "F126.txt"
   },
@@ -1781,13 +1756,13 @@
     "feed (1 itens)",
     "texto de 2 página(s)"
    ],
-   "caracteres": 7338,
+   "caracteres": 7558,
    "url_final": "https://espacohall.com.br",
    "paginas": [
     "https://espacohall.com.br",
     "https://espacohall.com.br/agenda/"
    ],
-   "mencoes_de_data": 21,
+   "mencoes_de_data": 23,
    "situacao": "coletada",
    "arquivo": "F133.txt"
   },
@@ -1888,9 +1863,9 @@
     "Zona Sudoeste"
    ],
    "degraus": [
-    "texto de 11 página(s)"
+    "texto de 10 página(s)"
    ],
-   "caracteres": 80900,
+   "caracteres": 74883,
    "url_final": "https://qualistage.com.br",
    "paginas": [
     "https://qualistage.com.br",
@@ -1902,10 +1877,9 @@
     "https://qualistage.com.br/evento/438/jorge-vercillo",
     "https://qualistage.com.br/evento/431/gipsy-kings-part-sidney-magal",
     "https://qualistage.com.br/evento/435/geriatricus",
-    "https://qualistage.com.br/evento/441/ferrugem",
     "https://qualistage.com.br/evento/423/mauricio-manieri"
    ],
-   "mencoes_de_data": 42,
+   "mencoes_de_data": 36,
    "situacao": "coletada",
    "arquivo": "F137.txt"
   },
@@ -2045,10 +2019,10 @@
     "Várias"
    ],
    "degraus": [
-    "feed (3 itens)",
+    "feed (1 itens)",
     "texto de 12 página(s)"
    ],
-   "caracteres": 36270,
+   "caracteres": 34983,
    "url_final": "https://forum.ufrj.br",
    "paginas": [
     "https://forum.ufrj.br",
@@ -2080,7 +2054,7 @@
    "degraus": [
     "texto de 14 página(s)"
    ],
-   "caracteres": 63256,
+   "caracteres": 63275,
    "url_final": "https://www.travessa.com.br/eventos",
    "paginas": [
     "https://www.travessa.com.br/eventos",
