@@ -55,7 +55,9 @@ header.topo{padding:28px 0 8px;border-bottom:3px double var(--linha)}
 .sub{font:500 15px var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--tinta2);margin:8px 0 2px}
 .edicao{font-size:13px;color:var(--tinta2);margin:0 0 14px}
 .qb{font:italic 500 clamp(26px,7vw,34px)/1.1 var(--serif);margin:22px 0 12px}
-.busca{position:relative;margin:4px 0 12px}
+.busca{position:relative;margin:4px 0 10px}
+.secoes{margin:0 0 12px}
+body.buscando #resultados{min-height:100vh}  /* a página não encolhe nem pula enquanto se digita */
 .busca input{width:100%;font:16px var(--sans);padding:13px 14px 13px 42px;border-radius:var(--raio);
   border:1px solid var(--linha);background:var(--papel2);color:var(--tinta)}
 .busca input:focus{outline:2px solid var(--acento);outline-offset:1px}
@@ -122,7 +124,9 @@ h2.secao{font:600 22px/1.2 var(--serif);margin:34px 0 10px;padding-top:16px;bord
 .radar h4{margin:0 0 6px;font:600 13px var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--acento)}
 section.bloco{margin:44px 0 0;padding-top:20px;border-top:3px double var(--linha)}
 section.bloco h2{font:600 26px/1.15 var(--serif);margin:0 0 10px}
-.feeds{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px;margin:10px 0}
+.feeds{display:grid;gap:12px;margin:12px 0}
+.feed{display:flex;flex-wrap:wrap;gap:8px;align-items:center;border:1px solid var(--linha);border-radius:12px;padding:12px}
+.feed strong{flex:1 0 100%;font-size:16px}
 .feeds a{border:1px solid var(--linha);border-radius:10px;padding:10px;text-decoration:none;font-size:14px}
 .barras{display:grid;gap:6px;margin:10px 0}
 .barra{display:grid;grid-template-columns:110px 1fr 34px;gap:8px;align-items:center;font-size:14px}
@@ -183,6 +187,11 @@ h2.secao::before,section.bloco::before{top:2px}
   <p class="edicao" id="edicao"></p>
 </header>
 
+<div class="busca">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+  <input id="q" type="search" autocomplete="off" data-tp="busca" placeholder="Buscar: artista, lugar, bairro…" aria-label="Buscar">
+</div>
+<div class="chips secoes" id="fAreas"></div>
 <div class="aviso" data-t="teste">Prévia de teste: ainda com poucas fontes.</div>
 
 <nav class="trilho" id="dias" aria-label="Dias"></nav>
@@ -194,16 +203,10 @@ h2.secao::before,section.bloco::before{top:2px}
 </section>
 
 <h2 class="secao" id="tituloToda" data-t="toda">Toda a programação</h2>
-<div class="busca">
-  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-  <input id="q" type="search" autocomplete="off" data-tp="busca" placeholder="Buscar: artista, lugar, bairro…" aria-label="Buscar">
-</div>
 
 <div class="chips" id="fGratis"></div>
 <details class="filtros" id="filtros">
   <summary><span data-t="filtros">Filtros ▾</span> <span id="nfiltros"></span></summary>
-  <p class="rotulo" data-t="area">Área</p>
-  <div class="chips" id="fAreas"></div>
   <p class="rotulo" data-t="regiao">Região</p>
   <div class="chips" id="fRegioes"></div>
 </details>
@@ -213,15 +216,15 @@ h2.secao::before,section.bloco::before{top:2px}
   <button class="btn" id="baixar" data-t="baixar">＋ Levar para minha agenda</button>
 </div>
 
-<ul class="lista" id="lista"></ul>
+<div id="resultados"><ul class="lista" id="lista"></ul>
 <div id="grade"></div>
-<div id="radar"></div>
+<div id="radar"></div></div>
 
 <section class="bloco" id="calendario">
   <h2 data-t="calTit">Receba a agenda no celular</h2>
   <p data-t="calTxt">Assine um calendário e a programação aparece sozinha no app de agenda do seu celular ou computador (iPhone, Android, Google, Outlook). Sem cadastro, sem aplicativo. Também dá para montar o seu: em “Toda a programação”, escolha um dia e os filtros que quiser e toque em “Levar para minha agenda”.</p>
   <div class="feeds" id="feeds"></div>
-  <p style="font-size:13px;color:var(--tinta2)" data-t="calNota">Tocar num link baixa o arquivo da semana. Para receber as atualizações sozinho, copie o endereço do link e adicione-o como assinatura de calendário no seu aplicativo de agenda.</p>
+  <p style="font-size:13px;color:var(--tinta2)" data-t="calNota"></p>
 </section>
 
 <section class="bloco">
@@ -255,8 +258,8 @@ const T = {
    n:(n)=>n===1?"1 atividade":`${n} atividades`,vazio:"Nada encontrado com esses filtros. Que tal outra região?",gradeTit:"Grade dos cinemas",gradeTxt:(n,f)=>`${n} cinemas, ${f} filmes neste dia. Toque num cinema para ver os horários.`,
    agenda:"Adicionar à agenda",chegar:"Como chegar",fonte:"Fonte oficial",aconf:"a confirmar",gratisTag:"Grátis",popTag:"Preço popular",
    radar:"Uma boa fora do seu radar",calTit:"Receba a agenda no celular",
-   calTxt:"Assine um calendário e a programação aparece sozinha no app de agenda do seu celular ou computador (iPhone, Android, Google, Outlook). Sem cadastro, sem aplicativo. Também dá para montar o seu: em “Toda a programação”, escolha um dia e os filtros que quiser e toque em “Levar para minha agenda”.",
-   calNota:"Tocar num link baixa o arquivo da semana. Para receber as atualizações sozinho, copie o endereço do link e adicione-o como assinatura de calendário no seu aplicativo de agenda.",
+   feedBoa:"A boa (destaques do dia)",feedTodos:"Todos os eventos",assApple:"iPhone e Mac",assGoogle:"Google Agenda",assCopia:"Copiar endereço",copiado:"Endereço copiado ✓",calTxt:"Assine um calendário e a programação aparece sozinha no app de agenda do seu celular ou computador (iPhone, Android, Google, Outlook). Sem cadastro, sem aplicativo. Também dá para montar o seu: em “Toda a programação”, escolha um dia e os filtros que quiser e toque em “Levar para minha agenda”.",
+   calNota:"No celular Android ou no Outlook, use “Copiar endereço” e cole como nova assinatura de calendário no seu aplicativo. Assinou uma vez, recebe as atualizações sozinho.",
    terrTit:"A cidade inteira",terrTxt:"Quantas atividades desta edição há em cada região. Medimos isso toda semana para dar o mesmo peso a todos os cantos do Rio.",
    sobreTit:"Por que Largo",sobreTxt:"O largo é o espaço público por excelência: a céu aberto, sem catraca, lugar de encontro. Esta agenda nasce do direito à cidade. A informação sobre a vida cultural do Rio é um bem comum e deve circular livre, sem plataformas fechadas, algoritmos pagos ou cadastro.",
    protTit:"Protocolo de acesso aberto",protTxt:"sem rastreadores, sem publicidade, sem cadastro. Textos em CC BY-SA 4.0, dados em ODbL 1.0. Cada informação traz sua fonte. Os dados completos estão abertos para reuso:",
@@ -268,8 +271,8 @@ const T = {
    n:(n)=>n===1?"1 event":`${n} events`,vazio:"Nothing matches these filters. Try another area of the city?",gradeTit:"Cinema showtimes",gradeTxt:(n,f)=>`${n} cinemas, ${f} films this day. Tap a cinema to see showtimes.`,
    agenda:"Add to calendar",chegar:"Directions",fonte:"Official source",aconf:"to be confirmed",gratisTag:"Free",popTag:"Low price",
    radar:"Something off your radar",calTit:"Get the guide on your phone",
-   calTxt:"Subscribe to a calendar and events show up in your phone or computer calendar app. No sign-up, no app. Or build your own: under “Full programme”, pick a day and filters, then tap “Add to my calendar”.",
-   calNota:"Tapping a link downloads this week's file. To get updates automatically, copy the link address and add it as a calendar subscription in your calendar app.",
+   feedBoa:"Picks (daily highlights)",feedTodos:"All events",assApple:"iPhone & Mac",assGoogle:"Google Calendar",assCopia:"Copy address",copiado:"Address copied ✓",calTxt:"Subscribe to a calendar and events show up in your phone or computer calendar app. No sign-up, no app. Or build your own: under “Full programme”, pick a day and filters, then tap “Add to my calendar”.",
+   calNota:"On Android or Outlook, use “Copy address” and paste it as a new calendar subscription in your app. Subscribe once and updates arrive on their own.",
    terrTit:"The whole city",terrTxt:"How many events this edition lists in each area of Rio. We track this every week to give every part of the city the same weight.",
    sobreTit:"Why “Largo”",sobreTxt:"A largo is a public square: open-air, no turnstiles, a meeting place. This guide stems from the right to the city: cultural information is a commons and should flow freely.",
    protTit:"Open access protocol",protTxt:"no trackers, no ads, no sign-up. Texts CC BY-SA 4.0, data ODbL 1.0. Every listing cites its source. Full data for reuse:",
@@ -281,8 +284,8 @@ const T = {
    n:(n)=>n===1?"1 actividad":`${n} actividades`,vazio:"Nada con estos filtros. ¿Probamos otra región?",gradeTit:"Cartelera de cines",gradeTxt:(n,f)=>`${n} cines, ${f} películas este día. Toca un cine para ver los horarios.`,
    agenda:"Añadir a la agenda",chegar:"Cómo llegar",fonte:"Fuente oficial",aconf:"por confirmar",gratisTag:"Gratis",popTag:"Precio popular",
    radar:"Algo fuera de tu radar",calTit:"Recibe la agenda en el móvil",
-   calTxt:"Suscríbete a un calendario y la programación aparece sola en la app de agenda de tu móvil u ordenador. Sin registro, sin app. También puedes armar el tuyo: en “Toda la programación”, elige un día y filtros y toca “Llevar a mi agenda”.",
-   calNota:"Al tocar un enlace se descarga el archivo de la semana. Para recibir las actualizaciones, copia la dirección del enlace y añádela como suscripción en tu app de calendario.",
+   feedBoa:"Lo bueno (destacados del día)",feedTodos:"Todos los eventos",assApple:"iPhone y Mac",assGoogle:"Google Calendar",assCopia:"Copiar dirección",copiado:"Dirección copiada ✓",calTxt:"Suscríbete a un calendario y la programación aparece sola en la app de agenda de tu móvil u ordenador. Sin registro, sin app. También puedes armar el tuyo: en “Toda la programación”, elige un día y filtros y toca “Llevar a mi agenda”.",
+   calNota:"En Android u Outlook, usa “Copiar dirección” y pégala como nueva suscripción de calendario en tu app. Te suscribes una vez y las actualizaciones llegan solas.",
    terrTit:"Toda la ciudad",terrTxt:"Cuántas actividades hay en cada región en esta edición. Lo medimos cada semana para dar el mismo peso a toda la ciudad.",
    sobreTit:"Por qué “Largo”",sobreTxt:"El largo es la plaza pública: al aire libre, sin torniquetes, lugar de encuentro. Esta agenda nace del derecho a la ciudad: la información cultural es un bien común.",
    protTit:"Protocolo de acceso abierto",protTxt:"sin rastreadores, sin publicidad, sin registro. Textos CC BY-SA 4.0, datos ODbL 1.0. Cada dato cita su fuente. Datos abiertos:",
@@ -322,6 +325,11 @@ function passaFiltros(e){
 }
 function emCartazNoDia(e,dia){ const c=e.cartaz; return (!c.inicio||c.inicio<=dia) && (!c.fim||c.fim>=dia); }
 function itens(){
+  if(S.q){ const r=[], ini=DIAS.includes(hojeISO)?hojeISO:DIAS[0];
+    for(const e of E){ if(e.automatica||!passaFiltros(e)) continue;
+      if(e.tipo==="cartaz"){ if(emCartazNoDia(e,ini)) r.push({e,hora:null,data:"~"}); continue; }
+      for(const s of e.sessoes) if(s.data>=ini) r.push({e,hora:s.hora,data:s.data}); }
+    return r.sort((a,b)=>(a.data+(a.hora||""))<(b.data+(b.hora||""))?-1:1); }
   if(S.dia==="cartaz") return E.filter(e=>e.tipo==="cartaz" && emCartazNoDia(e, DIAS.includes(hojeISO)?hojeISO:DIAS[0]) && passaFiltros(e))
     .map(e=>({e,hora:null})).sort((a,b)=>(a.e.cartaz.fim||"9999")<(b.e.cartaz.fim||"9999")?-1:1);
   const r=[]; for(const e of E){ if(e.tipo!=="evento"||e.automatica||!passaFiltros(e)) continue;
@@ -333,17 +341,18 @@ function precoTag(e){
   if(e.faixa==="popular") return `<span class="tag popular">${esc(e.preco_texto)}</span>`;
   return `<span class="tag">${esc(e.preco_texto||t("naoinf"))}</span>`;
 }
-function card(it,k,porque){
+function tituloDiaCurto(d){ return `${t("dias")[d.getUTCDay()]} ${String(d.getUTCDate()).padStart(2,"0")}/${String(d.getUTCMonth()+1).padStart(2,"0")}`; }
+function card(it,k,porque,horaVisivel){
   const e=it.e, id=(porque?"d":"")+e.id+"-"+k, aberto=S.aberto===id;
   const quando = e.tipo==="cartaz" ? `${esc(e.cartaz.horario)}${e.cartaz.fim?` · ${t("ate")} ${e.cartaz.fim.slice(8,10)}/${e.cartaz.fim.slice(5,7)}`:""}` : "";
   const mapa = "https://www.openstreetmap.org/search?query="+encodeURIComponent(`${e.endereco}, ${e.bairro}, Rio de Janeiro`);
   return `<li class="ev${aberto?" aberto":""}" data-id="${id}">
-   <button class="abre" aria-expanded="${aberto}">${porque&&it.hora?`<div class="quando">${hh(it.hora)}</div>`:""}<h3>${esc(e.titulo)}</h3>${porque?`<p class="porque">${esc(porque)}</p>`:""}
+   <button class="abre" aria-expanded="${aberto}">${(porque||horaVisivel)&&it.hora?`<div class="quando">${hh(it.hora)}</div>`:""}<h3>${esc(e.titulo)}</h3>${porque?`<p class="porque">${esc(porque)}</p>`:""}
    <div class="onde"><strong>${esc(e.local)}</strong> · ${esc(e.bairro||"—")}${quando?`<br>${quando}`:""}</div>
    <div class="tags">${precoTag(e)}${e.areas.map(a=>`<span class="tag">${esc(tA(a))}</span>`).join("")}${e.na_rua?`<span class="tag">${t("ruaTag")}</span>`:""}${e.classificacao?`<span class="tag">${esc(e.classificacao)}</span>`:""}${e.acessibilidade?`<span class="tag" title="${esc(e.acessibilidade)}">♿︎ ${esc(e.acessibilidade)}</span>`:""}${e.status==="a_confirmar"?`<span class="tag conf">${t("aconf")}</span>`:""}</div></button>
    <div class="mais"><p>${esc(e.sinopse)}</p>
     <p style="font-size:13px;color:var(--tinta2)">${esc(e.endereco)} – ${esc(e.bairro)} · ${esc(e.regiao)}</p>
-    <div class="acoes">${e.tipo==="evento"?`<button class="btn cheio" data-ics="${e.id}|${it.hora}">${t("agenda")}</button>`:""}
+    <div class="acoes">${e.tipo==="evento"?`<button class="btn cheio" data-ics="${e.id}|${it.hora}|${it.data&&it.data!=="~"?it.data:S.dia}">${t("agenda")}</button>`:""}
      <a class="btn" href="${mapa}" target="_blank" rel="noopener">${t("chegar")}</a>
      ${e.link?`<a class="btn" href="${esc(e.link)}" target="_blank" rel="noopener">${t("fonte")}</a>`:""}</div></div></li>`;
 }
@@ -376,12 +385,13 @@ function render(){
   if(sel&&render.ultimoDia!==undefined&&render.ultimoDia!==S.dia) sel.classList.add("novo"); render.ultimoDia=S.dia;
   // filtros
   const nf=S.areas.length+S.regioes.length; document.querySelector("#nfiltros").textContent = nf?`· ${nf}`:"";
-  document.querySelector("#fGratis").innerHTML = `<button class="chip g" data-f="gratis" aria-pressed="${S.gratis}">${t("gratis")}</button><button class="chip g" data-f="popular" aria-pressed="${S.popular}">${t("popular")}</button><button class="chip g" data-f="rua" aria-pressed="${S.rua}">${t("rua")}</button>`+S.areas.map(a=>`<button class="chip" data-area="${a}" aria-pressed="true">${esc(tA(a))} ✕</button>`).join("")+S.regioes.map(r=>`<button class="chip" data-reg="${r}" aria-pressed="true">${esc(tR(r))} ✕</button>`).join("");
+  document.querySelector("#fGratis").innerHTML = `<button class="chip g" data-f="gratis" aria-pressed="${S.gratis}">${t("gratis")}</button><button class="chip g" data-f="popular" aria-pressed="${S.popular}">${t("popular")}</button><button class="chip g" data-f="rua" aria-pressed="${S.rua}">${t("rua")}</button>`+S.regioes.map(r=>`<button class="chip" data-reg="${r}" aria-pressed="true">${esc(tR(r))} ✕</button>`).join("");
   document.querySelector("#fAreas").innerHTML = AREAS.filter(a=>E.some(e=>e.areas.includes(a))).map(a=>`<button class="chip" data-area="${a}" aria-pressed="${S.areas.includes(a)}">${esc(tA(a))}</button>`).join("");
   document.querySelector("#fRegioes").innerHTML = REGIOES.map(r=>`<button class="chip" data-reg="${r}" aria-pressed="${S.regioes.includes(r)}">${esc(tR(r))}</button>`).join("");
   // destaques do dia (respeitam os filtros escolhidos)
   const boa=document.querySelector("#boa");
-  if(S.dia==="cartaz"){ boa.style.display="none"; document.querySelector("#tituloToda").style.display="none"; }
+  document.body.classList.toggle("buscando", !!S.q);
+  if(S.dia==="cartaz"||S.q){ boa.style.display="none"; document.querySelector("#tituloToda").style.display="none"; }
   else { boa.style.display=""; document.querySelector("#tituloToda").style.display="";
     const ds=(D.destaques&&D.destaques[S.dia])||[];
     const lst=ds.map(d=>{const e=E.find(x=>x.id===d.id); if(!e||!passaFiltros(e)) return null;
@@ -394,7 +404,9 @@ function render(){
   document.querySelector("#contagem").textContent = t("n")(its.length);
   document.querySelector("#baixar").style.visibility = (S.dia!=="cartaz" && its.length)?"visible":"hidden";
   let html="", ultima=null;
-  its.forEach((it,k)=>{ if(it.hora && it.hora!==ultima){ html+=`<li class="hora">${hh(it.hora)}</li>`; ultima=it.hora;} html+=card(it,k); });
+  if(S.q){ let ud=null; its.forEach((it,k)=>{ if(it.data!==ud){ ud=it.data; html+=`<li class="hora">${it.data==="~"?t("cartaz"):(it.data===hojeISO?t("hoje"):tituloDiaCurto(dDia(it.data)))}</li>`; }
+      html+=card(it,k,null,it.hora); }); }
+  else its.forEach((it,k)=>{ if(it.hora && it.hora!==ultima){ html+=`<li class="hora">${hh(it.hora)}</li>`; ultima=it.hora;} html+=card(it,k); });
   document.querySelector("#lista").innerHTML = html || `<li class="vazio">${t("vazio")}</li>`;
   // grade dos cinemas: um bloco por cinema, um filme por linha com os horários do dia
   let g="";
@@ -421,7 +433,13 @@ function render(){
   }
   document.querySelector("#radar").innerHTML = radar;
   // calendários
-  document.querySelector("#feeds").innerHTML = Object.entries(D.feeds).map(([f,n])=>`<a href="calendarios/${f}">${esc(n.replace("Largo · ",""))}</a>`).join("");
+  const base=location.href.replace(/[#?].*$/,"").replace(/[^/]*$/,"");
+  document.querySelector("#feeds").innerHTML = Object.entries(D.feeds).map(([f,n])=>{
+    const http=base+"calendarios/"+f, webcal=http.replace(/^https?:/,"webcal:");
+    return `<div class="feed"><strong>${esc(t(f.includes("destaques")?"feedBoa":"feedTodos"))}</strong>
+      <a class="btn" href="${webcal}">${t("assApple")}</a>
+      <a class="btn" href="https://calendar.google.com/calendar/render?cid=${encodeURIComponent(webcal)}" target="_blank" rel="noopener">${t("assGoogle")}</a>
+      <button class="btn" data-copia="${esc(http)}">${t("assCopia")}</button></div>`;}).join("");
   // território
   const cont = {}; E.forEach(e=>cont[e.regiao]=(cont[e.regiao]||0)+1); const mx=Math.max(...Object.values(cont));
   document.querySelector("#barras").innerHTML = REGIOES.map(r=>`<div class="barra"><span>${esc(tR(r))}</span><i style="width:${(100*(cont[r]||0)/mx).toFixed(0)}%"></i><span>${cont[r]||0}</span></div>`).join("");
@@ -453,9 +471,10 @@ document.addEventListener("click",ev=>{
   else if(b.dataset.area){const a=b.dataset.area;S.areas=S.areas.includes(a)?S.areas.filter(x=>x!==a):[...S.areas,a];guarda.set("areas",S.areas);}
   else if(b.dataset.reg){const r=b.dataset.reg;S.regioes=S.regioes.includes(r)?S.regioes.filter(x=>x!==r):[...S.regioes,r];guarda.set("regioes",S.regioes);}
   else if(b.dataset.f){S[b.dataset.f]=!S[b.dataset.f];guarda.set(b.dataset.f,S[b.dataset.f]);}
+  else if(b.dataset.copia){const u=b.dataset.copia; (navigator.clipboard?navigator.clipboard.writeText(u):Promise.reject()).then(()=>{b.textContent=t("copiado");},()=>{prompt(t("assCopia"),u);}); return;}
   else if(b.classList.contains("abre")){const id=b.closest(".ev").dataset.id;S.aberto=S.aberto===id?null:id;}
-  else if(b.dataset.ics){const [id,hora]=b.dataset.ics.split("|");const e=E.find(x=>x.id===id);baixa(`largo-${id}.ics`,icsDe([{e,hora,data:S.dia}],e.titulo));return;}
-  else if(b.id==="baixar"){baixa(`largo-${S.dia}.ics`,icsDe(render.atual.map(it=>({e:it.e,hora:it.hora,data:S.dia})),"Largo · minha seleção"));return;}
+  else if(b.dataset.ics){const [id,hora,data]=b.dataset.ics.split("|");const e=E.find(x=>x.id===id);baixa(`largo-${id}.ics`,icsDe([{e,hora,data:data||S.dia}],e.titulo));return;}
+  else if(b.id==="baixar"){baixa(`largo-${S.q?"busca":S.dia}.ics`,icsDe(render.atual.filter(it=>it.hora).map(it=>({e:it.e,hora:it.hora,data:it.data&&it.data!=="~"?it.data:S.dia})),"Largo · minha seleção"));return;}
   else return;
   render();
 });

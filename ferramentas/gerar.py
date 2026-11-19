@@ -205,28 +205,17 @@ def main(edicao_id):
     os.makedirs(os.path.join(out, "dados"), exist_ok=True)
     carimbo = dt.datetime.now(dt.timezone.utc).strftime("%Y%m%dT%H%M%SZ")
 
-    # calendários: geral, grátis, por área, por região
-    todos, eventos = eventos, [e for e in eventos if not e.get("automatica")]  # a grade de cinema tem calendário próprio
-    feeds = {"largo-geral.ics": ("Largo · Agenda cultural do Rio", eventos),
-             "largo-gratis.ics": ("Largo · Grátis", [e for e in eventos if e["gratis"]])}
-    feeds["largo-na-rua.ics"] = ("Largo · Na rua", [e for e in eventos if e.get("na_rua")])
-    for a in AREAS:
-        if not any(a in e["areas"] for e in eventos):
-            continue
-        feeds[f"largo-{slug(a)}.ics"] = (f"Largo · {a}", [e for e in eventos if a in e["areas"]])
-    for r in REGIOES:
-        feeds[f"largo-{slug(r)}.ics"] = (f"Largo · {r}", [e for e in eventos if e["regiao"] == r])
-    for nome, (titulo, lista) in feeds.items():
-        open(os.path.join(out, "calendarios", nome), "w", encoding="utf-8", newline="").write(ics(titulo, lista, carimbo))
-    grade = [e for e in todos if e.get("automatica")]
-    if grade:
-        feeds["largo-cinema-grade.ics"] = ("Largo · Grade dos cinemas", grade)
-        open(os.path.join(out, "calendarios", "largo-cinema-grade.ics"), "w", encoding="utf-8", newline="").write(
-            ics("Largo · Grade dos cinemas", grade, carimbo))
-    eventos = todos
-    feeds = {"largo-destaques.ics": ("Largo · A boa (destaques)", []), **feeds}
+    # calendários para assinar: só dois (decisão de 19/11/2026): a boa e todos os eventos.
+    # A grade de cinema fica fora dos calendários (seria centenas de sessões por dia).
+    agenda = [e for e in eventos if not e.get("automatica")]
+    for velho in os.listdir(os.path.join(out, "calendarios")):
+        if velho.endswith(".ics") and velho not in ("largo-geral.ics", "largo-destaques.ics"):
+            os.remove(os.path.join(out, "calendarios", velho))
+    open(os.path.join(out, "calendarios", "largo-geral.ics"), "w", encoding="utf-8", newline="").write(
+        ics("Largo · Todos os eventos", agenda, carimbo))
     open(os.path.join(out, "calendarios", "largo-destaques.ics"), "w", encoding="utf-8", newline="").write(
         ics("Largo · A boa (destaques)", eventos, carimbo, so_sessoes=sess_dest))
+    feeds = {"largo-destaques.ics": ("Largo · A boa (destaques)", []), "largo-geral.ics": ("Largo · Todos os eventos", agenda)}
 
     # dados abertos
     publicos = [{k: v for k, v in e.items() if k != "nota_redacao"} for e in eventos]

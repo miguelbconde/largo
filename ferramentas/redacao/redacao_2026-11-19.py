@@ -956,7 +956,7 @@ for titulo, local, dia_hora, trecho, sinopse in [
      "DOMINGO: • Portela • Madureira (Esquina da Rua Clara Nunes com Estrada do Portela), a partir das 18h.",
      "A Portela ensaia em Madureira, na esquina da Rua Clara Nunes com a Estrada do Portela, preparando o Carnaval 2027."),
 ]:
-    ev(titulo, "Festas & Feiras|Música", local, sinopse,
+    ev(titulo, "Festas & Feiras|Música", local, sinopse + " Escola de samba do Grupo Especial.",
        "A temporada de preparação para o Carnaval 2027 já começou e as escolas do Grupo Especial do Rio estão tomando as ruas com entrada gratuita [...] " + trecho,
        POST, sessoes=D(dia_hora), rua=True, nota=NOTA_ENSAIO, **G)
 
