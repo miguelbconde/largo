@@ -173,6 +173,79 @@ def ics(nome, eventos, carimbo, so_sessoes=None):
     return "\r\n".join(ics_fold(x) for x in L) + "\r\n"
 
 
+# ---------------------------------------------------------------- buscadores
+# Endereço público do site. Trocar aqui quando o domínio próprio estiver no ar.
+SITE = "https://miguelbconde.github.io/largo/"
+URL_LANG = {"pt": SITE, "en": SITE + "en/", "es": SITE + "es/"}
+CAB = {
+    "pt": ("Largo · O que fazer no Rio hoje — agenda cultural gratuita e aberta",
+           "O que fazer no Rio de Janeiro hoje e nesta semana: shows, rodas de samba, teatro, exposições, cinema e programação infantil em todas as regiões da cidade. Grátis e a preço popular sempre sinalizados."),
+    "en": ("Largo · What's on in Rio de Janeiro this week — free cultural events",
+           "Things to do in Rio de Janeiro today and this week: live music, samba, theatre, exhibitions, cinema and family events across the whole city. Free and low-cost events clearly marked."),
+    "es": ("Largo · Qué hacer en Río de Janeiro esta semana — agenda cultural gratuita",
+           "Qué hacer en Río de Janeiro hoy y esta semana: conciertos, rodas de samba, teatro, exposiciones, cine y actividades para niños en toda la ciudad. Lo gratuito y lo barato, siempre señalado."),
+}
+TIPO_EVENTO = {"Música": "MusicEvent", "Teatro": "TheaterEvent", "Artes Visuais": "ExhibitionEvent", "Cinema": "ScreeningEvent",
+               "Livros & Debates": "LiteraryEvent", "Festas & Feiras": "Festival", "Infantil": "ChildrensEvent"}
+
+
+def eventos_jsonld(eventos, lang):
+    """Marcação schema.org dos eventos da agenda (a grade de cinema fica de fora). Uma entrada por sessão."""
+    itens = []
+    for e in eventos:
+        if e.get("automatica"):
+            continue
+        desc = (lang != "pt" and e.get("sinopse_" + lang)) or e.get("sinopse", "")
+        base = {"@type": TIPO_EVENTO.get(e["areas"][0], "Event"), "name": e["titulo"], "description": desc,
+                "eventStatus": "https://schema.org/EventScheduled",
+                "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+                "location": {"@type": "Place", "name": e["local"],
+                             "address": {"@type": "PostalAddress", "streetAddress": e["endereco"], "addressLocality": "Rio de Janeiro",
+                                         "addressRegion": "RJ", "addressCountry": "BR"}},
+                "url": URL_LANG[lang], "inLanguage": "pt-BR"}
+        if e["bairro"]:
+            base["location"]["address"]["streetAddress"] = f"{e['endereco']}, {e['bairro']}".strip(", ")
+        if e["gratis"]:
+            base["isAccessibleForFree"] = True
+            base["offers"] = {"@type": "Offer", "price": 0, "priceCurrency": "BRL", "url": e["link"] or URL_LANG[lang]}
+        elif e.get("preco_min") is not None:
+            base["offers"] = {"@type": "Offer", "price": e["preco_min"], "priceCurrency": "BRL", "url": e["link"] or URL_LANG[lang]}
+        if e["tipo"] == "evento":
+            for s in e["sessoes"]:
+                itens.append({**base, "startDate": f"{s['data']}T{s['hora']}:00-03:00"})
+        elif e["cartaz"] and e["cartaz"].get("inicio") and e["cartaz"].get("fim"):
+            itens.append({**base, "startDate": e["cartaz"]["inicio"], "endDate": e["cartaz"]["fim"]})
+    return itens
+
+
+def cabeca(lang, ed, eventos):
+    t, d = CAB[lang]
+    h = html_esc = lambda x: x.replace("&", "&amp;").replace('"', "&quot;").replace("<", "&lt;")
+    alt = "".join(f'<link rel="alternate" hreflang="{hl}" href="{URL_LANG[l]}">\n' for l, hl in (("pt", "pt-BR"), ("en", "en"), ("es", "es")))
+    alt += f'<link rel="alternate" hreflang="x-default" href="{URL_LANG["pt"]}">\n'
+    site = {"@context": "https://schema.org", "@graph": [
+        {"@type": "WebSite", "name": "Largo", "url": SITE, "inLanguage": ["pt-BR", "en", "es"],
+         "description": CAB[lang][1], "license": "https://opendatacommons.org/licenses/odbl/1-0/"}] + eventos_jsonld(eventos, lang)}
+    jsonld = json.dumps(site, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+    return (f"<title>{h(t)}</title>\n<meta name=\"description\" content=\"{h(d)}\">\n"
+            f'<link rel="canonical" href="{URL_LANG[lang]}">\n{alt}'
+            f'<meta property="og:type" content="website">\n<meta property="og:site_name" content="Largo">\n'
+            f'<meta property="og:title" content="{h(t)}">\n<meta property="og:description" content="{h(d)}">\n'
+            f'<meta property="og:url" content="{URL_LANG[lang]}">\n'
+            f'<meta property="og:locale" content="{ {"pt": "pt_BR", "en": "en_US", "es": "es_ES"}[lang] }">\n'
+            f'<script type="application/ld+json">{jsonld}</script>')
+
+
+def escrever_mapa_do_site(out):
+    hoje = dt.date.today().isoformat()
+    alts = "".join(f'<xhtml:link rel="alternate" hreflang="{hl}" href="{URL_LANG[l]}"/>' for l, hl in (("pt", "pt-BR"), ("en", "en"), ("es", "es")))
+    urls = "".join(f"<url><loc>{URL_LANG[l]}</loc><lastmod>{hoje}</lastmod><changefreq>daily</changefreq>{alts}</url>" for l in ("pt", "en", "es"))
+    open(os.path.join(out, "sitemap.xml"), "w", encoding="utf-8").write(
+        '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
+        'xmlns:xhtml="http://www.w3.org/1999/xhtml">' + urls + "</urlset>\n")
+    open(os.path.join(out, "robots.txt"), "w", encoding="utf-8").write(f"User-agent: *\nAllow: /\nSitemap: {SITE}sitemap.xml\n")
+
+
 # ---------------------------------------------------------------- principal
 def main(edicao_id):
     pasta = os.path.join(RAIZ, "dados", "edicoes", edicao_id)
@@ -255,8 +328,15 @@ def main(edicao_id):
     dados_site = json.dumps({"edicao": ed, "eventos": site_ev, "destaques": destaques["dias"],
                              "feeds": {k: v[0] for k, v in feeds.items()}}, ensure_ascii=False)
     dados_site = dados_site.replace("</", "<\\/")
-    html = modelo.replace("/*__DADOS__*/null", dados_site)
-    open(os.path.join(out, "index.html"), "w", encoding="utf-8").write(html)
+    # três versões da página (português na raiz, inglês em en/, espanhol em es/), cada uma com título,
+    # descrição e marcação de eventos para os buscadores no próprio idioma
+    for lang, pasta_l, raiz in (("pt", "", ""), ("en", "en", "../"), ("es", "es", "../")):
+        html = (modelo.replace("/*__DADOS__*/null", dados_site).replace("<!--__CABECA__-->", cabeca(lang, ed, eventos))
+                .replace("__HTMLLANG__", {"pt": "pt-BR", "en": "en", "es": "es"}[lang])
+                .replace("__RAIZ__", raiz).replace('"__LANG__"', f'"{lang}"'))
+        os.makedirs(os.path.join(out, pasta_l), exist_ok=True)
+        open(os.path.join(out, pasta_l, "index.html"), "w", encoding="utf-8").write(html)
+    escrever_mapa_do_site(out)
 
     # relatório de exceções
     n_sess = sum(len(e["sessoes"]) for e in eventos)

@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="__HTMLLANG__">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Largo · Agenda cultural do Rio de Janeiro — o que fazer no Rio hoje, grátis e perto de você</title>
-<meta name="description" content="Agenda cultural pública, gratuita e aberta do Rio de Janeiro: música, teatro, artes visuais, cinema, literatura e programação infantil em todas as regiões da cidade. What's on in Rio · Agenda cultural de Río.">
+<!--__CABECA__-->
 <meta name="theme-color" content="#f8f4ec" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#143b70" media="(prefers-color-scheme: dark)">
 <script>(function(){try{var m=localStorage.getItem('largo:tema');if(m==='claro'||m==='escuro')document.documentElement.dataset.tema=m}catch(e){}})();</script>
@@ -236,7 +235,7 @@ h2.secao::before,section.bloco::before{top:2px}
 <section class="bloco">
   <h2 data-t="sobreTit">Por que Largo</h2>
   <p data-t="sobreTxt">O largo é o espaço público por excelência: a céu aberto, sem catraca, lugar de encontro. Esta agenda nasce do direito à cidade. A informação sobre a vida cultural do Rio é um bem comum e deve circular livre, sem plataformas fechadas, algoritmos pagos ou cadastro.</p>
-  <p><strong data-t="protTit">Protocolo de acesso aberto</strong> · <span data-t="protTxt">sem rastreadores, sem publicidade, sem cadastro. Textos em CC BY-SA 4.0, dados em ODbL 1.0. Cada informação traz sua fonte. Os dados completos estão abertos para reuso:</span> <a href="dados/eventos.csv">CSV</a> · <a href="dados/eventos.json">JSON</a>.</p>
+  <p><strong data-t="protTit">Protocolo de acesso aberto</strong> · <span data-t="protTxt">sem rastreadores, sem publicidade, sem cadastro. Textos em CC BY-SA 4.0, dados em ODbL 1.0. Cada informação traz sua fonte. Os dados completos estão abertos para reuso:</span> <a href="__RAIZ__dados/eventos.csv">CSV</a> · <a href="__RAIZ__dados/eventos.json">JSON</a>.</p>
   <h3 id="criterios" style="font:600 18px var(--serif);margin:22px 0 6px" data-t="critTit">Como escolhemos os destaques</h3>
   <p data-t="critTxt"></p>
   <p data-t="erro">Encontrou um erro ou quer enviar a programação do seu espaço? Escreva para nós (endereço de contato a definir).</p>
@@ -303,7 +302,7 @@ const guarda = {get(k,d){try{const v=localStorage.getItem("largo:"+k);return v?J
 const hojeISO = (()=>{const n=new Date(Date.now()-3*3600e3);return n.toISOString().slice(0,10)})();
 const E = D.eventos, ED = D.edicao;
 const DIAS = []; for(let d=new Date(ED.inicio+"T12:00:00Z"); d<=new Date(ED.fim+"T12:00:00Z"); d=new Date(d.getTime()+864e5)) DIAS.push(d.toISOString().slice(0,10));
-let S = {lang:guarda.get("lang","pt"), dia:null, q:"", areas:guarda.get("areas",[]), regioes:guarda.get("regioes",[]), gratis:guarda.get("gratis",false), popular:guarda.get("popular",false), rua:guarda.get("rua",false), aberto:null};
+let S = {lang:"__LANG__", dia:null, q:"", areas:guarda.get("areas",[]), regioes:guarda.get("regioes",[]), gratis:guarda.get("gratis",false), popular:guarda.get("popular",false), rua:guarda.get("rua",false), aberto:null};
 S.areas = S.areas.filter(a=>AREAS.includes(a));
 S.dia = DIAS.includes(hojeISO) ? hojeISO : DIAS[0];
 const t = (k)=> (T[S.lang][k] ?? T.pt[k]);
@@ -454,9 +453,9 @@ function render(){
   }
   document.querySelector("#radar").innerHTML = radar;
   // calendários
-  const base=location.href.replace(/[#?].*$/,"").replace(/[^/]*$/,"");
+
   document.querySelector("#feeds").innerHTML = Object.entries(D.feeds).map(([f,n])=>{
-    const http=base+"calendarios/"+f, webcal=http.replace(/^https?:/,"webcal:");
+    const http=new URL("__RAIZ__calendarios/"+f,location.href).href, webcal=http.replace(/^https?:/,"webcal:");
     return `<div class="feed"><strong>${esc(t(f.includes("destaques")?"feedBoa":"feedTodos"))}</strong>
       <a class="btn" href="${webcal}">${t("assApple")}</a>
       <a class="btn" href="https://calendar.google.com/calendar/render?cid=${encodeURIComponent(webcal)}" target="_blank" rel="noopener">${t("assGoogle")}</a>
@@ -487,7 +486,7 @@ function baixa(nome,texto){
 // ---------- interação ----------
 document.addEventListener("click",ev=>{
   const b=ev.target.closest("button"); if(!b) return;
-  if(b.dataset.lang){S.lang=b.dataset.lang;guarda.set("lang",S.lang);}
+  if(b.dataset.lang){ if(b.dataset.lang!==S.lang) location.href=new URL({pt:"__RAIZ__",en:"__RAIZ__en/",es:"__RAIZ__es/"}[b.dataset.lang],location.href).href; return; }
   else if(b.dataset.dia){S.dia=b.dataset.dia;S.aberto=null;}
   else if(b.dataset.area){const a=b.dataset.area;S.areas=S.areas.includes(a)?S.areas.filter(x=>x!==a):[...S.areas,a];guarda.set("areas",S.areas);}
   else if(b.dataset.reg){const r=b.dataset.reg;S.regioes=S.regioes.includes(r)?S.regioes.filter(x=>x!==r):[...S.regioes,r];guarda.set("regioes",S.regioes);}
