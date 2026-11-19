@@ -113,7 +113,7 @@ Título · área(s) · data(s) e horário · local · endereço · bairro · reg
 ```
 
 - **Site estático:** páginas prontas, sem servidor nem banco de dados. Abre rápido mesmo com sinal fraco, não tem rastreador e tem busca e filtros (dia, área, região, bairro, grátis).
-- **Calendários assináveis**, no formato universal de agenda: um geral e versões por área, por região e "só grátis". A pessoa assina uma vez e recebe as atualizações sozinha.
+- **Calendários assináveis**, no formato universal de agenda: só dois, "A boa" (destaques) e "Todos os eventos" (decisão de 19/11/2026; os calendários por seção e região saíram). A assinatura é direta: um toque para iPhone e Mac, um para o Google Agenda e "copiar endereço" para os demais. A pessoa assina uma vez e recebe as atualizações sozinha. Quem quiser um recorte usa os filtros e "Levar para minha agenda".
 - **Hospedagem gratuita (GitHub Pages)**, com uma cópia espelhada no Codeberg, uma plataforma sem fins lucrativos, por resiliência e autonomia. O site é um conjunto de arquivos estáticos e pode mudar de casa a qualquer momento.
 - **Custos:** começa em **R$ 0**. O único gasto recomendado é um domínio **.com.br** (R$ 40 por ano no Registro.br) no lançamento público. O domínio dá um endereço próprio e estável que não muda se a hospedagem mudar. Um domínio **.rio** é opcional e simbólico (cerca de US$ 30 por ano, exige endereço na cidade).
 - **Licenças abertas, com cláusula de compartilhamento pela mesma licença.** Os textos usam **CC BY-SA 4.0** e a base de dados usa **ODbL 1.0**. Qualquer pessoa ou instituição pode copiar, reutilizar e adaptar, inclusive para fins comerciais. A condição é citar a fonte e manter abertas as obras derivadas. Assim a licença impede que a agenda volte a ser cercada.
@@ -272,6 +272,7 @@ A coleta e a atualização do site passam a ser diárias.
 **Tomadas (19/11/2026):**
 - Aparência: o site passa a ter modo claro (areia, mar e sol) e modo escuro (mar no fundo), com botão para alternar; substitui a decisão de 17/11 sobre o Estudo B. Uma linha sinuosa de desenho próprio toma o lugar dos fios duplos, e o dia selecionado vira uma forma orgânica (ver guia de design, versão 1.1).
 
+- Site: a busca fica logo abaixo do logo e procura em todos os dias da edição; as seções viram botões de filtro visíveis logo abaixo dela; a grade de cinema aparece num bloco próprio, agrupada por cinema; todos os cinemas da cidade entram, inclusive os de shopping.
 - Plataformas de ingresso: a informação que guardam é bem comum. Extraí-la e devolvê-la em formato aberto passa a ser prioridade do projeto, sem parceria nem afiliação, só com fatos sobre eventos e nunca dados de pessoas. Nas plataformas, o coletor segue os nossos limites, não as regras para robôs delas; chaves oficiais só sem restrição ao uso dos dados (seção 5; diretrizes políticas, seção 2.9).
 
 **Pendente:**
