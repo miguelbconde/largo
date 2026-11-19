@@ -1,0 +1,2577 @@
+{
+ "feito_em": "2026-11-19 04:11 UTC",
+ "segundos": 38,
+ "fontes": [
+  {
+   "id": "F001",
+   "nome": "A Gentil Carioca",
+   "regiao": "Centro",
+   "url": "https://agentilcarioca.com.br",
+   "robots_status": 200,
+   "robots_mapa": [
+    "/sitemap.xml"
+   ],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://www.agentilcarioca.com.br/",
+   "tamanho": 47597,
+   "jsonld_tipos": [],
+   "wordpress": false,
+   "datas_no_texto": 0,
+   "portas": [
+    "mapa do site"
+   ],
+   "conclusao": "página abre, mas a programação não está no texto (carregada depois, ou em outra página)"
+  },
+  {
+   "id": "F002",
+   "nome": "Academia Brasileira de Letras (ABL)",
+   "regiao": "Centro",
+   "url": "https://academia.org.br/eventos",
+   "robots_status": 200,
+   "robots_mapa": [
+    "https://academia.org.br/sitemap.xml"
+   ],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://academia.org.br/eventos",
+   "tamanho": 47094,
+   "jsonld_tipos": [],
+   "wordpress": false,
+   "datas_no_texto": 5,
+   "portas": [
+    "mapa do site"
+   ],
+   "conclusao": "só leitura da página (programação aparece no texto)"
+  },
+  {
+   "id": "F005",
+   "nome": "Arquivo Nacional",
+   "regiao": "Centro",
+   "url": "https://gov.br/arquivonacional",
+   "robots_status": 200,
+   "robots_mapa": [
+    "https://www.gov.br/sitemap.xml.gz"
+   ],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://www.gov.br/arquivonacional/pt-br",
+   "tamanho": 177975,
+   "jsonld_tipos": [
+    "Organization",
+    "SearchAction",
+    "WebSite"
+   ],
+   "wordpress": true,
+   "datas_no_texto": 1,
+   "portas": [
+    "mapa do site"
+   ],
+   "conclusao": "página abre, mas a programação não está no texto (carregada depois, ou em outra página)"
+  },
+  {
+   "id": "F012",
+   "nome": "Biblioteca Nacional",
+   "regiao": "Centro",
+   "url": "https://bn.gov.br/acontece/eventos",
+   "robots_status": 403,
+   "robots_permite": null,
+   "status": 403,
+   "url_final": "https://bn.gov.br/acontece/eventos",
+   "erro": "",
+   "conclusao": "recusou (código 403)"
+  },
+  {
+   "id": "F013",
+   "nome": "Biblioteca Parque Estadual",
+   "regiao": "Centro",
+   "url": "https://cultura.rj.gov.br",
+   "robots_status": 200,
+   "robots_mapa": [],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://cultura.rj.gov.br",
+   "tamanho": 53203,
+   "jsonld_tipos": [],
+   "wordpress": true,
+   "wp_namespaces": [
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2"
+   ],
+   "feeds": [
+    "https://cultura.rj.gov.br/feed/"
+   ],
+   "datas_no_texto": 1,
+   "portas": [
+    "porta do WordPress",
+    "feed"
+   ],
+   "conclusao": "leitura limpa: feed"
+  },
+  {
+   "id": "F014",
+   "nome": "Caixa Cultural Rio de Janeiro",
+   "regiao": "Centro",
+   "url": "https://caixacultural.gov.br",
+   "robots_status": 0,
+   "robots_permite": null,
+   "status": 0,
+   "url_final": "https://caixacultural.gov.br",
+   "erro": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1011)>",
+   "conclusao": "não respondeu da nuvem"
+  },
+  {
+   "id": "F016",
+   "nome": "Carioca da Gema",
+   "regiao": "Centro",
+   "url": "https://barcariocadagema.com.br",
+   "robots_status": 200,
+   "robots_mapa": [
+    "https://barcariocadagema.com.br/en_en-sitemap.xml",
+    "https://barcariocadagema.com.br/sitemap.xml"
+   ],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://www.barcariocadagema.com.br/",
+   "tamanho": 599806,
+   "feeds": [
+    "https://www.barcariocadagema.com.br/blog-feed.xml"
+   ],
+   "jsonld_tipos": [
+    "LocalBusiness",
+    "PostalAddress",
+    "WebSite"
+   ],
+   "wordpress": false,
+   "datas_no_texto": 0,
+   "portas": [
+    "feed",
+    "mapa do site"
+   ],
+   "conclusao": "leitura limpa: feed"
+  },
+  {
+   "id": "F017",
+   "nome": "Casa do Choro",
+   "regiao": "Centro",
+   "url": "https://casadochoro.com.br",
+   "robots_status": 404,
+   "robots_permite": null,
+   "status": 200,
+   "url_final": "https://casadochoro.com.br",
+   "tamanho": 62405,
+   "jsonld_tipos": [],
+   "wordpress": false,
+   "datas_no_texto": 0,
+   "portas": [],
+   "conclusao": "página abre, mas a programação não está no texto (carregada depois, ou em outra página)"
+  },
+  {
+   "id": "F019",
+   "nome": "CCBB Rio",
+   "regiao": "Centro",
+   "url": "https://ccbb.com.br/rio-de-janeiro",
+   "robots_status": 200,
+   "robots_mapa": [
+    "https://ccbb.com.br/sitemap_index.xml"
+   ],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://ccbb.com.br/rio-de-janeiro/",
+   "tamanho": 230393,
+   "jsonld_tipos": [
+    "BreadcrumbList",
+    "EntryPoint",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "PropertyValueSpecification",
+    "ReadAction",
+    "SearchAction",
+    "WebPage",
+    "WebSite"
+   ],
+   "wordpress": true,
+   "wp_namespaces": [
+    "wp\\/v2",
+    "wp-site-health\\/v1",
+    "wp-block-editor\\/v1",
+    "wp-abilities\\/v1",
+    "event_data",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp-post",
+    "wp-page",
+    "wp\\/v2",
+    "wp-post"
+   ],
+   "feeds": [
+    "https://ccbb.com.br/feed/"
+   ],
+   "datas_no_texto": 20,
+   "portas": [
+    "porta do WordPress",
+    "feed",
+    "mapa do site"
+   ],
+   "conclusao": "leitura limpa: feed"
+  },
+  {
+   "id": "F020",
+   "nome": "Centro Cultural Correios RJ",
+   "regiao": "Centro",
+   "url": "https://correios.com.br",
+   "robots_status": 200,
+   "robots_permite": null,
+   "status": 200,
+   "url_final": "https://www.correios.com.br/",
+   "tamanho": 149443,
+   "feeds": [
+    "https://www.correios.com.br/RSS",
+    "https://www.correios.com.br/rss.xml",
+    "https://www.correios.com.br/atom.xml"
+   ],
+   "jsonld_tipos": [],
+   "wordpress": false,
+   "datas_no_texto": 8,
+   "portas": [
+    "feed"
+   ],
+   "conclusao": "leitura limpa: feed"
+  },
+  {
+   "id": "F021",
+   "nome": "Centro Cultural Justiça Federal (CCJF)",
+   "regiao": "Centro",
+   "url": "https://ccjf.trf2.jus.br",
+   "robots_status": 200,
+   "robots_mapa": [],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://ccjf.trf2.jus.br",
+   "tamanho": 53421,
+   "jsonld_tipos": [],
+   "wordpress": false,
+   "datas_no_texto": 3,
+   "portas": [],
+   "conclusao": "só leitura da página (programação aparece no texto)"
+  },
+  {
+   "id": "F023",
+   "nome": "Centro Cultural Light",
+   "regiao": "Centro",
+   "url": "https://institutolight.org.br",
+   "robots_status": 0,
+   "robots_permite": null,
+   "status": 0,
+   "url_final": "https://institutolight.org.br",
+   "erro": "URLError: <urlopen error [Errno -5] No address associated with hostname>",
+   "conclusao": "não respondeu da nuvem"
+  },
+  {
+   "id": "F027",
+   "nome": "Cine Santa Teresa",
+   "regiao": "Centro",
+   "url": "https://cinesantateresa.com.br",
+   "robots_status": 0,
+   "robots_permite": null,
+   "status": 0,
+   "url_final": "https://cinesantateresa.com.br",
+   "erro": "URLError: <urlopen error [Errno -2] Name or service not known>",
+   "conclusao": "não respondeu da nuvem"
+  },
+  {
+   "id": "F028",
+   "nome": "Cineclube Macunaíma (ABI)",
+   "regiao": "Centro",
+   "url": "https://abi.org.br",
+   "robots_status": 403,
+   "robots_permite": null,
+   "status": 403,
+   "url_final": "https://abi.org.br",
+   "erro": "",
+   "conclusao": "recusou (código 403)"
+  },
+  {
+   "id": "F029",
+   "nome": "Circo Crescer e Viver",
+   "regiao": "Centro",
+   "url": "https://circocrescereviver.org.br",
+   "robots_status": 200,
+   "robots_mapa": [
+    "https://circocrescereviver.org.br/sitemap_index.xml"
+   ],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://circocrescereviver.org.br",
+   "tamanho": 232893,
+   "feeds": [
+    "https://circocrescereviver.org.br/feed/"
+   ],
+   "jsonld_tipos": [
+    "BreadcrumbList",
+    "EntryPoint",
+    "ImageObject",
+    "ListItem",
+    "PropertyValueSpecification",
+    "ReadAction",
+    "SearchAction",
+    "WebPage",
+    "WebSite"
+   ],
+   "wordpress": true,
+   "wp_namespaces": [
+    "wpraddons\\/v1\\/ajaxselect2",
+    "wpr-addons\\/v1",
+    "wpraddons\\/v1",
+    "wp\\/v2",
+    "wp-site-health\\/v1",
+    "wp-block-editor\\/v1",
+    "wp-abilities\\/v1",
+    "wp",
+    "wp_cli",
+    "wpraddons\\/v1\\/ajaxselect2",
+    "wpraddons\\/v1\\/ajaxselect2",
+    "wpraddons\\/v1\\/ajaxselect2"
+   ],
+   "datas_no_texto": 0,
+   "portas": [
+    "feed",
+    "porta do WordPress",
+    "mapa do site"
+   ],
+   "conclusao": "leitura limpa: feed"
+  },
+  {
+   "id": "F030",
+   "nome": "Circo Voador",
+   "regiao": "Centro",
+   "url": "https://circovoador.com.br",
+   "robots_status": 404,
+   "robots_permite": null,
+   "status": 200,
+   "url_final": "https://www.circovoador.com.br/",
+   "tamanho": 3756,
+   "jsonld_tipos": [],
+   "wordpress": false,
+   "datas_no_texto": 0,
+   "portas": [],
+   "conclusao": "página abre, mas a programação não está no texto (carregada depois, ou em outra página)"
+  },
+  {
+   "id": "F031",
+   "nome": "D-Edge Rio",
+   "regiao": "Centro",
+   "url": "https://d-edge.com.br",
+   "robots_status": 200,
+   "robots_mapa": [
+    "https://d-edge.com.br/en_en-sitemap.xml",
+    "https://d-edge.com.br/sitemap.xml"
+   ],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://www.d-edge.com.br/",
+   "tamanho": 599946,
+   "feeds": [
+    "https://www.d-edge.com.br/blog-feed.xml"
+   ],
+   "jsonld_tipos": [
+    "WebSite"
+   ],
+   "wordpress": false,
+   "datas_no_texto": 0,
+   "portas": [
+    "feed",
+    "mapa do site"
+   ],
+   "conclusao": "leitura limpa: feed"
+  },
+  {
+   "id": "F033",
+   "nome": "É Tudo Verdade",
+   "regiao": "Centro",
+   "url": "https://etudoverdade.com.br",
+   "robots_status": 0,
+   "robots_permite": null,
+   "status": 0,
+   "url_final": "https://etudoverdade.com.br",
+   "erro": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.",
+   "conclusao": "não respondeu da nuvem"
+  },
+  {
+   "id": "F034",
+   "nome": "Fundição Progresso",
+   "regiao": "Centro",
+   "url": "https://fundicaoprogresso.com.br",
+   "robots_status": 404,
+   "robots_permite": null,
+   "status": 200,
+   "url_final": "https://fundicaoprogresso.com.br",
+   "tamanho": 49348,
+   "jsonld_tipos": [],
+   "wordpress": false,
+   "datas_no_texto": 0,
+   "portas": [],
+   "conclusao": "página abre, mas a programação não está no texto (carregada depois, ou em outra página)"
+  },
+  {
+   "id": "F035",
+   "nome": "Lapa 40 Graus",
+   "regiao": "Centro",
+   "url": "https://lapa40graus.com.br",
+   "robots_status": 0,
+   "robots_permite": null,
+   "status": 0,
+   "url_final": "https://lapa40graus.com.br",
+   "erro": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f",
+   "conclusao": "não respondeu da nuvem"
+  },
+  {
+   "id": "F037",
+   "nome": "LIESA / Rio Carnaval",
+   "regiao": "Centro",
+   "url": "https://riocarnaval.com",
+   "robots_status": 200,
+   "robots_mapa": [
+    "https://www.riocarnaval.com/sitemap.xml"
+   ],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://www.riocarnaval.com/",
+   "tamanho": 599942,
+   "feeds": [
+    "https://www.riocarnaval.com/blog-feed.xml"
+   ],
+   "jsonld_tipos": [
+    "WebSite"
+   ],
+   "wordpress": false,
+   "datas_no_texto": 0,
+   "portas": [
+    "feed",
+    "mapa do site"
+   ],
+   "conclusao": "leitura limpa: feed"
+  },
+  {
+   "id": "F044",
+   "nome": "Museu Histórico Nacional (MHN)",
+   "regiao": "Centro",
+   "url": "https://mhn.museus.gov.br",
+   "robots_status": 200,
+   "robots_mapa": [
+    "https://mhn.museus.gov.br/wp-sitemap.xml"
+   ],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://mhn.museus.gov.br",
+   "tamanho": 193105,
+   "feeds": [
+    "https://mhn.museus.gov.br/feed/"
+   ],
+   "jsonld_tipos": [],
+   "wordpress": true,
+   "wp_namespaces": [
+    "wpzoom-social-icons\\/v1",
+    "wp-mail-smtp\\/setup-wizard\\/v1",
+    "wp\\/v2",
+    "wp-site-health\\/v1",
+    "wp-block-editor\\/v1",
+    "wp-abilities\\/v1",
+    "wpzoom-social-icons\\/v1",
+    "wpzoom-social-icons\\/v1",
+    "wpzoom-social-icons\\/v1",
+    "wpnonce",
+    "wpnonce",
+    "wpnonce"
+   ],
+   "datas_no_texto": 0,
+   "portas": [
+    "feed",
+    "porta do WordPress",
+    "mapa do site"
+   ],
+   "conclusao": "leitura limpa: feed"
+  },
+  {
+   "id": "F045",
+   "nome": "Museu Nacional de Belas Artes (MNBA)",
+   "regiao": "Centro",
+   "url": "https://mnba.museus.gov.br",
+   "robots_status": 0,
+   "robots_permite": null,
+   "status": 0,
+   "url_final": "https://mnba.museus.gov.br",
+   "erro": "URLError: <urlopen error [Errno -2] Name or service not known>",
+   "conclusao": "não respondeu da nuvem"
+  },
+  {
+   "id": "F049",
+   "nome": "Real Gabinete Português de Leitura",
+   "regiao": "Centro",
+   "url": "https://realgabinete.com.br",
+   "robots_status": 0,
+   "robots_permite": null,
+   "status": 0,
+   "url_final": "https://realgabinete.com.br",
+   "erro": "URLError: <urlopen error [Errno -5] No address associated with hostname>",
+   "conclusao": "não respondeu da nuvem"
+  },
+  {
+   "id": "F050",
+   "nome": "Rio Scenarium",
+   "regiao": "Centro",
+   "url": "https://rioscenarium.com.br",
+   "robots_status": 200,
+   "robots_mapa": [
+    "https://rioscenarium.com.br/sitemap.xml"
+   ],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://www.rioscenarium.com.br/",
+   "tamanho": 599872,
+   "jsonld_tipos": [
+    "WebSite"
+   ],
+   "wordpress": false,
+   "datas_no_texto": 0,
+   "portas": [
+    "mapa do site"
+   ],
+   "conclusao": "página abre, mas a programação não está no texto (carregada depois, ou em outra página)"
+  },
+  {
+   "id": "F051",
+   "nome": "Sala Cecília Meireles",
+   "regiao": "Centro",
+   "url": "https://salaceciliameireles.rj.gov.br",
+   "robots_status": 200,
+   "robots_mapa": [
+    "https://salaceciliameireles.rj.gov.br/sitemap.xml"
+   ],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://salaceciliameireles.rj.gov.br",
+   "tamanho": 277149,
+   "feeds": [
+    "https://salaceciliameireles.rj.gov.br/feed/"
+   ],
+   "jsonld_tipos": [],
+   "wordpress": true,
+   "wp_namespaces": [
+    "wp\\/v2",
+    "wp-site-health\\/v1",
+    "wp-block-editor\\/v1",
+    "wp-abilities\\/v1",
+    "event-form-move",
+    "event-form-move-filled-only",
+    "event-new-user-registration",
+    "event-user-logged-in",
+    "event-youtube",
+    "event-vimeo",
+    "event-soundcloud",
+    "event-html5-media"
+   ],
+   "datas_no_texto": 0,
+   "portas": [
+    "feed",
+    "porta do WordPress",
+    "mapa do site"
+   ],
+   "conclusao": "leitura limpa: feed"
+  },
+  {
+   "id": "F059",
+   "nome": "Teatro João Caetano",
+   "regiao": "Centro",
+   "url": "https://rj.gov.br/funarj",
+   "robots_status": 503,
+   "robots_permite": null,
+   "status": 503,
+   "url_final": "https://rj.gov.br/funarj",
+   "erro": "",
+   "conclusao": "recusou (código 503)"
+  },
+  {
+   "id": "F061",
+   "nome": "Teatro Riachuelo Rio",
+   "regiao": "Centro",
+   "url": "https://teatroriachuelorio.com.br",
+   "robots_status": 200,
+   "robots_mapa": [
+    "https://teatroriachuelorio.com.br/sitemap_index.xml"
+   ],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://teatroriachuelorio.com.br",
+   "tamanho": 253215,
+   "feeds": [
+    "https://teatroriachuelorio.com.br/feed/"
+   ],
+   "jsonld_tipos": [
+    "BreadcrumbList",
+    "EntryPoint",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "PropertyValueSpecification",
+    "ReadAction",
+    "SearchAction",
+    "WebPage",
+    "WebSite"
+   ],
+   "wordpress": true,
+   "wp_namespaces": [
+    "wp-mail-smtp\\/setup-wizard\\/v1",
+    "wp-offload-media\\/v1",
+    "wp\\/v2",
+    "wp-site-health\\/v1",
+    "wp-block-editor\\/v1",
+    "wp-abilities\\/v1",
+    "event",
+    "events",
+    "eventData",
+    "wp-mail-smtp\\/setup-wizard\\/v1",
+    "wp-mail-smtp\\/setup-wizard\\/v1",
+    "wp-mail-smtp\\/setup-wizard\\/v1"
+   ],
+   "datas_no_texto": 3,
+   "portas": [
+    "feed",
+    "porta do WordPress",
+    "mapa do site"
+   ],
+   "conclusao": "leitura limpa: feed"
+  },
+  {
+   "id": "F062",
+   "nome": "Teatro Rival Petrobras",
+   "regiao": "Centro",
+   "url": "https://teatrorivalrefit.com.br",
+   "robots_status": 403,
+   "robots_permite": null,
+   "status": 403,
+   "url_final": "https://teatrorivalrefit.com.br",
+   "erro": "",
+   "conclusao": "recusou (código 403)"
+  },
+  {
+   "id": "F063",
+   "nome": "Theatro Municipal do Rio de Janeiro",
+   "regiao": "Centro",
+   "url": "https://theatromunicipal.rj.gov.br",
+   "robots_status": 200,
+   "robots_mapa": [],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://theatromunicipal.rj.gov.br",
+   "tamanho": 56919,
+   "jsonld_tipos": [],
+   "wordpress": true,
+   "wp_namespaces": [
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2"
+   ],
+   "feeds": [
+    "https://theatromunicipal.rj.gov.br/feed/"
+   ],
+   "datas_no_texto": 3,
+   "portas": [
+    "porta do WordPress",
+    "feed"
+   ],
+   "conclusao": "leitura limpa: feed"
+  },
+  {
+   "id": "F064",
+   "nome": "Trapiche Gamboa",
+   "regiao": "Centro",
+   "url": "https://trapichegamboa.com.br",
+   "robots_status": 0,
+   "robots_permite": null,
+   "status": 0,
+   "url_final": "https://trapichegamboa.com.br",
+   "erro": "URLError: <urlopen error [Errno -2] Name or service not known>",
+   "conclusao": "não respondeu da nuvem"
+  },
+  {
+   "id": "F065",
+   "nome": "Anita Schwartz Galeria de Arte",
+   "regiao": "Zona Sul",
+   "url": "https://anitaschwartz.com.br",
+   "robots_status": 200,
+   "robots_mapa": [
+    "https://www.anitaschwartz.com.br/wp-sitemap.xml"
+   ],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://www.anitaschwartz.com.br/",
+   "tamanho": 192250,
+   "feeds": [
+    "https://www.anitaschwartz.com.br/feed/"
+   ],
+   "jsonld_tipos": [],
+   "wordpress": true,
+   "wp_namespaces": [
+    "wp-all-import\\/v1",
+    "wpstg\\/v1",
+    "wp\\/v2",
+    "wp-site-health\\/v1",
+    "wp-block-editor\\/v1",
+    "wp-all-import\\/v1",
+    "wp-all-import\\/v1",
+    "wp-all-import\\/v1",
+    "wpstg\\/v1",
+    "wpstg\\/v1",
+    "wpstg\\/v1",
+    "wpstg\\/v1"
+   ],
+   "datas_no_texto": 12,
+   "portas": [
+    "feed",
+    "porta do WordPress",
+    "mapa do site"
+   ],
+   "conclusao": "leitura limpa: feed"
+  },
+  {
+   "id": "F066",
+   "nome": "ArtRio",
+   "regiao": "Zona Sul",
+   "url": "https://artrio.com",
+   "robots_status": 200,
+   "robots_permite": null,
+   "status": 200,
+   "url_final": "https://artrio.com",
+   "tamanho": 52830,
+   "jsonld_tipos": [],
+   "wordpress": true,
+   "datas_no_texto": 16,
+   "portas": [],
+   "conclusao": "só leitura da página (programação aparece no texto)"
+  },
+  {
+   "id": "F068",
+   "nome": "Beco das Garrafas",
+   "regiao": "Zona Sul",
+   "url": "https://becodasgarrafas.com.br",
+   "robots_status": 200,
+   "robots_mapa": [
+    "https://becodasgarrafas.com.br/sitemap.xml"
+   ],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://becodasgarrafas.com.br",
+   "tamanho": 102087,
+   "feeds": [
+    "https://becodasgarrafas.com.br/feed/"
+   ],
+   "jsonld_tipos": [
+    "ContactPoint",
+    "ImageObject",
+    "Organization",
+    "SiteNavigationElement",
+    "WebSite"
+   ],
+   "wordpress": true,
+   "wp_namespaces": [
+    "wp\\/v2",
+    "wpcom\\/v2",
+    "wpcom\\/v3",
+    "wp-site-health\\/v1",
+    "wp-block-editor\\/v1",
+    "wp-abilities\\/v1",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wpcom\\/v2",
+    "wpcom\\/v2",
+    "wpcom\\/v2"
+   ],
+   "datas_no_texto": 0,
+   "portas": [
+    "feed",
+    "porta do WordPress",
+    "mapa do site"
+   ],
+   "conclusao": "leitura limpa: feed"
+  },
+  {
+   "id": "F070",
+   "nome": "Blue Note Rio",
+   "regiao": "Zona Sul",
+   "url": "https://bluenoterio.com.br",
+   "robots_status": 200,
+   "robots_mapa": [
+    "https://bluenoterio.com.br/sitemap.xml"
+   ],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://bluenoterio.com.br",
+   "tamanho": 218378,
+   "jsonld_tipos": [
+    "BreadcrumbList",
+    "EntryPoint",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "PropertyValueSpecification",
+    "ReadAction",
+    "SearchAction",
+    "WebPage",
+    "WebSite"
+   ],
+   "wordpress": true,
+   "wp_namespaces": [
+    "wp-site-designer\\/v1",
+    "wpaas\\/v1",
+    "wp\\/v2",
+    "wp-site-health\\/v1",
+    "wp-block-editor\\/v1",
+    "wp-abilities\\/v1",
+    "wp-site-designer\\/v1",
+    "wp-site-designer\\/v1",
+    "wp-site-designer\\/v1",
+    "wp-site-designer\\/v1",
+    "wp-site-designer\\/v1",
+    "wp-site-designer\\/v1"
+   ],
+   "datas_no_texto": 0,
+   "portas": [
+    "porta do WordPress",
+    "mapa do site"
+   ],
+   "conclusao": "página abre, mas a programação não está no texto (carregada depois, ou em outra página)"
+  },
+  {
+   "id": "F071",
+   "nome": "Carpintaria (Fortes D'Aloia & Gabriel)",
+   "regiao": "Zona Sul",
+   "url": "https://fdag.com.br",
+   "robots_status": 200,
+   "robots_mapa": [],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://fdag.com.br",
+   "tamanho": 21387,
+   "feeds": [
+    "https://fdag.com.br/feed/"
+   ],
+   "jsonld_tipos": [
+    "SearchAction",
+    "WebSite"
+   ],
+   "wordpress": false,
+   "datas_no_texto": 0,
+   "portas": [
+    "feed"
+   ],
+   "conclusao": "leitura limpa: feed"
+  },
+  {
+   "id": "F072",
+   "nome": "Casa da Ciência da UFRJ",
+   "regiao": "Zona Sul",
+   "url": "https://casadaciencia.ufrj.br",
+   "robots_status": 200,
+   "robots_mapa": [],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://casadaciencia.ufrj.br",
+   "tamanho": 85437,
+   "jsonld_tipos": [],
+   "wordpress": true,
+   "datas_no_texto": 5,
+   "portas": [],
+   "conclusao": "só leitura da página (programação aparece no texto)"
+  },
+  {
+   "id": "F074",
+   "nome": "Casa Firjan",
+   "regiao": "Zona Sul",
+   "url": "https://firjan.com.br/casafirjan",
+   "robots_status": 200,
+   "robots_mapa": [],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://casafirjan.com.br/",
+   "tamanho": 114382,
+   "jsonld_tipos": [],
+   "wordpress": false,
+   "datas_no_texto": 10,
+   "portas": [],
+   "conclusao": "só leitura da página (programação aparece no texto)"
+  },
+  {
+   "id": "F075",
+   "nome": "Casa Museu Eva Klabin",
+   "regiao": "Zona Sul",
+   "url": "https://evaklabin.org.br",
+   "robots_status": 404,
+   "robots_permite": null,
+   "status": 200,
+   "url_final": "https://www.evaklabin.org.br/pt",
+   "tamanho": 49015,
+   "jsonld_tipos": [],
+   "wordpress": true,
+   "datas_no_texto": 0,
+   "portas": [],
+   "conclusao": "página abre, mas a programação não está no texto (carregada depois, ou em outra página)"
+  },
+  {
+   "id": "F076",
+   "nome": "Casa Roberto Marinho",
+   "regiao": "Zona Sul",
+   "url": "https://casarobertomarinho.org.br",
+   "robots_status": 404,
+   "robots_permite": null,
+   "status": 200,
+   "url_final": "https://casarobertomarinho.org.br",
+   "tamanho": 26646,
+   "jsonld_tipos": [],
+   "wordpress": false,
+   "datas_no_texto": 0,
+   "portas": [],
+   "conclusao": "página abre, mas a programação não está no texto (carregada depois, ou em outra página)"
+  },
+  {
+   "id": "F077",
+   "nome": "Centro Cultural Arte Sesc",
+   "regiao": "Zona Sul",
+   "url": "https://sescrio.org.br",
+   "robots_status": 200,
+   "robots_mapa": [
+    "https://sescrio.org.br/sitemap_index.xml"
+   ],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://sescrio.org.br",
+   "tamanho": 191240,
+   "jsonld_tipos": [
+    "BreadcrumbList",
+    "EntryPoint",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "PropertyValueSpecification",
+    "ReadAction",
+    "SearchAction",
+    "WebPage",
+    "WebSite"
+   ],
+   "wordpress": true,
+   "feeds": [
+    "https://sescrio.org.br/feed/"
+   ],
+   "datas_no_texto": 2,
+   "portas": [
+    "feed",
+    "mapa do site"
+   ],
+   "conclusao": "leitura limpa: feed"
+  },
+  {
+   "id": "F080",
+   "nome": "Cinesystem Belas Artes Botafogo",
+   "regiao": "Zona Sul",
+   "url": "https://cinesystem.com.br",
+   "robots_status": 404,
+   "robots_permite": null,
+   "status": 200,
+   "url_final": "https://www.cinesystem.com.br/",
+   "tamanho": 64009,
+   "jsonld_tipos": [],
+   "wordpress": false,
+   "app_js": true,
+   "datas_no_texto": 42,
+   "portas": [
+    "dados embutidos na página (Next.js)"
+   ],
+   "conclusao": "leitura limpa: dados embutidos na página (Next.js)"
+  },
+  {
+   "id": "F082",
+   "nome": "Danielian Galeria",
+   "regiao": "Zona Sul",
+   "url": "https://danielian.com.br",
+   "robots_status": 200,
+   "robots_mapa": [
+    "https://danielian.com.br/sitemap.xml"
+   ],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://danielian.com.br",
+   "tamanho": 592926,
+   "jsonld_tipos": [],
+   "wordpress": false,
+   "datas_no_texto": 10,
+   "portas": [
+    "mapa do site"
+   ],
+   "conclusao": "só leitura da página (programação aparece no texto)"
+  },
+  {
+   "id": "F083",
+   "nome": "EAV Parque Lage",
+   "regiao": "Zona Sul",
+   "url": "https://eavparquelage.rj.gov.br",
+   "robots_status": 200,
+   "robots_mapa": [
+    "https://www.example.com/sitemap.xml"
+   ],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://eavparquelage.rj.gov.br",
+   "tamanho": 178913,
+   "jsonld_tipos": [],
+   "wordpress": false,
+   "datas_no_texto": 0,
+   "portas": [
+    "mapa do site"
+   ],
+   "conclusao": "página abre, mas a programação não está no texto (carregada depois, ou em outra página)"
+  },
+  {
+   "id": "F084",
+   "nome": "EcoVilla Ri Happy",
+   "regiao": "Zona Sul",
+   "url": "https://ecovillarihappy.com.br",
+   "robots_status": 200,
+   "robots_mapa": [
+    "https://ecovillarihappy.com.br/sitemap_index.xml"
+   ],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://ecovillarihappy.com.br",
+   "tamanho": 262121,
+   "feeds": [
+    "https://ecovillarihappy.com.br/feed/"
+   ],
+   "jsonld_tipos": [
+    "BreadcrumbList",
+    "EntryPoint",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "PropertyValueSpecification",
+    "ReadAction",
+    "SearchAction",
+    "WebPage",
+    "WebSite"
+   ],
+   "wordpress": true,
+   "wp_namespaces": [
+    "wp-mail-smtp\\/v1",
+    "wp\\/v2",
+    "wp-site-health\\/v1",
+    "wp-block-editor\\/v1",
+    "wp-abilities\\/v1",
+    "event",
+    "events",
+    "eventData",
+    "wp-mail-smtp\\/v1",
+    "wp-mail-smtp\\/v1",
+    "wp-mail-smtp\\/v1",
+    "wp\\/v2"
+   ],
+   "datas_no_texto": 0,
+   "portas": [
+    "feed",
+    "porta do WordPress",
+    "mapa do site"
+   ],
+   "conclusao": "leitura limpa: feed"
+  },
+  {
+   "id": "F087",
+   "nome": "Fundação Casa de Rui Barbosa",
+   "regiao": "Zona Sul",
+   "url": "https://gov.br/casaderuibarbosa/pt-br/assuntos/eventos",
+   "robots_status": 200,
+   "robots_mapa": [
+    "https://www.gov.br/sitemap.xml.gz"
+   ],
+   "robots_permite": true,
+   "status": 404,
+   "url_final": "https://gov.br/casaderuibarbosa/pt-br/assuntos/eventos",
+   "erro": "",
+   "conclusao": "recusou (código 404)"
+  },
+  {
+   "id": "F088",
+   "nome": "Futuros – Arte e Tecnologia (Oi Futuro)",
+   "regiao": "Zona Sul",
+   "url": "https://futuros.org.br",
+   "robots_status": 200,
+   "robots_permite": null,
+   "status": 200,
+   "url_final": "https://petrobrasfuturos.com.br/",
+   "tamanho": 153567,
+   "feeds": [
+    "https://petrobrasfuturos.com.br/feed/"
+   ],
+   "jsonld_tipos": [
+    "Article",
+    "ImageObject",
+    "Person",
+    "SearchAction",
+    "WebPage",
+    "WebSite"
+   ],
+   "wordpress": true,
+   "datas_no_texto": 7,
+   "portas": [
+    "feed"
+   ],
+   "conclusao": "leitura limpa: feed"
+  },
+  {
+   "id": "F089",
+   "nome": "Galeria Athena",
+   "regiao": "Zona Sul",
+   "url": "https://galeriaathena.com",
+   "robots_status": 200,
+   "robots_mapa": [
+    "/sitemap.xml"
+   ],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://galeriaathena.com",
+   "tamanho": 37994,
+   "jsonld_tipos": [],
+   "wordpress": false,
+   "datas_no_texto": 0,
+   "portas": [
+    "mapa do site"
+   ],
+   "conclusao": "página abre, mas a programação não está no texto (carregada depois, ou em outra página)"
+  },
+  {
+   "id": "F090",
+   "nome": "Galeria Nara Roesler",
+   "regiao": "Zona Sul",
+   "url": "https://nararoesler.com.br",
+   "robots_status": 0,
+   "robots_permite": null,
+   "status": 0,
+   "url_final": "https://nararoesler.com.br",
+   "erro": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1011)>",
+   "conclusao": "não respondeu da nuvem"
+  },
+  {
+   "id": "F091",
+   "nome": "Grupo Estação (Botafogo, Gávea, Rio)",
+   "regiao": "Zona Sul",
+   "url": "https://grupoestacao.com.br",
+   "robots_status": 200,
+   "robots_mapa": [
+    "https://grupoestacao.com.br/wp-sitemap.xml"
+   ],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://grupoestacao.com.br",
+   "tamanho": 212456,
+   "jsonld_tipos": [],
+   "wordpress": true,
+   "wp_namespaces": [
+    "wp-smush\\/v1",
+    "wp\\/v2",
+    "wp-site-health\\/v1",
+    "wp-block-editor\\/v1",
+    "wp-abilities\\/v1",
+    "wp-smush\\/v1",
+    "wp-smush\\/v1",
+    "wp-smush\\/v1",
+    "event",
+    "event_data",
+    "wp\\/v2",
+    "wp\\/v2"
+   ],
+   "feeds": [
+    "https://grupoestacao.com.br/feed/"
+   ],
+   "datas_no_texto": 15,
+   "portas": [
+    "porta do WordPress",
+    "feed",
+    "mapa do site"
+   ],
+   "conclusao": "leitura limpa: feed"
+  },
+  {
+   "id": "F092",
+   "nome": "IMS Rio (Instituto Moreira Salles)",
+   "regiao": "Zona Sul",
+   "url": "https://ims.com.br",
+   "robots_status": 200,
+   "robots_mapa": [
+    "https://ims.com.br/sitemap.xml"
+   ],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://ims.com.br",
+   "tamanho": 191753,
+   "jsonld_tipos": [
+    "BreadcrumbList",
+    "EntryPoint",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "PropertyValueSpecification",
+    "ReadAction",
+    "SearchAction",
+    "WebPage",
+    "WebSite"
+   ],
+   "wordpress": true,
+   "wp_namespaces": [
+    "tribe\\/event-aggregator\\/v1",
+    "tribe\\/events\\/v1",
+    "tribe\\/views\\/v2",
+    "tribe\\/zapier\\/v1",
+    "tribe\\/power-automate\\/v1",
+    "wp-rollback\\/v1",
+    "wp-offload-ses\\/v1",
+    "wp\\/v2",
+    "wp-site-health\\/v1",
+    "wp-block-editor\\/v1",
+    "tribe\\/event-aggregator\\/v1",
+    "tribe\\/event-aggregator\\/v1"
+   ],
+   "feeds": [
+    "https://ims.com.br/feed/"
+   ],
+   "datas_no_texto": 0,
+   "portas": [
+    "porta do WordPress",
+    "feed",
+    "mapa do site"
+   ],
+   "conclusao": "leitura limpa: feed"
+  },
+  {
+   "id": "F093",
+   "nome": "Jardim Botânico do Rio de Janeiro",
+   "regiao": "Zona Sul",
+   "url": "https://gov.br/jbrj",
+   "robots_status": 200,
+   "robots_mapa": [
+    "https://www.gov.br/sitemap.xml.gz"
+   ],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://www.gov.br/jbrj/pt-br",
+   "tamanho": 485625,
+   "jsonld_tipos": [],
+   "wordpress": false,
+   "datas_no_texto": 0,
+   "portas": [
+    "mapa do site"
+   ],
+   "conclusao": "página abre, mas a programação não está no texto (carregada depois, ou em outra página)"
+  },
+  {
+   "id": "F094",
+   "nome": "Livraria Argumento",
+   "regiao": "Zona Sul",
+   "url": "https://livrariaargumento.com.br",
+   "robots_status": 0,
+   "robots_permite": null,
+   "status": 0,
+   "url_final": "https://livrariaargumento.com.br",
+   "erro": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f",
+   "conclusao": "não respondeu da nuvem"
+  },
+  {
+   "id": "F095",
+   "nome": "Livraria Blooks",
+   "regiao": "Zona Sul",
+   "url": "https://blooks.com.br",
+   "robots_status": 200,
+   "robots_mapa": [],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://blooks.com.br",
+   "tamanho": 599642,
+   "jsonld_tipos": [],
+   "wordpress": false,
+   "datas_no_texto": 0,
+   "portas": [],
+   "conclusao": "página abre, mas a programação não está no texto (carregada depois, ou em outra página)"
+  },
+  {
+   "id": "F096",
+   "nome": "Livraria Martins Fontes / Prefácio",
+   "regiao": "Zona Sul",
+   "url": "https://livrariaprefacio.com.br",
+   "robots_status": 0,
+   "robots_permite": null,
+   "status": 0,
+   "url_final": "https://livrariaprefacio.com.br",
+   "erro": "URLError: <urlopen error [Errno -2] Name or service not known>",
+   "conclusao": "não respondeu da nuvem"
+  },
+  {
+   "id": "F097",
+   "nome": "MAM Rio (Museu de Arte Moderna)",
+   "regiao": "Zona Sul",
+   "url": "https://mam.rio",
+   "robots_status": 200,
+   "robots_mapa": [
+    "https://mam.rio/sitemap.xml"
+   ],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://mam.rio",
+   "tamanho": 190516,
+   "feeds": [
+    "https://mam.rio/feed/"
+   ],
+   "jsonld_tipos": [],
+   "wordpress": true,
+   "wp_namespaces": [
+    "wp\\/v2",
+    "wp-site-health\\/v1",
+    "wp-block-editor\\/v1",
+    "wp-abilities\\/v1",
+    "wpnonce",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2"
+   ],
+   "datas_no_texto": 1,
+   "portas": [
+    "feed",
+    "porta do WordPress",
+    "mapa do site"
+   ],
+   "conclusao": "leitura limpa: feed"
+  },
+  {
+   "id": "F098",
+   "nome": "Marina da Glória",
+   "regiao": "Zona Sul",
+   "url": "https://marinadagloria.com.br",
+   "robots_status": 404,
+   "robots_permite": null,
+   "status": 200,
+   "url_final": "https://brmarinas.com.br/axia-marina-da-gloria//",
+   "tamanho": 248301,
+   "feeds": [
+    "https://brmarinas.com.br/feed/"
+   ],
+   "jsonld_tipos": [
+    "BreadcrumbList",
+    "EntryPoint",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "PropertyValueSpecification",
+    "ReadAction",
+    "SearchAction",
+    "WebPage",
+    "WebSite"
+   ],
+   "wordpress": true,
+   "datas_no_texto": 0,
+   "portas": [
+    "feed"
+   ],
+   "conclusao": "leitura limpa: feed"
+  },
+  {
+   "id": "F100",
+   "nome": "Mercedes Viegas Arte Contemporânea",
+   "regiao": "Zona Sul",
+   "url": "https://mercedesviegas.com.br",
+   "robots_status": 200,
+   "robots_mapa": [
+    "https://www.mercedesviegas.com.br/sitemap.xml"
+   ],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://www.mercedesviegas.com.br/",
+   "tamanho": 147994,
+   "feeds": [
+    "https://www.mercedesviegas.com.br/bem-vindos?format=rss"
+   ],
+   "jsonld_tipos": [
+    "WebSite"
+   ],
+   "wordpress": false,
+   "datas_no_texto": 0,
+   "portas": [
+    "feed",
+    "mapa do site"
+   ],
+   "conclusao": "leitura limpa: feed"
+  },
+  {
+   "id": "F101",
+   "nome": "Mul.ti.plo Espaço Arte",
+   "regiao": "Zona Sul",
+   "url": "https://multiploespacoarte.com.br",
+   "robots_status": 200,
+   "robots_mapa": [
+    "http://www.mmmgaleria.com.br/sitemap.xml"
+   ],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://www.mmmgaleria.com.br/",
+   "tamanho": 98126,
+   "feeds": [
+    "http://www.mmmgaleria.com.br/home-2?format=rss"
+   ],
+   "jsonld_tipos": [
+    "LocalBusiness",
+    "Organization",
+    "WebSite"
+   ],
+   "wordpress": false,
+   "datas_no_texto": 0,
+   "portas": [
+    "feed",
+    "mapa do site"
+   ],
+   "conclusao": "leitura limpa: feed"
+  },
+  {
+   "id": "F102",
+   "nome": "Museu da República (Palácio do Catete)",
+   "regiao": "Zona Sul",
+   "url": "https://museudarepublica.museus.gov.br",
+   "robots_status": 200,
+   "robots_mapa": [
+    "https://museudarepublica.museus.gov.br/wp-sitemap.xml"
+   ],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://museudarepublica.museus.gov.br",
+   "tamanho": 165291,
+   "feeds": [
+    "https://museudarepublica.museus.gov.br/feed/"
+   ],
+   "jsonld_tipos": [],
+   "wordpress": true,
+   "wp_namespaces": [
+    "wpzoom-social-icons\\/v1",
+    "wp\\/v2",
+    "wp-site-health\\/v1",
+    "wp-block-editor\\/v1",
+    "wp-abilities\\/v1",
+    "wpzoom-social-icons\\/v1",
+    "wpzoom-social-icons\\/v1",
+    "wpzoom-social-icons\\/v1",
+    "wpnonce",
+    "wpnonce",
+    "wpnonce",
+    "wpnonce"
+   ],
+   "datas_no_texto": 0,
+   "portas": [
+    "feed",
+    "porta do WordPress",
+    "mapa do site"
+   ],
+   "conclusao": "leitura limpa: feed"
+  },
+  {
+   "id": "F104",
+   "nome": "Museu Villa-Lobos",
+   "regiao": "Zona Sul",
+   "url": "https://museuvillalobos.museus.gov.br",
+   "robots_status": 200,
+   "robots_mapa": [
+    "https://museuvillalobos.museus.gov.br/wp-sitemap.xml"
+   ],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://museuvillalobos.museus.gov.br",
+   "tamanho": 130312,
+   "feeds": [
+    "https://museuvillalobos.museus.gov.br/feed/"
+   ],
+   "jsonld_tipos": [],
+   "wordpress": true,
+   "wp_namespaces": [
+    "wp\\/v2",
+    "wp-site-health\\/v1",
+    "wp-block-editor\\/v1",
+    "wp-abilities\\/v1",
+    "wpnonce",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2"
+   ],
+   "datas_no_texto": 1,
+   "portas": [
+    "feed",
+    "porta do WordPress",
+    "mapa do site"
+   ],
+   "conclusao": "leitura limpa: feed"
+  },
+  {
+   "id": "F105",
+   "nome": "Pinakotheke Cultural",
+   "regiao": "Zona Sul",
+   "url": "https://pinakotheke.com.br",
+   "robots_status": 200,
+   "robots_mapa": [
+    "/sitemap.xml"
+   ],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://pinakotheke.com.br",
+   "tamanho": 86546,
+   "jsonld_tipos": [],
+   "wordpress": false,
+   "datas_no_texto": 0,
+   "portas": [
+    "mapa do site"
+   ],
+   "conclusao": "página abre, mas a programação não está no texto (carregada depois, ou em outra página)"
+  },
+  {
+   "id": "F107",
+   "nome": "Portas Vilaseca Galeria",
+   "regiao": "Zona Sul",
+   "url": "https://portasvilaseca.com.br",
+   "robots_status": 200,
+   "robots_mapa": [],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://portasvilaseca.com.br/pt",
+   "tamanho": 233284,
+   "jsonld_tipos": [],
+   "wordpress": true,
+   "datas_no_texto": 8,
+   "portas": [],
+   "conclusao": "só leitura da página (programação aparece no texto)"
+  },
+  {
+   "id": "F111",
+   "nome": "Sesc Copacabana",
+   "regiao": "Zona Sul",
+   "url": "https://cultura.sescrio.org.br",
+   "robots_status": 404,
+   "robots_permite": null,
+   "status": 200,
+   "url_final": "https://cultura.sescrio.org.br",
+   "tamanho": 313511,
+   "jsonld_tipos": [],
+   "wordpress": true,
+   "datas_no_texto": 53,
+   "portas": [],
+   "conclusao": "só leitura da página (programação aparece no texto)"
+  },
+  {
+   "id": "F112",
+   "nome": "Silvia Cintra + Box 4",
+   "regiao": "Zona Sul",
+   "url": "https://silviacintra.com.br",
+   "robots_status": 200,
+   "robots_mapa": [
+    "https://silviacintra.com.br/sitemap_index.xml"
+   ],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://silviacintra.com.br",
+   "tamanho": 176976,
+   "jsonld_tipos": [
+    "BreadcrumbList",
+    "EntryPoint",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "ReadAction",
+    "SearchAction",
+    "WebPage",
+    "WebSite"
+   ],
+   "wordpress": false,
+   "datas_no_texto": 0,
+   "portas": [
+    "mapa do site"
+   ],
+   "conclusao": "página abre, mas a programação não está no texto (carregada depois, ou em outra página)"
+  },
+  {
+   "id": "F113",
+   "nome": "Solar de Botafogo",
+   "regiao": "Zona Sul",
+   "url": "https://solardebotafogo.com.br",
+   "robots_status": 200,
+   "robots_mapa": [],
+   "robots_permite": true,
+   "status": 403,
+   "url_final": "https://solardebotafogo.com.br",
+   "erro": "",
+   "conclusao": "recusou (código 403)"
+  },
+  {
+   "id": "F114",
+   "nome": "Teatro Casa Grande",
+   "regiao": "Zona Sul",
+   "url": "https://teatrocasagrande.com.br",
+   "robots_status": 200,
+   "robots_mapa": [
+    "https://teatrocasagrande.com.br/sitemap.xml"
+   ],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://www.teatroaxiacasagrande.com.br/",
+   "tamanho": 69584,
+   "feeds": [
+    "https://www.teatroaxiacasagrande.com.br/feed/"
+   ],
+   "jsonld_tipos": [],
+   "wordpress": true,
+   "wp_namespaces": [
+    "wp\\/v2",
+    "wp-site-health\\/v1",
+    "wp-block-editor\\/v1",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2"
+   ],
+   "datas_no_texto": 13,
+   "portas": [
+    "feed",
+    "porta do WordPress",
+    "mapa do site"
+   ],
+   "conclusao": "leitura limpa: feed"
+  },
+  {
+   "id": "F116",
+   "nome": "Teatro das Artes",
+   "regiao": "Zona Sul",
+   "url": "https://teatrodasartes.com.br",
+   "robots_status": 200,
+   "robots_mapa": [
+    "https://teatrodasartes.com.br/sitemap_index.xml"
+   ],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://teatrodasartes.com.br",
+   "tamanho": 272442,
+   "feeds": [
+    "https://teatrodasartes.com.br/feed/"
+   ],
+   "jsonld_tipos": [
+    "BreadcrumbList",
+    "EntryPoint",
+    "Event",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "Person",
+    "Place",
+    "PropertyValueSpecification",
+    "ReadAction",
+    "SearchAction",
+    "WebPage"
+   ],
+   "wordpress": true,
+   "wp_namespaces": [
+    "wp-statistics\\/v2",
+    "mec\\/v1",
+    "wp\\/v2",
+    "wp-site-health\\/v1",
+    "wp-block-editor\\/v1",
+    "wp-abilities\\/v1",
+    "wp-statistics\\/v2",
+    "wp-statistics\\/v2",
+    "wp-statistics\\/v2",
+    "wp-statistics\\/v2",
+    "wp-statistics\\/v2",
+    "mec\\/v1"
+   ],
+   "datas_no_texto": 1,
+   "portas": [
+    "feed",
+    "eventos em dados estruturados",
+    "porta do WordPress",
+    "mapa do site"
+   ],
+   "conclusao": "leitura limpa: feed, eventos em dados estruturados"
+  },
+  {
+   "id": "F118",
+   "nome": "Teatro dos Quatro",
+   "regiao": "Zona Sul",
+   "url": "https://teatrodos4.com.br",
+   "robots_status": 0,
+   "robots_permite": null,
+   "status": 0,
+   "url_final": "https://teatrodos4.com.br",
+   "erro": "URLError: <urlopen error [Errno -2] Name or service not known>",
+   "conclusao": "não respondeu da nuvem"
+  },
+  {
+   "id": "F119",
+   "nome": "Teatro Glaucio Gill",
+   "regiao": "Zona Sul",
+   "url": "https://rj.gov.br/funarj",
+   "robots_status": 503,
+   "robots_permite": null,
+   "status": 503,
+   "url_final": "https://rj.gov.br/funarj",
+   "erro": "",
+   "conclusao": "recusou (código 503)"
+  },
+  {
+   "id": "F123",
+   "nome": "Teatro Poeira & Poeirinha",
+   "regiao": "Zona Sul",
+   "url": "https://teatropoeira.com.br",
+   "robots_status": 200,
+   "robots_mapa": [
+    "http://www.teatropoeira.com.br/sitemap.xml"
+   ],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://www.teatropoeira.com.br/",
+   "tamanho": 140978,
+   "feeds": [
+    "http://www.teatropoeira.com.br/home-poeira?format=rss"
+   ],
+   "jsonld_tipos": [
+    "LocalBusiness",
+    "Organization",
+    "WebSite"
+   ],
+   "wordpress": false,
+   "datas_no_texto": 0,
+   "portas": [
+    "feed",
+    "mapa do site"
+   ],
+   "conclusao": "leitura limpa: feed"
+  },
+  {
+   "id": "F125",
+   "nome": "Teatro TotalEnergies (antigo PetraGold)",
+   "regiao": "Zona Sul",
+   "url": "https://teatrototalenergies.com.br",
+   "robots_status": 200,
+   "robots_mapa": [
+    "https://teatrototalenergies.com.br/sitemap.xml"
+   ],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://teatro.totalenergies.com.br/",
+   "tamanho": 94288,
+   "jsonld_tipos": [
+    "Event",
+    "Offer",
+    "Organization",
+    "PerformingArtsTheater",
+    "PostalAddress"
+   ],
+   "wordpress": false,
+   "datas_no_texto": 14,
+   "portas": [
+    "eventos em dados estruturados",
+    "mapa do site"
+   ],
+   "conclusao": "leitura limpa: eventos em dados estruturados"
+  },
+  {
+   "id": "F126",
+   "nome": "Vivo Rio",
+   "regiao": "Zona Sul",
+   "url": "https://vivorio.com.br",
+   "robots_status": 200,
+   "robots_mapa": [
+    "https://vivorio.com.br/"
+   ],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://vivorio.com.br",
+   "tamanho": 552484,
+   "feeds": [
+    "https://vivorio.com.br/feed/"
+   ],
+   "jsonld_tipos": [],
+   "wordpress": true,
+   "wp_namespaces": [
+    "wpmudev-dashboard\\/v1",
+    "wpgb\\/v2",
+    "wpgb\\/v1",
+    "wp-mail-smtp\\/v1",
+    "wp-smush\\/v1",
+    "wpmudev_pcs\\/v1",
+    "wp\\/v2",
+    "wp-site-health\\/v1",
+    "wp-block-editor\\/v1",
+    "wpmudev-dashboard\\/v1",
+    "wpmudev-dashboard\\/v1",
+    "wpmudev-dashboard\\/v1"
+   ],
+   "datas_no_texto": 0,
+   "portas": [
+    "feed",
+    "porta do WordPress",
+    "mapa do site"
+   ],
+   "conclusao": "leitura limpa: feed"
+  },
+  {
+   "id": "F127",
+   "nome": "Z42 Arte",
+   "regiao": "Zona Sul",
+   "url": "https://z42arte.com.br",
+   "robots_status": 0,
+   "robots_permite": null,
+   "status": 0,
+   "url_final": "https://z42arte.com.br",
+   "erro": "URLError: <urlopen error [Errno -2] Name or service not known>",
+   "conclusao": "não respondeu da nuvem"
+  },
+  {
+   "id": "F133",
+   "nome": "Espaço Hall",
+   "regiao": "Zona Sudoeste",
+   "url": "https://espacohall.com.br",
+   "robots_status": 200,
+   "robots_mapa": [
+    "https://espacohall.com.br/wp-sitemap.xml"
+   ],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://espacohall.com.br",
+   "tamanho": 241120,
+   "feeds": [
+    "https://espacohall.com.br/feed/"
+   ],
+   "jsonld_tipos": [],
+   "wordpress": true,
+   "wp_namespaces": [
+    "wp-smush\\/v1",
+    "wp\\/v2",
+    "wp-site-health\\/v1",
+    "wp-block-editor\\/v1",
+    "wp-abilities\\/v1",
+    "wp-smush\\/v1",
+    "wp-smush\\/v1",
+    "wp-smush\\/v1",
+    "event",
+    "event_data",
+    "wp\\/v2",
+    "wp\\/v2"
+   ],
+   "datas_no_texto": 3,
+   "portas": [
+    "feed",
+    "porta do WordPress",
+    "mapa do site"
+   ],
+   "conclusao": "leitura limpa: feed"
+  },
+  {
+   "id": "F134",
+   "nome": "Farmasi Arena",
+   "regiao": "Zona Sudoeste",
+   "url": "https://farmasiarena.com.br",
+   "robots_status": 200,
+   "robots_mapa": [
+    "https://farmasiarena.com.br/sitemap_index.xml"
+   ],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://farmasiarena.com.br",
+   "tamanho": 294383,
+   "feeds": [
+    "https://farmasiarena.com.br/feed/"
+   ],
+   "jsonld_tipos": [
+    "BreadcrumbList",
+    "EntryPoint",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "PropertyValueSpecification",
+    "ReadAction",
+    "SearchAction",
+    "WebPage",
+    "WebSite"
+   ],
+   "wordpress": true,
+   "wp_namespaces": [
+    "wpchill\\/v1",
+    "wp\\/v2",
+    "wp-site-health\\/v1",
+    "wp-block-editor\\/v1",
+    "wp-abilities\\/v1",
+    "wpchill\\/v1",
+    "wpchill\\/v1",
+    "wpchill\\/v1",
+    "wpchill\\/v1",
+    "wpchill\\/v1",
+    "event_data",
+    "wp\\/v2"
+   ],
+   "datas_no_texto": 8,
+   "portas": [
+    "feed",
+    "porta do WordPress",
+    "mapa do site"
+   ],
+   "conclusao": "leitura limpa: feed"
+  },
+  {
+   "id": "F135",
+   "nome": "Museu Bispo do Rosário Arte Contemporânea",
+   "regiao": "Zona Sudoeste",
+   "url": "https://museubispodorosario.com",
+   "robots_status": 200,
+   "robots_mapa": [
+    "https://museubispodorosario.com/wp-sitemap.xml"
+   ],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://museubispodorosario.com",
+   "tamanho": 169860,
+   "feeds": [
+    "https://museubispodorosario.com/feed/"
+   ],
+   "jsonld_tipos": [],
+   "wordpress": true,
+   "wp_namespaces": [
+    "wp\\/v2",
+    "wp-site-health\\/v1",
+    "wp-block-editor\\/v1",
+    "wp-abilities\\/v1",
+    "event",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2"
+   ],
+   "datas_no_texto": 0,
+   "portas": [
+    "feed",
+    "porta do WordPress",
+    "mapa do site"
+   ],
+   "conclusao": "leitura limpa: feed"
+  },
+  {
+   "id": "F136",
+   "nome": "Museu do Pontal",
+   "regiao": "Zona Sudoeste",
+   "url": "https://museudopontal.org.br",
+   "robots_status": 200,
+   "robots_mapa": [
+    "https://museudopontal.org.br/sitemap_index.xml"
+   ],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://museudopontal.org.br",
+   "tamanho": 599973,
+   "feeds": [
+    "https://museudopontal.org.br/feed/",
+    "https://museudopontal.org.br/museu-do-pontal/feed/"
+   ],
+   "jsonld_tipos": [
+    "Article",
+    "ImageObject",
+    "Person",
+    "SearchAction",
+    "WebPage",
+    "WebSite"
+   ],
+   "wordpress": true,
+   "wp_namespaces": [
+    "wp-abilities\\/v1",
+    "wp\\/v2",
+    "wp-site-health\\/v1",
+    "wp-block-editor\\/v1",
+    "event",
+    "eventData",
+    "event",
+    "wp-abilities\\/v1",
+    "wp-abilities\\/v1",
+    "wp-abilities\\/v1",
+    "wp-abilities\\/v1",
+    "wp-abilities\\/v1"
+   ],
+   "datas_no_texto": 0,
+   "portas": [
+    "feed",
+    "porta do WordPress",
+    "mapa do site"
+   ],
+   "conclusao": "leitura limpa: feed"
+  },
+  {
+   "id": "F137",
+   "nome": "Qualistage",
+   "regiao": "Zona Sudoeste",
+   "url": "https://qualistage.com.br",
+   "robots_status": 200,
+   "robots_mapa": [
+    "https://qualistage.com.br/sitemap",
+    "https://qualistage.com.br/sitemap/images"
+   ],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://qualistage.com.br",
+   "tamanho": 191074,
+   "jsonld_tipos": [
+    "ContactPoint",
+    "EntertainmentBusiness",
+    "GeoCoordinates",
+    "Organization",
+    "PostalAddress"
+   ],
+   "wordpress": false,
+   "datas_no_texto": 10,
+   "portas": [
+    "mapa do site"
+   ],
+   "conclusao": "só leitura da página (programação aparece no texto)"
+  },
+  {
+   "id": "F138",
+   "nome": "Teatro Multiplan",
+   "regiao": "Zona Sudoeste",
+   "url": "https://teatromultiplan.com.br",
+   "robots_status": 200,
+   "robots_mapa": [],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://teatromultiplan.com.br",
+   "tamanho": 277989,
+   "jsonld_tipos": [],
+   "wordpress": false,
+   "datas_no_texto": 14,
+   "portas": [],
+   "conclusao": "só leitura da página (programação aparece no texto)"
+  },
+  {
+   "id": "F152",
+   "nome": "Centro Cultural da UERJ (Teatro Odylo Costa Filho e outros)",
+   "regiao": "Zona Norte",
+   "url": "https://uerj.br",
+   "robots_status": 0,
+   "robots_permite": null,
+   "status": 0,
+   "url_final": "https://uerj.br",
+   "erro": "URLError: <urlopen error [Errno -5] No address associated with hostname>",
+   "conclusao": "não respondeu da nuvem"
+  },
+  {
+   "id": "F157",
+   "nome": "Galpão Bela Maré / Observatório de Favelas",
+   "regiao": "Zona Norte",
+   "url": "https://observatoriodefavelas.org.br",
+   "robots_status": 200,
+   "robots_mapa": [
+    "https://observatoriodefavelas.org.br/sitemap_index.xml"
+   ],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://observatoriodefavelas.org.br",
+   "tamanho": 317384,
+   "feeds": [
+    "https://observatoriodefavelas.org.br/web-stories/feed/"
+   ],
+   "jsonld_tipos": [
+    "BreadcrumbList",
+    "EntryPoint",
+    "ImageObject",
+    "ListItem",
+    "PropertyValueSpecification",
+    "ReadAction",
+    "SearchAction",
+    "WebPage",
+    "WebSite"
+   ],
+   "wordpress": true,
+   "wp_namespaces": [
+    "wp-abilities\\/v1",
+    "wp\\/v2",
+    "wp-site-health\\/v1",
+    "wp-block-editor\\/v1"
+   ],
+   "datas_no_texto": 0,
+   "portas": [
+    "feed",
+    "porta do WordPress",
+    "mapa do site"
+   ],
+   "conclusao": "leitura limpa: feed"
+  },
+  {
+   "id": "F158",
+   "nome": "Imperator (Centro Cultural João Nogueira)",
+   "regiao": "Zona Norte",
+   "url": "https://imperator.art.br",
+   "robots_status": 0,
+   "robots_permite": null,
+   "status": 0,
+   "url_final": "https://imperator.art.br",
+   "erro": "URLError: <urlopen error [Errno -2] Name or service not known>",
+   "conclusao": "não respondeu da nuvem"
+  },
+  {
+   "id": "F163",
+   "nome": "Sesc Engenho de Dentro",
+   "regiao": "Zona Norte",
+   "url": "https://cultura.sescrio.org.br",
+   "robots_status": 404,
+   "robots_permite": null,
+   "status": 200,
+   "url_final": "https://cultura.sescrio.org.br",
+   "tamanho": 313500,
+   "jsonld_tipos": [],
+   "wordpress": true,
+   "datas_no_texto": 53,
+   "portas": [],
+   "conclusao": "só leitura da página (programação aparece no texto)"
+  },
+  {
+   "id": "F164",
+   "nome": "Sesc Madureira",
+   "regiao": "Zona Norte",
+   "url": "https://cultura.sescrio.org.br",
+   "robots_status": 404,
+   "robots_permite": null,
+   "status": 200,
+   "url_final": "https://cultura.sescrio.org.br",
+   "tamanho": 313500,
+   "jsonld_tipos": [],
+   "wordpress": true,
+   "datas_no_texto": 53,
+   "portas": [],
+   "conclusao": "só leitura da página (programação aparece no texto)"
+  },
+  {
+   "id": "F165",
+   "nome": "Sesc Ramos",
+   "regiao": "Zona Norte",
+   "url": "https://cultura.sescrio.org.br",
+   "robots_status": 404,
+   "robots_permite": null,
+   "status": 200,
+   "url_final": "https://cultura.sescrio.org.br",
+   "tamanho": 313500,
+   "jsonld_tipos": [],
+   "wordpress": true,
+   "datas_no_texto": 53,
+   "portas": [],
+   "conclusao": "só leitura da página (programação aparece no texto)"
+  },
+  {
+   "id": "F166",
+   "nome": "Sesc Tijuca",
+   "regiao": "Zona Norte",
+   "url": "https://cultura.sescrio.org.br",
+   "robots_status": 404,
+   "robots_permite": null,
+   "status": 200,
+   "url_final": "https://cultura.sescrio.org.br",
+   "tamanho": 313500,
+   "jsonld_tipos": [],
+   "wordpress": true,
+   "datas_no_texto": 53,
+   "portas": [],
+   "conclusao": "só leitura da página (programação aparece no texto)"
+  },
+  {
+   "id": "F167",
+   "nome": "Superliga Carnavalesca do Brasil",
+   "regiao": "Zona Norte",
+   "url": "https://superligacarnavalesca.com.br",
+   "robots_status": 0,
+   "robots_permite": null,
+   "status": 0,
+   "url_final": "https://superligacarnavalesca.com.br",
+   "erro": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1011)>",
+   "conclusao": "não respondeu da nuvem"
+  },
+  {
+   "id": "F168",
+   "nome": "Teatro Armando Gonzaga",
+   "regiao": "Zona Norte",
+   "url": "https://rj.gov.br/funarj",
+   "robots_status": 503,
+   "robots_permite": null,
+   "status": 503,
+   "url_final": "https://rj.gov.br/funarj",
+   "erro": "",
+   "conclusao": "recusou (código 503)"
+  },
+  {
+   "id": "F179",
+   "nome": "Sesc Campo Grande",
+   "regiao": "Zona Oeste",
+   "url": "https://cultura.sescrio.org.br",
+   "robots_status": 404,
+   "robots_permite": null,
+   "status": 200,
+   "url_final": "https://cultura.sescrio.org.br",
+   "tamanho": 313500,
+   "jsonld_tipos": [],
+   "wordpress": true,
+   "datas_no_texto": 53,
+   "portas": [],
+   "conclusao": "só leitura da página (programação aparece no texto)"
+  },
+  {
+   "id": "F180",
+   "nome": "Teatro Arthur Azevedo",
+   "regiao": "Zona Oeste",
+   "url": "https://rj.gov.br/funarj",
+   "robots_status": 503,
+   "robots_permite": null,
+   "status": 503,
+   "url_final": "https://rj.gov.br/funarj",
+   "erro": "",
+   "conclusao": "recusou (código 503)"
+  },
+  {
+   "id": "F181",
+   "nome": "Teatro Bangu Shopping",
+   "regiao": "Zona Oeste",
+   "url": "https://teatrobangushopping.com.br",
+   "robots_status": 200,
+   "robots_mapa": [],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://teatrobangushopping.com.br",
+   "tamanho": 52953,
+   "jsonld_tipos": [],
+   "wordpress": false,
+   "datas_no_texto": 0,
+   "portas": [],
+   "conclusao": "página abre, mas a programação não está no texto (carregada depois, ou em outra página)"
+  },
+  {
+   "id": "F182",
+   "nome": "Teatro Mário Lago",
+   "regiao": "Zona Oeste",
+   "url": "https://rj.gov.br/funarj",
+   "robots_status": 503,
+   "robots_permite": null,
+   "status": 503,
+   "url_final": "https://rj.gov.br/funarj",
+   "erro": "",
+   "conclusao": "recusou (código 503)"
+  },
+  {
+   "id": "F184",
+   "nome": "Bibliotecas Parque de Manguinhos e Rocinha",
+   "regiao": "Várias",
+   "url": "https://cultura.rj.gov.br",
+   "robots_status": 200,
+   "robots_mapa": [],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://cultura.rj.gov.br",
+   "tamanho": 53163,
+   "jsonld_tipos": [],
+   "wordpress": true,
+   "wp_namespaces": [
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2"
+   ],
+   "feeds": [
+    "https://cultura.rj.gov.br/feed/"
+   ],
+   "datas_no_texto": 1,
+   "portas": [
+    "porta do WordPress",
+    "feed"
+   ],
+   "conclusao": "leitura limpa: feed"
+  },
+  {
+   "id": "F186",
+   "nome": "Fórum de Ciência e Cultura da UFRJ",
+   "regiao": "Várias",
+   "url": "https://forum.ufrj.br",
+   "robots_status": 200,
+   "robots_mapa": [
+    "https://forum.ufrj.br/sitemap.xml"
+   ],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://forum.ufrj.br",
+   "tamanho": 122633,
+   "jsonld_tipos": [
+    "Article",
+    "ContactPoint",
+    "ImageObject",
+    "Person",
+    "Place",
+    "PostalAddress",
+    "SearchAction",
+    "WebPage",
+    "WebSite"
+   ],
+   "wordpress": true,
+   "wp_namespaces": [
+    "wp\\/v2",
+    "wp-site-health\\/v1",
+    "wp-block-editor\\/v1",
+    "wp-abilities\\/v1",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2"
+   ],
+   "feeds": [
+    "https://forum.ufrj.br/feed/"
+   ],
+   "datas_no_texto": 0,
+   "portas": [
+    "porta do WordPress",
+    "feed",
+    "mapa do site"
+   ],
+   "conclusao": "leitura limpa: feed"
+  },
+  {
+   "id": "F189",
+   "nome": "Livraria da Travessa",
+   "regiao": "Várias",
+   "url": "https://travessa.com.br/eventos",
+   "robots_status": 200,
+   "robots_mapa": [
+    "https://www.travessa.com.br/sitemap-index.xml"
+   ],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://www.travessa.com.br/eventos",
+   "tamanho": 330560,
+   "jsonld_tipos": [],
+   "wordpress": false,
+   "datas_no_texto": 8,
+   "portas": [
+    "mapa do site"
+   ],
+   "conclusao": "só leitura da página (programação aparece no texto)"
+  },
+  {
+   "id": "F190",
+   "nome": "Museu da Imagem e do Som (MIS RJ)",
+   "regiao": "Várias",
+   "url": "https://mis.rj.gov.br",
+   "robots_status": 404,
+   "robots_permite": null,
+   "status": 200,
+   "url_final": "https://mis.rj.gov.br",
+   "tamanho": 23307,
+   "jsonld_tipos": [],
+   "wordpress": false,
+   "datas_no_texto": 0,
+   "portas": [],
+   "conclusao": "página abre, mas a programação não está no texto (carregada depois, ou em outra página)"
+  },
+  {
+   "id": "F191",
+   "nome": "Museus Castro Maya (Chácara do Céu / Açude)",
+   "regiao": "Várias",
+   "url": "https://museuscastromaya.com.br",
+   "robots_status": 0,
+   "robots_permite": null,
+   "status": 0,
+   "url_final": "https://museuscastromaya.com.br",
+   "erro": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.",
+   "conclusao": "não respondeu da nuvem"
+  },
+  {
+   "id": "F192",
+   "nome": "Orquestra Sinfônica Brasileira (OSB)",
+   "regiao": "Várias",
+   "url": "https://osb.com.br",
+   "robots_status": 200,
+   "robots_mapa": [
+    "https://www.osb.com.br/sitemap_index.xml"
+   ],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://www.osb.com.br/",
+   "tamanho": 549003,
+   "feeds": [
+    "https://www.osb.com.br/feed/"
+   ],
+   "jsonld_tipos": [
+    "Article",
+    "ImageObject",
+    "Organization",
+    "Person",
+    "SearchAction",
+    "WebPage",
+    "WebSite"
+   ],
+   "wordpress": true,
+   "wp_namespaces": [
+    "wp-rocket\\/v1",
+    "wp\\/v2",
+    "wp-site-health\\/v1",
+    "wp-block-editor\\/v1",
+    "wp-abilities\\/v1",
+    "wp-rocket\\/v1",
+    "wp-rocket\\/v1",
+    "wp-rocket\\/v1",
+    "wp-rocket\\/v1",
+    "wp-rocket\\/v1",
+    "wp-rocket\\/v1",
+    "wp-rocket\\/v1"
+   ],
+   "datas_no_texto": 9,
+   "portas": [
+    "feed",
+    "porta do WordPress",
+    "mapa do site"
+   ],
+   "conclusao": "leitura limpa: feed"
+  },
+  {
+   "id": "F194",
+   "nome": "Teatros Firjan SESI",
+   "regiao": "Várias",
+   "url": "https://firjan.com.br/atracoes",
+   "robots_status": 200,
+   "robots_mapa": [],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://firjan.com.br/atracoes/",
+   "tamanho": 97375,
+   "jsonld_tipos": [
+    "Organization"
+   ],
+   "wordpress": false,
+   "datas_no_texto": 0,
+   "portas": [],
+   "conclusao": "página abre, mas a programação não está no texto (carregada depois, ou em outra página)"
+  },
+  {
+   "id": "F196",
+   "nome": "Festival do Rio",
+   "regiao": "Toda a cidade",
+   "url": "https://festivaldorio.com.br",
+   "robots_status": 200,
+   "robots_mapa": [
+    "https://festivaldorio.com.br/sitemap.xml"
+   ],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://www.festivaldorio.com.br/br",
+   "tamanho": 82424,
+   "jsonld_tipos": [],
+   "wordpress": false,
+   "datas_no_texto": 0,
+   "portas": [
+    "mapa do site"
+   ],
+   "conclusao": "página abre, mas a programação não está no texto (carregada depois, ou em outra página)"
+  },
+  {
+   "id": "F197",
+   "nome": "FUNARJ (Rede Estadual)",
+   "regiao": "Toda a cidade",
+   "url": "https://rj.gov.br/funarj",
+   "robots_status": 503,
+   "robots_permite": null,
+   "status": 503,
+   "url_final": "https://rj.gov.br/funarj",
+   "erro": "",
+   "conclusao": "recusou (código 503)"
+  },
+  {
+   "id": "F200",
+   "nome": "Secretaria de Estado de Cultura (SECEC-RJ)",
+   "regiao": "Toda a cidade",
+   "url": "https://cultura.rj.gov.br",
+   "robots_status": 200,
+   "robots_mapa": [],
+   "robots_permite": true,
+   "status": 200,
+   "url_final": "https://cultura.rj.gov.br",
+   "tamanho": 53038,
+   "jsonld_tipos": [],
+   "wordpress": true,
+   "wp_namespaces": [
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2",
+    "wp\\/v2"
+   ],
+   "feeds": [
+    "https://cultura.rj.gov.br/feed/"
+   ],
+   "datas_no_texto": 1,
+   "portas": [
+    "porta do WordPress",
+    "feed"
+   ],
+   "conclusao": "leitura limpa: feed"
+  }
+ ]
+}
