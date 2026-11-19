@@ -273,7 +273,7 @@ O que os guias de uso de cor dizem, e vale como regra: azul e laranja são cores
 | Grátis (etiqueta cheia) | mata `#1d5a3c` | verde claro `#86cfa3`, letra `#0d2748` |
 | Preço popular | terra `#75461f` sobre `#eddcc0` | etiqueta de contorno em areia |
 
-**Em aberto:** a coordenação editorial perguntou se o azul do modo escuro pode ficar um pouco mais claro. Três tons medidos (texto / secundário / laranja / etiqueta verde): `#143b70`, o aplicado, 10,4 / 7,6 / 6,3 / 6,1; `#17437d` 9,2 / 6,7 / 5,6 / 5,4; `#1b4e8f` 7,8 / 5,6 / 4,7 / 4,5. O terceiro fica no limite mínimo de 4,5:1 para laranja e verde. Aguardando escolha.
+**Azul do modo escuro (decidido em 19/11/2026).** A coordenação editorial perguntou se o azul do modo escuro poderia ficar um pouco mais claro. Três tons medidos (texto / secundário / laranja / etiqueta verde): `#143b70`, o aplicado, 10,4 / 7,6 / 6,3 / 6,1; `#17437d` 9,2 / 6,7 / 5,6 / 5,4; `#1b4e8f` 7,8 / 5,6 / 4,7 / 4,5. O terceiro fica no limite mínimo de 4,5:1 para laranja e verde. Decisão: fica o `#143b70`, o aplicado.
 
 **Passos seguintes, quando for a hora:**
 1. Dois ou três estudos da mesma tela (o dia de hoje, no celular), lado a lado.
