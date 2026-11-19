@@ -1,5 +1,5 @@
 # Guia de design — Largo
-versão 0.9 · 19/11/2026 · **Estudo B (segunda paleta) aplicado ao site principal, por enquanto; Estudo F (claro e escuro) em avaliação**
+versão 1.0 · 19/11/2026 · **Estudo F aplicado ao site principal: modo claro (areia, mar e sol) e modo escuro (mar no fundo), com botão**
 
 Este guia orienta qualquer trabalho futuro na aparência do site. Ele registra de onde vem a linguagem visual, o que aproveitamos de cada referência e o que fica de fora. Deve ser lido antes de qualquer mudança de layout.
 
@@ -257,7 +257,23 @@ O que os guias de uso de cor dizem, e vale como regra: azul e laranja são cores
 - **Regra:** um mesmo verde não serve aos dois fundos (o verde mata some no azul, o verde claro some na areia). A família de cor é a mesma e o tom muda com o modo.
 - **Botão de modo** no topo, ao lado dos idiomas, só com texto ("Escuro" / "Claro"), sem ícone. Sem escolha da pessoa, vale a configuração do aparelho. A escolha fica guardada só no aparelho, como as outras preferências.
 
-O Estudo F aguarda avaliação da coordenação editorial.
+**Decisão de 19/11/2026.** A coordenação editorial aprovou o Estudo F ("está muito bom") e ele passou a ser o site: `ferramentas/modelo.html` traz os dois modos e o botão. O modelo anterior (Estudo B) continua em `ferramentas/modelo-estudo-b.html`. As prévias `docs/estudo-c` a `docs/estudo-f` ficam como registro. O título da página deixou de trazer "Estudo B".
+
+**Paleta em vigor.**
+
+| Cor | Modo claro | Modo escuro |
+|---|---|---|
+| Fundo | areia `#f8f4ec` | mar `#143b70` |
+| Fundo das caixas | `#eee7d9` | `#0f2e59` |
+| Texto | gnaisse `#2a2623` | areia `#fbf7ee` |
+| Texto secundário | `#5f574e` | `#c9d6ea` |
+| Cor que organiza (marca, links, horários) | mar `#1b4e8f` | sol `#ffb469` |
+| Selecionado e ação principal | mar `#1b4e8f` | sol `#ffb469` |
+| Sinal de "A boa" (ponto e barra) | sol `#d96c14` | sol `#ffb469` |
+| Grátis (etiqueta cheia) | mata `#1d5a3c` | verde claro `#86cfa3`, letra `#0d2748` |
+| Preço popular | terra `#75461f` sobre `#eddcc0` | etiqueta de contorno em areia |
+
+**Em aberto:** a coordenação editorial perguntou se o azul do modo escuro pode ficar um pouco mais claro. Três tons medidos (texto / secundário / laranja / etiqueta verde): `#143b70`, o aplicado, 10,4 / 7,6 / 6,3 / 6,1; `#17437d` 9,2 / 6,7 / 5,6 / 5,4; `#1b4e8f` 7,8 / 5,6 / 4,7 / 4,5. O terceiro fica no limite mínimo de 4,5:1 para laranja e verde. Aguardando escolha.
 
 **Passos seguintes, quando for a hora:**
 1. Dois ou três estudos da mesma tela (o dia de hoje, no celular), lado a lado.

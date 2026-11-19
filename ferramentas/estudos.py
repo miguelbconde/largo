@@ -4,6 +4,10 @@
 Cada estudo é o mesmo site com outra paleta, publicado como prévia separada
 em docs/estudo-<letra>/index.html. Não altera o site principal.
 
+ATENÇÃO: os estudos C, D, E e F foram gerados quando o site principal era o Estudo B.
+Em 19/11/2026 o Estudo F virou o site. As prévias em docs/estudo-* ficam como registro;
+rodar este script de novo as refaria sobre o site atual e mudaria o resultado.
+
 Uso: python3 ferramentas/estudos.py
 """
 import os, re
