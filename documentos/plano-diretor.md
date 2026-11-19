@@ -83,9 +83,9 @@ O mapa completo está em `dados/fontes.csv`. Ele tem 274 entradas, cada uma com 
 8. **Propor e politizar.** Somar ao pedido de dados abertos à Prefeitura (Lei de Acesso à Informação) uma proposta pública: a programação feita com dinheiro público deve ser publicada em formato aberto, como contrapartida, independentemente de onde o ingresso é vendido. O exemplo de Lisboa (seção 10) serve de precedente.
 9. **Riscos conhecidos.** Datas, horários e preços são fatos, e fatos não têm dono. Mas os termos de uso das plataformas costumam proibir a leitura automática; a lei de direitos autorais protege a seleção e a organização de bases de dados; e as plataformas podem bloquear o coletor. Antes de dar escala ou visibilidade pública à extração, buscar orientação jurídica (clínicas de direito digital de universidades e organizações de direitos digitais costumam atender projetos sem fins lucrativos).
 
-**Decisões em aberto (coordenação editorial):**
-- **Regras para robôs.** Hoje o coletor obedece às regras que cada site publica para leitores automáticos. Se uma plataforma proibir a leitura nessas regras, seguimos obedecendo ou abrimos exceção para elas, como ato deliberado e público?
-- **Chaves de acesso.** Usar interfaces que exigem cadastro e aceite de termos (como a da Ticketmaster) dá dados mais limpos, mas nos prende a termos delas. Usar ou não?
+**Decisões da coordenação editorial (19/11/2026):**
+- **Nossos protocolos, não os delas.** O Largo não pauta sua atuação pelos parâmetros de empresas que operam sobre premissas opostas às suas. Nas plataformas de ingresso, o coletor não segue as regras para robôs que elas publicam. Os limites que valem são os nossos (itens 3 e 4 acima): só fatos sobre eventos, nunca dados de pessoas, identificação aberta, sem sobrecarga, sem login e sem romper barreiras técnicas de acesso (senhas, verificações anti-robô, bloqueios). Este último limite é também o ponto em que o risco jurídico deixa de ser contestação de termos de uso e passa a ser outra coisa. Para as demais fontes (espaços, produtores, poder público), o coletor continua obedecendo às regras para robôs de cada site.
+- **Chaves de acesso.** Ferramentas oficiais das plataformas podem ser usadas desde que não restrinjam o uso dos dados. A da Ticketmaster só entra depois de lidos os termos: eles podem ser mudados sem aviso e a licença pode ser cassada a qualquer momento; se proibirem guardar ou redistribuir os dados em formato aberto, a chave fica de fora e a extração segue pelas páginas públicas.
 
 **Equilíbrio territorial (situação atual):** no Núcleo, 55 fontes ficam nas Zonas Norte, Oeste e Sudoeste, contra 127 no Centro e na Zona Sul. A meta da primeira fase é chegar a pelo menos **40%** de fontes fora do eixo Centro–Zona Sul. A cada edição publicaremos um pequeno painel de distribuição por região.
 
@@ -268,7 +268,7 @@ A coleta e a atualização do site passam a ser diárias.
 **Tomadas (19/11/2026):**
 - Aparência: o site passa a ter modo claro (areia, mar e sol) e modo escuro (mar no fundo), com botão para alternar; substitui a decisão de 17/11 sobre o Estudo B. Uma linha sinuosa de desenho próprio toma o lugar dos fios duplos, e o dia selecionado vira uma forma orgânica (ver guia de design, versão 1.1).
 
-- Plataformas de ingresso: a informação que guardam é bem comum. Extraí-la e devolvê-la em formato aberto passa a ser prioridade do projeto, sem parceria nem afiliação, só com fatos sobre eventos e nunca dados de pessoas. Duas decisões em aberto: regras para robôs e chaves de acesso (seção 5; diretrizes políticas, seção 2.9).
+- Plataformas de ingresso: a informação que guardam é bem comum. Extraí-la e devolvê-la em formato aberto passa a ser prioridade do projeto, sem parceria nem afiliação, só com fatos sobre eventos e nunca dados de pessoas. Nas plataformas, o coletor segue os nossos limites, não as regras para robôs delas; chaves oficiais só sem restrição ao uso dos dados (seção 5; diretrizes políticas, seção 2.9).
 
 **Pendente:**
 - Nome definitivo do projeto.
