@@ -1,7 +1,7 @@
 {
  "origem": "nuvem",
- "feito_em": "2026-11-19 18:47 UTC",
- "segundos": 153,
+ "feito_em": "2026-11-19 18:56 UTC",
+ "segundos": 187,
  "fontes": [
   {
    "ids": [
@@ -130,7 +130,7 @@
     "feed (10 itens)",
     "texto de 7 página(s)"
    ],
-   "caracteres": 41015,
+   "caracteres": 40989,
    "url_final": "https://cultura.rj.gov.br",
    "paginas": [
     "https://cultura.rj.gov.br",
@@ -154,9 +154,17 @@
    "regioes": [
     "Centro"
    ],
-   "degraus": [],
-   "caracteres": 0,
-   "situacao": "recusou a visita (código 403)"
+   "degraus": [
+    "texto de 1 página(s)"
+   ],
+   "caracteres": 270,
+   "url_final": "https://www.caixacultural.gov.br/Paginas/default.aspx",
+   "paginas": [
+    "https://www.caixacultural.gov.br/Paginas/default.aspx"
+   ],
+   "mencoes_de_data": 0,
+   "situacao": "coletada, mas sem datas à vista (a programação pode ser carregada depois)",
+   "arquivo": "F014.txt"
   },
   {
    "ids": [
@@ -171,7 +179,7 @@
     "feed (20 itens)",
     "texto de 2 página(s)"
    ],
-   "caracteres": 10368,
+   "caracteres": 10354,
    "url_final": "https://www.barcariocadagema.com.br/",
    "paginas": [
     "https://www.barcariocadagema.com.br/",
@@ -214,7 +222,7 @@
    "degraus": [
     "texto de 12 página(s)"
    ],
-   "caracteres": 37657,
+   "caracteres": 37838,
    "url_final": "https://ccbb.com.br/rio-de-janeiro/",
    "paginas": [
     "https://ccbb.com.br/rio-de-janeiro/",
@@ -230,7 +238,7 @@
     "https://ccbb.com.br/rio-de-janeiro/programacao/21o-festival-de-cinema-italiano-no-brasil/",
     "https://ccbb.com.br/rio-de-janeiro/programacao/yokai-parade-seres-sobrenaturais-do-japao/"
    ],
-   "mencoes_de_data": 323,
+   "mencoes_de_data": 321,
    "situacao": "coletada",
    "arquivo": "F019.txt"
   },
@@ -248,7 +256,7 @@
     "feed (15 itens)",
     "texto de 13 página(s)"
    ],
-   "caracteres": 71567,
+   "caracteres": 71553,
    "url_final": "https://www.correios.com.br/",
    "paginas": [
     "https://www.correios.com.br/",
@@ -403,7 +411,7 @@
     "feed (3 itens)",
     "texto de 1 página(s)"
    ],
-   "caracteres": 5536,
+   "caracteres": 5539,
    "url_final": "https://www.d-edge.com.br/",
    "paginas": [
     "https://www.d-edge.com.br/"
@@ -484,7 +492,7 @@
     "feed (20 itens)",
     "texto de 2 página(s)"
    ],
-   "caracteres": 8467,
+   "caracteres": 8464,
    "url_final": "https://www.riocarnaval.com/",
    "paginas": [
     "https://www.riocarnaval.com/",
@@ -541,9 +549,28 @@
    "regioes": [
     "Centro"
    ],
-   "degraus": [],
-   "caracteres": 0,
-   "situacao": "não respondeu: URLError: <urlopen error timed out>"
+   "degraus": [
+    "texto de 12 página(s)"
+   ],
+   "caracteres": 31891,
+   "url_final": "https://www.realgabinete.com.br",
+   "paginas": [
+    "https://www.realgabinete.com.br",
+    "https://www.realgabinete.com.br/Agenda",
+    "https://www.realgabinete.com.br/O-RGPL/Associe-se",
+    "https://www.realgabinete.com.br/O-RGPL/Diretoria-e-Conselhos",
+    "https://www.realgabinete.com.br/O-RGPL/Sobre-o-Real-Gabinete",
+    "https://www.realgabinete.com.br/O-Real-Gabinete/Sobre-o-Real-Gabinete/Historia",
+    "https://www.realgabinete.com.br/O-RGPL/Sobre-o-Real-Gabinete/Breve-Cronologia",
+    "https://www.realgabinete.com.br/O-RGPL/Sobre-o-Real-Gabinete/Presidentes",
+    "https://www.realgabinete.com.br/O-RGPL/Sobre-o-Real-Gabinete/Cooperadores",
+    "https://www.realgabinete.com.br/O-RGPL/Sobre-o-Real-Gabinete/Estatuto-Social",
+    "https://www.realgabinete.com.br/O-Real-Gabinete/Patrimonio-Artistico",
+    "https://www.realgabinete.com.br/O-Real-Gabinete/Patrimonio-Artistico/Apresentacao"
+   ],
+   "mencoes_de_data": 4,
+   "situacao": "coletada",
+   "arquivo": "F049.txt"
   },
   {
    "ids": [
@@ -772,7 +799,7 @@
    "degraus": [
     "texto de 2 página(s)"
    ],
-   "caracteres": 7273,
+   "caracteres": 7315,
    "url_final": "https://becodasgarrafas.com.br",
    "paginas": [
     "https://becodasgarrafas.com.br",
@@ -794,7 +821,7 @@
    "degraus": [
     "texto de 3 página(s)"
    ],
-   "caracteres": 4225,
+   "caracteres": 4332,
    "url_final": "https://bluenoterio.com.br",
    "paginas": [
     "https://bluenoterio.com.br",
@@ -867,9 +894,9 @@
     "Zona Sul"
    ],
    "degraus": [
-    "texto de 13 página(s)"
+    "texto de 11 página(s)"
    ],
-   "caracteres": 97961,
+   "caracteres": 85951,
    "url_final": "https://casafirjan.com.br/",
    "paginas": [
     "https://casafirjan.com.br/",
@@ -882,11 +909,9 @@
     "https://casafirjan.com.br/fab-lab/o-que-e-fab-lab",
     "https://casafirjan.com.br/noticias/inscreva-se-no-fab-lab-open-day-e-vivencie-cultura-maker-na-casa-firjan",
     "https://casafirjan.com.br/fab-lab/fab-lab-para-empresas",
-    "https://casafirjan.com.br/palestras-debates-e-entrevistas/aquario-casa-firjan",
-    "https://casafirjan.com.br/palestras-debates-entrevistas/podcasts",
-    "https://casafirjan.com.br/palestras-debates-e-entrevistas/podcast/lab-de-tendencias"
+    "https://casafirjan.com.br/palestras-debates-entrevistas/podcasts"
    ],
-   "mencoes_de_data": 77,
+   "mencoes_de_data": 53,
    "situacao": "coletada",
    "arquivo": "F074.txt"
   },
@@ -1264,9 +1289,17 @@
    "regioes": [
     "Zona Sul"
    ],
-   "degraus": [],
-   "caracteres": 0,
-   "situacao": "recusou a visita (código 403)"
+   "degraus": [
+    "texto de 1 página(s)"
+   ],
+   "caracteres": 8897,
+   "url_final": "https://blooks.com.br",
+   "paginas": [
+    "https://blooks.com.br"
+   ],
+   "mencoes_de_data": 0,
+   "situacao": "coletada, mas sem datas à vista (a programação pode ser carregada depois)",
+   "arquivo": "F095.txt"
   },
   {
    "ids": [
@@ -1546,7 +1579,7 @@
    "degraus": [
     "texto de 4 página(s)"
    ],
-   "caracteres": 1871,
+   "caracteres": 1691,
    "url_final": "https://silviacintra.com.br",
    "paginas": [
     "https://silviacintra.com.br",
@@ -1798,7 +1831,7 @@
     "dados estruturados (1 eventos)",
     "texto de 6 página(s)"
    ],
-   "caracteres": 15756,
+   "caracteres": 15457,
    "url_final": "https://museubispodorosario.com",
    "paginas": [
     "https://museubispodorosario.com",
@@ -2048,7 +2081,7 @@
    "degraus": [
     "texto de 14 página(s)"
    ],
-   "caracteres": 63267,
+   "caracteres": 63250,
    "url_final": "https://www.travessa.com.br/eventos",
    "paginas": [
     "https://www.travessa.com.br/eventos",
