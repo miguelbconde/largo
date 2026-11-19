@@ -1,14 +1,14 @@
 # Ronda das fontes — resumo
 
-Feita em 2026-11-19 18:40 UTC, em 196 segundos, no serviço de automação do GitHub.
+Feita em 2026-11-19 18:47 UTC, em 153 segundos, no serviço de automação do GitHub.
 O texto recolhido dos sites não entra na linha principal do repositório nem no site: fica num ramo temporário (coleta-bruta), substituído a cada ronda, só para a redação das fichas.
 
 ## Situação
 
 - coletada: **53**
 - não respondeu: **16**
-- coletada, mas sem datas à vista: **13**
-- recusou a visita: **7**
+- coletada, mas sem datas à vista: **12**
+- recusou a visita: **8**
 - em espera: **2**
 
 ## Fonte a fonte
@@ -33,7 +33,7 @@ O texto recolhido dos sites não entra na linha principal do repositório nem no
 | Circo Crescer e Viver | coletada | feed (8 itens), texto de 8 página(s) |
 | D-Edge Rio | coletada | feed (3 itens), texto de 1 página(s) |
 | EAV Parque Lage | coletada | texto de 12 página(s) |
-| EcoVilla Ri Happy | coletada | texto de 2 página(s) |
+| EcoVilla Ri Happy | coletada | texto de 3 página(s) |
 | Espaço Hall | coletada | feed (1 itens), texto de 2 página(s) |
 | Farmasi Arena | coletada | texto de 5 página(s) |
 | Fundição Progresso | coletada | texto de 13 página(s) |
@@ -55,7 +55,7 @@ O texto recolhido dos sites não entra na linha principal do repositório nem no
 | Orquestra Sinfônica Brasileira (OSB) | coletada | texto de 9 página(s) |
 | Pinakotheke Cultural | coletada | texto de 14 página(s) |
 | Portas Vilaseca Galeria | coletada | texto de 6 página(s) |
-| Qualistage | coletada | texto de 10 página(s) |
+| Qualistage | coletada | texto de 11 página(s) |
 | Rio Scenarium | coletada | texto de 2 página(s) |
 | Sala Cecília Meireles | coletada | texto de 12 página(s) |
 | Teatro Bangu Shopping | coletada | texto de 13 página(s) |
@@ -70,7 +70,6 @@ O texto recolhido dos sites não entra na linha principal do repositório nem no
 | Vivo Rio | coletada | texto de 12 página(s) |
 | Beco das Garrafas | coletada, mas sem datas à vista (a programação pode ser carregada depois) | texto de 2 página(s) |
 | Blue Note Rio | coletada, mas sem datas à vista (a programação pode ser carregada depois) | texto de 3 página(s) |
-| Caixa Cultural Rio de Janeiro | coletada, mas sem datas à vista (a programação pode ser carregada depois) | texto de 1 página(s) |
 | Casa do Choro | coletada, mas sem datas à vista (a programação pode ser carregada depois) | texto de 1 página(s) |
 | Cinesystem Belas Artes Botafogo | coletada, mas sem datas à vista (a programação pode ser carregada depois) | texto de 1 página(s) |
 | Circo Voador | coletada, mas sem datas à vista (a programação pode ser carregada depois) | texto de 1 página(s) |
@@ -100,9 +99,10 @@ O texto recolhido dos sites não entra na linha principal do repositório nem no
 | Centro Cultural da UERJ (Teatro Odylo Costa Filho e outros) | não respondeu: URLError: <urlopen error timed out> |  |
 | Real Gabinete Português de Leitura | não respondeu: URLError: <urlopen error timed out> |  |
 | Biblioteca Nacional | recusou a visita (código 403) |  |
+| Caixa Cultural Rio de Janeiro | recusou a visita (código 403) |  |
 | Cineclube Macunaíma (ABI) | recusou a visita (código 403) |  |
 | Livraria Blooks | recusou a visita (código 403) |  |
 | Solar de Botafogo | recusou a visita (código 403) |  |
+| Teatro Rival Petrobras | recusou a visita (código 403) |  |
 | Fundação Casa de Rui Barbosa | recusou a visita (código 404) |  |
 | Teatro João Caetano; Teatro Glaucio Gill; Teatro Armando Gonzaga; Teat | recusou a visita (código 503) |  |
-| Teatro Rival Petrobras | recusou a visita (código 522) |  |

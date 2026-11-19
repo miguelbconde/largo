@@ -1,7 +1,7 @@
 {
  "origem": "nuvem",
- "feito_em": "2026-11-19 18:40 UTC",
- "segundos": 196,
+ "feito_em": "2026-11-19 18:47 UTC",
+ "segundos": 153,
  "fontes": [
   {
    "ids": [
@@ -130,7 +130,7 @@
     "feed (10 itens)",
     "texto de 7 página(s)"
    ],
-   "caracteres": 40910,
+   "caracteres": 41015,
    "url_final": "https://cultura.rj.gov.br",
    "paginas": [
     "https://cultura.rj.gov.br",
@@ -154,17 +154,9 @@
    "regioes": [
     "Centro"
    ],
-   "degraus": [
-    "texto de 1 página(s)"
-   ],
-   "caracteres": 270,
-   "url_final": "https://www.caixacultural.gov.br/Paginas/default.aspx",
-   "paginas": [
-    "https://www.caixacultural.gov.br/Paginas/default.aspx"
-   ],
-   "mencoes_de_data": 0,
-   "situacao": "coletada, mas sem datas à vista (a programação pode ser carregada depois)",
-   "arquivo": "F014.txt"
+   "degraus": [],
+   "caracteres": 0,
+   "situacao": "recusou a visita (código 403)"
   },
   {
    "ids": [
@@ -179,7 +171,7 @@
     "feed (20 itens)",
     "texto de 2 página(s)"
    ],
-   "caracteres": 10354,
+   "caracteres": 10368,
    "url_final": "https://www.barcariocadagema.com.br/",
    "paginas": [
     "https://www.barcariocadagema.com.br/",
@@ -222,7 +214,7 @@
    "degraus": [
     "texto de 12 página(s)"
    ],
-   "caracteres": 37795,
+   "caracteres": 37657,
    "url_final": "https://ccbb.com.br/rio-de-janeiro/",
    "paginas": [
     "https://ccbb.com.br/rio-de-janeiro/",
@@ -238,7 +230,7 @@
     "https://ccbb.com.br/rio-de-janeiro/programacao/21o-festival-de-cinema-italiano-no-brasil/",
     "https://ccbb.com.br/rio-de-janeiro/programacao/yokai-parade-seres-sobrenaturais-do-japao/"
    ],
-   "mencoes_de_data": 325,
+   "mencoes_de_data": 323,
    "situacao": "coletada",
    "arquivo": "F019.txt"
   },
@@ -256,7 +248,7 @@
     "feed (15 itens)",
     "texto de 13 página(s)"
    ],
-   "caracteres": 71553,
+   "caracteres": 71567,
    "url_final": "https://www.correios.com.br/",
    "paginas": [
     "https://www.correios.com.br/",
@@ -289,7 +281,7 @@
    "degraus": [
     "texto de 12 página(s)"
    ],
-   "caracteres": 25495,
+   "caracteres": 25548,
    "url_final": "https://ccjf.trf2.jus.br",
    "paginas": [
     "https://ccjf.trf2.jus.br",
@@ -411,7 +403,7 @@
     "feed (3 itens)",
     "texto de 1 página(s)"
    ],
-   "caracteres": 5539,
+   "caracteres": 5536,
    "url_final": "https://www.d-edge.com.br/",
    "paginas": [
     "https://www.d-edge.com.br/"
@@ -492,7 +484,7 @@
     "feed (20 itens)",
     "texto de 2 página(s)"
    ],
-   "caracteres": 8464,
+   "caracteres": 8467,
    "url_final": "https://www.riocarnaval.com/",
    "paginas": [
     "https://www.riocarnaval.com/",
@@ -662,7 +654,7 @@
    ],
    "degraus": [],
    "caracteres": 0,
-   "situacao": "recusou a visita (código 522)"
+   "situacao": "recusou a visita (código 403)"
   },
   {
    "ids": [
@@ -780,7 +772,7 @@
    "degraus": [
     "texto de 2 página(s)"
    ],
-   "caracteres": 7297,
+   "caracteres": 7273,
    "url_final": "https://becodasgarrafas.com.br",
    "paginas": [
     "https://becodasgarrafas.com.br",
@@ -802,7 +794,7 @@
    "degraus": [
     "texto de 3 página(s)"
    ],
-   "caracteres": 4332,
+   "caracteres": 4225,
    "url_final": "https://bluenoterio.com.br",
    "paginas": [
     "https://bluenoterio.com.br",
@@ -910,24 +902,24 @@
    "degraus": [
     "texto de 13 página(s)"
    ],
-   "caracteres": 30121,
+   "caracteres": 27775,
    "url_final": "https://www.evaklabin.org.br/pt",
    "paginas": [
     "https://www.evaklabin.org.br/pt",
-    "https://www.evaklabin.org.br/pt/programacao",
+    "https://www.evaklabin.org.br/pt/eventos",
     "https://www.evaklabin.org.br/pt/programacao/oficina/oficinas-de-novembro-2",
     "https://www.evaklabin.org.br/pt/sobre/eva-klabin",
     "https://www.evaklabin.org.br/pt/sobre/casa-museu",
     "https://www.evaklabin.org.br/pt/sobre/quem-somos",
     "https://www.evaklabin.org.br/pt/sobre/fale-conosco",
     "https://www.evaklabin.org.br/pt/sobre/duvidas",
+    "https://www.evaklabin.org.br/pt/programacao",
     "https://www.evaklabin.org.br/pt/explore/colecao",
     "https://www.evaklabin.org.br/pt/explore/pesquisa-e-conservacao",
     "https://www.evaklabin.org.br/pt/explore/educacao",
-    "https://www.evaklabin.org.br/pt/explore/musica",
-    "https://www.evaklabin.org.br/pt/explore/midia-e-publicacao"
+    "https://www.evaklabin.org.br/pt/explore/musica"
    ],
-   "mencoes_de_data": 80,
+   "mencoes_de_data": 56,
    "situacao": "coletada",
    "arquivo": "F075.txt"
   },
@@ -1061,15 +1053,16 @@
     "Zona Sul"
    ],
    "degraus": [
-    "texto de 2 página(s)"
+    "texto de 3 página(s)"
    ],
-   "caracteres": 11770,
+   "caracteres": 13130,
    "url_final": "https://ecovillarihappy.com.br",
    "paginas": [
     "https://ecovillarihappy.com.br",
-    "https://ecovillarihappy.com.br/programacao/"
+    "https://ecovillarihappy.com.br/programacao/",
+    "https://ecovillarihappy.com.br/realize-seu-evento/"
    ],
-   "mencoes_de_data": 43,
+   "mencoes_de_data": 54,
    "situacao": "coletada",
    "arquivo": "F084.txt"
   },
@@ -1553,7 +1546,7 @@
    "degraus": [
     "texto de 4 página(s)"
    ],
-   "caracteres": 1771,
+   "caracteres": 1871,
    "url_final": "https://silviacintra.com.br",
    "paginas": [
     "https://silviacintra.com.br",
@@ -1805,7 +1798,7 @@
     "dados estruturados (1 eventos)",
     "texto de 6 página(s)"
    ],
-   "caracteres": 15457,
+   "caracteres": 15756,
    "url_final": "https://museubispodorosario.com",
    "paginas": [
     "https://museubispodorosario.com",
@@ -1863,9 +1856,9 @@
     "Zona Sudoeste"
    ],
    "degraus": [
-    "texto de 10 página(s)"
+    "texto de 11 página(s)"
    ],
-   "caracteres": 74883,
+   "caracteres": 80900,
    "url_final": "https://qualistage.com.br",
    "paginas": [
     "https://qualistage.com.br",
@@ -1877,9 +1870,10 @@
     "https://qualistage.com.br/evento/438/jorge-vercillo",
     "https://qualistage.com.br/evento/431/gipsy-kings-part-sidney-magal",
     "https://qualistage.com.br/evento/435/geriatricus",
+    "https://qualistage.com.br/evento/441/ferrugem",
     "https://qualistage.com.br/evento/423/mauricio-manieri"
    ],
-   "mencoes_de_data": 36,
+   "mencoes_de_data": 42,
    "situacao": "coletada",
    "arquivo": "F137.txt"
   },
@@ -2054,7 +2048,7 @@
    "degraus": [
     "texto de 14 página(s)"
    ],
-   "caracteres": 63275,
+   "caracteres": 63267,
    "url_final": "https://www.travessa.com.br/eventos",
    "paginas": [
     "https://www.travessa.com.br/eventos",
