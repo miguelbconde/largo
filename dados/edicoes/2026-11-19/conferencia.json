@@ -1,5 +1,5 @@
 {
- "conferidos": 96,
+ "conferidos": 100,
  "resultado": [
   {
    "id": "2026-11-19-001",
@@ -322,6 +322,13 @@
    "campo": "sessoes",
    "veredito": "duvida",
    "detalhe": "Apontamento da redação: a sessão de 19/11 vem do PDF semanal anterior (“12 e 19/11”). O PDF desta semana lista só “A Cura da Terra” e “Superiores” no mesmo teatro e não cita o show. Pode ter sido cancelado ou apenas omitido."
+  },
+  {
+   "id": "2026-11-19-121",
+   "titulo": "Dança, Identidade e Resistência – aulão do Ballet Manguinhos",
+   "campo": "bairro",
+   "veredito": "nao_encontrado",
+   "detalhe": "A fonte (Novembro Negro) só diz \"Local: Biblioteca Parque de Manguinhos\", sem endereço nem bairro. A ficha traz bairro \"Manguinhos\" (e região Zona Norte), deduzido do nome do equipamento. A nota_redacao explica apenas a falta do endereço (\"A fonte não dá o endereço da Biblioteca Parque de Manguinhos\"), não a origem do bairro. O único endereço próximo na fonte é o da sede do Ballet Manguinhos (\"Avenida dos Democráticos, 535, Higienópolis\"), que é de outra atividade."
   }
  ],
  "omissoes": [
@@ -366,24 +373,6 @@
    "fonte": "semanal",
    "quando_onde": "Terça a sábado, das 10h às 18h, Centro de Arte Hélio Oiticica (Centro). Grátis. Livre.",
    "observacao": "Caso duvidoso. É um serviço de visita mediada permanente, não um evento; listado só porque visitas mediadas de outros museus viraram ficha (021 e 030)."
-  },
-  {
-   "evento": "Aula-Baile de “Forró e Samba de Gafieira – Corpos em Diálogo”",
-   "fonte": "semanal",
-   "quando_onde": "Quarta 25/11, das 19h às 20h, Centro Coreográfico da Cidade do Rio de Janeiro (Tijuca). Grátis. 18 anos.",
-   "observacao": "Caso duvidoso. Está na seção ATIVIDADES FORMATIVAS (excluída de propósito), mas é um baile de encerramento \"aberto à comunidade\". Para comparar: o Seminário Estadual do Muhcab, da mesma seção, virou ficha (029)."
-  },
-  {
-   "evento": "Café com Arte – Novembro Negro, com Pandro Nobã",
-   "fonte": "novembro_negro",
-   "quando_onde": "Sexta 20/11, a partir das 10h, Casa Bonifácio (Rua do Senado, 47, Centro). Preço não informado; \"inscrições abertas\".",
-   "observacao": "Caso duvidoso. \"Uma manhã de café, pintura e troca de saberes\" com o artista: fica entre encontro aberto e oficina com inscrição. A fonte não informa valor."
-  },
-  {
-   "evento": "Dança, Identidade e Resistência (Ballet Manguinhos)",
-   "fonte": "novembro_negro",
-   "quando_onde": "Sexta 20/11, às 14h, Biblioteca Parque de Manguinhos. Grátis, com retirada de senha 30 minutos antes. A partir de 16 anos.",
-   "observacao": "Caso duvidoso. A fonte chama de \"aulão especial\" de afoxé, maculelê e capoeira, aberto ao público; provavelmente cai no critério de oficinas, mas é atividade avulsa do feriado."
   }
  ]
 }

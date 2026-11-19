@@ -1,15 +1,15 @@
 # Relatório da edição — Edição de 19 a 25 de novembro de 2026
 
-- Eventos e exposições: **117** (86 eventos com 117 sessões; 31 em cartaz)
-- Grátis: **68** · preço popular (até R$ 40): **28**
-- Conferidos sem ressalva: **111** · a confirmar: **6**
+- Eventos e exposições: **121** (90 eventos com 121 sessões; 31 em cartaz)
+- Grátis: **71** · preço popular (até R$ 40): **28**
+- Conferidos sem ressalva: **114** · a confirmar: **7**
 
 ## Distribuição por região
 
-- Centro: 53
+- Centro: 55
 - Zona Sul: 13
 - Zona Sudoeste: 8
-- Zona Norte: 33
+- Zona Norte: 35
 - Zona Oeste: 10
 
 ## Conferente independente (IA)
@@ -55,6 +55,7 @@
 - **OFÁ / Um Corpo Flecha, de Rona Neves (Mostra do Impossível)** (2026-11-19-094) · preco_texto · *duvida* — A ficha deixa o preço vazio e gratis=false. A fonte não dá preço da exposição, mas diz que a Mostra é "Majoritariamente gratuito; apenas uma sessão com ingressos a preços populares"; o mais provável é que a exposição seja gratuita, sem confirmação expressa. → **Mantido: preço fica como não informado.**
 - **Cabaret – Edição Especial Consciência Negra** (2026-11-19-095) · bairro · *nao_encontrado* — A fonte dá só "Local: Rua Carmo Neto, 143", sem bairro. A ficha traz "Cidade Nova", região Centro. Nota do redator: "A fonte não dá o bairro. “Cidade Nova” vem do cadastro de fontes do projeto." → **Mantido: a rua vem da fonte; o bairro, do cadastro do projeto.**
 - **WD – Eclipse Tour** (2026-11-19-097) · sessoes · *duvida* — Apontamento da redação: a sessão de 19/11 vem do PDF semanal anterior (“12 e 19/11”). O PDF desta semana lista só “A Cura da Terra” e “Superiores” no mesmo teatro e não cita o show. Pode ter sido cancelado ou apenas omitido. → **pendente (sai como “a confirmar”)**
+- **Dança, Identidade e Resistência – aulão do Ballet Manguinhos** (2026-11-19-121) · bairro · *nao_encontrado* — A fonte (Novembro Negro) só diz "Local: Biblioteca Parque de Manguinhos", sem endereço nem bairro. A ficha traz bairro "Manguinhos" (e região Zona Norte), deduzido do nome do equipamento. A nota_redacao explica apenas a falta do endereço ("A fonte não dá o endereço da Biblioteca Parque de Manguinhos"), não a origem do bairro. O único endereço próximo na fonte é o da sede do Ballet Manguinhos ("Avenida dos Democráticos, 535, Higienópolis"), que é de outra atividade. → **pendente (sai como “a confirmar”)**
 
 ## Conferência mecânica (regras)
 
@@ -68,6 +69,8 @@
 - [baixa] **Festival Abraço Negro – Ilê Aiyê convida Surdo Um da Mangueira** (2026-11-19-112) — Preço não informado na fonte
 - [baixa] **Ajulliacosta – turnê Novo Testamento** (2026-11-19-113) — Preço não informado na fonte
 - [baixa] **Rockeria 14 anos** (2026-11-19-114) — Preço não informado na fonte
+- [baixa] **Café com Arte – Novembro Negro, com Pandro Nobã** (2026-11-19-120) — Preço não informado na fonte
+- [alta] **Dança, Identidade e Resistência – aulão do Ballet Manguinhos** (2026-11-19-121) — Endereço ou bairro ausente
 
 ## Destaques (A boa)
 
@@ -79,7 +82,8 @@
 - **25/11**: Rap & Repente – Artes do Improviso; Amanda Mendonça canta Djavan; Mesa-redonda: O Mundo que se Quer Esconder das Crianças; O Último Dia da Minha Vida
 
 Regras de curadoria:
-- Todas as regras cumpridas.
+- ⚠️ 24/11 — Só 1 área(s); o dia oferecia 2
+- ⚠️ 24/11 — Só 1 de 3 destaques grátis ou a preço popular
 
 ## Notas de redação
 
@@ -122,3 +126,7 @@ Regras de curadoria:
 - **La Strada – Os Que Vieram Antes de Nós** — Coletado no site em 15–17/11 e não relido nesta edição. O site oculta datas posteriores atrás de 'Ver mais'; podem existir outras sessões.
 - **Terreiro de Mangueira – Cordel Negro** — Coletado no site em 15–17/11 e não relido nesta edição.
 - **Rio Maracatu** — Coletado no site em 15–17/11 e não relido nesta edição.
+- **Seminário Estadual: Por uma Educação Antirracista** — O PDF do Novembro Negro avisa: “evento sujeito a alterações”. No PDF semanal está na seção de atividades formativas.
+- **Aula-baile de forró e samba de gafieira – Corpos em Diálogo** — No PDF semanal está na seção de atividades formativas.
+- **Café com Arte – Novembro Negro, com Pandro Nobã** — A fonte não informa preço, classificação nem como se inscrever.
+- **Dança, Identidade e Resistência – aulão do Ballet Manguinhos** — A fonte não dá o endereço da Biblioteca Parque de Manguinhos.

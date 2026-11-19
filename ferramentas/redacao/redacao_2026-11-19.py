@@ -68,6 +68,8 @@ L = {  # local: (nome, endereço, bairro, região)
  "gil": ("Areninha Cultural Gilberto Gil", "Av. Marechal Fontenelle, 5.000", "Realengo", "Zona Oeste"),
  "juras": ("Praça das Juras", "Praça das Juras (referência: Nave do Conhecimento de Padre Miguel)", "Padre Miguel", "Zona Oeste"),
  "moacyr": ("Espaço de Leitura Moacyr Teixeira", "Rua Doze, s/nº", "Santa Cruz", "Zona Oeste"),
+ "casabonifacio": ("Casa Bonifácio (Ateliê Bonifácio – Espaço Afro-Carioca)", "Rua do Senado, 47", "Centro", "Centro"),
+ "bpmanguinhos": ("Biblioteca Parque de Manguinhos", "", "Manguinhos", "Zona Norte"),
 }
 
 EV = []
@@ -521,6 +523,28 @@ for n in (67, 68, 69):   # Circo Voador
     trazer(n, N_SITE)
 for n in (70, 72, 73):   # Sesc Tijuca
     trazer(n, N_SITE)
+
+# =========== ACRÉSCIMOS DE 19/11 (decisão editorial: atividades entre evento e oficina entram) ===========
+# Ficam no fim da lista para não mudar a numeração das fichas já conferidas.
+ev("Seminário Estadual: Por uma Educação Antirracista", "Livros & Debates", "muhcab",
+   "Dia de debates sobre práticas de ensino comprometidas com a equidade racial e com a história e a cultura afro-brasileiras.",
+   'Seminário Estadual: Por uma Educação Antirracista Terça-feira (24/11), das 10h às 15h. Grátis. Livre. || Novembro Negro: Data e horário: 24/11/2026, das 10h às 15h | Observação: evento sujeito a alterações', SMC,
+   sessoes=D("24 10:00"), classif="Livre", **G,
+   nota="O PDF do Novembro Negro avisa: “evento sujeito a alterações”. No PDF semanal está na seção de atividades formativas.")
+ev("Aula-baile de forró e samba de gafieira – Corpos em Diálogo", "Festas & Feiras", "coreografico",
+   "Baile que encerra as oficinas de forró e samba de gafieira para iniciantes, aberto a quem quiser dançar, com acompanhamento da professora Amanda Guimarães Moreira.",
+   'Aula-Baile de “Forró e Samba de Gafieira – Corpos em Diálogo” Quarta-feira (25/11), das 19h às 20h. Grátis. 18 anos. [...] Aberta à comunidade', SMC,
+   sessoes=D("25 19:00"), classif="18 anos", **G,
+   nota="No PDF semanal está na seção de atividades formativas.")
+ev("Café com Arte – Novembro Negro, com Pandro Nobã", "Artes Visuais|Livros & Debates", "casabonifacio",
+   "Manhã de café, pintura e conversa com o artista urbano e arte-educador Pandro Nobã, da Penha, inspirada na ideia de casa como lugar de acolhimento, de bell hooks. É preciso se inscrever.",
+   'Novembro Negro: Casa Bonifácio Rua do Senado, 47, Centro, Rio de Janeiro 1. Café com Arte – Novembro Negro, com Pandro Nobã Data e horário: 20/11, a partir das 10h | Local: Casa Bonifácio (divulgado também como Ateliê Bonifácio – Espaço Afro-Carioca) | Participação: inscrições abertas', NN,
+   sessoes=D("20 10:00"), nota="A fonte não informa preço, classificação nem como se inscrever.")
+ev("Dança, Identidade e Resistência – aulão do Ballet Manguinhos", "Festas & Feiras", "bpmanguinhos",
+   "Aulão do Dia da Consciência Negra para conhecer e experimentar afoxé, maculelê e capoeira. As senhas são distribuídas no local meia hora antes.",
+   'Novembro Negro: 2. Dança, Identidade e Resistência Data e horário: 20/11/2026 (sexta-feira), às 14h | Local: Biblioteca Parque de Manguinhos | Classificação indicativa: a partir de 16 anos | Valor: Gratuita, com retirada de senha no local 30 minutos antes da atividade', NN,
+   sessoes=D("20 14:00"), preco="Grátis (senha no local, 30 min antes)", gratis=True, classif="16 anos",
+   nota="A fonte não dá o endereço da Biblioteca Parque de Manguinhos.")
 
 for i, e in enumerate(EV, 1):
     e["id"] = f"2026-11-19-{i:03d}"

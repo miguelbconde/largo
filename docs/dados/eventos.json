@@ -3867,6 +3867,135 @@
    "id": "2026-11-19-117",
    "faixa": "gratis",
    "status": "conferido"
+  },
+  {
+   "titulo": "Seminário Estadual: Por uma Educação Antirracista",
+   "areas": [
+    "Livros & Debates"
+   ],
+   "tipo": "evento",
+   "local": "Muhcab – Museu da História e da Cultura Afro-Brasileira",
+   "endereco": "Rua Pedro Ernesto, 80",
+   "bairro": "Gamboa",
+   "regiao": "Centro",
+   "sessoes": [
+    {
+     "data": "2026-11-24",
+     "hora": "10:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "Grátis",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "Livre",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Dia de debates sobre práticas de ensino comprometidas com a equidade racial e com a história e a cultura afro-brasileiras.",
+   "fonte": "Programação Semanal da Cultura Rio 19–25/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Seminário Estadual: Por uma Educação Antirracista Terça-feira (24/11), das 10h às 15h. Grátis. Livre. || Novembro Negro: Data e horário: 24/11/2026, das 10h às 15h | Observação: evento sujeito a alterações",
+   "id": "2026-11-19-118",
+   "faixa": "gratis",
+   "status": "conferido"
+  },
+  {
+   "titulo": "Aula-baile de forró e samba de gafieira – Corpos em Diálogo",
+   "areas": [
+    "Festas & Feiras"
+   ],
+   "tipo": "evento",
+   "local": "Centro Coreográfico da Cidade do Rio de Janeiro",
+   "endereco": "Rua José Higino, 115",
+   "bairro": "Tijuca",
+   "regiao": "Zona Norte",
+   "sessoes": [
+    {
+     "data": "2026-11-25",
+     "hora": "19:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "Grátis",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "18 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Baile que encerra as oficinas de forró e samba de gafieira para iniciantes, aberto a quem quiser dançar, com acompanhamento da professora Amanda Guimarães Moreira.",
+   "fonte": "Programação Semanal da Cultura Rio 19–25/11 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Aula-Baile de “Forró e Samba de Gafieira – Corpos em Diálogo” Quarta-feira (25/11), das 19h às 20h. Grátis. 18 anos. [...] Aberta à comunidade",
+   "id": "2026-11-19-119",
+   "faixa": "gratis",
+   "status": "conferido"
+  },
+  {
+   "titulo": "Café com Arte – Novembro Negro, com Pandro Nobã",
+   "areas": [
+    "Artes Visuais",
+    "Livros & Debates"
+   ],
+   "tipo": "evento",
+   "local": "Casa Bonifácio (Ateliê Bonifácio – Espaço Afro-Carioca)",
+   "endereco": "Rua do Senado, 47",
+   "bairro": "Centro",
+   "regiao": "Centro",
+   "sessoes": [
+    {
+     "data": "2026-11-20",
+     "hora": "10:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": false,
+   "classificacao": "",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Manhã de café, pintura e conversa com o artista urbano e arte-educador Pandro Nobã, da Penha, inspirada na ideia de casa como lugar de acolhimento, de bell hooks. É preciso se inscrever.",
+   "fonte": "Programação Unificada – Novembro Negro 2026 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Novembro Negro: Casa Bonifácio Rua do Senado, 47, Centro, Rio de Janeiro 1. Café com Arte – Novembro Negro, com Pandro Nobã Data e horário: 20/11, a partir das 10h | Local: Casa Bonifácio (divulgado também como Ateliê Bonifácio – Espaço Afro-Carioca) | Participação: inscrições abertas",
+   "id": "2026-11-19-120",
+   "faixa": "nao_informado",
+   "status": "conferido"
+  },
+  {
+   "titulo": "Dança, Identidade e Resistência – aulão do Ballet Manguinhos",
+   "areas": [
+    "Festas & Feiras"
+   ],
+   "tipo": "evento",
+   "local": "Biblioteca Parque de Manguinhos",
+   "endereco": "",
+   "bairro": "Manguinhos",
+   "regiao": "Zona Norte",
+   "sessoes": [
+    {
+     "data": "2026-11-20",
+     "hora": "14:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "Grátis (senha no local, 30 min antes)",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "16 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Aulão do Dia da Consciência Negra para conhecer e experimentar afoxé, maculelê e capoeira. As senhas são distribuídas no local meia hora antes.",
+   "fonte": "Programação Unificada – Novembro Negro 2026 (PDF SMC)",
+   "link": "https://cultura.prefeitura.rio/agendacultural/",
+   "trecho_fonte": "Novembro Negro: 2. Dança, Identidade e Resistência Data e horário: 20/11/2026 (sexta-feira), às 14h | Local: Biblioteca Parque de Manguinhos | Classificação indicativa: a partir de 16 anos | Valor: Gratuita, com retirada de senha no local 30 minutos antes da atividade",
+   "id": "2026-11-19-121",
+   "faixa": "gratis",
+   "status": "a_confirmar"
   }
  ]
 }

@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:2026-11-19-021-0@largo.rio.br
-DTSTAMP:20261119T035807Z
+DTSTAMP:20261119T040241Z
 DTSTART:20261120T140000Z
 DTEND:20261120T160000Z
 SUMMARY:Visita mediada: Imersão
@@ -23,7 +23,7 @@ CATEGORIES:Artes Visuais
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-022-0@largo.rio.br
-DTSTAMP:20261119T035807Z
+DTSTAMP:20261119T040241Z
 DTSTART:20261121T130000Z
 DTEND:20261121T150000Z
 SUMMARY:Inside Out – 15 anos
@@ -38,7 +38,7 @@ CATEGORIES:Artes Visuais
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-022-1@largo.rio.br
-DTSTAMP:20261119T035807Z
+DTSTAMP:20261119T040241Z
 DTSTART:20261122T130000Z
 DTEND:20261122T150000Z
 SUMMARY:Inside Out – 15 anos
@@ -53,7 +53,7 @@ CATEGORIES:Artes Visuais
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-024-0@largo.rio.br
-DTSTAMP:20261119T035807Z
+DTSTAMP:20261119T040241Z
 DTSTART:20261119T210000Z
 DTEND:20261119T230000Z
 SUMMARY:Abertura da exposição “7 Ervas”
@@ -68,7 +68,7 @@ CATEGORIES:Artes Visuais
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-029-0@largo.rio.br
-DTSTAMP:20261119T035807Z
+DTSTAMP:20261119T040241Z
 DTSTART:20261121T130000Z
 DTEND:20261121T150000Z
 SUMMARY:Bebês no MAR – exposição Guilherme Kid
@@ -82,7 +82,7 @@ CATEGORIES:Infantil\,Artes Visuais
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-029-1@largo.rio.br
-DTSTAMP:20261119T035807Z
+DTSTAMP:20261119T040241Z
 DTSTART:20261121T140000Z
 DTEND:20261121T160000Z
 SUMMARY:Bebês no MAR – exposição Guilherme Kid
@@ -93,5 +93,21 @@ DESCRIPTION:Visita educativa para bebês de 0 a 2 anos e suas famílias.
  ral/\nLargo — agenda cultural aberta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
 CATEGORIES:Infantil\,Artes Visuais
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-120-0@largo.rio.br
+DTSTAMP:20261119T040241Z
+DTSTART:20261120T130000Z
+DTEND:20261120T150000Z
+SUMMARY:Café com Arte – Novembro Negro\, com Pandro Nobã
+LOCATION:Casa Bonifácio (Ateliê Bonifácio – Espaço Afro-Carioca)\, 
+ Rua do Senado\, 47 – Centro
+DESCRIPTION:Manhã de café\, pintura e conversa com o artista urbano e a
+ rte-educador Pandro Nobã\, da Penha\, inspirada na ideia de casa como l
+ ugar de acolhimento\, de bell hooks. É preciso se inscrever.\n\nPreço 
+ não informado\n\nFonte: https://cultura.prefeitura.rio/agendacultural/\
+ nLargo — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Artes Visuais\,Livros & Debates
 END:VEVENT
 END:VCALENDAR
