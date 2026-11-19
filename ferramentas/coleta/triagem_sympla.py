@@ -71,7 +71,7 @@ def main(pasta):
     cand.sort(key=lambda x: (-x[0], x[1]["inicio"]))
     rotulo = {2: "PRIORIDADE: equipamento público ou espaço cultural", 1: "cultural", 0: "verificar"}
     with open(os.path.join(pasta, "FPLAT_sympla.txt"), "w", encoding="utf-8") as f:
-        f.write("FPLAT_sympla | Sympla (extração e triagem automática do Largo) | https://www.sympla.com.br/eventos/rio-de-janeiro-rj\n")
+        f.write("FPLAT_sympla | Sympla (extração e triagem automática do Todos os Rios) | https://www.sympla.com.br/eventos/rio-de-janeiro-rj\n")
         for nivel in (2, 1, 0):
             f.write(f"## {rotulo[nivel]}\n")
             for pr, e in cand:

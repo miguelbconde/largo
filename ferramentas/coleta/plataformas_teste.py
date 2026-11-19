@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
 """Reconhecimento das plataformas de ingresso (teste, 19/11/2026).
 
-Visita poucas páginas públicas de cada plataforma, sem login, identificando-se como LargoBot,
+Visita poucas páginas públicas de cada plataforma, sem login, identificando-se como TodosOsRiosBot,
 com pausa entre visitas. Guarda as respostas brutas numa pasta temporária, que o fluxo do GitHub
 envia a um ramo separado (teste-plataformas), fora do site e da linha principal.
 Objetivo: descobrir por onde cada plataforma expõe a programação do Rio (dados estruturados,
 dados embutidos na página, interfaces usadas pelo próprio site, mapas do site).
-Protocolo do Largo (plano diretor, seção 5): só fatos sobre eventos, nunca dados de pessoas,
+Protocolo do Todos os Rios (plano diretor, seção 5): só fatos sobre eventos, nunca dados de pessoas,
 sem login, sem romper barreiras técnicas, sem sobrecarga.
 """
 import json, os, re, ssl, time, urllib.request, urllib.error
 
-AGENTE = "Mozilla/5.0 (compatible; LargoBot/0.1; agenda cultural aberta do Rio; +https://github.com/miguelbconde/largo)"
+AGENTE = "Mozilla/5.0 (compatible; TodosOsRiosBot/0.1; agenda cultural aberta do Rio; +https://github.com/miguelbconde/largo)"
 SAIDA = os.environ.get("SAIDA", "saida-plataformas")
 PAUSA = 3
 

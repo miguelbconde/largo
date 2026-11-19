@@ -90,7 +90,7 @@ def main(edicao, caminho):
             bairro=c["bairro"], regiao=c["regiao"], sessoes=sess, cartaz=None,
             preco_texto=(texto + " (preço da plataforma)") if texto else "", preco_min=pmin, preco_max=pmax,
             gratis=False, classificacao=f.get("classificacao", ""), acessibilidade="", na_rua=False,
-            sinopse=descricao(f), sinopse_en=descricao_lang(f, "en"), sinopse_es=descricao_lang(f, "es"), fonte="Ingresso.com (extração do Largo)",
+            sinopse=descricao(f), sinopse_en=descricao_lang(f, "en"), sinopse_es=descricao_lang(f, "es"), fonte="Ingresso.com (extração do Todos os Rios)",
             link=f.get("link") or c.get("site") or "", link_espaco=c.get("site", ""),
             trecho_fonte=trecho[:600],
             nota_redacao="Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",

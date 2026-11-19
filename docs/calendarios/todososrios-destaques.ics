@@ -1,15 +1,15 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Largo//Agenda cultural do Rio de Janeiro//PT-BR
+PRODID:-//Todos os Rios//Agenda cultural do Rio de Janeiro//PT-BR
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Largo · A boa (destaques)
+X-WR-CALNAME:Todos os Rios · A boa (destaques)
 X-WR-TIMEZONE:America/Sao_Paulo
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:2026-11-19-002-1@largo.rio.br
-DTSTAMP:20261119T200245Z
+UID:2026-11-19-002-1@todososrios.rio
+DTSTAMP:20261119T201055Z
 DTSTART:20261122T210000Z
 DTEND:20261122T230000Z
 SUMMARY:Equina
@@ -18,13 +18,14 @@ LOCATION:Espaço Cultural Sérgio Porto\, Rua Visconde de Silva\, ao lado
 DESCRIPTION:Espetáculo de dança de Aline Bernardi e Dani Lima sobre os 
  laços de cuidado entre humanos e cavalos\, a partir da pesquisa de dout
  orado de Aline.\n\nR$ 30 a R$ 60 · 18 anos\n\nFonte: https://cultura.pr
- efeitura.rio/agendacultural/\nLargo — agenda cultural aberta do Rio
+ efeitura.rio/agendacultural/\nTodos os Rios — agenda cultural aberta d
+ o Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
 CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-19-003-0@largo.rio.br
-DTSTAMP:20261119T200245Z
+UID:2026-11-19-003-0@todososrios.rio
+DTSTAMP:20261119T201055Z
 DTSTART:20261124T230000Z
 DTEND:20261125T010000Z
 SUMMARY:O Último Dia da Minha Vida
@@ -33,13 +34,13 @@ LOCATION:Teatro Municipal Café Pequeno\, Av. Ataulfo de Paiva\, 269 –
 DESCRIPTION:Numa noite decisiva\, Ângelo abre o baú onde guarda o que o
   tempo tentou apagar. Drama com humor ácido\, em última semana.\n\nR$ 
  10 a R$ 20 · 14 anos\n\nFonte: https://cultura.prefeitura.rio/agendacul
- tural/\nLargo — agenda cultural aberta do Rio
+ tural/\nTodos os Rios — agenda cultural aberta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
 CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-19-003-1@largo.rio.br
-DTSTAMP:20261119T200245Z
+UID:2026-11-19-003-1@todososrios.rio
+DTSTAMP:20261119T201055Z
 DTSTART:20261125T230000Z
 DTEND:20261126T010000Z
 SUMMARY:O Último Dia da Minha Vida
@@ -48,13 +49,13 @@ LOCATION:Teatro Municipal Café Pequeno\, Av. Ataulfo de Paiva\, 269 –
 DESCRIPTION:Numa noite decisiva\, Ângelo abre o baú onde guarda o que o
   tempo tentou apagar. Drama com humor ácido\, em última semana.\n\nR$ 
  10 a R$ 20 · 14 anos\n\nFonte: https://cultura.prefeitura.rio/agendacul
- tural/\nLargo — agenda cultural aberta do Rio
+ tural/\nTodos os Rios — agenda cultural aberta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
 CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-19-005-0@largo.rio.br
-DTSTAMP:20261119T200245Z
+UID:2026-11-19-005-0@todososrios.rio
+DTSTAMP:20261119T201055Z
 DTSTART:20261121T140000Z
 DTEND:20261121T160000Z
 SUMMARY:A Cura da Terra – Pequenas Revoluções
@@ -64,13 +65,13 @@ DESCRIPTION:Uma banda se prepara para o show e conta\, em vozes e histór
  ias\, algumas das principais revoluções indígenas da América Latina.
   Dialoga com o livro “A Cura da Terra”\, de Eliane Potiguara. Estrei
  a.\n\nGrátis · Livre\n\nFonte: https://cultura.prefeitura.rio/agendacu
- ltural/\nLargo — agenda cultural aberta do Rio
+ ltural/\nTodos os Rios — agenda cultural aberta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
 CATEGORIES:Teatro\,Música
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-19-015-0@largo.rio.br
-DTSTAMP:20261119T200245Z
+UID:2026-11-19-015-0@todososrios.rio
+DTSTAMP:20261119T201055Z
 DTSTART:20261119T220000Z
 DTEND:20261120T000000Z
 SUMMARY:Festa\, Fé e Luta (Mostra do Impossível)
@@ -80,14 +81,14 @@ DESCRIPTION:Um jovem professor resgata a memória de grandes referências
   negras brasileiras e os ensinamentos da mãe. Peça de João Pessanha n
  a 8ª Mostra do Impossível\, festival de arte negra da Confraria do Imp
  ossível.\n\nGrátis ou até R$ 10 (ver programação) · 10 anos\n\nFon
- te: https://confrariadoimpossivel.com/2026-mostra-do-impossivel/\nLargo 
- — agenda cultural aberta do Rio
+ te: https://confrariadoimpossivel.com/2026-mostra-do-impossivel/\nTodos 
+ os Rios — agenda cultural aberta do Rio
 URL:https://confrariadoimpossivel.com/2026-mostra-do-impossivel/
 CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-19-017-0@largo.rio.br
-DTSTAMP:20261119T200245Z
+UID:2026-11-19-017-0@todososrios.rio
+DTSTAMP:20261119T201055Z
 DTSTART:20261120T220000Z
 DTEND:20261121T000000Z
 SUMMARY:Cabeça de Porco – Retratos de um Território (Mostra do Imposs
@@ -99,13 +100,13 @@ DESCRIPTION:A partir da crença de que uma cabeça de porco enterrada imp
  radia e sonhos da periferia\, entre o forró e o funk. Direção de Juli
  ana França\, indicada ao Prêmio Shell.\n\nGrátis ou até R$ 10 (ver p
  rogramação) · 10 anos\n\nFonte: https://confrariadoimpossivel.com/202
- 6-mostra-do-impossivel/\nLargo — agenda cultural aberta do Rio
+ 6-mostra-do-impossivel/\nTodos os Rios — agenda cultural aberta do Rio
 URL:https://confrariadoimpossivel.com/2026-mostra-do-impossivel/
 CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-19-024-0@largo.rio.br
-DTSTAMP:20261119T200245Z
+UID:2026-11-19-024-0@todososrios.rio
+DTSTAMP:20261119T201055Z
 DTSTART:20261119T210000Z
 DTEND:20261119T230000Z
 SUMMARY:Abertura da exposição “7 Ervas”
@@ -114,13 +115,13 @@ LOCATION:Muhcab – Museu da História e da Cultura Afro-Brasileira\, Rua
 DESCRIPTION:Noite de abertura da coletiva de sete artistas mulheres\, com
   curadoria de Marcelo Campos\, que marca o primeiro aniversário da Gale
  ria Berê.\n\nGrátis\n\nFonte: https://cultura.prefeitura.rio/agendacul
- tural/\nLargo — agenda cultural aberta do Rio
+ tural/\nTodos os Rios — agenda cultural aberta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
 CATEGORIES:Artes Visuais
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-19-036-0@largo.rio.br
-DTSTAMP:20261119T200245Z
+UID:2026-11-19-036-0@todososrios.rio
+DTSTAMP:20261119T201055Z
 DTSTART:20261120T130000Z
 DTEND:20261120T150000Z
 SUMMARY:12º Cortejo da Tia Ciata
@@ -130,13 +131,13 @@ DESCRIPTION:Uma escultura de Tia Ciata com mais de cinco metros abre o co
  rtejo pelas ruas da Pequena África\, com afoxé\, maracatu e samba\, em
   memória da matriarca do samba e de Zumbi. Depois\, roda de samba e fei
  ra.\n\nGrátis · Livre\n\nFonte: https://cultura.prefeitura.rio/agendac
- ultural/\nLargo — agenda cultural aberta do Rio
+ ultural/\nTodos os Rios — agenda cultural aberta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
 CATEGORIES:Festas & Feiras\,Música
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-19-040-0@largo.rio.br
-DTSTAMP:20261119T200245Z
+UID:2026-11-19-040-0@todososrios.rio
+DTSTAMP:20261119T201055Z
 DTSTART:20261125T130000Z
 DTEND:20261125T150000Z
 SUMMARY:Mesa-redonda: O Mundo que se Quer Esconder das Crianças
@@ -145,13 +146,13 @@ LOCATION:Biblioteca Municipal Annita Porto Martins\, Rua Sampaio Viana\,
 DESCRIPTION:As autoras Nilma Lacerda e Fabíola Farias discutem o incômo
  do na literatura infantil\, tema do livro que escreveram juntas.\n\nGrá
  tis · 18 anos\n\nFonte: https://cultura.prefeitura.rio/agendacultural/\
- nLargo — agenda cultural aberta do Rio
+ nTodos os Rios — agenda cultural aberta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
 CATEGORIES:Livros & Debates
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-19-047-0@largo.rio.br
-DTSTAMP:20261119T200245Z
+UID:2026-11-19-047-0@todososrios.rio
+DTSTAMP:20261119T201055Z
 DTSTART:20261122T140000Z
 DTEND:20261122T160000Z
 SUMMARY:Festival Quem Dança é Mais Feliz
@@ -159,14 +160,14 @@ LOCATION:Areninha Cultural Jacob do Bandolim\, Praça do Barro Vermelho (
  Praça Geraldo Simonard)\, s/nº – Pechincha
 DESCRIPTION:Festival de dança que reúne diferentes estilos numa manhã 
  de domingo na areninha do Pechincha.\n\nGrátis · Livre\n\nFonte: https
- ://cultura.prefeitura.rio/agendacultural/\nLargo — agenda cultural abe
- rta do Rio
+ ://cultura.prefeitura.rio/agendacultural/\nTodos os Rios — agenda cult
+ ural aberta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
 CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-19-048-0@largo.rio.br
-DTSTAMP:20261119T200245Z
+UID:2026-11-19-048-0@todososrios.rio
+DTSTAMP:20261119T201055Z
 DTSTART:20261120T180000Z
 DTEND:20261120T200000Z
 SUMMARY:Orquestra Agogô Carioca
@@ -174,14 +175,14 @@ LOCATION:Centro Cultural Professora Dyla Sylvia de Sá\, Rua Barão\, 1.1
  80 – Praça Seca
 DESCRIPTION:A orquestra de agogôs se apresenta sob a regência de Sidcle
  y Fernandes\, mestre de agogô do carnaval carioca.\n\nGrátis · Livre\
- n\nFonte: https://cultura.prefeitura.rio/agendacultural/\nLargo — agen
- da cultural aberta do Rio
+ n\nFonte: https://cultura.prefeitura.rio/agendacultural/\nTodos os Rios 
+ — agenda cultural aberta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
 CATEGORIES:Música
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-19-049-0@largo.rio.br
-DTSTAMP:20261119T200245Z
+UID:2026-11-19-049-0@todososrios.rio
+DTSTAMP:20261119T201055Z
 DTSTART:20261121T140000Z
 DTEND:20261121T160000Z
 SUMMARY:Baile Charme do Projeto Black Music Soul
@@ -189,14 +190,14 @@ LOCATION:Centro Cultural Professora Dyla Sylvia de Sá\, Rua Barão\, 1.1
  80 – Praça Seca
 DESCRIPTION:Baile de charme\, tradição da cultura negra e urbana do Rio
  \, em plena manhã de sábado na Praça Seca.\n\nGrátis · Livre\n\nFon
- te: https://cultura.prefeitura.rio/agendacultural/\nLargo — agenda cul
- tural aberta do Rio
+ te: https://cultura.prefeitura.rio/agendacultural/\nTodos os Rios — ag
+ enda cultural aberta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
 CATEGORIES:Festas & Feiras\,Música
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-19-050-0@largo.rio.br
-DTSTAMP:20261119T200245Z
+UID:2026-11-19-050-0@todososrios.rio
+DTSTAMP:20261119T201055Z
 DTSTART:20261125T170000Z
 DTEND:20261125T190000Z
 SUMMARY:Rap & Repente – Artes do Improviso
@@ -205,13 +206,13 @@ LOCATION:Centro Cultural Professora Dyla Sylvia de Sá\, Rua Barão\, 1.1
 DESCRIPTION:Encontro entre duas tradições de rima e improviso\, com con
  versa sobre origens e processos de criação\, pensado para o público j
  ovem.\n\nGrátis · 12 anos\n\nFonte: https://cultura.prefeitura.rio/age
- ndacultural/\nLargo — agenda cultural aberta do Rio
+ ndacultural/\nTodos os Rios — agenda cultural aberta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
 CATEGORIES:Música
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-19-051-0@largo.rio.br
-DTSTAMP:20261119T200245Z
+UID:2026-11-19-051-0@todososrios.rio
+DTSTAMP:20261119T201055Z
 DTSTART:20261124T230000Z
 DTEND:20261125T010000Z
 SUMMARY:Priscilla em 2L em A Cara da Mãe e o P@u do Pai
@@ -220,13 +221,13 @@ LOCATION:Teatro Municipal Ziembinski\, Rua Heitor Beltrão\, s/nº – Ti
 DESCRIPTION:Stand-up\, improviso e palhaçaria: Priscilla conta sua trans
  ição de gênero depois dos 30. Na Semana da Comédia\, do Festival Que
  er Comedy.\n\nR$ 30 a R$ 60 · 18 anos\n\nFonte: https://cultura.prefeit
- ura.rio/agendacultural/\nLargo — agenda cultural aberta do Rio
+ ura.rio/agendacultural/\nTodos os Rios — agenda cultural aberta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
 CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-19-054-1@largo.rio.br
-DTSTAMP:20261119T200245Z
+UID:2026-11-19-054-1@todososrios.rio
+DTSTAMP:20261119T201055Z
 DTSTART:20261122T190000Z
 DTEND:20261122T210000Z
 SUMMARY:Quintal
@@ -236,13 +237,13 @@ DESCRIPTION:Cinco crianças do subúrbio estão prestes a perder o quinta
  l onde brincam para um condomínio de luxo. Infantojuvenil sobre a memó
  ria dos bairros e o direito de brincar. Último fim de semana.\n\nR$ 20 
  a R$ 40 · Livre\n\nFonte: https://cultura.prefeitura.rio/agendacultural
- /\nLargo — agenda cultural aberta do Rio
+ /\nTodos os Rios — agenda cultural aberta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
 CATEGORIES:Infantil\,Teatro
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-19-055-0@largo.rio.br
-DTSTAMP:20261119T200245Z
+UID:2026-11-19-055-0@todososrios.rio
+DTSTAMP:20261119T201055Z
 DTSTART:20261120T190000Z
 DTEND:20261120T210000Z
 SUMMARY:A Menina Dança
@@ -251,14 +252,14 @@ LOCATION:Teatro Municipal de Guignol da Tijuca\, Praça Comandante Xavier
 DESCRIPTION:Dança-teatro para crianças sobre Maria Felipa de Oliveira\,
   marisqueira negra e heroína da Independência da Bahia\, com maracatu\
  , jongo\, maculelê e samba de roda.\n\nGrátis · Livre\n\nFonte: https
- ://cultura.prefeitura.rio/agendacultural/\nLargo — agenda cultural abe
- rta do Rio
+ ://cultura.prefeitura.rio/agendacultural/\nTodos os Rios — agenda cult
+ ural aberta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
 CATEGORIES:Infantil\,Teatro
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-19-058-0@largo.rio.br
-DTSTAMP:20261119T200245Z
+UID:2026-11-19-058-0@todososrios.rio
+DTSTAMP:20261119T201055Z
 DTSTART:20261121T200000Z
 DTEND:20261121T220000Z
 SUMMARY:Baú da Dona Ivone Lara\, com Bruno Castro e Áurea Martins
@@ -268,13 +269,13 @@ DESCRIPTION:Parceiro de Dona Ivone Lara por mais de vinte anos\, Bruno Ca
  stro canta clássicos e sambas pouco conhecidos da Primeira-Dama do Samb
  a\, com participação de Áurea Martins.\n\nR$ 30 a R$ 60 (moradores do
   Rio pagam meia) · Livre\n\nFonte: https://cultura.prefeitura.rio/agend
- acultural/\nLargo — agenda cultural aberta do Rio
+ acultural/\nTodos os Rios — agenda cultural aberta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
 CATEGORIES:Música
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-19-061-0@largo.rio.br
-DTSTAMP:20261119T200245Z
+UID:2026-11-19-061-0@todososrios.rio
+DTSTAMP:20261119T201055Z
 DTSTART:20261125T220000Z
 DTEND:20261126T000000Z
 SUMMARY:Amanda Mendonça canta Djavan
@@ -283,14 +284,14 @@ LOCATION:Centro da Música Carioca Artur da Távola\, Rua Conde de Bonfim
 DESCRIPTION:A cantora alagoana celebra os 50 anos de carreira do conterr
  âneo com “Oceano”\, “Flor de Lis”\, “Sina” e outros clássi
  cos. No projeto Quartas Acústicas.\n\nR$ 25 a R$ 50 · Livre\n\nFonte: 
- https://cultura.prefeitura.rio/agendacultural/\nLargo — agenda cultura
- l aberta do Rio
+ https://cultura.prefeitura.rio/agendacultural/\nTodos os Rios — agenda
+  cultural aberta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
 CATEGORIES:Música
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-19-066-0@largo.rio.br
-DTSTAMP:20261119T200245Z
+UID:2026-11-19-066-0@todososrios.rio
+DTSTAMP:20261119T201055Z
 DTSTART:20261121T220000Z
 DTEND:20261122T000000Z
 SUMMARY:Fora do Quadro
@@ -299,13 +300,14 @@ LOCATION:Arena Cultural Dicró\, Rua Flora Lobo\, Parque Ary Barroso\, s/
 DESCRIPTION:Espetáculo de dança em que o muro de um quartel símbolo da
   ditadura vira passarela para ballroom\, voguing\, waacking\, hip hop\, 
  jazz e sapateado.\n\nGrátis · 18 anos\n\nFonte: https://cultura.prefei
- tura.rio/agendacultural/\nLargo — agenda cultural aberta do Rio
+ tura.rio/agendacultural/\nTodos os Rios — agenda cultural aberta do Ri
+ o
 URL:https://cultura.prefeitura.rio/agendacultural/
 CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-19-075-0@largo.rio.br
-DTSTAMP:20261119T200245Z
+UID:2026-11-19-075-0@todososrios.rio
+DTSTAMP:20261119T201055Z
 DTSTART:20261122T130000Z
 DTEND:20261122T150000Z
 SUMMARY:Mensageiras da Cultura – 50 anos da Kotekitai
@@ -313,14 +315,14 @@ LOCATION:Areninha Cultural Carlos Zéfiro\, Estrada Marechal Alencastro\,
   s/nº – Anchieta
 DESCRIPTION:A Banda Asas da Paz Kotekitai do Brasil\, formada só por mul
  heres\, celebra 50 anos de atuação no Rio em duas sessões.\n\nGrátis
-  · Livre\n\nFonte: https://cultura.prefeitura.rio/agendacultural/\nLarg
- o — agenda cultural aberta do Rio
+  · Livre\n\nFonte: https://cultura.prefeitura.rio/agendacultural/\nTodo
+ s os Rios — agenda cultural aberta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
 CATEGORIES:Música
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-19-075-1@largo.rio.br
-DTSTAMP:20261119T200245Z
+UID:2026-11-19-075-1@todososrios.rio
+DTSTAMP:20261119T201055Z
 DTSTART:20261122T143000Z
 DTEND:20261122T163000Z
 SUMMARY:Mensageiras da Cultura – 50 anos da Kotekitai
@@ -328,14 +330,14 @@ LOCATION:Areninha Cultural Carlos Zéfiro\, Estrada Marechal Alencastro\,
   s/nº – Anchieta
 DESCRIPTION:A Banda Asas da Paz Kotekitai do Brasil\, formada só por mul
  heres\, celebra 50 anos de atuação no Rio em duas sessões.\n\nGrátis
-  · Livre\n\nFonte: https://cultura.prefeitura.rio/agendacultural/\nLarg
- o — agenda cultural aberta do Rio
+  · Livre\n\nFonte: https://cultura.prefeitura.rio/agendacultural/\nTodo
+ s os Rios — agenda cultural aberta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
 CATEGORIES:Música
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-19-076-0@largo.rio.br
-DTSTAMP:20261119T200245Z
+UID:2026-11-19-076-0@todososrios.rio
+DTSTAMP:20261119T201055Z
 DTSTART:20261120T210000Z
 DTEND:20261120T230000Z
 SUMMARY:Quintal do Renatin
@@ -344,14 +346,14 @@ LOCATION:Areninha Cultural Renato Russo\, Parque Poeta Manuel Bandeira\,
 DESCRIPTION:Ocupação cultural do feriado na Ilha do Governador: samba\,
   capoeira\, rap\, poesia e danças urbanas em roda\, com banda residente
   e o público dentro da cena.\n\nGrátis · Livre\n\nFonte: https://cult
- ura.prefeitura.rio/agendacultural/\nLargo — agenda cultural aberta do 
- Rio
+ ura.prefeitura.rio/agendacultural/\nTodos os Rios — agenda cultural ab
+ erta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
 CATEGORIES:Música\,Festas & Feiras
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-19-077-0@largo.rio.br
-DTSTAMP:20261119T200245Z
+UID:2026-11-19-077-0@todososrios.rio
+DTSTAMP:20261119T201055Z
 DTSTART:20261119T173000Z
 DTEND:20261119T193000Z
 SUMMARY:Poexistência: Consciência Negra
@@ -359,13 +361,13 @@ LOCATION:Biblioteca Municipal Marques Rebelo\, Rua Guapeni\, 61 – Tijuca
 DESCRIPTION:Sarau aberto em que cada pessoa pode ler textos seus ou de ou
  tros autores\, com um poeta convidado. O tema de novembro é a Consciên
  cia Negra.\n\nGrátis · 16 anos\n\nFonte: https://cultura.prefeitura.ri
- o/agendacultural/\nLargo — agenda cultural aberta do Rio
+ o/agendacultural/\nTodos os Rios — agenda cultural aberta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
 CATEGORIES:Livros & Debates
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-19-083-0@largo.rio.br
-DTSTAMP:20261119T200245Z
+UID:2026-11-19-083-0@todososrios.rio
+DTSTAMP:20261119T201055Z
 DTSTART:20261119T230000Z
 DTEND:20261120T010000Z
 SUMMARY:KD O Show
@@ -373,14 +375,14 @@ LOCATION:Arena Cultural Abelardo Barbosa – Chacrinha\, Rua Soldado Elis
  eu Hipólito\, s/nº – Pedra de Guaratiba
 DESCRIPTION:Kwesny e Daniel Lopes fazem um show de humor que muda a cada 
  noite\, com a plateia ditando o rumo.\n\nR$ 35 · 14 anos\n\nFonte: http
- s://cultura.prefeitura.rio/agendacultural/\nLargo — agenda cultural ab
- erta do Rio
+ s://cultura.prefeitura.rio/agendacultural/\nTodos os Rios — agenda cul
+ tural aberta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
 CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-19-084-0@largo.rio.br
-DTSTAMP:20261119T200245Z
+UID:2026-11-19-084-0@todososrios.rio
+DTSTAMP:20261119T201055Z
 DTSTART:20261121T170000Z
 DTEND:20261121T190000Z
 SUMMARY:FIPAZO – Festival de Pole Dance\, Aéreos e Danças da Zona Oes
@@ -390,13 +392,14 @@ LOCATION:Arena Cultural Abelardo Barbosa – Chacrinha\, Rua Soldado Elis
 DESCRIPTION:Terceira edição do festival não competitivo que reúne art
  istas de Pedra de Guaratiba e de outras regiões em números de pole dan
  ce\, circo e dança.\n\nR$ 30 · 16 anos\n\nFonte: https://cultura.prefe
- itura.rio/agendacultural/\nLargo — agenda cultural aberta do Rio
+ itura.rio/agendacultural/\nTodos os Rios — agenda cultural aberta do R
+ io
 URL:https://cultura.prefeitura.rio/agendacultural/
 CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-19-085-0@largo.rio.br
-DTSTAMP:20261119T200245Z
+UID:2026-11-19-085-0@todososrios.rio
+DTSTAMP:20261119T201055Z
 DTSTART:20261124T210000Z
 DTEND:20261124T230000Z
 SUMMARY:Alice no País das Maravilhas: O Despertar da União – O Musical
@@ -404,27 +407,28 @@ LOCATION:Arena Cultural Abelardo Barbosa – Chacrinha\, Rua Soldado Elis
  eu Hipólito\, s/nº – Pedra de Guaratiba
 DESCRIPTION:Entre o reino da Rainha Vermelha e o da Rainha Branca\, Alice
   descobre que a maior batalha é saber quem ela é.\n\nR$ 50 · Livre\n\
- nFonte: https://cultura.prefeitura.rio/agendacultural/\nLargo — agenda
-  cultural aberta do Rio
+ nFonte: https://cultura.prefeitura.rio/agendacultural/\nTodos os Rios 
+ — agenda cultural aberta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
 CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-19-086-0@largo.rio.br
-DTSTAMP:20261119T200245Z
+UID:2026-11-19-086-0@todososrios.rio
+DTSTAMP:20261119T201055Z
 DTSTART:20261122T130000Z
 DTEND:20261122T150000Z
 SUMMARY:Domingo recreativo para crianças
 LOCATION:Areninha Cultural Sandra de Sá\, Rua Doze\, 1 – Santa Cruz
 DESCRIPTION:Jogos\, brincadeiras e pintura conduzidos pela equipe da aren
  inha\, todo domingo.\n\nGrátis · Livre\n\nFonte: https://cultura.prefe
- itura.rio/agendacultural/\nLargo — agenda cultural aberta do Rio
+ itura.rio/agendacultural/\nTodos os Rios — agenda cultural aberta do R
+ io
 URL:https://cultura.prefeitura.rio/agendacultural/
 CATEGORIES:Infantil
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-19-090-2@largo.rio.br
-DTSTAMP:20261119T200245Z
+UID:2026-11-19-090-2@todososrios.rio
+DTSTAMP:20261119T201055Z
 DTSTART:20261122T110000Z
 DTEND:20261122T130000Z
 SUMMARY:Amanhecer Rio – Festival Cultura e Cuidado
@@ -433,13 +437,13 @@ DESCRIPTION:Três manhãs no Passeio Público com shows\, conversas\, iog
  a e feira. Sexta tem Jonathan Ferr\; sábado\, Michael Sullivan\; doming
  o\, a Bateria da Portela e a roda Quintal da Magia. Idealizado por Marcu
  s Faustini.\n\nGrátis · Livre\n\nFonte: https://cultura.prefeitura.rio
- /agendacultural/\nLargo — agenda cultural aberta do Rio
+ /agendacultural/\nTodos os Rios — agenda cultural aberta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
 CATEGORIES:Festas & Feiras\,Música
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-19-091-0@largo.rio.br
-DTSTAMP:20261119T200245Z
+UID:2026-11-19-091-0@todososrios.rio
+DTSTAMP:20261119T201055Z
 DTSTART:20261121T130000Z
 DTEND:20261121T150000Z
 SUMMARY:Rolé Estácio – Berço do Samba
@@ -449,13 +453,13 @@ DESCRIPTION:Caminhada guiada pelas ruas do Estácio\, por lugares e memó
  rias de Ismael Silva\, Bide e da Deixa Falar. Termina na quadra da Está
  cio de Sá\, com feijoada e música a partir das 13h (consumo à parte).
  \n\nGrátis · Livre\n\nFonte: https://cultura.prefeitura.rio/agendacult
- ural/\nLargo — agenda cultural aberta do Rio
+ ural/\nTodos os Rios — agenda cultural aberta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
 CATEGORIES:Festas & Feiras\,Música
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-19-096-0@largo.rio.br
-DTSTAMP:20261119T200245Z
+UID:2026-11-19-096-0@todososrios.rio
+DTSTAMP:20261119T201055Z
 DTSTART:20261120T160000Z
 DTEND:20261120T180000Z
 SUMMARY:Festival Terreiro 2026 – Dia da Consciência Negra
@@ -464,14 +468,14 @@ LOCATION:Praça das Juras\, Praça das Juras (referência: Nave do Conhec
 DESCRIPTION:Do começo da tarde à meia-noite na praça: samba\, jongo e 
  cultura popular\, com Sombrinha\, Jongo da Serrinha e o festival infanti
  l Terreirinho. Do Terreiro de Crioulo.\n\nGrátis (ingresso colaborativo
-  opcional)\n\nFonte: https://cultura.prefeitura.rio/agendacultural/\nLar
- go — agenda cultural aberta do Rio
+  opcional)\n\nFonte: https://cultura.prefeitura.rio/agendacultural/\nTod
+ os os Rios — agenda cultural aberta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
 CATEGORIES:Música\,Festas & Feiras\,Infantil
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-19-112-0@largo.rio.br
-DTSTAMP:20261119T200245Z
+UID:2026-11-19-112-0@todososrios.rio
+DTSTAMP:20261119T201055Z
 DTSTART:20261119T230000Z
 DTEND:20261120T010000Z
 SUMMARY:Festival Abraço Negro – Ilê Aiyê convida Surdo Um da Manguei
@@ -480,13 +484,13 @@ LOCATION:Circo Voador\, Rua dos Arcos\, s/nº – Lapa
 DESCRIPTION:Na véspera do feriado da Consciência Negra\, o bloco baiano
   Ilê Aiyê recebe o Surdo Um da Mangueira\; abertura com Kazen Sorriso 
  e convidados.\n\nPreço não informado\n\nFonte: https://www.circovoador
- .com.br/\nLargo — agenda cultural aberta do Rio
+ .com.br/\nTodos os Rios — agenda cultural aberta do Rio
 URL:https://www.circovoador.com.br/
 CATEGORIES:Música
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-19-118-0@largo.rio.br
-DTSTAMP:20261119T200245Z
+UID:2026-11-19-118-0@todososrios.rio
+DTSTAMP:20261119T201055Z
 DTSTART:20261124T130000Z
 DTEND:20261124T150000Z
 SUMMARY:Seminário Estadual: Por uma Educação Antirracista
@@ -494,14 +498,14 @@ LOCATION:Muhcab – Museu da História e da Cultura Afro-Brasileira\, Rua
   Pedro Ernesto\, 80 – Gamboa
 DESCRIPTION:Dia de debates sobre práticas de ensino comprometidas com a 
  equidade racial e com a história e a cultura afro-brasileiras.\n\nGrát
- is · Livre\n\nFonte: https://cultura.prefeitura.rio/agendacultural/\nLa
- rgo — agenda cultural aberta do Rio
+ is · Livre\n\nFonte: https://cultura.prefeitura.rio/agendacultural/\nTo
+ dos os Rios — agenda cultural aberta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
 CATEGORIES:Livros & Debates
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-19-123-0@largo.rio.br
-DTSTAMP:20261119T200245Z
+UID:2026-11-19-123-0@todososrios.rio
+DTSTAMP:20261119T201055Z
 DTSTART:20261124T190000Z
 DTEND:20261124T210000Z
 SUMMARY:A poesia brasileira na Coleção Ciranda da Poesia – ciclo de c
@@ -511,14 +515,14 @@ LOCATION:Academia Brasileira de Letras (ABL)\, Av. Presidente Wilson\, 20
 DESCRIPTION:Conferência do ciclo sobre a poesia brasileira na Coleção 
  Ciranda da Poesia\, com coordenação do acadêmico Paulo Henriques Brit
  to. A inscrição é feita pelo site da Academia.\n\nPreço não informa
- do\n\nFonte: https://academia.org.br/eventos\nLargo — agenda cultural 
- aberta do Rio
+ do\n\nFonte: https://academia.org.br/eventos\nTodos os Rios — agenda c
+ ultural aberta do Rio
 URL:https://academia.org.br/eventos
 CATEGORIES:Livros & Debates
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-19-128-0@largo.rio.br
-DTSTAMP:20261119T200245Z
+UID:2026-11-19-128-0@todososrios.rio
+DTSTAMP:20261119T201055Z
 DTSTART:20261119T220000Z
 DTEND:20261120T000000Z
 SUMMARY:Guilherme Pozzi – Série Piano na Sala
@@ -526,14 +530,14 @@ LOCATION:Sala Cecília Meireles\, Largo da Lapa\, 47 – Lapa
 DESCRIPTION:Recital do pianista com obras de Schumann\, Beethoven\, Chopi
  n e Prokofiev\, da Arabeske à Sonata nº 7\, passando pela “Appassion
  ata” e pela Balada nº 4.\n\nR$ 40\n\nFonte: https://salaceciliameirel
- es.rj.gov.br/programacao/guilherme-pozzi/\nLargo — agenda cultural abe
- rta do Rio
+ es.rj.gov.br/programacao/guilherme-pozzi/\nTodos os Rios — agenda cult
+ ural aberta do Rio
 URL:https://salaceciliameireles.rj.gov.br/programacao/guilherme-pozzi/
 CATEGORIES:Música
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-19-155-0@largo.rio.br
-DTSTAMP:20261119T200245Z
+UID:2026-11-19-155-0@todososrios.rio
+DTSTAMP:20261119T201055Z
 DTSTART:20261123T220000Z
 DTEND:20261124T000000Z
 SUMMARY:Lançamento: Música em Pauta
@@ -541,14 +545,14 @@ LOCATION:Livraria da Travessa – Ipanema\, Rua Visconde de Pirajá\, 572
   – Ipanema
 DESCRIPTION:Mariana Camargo lança o livro que reúne textos inéditos e 
  textos saídos na coluna de mesmo nome.\n\nPreço não informado\n\nFont
- e: https://www.travessa.com.br/eventos\nLargo — agenda cultural aberta
-  do Rio
+ e: https://www.travessa.com.br/eventos\nTodos os Rios — agenda cultura
+ l aberta do Rio
 URL:https://www.travessa.com.br/eventos
 CATEGORIES:Livros & Debates\,Música
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-19-171-0@largo.rio.br
-DTSTAMP:20261119T200245Z
+UID:2026-11-19-171-0@todososrios.rio
+DTSTAMP:20261119T201055Z
 DTSTART:20261123T220000Z
 DTEND:20261124T000000Z
 SUMMARY:Ensaio de rua do Paraíso do Tuiuti
@@ -556,7 +560,8 @@ LOCATION:Campo de São Cristóvão (em frente ao Colégio Pedro II)\, Cam
  po de São Cristóvão – São Cristóvão
 DESCRIPTION:O Paraíso do Tuiuti ensaia no Campo de São Cristóvão\, pr
  eparando o Carnaval 2027. Entrada gratuita. Escola de samba do Grupo Esp
- ecial.\n\nGrátis\n\nFonte: \nLargo — agenda cultural aberta do Rio
+ ecial.\n\nGrátis\n\nFonte: \nTodos os Rios — agenda cultural aberta d
+ o Rio
 URL:
 CATEGORIES:Festas & Feiras\,Música
 END:VEVENT

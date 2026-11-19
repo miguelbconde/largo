@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Extração das plataformas de ingresso — Ingresso.com (cinema) e Sympla (eventos).
 
-Faz parte da ronda diária. Segue o protocolo do Largo para plataformas (plano diretor, seção 5):
+Faz parte da ronda diária. Segue o protocolo do Todos os Rios para plataformas (plano diretor, seção 5):
 só fatos sobre eventos (título, datas, horários, local, preço, classificação, link), nunca dados de
 pessoas (o e-mail do organizador que a Sympla expõe é descartado), sem login, sem romper barreiras
-técnicas, com pausa entre visitas, identificado como LargoBot. Nas plataformas não seguimos as regras
+técnicas, com pausa entre visitas, identificado como TodosOsRiosBot. Nas plataformas não seguimos as regras
 para robôs que elas publicam (decisão editorial de 19/11/2026).
 
 Saídas (na pasta de texto bruto da ronda, fora da linha principal):
@@ -16,7 +16,7 @@ Uso: python3 plataformas.py <pasta de saída>
 import datetime as dt, json, os, re, ssl, sys, time, urllib.request, urllib.error
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-AGENTE = "Mozilla/5.0 (compatible; LargoBot/0.1; agenda cultural aberta do Rio; +https://github.com/miguelbconde/largo)"
+AGENTE = "Mozilla/5.0 (compatible; TodosOsRiosBot/0.1; agenda cultural aberta do Rio; +https://github.com/miguelbconde/largo)"
 PAUSA = 2
 
 # Todos os cinemas da cidade na Ingresso.com entram (decisão editorial de 19/11/2026: cinema de shopping

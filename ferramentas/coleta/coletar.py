@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Coletor do Largo — ronda diária das fontes de programação.
+"""Coletor do Todos os Rios — ronda diária das fontes de programação.
 
 O QUE FAZ
   Visita as fontes do cadastro (dados/fontes.csv) que têm site e guarda, para cada uma,
@@ -17,7 +17,7 @@ O QUE NÃO FAZ
   grava a pasta de saída e um arquivo .zip ao lado dela.
 
 BOAS MANEIRAS
-  Identifica-se como LargoBot, com o endereço do projeto. Obedece às regras que cada site
+  Identifica-se como TodosOsRiosBot, com o endereço do projeto. Obedece às regras que cada site
   publica para leitores automáticos (robots.txt). Faz poucas visitas por site, com pausa.
 
 USO
@@ -26,7 +26,7 @@ USO
   No computador da coordenação editorial, para as fontes que recusam a nuvem:
       python coletar.py
   (sem nada mais: ele busca sozinho a lista de fontes pendentes no repositório do projeto
-  e deixa um arquivo coleta-largo-pc-AAAA-MM-DD.zip na mesma pasta do script)
+  e deixa um arquivo coleta-todososrios-pc-AAAA-MM-DD.zip na mesma pasta do script)
 
   Opções:  --todas         visita todas as fontes, não só as pendentes (no computador)
            --so F019,F051  visita só as fontes indicadas
@@ -39,7 +39,7 @@ from concurrent.futures import ThreadPoolExecutor
 from datetime import date, datetime, timedelta, timezone
 from urllib.parse import urljoin, urlparse
 
-AGENTE = "LargoBot/0.2 (agenda cultural aberta do Rio de Janeiro; +https://github.com/miguelbconde/largo)"
+AGENTE = "TodosOsRiosBot/0.2 (agenda cultural aberta do Rio de Janeiro; +https://github.com/miguelbconde/largo)"
 REPO_BRUTO = "https://raw.githubusercontent.com/miguelbconde/largo/main/"
 AQUI = os.path.dirname(os.path.abspath(__file__))
 RAIZ = os.path.dirname(os.path.dirname(AQUI))
@@ -125,7 +125,7 @@ def permitido(url):
             rp = urllib.robotparser.RobotFileParser(); rp.parse(txt.splitlines())
         _ROBOTS[base] = rp
     rp = _ROBOTS[base]
-    return True if rp is None else rp.can_fetch("LargoBot", url)
+    return True if rp is None else rp.can_fetch("TodosOsRiosBot", url)
 
 
 # ------------------------------------------------------------------ leitura
@@ -419,7 +419,7 @@ def pendentes_da_nuvem():
 
 
 def main():
-    ap = argparse.ArgumentParser(description="Ronda semanal das fontes do Largo.")
+    ap = argparse.ArgumentParser(description="Ronda semanal das fontes do Todos os Rios.")
     ap.add_argument("--todas", action="store_true", help="visita todas as fontes, não só as pendentes")
     ap.add_argument("--so", help="ids separados por vírgula, ex.: F019,F051")
     args = ap.parse_args()
@@ -441,7 +441,7 @@ def main():
     for f in fontes:
         grupos.setdefault(CORRECOES.get(f["id"], f["url"].strip()), []).append(f)
     hoje = date.today().isoformat()
-    pasta = os.path.join(RAIZ if NO_REPOSITORIO else AQUI, "coleta-bruta" if origem == "nuvem" else f"coleta-largo-pc-{hoje}")
+    pasta = os.path.join(RAIZ if NO_REPOSITORIO else AQUI, "coleta-bruta" if origem == "nuvem" else f"coleta-todososrios-pc-{hoje}")
     os.makedirs(pasta, exist_ok=True)
 
     t0 = time.time()
@@ -470,7 +470,7 @@ def main():
         linhas += [f"| {r['nome'][:70]} | {r['situacao']} | {', '.join(r['degraus'])} |" for r in sorted(resultados, key=lambda x: (x["situacao"], x["nome"]))]
         open(os.path.join(RAIZ, "dados", "coleta", "resumo.md"), "w", encoding="utf-8").write("\n".join(linhas) + "\n")
     else:
-        destino = os.path.join(AQUI, f"coleta-largo-pc-{hoje}.zip")
+        destino = os.path.join(AQUI, f"coleta-todososrios-pc-{hoje}.zip")
         with zipfile.ZipFile(destino, "w", zipfile.ZIP_DEFLATED) as z:
             for nome in sorted(os.listdir(pasta)):
                 z.write(os.path.join(pasta, nome), nome)

@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Diagnóstico de alcance das fontes do Largo.
+"""Diagnóstico de alcance das fontes do Todos os Rios.
 
 Visita uma vez a página de cada fonte do Núcleo com site e anota, sem guardar conteúdo:
   - se o site responde a partir da nuvem;
   - o que as regras do próprio site (robots.txt) permitem a leitores automáticos;
   - quais "portas de dados" ele oferece: feed RSS/Atom, eventos em dados estruturados
     (JSON-LD), porta padrão do WordPress, calendário de eventos, arquivo de agenda (.ics), mapa do site.
-Só usa a biblioteca padrão do Python. Identifica-se como LargoBot e faz poucas visitas por site.
+Só usa a biblioteca padrão do Python. Identifica-se como TodosOsRiosBot e faz poucas visitas por site.
 Resultado: dados/coleta/diagnostico.json e dados/coleta/diagnostico.md
 """
 import csv, json, os, re, ssl, time, urllib.request, urllib.error, urllib.robotparser
@@ -14,7 +14,7 @@ from concurrent.futures import ThreadPoolExecutor
 from urllib.parse import urljoin, urlparse
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-AGENTE = "LargoBot/0.1 (agenda cultural aberta do Rio; +https://github.com/miguelbconde/largo)"
+AGENTE = "TodosOsRiosBot/0.1 (agenda cultural aberta do Rio; +https://github.com/miguelbconde/largo)"
 LIMITE = 600_000  # bytes lidos por página, no máximo
 
 
@@ -43,7 +43,7 @@ def examinar(fonte):
     permitido = None
     if st == 200 and "<html" not in txt[:300].lower():
         rp = urllib.robotparser.RobotFileParser(); rp.parse(txt.splitlines())
-        permitido = rp.can_fetch("LargoBot", url)
+        permitido = rp.can_fetch("TodosOsRiosBot", url)
         r["robots_mapa"] = [l.split(":", 1)[1].strip() for l in txt.splitlines() if l.lower().startswith("sitemap:")][:3]
     r["robots_permite"] = permitido
     if permitido is False:

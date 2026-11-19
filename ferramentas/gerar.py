@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Gerador do Largo — Agenda cultural do Rio de Janeiro.
+"""Gerador do Todos os Rios — Agenda cultural do Rio de Janeiro.
 
 Lê a base de uma edição (dados/edicoes/<id>/eventos.json) e, se existir, o relatório
 do conferente (conferencia.json). Aplica as conferências mecânicas e gera:
@@ -146,7 +146,7 @@ def preco_legivel(e):
 
 
 def ics(nome, eventos, carimbo, so_sessoes=None):
-    L = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Largo//Agenda cultural do Rio de Janeiro//PT-BR",
+    L = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Todos os Rios//Agenda cultural do Rio de Janeiro//PT-BR",
          "CALSCALE:GREGORIAN", "METHOD:PUBLISH", f"X-WR-CALNAME:{ics_escape(nome)}",
          "X-WR-TIMEZONE:America/Sao_Paulo", "REFRESH-INTERVAL;VALUE=DURATION:PT12H",
          "X-PUBLISHED-TTL:PT12H"]
@@ -163,8 +163,8 @@ def ics(nome, eventos, carimbo, so_sessoes=None):
                 desc += f" · {e['classificacao']}"
             if e.get("status") == "a_confirmar":
                 desc += "\n\nATENÇÃO: informação a confirmar na fonte."
-            desc += f"\n\nFonte: {e['link']}\nLargo — agenda cultural aberta do Rio"
-            L += ["BEGIN:VEVENT", f"UID:{e['id']}-{k}@largo.rio.br", f"DTSTAMP:{carimbo}",
+            desc += f"\n\nFonte: {e['link']}\nTodos os Rios — agenda cultural aberta do Rio"
+            L += ["BEGIN:VEVENT", f"UID:{e['id']}-{k}@todososrios.rio", f"DTSTAMP:{carimbo}",
                   f"DTSTART:{ini}", f"DTEND:{fim}", f"SUMMARY:{ics_escape(e['titulo'])}",
                   f"LOCATION:{ics_escape(e['local'] + ', ' + e['endereco'] + ' – ' + e['bairro'])}",
                   f"DESCRIPTION:{ics_escape(desc)}", f"URL:{e['link']}",
@@ -178,11 +178,11 @@ def ics(nome, eventos, carimbo, so_sessoes=None):
 SITE = "https://miguelbconde.github.io/largo/"
 URL_LANG = {"pt": SITE, "en": SITE + "en/", "es": SITE + "es/"}
 CAB = {
-    "pt": ("Largo · O que fazer no Rio hoje — agenda cultural gratuita e aberta",
+    "pt": ("Todos os Rios · O que fazer no Rio hoje — agenda cultural gratuita e aberta",
            "O que fazer no Rio de Janeiro hoje e nesta semana: shows, rodas de samba, teatro, exposições, cinema e programação infantil em todas as regiões da cidade. Grátis e a preço popular sempre sinalizados."),
-    "en": ("Largo · What's on in Rio de Janeiro this week — free cultural events",
+    "en": ("Todos os Rios · What's on in Rio de Janeiro this week — free cultural events",
            "Things to do in Rio de Janeiro today and this week: live music, samba, theatre, exhibitions, cinema and family events across the whole city. Free and low-cost events clearly marked."),
-    "es": ("Largo · Qué hacer en Río de Janeiro esta semana — agenda cultural gratuita",
+    "es": ("Todos os Rios · Qué hacer en Río de Janeiro esta semana — agenda cultural gratuita",
            "Qué hacer en Río de Janeiro hoy y esta semana: conciertos, rodas de samba, teatro, exposiciones, cine y actividades para niños en toda la ciudad. Lo gratuito y lo barato, siempre señalado."),
 }
 TIPO_EVENTO = {"Música": "MusicEvent", "Teatro": "TheaterEvent", "Artes Visuais": "ExhibitionEvent", "Cinema": "ScreeningEvent",
@@ -224,12 +224,12 @@ def cabeca(lang, ed, eventos):
     alt = "".join(f'<link rel="alternate" hreflang="{hl}" href="{URL_LANG[l]}">\n' for l, hl in (("pt", "pt-BR"), ("en", "en"), ("es", "es")))
     alt += f'<link rel="alternate" hreflang="x-default" href="{URL_LANG["pt"]}">\n'
     site = {"@context": "https://schema.org", "@graph": [
-        {"@type": "WebSite", "name": "Largo", "url": SITE, "inLanguage": ["pt-BR", "en", "es"],
+        {"@type": "WebSite", "name": "Todos os Rios", "url": SITE, "inLanguage": ["pt-BR", "en", "es"],
          "description": CAB[lang][1], "license": "https://opendatacommons.org/licenses/odbl/1-0/"}] + eventos_jsonld(eventos, lang)}
     jsonld = json.dumps(site, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     return (f"<title>{h(t)}</title>\n<meta name=\"description\" content=\"{h(d)}\">\n"
             f'<link rel="canonical" href="{URL_LANG[lang]}">\n{alt}'
-            f'<meta property="og:type" content="website">\n<meta property="og:site_name" content="Largo">\n'
+            f'<meta property="og:type" content="website">\n<meta property="og:site_name" content="Todos os Rios">\n'
             f'<meta property="og:title" content="{h(t)}">\n<meta property="og:description" content="{h(d)}">\n'
             f'<meta property="og:url" content="{URL_LANG[lang]}">\n'
             f'<meta property="og:locale" content="{ {"pt": "pt_BR", "en": "en_US", "es": "es_ES"}[lang] }">\n'
@@ -299,13 +299,13 @@ def main(edicao_id):
     # A grade de cinema fica fora dos calendários (seria centenas de sessões por dia).
     agenda = [e for e in eventos if not e.get("automatica")]
     for velho in os.listdir(os.path.join(out, "calendarios")):
-        if velho.endswith(".ics") and velho not in ("largo-geral.ics", "largo-destaques.ics"):
+        if velho.endswith(".ics") and velho not in ("todososrios-geral.ics", "todososrios-destaques.ics"):
             os.remove(os.path.join(out, "calendarios", velho))
-    open(os.path.join(out, "calendarios", "largo-geral.ics"), "w", encoding="utf-8", newline="").write(
-        ics("Largo · Todos os eventos", agenda, carimbo))
-    open(os.path.join(out, "calendarios", "largo-destaques.ics"), "w", encoding="utf-8", newline="").write(
-        ics("Largo · A boa (destaques)", eventos, carimbo, so_sessoes=sess_dest))
-    feeds = {"largo-destaques.ics": ("Largo · A boa (destaques)", []), "largo-geral.ics": ("Largo · Todos os eventos", agenda)}
+    open(os.path.join(out, "calendarios", "todososrios-geral.ics"), "w", encoding="utf-8", newline="").write(
+        ics("Todos os Rios · Todos os eventos", agenda, carimbo))
+    open(os.path.join(out, "calendarios", "todososrios-destaques.ics"), "w", encoding="utf-8", newline="").write(
+        ics("Todos os Rios · A boa (destaques)", eventos, carimbo, so_sessoes=sess_dest))
+    feeds = {"todososrios-destaques.ics": ("Todos os Rios · A boa (destaques)", []), "todososrios-geral.ics": ("Todos os Rios · Todos os eventos", agenda)}
 
     # dados abertos
     publicos = [{k: v for k, v in e.items() if k != "nota_redacao"} for e in eventos]
