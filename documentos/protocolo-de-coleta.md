@@ -1,4 +1,4 @@
-# Protocolo de coleta e atualização do Largo
+# Protocolo de coleta e atualização do Todos os Rios
 
 *Passo a passo para o Claude, numa conversa ou tarefa agendada que começa do zero. Versão 2 · 19/11/2026 (entra a extração das plataformas de ingresso).*
 

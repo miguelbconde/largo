@@ -76,7 +76,7 @@ O mapa completo está em `dados/fontes.csv`. Ele tem 274 entradas, cada uma com 
 1. **Extração como prioridade.** As plataformas deixam de ser só Apoio e passam a ser fonte a liberar. Encontrar meios de extrair a programação do Rio de Sympla, Ingresso.com, Ticketmaster, Eventim e demais é objetivo central do projeto.
 2. **Sem parceria nem dependência.** Nenhuma carta, acordo de dados, afiliação ou comissão. Os meios de extração são nossos e documentados em aberto, para que qualquer pessoa possa repeti-los.
 3. **O que se extrai: só fatos sobre eventos.** Nome, data, horário, local, preço, classificação e link. Nunca dados de pessoas (compradores, avaliações, perfis). Textos de divulgação não são copiados: as sinopses continuam nossas.
-4. **Como se extrai: às claras.** O coletor se identifica como LargoBot, com o endereço do projeto; lê só páginas e dados acessíveis sem login; visita com intervalo, sem sobrecarregar ninguém. Usamos o que já está exposto (dados estruturados nas páginas, interfaces de programação públicas, chaves gratuitas quando houver).
+4. **Como se extrai: às claras.** O coletor se identifica como TodosOsRiosBot, com o endereço do projeto; lê só páginas e dados acessíveis sem login; visita com intervalo, sem sobrecarregar ninguém. Usamos o que já está exposto (dados estruturados nas páginas, interfaces de programação públicas, chaves gratuitas quando houver).
 5. **Devolução ao comum.** O que for extraído entra na base sob ODbL, com a origem anotada em cada ficha. É a prova prática de que a informação pode circular aberta.
 6. **Ir à fonte continua valendo.** A informação nasce em quem programa. Quando dá, a ficha é conferida com o espaço ou o produtor; a fonte do espaço prevalece em caso de divergência. Na ficha, o link principal é o do espaço; o de compra aparece limpo, sem código de comissão.
 7. **Expor.** A cada edição, medir quantos eventos só tinham preço ou horário à vista dentro de uma plataforma, e quantos deles acontecem em espaço público ou com dinheiro público. É o retrato do cercamento, publicado junto com o painel de regiões e, agora, junto com os próprios dados liberados.
@@ -88,7 +88,7 @@ O mapa completo está em `dados/fontes.csv`. Ele tem 274 entradas, cada uma com 
 **Primeiro teste (19/11/2026):** Ingresso.com e Sympla estão abertas à extração; Ticketmaster barra robôs na entrada e sua chave oficial é incompatível com dados abertos; Eventim não respondeu da nuvem. Detalhes em `dados/coleta/plataformas-teste.md`.
 
 **Decisões da coordenação editorial (19/11/2026):**
-- **Nossos protocolos, não os delas.** O Largo não pauta sua atuação pelos parâmetros de empresas que operam sobre premissas opostas às suas. Nas plataformas de ingresso, o coletor não segue as regras para robôs que elas publicam. Os limites que valem são os nossos (itens 3 e 4 acima): só fatos sobre eventos, nunca dados de pessoas, identificação aberta, sem sobrecarga, sem login e sem romper barreiras técnicas de acesso (senhas, verificações anti-robô, bloqueios). Este último limite é também o ponto em que o risco jurídico deixa de ser contestação de termos de uso e passa a ser outra coisa. Para as demais fontes (espaços, produtores, poder público), o coletor continua obedecendo às regras para robôs de cada site.
+- **Nossos protocolos, não os delas.** O Todos os Rios não pauta sua atuação pelos parâmetros de empresas que operam sobre premissas opostas às suas. Nas plataformas de ingresso, o coletor não segue as regras para robôs que elas publicam. Os limites que valem são os nossos (itens 3 e 4 acima): só fatos sobre eventos, nunca dados de pessoas, identificação aberta, sem sobrecarga, sem login e sem romper barreiras técnicas de acesso (senhas, verificações anti-robô, bloqueios). Este último limite é também o ponto em que o risco jurídico deixa de ser contestação de termos de uso e passa a ser outra coisa. Para as demais fontes (espaços, produtores, poder público), o coletor continua obedecendo às regras para robôs de cada site.
 - **Chaves de acesso.** Ferramentas oficiais das plataformas podem ser usadas desde que não restrinjam o uso dos dados. A da Ticketmaster só entra depois de lidos os termos: eles podem ser mudados sem aviso e a licença pode ser cassada a qualquer momento; se proibirem guardar ou redistribuir os dados em formato aberto, a chave fica de fora e a extração segue pelas páginas públicas.
 
 **Equilíbrio territorial (situação atual):** no Núcleo, 55 fontes ficam nas Zonas Norte, Oeste e Sudoeste, contra 127 no Centro e na Zona Sul. A meta da primeira fase é chegar a pelo menos **40%** de fontes fora do eixo Centro–Zona Sul. A cada edição publicaremos um pequeno painel de distribuição por região.
@@ -126,7 +126,7 @@ Título · área(s) · data(s) e horário · local · endereço · bairro · reg
   - o compromisso de manter os endereços estáveis, para que quem reutiliza os dados não seja pego de surpresa.
 
 ### Identidade (proposta em discussão)
-**Largo** — *Agenda cultural do Rio de Janeiro*. O largo é o espaço público de encontro, a céu aberto e sem catraca. Versões para visitantes: *What's on in Rio* e *Agenda cultural de Río*. Os destaques do dia se chamam **"A boa"** ("A boa de hoje", "A boa da segunda, 16/11", "A boa do sábado, 21/11"). A forma "Qualé a boa?" foi descartada em 16/11/2026 por soar caricata para um projeto com frente de incidência pública.
+**Todos os Rios** — *Agenda cultural do Rio de Janeiro* (decisão de 19/11/2026; substitui o nome provisório Largo). A cidade é um grande rio feito de muitos afluentes: cada areninha, roda, cineclube, teatro e museu é um deles, e a agenda é onde todos se encontram, com o mesmo peso. Endereços: todososrios.rio (principal) e todososrios.com.br (leva ao principal). Versões para visitantes: *What's on in Rio* e *Agenda cultural de Río*. Os destaques do dia se chamam **"A boa"** ("A boa de hoje", "A boa da segunda, 16/11", "A boa do sábado, 21/11"). A forma "Qualé a boa?" foi descartada em 16/11/2026 por soar caricata para um projeto com frente de incidência pública.
 
 ### "A boa": destaques e recomendações sem vigilância
 Recomendações personalizadas que respeitam os princípios do projeto: **sem cadastro, sem login e sem rastreamento de comportamento.**
@@ -146,11 +146,11 @@ Recomendações personalizadas que respeitam os princípios do projeto: **sem ca
   Dentro das regras, pesam a relevância artística, a raridade (estreia, última sessão, evento único) e o valor de memória e território. Os destaques ficam em `destaques.json` e entram no relatório semanal. A coordenação editorial pode vetar ou trocar algum, mas não precisa: se ninguém mexer, eles saem como estão.
 - **Fase posterior:** boletim semanal por seção (e-mail ou RSS), para quem quiser receber sem abrir o site.
 
-### Roteiros do Largo (decisão de 17/11/2026)
+### Roteiros (decisão de 17/11/2026; antes "Roteiros do Largo")
 Passeios a pé organizados pelo próprio projeto, no espírito do direito à cidade. O primeiro formato previsto são roteiros pelo Centro histórico que articulam a história literária com a história afro do Rio, conduzidos por uma parceira convidada pela coordenação editorial (convite em andamento; o nome entra aqui quando ela aceitar). É também a única fonte de renda prevista: todo o resto continua de acesso livre.
 
 Regras, para que os roteiros não comprometam a independência da agenda:
-1. **Casa separada da curadoria.** Os roteiros têm retranca própria, identificada como programação do Largo. Nunca entram em "A boa" nem recebem tratamento de destaque na agenda. A regra "nunca patrocínio" vale também para nós mesmos.
+1. **Casa separada da curadoria.** Os roteiros têm retranca própria, identificada como programação do Todos os Rios. Nunca entram em "A boa" nem recebem tratamento de destaque na agenda. A regra "nunca patrocínio" vale também para nós mesmos.
 2. **Preço no espírito do projeto.** Preço popular (inteira até R$ 40) ou vagas gratuitas em cada saída. O valor e o número de vagas são definidos pela coordenação editorial com a parceira.
 3. **Inscrição sem cadastro nem rastreador.** A página mostra datas, ponto de encontro, vagas e preço. A inscrição é feita por mensagem direta com quem conduz o passeio, e o pagamento vai direto a ela (Pix). O site não guarda dado de ninguém nem tem sistema de pagamento. Se a procura crescer, a regra é revista.
 4. **Transparência.** A página diz quem conduz, para onde vai o dinheiro e que os roteiros ajudam a manter o projeto.
@@ -224,7 +224,7 @@ O Claude também avisa quais fontes não conseguiu abrir naquela semana, para qu
 A coleta mecânica prevista na seção 7 está montada. Um programa comum (`ferramentas/coleta/coletar.py`, sem inteligência artificial) roda toda quarta de manhã no serviço gratuito de automação do GitHub e pode ser disparado a qualquer hora.
 
 - **Escada de leitura**, do mais limpo ao mais bruto: feed (RSS) do site; eventos em dados estruturados; calendário de eventos do WordPress; texto da página inicial, das páginas de programação e das páginas de cada evento.
-- **Boas maneiras:** o coletor se identifica como LargoBot, com o endereço do projeto, e obedece às regras que cada site publica para leitores automáticos.
+- **Boas maneiras:** o coletor se identifica como TodosOsRiosBot, com o endereço do projeto, e obedece às regras que cada site publica para leitores automáticos.
 - **Onde fica o texto recolhido:** num ramo temporário do repositório (`coleta-bruta`), fora do site e da linha principal, substituído a cada ronda. Esses textos pertencem aos sites de origem e não estão sob as licenças abertas do projeto. Na linha principal fica só o resumo da ronda (`dados/coleta/resumo.md`).
 - **Primeira ronda (19/11/2026):** 103 fontes com site no cadastro; cerca de 52 lidas com programação e datas, 13 lidas sem datas à vista, 16 sem resposta (várias por endereço errado no cadastro) e 9 que recusam visitas vindas da nuvem, entre elas os teatros estaduais.
 - **Ronda no computador:** o mesmo programa, rodado no computador da coordenação editorial, tenta só as fontes que a nuvem não conseguiu ler e gera um arquivo .zip para anexar na conversa. Não instala nada e não lê arquivos do computador.
@@ -252,7 +252,7 @@ A coleta e a atualização do site passam a ser diárias.
 3. **Criar o canal de envio** e uma página "Envie sua programação".
 4. **Publicar** (você cria uma conta gratuita de hospedagem; eu guio cada passo).
 5. **Ampliar o território**: buscar ativamente fontes nas Zonas Norte, Oeste e Sudoeste até a meta de 40%.
-6. **Roteiros do Largo**: depois do aceite da parceira, criar a retranca e a página dos roteiros (seção 7).
+6. **Roteiros**: depois do aceite da parceira, criar a retranca e a página dos roteiros (seção 7).
 7. **Plataformas de ingresso** (estratégia da seção 5): feito em 19/11, a extração diária da Ingresso.com (fichas automáticas de cinema de rua, de arte e público) e da Sympla (lida pela redação com os critérios editoriais); falta testar a Eventim pela ronda no computador; marcar a origem nas fichas; montar o indicador de cercamento; buscar orientação jurídica; redigir a proposta pública de contrapartida em dados abertos, junto com o pedido à Prefeitura.
 
 ## 12. Decisões
@@ -267,7 +267,7 @@ A coleta e a atualização do site passam a ser diárias.
 **Tomadas (17/11/2026):**
 - Aparência: Estudo B com a segunda paleta da paisagem vira o site principal, por enquanto (ver guia de design).
 - Integração com o Google Agenda: botão de assinatura (o Google só permite assinar pelo computador) e botão "adicionar ao Google Agenda" em cada ficha. Exige cuidar da versão do site para computador.
-- Roteiros do Largo: passeios próprios, com retranca separada da agenda e fora dos destaques (seção 7).
+- Roteiros: passeios próprios, com retranca separada da agenda e fora dos destaques (seção 7).
 
 **Tomadas (19/11/2026):**
 - Aparência: o site passa a ter modo claro (areia, mar e sol) e modo escuro (mar no fundo), com botão para alternar; substitui a decisão de 17/11 sobre o Estudo B. Uma linha sinuosa de desenho próprio toma o lugar dos fios duplos, e o dia selecionado vira uma forma orgânica (ver guia de design, versão 1.1).
@@ -277,5 +277,7 @@ A coleta e a atualização do site passam a ser diárias.
 - Site: a busca fica logo abaixo do logo e procura em todos os dias da edição; as seções viram botões de filtro visíveis logo abaixo dela; a grade de cinema aparece num bloco próprio, agrupada por cinema; todos os cinemas da cidade entram, inclusive os de shopping.
 - Plataformas de ingresso: a informação que guardam é bem comum. Extraí-la e devolvê-la em formato aberto passa a ser prioridade do projeto, sem parceria nem afiliação, só com fatos sobre eventos e nunca dados de pessoas. Nas plataformas, o coletor segue os nossos limites, não as regras para robôs delas; chaves oficiais só sem restrição ao uso dos dados (seção 5; diretrizes políticas, seção 2.9).
 
+- Nome: **Todos os Rios**, no lugar do provisório Largo. Endereços todososrios.rio e todososrios.com.br, registrados pela coordenação editorial em seu nome (CPF). "A boa" continua; "Roteiros do Largo" passam a se chamar Roteiros.
+
 **Pendente:**
-- Nome definitivo do projeto.
+- Ligar os domínios ao site e trocar a constante `SITE` de `ferramentas/gerar.py`.

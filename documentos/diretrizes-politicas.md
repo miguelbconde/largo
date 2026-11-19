@@ -1,11 +1,13 @@
-# Diretrizes políticas do Largo
-*versão 0.3 · 19/11/2026 · documento de trabalho, a ser discutido e emendado*
+# Diretrizes políticas do Todos os Rios
+*versão 0.4 · 19/11/2026 · documento de trabalho, a ser discutido e emendado*
 
-Este documento reúne as ideias em que o Largo se apoia, o que cada uma muda na prática e como falamos disso em público. Serve de base para a página "Sobre nós", para a página de leituras e para textos de apresentação, pedidos à Prefeitura e conversas com parceiros.
+Este documento reúne as ideias em que o Todos os Rios se apoia, o que cada uma muda na prática e como falamos disso em público. Serve de base para a página "Sobre nós", para a página de leituras e para textos de apresentação, pedidos à Prefeitura e conversas com parceiros.
 
 **Como foi feito.** Parte de doze livros enviados pela coordenação editorial em 19/11/2026. A leitura foi dirigida: sumário e introdução de todos, os capítulos mais próximos do projeto e passagens localizadas por busca. Não é fichamento página a página. As citações vêm sempre em português, em tradução nossa, e cada uma foi conferida contra o original. Os arquivos são digitais e não trazem número de página, por isso as citações vão localizadas por capítulo; para uso acadêmico, convém conferir a página na edição impressa.
 
 **Mudança da versão 0.2.** Saiu a distinção entre moradores e visitantes, que não corresponde ao que o projeto pensa: a cidade é de todos, de quem mora e de quem chega. O tom geral foi baixado, e as citações passaram a vir só em português.
+
+**Mudança da versão 0.4.** O projeto passa a se chamar Todos os Rios (decisão de 19/11/2026). A ideia do nome está na seção 2.4 e no rascunho do "Sobre nós".
 
 **Mudança da versão 0.3.** Entrou a posição diante das plataformas de venda de ingresso: a informação que elas guardam é bem comum, e extraí-la e devolvê-la em formato aberto faz parte do projeto (seção 2.9, item 10 da seção 3 e seção 5).
 
@@ -13,7 +15,7 @@ Este documento reúne as ideias em que o Largo se apoia, o que cada uma muda na 
 
 ## 1. A posição, em poucas linhas
 
-Para aproveitar a cidade, é preciso saber o que acontece nela: onde, quando e por quanto. Hoje essa informação anda espalhada por redes sociais, sites de venda de ingresso e arquivos difíceis de reaproveitar, mesmo quando vem de teatros, bibliotecas e arenas públicas. O Largo reúne, confere e publica essa informação em formato aberto e de graça, sem pedir cadastro nem dados de ninguém.
+Para aproveitar a cidade, é preciso saber o que acontece nela: onde, quando e por quanto. Hoje essa informação anda espalhada por redes sociais, sites de venda de ingresso e arquivos difíceis de reaproveitar, mesmo quando vem de teatros, bibliotecas e arenas públicas. O Todos os Rios reúne, confere e publica essa informação em formato aberto e de graça, sem pedir cadastro nem dados de ninguém.
 
 É um serviço pequeno, com uma convicção por trás: a informação sobre a vida cultural de uma cidade é um bem comum, e deve estar ao alcance de qualquer pessoa, more ela no Rio ou esteja de passagem.
 
@@ -23,19 +25,19 @@ O projeto não apoia candidato, partido ou governo.
 
 ## 2. Nove ideias que nos ajudam a pensar
 
-Cada item traz a ideia, de onde ela vem e o que ela muda no Largo.
+Cada item traz a ideia, de onde ela vem e o que ela muda no projeto.
 
 ### 2.1 A cidade é obra de quem a vive
 
 O direito à cidade, formulado por Henri Lefebvre em 1968, é o direito de participar da cidade e de usá-la, não apenas de observá-la de fora. Chris Butler resume a imagem central de Lefebvre: a cidade é "mais ou menos a obra de seus cidadãos", refeita o tempo todo (Butler 2012, cap. 6, citando Lefebvre). Quem fica impedido de tomar parte nessa obra coletiva perde algo desse direito.
 
-**No Largo:** cultura aqui inclui a roda, o sarau, o cineclube e o cortejo, ao lado do teatro e do museu. A agenda tenta mostrar a cidade que as pessoas fazem, e não só a que se vende.
+**Na prática:** cultura aqui inclui a roda, o sarau, o cineclube e o cortejo, ao lado do teatro e do museu. A agenda tenta mostrar a cidade que as pessoas fazem, e não só a que se vende.
 
 ### 2.2 A cidade é de todos
 
 A introdução da coletânea da Verso lembra o documento preparatório da conferência Habitat III, das Nações Unidas (2016), que fala em cidades para todos, com uso e fruição iguais e sem discriminação de qualquer tipo (Verso 2017, introdução). Butler acrescenta um cuidado que vem do próprio Lefebvre: o direito à cidade precisa andar junto com o direito à diferença, para não virar defesa fechada do próprio lugar. A cidade, para ele, é ponto de encontro e reunião de diferenças (cap. 6).
 
-**No Largo:** a agenda é para quem quiser usá-la. Quem chega de fora deve achá-la com a mesma facilidade de quem mora aqui, e por isso estão previstas versões em inglês e em espanhol. Não há leitor de primeira e de segunda classe.
+**Na prática:** a agenda é para quem quiser usá-la. Quem chega de fora deve achá-la com a mesma facilidade de quem mora aqui, e por isso estão previstas versões em inglês e em espanhol. Não há leitor de primeira e de segunda classe.
 
 ### 2.3 A informação sobre a cidade faz parte da cidade
 
@@ -45,7 +47,7 @@ A saída que eles sugerem são iniciativas pequenas, feitas por e para uma comun
 
 Eles também retomam cinco perguntas do político britânico Tony Benn, úteis para examinar qualquer poder: que poder você tem, de onde ele vem, a quem serve, a quem presta contas e como pode ser substituído.
 
-**No Largo:** dados abertos, licenças que mantêm aberto o que for derivado, canal de envio para espaços e coletivos. As cinco perguntas valem também para nós (seção 4).
+**Na prática:** dados abertos, licenças que mantêm aberto o que for derivado, canal de envio para espaços e coletivos. As cinco perguntas valem também para nós (seção 4).
 
 ### 2.4 Na internet não há praça
 
@@ -53,7 +55,7 @@ Margaret Kohn estuda como shoppings, condomínios e praças de gestão privada t
 
 Bradley Garrett descreve o equivalente físico em Londres: praças e jardins que parecem públicos, mas pertencem a empresas (Garrett 2017, cap. 6).
 
-**No Largo:** o nome vem daí, o largo é praça sem catraca. O site não tem resultado pago nem patrocínio nos destaques. "Uma boa fora do seu radar" existe para dar chance ao encontro por acaso. O filtro "Na rua" mostra o que acontece em espaço público.
+**Na prática:** o site não tem catraca: sem cadastro, sem muro de pagamento. O site não tem resultado pago nem patrocínio nos destaques. "Uma boa fora do seu radar" existe para dar chance ao encontro por acaso. O filtro "Na rua" mostra o que acontece em espaço público.
 
 ### 2.5 Nem tudo precisa estar à venda
 
@@ -61,7 +63,7 @@ Michael Sandel distingue ter uma economia de mercado de ser uma sociedade de mer
 
 Pauline Lipman, estudando as escolas de Chicago, observa a mesma mudança no vocabulário: em vez de cidadãos com direitos, passamos a ser tratados como "consumidores de serviços" (Lipman 2011, cap. 1).
 
-**No Largo:** nenhum destaque é pago. Gratuidade e preço popular aparecem sempre, porque preço é barreira. Os Roteiros do Largo, única atividade paga, ficam em casa separada e a preço popular.
+**Na prática:** nenhum destaque é pago. Gratuidade e preço popular aparecem sempre, porque preço é barreira. Os Roteiros, única atividade paga, ficam em casa separada e a preço popular.
 
 ### 2.6 Ler a agenda não deve custar a privacidade de ninguém
 
@@ -69,7 +71,7 @@ Shoshana Zuboff descreve um modelo de negócio que "reivindica a experiência hu
 
 Rob Kitchin, Paolo Cardullo e Cesare Di Feliciantonio descrevem como os projetos de "cidade inteligente" costumam ver as pessoas: como "um ponto de dados, um consumidor-alvo, um usuário" (2019, cap. 1), raramente como alguém que propõe e decide. Mark Maguire e Setha Low tratam do mesmo impulso no espaço físico: muros e câmeras são "um mau substituto para a segurança pública e a solidariedade social" (2024, nota "Vida interior").
 
-**No Largo:** sem cadastro, sem rastreador, sem publicidade. As preferências de "A boa" ficam no aparelho de cada pessoa. A consequência é que não sabemos quem nos lê; medimos o que oferecemos, não as pessoas.
+**Na prática:** sem cadastro, sem rastreador, sem publicidade. As preferências de "A boa" ficam no aparelho de cada pessoa. A consequência é que não sabemos quem nos lê; medimos o que oferecemos, não as pessoas.
 
 ### 2.7 Decisão automática, só com regra à vista
 
@@ -77,27 +79,27 @@ Cathy O'Neil mostra o dano de sistemas automáticos que classificam pessoas sem 
 
 Garrett Pierman trata do ritmo: a internet comandada por grandes empresas, que ele chama de "feudalizada", sobrecarrega as pessoas de estímulos e tarefas e dificulta avaliar com calma o que se lê (Pierman 2024, introdução e cap. 2).
 
-**No Largo:** usamos inteligência artificial e dizemos isso. Os destaques seguem regras publicadas e conferidas a cada edição; não há personalização por comportamento; todo evento tem link de correção. O ritmo é semanal, sem notificação nem rolagem infinita.
+**Na prática:** usamos inteligência artificial e dizemos isso. Os destaques seguem regras publicadas e conferidas a cada edição; não há personalização por comportamento; todo evento tem link de correção. O ritmo é semanal, sem notificação nem rolagem infinita.
 
 ### 2.8 O bairro de cada um é um centro
 
 Lefebvre ligava o direito à cidade a um direito à centralidade. Andy Merrifield propõe reler isso hoje: menos o direito de ir ao centro geográfico, mais o de ter no próprio bairro, onde quer que fique, o centro da própria vida (Merrifield 2017, cap. 1). Shaw e Graham mostram o risco contrário: a informação digital cria seus próprios centros e periferias, e o que não aparece na rede some para quem procura.
 
-**No Largo:** a areninha de Santa Cruz com o mesmo peso da casa do Leblon; meta de 40% de fontes fora do eixo Centro–Zona Sul; painel de regiões a cada edição; bairro sempre visível.
+**Na prática:** a areninha de Santa Cruz com o mesmo peso da casa do Leblon; meta de 40% de fontes fora do eixo Centro–Zona Sul; painel de regiões a cada edição; bairro sempre visível.
 
 ### 2.9 Quem cerca a informação: as plataformas de ingresso
 
 As ideias anteriores ganham endereço certo quando olhamos para as plataformas de venda de ingresso (Sympla, Ingresso.com, Ticketmaster, Eventim e outras). Elas se tornaram a passagem obrigatória entre o público e boa parte da programação da cidade, inclusive a que acontece em espaços públicos e é paga com dinheiro público. A informação de interesse geral (o que acontece, onde, quando e por quanto) fica guardada dentro delas. Elas exigem cadastro para vender, acumulam os dados de quem compra e não devolvem nada disso em formato aberto. O cadastro organizado da vida cultural, que é um bem comum, vira patrimônio de empresa.
 
-É o que Shaw e Graham descrevem (seção 2.3): quem organiza a informação sobre a cidade decide o que aparece. É também o que Zuboff aponta (seção 2.6): a experiência de quem sai de casa vira matéria-prima. E é o que Kohn observa na rede (seção 2.4): o acesso passa a ser mediado por quem cobra pedágio. Por isso entendemos as plataformas de ingresso como o principal ponto de sustentação de um regime privado sobre a informação de acesso à cidade, e é a esse arranjo que o Largo se contrapõe.
+É o que Shaw e Graham descrevem (seção 2.3): quem organiza a informação sobre a cidade decide o que aparece. É também o que Zuboff aponta (seção 2.6): a experiência de quem sai de casa vira matéria-prima. E é o que Kohn observa na rede (seção 2.4): o acesso passa a ser mediado por quem cobra pedágio. Por isso entendemos as plataformas de ingresso como o principal ponto de sustentação de um regime privado sobre a informação de acesso à cidade, e é a esse arranjo que o Todos os Rios se contrapõe.
 
-**No Largo:** tratamos essa informação como o que ela é, um bem comum. Extraímos das plataformas os fatos sobre os eventos (o quê, onde, quando, por quanto) e os devolvemos ao público em formato aberto, com a origem anotada. Nunca extraímos dados de pessoas. Não fazemos parceria, acordo nem afiliação, e não dependemos delas: os meios de extração são nossos e ficam documentados em aberto. Não pautamos nossa atuação pelos parâmetros de quem opera sobre premissas opostas às nossas; os limites que seguimos são os nossos, e estão escritos. Damos o link de compra limpo, sem comissão, porque quem lê precisa chegar ao ingresso. E pedimos, como contrapartida pública, que a programação feita com dinheiro público seja publicada em formato aberto.
+**Na prática:** tratamos essa informação como o que ela é, um bem comum. Extraímos das plataformas os fatos sobre os eventos (o quê, onde, quando, por quanto) e os devolvemos ao público em formato aberto, com a origem anotada. Nunca extraímos dados de pessoas. Não fazemos parceria, acordo nem afiliação, e não dependemos delas: os meios de extração são nossos e ficam documentados em aberto. Não pautamos nossa atuação pelos parâmetros de quem opera sobre premissas opostas às nossas; os limites que seguimos são os nossos, e estão escritos. Damos o link de compra limpo, sem comissão, porque quem lê precisa chegar ao ingresso. E pedimos, como contrapartida pública, que a programação feita com dinheiro público seja publicada em formato aberto.
 
 ### Um método: expor, propor, politizar
 
 Peter Marcuse resume assim o que a reflexão pode fazer pela prática: "expor, propor e politizar" (Marcuse 2012, cap. 3). Expor as raízes de um problema, propor soluções concretas com quem é afetado, e deixar claras as consequências políticas. Ele insiste em que mostrar que há alternativa já ajuda.
 
-**No Largo:** o painel de regiões expõe; a agenda em si propõe, ao mostrar que dá para fazer aberto e quase sem dinheiro; o pedido de dados abertos à Prefeitura, pela Lei de Acesso à Informação, é o passo político.
+**Na prática:** o painel de regiões expõe; a agenda em si propõe, ao mostrar que dá para fazer aberto e quase sem dinheiro; o pedido de dados abertos à Prefeitura, pela Lei de Acesso à Informação, é o passo político.
 
 ---
 
@@ -107,10 +109,10 @@ O registro é de esclarecimento e de abertura, com uma defesa discreta de causa.
 
 1. **Explicar, não pregar.** Dizemos o que fazemos e por quê. O leitor tira as conclusões.
 2. **Começar pelo serviço.** A apresentação abre com o que a agenda oferece. As razões vêm depois, breves.
-3. **Modéstia.** O Largo é uma agenda. Ajuda numa parte pequena de um problema grande. Dizemos "inspirado no direito à cidade"; não nos apresentamos como quem o realiza. David Madden e Peter Marcuse lembram que, para Lefebvre, esse direito é uma reivindicação coletiva, não uma garantia já dada (2017, cap. 4).
+3. **Modéstia.** O Todos os Rios é uma agenda. Ajuda numa parte pequena de um problema grande. Dizemos "inspirado no direito à cidade"; não nos apresentamos como quem o realiza. David Madden e Peter Marcuse lembram que, para Lefebvre, esse direito é uma reivindicação coletiva, não uma garantia já dada (2017, cap. 4).
 4. **Porta aberta.** O texto fala a qualquer pessoa: quem mora, quem visita, quem programa, quem pesquisa. Sem "nós e eles".
 5. **Sem dedo apontado.** Um coletivo que só divulga pelo Instagram usa o que tem à mão. O canal de envio existe para facilitar a vida dele. A crítica, quando aparece, é ao arranjo, não a pessoas.
-6. **Com a Prefeitura, colaboração e pedido claro.** A programação pública é a espinha da agenda; pedimos que seja publicada em formato aberto. O Largo é independente de qualquer governo.
+6. **Com a Prefeitura, colaboração e pedido claro.** A programação pública é a espinha da agenda; pedimos que seja publicada em formato aberto. O Todos os Rios é independente de qualquer governo.
 7. **Transparência sem alarde.** Quem faz, como se sustenta, que ferramentas usa, inclusive inteligência artificial.
 8. **Palavras.** Preferir: aberto, de graça, bem comum, sem catraca, público, gente, vizinhos, visitantes. Evitar: usuário, consumidor, público-alvo, conteúdo, engajamento. Os termos acadêmicos (neoliberalismo, mercantilização) ficam para a página de leituras.
 9. **Citações.** Sempre em português. Poucas, curtas, e só quando dizem melhor do que nós diríamos. No "Sobre nós", no máximo um nome.
@@ -118,7 +120,7 @@ O registro é de esclarecimento e de abertura, com uma defesa discreta de causa.
 
 ---
 
-## 4. As cinco perguntas, aplicadas ao Largo
+## 4. As cinco perguntas, aplicadas ao Todos os Rios
 
 Sugestão para o Protocolo de Acesso Aberto, a partir de Shaw e Graham (seção 2.3).
 
@@ -139,22 +141,22 @@ Convém dizê-los com naturalidade, quando perguntarem ou quando couber.
 - **A licença permite uso comercial.** Uma empresa pode reaproveitar nossos dados, desde que mantenha aberto o que fizer com eles.
 - **Divulgar um lugar também o valoriza.** Neil Brenner observa que iniciativas de "cidade aberta" podem acabar reforçando desigualdades, porque a vitalidade de um lugar vira ganho para os donos dos imóveis em volta (Brenner 2017, cap. 2). Não temos resposta completa. O que fazemos é distribuir a atenção pela cidade e ouvir os espaços.
 - **Extrair das plataformas tem custo e risco.** Os termos de uso delas costumam proibir a leitura automática, e elas podem nos bloquear ou contestar. Sustentamos que fatos sobre a vida da cidade não têm dono, extraímos só esses fatos, às claras e sem sobrecarregar ninguém, e buscamos orientação jurídica antes de dar escala à extração.
-- **Há uma atividade paga.** Os Roteiros do Largo, com regras já definidas no plano diretor.
+- **Há uma atividade paga.** Os Roteiros, com regras já definidas no plano diretor.
 - **Sem rastreador, não temos números de leitura.** Só podemos mostrar o que oferecemos.
 
 ---
 
 ## 6. Rascunho do "Sobre nós"
 
-> **O Largo é uma agenda cultural do Rio de Janeiro, aberta e gratuita.**
+> **Todos os Rios é uma agenda cultural do Rio de Janeiro, aberta e gratuita.**
 >
 > Toda semana reunimos a programação da cidade: música, teatro, artes visuais, cinema, livros e debates, festas e feiras, atividades para crianças. Conferimos cada informação, escrevemos nossos próprios textos e publicamos tudo aqui, em calendários que você assina no celular e em arquivos que qualquer pessoa pode reaproveitar.
 >
 > Muita coisa boa no Rio é pública ou de graça, mas a informação anda espalhada por redes sociais, sites de venda e arquivos difíceis de achar. Juntamos tudo num lugar só, para quem mora aqui e para quem está de passagem.
 >
-> O Largo não tem cadastro, anúncio nem rastreador, e não vende destaque. Uma arena em Santa Cruz tem o mesmo espaço que uma casa de shows no Leblon, e o que é gratuito ou tem preço popular vem sempre sinalizado.
+> Todos os Rios não tem cadastro, anúncio nem rastreador, e não vende destaque. Uma arena em Santa Cruz tem o mesmo espaço que uma casa de shows no Leblon, e o que é gratuito ou tem preço popular vem sempre sinalizado.
 >
-> O nome vem do largo, a praça onde as ruas se encontram, a céu aberto e sem catraca. A ideia que nos inspira é antiga e simples: a cidade é de todos, e saber o que acontece nela ajuda a aproveitá-la.
+> O nome vem de uma imagem: a cidade é um grande rio feito de muitos afluentes. Cada areninha, roda, cineclube, teatro e museu é um desses rios, e aqui todos correm para o mesmo lugar, com o mesmo peso, venham de onde vierem. A ideia que nos inspira é antiga e simples: a cidade é de todos, e saber o que acontece nela ajuda a aproveitá-la.
 >
 > Usamos inteligência artificial para reunir, conferir e selecionar a programação, com regras que você pode ler [aqui]. Encontrou um erro? Cada evento tem um link para corrigir. Tem programação para divulgar? [Envie].
 
@@ -182,7 +184,7 @@ Em ordem de proximidade com o projeto. As referências seguem os dados das próp
 **Dados e tecnologia**
 
 - **ZUBOFF, Shoshana. *The Age of Surveillance Capitalism*. Nova York: PublicAffairs, 2019.** Há tradução brasileira (*A era do capitalismo de vigilância*). Definição inicial, cap. 1 e cap. 7. Sustenta a escolha de não ter rastreador. Livro longo e enfático; melhor citar pela definição e pelos casos.
-- **CARDULLO, Paolo; DI FELICIANTONIO, Cesare; KITCHIN, Rob (org.). *The Right to the Smart City*. Bingley: Emerald, 2019.** (O arquivo veio com outro título, *Citizens in the Smart City*, e outra editora; o conteúdo é este.) Cap. 1 (cidadania na cidade inteligente), cap. 5 (bens comuns de dados urbanos), cap. 6 (Cardullo), cap. 9 (Schrock, o que é tecnologia cívica). É o campo em que o Largo se situa.
+- **CARDULLO, Paolo; DI FELICIANTONIO, Cesare; KITCHIN, Rob (org.). *The Right to the Smart City*. Bingley: Emerald, 2019.** (O arquivo veio com outro título, *Citizens in the Smart City*, e outra editora; o conteúdo é este.) Cap. 1 (cidadania na cidade inteligente), cap. 5 (bens comuns de dados urbanos), cap. 6 (Cardullo), cap. 9 (Schrock, o que é tecnologia cívica). É o campo em que o Todos os Rios se situa.
 - **O'NEIL, Cathy. *Weapons of Math Destruction*. Nova York: Crown, 2016.** Há tradução brasileira (*Algoritmos de destruição em massa*). Introdução e cap. 1. Sustenta as regras públicas de "A boa". Leitura fácil.
 - **PIERMAN, Garrett. *Unrealized Digital Democracy: A Critical Analysis of Power*. Lanham: Lexington Books, 2024.** (O arquivo indica 2023.) Introdução e cap. 2. Livro curto, derivado de tese e centrado nos Estados Unidos; usar com moderação.
 - **ZARKADAKIS, George. *Cyber Republic: Reinventing Democracy in the Age of Intelligent Machines*. Cambridge, MA: MIT Press, 2020.** (Veio em dois arquivos idênticos.) Cap. 6 (assembleias de cidadãos) e cap. 9 (fundos de dados, que atuariam como "guardiões dos dados dos cidadãos"). É o menos alinhado ao projeto: aposta em blockchain e em propriedade sobre dados pessoais, caminho de mercado que os demais autores criticam. Vale como contraponto.

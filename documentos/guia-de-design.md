@@ -1,4 +1,6 @@
-# Guia de design — Largo
+# Guia de design — Todos os Rios
+
+*Em 19/11/2026 o projeto trocou o nome provisório Largo por Todos os Rios. As referências abaixo a "Largo" e ao "Mar Largo" são da fase anterior e ficam como registro; a marca atual é a palavra "Todos os Rios" com o ponto na cor de destaque.*
 versão 1.1 · 19/11/2026 · **Site: Estudo F (modo claro e modo escuro, com botão) mais linha sinuosa e dia selecionado em forma orgânica (G1)**
 
 Este guia orienta qualquer trabalho futuro na aparência do site. Ele registra de onde vem a linguagem visual, o que aproveitamos de cada referência e o que fica de fora. Deve ser lido antes de qualquer mudança de layout.
@@ -188,7 +190,7 @@ Preocupação registrada pela coordenação editorial: o diálogo com a tradiç�
 | Destaques ("A boa") | Caixa com barra vermelha | Título maior e o único uso forte do vermelho |
 | Grátis | Etiqueta verde | A resolver sem depender de cor (ver 2.2) |
 | Tipografia | Serifada nos títulos, sem serifa no texto | Manter o par ou testar grotesca em tudo; decidir nos estudos |
-| Marca | Palavra "Largo" com ponto vermelho | Palavra + símbolo modular redesenhável |
+| Marca | Palavra "Todos os Rios" com ponto na cor de destaque (antes "Largo") | Palavra + símbolo modular redesenhável |
 | Motivo gráfico | Nenhum | Módulos de mosaico em marca e ícones |
 
 **Estudo A (17/11/2026).** Primeira aplicação da direção, publicada como prévia separada, sem substituir o site. Arquivos: `ferramentas/modelo-estudo-a.html` e `ferramentas/estudo_a.css`.

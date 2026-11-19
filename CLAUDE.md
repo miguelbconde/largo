@@ -1,4 +1,4 @@
-# Largo — orientações para o Claude
+# Todos os Rios (antes Largo) — orientações para o Claude
 
 - Leia `documentos/plano-diretor.md` e `documentos/guia-de-design.md` antes de mudar qualquer coisa.
 - A coordenação editorial não programa. Não peça decisões técnicas nem entregue código para montar. Fale em português, sem jargão.
