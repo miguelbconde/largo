@@ -48,6 +48,7 @@ header.topo{padding:28px 0 8px;border-bottom:3px double var(--linha)}
 .marca{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap}
 .marca h1{font:600 clamp(44px,12vw,72px)/0.9 var(--serif);letter-spacing:-0.02em;margin:0}
 .marca h1 span{color:var(--acento)}
+.marca h1 a{color:inherit;text-decoration:none}
 .idiomas{display:flex;gap:4px}
 .idiomas button{font:600 12px var(--sans);border:1px solid var(--linha);background:transparent;color:var(--tinta2);
   padding:4px 8px;border-radius:999px;cursor:pointer}
@@ -175,7 +176,7 @@ h2.secao::before,section.bloco::before{top:2px}
 <div class="wrap">
 <header class="topo">
   <div class="marca">
-    <h1>Largo<span>.</span></h1>
+    <h1><a href="./" id="inicio" aria-label="Largo — voltar ao início">Largo<span>.</span></a></h1>
     <div class="controles">
       <button id="tema" type="button"></button>
       <div class="idiomas" role="group" aria-label="Idioma / Language">
@@ -478,6 +479,12 @@ document.addEventListener("click",ev=>{
   else return;
   render();
 });
+// o logo volta ao início: hoje, sem busca e sem filtros, no alto da página (o idioma e o tema ficam)
+document.querySelector("#inicio").addEventListener("click",ev=>{ev.preventDefault();
+  Object.assign(S,{q:"",areas:[],regioes:[],gratis:false,popular:false,rua:false,aberto:null,dia:DIAS.includes(hojeISO)?hojeISO:DIAS[0]});
+  ["areas","regioes"].forEach(k=>guarda.set(k,[])); ["gratis","popular","rua"].forEach(k=>guarda.set(k,false));
+  document.querySelector("#q").value=""; document.querySelector("#filtros").open=false; render.rolou=false;
+  render(); window.scrollTo({top:0,behavior:"smooth"}); history.replaceState(null,"",location.pathname);});
 let tq; document.querySelector("#q").addEventListener("input",ev=>{clearTimeout(tq);tq=setTimeout(()=>{S.q=ev.target.value.trim();render();},120);});
 render();
 </script>
