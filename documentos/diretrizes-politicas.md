@@ -191,6 +191,13 @@ Em ordem de proximidade com o projeto. As referências seguem os dados das próp
 
 ---
 
+**O nome e a epígrafe** (19/11/2026)
+
+- **GOMES, Renato Cordeiro. *Todas as cidades, a cidade: literatura e experiência urbana*.** O nome do projeto e a frase "Todos os rios, o Rio" são uma homenagem a este livro, creditada no site. Ainda não lido nesta bibliografia; vale ler e situar.
+- **CALVINO, Italo. *As cidades invisíveis*. Tradução de José Colaço Barreiros.** Epígrafe da seção "Por que Todos os Rios": "De uma cidade não aproveitamos as suas sete ou setenta e sete maravilhas, mas a resposta que dá às nossas perguntas." Nas versões em inglês e espanhol do site, a epígrafe aparece no original italiano. Conferir na edição impressa a editora, o ano e a página da tradução antes de citar em outros lugares.
+
+---
+
 ## 8. O que falta na bibliografia
 
 Sugestões do Claude, não lidas nesta sessão; ficam para a coordenação editorial avaliar.
