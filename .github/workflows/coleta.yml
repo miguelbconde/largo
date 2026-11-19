@@ -1,0 +1,35 @@
+name: Ronda semanal das fontes
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 11 * * 3"   # quartas, 8h23 no horário de Brasília
+  push:
+    paths:
+      - "ferramentas/coleta/coletar.py"
+      - ".github/workflows/coleta.yml"
+permissions:
+  contents: write
+jobs:
+  ronda:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 ferramentas/coleta/coletar.py
+      - name: Guardar o texto bruto à parte (fora do repositório, por 14 dias)
+        uses: actions/upload-artifact@v4
+        with:
+          name: coleta-bruta
+          path: coleta-bruta/
+          retention-days: 14
+      - name: Guardar só o resumo no repositório
+        run: |
+          git config user.name "largo-coleta"
+          git config user.email "largo-coleta@users.noreply.github.com"
+          git add dados/coleta/resumo.json dados/coleta/resumo.md
+          git commit -m "Ronda das fontes: resumo (automático)" || echo "nada mudou"
+          git pull --rebase origin main
+          git push origin HEAD:main

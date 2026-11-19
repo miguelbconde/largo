@@ -1,10 +1,6 @@
 name: Diagnóstico de alcance das fontes
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - "ferramentas/coleta/diagnostico.py"
-      - ".github/workflows/diagnostico.yml"
 permissions:
   contents: write
 jobs:
