@@ -197,7 +197,7 @@ def main(edicao_id):
 
     dest_path = os.path.join(pasta, "destaques.json")
     destaques = json.load(open(dest_path, encoding="utf-8")) if os.path.exists(dest_path) else {"dias": {}}
-    alertas_dest = validar_destaques(eventos, destaques)
+    alertas_dest = validar_destaques([e for e in eventos if not e.get("automatica")], destaques)  # fichas automáticas (cinema) não concorrem à A boa
     sess_dest = {(d["id"], dia) for dia, l in destaques["dias"].items() for d in l}
 
     out = os.path.join(RAIZ, "docs")

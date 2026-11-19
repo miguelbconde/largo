@@ -1,6 +1,6 @@
 # Protocolo de coleta e atualização do Largo
 
-*Passo a passo para o Claude, numa conversa ou tarefa agendada que começa do zero. Versão 1 · 19/11/2026.*
+*Passo a passo para o Claude, numa conversa ou tarefa agendada que começa do zero. Versão 2 · 19/11/2026 (entra a extração das plataformas de ingresso).*
 
 Este documento descreve como a programação sai das fontes e chega ao site. Vale para a **atualização diária** (o caso comum) e para a **abertura de uma edição nova**, às quintas. Quem executa não tem memória das conversas anteriores: tudo o que precisa está aqui, no `plano-diretor.md` e no próprio repositório.
 
@@ -22,6 +22,8 @@ Este documento descreve como a programação sai das fontes e chega ao site. Val
 | Material | Onde está | Quem põe lá |
 |---|---|---|
 | Ronda da nuvem (cerca de 80 sites) | ramo `coleta-bruta` do repositório, um arquivo `F###.txt` por fonte, mais `resumo.json` | programa automático, todo dia por volta das 4h |
+| Extração das plataformas de ingresso | no mesmo ramo `coleta-bruta`: `plataformas.json` (Ingresso.com e Sympla, só fatos) e `FPLAT_sympla.txt` (uma linha por evento da Sympla, lida pela peneira) | o mesmo programa automático (`ferramentas/coleta/plataformas.py`), na mesma ronda |
+| Resumo da extração | `dados/coleta/plataformas.md` | o mesmo programa |
 | Resumo da ronda | `dados/coleta/resumo.md` e `resumo.json`, na linha principal | o mesmo programa |
 | PDF semanal da Secretaria Municipal de Cultura | pasta `entrada/` do repositório, ou anexado numa conversa | a coordenação editorial (o site da Secretaria recusa a nuvem) |
 | Ronda do computador (fontes que recusam a nuvem) | arquivo `.zip` anexado numa conversa | a coordenação editorial, quando quiser |
@@ -47,11 +49,13 @@ O objetivo é barato e curto: achar **só o que mudou** desde a última ronda, r
    ```
    `<início>` é hoje (não adianta mais o que já passou) e `<fim>` é a quarta que fecha a edição. A saída traz só os trechos com alguma linha inédita, marcada com ★. O arquivo `dados/coleta/vistos.json` guarda códigos das linhas já vistas (não o texto).
    **Se a saída vier vazia, não há nada a fazer:** encerre sem mexer no site e diga isso em uma linha.
+1b. **Cinema (sem IA).** Rode `python3 -I ferramentas/redacao/cinema.py <edição> /home/claude/bruta/plataformas.json`. Ele refaz, todo dia, as fichas de cinema dos cinemas de rua, de arte e públicos (Estação, Odeon, Cine Santa Teresa, CineCarioca, Ponto Cine) a partir da grade da Ingresso.com, e grava `dados/edicoes/<edição>/cinema.json`. Não redija essas fichas à mão nem as passe ao conferente: são fatos copiados da grade, com uma linha descritiva montada desses fatos. Se `plataformas.json` não existir ou vier vazio, a extração falhou: mantenha o `cinema.json` anterior e avise no relatório.
 2. **Leia `novo.txt`** e separe os candidatos. Para completar hora, preço, endereço ou classificação, procure no arquivo da fonte com buscas pontuais; não leia os arquivos inteiros (alguns têm 100 mil caracteres).
 3. **Filtre pelos critérios editoriais** (seção 4 do plano diretor). Só entra o que a fonte dá com **dia, hora e lugar**. Lembretes da prática:
    - Atividades entre evento e oficina (aula-baile, aulão aberto, encontro com inscrição, seminário) podem entrar. Oficinas gratuitas e abertas para crianças também.
    - Livrarias: entram lançamentos literários, clubes de leitura e debates; ficam de fora autógrafos de autoajuda, negócios, saúde e direito.
-   - Ficam de fora grades diárias de cinema comercial, eventos corporativos, o que acontece fora do município e o que é só online.
+   - Ficam de fora grades diárias de cinema comercial (o cinema de arte e de rua entra pelo passo 1b), eventos corporativos, o que acontece fora do município e o que é só online.
+   - **Linhas da Sympla** (fonte `FPLAT_sympla`): passam pelos mesmos critérios. A Sympla tem muita festa privada, curso, palestra de negócios e evento corporativo, que ficam de fora. Se o mesmo evento estiver no site do próprio espaço, a ficha cita o espaço como fonte e a Sympla só como conferência. Quando só a Sympla tem o evento, a fonte da ficha é "Sympla (extração do Largo)", o link é o do evento na Sympla, sem nenhum código acrescentado, e a nota registra se o organizador é um órgão público. Nunca copie o e-mail ou outro dado pessoal do organizador.
    - Quando o site dá apenas "a partir de R$ X", registre assim, sem inventar a inteira.
    - Dia da semana vira data dentro da edição; confira feriados.
 4. **Confira se o evento já está na edição** (`dados/edicoes/<edição>/eventos.json`), pelo título e pelo local. Se já estiver e a fonte tiver mudado algo (horário, preço, cancelamento), corrija a ficha existente em vez de criar outra.
@@ -78,6 +82,7 @@ Quando hoje é quinta e ainda não existe `dados/edicoes/<hoje>/`:
 1. Crie `ferramentas/redacao/redacao_<hoje>.py` a partir do programa da edição anterior: mesmos moldes, cadastro de locais (`L`) mantido, lista de fichas vazia.
 2. **Traga da edição anterior** (com a função `trazer`, como já se faz) o que continua valendo: o que está em cartaz com fim na nova semana ou depois, e os eventos com sessões dentro da nova semana. Anote na ficha que veio da edição anterior.
 3. **PDF da Secretaria Municipal de Cultura:** procure em `entrada/` um PDF da semana. Se houver, é a fonte principal da rede municipal (arenas, areninhas, teatros, museus e bibliotecas): redija a partir dele, como nas edições de 15/11 e 19/11. Se não houver, abra a edição sem ele e ponha isto no alto do relatório: a rede municipal está incompleta até o PDF chegar.
+3b. **Cinema:** rode `ferramentas/redacao/cinema.py` como no passo 1b da seção 2.
 4. **Ronda inteira, sem o filtro do que mudou:** rode a peneira sem o quinto argumento, para a semana toda, e também `ferramentas/coleta/faixas.py <início> <fim> /home/claude/bruta`, que acha exposições e temporadas cujas datas cobrem a semana sem citar um dia dela.
 5. Siga os passos 3 a 10 da seção 2 para todas as fichas (aqui o conferente independente é obrigatório).
 6. Escreva os destaques da semana em `destaques_<hoje>.py`, a partir do molde da edição anterior, e mude a edição padrão no fim de `ferramentas/gerar.py`.
@@ -94,6 +99,7 @@ Quando hoje é quinta e ainda não existe `dados/edicoes/<hoje>/`:
 
 ## 5. O que este protocolo ainda não resolve
 
+- Plataformas: Ticketmaster barra robôs na entrada e Eventim não responde da nuvem (ver `dados/coleta/plataformas-teste.md`).
 - Sites que só mostram a programação depois de carregar (Circo Voador, Blue Note, Casa do Choro, Fundição Progresso e outros) chegam vazios.
 - Muitas páginas não trazem preço nem horário de visitação ao alcance do coletor.
 - A ronda do computador e o PDF da Secretaria dependem da coordenação editorial.

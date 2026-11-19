@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:2026-11-19-051-0@largo.rio.br
-DTSTAMP:20261119T082123Z
+DTSTAMP:20261119T184431Z
 DTSTART:20261124T230000Z
 DTEND:20261125T010000Z
 SUMMARY:Priscilla em 2L em A Cara da Mãe e o P@u do Pai
@@ -24,7 +24,7 @@ CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-052-0@largo.rio.br
-DTSTAMP:20261119T082123Z
+DTSTAMP:20261119T184431Z
 DTSTART:20261125T230000Z
 DTEND:20261126T010000Z
 SUMMARY:Régis Araújo em Tá Bixada
@@ -40,7 +40,7 @@ CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-053-0@largo.rio.br
-DTSTAMP:20261119T082123Z
+DTSTAMP:20261119T184431Z
 DTSTART:20261120T230000Z
 DTEND:20261121T010000Z
 SUMMARY:As Irmãs Pereira
@@ -56,7 +56,7 @@ CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-053-1@largo.rio.br
-DTSTAMP:20261119T082123Z
+DTSTAMP:20261119T184431Z
 DTSTART:20261121T230000Z
 DTEND:20261122T010000Z
 SUMMARY:As Irmãs Pereira
@@ -72,7 +72,7 @@ CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-053-2@largo.rio.br
-DTSTAMP:20261119T082123Z
+DTSTAMP:20261119T184431Z
 DTSTART:20261122T220000Z
 DTEND:20261123T000000Z
 SUMMARY:As Irmãs Pereira
@@ -88,7 +88,7 @@ CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-054-0@largo.rio.br
-DTSTAMP:20261119T082123Z
+DTSTAMP:20261119T184431Z
 DTSTART:20261121T190000Z
 DTEND:20261121T210000Z
 SUMMARY:Quintal
@@ -104,7 +104,7 @@ CATEGORIES:Infantil\,Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-054-1@largo.rio.br
-DTSTAMP:20261119T082123Z
+DTSTAMP:20261119T184431Z
 DTSTART:20261122T190000Z
 DTEND:20261122T210000Z
 SUMMARY:Quintal
@@ -120,7 +120,7 @@ CATEGORIES:Infantil\,Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-055-0@largo.rio.br
-DTSTAMP:20261119T082123Z
+DTSTAMP:20261119T184431Z
 DTSTART:20261120T190000Z
 DTEND:20261120T210000Z
 SUMMARY:A Menina Dança
@@ -136,7 +136,7 @@ CATEGORIES:Infantil\,Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-056-0@largo.rio.br
-DTSTAMP:20261119T082123Z
+DTSTAMP:20261119T184431Z
 DTSTART:20261119T220000Z
 DTEND:20261120T000000Z
 SUMMARY:Sétima Era apresenta Essa É a Pista
@@ -151,7 +151,7 @@ CATEGORIES:Música
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-057-0@largo.rio.br
-DTSTAMP:20261119T082123Z
+DTSTAMP:20261119T184431Z
 DTSTART:20261120T220000Z
 DTEND:20261121T000000Z
 SUMMARY:OMNISOUL – Música\, Ancestralidade e Conexão
@@ -166,7 +166,7 @@ CATEGORIES:Música
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-058-0@largo.rio.br
-DTSTAMP:20261119T082123Z
+DTSTAMP:20261119T184431Z
 DTSTART:20261121T200000Z
 DTEND:20261121T220000Z
 SUMMARY:Baú da Dona Ivone Lara\, com Bruno Castro e Áurea Martins
@@ -182,7 +182,7 @@ CATEGORIES:Música
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-059-0@largo.rio.br
-DTSTAMP:20261119T082123Z
+DTSTAMP:20261119T184431Z
 DTSTART:20261122T140000Z
 DTEND:20261122T160000Z
 SUMMARY:Ramon Araújo
@@ -198,7 +198,7 @@ CATEGORIES:Música
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-060-0@largo.rio.br
-DTSTAMP:20261119T082123Z
+DTSTAMP:20261119T184431Z
 DTSTART:20261122T190000Z
 DTEND:20261122T210000Z
 SUMMARY:Meu Amigo Tempo – O Tempo Também Brinca
@@ -214,7 +214,7 @@ CATEGORIES:Infantil
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-061-0@largo.rio.br
-DTSTAMP:20261119T082123Z
+DTSTAMP:20261119T184431Z
 DTSTART:20261125T220000Z
 DTEND:20261126T000000Z
 SUMMARY:Amanda Mendonça canta Djavan
@@ -230,7 +230,7 @@ CATEGORIES:Música
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-063-0@largo.rio.br
-DTSTAMP:20261119T082123Z
+DTSTAMP:20261119T184431Z
 DTSTART:20261120T220000Z
 DTEND:20261121T000000Z
 SUMMARY:Renaissance Cyclique – Premye Etensèl
@@ -245,7 +245,7 @@ CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-064-0@largo.rio.br
-DTSTAMP:20261119T082123Z
+DTSTAMP:20261119T184431Z
 DTSTART:20261121T220000Z
 DTEND:20261122T000000Z
 SUMMARY:Corpo-Encruzilhada
@@ -261,7 +261,7 @@ CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-065-0@largo.rio.br
-DTSTAMP:20261119T082123Z
+DTSTAMP:20261119T184431Z
 DTSTART:20261121T130000Z
 DTEND:20261121T150000Z
 SUMMARY:Contação de histórias: Mapa do Tesouro
@@ -276,7 +276,7 @@ CATEGORIES:Infantil
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-066-0@largo.rio.br
-DTSTAMP:20261119T082123Z
+DTSTAMP:20261119T184431Z
 DTSTART:20261121T220000Z
 DTEND:20261122T000000Z
 SUMMARY:Fora do Quadro
@@ -291,7 +291,7 @@ CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-068-0@largo.rio.br
-DTSTAMP:20261119T082123Z
+DTSTAMP:20261119T184431Z
 DTSTART:20261120T220000Z
 DTEND:20261121T000000Z
 SUMMARY:Música Terapia – Banda Filarmônica Maestro Nunes
@@ -306,7 +306,7 @@ CATEGORIES:Música
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-069-0@largo.rio.br
-DTSTAMP:20261119T082123Z
+DTSTAMP:20261119T184431Z
 DTSTART:20261121T210000Z
 DTEND:20261121T230000Z
 SUMMARY:Urban Charme – Mostra de Charme (10 anos)
@@ -321,7 +321,7 @@ CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-069-1@largo.rio.br
-DTSTAMP:20261119T082123Z
+DTSTAMP:20261119T184431Z
 DTSTART:20261122T210000Z
 DTEND:20261122T230000Z
 SUMMARY:Urban Charme – Mostra de Charme (10 anos)
@@ -336,7 +336,7 @@ CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-070-0@largo.rio.br
-DTSTAMP:20261119T082123Z
+DTSTAMP:20261119T184431Z
 DTSTART:20261120T130000Z
 DTEND:20261120T150000Z
 SUMMARY:Feira Negrah Cor
@@ -351,7 +351,7 @@ CATEGORIES:Festas & Feiras
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-071-0@largo.rio.br
-DTSTAMP:20261119T082123Z
+DTSTAMP:20261119T184431Z
 DTSTART:20261120T160000Z
 DTEND:20261120T180000Z
 SUMMARY:Roda de samba Feijão do Peró-Cão
@@ -365,7 +365,7 @@ CATEGORIES:Música
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-072-0@largo.rio.br
-DTSTAMP:20261119T082123Z
+DTSTAMP:20261119T184431Z
 DTSTART:20261122T130000Z
 DTEND:20261122T150000Z
 SUMMARY:Tudo por um Pop Star
@@ -381,7 +381,7 @@ CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-073-0@largo.rio.br
-DTSTAMP:20261119T082123Z
+DTSTAMP:20261119T184431Z
 DTSTART:20261120T180000Z
 DTEND:20261120T200000Z
 SUMMARY:Quintal do Primo
@@ -395,7 +395,7 @@ CATEGORIES:Música
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-074-0@largo.rio.br
-DTSTAMP:20261119T082123Z
+DTSTAMP:20261119T184431Z
 DTSTART:20261121T220000Z
 DTEND:20261122T000000Z
 SUMMARY:Batalha na Areninha
@@ -409,7 +409,7 @@ CATEGORIES:Música
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-075-0@largo.rio.br
-DTSTAMP:20261119T082123Z
+DTSTAMP:20261119T184431Z
 DTSTART:20261122T130000Z
 DTEND:20261122T150000Z
 SUMMARY:Mensageiras da Cultura – 50 anos da Kotekitai
@@ -424,7 +424,7 @@ CATEGORIES:Música
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-075-1@largo.rio.br
-DTSTAMP:20261119T082123Z
+DTSTAMP:20261119T184431Z
 DTSTART:20261122T143000Z
 DTEND:20261122T163000Z
 SUMMARY:Mensageiras da Cultura – 50 anos da Kotekitai
@@ -439,7 +439,7 @@ CATEGORIES:Música
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-076-0@largo.rio.br
-DTSTAMP:20261119T082123Z
+DTSTAMP:20261119T184431Z
 DTSTART:20261120T210000Z
 DTEND:20261120T230000Z
 SUMMARY:Quintal do Renatin
@@ -455,7 +455,7 @@ CATEGORIES:Música\,Festas & Feiras
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-077-0@largo.rio.br
-DTSTAMP:20261119T082123Z
+DTSTAMP:20261119T184431Z
 DTSTART:20261119T173000Z
 DTEND:20261119T193000Z
 SUMMARY:Poexistência: Consciência Negra
@@ -469,7 +469,7 @@ CATEGORIES:Livros & Debates
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-079-0@largo.rio.br
-DTSTAMP:20261119T082123Z
+DTSTAMP:20261119T184431Z
 DTSTART:20261120T210000Z
 DTEND:20261120T230000Z
 SUMMARY:Tem Jongo no Beco Novais
@@ -484,7 +484,7 @@ CATEGORIES:Música\,Cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-080-0@largo.rio.br
-DTSTAMP:20261119T082123Z
+DTSTAMP:20261119T184431Z
 DTSTART:20261120T170000Z
 DTEND:20261120T190000Z
 SUMMARY:Encontro de Baluartes e Futuros Bambas
@@ -499,7 +499,7 @@ CATEGORIES:Música\,Festas & Feiras
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-115-0@largo.rio.br
-DTSTAMP:20261119T082123Z
+DTSTAMP:20261119T184431Z
 DTSTART:20261119T220000Z
 DTEND:20261120T000000Z
 SUMMARY:La Strada – Os Que Vieram Antes de Nós
@@ -515,7 +515,7 @@ CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-116-0@largo.rio.br
-DTSTAMP:20261119T082123Z
+DTSTAMP:20261119T184431Z
 DTSTART:20261120T170000Z
 DTEND:20261120T190000Z
 SUMMARY:Terreiro de Mangueira – Cordel Negro
@@ -529,7 +529,7 @@ CATEGORIES:Música
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-117-0@largo.rio.br
-DTSTAMP:20261119T082123Z
+DTSTAMP:20261119T184431Z
 DTSTART:20261122T180000Z
 DTEND:20261122T200000Z
 SUMMARY:Rio Maracatu
@@ -543,7 +543,7 @@ CATEGORIES:Música
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-119-0@largo.rio.br
-DTSTAMP:20261119T082123Z
+DTSTAMP:20261119T184431Z
 DTSTART:20261125T220000Z
 DTEND:20261126T000000Z
 SUMMARY:Aula-baile de forró e samba de gafieira – Corpos em Diálogo
@@ -559,7 +559,7 @@ CATEGORIES:Festas & Feiras
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-121-0@largo.rio.br
-DTSTAMP:20261119T082123Z
+DTSTAMP:20261119T184431Z
 DTSTART:20261120T170000Z
 DTEND:20261120T190000Z
 SUMMARY:Dança\, Identidade e Resistência – aulão do Ballet Manguinhos
@@ -575,7 +575,7 @@ CATEGORIES:Festas & Feiras
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-169-0@largo.rio.br
-DTSTAMP:20261119T082123Z
+DTSTAMP:20261119T184431Z
 DTSTART:20261119T200000Z
 DTEND:20261119T220000Z
 SUMMARY:Debate de lançamento: As Três Mulheres do Alencar
@@ -590,5 +590,1315 @@ DESCRIPTION:Gustavo Bernardo debate o seu livro “As três mulheres do A
 URL:https://www.uerj.br/agenda/debate-de-lancamento-do-livro-as-tres-mulh
  eres-do-alencar-sementes-do-fascismo-na-literatura-brasileira/
 CATEGORIES:Livros & Debates
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-34268-0@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261120T171000Z
+DTEND:20261120T191000Z
+SUMMARY:Camisas Negras
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Direção de Jefferson Mello. Brasil\, 2026\, 96 min.\n\nR$ 3
+ 7\,12 a R$ 46\,40 (preço da plataforma) · 12 anos\n\nFonte: https://ww
+ w.ingresso.com/filme/camisas-negras?city=rio-de-janeiro\nLargo — agend
+ a cultural aberta do Rio
+URL:https://www.ingresso.com/filme/camisas-negras?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-34268-1@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261121T171000Z
+DTEND:20261121T191000Z
+SUMMARY:Camisas Negras
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Direção de Jefferson Mello. Brasil\, 2026\, 96 min.\n\nR$ 3
+ 7\,12 a R$ 46\,40 (preço da plataforma) · 12 anos\n\nFonte: https://ww
+ w.ingresso.com/filme/camisas-negras?city=rio-de-janeiro\nLargo — agend
+ a cultural aberta do Rio
+URL:https://www.ingresso.com/filme/camisas-negras?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-34268-2@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261122T171000Z
+DTEND:20261122T191000Z
+SUMMARY:Camisas Negras
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Direção de Jefferson Mello. Brasil\, 2026\, 96 min.\n\nR$ 3
+ 7\,12 a R$ 46\,40 (preço da plataforma) · 12 anos\n\nFonte: https://ww
+ w.ingresso.com/filme/camisas-negras?city=rio-de-janeiro\nLargo — agend
+ a cultural aberta do Rio
+URL:https://www.ingresso.com/filme/camisas-negras?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-34268-3@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261123T171000Z
+DTEND:20261123T191000Z
+SUMMARY:Camisas Negras
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Direção de Jefferson Mello. Brasil\, 2026\, 96 min.\n\nR$ 3
+ 7\,12 a R$ 46\,40 (preço da plataforma) · 12 anos\n\nFonte: https://ww
+ w.ingresso.com/filme/camisas-negras?city=rio-de-janeiro\nLargo — agend
+ a cultural aberta do Rio
+URL:https://www.ingresso.com/filme/camisas-negras?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-34268-4@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261124T171000Z
+DTEND:20261124T191000Z
+SUMMARY:Camisas Negras
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Direção de Jefferson Mello. Brasil\, 2026\, 96 min.\n\nR$ 3
+ 7\,12 a R$ 46\,40 (preço da plataforma) · 12 anos\n\nFonte: https://ww
+ w.ingresso.com/filme/camisas-negras?city=rio-de-janeiro\nLargo — agend
+ a cultural aberta do Rio
+URL:https://www.ingresso.com/filme/camisas-negras?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-34268-5@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261125T162000Z
+DTEND:20261125T182000Z
+SUMMARY:Camisas Negras
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Direção de Jefferson Mello. Brasil\, 2026\, 96 min.\n\nR$ 3
+ 7\,12 a R$ 46\,40 (preço da plataforma) · 12 anos\n\nFonte: https://ww
+ w.ingresso.com/filme/camisas-negras?city=rio-de-janeiro\nLargo — agend
+ a cultural aberta do Rio
+URL:https://www.ingresso.com/filme/camisas-negras?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-31673-0@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261120T164500Z
+DTEND:20261120T184500Z
+SUMMARY:Ebenezer E Os Fantasmas Do Natal
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Título original: Ebenezer: A Christmas Carol. Direção de T
+ i West. Estados Unidos\, 2026\, 117 min.\n\nR$ 37\,12 a R$ 46\,40 (preç
+ o da plataforma) · 12 anos\n\nFonte: https://www.ingresso.com/filme/ebe
+ nezer-e-os-fantasmas-do-natal?city=rio-de-janeiro\nLargo — agenda cult
+ ural aberta do Rio
+URL:https://www.ingresso.com/filme/ebenezer-e-os-fantasmas-do-natal?city=
+ rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-31673-1@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261121T164500Z
+DTEND:20261121T184500Z
+SUMMARY:Ebenezer E Os Fantasmas Do Natal
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Título original: Ebenezer: A Christmas Carol. Direção de T
+ i West. Estados Unidos\, 2026\, 117 min.\n\nR$ 37\,12 a R$ 46\,40 (preç
+ o da plataforma) · 12 anos\n\nFonte: https://www.ingresso.com/filme/ebe
+ nezer-e-os-fantasmas-do-natal?city=rio-de-janeiro\nLargo — agenda cult
+ ural aberta do Rio
+URL:https://www.ingresso.com/filme/ebenezer-e-os-fantasmas-do-natal?city=
+ rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-31673-2@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261122T164500Z
+DTEND:20261122T184500Z
+SUMMARY:Ebenezer E Os Fantasmas Do Natal
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Título original: Ebenezer: A Christmas Carol. Direção de T
+ i West. Estados Unidos\, 2026\, 117 min.\n\nR$ 37\,12 a R$ 46\,40 (preç
+ o da plataforma) · 12 anos\n\nFonte: https://www.ingresso.com/filme/ebe
+ nezer-e-os-fantasmas-do-natal?city=rio-de-janeiro\nLargo — agenda cult
+ ural aberta do Rio
+URL:https://www.ingresso.com/filme/ebenezer-e-os-fantasmas-do-natal?city=
+ rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-31673-3@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261123T164500Z
+DTEND:20261123T184500Z
+SUMMARY:Ebenezer E Os Fantasmas Do Natal
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Título original: Ebenezer: A Christmas Carol. Direção de T
+ i West. Estados Unidos\, 2026\, 117 min.\n\nR$ 37\,12 a R$ 46\,40 (preç
+ o da plataforma) · 12 anos\n\nFonte: https://www.ingresso.com/filme/ebe
+ nezer-e-os-fantasmas-do-natal?city=rio-de-janeiro\nLargo — agenda cult
+ ural aberta do Rio
+URL:https://www.ingresso.com/filme/ebenezer-e-os-fantasmas-do-natal?city=
+ rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-31673-4@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261124T164500Z
+DTEND:20261124T184500Z
+SUMMARY:Ebenezer E Os Fantasmas Do Natal
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Título original: Ebenezer: A Christmas Carol. Direção de T
+ i West. Estados Unidos\, 2026\, 117 min.\n\nR$ 37\,12 a R$ 46\,40 (preç
+ o da plataforma) · 12 anos\n\nFonte: https://www.ingresso.com/filme/ebe
+ nezer-e-os-fantasmas-do-natal?city=rio-de-janeiro\nLargo — agenda cult
+ ural aberta do Rio
+URL:https://www.ingresso.com/filme/ebenezer-e-os-fantasmas-do-natal?city=
+ rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-31673-5@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261125T165000Z
+DTEND:20261125T185000Z
+SUMMARY:Ebenezer E Os Fantasmas Do Natal
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Título original: Ebenezer: A Christmas Carol. Direção de T
+ i West. Estados Unidos\, 2026\, 117 min.\n\nR$ 37\,12 a R$ 46\,40 (preç
+ o da plataforma) · 12 anos\n\nFonte: https://www.ingresso.com/filme/ebe
+ nezer-e-os-fantasmas-do-natal?city=rio-de-janeiro\nLargo — agenda cult
+ ural aberta do Rio
+URL:https://www.ingresso.com/filme/ebenezer-e-os-fantasmas-do-natal?city=
+ rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-29919-0@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261119T191000Z
+DTEND:20261119T211000Z
+SUMMARY:Jogos Vorazes: Amanhecer Na Colheita
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Título original: The Hunger Games - Sunrise On The Reaping. 
+ Direção de Francis Lawrence. Estados Unidos\, 2026\, 159 min.\n\nR$ 37
+ \,12 a R$ 46\,40 (preço da plataforma) · 16 anos\n\nFonte: https://www
+ .ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?city=rio-de-jane
+ iro\nLargo — agenda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?ci
+ ty=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-29919-1@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261119T195000Z
+DTEND:20261119T215000Z
+SUMMARY:Jogos Vorazes: Amanhecer Na Colheita
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Título original: The Hunger Games - Sunrise On The Reaping. 
+ Direção de Francis Lawrence. Estados Unidos\, 2026\, 159 min.\n\nR$ 37
+ \,12 a R$ 46\,40 (preço da plataforma) · 16 anos\n\nFonte: https://www
+ .ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?city=rio-de-jane
+ iro\nLargo — agenda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?ci
+ ty=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-29919-2@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261119T222000Z
+DTEND:20261120T002000Z
+SUMMARY:Jogos Vorazes: Amanhecer Na Colheita
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Título original: The Hunger Games - Sunrise On The Reaping. 
+ Direção de Francis Lawrence. Estados Unidos\, 2026\, 159 min.\n\nR$ 37
+ \,12 a R$ 46\,40 (preço da plataforma) · 16 anos\n\nFonte: https://www
+ .ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?city=rio-de-jane
+ iro\nLargo — agenda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?ci
+ ty=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-29919-3@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261119T230000Z
+DTEND:20261120T010000Z
+SUMMARY:Jogos Vorazes: Amanhecer Na Colheita
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Título original: The Hunger Games - Sunrise On The Reaping. 
+ Direção de Francis Lawrence. Estados Unidos\, 2026\, 159 min.\n\nR$ 37
+ \,12 a R$ 46\,40 (preço da plataforma) · 16 anos\n\nFonte: https://www
+ .ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?city=rio-de-jane
+ iro\nLargo — agenda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?ci
+ ty=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-29919-4@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261120T164000Z
+DTEND:20261120T184000Z
+SUMMARY:Jogos Vorazes: Amanhecer Na Colheita
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Título original: The Hunger Games - Sunrise On The Reaping. 
+ Direção de Francis Lawrence. Estados Unidos\, 2026\, 159 min.\n\nR$ 37
+ \,12 a R$ 46\,40 (preço da plataforma) · 16 anos\n\nFonte: https://www
+ .ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?city=rio-de-jane
+ iro\nLargo — agenda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?ci
+ ty=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-29919-5@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261120T191000Z
+DTEND:20261120T211000Z
+SUMMARY:Jogos Vorazes: Amanhecer Na Colheita
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Título original: The Hunger Games - Sunrise On The Reaping. 
+ Direção de Francis Lawrence. Estados Unidos\, 2026\, 159 min.\n\nR$ 37
+ \,12 a R$ 46\,40 (preço da plataforma) · 16 anos\n\nFonte: https://www
+ .ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?city=rio-de-jane
+ iro\nLargo — agenda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?ci
+ ty=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-29919-6@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261120T195000Z
+DTEND:20261120T215000Z
+SUMMARY:Jogos Vorazes: Amanhecer Na Colheita
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Título original: The Hunger Games - Sunrise On The Reaping. 
+ Direção de Francis Lawrence. Estados Unidos\, 2026\, 159 min.\n\nR$ 37
+ \,12 a R$ 46\,40 (preço da plataforma) · 16 anos\n\nFonte: https://www
+ .ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?city=rio-de-jane
+ iro\nLargo — agenda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?ci
+ ty=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-29919-7@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261120T222000Z
+DTEND:20261121T002000Z
+SUMMARY:Jogos Vorazes: Amanhecer Na Colheita
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Título original: The Hunger Games - Sunrise On The Reaping. 
+ Direção de Francis Lawrence. Estados Unidos\, 2026\, 159 min.\n\nR$ 37
+ \,12 a R$ 46\,40 (preço da plataforma) · 16 anos\n\nFonte: https://www
+ .ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?city=rio-de-jane
+ iro\nLargo — agenda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?ci
+ ty=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-29919-8@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261120T230000Z
+DTEND:20261121T010000Z
+SUMMARY:Jogos Vorazes: Amanhecer Na Colheita
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Título original: The Hunger Games - Sunrise On The Reaping. 
+ Direção de Francis Lawrence. Estados Unidos\, 2026\, 159 min.\n\nR$ 37
+ \,12 a R$ 46\,40 (preço da plataforma) · 16 anos\n\nFonte: https://www
+ .ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?city=rio-de-jane
+ iro\nLargo — agenda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?ci
+ ty=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-29919-9@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261121T164000Z
+DTEND:20261121T184000Z
+SUMMARY:Jogos Vorazes: Amanhecer Na Colheita
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Título original: The Hunger Games - Sunrise On The Reaping. 
+ Direção de Francis Lawrence. Estados Unidos\, 2026\, 159 min.\n\nR$ 37
+ \,12 a R$ 46\,40 (preço da plataforma) · 16 anos\n\nFonte: https://www
+ .ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?city=rio-de-jane
+ iro\nLargo — agenda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?ci
+ ty=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-29919-10@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261121T191000Z
+DTEND:20261121T211000Z
+SUMMARY:Jogos Vorazes: Amanhecer Na Colheita
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Título original: The Hunger Games - Sunrise On The Reaping. 
+ Direção de Francis Lawrence. Estados Unidos\, 2026\, 159 min.\n\nR$ 37
+ \,12 a R$ 46\,40 (preço da plataforma) · 16 anos\n\nFonte: https://www
+ .ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?city=rio-de-jane
+ iro\nLargo — agenda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?ci
+ ty=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-29919-11@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261121T195000Z
+DTEND:20261121T215000Z
+SUMMARY:Jogos Vorazes: Amanhecer Na Colheita
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Título original: The Hunger Games - Sunrise On The Reaping. 
+ Direção de Francis Lawrence. Estados Unidos\, 2026\, 159 min.\n\nR$ 37
+ \,12 a R$ 46\,40 (preço da plataforma) · 16 anos\n\nFonte: https://www
+ .ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?city=rio-de-jane
+ iro\nLargo — agenda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?ci
+ ty=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-29919-12@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261121T222000Z
+DTEND:20261122T002000Z
+SUMMARY:Jogos Vorazes: Amanhecer Na Colheita
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Título original: The Hunger Games - Sunrise On The Reaping. 
+ Direção de Francis Lawrence. Estados Unidos\, 2026\, 159 min.\n\nR$ 37
+ \,12 a R$ 46\,40 (preço da plataforma) · 16 anos\n\nFonte: https://www
+ .ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?city=rio-de-jane
+ iro\nLargo — agenda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?ci
+ ty=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-29919-13@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261121T230000Z
+DTEND:20261122T010000Z
+SUMMARY:Jogos Vorazes: Amanhecer Na Colheita
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Título original: The Hunger Games - Sunrise On The Reaping. 
+ Direção de Francis Lawrence. Estados Unidos\, 2026\, 159 min.\n\nR$ 37
+ \,12 a R$ 46\,40 (preço da plataforma) · 16 anos\n\nFonte: https://www
+ .ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?city=rio-de-jane
+ iro\nLargo — agenda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?ci
+ ty=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-29919-14@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261122T164000Z
+DTEND:20261122T184000Z
+SUMMARY:Jogos Vorazes: Amanhecer Na Colheita
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Título original: The Hunger Games - Sunrise On The Reaping. 
+ Direção de Francis Lawrence. Estados Unidos\, 2026\, 159 min.\n\nR$ 37
+ \,12 a R$ 46\,40 (preço da plataforma) · 16 anos\n\nFonte: https://www
+ .ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?city=rio-de-jane
+ iro\nLargo — agenda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?ci
+ ty=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-29919-15@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261122T191000Z
+DTEND:20261122T211000Z
+SUMMARY:Jogos Vorazes: Amanhecer Na Colheita
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Título original: The Hunger Games - Sunrise On The Reaping. 
+ Direção de Francis Lawrence. Estados Unidos\, 2026\, 159 min.\n\nR$ 37
+ \,12 a R$ 46\,40 (preço da plataforma) · 16 anos\n\nFonte: https://www
+ .ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?city=rio-de-jane
+ iro\nLargo — agenda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?ci
+ ty=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-29919-16@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261122T195000Z
+DTEND:20261122T215000Z
+SUMMARY:Jogos Vorazes: Amanhecer Na Colheita
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Título original: The Hunger Games - Sunrise On The Reaping. 
+ Direção de Francis Lawrence. Estados Unidos\, 2026\, 159 min.\n\nR$ 37
+ \,12 a R$ 46\,40 (preço da plataforma) · 16 anos\n\nFonte: https://www
+ .ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?city=rio-de-jane
+ iro\nLargo — agenda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?ci
+ ty=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-29919-17@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261122T222000Z
+DTEND:20261123T002000Z
+SUMMARY:Jogos Vorazes: Amanhecer Na Colheita
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Título original: The Hunger Games - Sunrise On The Reaping. 
+ Direção de Francis Lawrence. Estados Unidos\, 2026\, 159 min.\n\nR$ 37
+ \,12 a R$ 46\,40 (preço da plataforma) · 16 anos\n\nFonte: https://www
+ .ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?city=rio-de-jane
+ iro\nLargo — agenda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?ci
+ ty=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-29919-18@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261122T230000Z
+DTEND:20261123T010000Z
+SUMMARY:Jogos Vorazes: Amanhecer Na Colheita
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Título original: The Hunger Games - Sunrise On The Reaping. 
+ Direção de Francis Lawrence. Estados Unidos\, 2026\, 159 min.\n\nR$ 37
+ \,12 a R$ 46\,40 (preço da plataforma) · 16 anos\n\nFonte: https://www
+ .ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?city=rio-de-jane
+ iro\nLargo — agenda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?ci
+ ty=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-29919-19@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261123T164000Z
+DTEND:20261123T184000Z
+SUMMARY:Jogos Vorazes: Amanhecer Na Colheita
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Título original: The Hunger Games - Sunrise On The Reaping. 
+ Direção de Francis Lawrence. Estados Unidos\, 2026\, 159 min.\n\nR$ 37
+ \,12 a R$ 46\,40 (preço da plataforma) · 16 anos\n\nFonte: https://www
+ .ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?city=rio-de-jane
+ iro\nLargo — agenda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?ci
+ ty=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-29919-20@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261123T191000Z
+DTEND:20261123T211000Z
+SUMMARY:Jogos Vorazes: Amanhecer Na Colheita
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Título original: The Hunger Games - Sunrise On The Reaping. 
+ Direção de Francis Lawrence. Estados Unidos\, 2026\, 159 min.\n\nR$ 37
+ \,12 a R$ 46\,40 (preço da plataforma) · 16 anos\n\nFonte: https://www
+ .ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?city=rio-de-jane
+ iro\nLargo — agenda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?ci
+ ty=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-29919-21@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261123T195000Z
+DTEND:20261123T215000Z
+SUMMARY:Jogos Vorazes: Amanhecer Na Colheita
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Título original: The Hunger Games - Sunrise On The Reaping. 
+ Direção de Francis Lawrence. Estados Unidos\, 2026\, 159 min.\n\nR$ 37
+ \,12 a R$ 46\,40 (preço da plataforma) · 16 anos\n\nFonte: https://www
+ .ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?city=rio-de-jane
+ iro\nLargo — agenda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?ci
+ ty=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-29919-22@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261123T222000Z
+DTEND:20261124T002000Z
+SUMMARY:Jogos Vorazes: Amanhecer Na Colheita
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Título original: The Hunger Games - Sunrise On The Reaping. 
+ Direção de Francis Lawrence. Estados Unidos\, 2026\, 159 min.\n\nR$ 37
+ \,12 a R$ 46\,40 (preço da plataforma) · 16 anos\n\nFonte: https://www
+ .ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?city=rio-de-jane
+ iro\nLargo — agenda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?ci
+ ty=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-29919-23@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261123T230000Z
+DTEND:20261124T010000Z
+SUMMARY:Jogos Vorazes: Amanhecer Na Colheita
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Título original: The Hunger Games - Sunrise On The Reaping. 
+ Direção de Francis Lawrence. Estados Unidos\, 2026\, 159 min.\n\nR$ 37
+ \,12 a R$ 46\,40 (preço da plataforma) · 16 anos\n\nFonte: https://www
+ .ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?city=rio-de-jane
+ iro\nLargo — agenda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?ci
+ ty=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-29919-24@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261124T164000Z
+DTEND:20261124T184000Z
+SUMMARY:Jogos Vorazes: Amanhecer Na Colheita
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Título original: The Hunger Games - Sunrise On The Reaping. 
+ Direção de Francis Lawrence. Estados Unidos\, 2026\, 159 min.\n\nR$ 37
+ \,12 a R$ 46\,40 (preço da plataforma) · 16 anos\n\nFonte: https://www
+ .ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?city=rio-de-jane
+ iro\nLargo — agenda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?ci
+ ty=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-29919-25@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261124T191000Z
+DTEND:20261124T211000Z
+SUMMARY:Jogos Vorazes: Amanhecer Na Colheita
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Título original: The Hunger Games - Sunrise On The Reaping. 
+ Direção de Francis Lawrence. Estados Unidos\, 2026\, 159 min.\n\nR$ 37
+ \,12 a R$ 46\,40 (preço da plataforma) · 16 anos\n\nFonte: https://www
+ .ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?city=rio-de-jane
+ iro\nLargo — agenda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?ci
+ ty=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-29919-26@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261124T195000Z
+DTEND:20261124T215000Z
+SUMMARY:Jogos Vorazes: Amanhecer Na Colheita
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Título original: The Hunger Games - Sunrise On The Reaping. 
+ Direção de Francis Lawrence. Estados Unidos\, 2026\, 159 min.\n\nR$ 37
+ \,12 a R$ 46\,40 (preço da plataforma) · 16 anos\n\nFonte: https://www
+ .ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?city=rio-de-jane
+ iro\nLargo — agenda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?ci
+ ty=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-29919-27@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261124T222000Z
+DTEND:20261125T002000Z
+SUMMARY:Jogos Vorazes: Amanhecer Na Colheita
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Título original: The Hunger Games - Sunrise On The Reaping. 
+ Direção de Francis Lawrence. Estados Unidos\, 2026\, 159 min.\n\nR$ 37
+ \,12 a R$ 46\,40 (preço da plataforma) · 16 anos\n\nFonte: https://www
+ .ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?city=rio-de-jane
+ iro\nLargo — agenda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?ci
+ ty=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-29919-28@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261124T230000Z
+DTEND:20261125T010000Z
+SUMMARY:Jogos Vorazes: Amanhecer Na Colheita
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Título original: The Hunger Games - Sunrise On The Reaping. 
+ Direção de Francis Lawrence. Estados Unidos\, 2026\, 159 min.\n\nR$ 37
+ \,12 a R$ 46\,40 (preço da plataforma) · 16 anos\n\nFonte: https://www
+ .ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?city=rio-de-jane
+ iro\nLargo — agenda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?ci
+ ty=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-29919-29@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261125T164000Z
+DTEND:20261125T184000Z
+SUMMARY:Jogos Vorazes: Amanhecer Na Colheita
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Título original: The Hunger Games - Sunrise On The Reaping. 
+ Direção de Francis Lawrence. Estados Unidos\, 2026\, 159 min.\n\nR$ 37
+ \,12 a R$ 46\,40 (preço da plataforma) · 16 anos\n\nFonte: https://www
+ .ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?city=rio-de-jane
+ iro\nLargo — agenda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?ci
+ ty=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-29919-30@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261125T192000Z
+DTEND:20261125T212000Z
+SUMMARY:Jogos Vorazes: Amanhecer Na Colheita
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Título original: The Hunger Games - Sunrise On The Reaping. 
+ Direção de Francis Lawrence. Estados Unidos\, 2026\, 159 min.\n\nR$ 37
+ \,12 a R$ 46\,40 (preço da plataforma) · 16 anos\n\nFonte: https://www
+ .ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?city=rio-de-jane
+ iro\nLargo — agenda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?ci
+ ty=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-29919-31@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261125T195000Z
+DTEND:20261125T215000Z
+SUMMARY:Jogos Vorazes: Amanhecer Na Colheita
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Título original: The Hunger Games - Sunrise On The Reaping. 
+ Direção de Francis Lawrence. Estados Unidos\, 2026\, 159 min.\n\nR$ 37
+ \,12 a R$ 46\,40 (preço da plataforma) · 16 anos\n\nFonte: https://www
+ .ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?city=rio-de-jane
+ iro\nLargo — agenda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?ci
+ ty=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-29919-32@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261125T230000Z
+DTEND:20261126T010000Z
+SUMMARY:Jogos Vorazes: Amanhecer Na Colheita
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Título original: The Hunger Games - Sunrise On The Reaping. 
+ Direção de Francis Lawrence. Estados Unidos\, 2026\, 159 min.\n\nR$ 37
+ \,12 a R$ 46\,40 (preço da plataforma) · 16 anos\n\nFonte: https://www
+ .ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?city=rio-de-jane
+ iro\nLargo — agenda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?ci
+ ty=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-30202-0@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261119T191500Z
+DTEND:20261119T211500Z
+SUMMARY:Os Farofeiros 3
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Direção de Roberto Santucci. Brasil\, 2026\, 102 min.\n\nR$
+  37\,12 a R$ 46\,40 (preço da plataforma) · 12 anos\n\nFonte: https://
+ www.ingresso.com/filme/os-farofeiros-3?city=rio-de-janeiro\nLargo — ag
+ enda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/os-farofeiros-3?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-30202-1@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261119T213000Z
+DTEND:20261119T233000Z
+SUMMARY:Os Farofeiros 3
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Direção de Roberto Santucci. Brasil\, 2026\, 102 min.\n\nR$
+  37\,12 a R$ 46\,40 (preço da plataforma) · 12 anos\n\nFonte: https://
+ www.ingresso.com/filme/os-farofeiros-3?city=rio-de-janeiro\nLargo — ag
+ enda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/os-farofeiros-3?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-30202-2@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261119T234500Z
+DTEND:20261120T014500Z
+SUMMARY:Os Farofeiros 3
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Direção de Roberto Santucci. Brasil\, 2026\, 102 min.\n\nR$
+  37\,12 a R$ 46\,40 (preço da plataforma) · 12 anos\n\nFonte: https://
+ www.ingresso.com/filme/os-farofeiros-3?city=rio-de-janeiro\nLargo — ag
+ enda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/os-farofeiros-3?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-30202-3@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261120T191500Z
+DTEND:20261120T211500Z
+SUMMARY:Os Farofeiros 3
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Direção de Roberto Santucci. Brasil\, 2026\, 102 min.\n\nR$
+  37\,12 a R$ 46\,40 (preço da plataforma) · 12 anos\n\nFonte: https://
+ www.ingresso.com/filme/os-farofeiros-3?city=rio-de-janeiro\nLargo — ag
+ enda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/os-farofeiros-3?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-30202-4@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261120T213000Z
+DTEND:20261120T233000Z
+SUMMARY:Os Farofeiros 3
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Direção de Roberto Santucci. Brasil\, 2026\, 102 min.\n\nR$
+  37\,12 a R$ 46\,40 (preço da plataforma) · 12 anos\n\nFonte: https://
+ www.ingresso.com/filme/os-farofeiros-3?city=rio-de-janeiro\nLargo — ag
+ enda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/os-farofeiros-3?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-30202-5@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261120T234500Z
+DTEND:20261121T014500Z
+SUMMARY:Os Farofeiros 3
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Direção de Roberto Santucci. Brasil\, 2026\, 102 min.\n\nR$
+  37\,12 a R$ 46\,40 (preço da plataforma) · 12 anos\n\nFonte: https://
+ www.ingresso.com/filme/os-farofeiros-3?city=rio-de-janeiro\nLargo — ag
+ enda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/os-farofeiros-3?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-30202-6@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261121T191500Z
+DTEND:20261121T211500Z
+SUMMARY:Os Farofeiros 3
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Direção de Roberto Santucci. Brasil\, 2026\, 102 min.\n\nR$
+  37\,12 a R$ 46\,40 (preço da plataforma) · 12 anos\n\nFonte: https://
+ www.ingresso.com/filme/os-farofeiros-3?city=rio-de-janeiro\nLargo — ag
+ enda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/os-farofeiros-3?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-30202-7@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261121T213000Z
+DTEND:20261121T233000Z
+SUMMARY:Os Farofeiros 3
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Direção de Roberto Santucci. Brasil\, 2026\, 102 min.\n\nR$
+  37\,12 a R$ 46\,40 (preço da plataforma) · 12 anos\n\nFonte: https://
+ www.ingresso.com/filme/os-farofeiros-3?city=rio-de-janeiro\nLargo — ag
+ enda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/os-farofeiros-3?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-30202-8@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261121T234500Z
+DTEND:20261122T014500Z
+SUMMARY:Os Farofeiros 3
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Direção de Roberto Santucci. Brasil\, 2026\, 102 min.\n\nR$
+  37\,12 a R$ 46\,40 (preço da plataforma) · 12 anos\n\nFonte: https://
+ www.ingresso.com/filme/os-farofeiros-3?city=rio-de-janeiro\nLargo — ag
+ enda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/os-farofeiros-3?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-30202-9@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261122T191500Z
+DTEND:20261122T211500Z
+SUMMARY:Os Farofeiros 3
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Direção de Roberto Santucci. Brasil\, 2026\, 102 min.\n\nR$
+  37\,12 a R$ 46\,40 (preço da plataforma) · 12 anos\n\nFonte: https://
+ www.ingresso.com/filme/os-farofeiros-3?city=rio-de-janeiro\nLargo — ag
+ enda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/os-farofeiros-3?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-30202-10@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261122T213000Z
+DTEND:20261122T233000Z
+SUMMARY:Os Farofeiros 3
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Direção de Roberto Santucci. Brasil\, 2026\, 102 min.\n\nR$
+  37\,12 a R$ 46\,40 (preço da plataforma) · 12 anos\n\nFonte: https://
+ www.ingresso.com/filme/os-farofeiros-3?city=rio-de-janeiro\nLargo — ag
+ enda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/os-farofeiros-3?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-30202-11@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261122T234500Z
+DTEND:20261123T014500Z
+SUMMARY:Os Farofeiros 3
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Direção de Roberto Santucci. Brasil\, 2026\, 102 min.\n\nR$
+  37\,12 a R$ 46\,40 (preço da plataforma) · 12 anos\n\nFonte: https://
+ www.ingresso.com/filme/os-farofeiros-3?city=rio-de-janeiro\nLargo — ag
+ enda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/os-farofeiros-3?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-30202-12@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261123T191500Z
+DTEND:20261123T211500Z
+SUMMARY:Os Farofeiros 3
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Direção de Roberto Santucci. Brasil\, 2026\, 102 min.\n\nR$
+  37\,12 a R$ 46\,40 (preço da plataforma) · 12 anos\n\nFonte: https://
+ www.ingresso.com/filme/os-farofeiros-3?city=rio-de-janeiro\nLargo — ag
+ enda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/os-farofeiros-3?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-30202-13@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261123T213000Z
+DTEND:20261123T233000Z
+SUMMARY:Os Farofeiros 3
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Direção de Roberto Santucci. Brasil\, 2026\, 102 min.\n\nR$
+  37\,12 a R$ 46\,40 (preço da plataforma) · 12 anos\n\nFonte: https://
+ www.ingresso.com/filme/os-farofeiros-3?city=rio-de-janeiro\nLargo — ag
+ enda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/os-farofeiros-3?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-30202-14@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261123T234500Z
+DTEND:20261124T014500Z
+SUMMARY:Os Farofeiros 3
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Direção de Roberto Santucci. Brasil\, 2026\, 102 min.\n\nR$
+  37\,12 a R$ 46\,40 (preço da plataforma) · 12 anos\n\nFonte: https://
+ www.ingresso.com/filme/os-farofeiros-3?city=rio-de-janeiro\nLargo — ag
+ enda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/os-farofeiros-3?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-30202-15@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261124T191500Z
+DTEND:20261124T211500Z
+SUMMARY:Os Farofeiros 3
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Direção de Roberto Santucci. Brasil\, 2026\, 102 min.\n\nR$
+  37\,12 a R$ 46\,40 (preço da plataforma) · 12 anos\n\nFonte: https://
+ www.ingresso.com/filme/os-farofeiros-3?city=rio-de-janeiro\nLargo — ag
+ enda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/os-farofeiros-3?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-30202-16@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261124T213000Z
+DTEND:20261124T233000Z
+SUMMARY:Os Farofeiros 3
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Direção de Roberto Santucci. Brasil\, 2026\, 102 min.\n\nR$
+  37\,12 a R$ 46\,40 (preço da plataforma) · 12 anos\n\nFonte: https://
+ www.ingresso.com/filme/os-farofeiros-3?city=rio-de-janeiro\nLargo — ag
+ enda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/os-farofeiros-3?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-30202-17@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261124T234500Z
+DTEND:20261125T014500Z
+SUMMARY:Os Farofeiros 3
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Direção de Roberto Santucci. Brasil\, 2026\, 102 min.\n\nR$
+  37\,12 a R$ 46\,40 (preço da plataforma) · 12 anos\n\nFonte: https://
+ www.ingresso.com/filme/os-farofeiros-3?city=rio-de-janeiro\nLargo — ag
+ enda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/os-farofeiros-3?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-30202-18@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261125T182000Z
+DTEND:20261125T202000Z
+SUMMARY:Os Farofeiros 3
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Direção de Roberto Santucci. Brasil\, 2026\, 102 min.\n\nR$
+  37\,12 a R$ 46\,40 (preço da plataforma) · 12 anos\n\nFonte: https://
+ www.ingresso.com/filme/os-farofeiros-3?city=rio-de-janeiro\nLargo — ag
+ enda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/os-farofeiros-3?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1046-30202-19@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261125T204000Z
+DTEND:20261125T224000Z
+SUMMARY:Os Farofeiros 3
+LOCATION:CineCarioca Méier\, Rua Dias da Cruz\, 170 – Méier
+DESCRIPTION:Direção de Roberto Santucci. Brasil\, 2026\, 102 min.\n\nR$
+  37\,12 a R$ 46\,40 (preço da plataforma) · 12 anos\n\nFonte: https://
+ www.ingresso.com/filme/os-farofeiros-3?city=rio-de-janeiro\nLargo — ag
+ enda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/os-farofeiros-3?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1519-34268-0@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261119T211000Z
+DTEND:20261119T231000Z
+SUMMARY:Camisas Negras
+LOCATION:Ponto Cine\, Estrada do Camboatá\, 2.300 – Guadalupe
+DESCRIPTION:Direção de Jefferson Mello. Brasil\, 2026\, 96 min.\n\nR$ 1
+ 1\,40 (preço da plataforma) · 12 anos\n\nFonte: https://www.ingresso.c
+ om/filme/camisas-negras?city=rio-de-janeiro\nLargo — agenda cultural a
+ berta do Rio
+URL:https://www.ingresso.com/filme/camisas-negras?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1519-34268-1@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261120T211000Z
+DTEND:20261120T231000Z
+SUMMARY:Camisas Negras
+LOCATION:Ponto Cine\, Estrada do Camboatá\, 2.300 – Guadalupe
+DESCRIPTION:Direção de Jefferson Mello. Brasil\, 2026\, 96 min.\n\nR$ 1
+ 1\,40 (preço da plataforma) · 12 anos\n\nFonte: https://www.ingresso.c
+ om/filme/camisas-negras?city=rio-de-janeiro\nLargo — agenda cultural a
+ berta do Rio
+URL:https://www.ingresso.com/filme/camisas-negras?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1519-34268-2@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261121T211000Z
+DTEND:20261121T231000Z
+SUMMARY:Camisas Negras
+LOCATION:Ponto Cine\, Estrada do Camboatá\, 2.300 – Guadalupe
+DESCRIPTION:Direção de Jefferson Mello. Brasil\, 2026\, 96 min.\n\nR$ 1
+ 1\,40 (preço da plataforma) · 12 anos\n\nFonte: https://www.ingresso.c
+ om/filme/camisas-negras?city=rio-de-janeiro\nLargo — agenda cultural a
+ berta do Rio
+URL:https://www.ingresso.com/filme/camisas-negras?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1519-34268-3@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261123T211000Z
+DTEND:20261123T231000Z
+SUMMARY:Camisas Negras
+LOCATION:Ponto Cine\, Estrada do Camboatá\, 2.300 – Guadalupe
+DESCRIPTION:Direção de Jefferson Mello. Brasil\, 2026\, 96 min.\n\nR$ 1
+ 1\,40 (preço da plataforma) · 12 anos\n\nFonte: https://www.ingresso.c
+ om/filme/camisas-negras?city=rio-de-janeiro\nLargo — agenda cultural a
+ berta do Rio
+URL:https://www.ingresso.com/filme/camisas-negras?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1519-34268-4@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261124T211000Z
+DTEND:20261124T231000Z
+SUMMARY:Camisas Negras
+LOCATION:Ponto Cine\, Estrada do Camboatá\, 2.300 – Guadalupe
+DESCRIPTION:Direção de Jefferson Mello. Brasil\, 2026\, 96 min.\n\nR$ 1
+ 1\,40 (preço da plataforma) · 12 anos\n\nFonte: https://www.ingresso.c
+ om/filme/camisas-negras?city=rio-de-janeiro\nLargo — agenda cultural a
+ berta do Rio
+URL:https://www.ingresso.com/filme/camisas-negras?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1519-34268-5@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261125T211000Z
+DTEND:20261125T231000Z
+SUMMARY:Camisas Negras
+LOCATION:Ponto Cine\, Estrada do Camboatá\, 2.300 – Guadalupe
+DESCRIPTION:Direção de Jefferson Mello. Brasil\, 2026\, 96 min.\n\nR$ 1
+ 1\,40 (preço da plataforma) · 12 anos\n\nFonte: https://www.ingresso.c
+ om/filme/camisas-negras?city=rio-de-janeiro\nLargo — agenda cultural a
+ berta do Rio
+URL:https://www.ingresso.com/filme/camisas-negras?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1519-32251-0@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261120T170000Z
+DTEND:20261120T190000Z
+SUMMARY:Feito Pipa
+LOCATION:Ponto Cine\, Estrada do Camboatá\, 2.300 – Guadalupe
+DESCRIPTION:Direção de Allan Deberton. Brasil\, 2026\, 93 min.\n\nR$ 11
+ \,40 (preço da plataforma) · 14 anos\n\nFonte: https://www.ingresso.co
+ m/filme/feito-pipa?city=rio-de-janeiro\nLargo — agenda cultural aberta
+  do Rio
+URL:https://www.ingresso.com/filme/feito-pipa?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1519-32251-1@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261121T170000Z
+DTEND:20261121T190000Z
+SUMMARY:Feito Pipa
+LOCATION:Ponto Cine\, Estrada do Camboatá\, 2.300 – Guadalupe
+DESCRIPTION:Direção de Allan Deberton. Brasil\, 2026\, 93 min.\n\nR$ 11
+ \,40 (preço da plataforma) · 14 anos\n\nFonte: https://www.ingresso.co
+ m/filme/feito-pipa?city=rio-de-janeiro\nLargo — agenda cultural aberta
+  do Rio
+URL:https://www.ingresso.com/filme/feito-pipa?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1519-32251-2@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261123T170000Z
+DTEND:20261123T190000Z
+SUMMARY:Feito Pipa
+LOCATION:Ponto Cine\, Estrada do Camboatá\, 2.300 – Guadalupe
+DESCRIPTION:Direção de Allan Deberton. Brasil\, 2026\, 93 min.\n\nR$ 11
+ \,40 (preço da plataforma) · 14 anos\n\nFonte: https://www.ingresso.co
+ m/filme/feito-pipa?city=rio-de-janeiro\nLargo — agenda cultural aberta
+  do Rio
+URL:https://www.ingresso.com/filme/feito-pipa?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1519-32251-3@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261124T170000Z
+DTEND:20261124T190000Z
+SUMMARY:Feito Pipa
+LOCATION:Ponto Cine\, Estrada do Camboatá\, 2.300 – Guadalupe
+DESCRIPTION:Direção de Allan Deberton. Brasil\, 2026\, 93 min.\n\nR$ 11
+ \,40 (preço da plataforma) · 14 anos\n\nFonte: https://www.ingresso.co
+ m/filme/feito-pipa?city=rio-de-janeiro\nLargo — agenda cultural aberta
+  do Rio
+URL:https://www.ingresso.com/filme/feito-pipa?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1519-32251-4@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261125T170000Z
+DTEND:20261125T190000Z
+SUMMARY:Feito Pipa
+LOCATION:Ponto Cine\, Estrada do Camboatá\, 2.300 – Guadalupe
+DESCRIPTION:Direção de Allan Deberton. Brasil\, 2026\, 93 min.\n\nR$ 11
+ \,40 (preço da plataforma) · 14 anos\n\nFonte: https://www.ingresso.co
+ m/filme/feito-pipa?city=rio-de-janeiro\nLargo — agenda cultural aberta
+  do Rio
+URL:https://www.ingresso.com/filme/feito-pipa?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1519-32918-0@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261119T190000Z
+DTEND:20261119T210000Z
+SUMMARY:Malês (Relançamento)
+LOCATION:Ponto Cine\, Estrada do Camboatá\, 2.300 – Guadalupe
+DESCRIPTION:Título original: Malês. Direção de Antonio Pitanga. Brasi
+ l\, 2024\, 114 min.\n\nR$ 11\,40 (preço da plataforma) · 16 anos\n\nFo
+ nte: https://www.ingresso.com/filme/males-relancamento?city=rio-de-janei
+ ro\nLargo — agenda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/males-relancamento?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1519-32918-1@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261120T190000Z
+DTEND:20261120T210000Z
+SUMMARY:Malês (Relançamento)
+LOCATION:Ponto Cine\, Estrada do Camboatá\, 2.300 – Guadalupe
+DESCRIPTION:Título original: Malês. Direção de Antonio Pitanga. Brasi
+ l\, 2024\, 114 min.\n\nR$ 11\,40 (preço da plataforma) · 16 anos\n\nFo
+ nte: https://www.ingresso.com/filme/males-relancamento?city=rio-de-janei
+ ro\nLargo — agenda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/males-relancamento?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1519-32918-2@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261121T190000Z
+DTEND:20261121T210000Z
+SUMMARY:Malês (Relançamento)
+LOCATION:Ponto Cine\, Estrada do Camboatá\, 2.300 – Guadalupe
+DESCRIPTION:Título original: Malês. Direção de Antonio Pitanga. Brasi
+ l\, 2024\, 114 min.\n\nR$ 11\,40 (preço da plataforma) · 16 anos\n\nFo
+ nte: https://www.ingresso.com/filme/males-relancamento?city=rio-de-janei
+ ro\nLargo — agenda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/males-relancamento?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1519-32918-3@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261123T190000Z
+DTEND:20261123T210000Z
+SUMMARY:Malês (Relançamento)
+LOCATION:Ponto Cine\, Estrada do Camboatá\, 2.300 – Guadalupe
+DESCRIPTION:Título original: Malês. Direção de Antonio Pitanga. Brasi
+ l\, 2024\, 114 min.\n\nR$ 11\,40 (preço da plataforma) · 16 anos\n\nFo
+ nte: https://www.ingresso.com/filme/males-relancamento?city=rio-de-janei
+ ro\nLargo — agenda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/males-relancamento?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1519-32918-4@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261124T190000Z
+DTEND:20261124T210000Z
+SUMMARY:Malês (Relançamento)
+LOCATION:Ponto Cine\, Estrada do Camboatá\, 2.300 – Guadalupe
+DESCRIPTION:Título original: Malês. Direção de Antonio Pitanga. Brasi
+ l\, 2024\, 114 min.\n\nR$ 11\,40 (preço da plataforma) · 16 anos\n\nFo
+ nte: https://www.ingresso.com/filme/males-relancamento?city=rio-de-janei
+ ro\nLargo — agenda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/males-relancamento?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1519-32918-5@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261125T190000Z
+DTEND:20261125T210000Z
+SUMMARY:Malês (Relançamento)
+LOCATION:Ponto Cine\, Estrada do Camboatá\, 2.300 – Guadalupe
+DESCRIPTION:Título original: Malês. Direção de Antonio Pitanga. Brasi
+ l\, 2024\, 114 min.\n\nR$ 11\,40 (preço da plataforma) · 16 anos\n\nFo
+ nte: https://www.ingresso.com/filme/males-relancamento?city=rio-de-janei
+ ro\nLargo — agenda cultural aberta do Rio
+URL:https://www.ingresso.com/filme/males-relancamento?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1519-33717-0@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261119T230000Z
+DTEND:20261120T010000Z
+SUMMARY:Verão Da Lata
+LOCATION:Ponto Cine\, Estrada do Camboatá\, 2.300 – Guadalupe
+DESCRIPTION:Direção de Santiago Dellape. Brasil\, 2026\, 85 min.\n\nR$ 
+ 11\,40 (preço da plataforma) · 18 anos\n\nFonte: https://www.ingresso.
+ com/filme/verao-da-lata?city=rio-de-janeiro\nLargo — agenda cultural a
+ berta do Rio
+URL:https://www.ingresso.com/filme/verao-da-lata?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1519-33717-1@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261120T230000Z
+DTEND:20261121T010000Z
+SUMMARY:Verão Da Lata
+LOCATION:Ponto Cine\, Estrada do Camboatá\, 2.300 – Guadalupe
+DESCRIPTION:Direção de Santiago Dellape. Brasil\, 2026\, 85 min.\n\nR$ 
+ 11\,40 (preço da plataforma) · 18 anos\n\nFonte: https://www.ingresso.
+ com/filme/verao-da-lata?city=rio-de-janeiro\nLargo — agenda cultural a
+ berta do Rio
+URL:https://www.ingresso.com/filme/verao-da-lata?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1519-33717-2@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261121T230000Z
+DTEND:20261122T010000Z
+SUMMARY:Verão Da Lata
+LOCATION:Ponto Cine\, Estrada do Camboatá\, 2.300 – Guadalupe
+DESCRIPTION:Direção de Santiago Dellape. Brasil\, 2026\, 85 min.\n\nR$ 
+ 11\,40 (preço da plataforma) · 18 anos\n\nFonte: https://www.ingresso.
+ com/filme/verao-da-lata?city=rio-de-janeiro\nLargo — agenda cultural a
+ berta do Rio
+URL:https://www.ingresso.com/filme/verao-da-lata?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1519-33717-3@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261123T230000Z
+DTEND:20261124T010000Z
+SUMMARY:Verão Da Lata
+LOCATION:Ponto Cine\, Estrada do Camboatá\, 2.300 – Guadalupe
+DESCRIPTION:Direção de Santiago Dellape. Brasil\, 2026\, 85 min.\n\nR$ 
+ 11\,40 (preço da plataforma) · 18 anos\n\nFonte: https://www.ingresso.
+ com/filme/verao-da-lata?city=rio-de-janeiro\nLargo — agenda cultural a
+ berta do Rio
+URL:https://www.ingresso.com/filme/verao-da-lata?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1519-33717-4@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261124T230000Z
+DTEND:20261125T010000Z
+SUMMARY:Verão Da Lata
+LOCATION:Ponto Cine\, Estrada do Camboatá\, 2.300 – Guadalupe
+DESCRIPTION:Direção de Santiago Dellape. Brasil\, 2026\, 85 min.\n\nR$ 
+ 11\,40 (preço da plataforma) · 18 anos\n\nFonte: https://www.ingresso.
+ com/filme/verao-da-lata?city=rio-de-janeiro\nLargo — agenda cultural a
+ berta do Rio
+URL:https://www.ingresso.com/filme/verao-da-lata?city=rio-de-janeiro
+CATEGORIES:Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-cine-1519-33717-5@largo.rio.br
+DTSTAMP:20261119T184431Z
+DTSTART:20261125T230000Z
+DTEND:20261126T010000Z
+SUMMARY:Verão Da Lata
+LOCATION:Ponto Cine\, Estrada do Camboatá\, 2.300 – Guadalupe
+DESCRIPTION:Direção de Santiago Dellape. Brasil\, 2026\, 85 min.\n\nR$ 
+ 11\,40 (preço da plataforma) · 18 anos\n\nFonte: https://www.ingresso.
+ com/filme/verao-da-lata?city=rio-de-janeiro\nLargo — agenda cultural a
+ berta do Rio
+URL:https://www.ingresso.com/filme/verao-da-lata?city=rio-de-janeiro
+CATEGORIES:Cinema
 END:VEVENT
 END:VCALENDAR

@@ -83,6 +83,8 @@ O mapa completo está em `dados/fontes.csv`. Ele tem 274 entradas, cada uma com 
 8. **Propor e politizar.** Somar ao pedido de dados abertos à Prefeitura (Lei de Acesso à Informação) uma proposta pública: a programação feita com dinheiro público deve ser publicada em formato aberto, como contrapartida, independentemente de onde o ingresso é vendido. O exemplo de Lisboa (seção 10) serve de precedente.
 9. **Riscos conhecidos.** Datas, horários e preços são fatos, e fatos não têm dono. Mas os termos de uso das plataformas costumam proibir a leitura automática; a lei de direitos autorais protege a seleção e a organização de bases de dados; e as plataformas podem bloquear o coletor. Antes de dar escala ou visibilidade pública à extração, buscar orientação jurídica (clínicas de direito digital de universidades e organizações de direitos digitais costumam atender projetos sem fins lucrativos).
 
+**Em funcionamento desde 19/11/2026:** a ronda diária extrai a grade dos cinemas de rua, de arte e públicos na Ingresso.com (vira fichas automáticas, sem IA) e os eventos do Rio na Sympla (a redação escolhe, com os critérios editoriais). Passo a passo em `documentos/protocolo-de-coleta.md`.
+
 **Primeiro teste (19/11/2026):** Ingresso.com e Sympla estão abertas à extração; Ticketmaster barra robôs na entrada e sua chave oficial é incompatível com dados abertos; Eventim não respondeu da nuvem. Detalhes em `dados/coleta/plataformas-teste.md`.
 
 **Decisões da coordenação editorial (19/11/2026):**
@@ -251,7 +253,7 @@ A coleta e a atualização do site passam a ser diárias.
 4. **Publicar** (você cria uma conta gratuita de hospedagem; eu guio cada passo).
 5. **Ampliar o território**: buscar ativamente fontes nas Zonas Norte, Oeste e Sudoeste até a meta de 40%.
 6. **Roteiros do Largo**: depois do aceite da parceira, criar a retranca e a página dos roteiros (seção 7).
-7. **Plataformas de ingresso** (estratégia da seção 5): acoplar à coleta diária a extração da Ingresso.com (grades de cinema) e da Sympla; testar a Eventim pela ronda no computador; marcar a origem nas fichas; montar o indicador de cercamento; buscar orientação jurídica; redigir a proposta pública de contrapartida em dados abertos, junto com o pedido à Prefeitura.
+7. **Plataformas de ingresso** (estratégia da seção 5): feito em 19/11, a extração diária da Ingresso.com (fichas automáticas de cinema de rua, de arte e público) e da Sympla (lida pela redação com os critérios editoriais); falta testar a Eventim pela ronda no computador; marcar a origem nas fichas; montar o indicador de cercamento; buscar orientação jurídica; redigir a proposta pública de contrapartida em dados abertos, junto com o pedido à Prefeitura.
 
 ## 12. Decisões
 

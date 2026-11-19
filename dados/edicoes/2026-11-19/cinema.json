@@ -1,0 +1,3668 @@
+{
+ "feito_em": "2026-11-19T18:40:14Z",
+ "fichas": [
+  {
+   "titulo": "Camisas Negras",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Cine Odeon",
+   "endereco": "Praça Floriano, 7",
+   "bairro": "Centro",
+   "regiao": "Centro",
+   "sessoes": [
+    {
+     "data": "2026-11-20",
+     "hora": "15:00"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "15:00"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "15:00"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "15:00"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "15:00"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "15:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 34,20 (preço da plataforma)",
+   "preco_min": 34.2,
+   "preco_max": 34.2,
+   "gratis": false,
+   "classificacao": "12 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Direção de Jefferson Mello. Brasil, 2026, 96 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/camisas-negras?city=rio-de-janeiro",
+   "link_espaco": "",
+   "trecho_fonte": "Ingresso.com · Cine Odeon · Camisas Negras · 2026-11-20 15:00 Centro Cultural R$ 34,20; 2026-11-21 15:00 Centro Cultural R$ 34,20; 2026-11-22 15:00 Centro Cultural R$ 34,20; 2026-11-23 15:00 Centro Cultural R$ 34,20; 2026-11-24 15:00 Centro Cultural R$ 34,20; 2026-11-25 15:00 Centro Cultural R$ 34,20",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-1304-34268"
+  },
+  {
+   "titulo": "Feito Pipa",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Cine Odeon",
+   "endereco": "Praça Floriano, 7",
+   "bairro": "Centro",
+   "regiao": "Centro",
+   "sessoes": [
+    {
+     "data": "2026-11-19",
+     "hora": "17:00"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "17:00"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "17:00"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "17:00"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "17:00"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "17:00"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "17:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 34,20 (preço da plataforma)",
+   "preco_min": 34.2,
+   "preco_max": 34.2,
+   "gratis": false,
+   "classificacao": "14 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Direção de Allan Deberton. Brasil, 2026, 93 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/feito-pipa?city=rio-de-janeiro",
+   "link_espaco": "",
+   "trecho_fonte": "Ingresso.com · Cine Odeon · Feito Pipa · 2026-11-19 17:00 Centro Cultural R$ 34,20; 2026-11-20 17:00 Centro Cultural R$ 34,20; 2026-11-21 17:00 Centro Cultural R$ 34,20; 2026-11-22 17:00 Centro Cultural R$ 34,20; 2026-11-23 17:00 Centro Cultural R$ 34,20; 2026-11-24 17:00 Centro Cultural R$ 34,20; 2026-11-25 17:00 Centro Cultural R$ 34,20",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-1304-32251"
+  },
+  {
+   "titulo": "Jogos Vorazes: Amanhecer Na Colheita",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Cine Odeon",
+   "endereco": "Praça Floriano, 7",
+   "bairro": "Centro",
+   "regiao": "Centro",
+   "sessoes": [
+    {
+     "data": "2026-11-19",
+     "hora": "19:00"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "19:00"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "19:00"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "19:00"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "19:00"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "19:00"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "19:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 34,20 (preço da plataforma)",
+   "preco_min": 34.2,
+   "preco_max": 34.2,
+   "gratis": false,
+   "classificacao": "16 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Título original: The Hunger Games - Sunrise On The Reaping. Direção de Francis Lawrence. Estados Unidos, 2026, 159 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?city=rio-de-janeiro",
+   "link_espaco": "",
+   "trecho_fonte": "Ingresso.com · Cine Odeon · Jogos Vorazes: Amanhecer Na Colheita · 2026-11-19 19:00 Centro Cultural R$ 34,20; 2026-11-20 19:00 Centro Cultural R$ 34,20; 2026-11-21 19:00 Centro Cultural R$ 34,20; 2026-11-22 19:00 Centro Cultural R$ 34,20; 2026-11-23 19:00 Centro Cultural R$ 34,20; 2026-11-24 19:00 Centro Cultural R$ 34,20; 2026-11-25 19:00 Centro Cultural R$ 34,20",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-1304-29919"
+  },
+  {
+   "titulo": "A Terra Do Meu Pai",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Cine Santa Teresa",
+   "endereco": "Rua Paschoal Carlos Magno, 136",
+   "bairro": "Santa Teresa",
+   "regiao": "Centro",
+   "sessoes": [
+    {
+     "data": "2026-11-20",
+     "hora": "14:00"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "14:00"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "14:00"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "14:00"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "14:00"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "14:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 31,92 a R$ 38,76 (preço da plataforma)",
+   "preco_min": 31.92,
+   "preco_max": 38.76,
+   "gratis": false,
+   "classificacao": "12 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Título original: Fatherland. Direção de Paweł Pawlikowski. Polônia, Alemanha, Itália, França, 2026, 82 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/a-terra-do-meu-pai?city=rio-de-janeiro",
+   "link_espaco": "https://www.cinesantateresa.com.br/",
+   "trecho_fonte": "Ingresso.com · Cine Santa Teresa · A Terra Do Meu Pai · 2026-11-20 14:00 Sala 1 R$ 38,76; 2026-11-21 14:00 Sala 1 R$ 38,76; 2026-11-22 14:00 Sala 1 R$ 38,76; 2026-11-23 14:00 Sala 1 R$ 31,92; 2026-11-24 14:00 Sala 1 R$ 34,20; 2026-11-25 14:00 Sala 1 R$ 34,20",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-1463-33331"
+  },
+  {
+   "titulo": "Contos Paralelos",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Cine Santa Teresa",
+   "endereco": "Rua Paschoal Carlos Magno, 136",
+   "bairro": "Santa Teresa",
+   "regiao": "Centro",
+   "sessoes": [
+    {
+     "data": "2026-11-19",
+     "hora": "17:30"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "17:30"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "17:30"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "17:30"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "17:30"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "17:30"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "17:30"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 31,92 a R$ 38,76 (preço da plataforma)",
+   "preco_min": 31.92,
+   "preco_max": 38.76,
+   "gratis": false,
+   "classificacao": "14 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Título original: Histoires parallèles. Direção de Asghar Farhadi. França, Itália, Bélgica, Arábia Saudita, Estados Unidos, 2026, 139 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/contos-paralelos?city=rio-de-janeiro",
+   "link_espaco": "https://www.cinesantateresa.com.br/",
+   "trecho_fonte": "Ingresso.com · Cine Santa Teresa · Contos Paralelos · 2026-11-19 17:30 Sala 1 R$ 34,20; 2026-11-20 17:30 Sala 1 R$ 38,76; 2026-11-21 17:30 Sala 1 R$ 38,76; 2026-11-22 17:30 Sala 1 R$ 38,76; 2026-11-23 17:30 Sala 1 R$ 31,92; 2026-11-24 17:30 Sala 1 R$ 34,20; 2026-11-25 17:30 Sala 1 R$ 34,20",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-1463-33252"
+  },
+  {
+   "titulo": "Eu Sou O Rocky",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Cine Santa Teresa",
+   "endereco": "Rua Paschoal Carlos Magno, 136",
+   "bairro": "Santa Teresa",
+   "regiao": "Centro",
+   "sessoes": [
+    {
+     "data": "2026-11-19",
+     "hora": "20:10"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "20:10"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "20:10"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "20:10"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "20:10"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "20:10"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "20:10"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 31,92 a R$ 38,76 (preço da plataforma)",
+   "preco_min": 31.92,
+   "preco_max": 38.76,
+   "gratis": false,
+   "classificacao": "12 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Título original: I Play Rocky. Direção de Peter Farrelly. Estados Unidos, 2026, 128 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/eu-sou-o-rocky?city=rio-de-janeiro",
+   "link_espaco": "https://www.cinesantateresa.com.br/",
+   "trecho_fonte": "Ingresso.com · Cine Santa Teresa · Eu Sou O Rocky · 2026-11-19 20:10 Sala 1 R$ 34,20; 2026-11-20 20:10 Sala 1 R$ 38,76; 2026-11-21 20:10 Sala 1 R$ 38,76; 2026-11-22 20:10 Sala 1 R$ 38,76; 2026-11-23 20:10 Sala 1 R$ 31,92; 2026-11-24 20:10 Sala 1 R$ 34,20; 2026-11-25 20:10 Sala 1 R$ 34,20",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-1463-32254"
+  },
+  {
+   "titulo": "Feito Pipa",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Cine Santa Teresa",
+   "endereco": "Rua Paschoal Carlos Magno, 136",
+   "bairro": "Santa Teresa",
+   "regiao": "Centro",
+   "sessoes": [
+    {
+     "data": "2026-11-19",
+     "hora": "15:45"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "15:45"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "15:45"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "15:45"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "15:45"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "15:45"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "15:45"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 31,92 a R$ 38,76 (preço da plataforma)",
+   "preco_min": 31.92,
+   "preco_max": 38.76,
+   "gratis": false,
+   "classificacao": "14 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Direção de Allan Deberton. Brasil, 2026, 93 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/feito-pipa?city=rio-de-janeiro",
+   "link_espaco": "https://www.cinesantateresa.com.br/",
+   "trecho_fonte": "Ingresso.com · Cine Santa Teresa · Feito Pipa · 2026-11-19 15:45 Sala 1 R$ 34,20; 2026-11-20 15:45 Sala 1 R$ 38,76; 2026-11-21 15:45 Sala 1 R$ 38,76; 2026-11-22 15:45 Sala 1 R$ 38,76; 2026-11-23 15:45 Sala 1 R$ 31,92; 2026-11-24 15:45 Sala 1 R$ 34,20; 2026-11-25 15:45 Sala 1 R$ 34,20",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-1463-32251"
+  },
+  {
+   "titulo": "A Terra Do Meu Pai",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "CineCarioca José Wilker",
+   "endereco": "Rua das Laranjeiras, 307",
+   "bairro": "Laranjeiras",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-19",
+     "hora": "17:00"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "17:00"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "17:00"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "17:00"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "17:00"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "17:00"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "17:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 36,48 a R$ 41,04 (preço da plataforma)",
+   "preco_min": 36.48,
+   "preco_max": 41.04,
+   "gratis": false,
+   "classificacao": "12 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Título original: Fatherland. Direção de Paweł Pawlikowski. Polônia, Alemanha, Itália, França, 2026, 82 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/a-terra-do-meu-pai?city=rio-de-janeiro",
+   "link_espaco": "",
+   "trecho_fonte": "Ingresso.com · CineCarioca José Wilker · A Terra Do Meu Pai · 2026-11-19 17:00 Sala 1 R$ 41,04; 2026-11-20 17:00 Sala 1 R$ 41,04; 2026-11-21 17:00 Sala 1 R$ 41,04; 2026-11-22 17:00 Sala 1 R$ 41,04; 2026-11-23 17:00 Sala 1 R$ 36,48; 2026-11-24 17:00 Sala 1 R$ 36,48; 2026-11-25 17:00 Sala 1 R$ 36,48",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-1627-33331"
+  },
+  {
+   "titulo": "Apenas Uma Ilusão",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "CineCarioca José Wilker",
+   "endereco": "Rua das Laranjeiras, 307",
+   "bairro": "Laranjeiras",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-19",
+     "hora": "15:30"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "15:30"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "15:30"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "15:30"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "15:30"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "15:30"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "15:30"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 36,48 a R$ 41,04 (preço da plataforma)",
+   "preco_min": 36.48,
+   "preco_max": 41.04,
+   "gratis": false,
+   "classificacao": "12 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Título original: Juste une illusion. Direção de Olivier Nakache, Éric Toledano. França, 2026, 118 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/apenas-uma-ilusao?city=rio-de-janeiro",
+   "link_espaco": "",
+   "trecho_fonte": "Ingresso.com · CineCarioca José Wilker · Apenas Uma Ilusão · 2026-11-19 15:30 Sala 2 R$ 41,04; 2026-11-20 15:30 Sala 2 R$ 41,04; 2026-11-21 15:30 Sala 2 R$ 41,04; 2026-11-22 15:30 Sala 2 R$ 41,04; 2026-11-23 15:30 Sala 2 R$ 36,48; 2026-11-24 15:30 Sala 2 R$ 36,48; 2026-11-25 15:30 Sala 2 R$ 36,48",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-1627-33961"
+  },
+  {
+   "titulo": "Contos Paralelos",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "CineCarioca José Wilker",
+   "endereco": "Rua das Laranjeiras, 307",
+   "bairro": "Laranjeiras",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-19",
+     "hora": "17:50"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "17:50"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "17:50"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "17:50"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "17:50"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "17:50"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "17:50"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 36,48 a R$ 41,04 (preço da plataforma)",
+   "preco_min": 36.48,
+   "preco_max": 41.04,
+   "gratis": false,
+   "classificacao": "14 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Título original: Histoires parallèles. Direção de Asghar Farhadi. França, Itália, Bélgica, Arábia Saudita, Estados Unidos, 2026, 139 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/contos-paralelos?city=rio-de-janeiro",
+   "link_espaco": "",
+   "trecho_fonte": "Ingresso.com · CineCarioca José Wilker · Contos Paralelos · 2026-11-19 17:50 Sala 2 R$ 41,04; 2026-11-20 17:50 Sala 2 R$ 41,04; 2026-11-21 17:50 Sala 2 R$ 41,04; 2026-11-22 17:50 Sala 2 R$ 41,04; 2026-11-23 17:50 Sala 2 R$ 36,48; 2026-11-24 17:50 Sala 2 R$ 36,48; 2026-11-25 17:50 Sala 2 R$ 36,48",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-1627-33252"
+  },
+  {
+   "titulo": "Eu Sou O Rocky",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "CineCarioca José Wilker",
+   "endereco": "Rua das Laranjeiras, 307",
+   "bairro": "Laranjeiras",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-19",
+     "hora": "20:30"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "13:10"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "20:30"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "13:10"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "20:30"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "13:10"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "20:30"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "13:10"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "20:30"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "13:10"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "20:30"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "13:10"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "20:30"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 36,48 a R$ 41,04 (preço da plataforma)",
+   "preco_min": 36.48,
+   "preco_max": 41.04,
+   "gratis": false,
+   "classificacao": "12 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Título original: I Play Rocky. Direção de Peter Farrelly. Estados Unidos, 2026, 128 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/eu-sou-o-rocky?city=rio-de-janeiro",
+   "link_espaco": "",
+   "trecho_fonte": "Ingresso.com · CineCarioca José Wilker · Eu Sou O Rocky · 2026-11-19 20:30 Sala 2 R$ 41,04; 2026-11-20 13:10 Sala 2 R$ 41,04; 2026-11-20 20:30 Sala 2 R$ 41,04; 2026-11-21 13:10 Sala 2 R$ 41,04; 2026-11-21 20:30 Sala 2 R$ 41,04; 2026-11-22 13:10 Sala 2 R$ 41,04; 2026-11-22 20:30 Sala 2 R$ 41,04; 2026-11-23 13:10 Sala 2 R$ 36,48; 2026-11-23 20:30 Sala 2 R$ 36,48; 2026-11-24 13:10 Sala 2 R$ 36,48; 2026-11-24 20:30 Sala 2 R$ 36,48; 2026-11-25 13:10 Sala 2 R$ 36,48; 2026-11-25 20:30 Sala 2 R$ 36,48",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-1627-32254"
+  },
+  {
+   "titulo": "Feito Pipa",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "CineCarioca José Wilker",
+   "endereco": "Rua das Laranjeiras, 307",
+   "bairro": "Laranjeiras",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-20",
+     "hora": "15:10"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "15:10"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "15:10"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "15:10"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "15:10"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "15:10"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 36,48 a R$ 41,04 (preço da plataforma)",
+   "preco_min": 36.48,
+   "preco_max": 41.04,
+   "gratis": false,
+   "classificacao": "14 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Direção de Allan Deberton. Brasil, 2026, 93 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/feito-pipa?city=rio-de-janeiro",
+   "link_espaco": "",
+   "trecho_fonte": "Ingresso.com · CineCarioca José Wilker · Feito Pipa · 2026-11-20 15:10 Sala 1 R$ 41,04; 2026-11-21 15:10 Sala 1 R$ 41,04; 2026-11-22 15:10 Sala 1 R$ 41,04; 2026-11-23 15:10 Sala 1 R$ 36,48; 2026-11-24 15:10 Sala 1 R$ 36,48; 2026-11-25 15:10 Sala 1 R$ 36,48",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-1627-32251"
+  },
+  {
+   "titulo": "I Love Boosters",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "CineCarioca José Wilker",
+   "endereco": "Rua das Laranjeiras, 307",
+   "bairro": "Laranjeiras",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-19",
+     "hora": "20:50"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "20:50"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "20:50"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "20:50"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "20:50"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "20:50"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "20:50"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 36,48 a R$ 41,04 (preço da plataforma)",
+   "preco_min": 36.48,
+   "preco_max": 41.04,
+   "gratis": false,
+   "classificacao": "16 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Direção de Boots Riley. Estados Unidos, 2026, 114 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/i-love-boosters?city=rio-de-janeiro",
+   "link_espaco": "",
+   "trecho_fonte": "Ingresso.com · CineCarioca José Wilker · I Love Boosters · 2026-11-19 20:50 Sala 1 R$ 41,04; 2026-11-20 20:50 Sala 1 R$ 41,04; 2026-11-21 20:50 Sala 1 R$ 41,04; 2026-11-22 20:50 Sala 1 R$ 41,04; 2026-11-23 20:50 Sala 1 R$ 36,48; 2026-11-24 20:50 Sala 1 R$ 36,48; 2026-11-25 20:50 Sala 1 R$ 36,48",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-1627-33420"
+  },
+  {
+   "titulo": "Josephine - Fragmentos De Um Crime",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "CineCarioca José Wilker",
+   "endereco": "Rua das Laranjeiras, 307",
+   "bairro": "Laranjeiras",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-19",
+     "hora": "18:40"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "13:00"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "18:40"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "13:00"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "18:40"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "13:00"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "18:40"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "13:00"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "18:40"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "13:00"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "18:40"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "13:00"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "18:40"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 36,48 a R$ 41,04 (preço da plataforma)",
+   "preco_min": 36.48,
+   "preco_max": 41.04,
+   "gratis": false,
+   "classificacao": "16 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Título original: Josephine. Direção de Beth de Araújo. Estados Unidos, 2026, 119 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/josephine-fragmentos-de-um-crime?city=rio-de-janeiro",
+   "link_espaco": "",
+   "trecho_fonte": "Ingresso.com · CineCarioca José Wilker · Josephine - Fragmentos De Um Crime · 2026-11-19 18:40 Sala 1 R$ 41,04; 2026-11-20 13:00 Sala 1 R$ 41,04; 2026-11-20 18:40 Sala 1 R$ 41,04; 2026-11-21 13:00 Sala 1 R$ 41,04; 2026-11-21 18:40 Sala 1 R$ 41,04; 2026-11-22 13:00 Sala 1 R$ 41,04; 2026-11-22 18:40 Sala 1 R$ 41,04; 2026-11-23 13:00 Sala 1 R$ 36,48; 2026-11-23 18:40 Sala 1 R$ 36,48; 2026-11-24 13:00 Sala 1 R$ 36,48; 2026-11-24 18:40 Sala 1 R$ 36,48; 2026-11-25 13:00 Sala 1 R$ 36,48; 2026-11-25 18:40 Sala 1 R$ 36,48",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-1627-34108"
+  },
+  {
+   "titulo": "Camisas Negras",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "CineCarioca Méier",
+   "endereco": "Rua Dias da Cruz, 170",
+   "bairro": "Méier",
+   "regiao": "Zona Norte",
+   "sessoes": [
+    {
+     "data": "2026-11-20",
+     "hora": "14:10"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "14:10"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "14:10"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "14:10"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "14:10"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "13:20"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 37,12 a R$ 46,40 (preço da plataforma)",
+   "preco_min": 37.12,
+   "preco_max": 46.4,
+   "gratis": false,
+   "classificacao": "12 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Direção de Jefferson Mello. Brasil, 2026, 96 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/camisas-negras?city=rio-de-janeiro",
+   "link_espaco": "",
+   "trecho_fonte": "Ingresso.com · CineCarioca Méier · Camisas Negras · 2026-11-20 14:10 Sala 2 R$ 37,12; 2026-11-21 14:10 Sala 2 R$ 37,12; 2026-11-22 14:10 Sala 2 R$ 37,12; 2026-11-23 14:10 Sala 2 R$ 46,40; 2026-11-24 14:10 Sala 2 R$ 46,40; 2026-11-25 13:20 Sala 2 R$ 46,40",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-1046-34268"
+  },
+  {
+   "titulo": "Ebenezer E Os Fantasmas Do Natal",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "CineCarioca Méier",
+   "endereco": "Rua Dias da Cruz, 170",
+   "bairro": "Méier",
+   "regiao": "Zona Norte",
+   "sessoes": [
+    {
+     "data": "2026-11-20",
+     "hora": "13:45"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "13:45"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "13:45"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "13:45"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "13:45"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "13:50"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 37,12 a R$ 46,40 (preço da plataforma)",
+   "preco_min": 37.12,
+   "preco_max": 46.4,
+   "gratis": false,
+   "classificacao": "12 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Título original: Ebenezer: A Christmas Carol. Direção de Ti West. Estados Unidos, 2026, 117 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/ebenezer-e-os-fantasmas-do-natal?city=rio-de-janeiro",
+   "link_espaco": "",
+   "trecho_fonte": "Ingresso.com · CineCarioca Méier · Ebenezer E Os Fantasmas Do Natal · 2026-11-20 13:45 Sala 3 R$ 37,12; 2026-11-21 13:45 Sala 3 R$ 37,12; 2026-11-22 13:45 Sala 3 R$ 37,12; 2026-11-23 13:45 Sala 3 R$ 46,40; 2026-11-24 13:45 Sala 3 R$ 46,40; 2026-11-25 13:50 Sala 3 R$ 46,40",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-1046-31673"
+  },
+  {
+   "titulo": "Jogos Vorazes: Amanhecer Na Colheita",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "CineCarioca Méier",
+   "endereco": "Rua Dias da Cruz, 170",
+   "bairro": "Méier",
+   "regiao": "Zona Norte",
+   "sessoes": [
+    {
+     "data": "2026-11-19",
+     "hora": "16:10"
+    },
+    {
+     "data": "2026-11-19",
+     "hora": "16:50"
+    },
+    {
+     "data": "2026-11-19",
+     "hora": "19:20"
+    },
+    {
+     "data": "2026-11-19",
+     "hora": "20:00"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "13:40"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "16:10"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "16:50"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "19:20"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "20:00"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "13:40"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "16:10"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "16:50"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "19:20"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "20:00"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "13:40"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "16:10"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "16:50"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "19:20"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "20:00"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "13:40"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "16:10"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "16:50"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "19:20"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "20:00"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "13:40"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "16:10"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "16:50"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "19:20"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "20:00"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "13:40"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "16:20"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "16:50"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "20:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 37,12 a R$ 46,40 (preço da plataforma)",
+   "preco_min": 37.12,
+   "preco_max": 46.4,
+   "gratis": false,
+   "classificacao": "16 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Título original: The Hunger Games - Sunrise On The Reaping. Direção de Francis Lawrence. Estados Unidos, 2026, 159 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?city=rio-de-janeiro",
+   "link_espaco": "",
+   "trecho_fonte": "Ingresso.com · CineCarioca Méier · Jogos Vorazes: Amanhecer Na Colheita · 2026-11-19 16:10 Sala 3 R$ 46,40; 2026-11-19 16:50 Sala 1 R$ 46,40; 2026-11-19 19:20 Sala 3 R$ 46,40; 2026-11-19 20:00 Sala 1 R$ 46,40; 2026-11-20 13:40 Sala 1 R$ 37,12; 2026-11-20 16:10 Sala 3 R$ 37,12; 2026-11-20 16:50 Sala 1 R$ 37,12; 2026-11-20 19:20 Sala 3 R$ 37,12; 2026-11-20 20:00 Sala 1 R$ 37,12; 2026-11-21 13:40 Sala 1 R$ 37,12; 2026-11-21 16:10 Sala 3 R$ 37,12; 2026-11-21 16:50 Sala 1 R$ 37,12; 2026-11-21 19:20 Sala 3 R$ 37,12; 2026-11-21 20:00 Sala 1 R$ 37,12; 2026-11-22 13:40 Sala 1 R$ 37,12; 2026-11-22 16:10 Sala 3 R$ 37,12; 2026-11-22 16:50 Sala 1 R$ 37,12; 2026-11-22 19:20 Sala 3 R$ 37,12; 2026-11-22 20:00 Sala 1 R$ 37,12; 2026-11-23 13:40 Sala 1 R$ 46,40; 2026-11-23 16:10 Sala 3 R$ 46,40; 2026-11-23 16:50 Sala 1 R$ 46,40; 2026-11-23 19:20 Sala 3 R$ 46,40; 2026-11-23 20:00 Sala 1 R$ 46,40; 2026-11-24 13:40 Sala 1 R$ 46,40; 2026-11-24 16:10 Sala 3 R$ 46,40; 2026-11-24 16:50 Sala 1 R$ 46,40; 2026-11-24 19:20 Sala 3 R$ 46,40; 2026-11-24 20:00 Sala 1 R$ 46,40; 2026-11-25 13:40 Sala 1 R$ 46,40; 2026-11-25 16:20 Sala 3 R$ 46,40; 2026-11-25 16:50 Sala 1 R$ 46,40; 2026-11-25 20:00 Sala 3 R$ 46,40",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-1046-29919"
+  },
+  {
+   "titulo": "Os Farofeiros 3",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "CineCarioca Méier",
+   "endereco": "Rua Dias da Cruz, 170",
+   "bairro": "Méier",
+   "regiao": "Zona Norte",
+   "sessoes": [
+    {
+     "data": "2026-11-19",
+     "hora": "16:15"
+    },
+    {
+     "data": "2026-11-19",
+     "hora": "18:30"
+    },
+    {
+     "data": "2026-11-19",
+     "hora": "20:45"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "16:15"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "18:30"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "20:45"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "16:15"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "18:30"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "20:45"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "16:15"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "18:30"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "20:45"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "16:15"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "18:30"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "20:45"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "16:15"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "18:30"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "20:45"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "15:20"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "17:40"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 37,12 a R$ 46,40 (preço da plataforma)",
+   "preco_min": 37.12,
+   "preco_max": 46.4,
+   "gratis": false,
+   "classificacao": "12 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Direção de Roberto Santucci. Brasil, 2026, 102 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/os-farofeiros-3?city=rio-de-janeiro",
+   "link_espaco": "",
+   "trecho_fonte": "Ingresso.com · CineCarioca Méier · Os Farofeiros 3 · 2026-11-19 16:15 Sala 2 R$ 46,40; 2026-11-19 18:30 Sala 2 R$ 46,40; 2026-11-19 20:45 Sala 2 R$ 46,40; 2026-11-20 16:15 Sala 2 R$ 37,12; 2026-11-20 18:30 Sala 2 R$ 37,12; 2026-11-20 20:45 Sala 2 R$ 37,12; 2026-11-21 16:15 Sala 2 R$ 37,12; 2026-11-21 18:30 Sala 2 R$ 37,12; 2026-11-21 20:45 Sala 2 R$ 37,12; 2026-11-22 16:15 Sala 2 R$ 37,12; 2026-11-22 18:30 Sala 2 R$ 37,12; 2026-11-22 20:45 Sala 2 R$ 37,12; 2026-11-23 16:15 Sala 2 R$ 46,40; 2026-11-23 18:30 Sala 2 R$ 46,40; 2026-11-23 20:45 Sala 2 R$ 46,40; 2026-11-24 16:15 Sala 2 R$ 46,40; 2026-11-24 18:30 Sala 2 R$ 46,40; 2026-11-24 20:45 Sala 2 R$ 46,40; 2026-11-25 15:20 Sala 2 R$ 46,40; 2026-11-25 17:40 Sala 2 R$ 46,40",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-1046-30202"
+  },
+  {
+   "titulo": "100 Dias",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Estação Claro Gávea",
+   "endereco": "Rua Marquês de São Vicente, 52 (Shopping da Gávea)",
+   "bairro": "Gávea",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-19",
+     "hora": "18:25"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "18:25"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "18:25"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "18:25"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "18:25"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "18:25"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "18:25"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 60,41 a R$ 79,79 (preço da plataforma)",
+   "preco_min": 60.41,
+   "preco_max": 79.79,
+   "gratis": false,
+   "classificacao": "12 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Direção de Carlos Saldanha. Brasil, 2026, 116 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/100-dias?city=rio-de-janeiro",
+   "link_espaco": "https://www.grupoestacao.com.br/",
+   "trecho_fonte": "Ingresso.com · Estação Claro Gávea · 100 Dias · 2026-11-19 18:25 Sala 04 R$ 79,79; 2026-11-20 18:25 Sala 04 R$ 79,79; 2026-11-21 18:25 Sala 04 R$ 79,79; 2026-11-22 18:25 Sala 04 R$ 79,79; 2026-11-23 18:25 Sala 04 R$ 60,41; 2026-11-24 18:25 Sala 04 R$ 60,41; 2026-11-25 18:25 Sala 04 R$ 60,41",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-506-30636"
+  },
+  {
+   "titulo": "A Terra Do Meu Pai",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Estação Claro Gávea",
+   "endereco": "Rua Marquês de São Vicente, 52 (Shopping da Gávea)",
+   "bairro": "Gávea",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-19",
+     "hora": "17:00"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "11:00"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "14:00"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "17:00"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "11:00"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "14:00"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "17:00"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "11:00"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "14:00"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "17:00"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "14:00"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "17:00"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "14:00"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "17:00"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "19:00"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "14:00"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "17:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 22,80 a R$ 79,79 (preço da plataforma)",
+   "preco_min": 22.8,
+   "preco_max": 79.79,
+   "gratis": false,
+   "classificacao": "12 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Título original: Fatherland. Direção de Paweł Pawlikowski. Polônia, Alemanha, Itália, França, 2026, 82 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/a-terra-do-meu-pai?city=rio-de-janeiro",
+   "link_espaco": "https://www.grupoestacao.com.br/",
+   "trecho_fonte": "Ingresso.com · Estação Claro Gávea · A Terra Do Meu Pai · 2026-11-19 17:00 Sala 1 R$ 79,79; 2026-11-20 11:00 Sala 1 R$ 22,80; 2026-11-20 14:00 Sala 04 R$ 79,79; 2026-11-20 17:00 Sala 1 R$ 79,79; 2026-11-21 11:00 Sala 1 R$ 22,80; 2026-11-21 14:00 Sala 04 R$ 79,79; 2026-11-21 17:00 Sala 1 R$ 79,79; 2026-11-22 11:00 Sala 1 R$ 22,80; 2026-11-22 14:00 Sala 04 R$ 79,79; 2026-11-22 17:00 Sala 1 R$ 79,79; 2026-11-23 14:00 Sala 04 R$ 60,41; 2026-11-23 17:00 Sala 1 R$ 60,41; 2026-11-24 14:00 Sala 04 R$ 60,41; 2026-11-24 17:00 Sala 1 R$ 60,41; 2026-11-24 19:00 Sala 02 R$ 60,41; 2026-11-25 14:00 Sala 04 R$ 60,41; 2026-11-25 17:00 Sala 1 R$ 60,41",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-506-33331"
+  },
+  {
+   "titulo": "Alucinação",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Estação Claro Gávea",
+   "endereco": "Rua Marquês de São Vicente, 52 (Shopping da Gávea)",
+   "bairro": "Gávea",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-23",
+     "hora": "20:35"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 19,38 (preço da plataforma)",
+   "preco_min": 19.38,
+   "preco_max": 19.38,
+   "gratis": false,
+   "classificacao": "Verifique a Classificação",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Direção de Renato Terra, Marcos Caetano, Leo Caetano. Brasil, 2025, 73 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/alucinacao?city=rio-de-janeiro",
+   "link_espaco": "https://www.grupoestacao.com.br/",
+   "trecho_fonte": "Ingresso.com · Estação Claro Gávea · Alucinação · 2026-11-23 20:35 Sala 02 R$ 19,38",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-506-33754"
+  },
+  {
+   "titulo": "Apenas Uma Ilusão",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Estação Claro Gávea",
+   "endereco": "Rua Marquês de São Vicente, 52 (Shopping da Gávea)",
+   "bairro": "Gávea",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-19",
+     "hora": "15:40"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "15:40"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "15:40"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "15:40"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "15:40"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "15:40"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "15:40"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 60,41 a R$ 79,79 (preço da plataforma)",
+   "preco_min": 60.41,
+   "preco_max": 79.79,
+   "gratis": false,
+   "classificacao": "12 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Título original: Juste une illusion. Direção de Olivier Nakache, Éric Toledano. França, 2026, 118 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/apenas-uma-ilusao?city=rio-de-janeiro",
+   "link_espaco": "https://www.grupoestacao.com.br/",
+   "trecho_fonte": "Ingresso.com · Estação Claro Gávea · Apenas Uma Ilusão · 2026-11-19 15:40 Sala 03 R$ 79,79; 2026-11-20 15:40 Sala 03 R$ 79,79; 2026-11-21 15:40 Sala 03 R$ 79,79; 2026-11-22 15:40 Sala 03 R$ 79,79; 2026-11-23 15:40 Sala 03 R$ 60,41; 2026-11-24 15:40 Sala 03 R$ 60,41; 2026-11-25 15:40 Sala 03 R$ 60,41",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-506-33961"
+  },
+  {
+   "titulo": "As Crianças Estão Bem",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Estação Claro Gávea",
+   "endereco": "Rua Marquês de São Vicente, 52 (Shopping da Gávea)",
+   "bairro": "Gávea",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-19",
+     "hora": "20:45"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "13:55"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "20:45"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "13:55"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "20:45"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "13:55"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "20:45"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "13:30"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "20:45"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "13:55"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 19,38 a R$ 79,79 (preço da plataforma)",
+   "preco_min": 19.38,
+   "preco_max": 79.79,
+   "gratis": false,
+   "classificacao": "12 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Título original: Les Enfants Vont Bien. Direção de Nathan Ambrosioni. França, 2025, 111 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/as-criancas-estao-bem?city=rio-de-janeiro",
+   "link_espaco": "https://www.grupoestacao.com.br/",
+   "trecho_fonte": "Ingresso.com · Estação Claro Gávea · As Crianças Estão Bem · 2026-11-19 20:45 Sala 1 R$ 79,79; 2026-11-20 13:55 Sala 02 R$ 79,79; 2026-11-20 20:45 Sala 1 R$ 79,79; 2026-11-21 13:55 Sala 02 R$ 79,79; 2026-11-21 20:45 Sala 1 R$ 79,79; 2026-11-22 13:55 Sala 02 R$ 79,79; 2026-11-22 20:45 Sala 1 R$ 79,79; 2026-11-23 13:30 Sala 02 R$ 60,41; 2026-11-23 20:45 Sala 1 R$ 19,38; 2026-11-25 13:55 Sala 02 R$ 60,41",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-506-33833"
+  },
+  {
+   "titulo": "Cavalo Selvagem Nove",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Estação Claro Gávea",
+   "endereco": "Rua Marquês de São Vicente, 52 (Shopping da Gávea)",
+   "bairro": "Gávea",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-19",
+     "hora": "21:00"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "21:00"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "21:00"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "21:00"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "21:00"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "21:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 19,38 a R$ 79,79 (preço da plataforma)",
+   "preco_min": 19.38,
+   "preco_max": 79.79,
+   "gratis": false,
+   "classificacao": "16 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Título original: Wild Horse Nine. Direção de Martin McDonagh. Reino Unido, Estados Unidos, 2026, 116 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/cavalo-selvagem-nove?city=rio-de-janeiro",
+   "link_espaco": "https://www.grupoestacao.com.br/",
+   "trecho_fonte": "Ingresso.com · Estação Claro Gávea · Cavalo Selvagem Nove · 2026-11-19 21:00 Sala 03 R$ 79,79; 2026-11-20 21:00 Sala 03 R$ 79,79; 2026-11-21 21:00 Sala 03 R$ 79,79; 2026-11-22 21:00 Sala 03 R$ 79,79; 2026-11-23 21:00 Sala 03 R$ 19,38; 2026-11-24 21:00 Sala 03 R$ 19,38",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-506-32597"
+  },
+  {
+   "titulo": "Contos Paralelos",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Estação Claro Gávea",
+   "endereco": "Rua Marquês de São Vicente, 52 (Shopping da Gávea)",
+   "bairro": "Gávea",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-19",
+     "hora": "15:45"
+    },
+    {
+     "data": "2026-11-19",
+     "hora": "18:25"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "13:30"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "15:45"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "18:25"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "13:30"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "15:45"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "18:25"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "13:30"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "15:45"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "18:25"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "15:45"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "18:00"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "13:30"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "15:45"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "13:30"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "15:45"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "18:25"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 60,41 a R$ 79,79 (preço da plataforma)",
+   "preco_min": 60.41,
+   "preco_max": 79.79,
+   "gratis": false,
+   "classificacao": "14 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Título original: Histoires parallèles. Direção de Asghar Farhadi. França, Itália, Bélgica, Arábia Saudita, Estados Unidos, 2026, 139 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/contos-paralelos?city=rio-de-janeiro",
+   "link_espaco": "https://www.grupoestacao.com.br/",
+   "trecho_fonte": "Ingresso.com · Estação Claro Gávea · Contos Paralelos · 2026-11-19 15:45 Sala 04 R$ 79,79; 2026-11-19 18:25 Sala 02 R$ 79,79; 2026-11-20 13:30 Sala 05 R$ 79,79; 2026-11-20 15:45 Sala 04 R$ 79,79; 2026-11-20 18:25 Sala 02 R$ 79,79; 2026-11-21 13:30 Sala 05 R$ 79,79; 2026-11-21 15:45 Sala 04 R$ 79,79; 2026-11-21 18:25 Sala 02 R$ 79,79; 2026-11-22 13:30 Sala 05 R$ 79,79; 2026-11-22 15:45 Sala 04 R$ 79,79; 2026-11-22 18:25 Sala 02 R$ 79,79; 2026-11-23 15:45 Sala 04 R$ 60,41; 2026-11-23 18:00 Sala 02 R$ 60,41; 2026-11-24 13:30 Sala 05 R$ 60,41; 2026-11-24 15:45 Sala 04 R$ 60,41; 2026-11-25 13:30 Sala 05 R$ 60,41; 2026-11-25 15:45 Sala 04 R$ 60,41; 2026-11-25 18:25 Sala 02 R$ 60,41",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-506-33252"
+  },
+  {
+   "titulo": "Eu Sou O Rocky",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Estação Claro Gávea",
+   "endereco": "Rua Marquês de São Vicente, 52 (Shopping da Gávea)",
+   "bairro": "Gávea",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-19",
+     "hora": "16:05"
+    },
+    {
+     "data": "2026-11-19",
+     "hora": "18:35"
+    },
+    {
+     "data": "2026-11-19",
+     "hora": "21:05"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "11:00"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "16:05"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "18:35"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "21:05"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "11:00"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "16:05"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "18:35"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "21:05"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "11:00"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "16:05"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "18:35"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "21:05"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "13:00"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "15:30"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "18:00"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "16:05"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "21:05"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "16:05"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "21:05"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 19,38 a R$ 79,79 (preço da plataforma)",
+   "preco_min": 19.38,
+   "preco_max": 79.79,
+   "gratis": false,
+   "classificacao": "12 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Título original: I Play Rocky. Direção de Peter Farrelly. Estados Unidos, 2026, 128 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/eu-sou-o-rocky?city=rio-de-janeiro",
+   "link_espaco": "https://www.grupoestacao.com.br/",
+   "trecho_fonte": "Ingresso.com · Estação Claro Gávea · Eu Sou O Rocky · 2026-11-19 16:05 Sala 05 R$ 79,79; 2026-11-19 18:35 Sala 05 R$ 79,79; 2026-11-19 21:05 Sala 05 R$ 79,79; 2026-11-20 11:00 Sala 05 R$ 22,80; 2026-11-20 16:05 Sala 05 R$ 79,79; 2026-11-20 18:35 Sala 05 R$ 79,79; 2026-11-20 21:05 Sala 05 R$ 79,79; 2026-11-21 11:00 Sala 05 R$ 22,80; 2026-11-21 16:05 Sala 05 R$ 79,79; 2026-11-21 18:35 Sala 05 R$ 79,79; 2026-11-21 21:05 Sala 05 R$ 79,79; 2026-11-22 11:00 Sala 05 R$ 22,80; 2026-11-22 16:05 Sala 05 R$ 79,79; 2026-11-22 18:35 Sala 05 R$ 79,79; 2026-11-22 21:05 Sala 05 R$ 79,79; 2026-11-23 13:00 Sala 05 R$ 60,41; 2026-11-23 15:30 Sala 05 R$ 60,41; 2026-11-23 18:00 Sala 05 R$ 60,41; 2026-11-24 16:05 Sala 05 R$ 60,41; 2026-11-24 21:05 Sala 02 R$ 19,38; 2026-11-25 16:05 Sala 05 R$ 60,41; 2026-11-25 21:05 Sala 02 R$ 19,38",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-506-32254"
+  },
+  {
+   "titulo": "Feito Pipa",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Estação Claro Gávea",
+   "endereco": "Rua Marquês de São Vicente, 52 (Shopping da Gávea)",
+   "bairro": "Gávea",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-20",
+     "hora": "13:45"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "13:45"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "13:45"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "13:45"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "13:45"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "13:45"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 60,41 a R$ 79,79 (preço da plataforma)",
+   "preco_min": 60.41,
+   "preco_max": 79.79,
+   "gratis": false,
+   "classificacao": "14 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Direção de Allan Deberton. Brasil, 2026, 93 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/feito-pipa?city=rio-de-janeiro",
+   "link_espaco": "https://www.grupoestacao.com.br/",
+   "trecho_fonte": "Ingresso.com · Estação Claro Gávea · Feito Pipa · 2026-11-20 13:45 Sala 03 R$ 79,79; 2026-11-21 13:45 Sala 03 R$ 79,79; 2026-11-22 13:45 Sala 03 R$ 79,79; 2026-11-23 13:45 Sala 03 R$ 60,41; 2026-11-24 13:45 Sala 03 R$ 60,41; 2026-11-25 13:45 Sala 03 R$ 60,41",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-506-32251"
+  },
+  {
+   "titulo": "Fogaréu",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Estação Claro Gávea",
+   "endereco": "Rua Marquês de São Vicente, 52 (Shopping da Gávea)",
+   "bairro": "Gávea",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-19",
+     "hora": "18:40"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "18:40"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "18:40"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "18:40"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "18:40"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "18:40"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 60,41 a R$ 79,79 (preço da plataforma)",
+   "preco_min": 60.41,
+   "preco_max": 79.79,
+   "gratis": false,
+   "classificacao": "16 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Direção de Flávia Neves. Brasil, França, 2023, 100 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/fogareu?city=rio-de-janeiro",
+   "link_espaco": "https://www.grupoestacao.com.br/",
+   "trecho_fonte": "Ingresso.com · Estação Claro Gávea · Fogaréu · 2026-11-19 18:40 Sala 1 R$ 79,79; 2026-11-20 18:40 Sala 1 R$ 79,79; 2026-11-21 18:40 Sala 1 R$ 79,79; 2026-11-22 18:40 Sala 1 R$ 79,79; 2026-11-23 18:40 Sala 1 R$ 60,41; 2026-11-25 18:40 Sala 1 R$ 60,41",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-506-25476"
+  },
+  {
+   "titulo": "I Love Boosters",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Estação Claro Gávea",
+   "endereco": "Rua Marquês de São Vicente, 52 (Shopping da Gávea)",
+   "bairro": "Gávea",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-20",
+     "hora": "11:00"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "11:00"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "11:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 22,80 (preço da plataforma)",
+   "preco_min": 22.8,
+   "preco_max": 22.8,
+   "gratis": false,
+   "classificacao": "16 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Direção de Boots Riley. Estados Unidos, 2026, 114 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/i-love-boosters?city=rio-de-janeiro",
+   "link_espaco": "https://www.grupoestacao.com.br/",
+   "trecho_fonte": "Ingresso.com · Estação Claro Gávea · I Love Boosters · 2026-11-20 11:00 Sala 02 R$ 22,80; 2026-11-21 11:00 Sala 02 R$ 22,80; 2026-11-22 11:00 Sala 02 R$ 22,80",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-506-33420"
+  },
+  {
+   "titulo": "Jogos Vorazes: Amanhecer Na Colheita",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Estação Claro Gávea",
+   "endereco": "Rua Marquês de São Vicente, 52 (Shopping da Gávea)",
+   "bairro": "Gávea",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-19",
+     "hora": "18:00"
+    },
+    {
+     "data": "2026-11-19",
+     "hora": "20:40"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "11:00"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "14:00"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "18:00"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "20:40"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "11:00"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "14:00"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "18:00"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "20:40"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "11:00"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "14:00"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "18:00"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "20:40"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "14:00"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "18:00"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "20:40"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "14:00"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "18:00"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "20:40"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "14:00"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "18:00"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "20:40"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 19,38 a R$ 79,79 (preço da plataforma)",
+   "preco_min": 19.38,
+   "preco_max": 79.79,
+   "gratis": false,
+   "classificacao": "16 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Título original: The Hunger Games - Sunrise On The Reaping. Direção de Francis Lawrence. Estados Unidos, 2026, 159 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/jogos-vorazes-amanhecer-na-colheita?city=rio-de-janeiro",
+   "link_espaco": "https://www.grupoestacao.com.br/",
+   "trecho_fonte": "Ingresso.com · Estação Claro Gávea · Jogos Vorazes: Amanhecer Na Colheita · 2026-11-19 18:00 Sala 03 R$ 79,79; 2026-11-19 20:40 Sala 04 R$ 79,79; 2026-11-20 11:00 Sala 04 R$ 22,80; 2026-11-20 14:00 Sala 1 R$ 79,79; 2026-11-20 18:00 Sala 03 R$ 79,79; 2026-11-20 20:40 Sala 04 R$ 79,79; 2026-11-21 11:00 Sala 04 R$ 22,80; 2026-11-21 14:00 Sala 1 R$ 79,79; 2026-11-21 18:00 Sala 03 R$ 79,79; 2026-11-21 20:40 Sala 04 R$ 79,79; 2026-11-22 11:00 Sala 04 R$ 22,80; 2026-11-22 14:00 Sala 1 R$ 79,79; 2026-11-22 18:00 Sala 03 R$ 79,79; 2026-11-22 20:40 Sala 04 R$ 79,79; 2026-11-23 14:00 Sala 1 R$ 60,41; 2026-11-23 18:00 Sala 03 R$ 60,41; 2026-11-23 20:40 Sala 04 R$ 19,38; 2026-11-24 14:00 Sala 1 R$ 60,41; 2026-11-24 18:00 Sala 03 R$ 60,41; 2026-11-24 20:40 Sala 04 R$ 19,38; 2026-11-25 14:00 Sala 1 R$ 60,41; 2026-11-25 18:00 Sala 03 R$ 60,41; 2026-11-25 20:40 Sala 04 R$ 19,38",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-506-29919"
+  },
+  {
+   "titulo": "Josephine - Fragmentos De Um Crime",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Estação Claro Gávea",
+   "endereco": "Rua Marquês de São Vicente, 52 (Shopping da Gávea)",
+   "bairro": "Gávea",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-19",
+     "hora": "16:05"
+    },
+    {
+     "data": "2026-11-19",
+     "hora": "21:05"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "16:05"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "21:05"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "16:05"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "21:05"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "16:05"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "21:05"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "15:40"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "16:05"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 60,41 a R$ 79,79 (preço da plataforma)",
+   "preco_min": 60.41,
+   "preco_max": 79.79,
+   "gratis": false,
+   "classificacao": "16 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Título original: Josephine. Direção de Beth de Araújo. Estados Unidos, 2026, 119 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/josephine-fragmentos-de-um-crime?city=rio-de-janeiro",
+   "link_espaco": "https://www.grupoestacao.com.br/",
+   "trecho_fonte": "Ingresso.com · Estação Claro Gávea · Josephine - Fragmentos De Um Crime · 2026-11-19 16:05 Sala 02 R$ 79,79; 2026-11-19 21:05 Sala 02 R$ 79,79; 2026-11-20 16:05 Sala 02 R$ 79,79; 2026-11-20 21:05 Sala 02 R$ 79,79; 2026-11-21 16:05 Sala 02 R$ 79,79; 2026-11-21 21:05 Sala 02 R$ 79,79; 2026-11-22 16:05 Sala 02 R$ 79,79; 2026-11-22 21:05 Sala 02 R$ 79,79; 2026-11-23 15:40 Sala 02 R$ 60,41; 2026-11-25 16:05 Sala 02 R$ 60,41",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-506-34108"
+  },
+  {
+   "titulo": "O Gatola Da Cartola",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Estação Claro Gávea",
+   "endereco": "Rua Marquês de São Vicente, 52 (Shopping da Gávea)",
+   "bairro": "Gávea",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-20",
+     "hora": "11:00"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "11:00"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "11:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 22,80 (preço da plataforma)",
+   "preco_min": 22.8,
+   "preco_max": 22.8,
+   "gratis": false,
+   "classificacao": "6 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Título original: The Cat In The Hat. Direção de Alessandro Carloni, Erica Rivinoja. Estados Unidos, 2026, 91 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/o-gatola-da-cartola?city=rio-de-janeiro",
+   "link_espaco": "https://www.grupoestacao.com.br/",
+   "trecho_fonte": "Ingresso.com · Estação Claro Gávea · O Gatola Da Cartola · 2026-11-20 11:00 Sala 03 R$ 22,80; 2026-11-21 11:00 Sala 03 R$ 22,80; 2026-11-22 11:00 Sala 03 R$ 22,80",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-506-30406"
+  },
+  {
+   "titulo": "Tempo De Viver",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Estação Claro Gávea",
+   "endereco": "Rua Marquês de São Vicente, 52 (Shopping da Gávea)",
+   "bairro": "Gávea",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-25",
+     "hora": "21:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 19,38 (preço da plataforma)",
+   "preco_min": 19.38,
+   "preco_max": 19.38,
+   "gratis": false,
+   "classificacao": "14 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Título original: Huozhe. Direção de Zhang Yimou. China, 1994, 133 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/tempo-de-viver?city=rio-de-janeiro",
+   "link_espaco": "https://www.grupoestacao.com.br/",
+   "trecho_fonte": "Ingresso.com · Estação Claro Gávea · Tempo De Viver · 2026-11-25 21:00 Sala 03 R$ 19,38",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-506-34316"
+  },
+  {
+   "titulo": "A Terra Do Meu Pai",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Estação Claro Rio",
+   "endereco": "Rua Voluntários da Pátria, 35",
+   "bairro": "Botafogo",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-19",
+     "hora": "15:40"
+    },
+    {
+     "data": "2026-11-19",
+     "hora": "19:20"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "15:40"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "19:20"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "15:40"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "19:20"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "15:40"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "19:20"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "15:40"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "19:20"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "15:40"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "19:20"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "15:40"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "19:20"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 39,90 a R$ 53,58 (preço da plataforma)",
+   "preco_min": 39.9,
+   "preco_max": 53.58,
+   "gratis": false,
+   "classificacao": "12 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Título original: Fatherland. Direção de Paweł Pawlikowski. Polônia, Alemanha, Itália, França, 2026, 82 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/a-terra-do-meu-pai?city=rio-de-janeiro",
+   "link_espaco": "https://www.grupoestacao.com.br/",
+   "trecho_fonte": "Ingresso.com · Estação Claro Rio · A Terra Do Meu Pai · 2026-11-19 15:40 Sala 4 R$ 53,58; 2026-11-19 19:20 Sala 4 R$ 53,58; 2026-11-20 15:40 Sala 4 R$ 53,58; 2026-11-20 19:20 Sala 4 R$ 53,58; 2026-11-21 15:40 Sala 4 R$ 53,58; 2026-11-21 19:20 Sala 4 R$ 53,58; 2026-11-22 15:40 Sala 4 R$ 53,58; 2026-11-22 19:20 Sala 4 R$ 53,58; 2026-11-23 15:40 Sala 4 R$ 39,90; 2026-11-23 19:20 Sala 4 R$ 39,90; 2026-11-24 15:40 Sala 4 R$ 39,90; 2026-11-24 19:20 Sala 4 R$ 39,90; 2026-11-25 15:40 Sala 4 R$ 39,90; 2026-11-25 19:20 Sala 4 R$ 39,90",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-34-33331"
+  },
+  {
+   "titulo": "As Crianças Estão Bem",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Estação Claro Rio",
+   "endereco": "Rua Voluntários da Pátria, 35",
+   "bairro": "Botafogo",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-19",
+     "hora": "18:55"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "13:55"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "18:55"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "13:55"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "18:55"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "13:55"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "18:55"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "13:55"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "13:55"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "13:55"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 39,90 a R$ 53,58 (preço da plataforma)",
+   "preco_min": 39.9,
+   "preco_max": 53.58,
+   "gratis": false,
+   "classificacao": "12 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Título original: Les Enfants Vont Bien. Direção de Nathan Ambrosioni. França, 2025, 111 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/as-criancas-estao-bem?city=rio-de-janeiro",
+   "link_espaco": "https://www.grupoestacao.com.br/",
+   "trecho_fonte": "Ingresso.com · Estação Claro Rio · As Crianças Estão Bem · 2026-11-19 18:55 Sala 2 R$ 53,58; 2026-11-20 13:55 Sala 5 R$ 53,58; 2026-11-20 18:55 Sala 2 R$ 53,58; 2026-11-21 13:55 Sala 5 R$ 53,58; 2026-11-21 18:55 Sala 2 R$ 53,58; 2026-11-22 13:55 Sala 5 R$ 53,58; 2026-11-22 18:55 Sala 2 R$ 53,58; 2026-11-23 13:55 Sala 5 R$ 39,90; 2026-11-24 13:55 Sala 5 R$ 39,90; 2026-11-25 13:55 Sala 5 R$ 39,90",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-34-33833"
+  },
+  {
+   "titulo": "Cara-De-Barro",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Estação Claro Rio",
+   "endereco": "Rua Voluntários da Pátria, 35",
+   "bairro": "Botafogo",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-19",
+     "hora": "23:59"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "23:59"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 22,80 (preço da plataforma)",
+   "preco_min": 22.8,
+   "preco_max": 22.8,
+   "gratis": false,
+   "classificacao": "18 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Título original: Clayface. Direção de James Watkins. Estados Unidos, 2026, 108 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/cara-de-barro?city=rio-de-janeiro",
+   "link_espaco": "https://www.grupoestacao.com.br/",
+   "trecho_fonte": "Ingresso.com · Estação Claro Rio · Cara-De-Barro · 2026-11-19 23:59 Sala 3 R$ 22,80; 2026-11-20 23:59 Sala 3 R$ 22,80",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-34-31533"
+  },
+  {
+   "titulo": "Cavalo Selvagem Nove",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Estação Claro Rio",
+   "endereco": "Rua Voluntários da Pátria, 35",
+   "bairro": "Botafogo",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-19",
+     "hora": "16:15"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "16:15"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "16:15"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "16:15"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "16:15"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "16:15"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "16:15"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 39,90 a R$ 53,58 (preço da plataforma)",
+   "preco_min": 39.9,
+   "preco_max": 53.58,
+   "gratis": false,
+   "classificacao": "16 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Título original: Wild Horse Nine. Direção de Martin McDonagh. Reino Unido, Estados Unidos, 2026, 116 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/cavalo-selvagem-nove?city=rio-de-janeiro",
+   "link_espaco": "https://www.grupoestacao.com.br/",
+   "trecho_fonte": "Ingresso.com · Estação Claro Rio · Cavalo Selvagem Nove · 2026-11-19 16:15 Sala 3 R$ 53,58; 2026-11-20 16:15 Sala 3 R$ 53,58; 2026-11-21 16:15 Sala 3 R$ 53,58; 2026-11-22 16:15 Sala 3 R$ 53,58; 2026-11-23 16:15 Sala 3 R$ 39,90; 2026-11-24 16:15 Sala 3 R$ 39,90; 2026-11-25 16:15 Sala 3 R$ 39,90",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-34-32597"
+  },
+  {
+   "titulo": "Caçador De Morte",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Estação Claro Rio",
+   "endereco": "Rua Voluntários da Pátria, 35",
+   "bairro": "Botafogo",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-21",
+     "hora": "11:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 22,80 (preço da plataforma)",
+   "preco_min": 22.8,
+   "preco_max": 22.8,
+   "gratis": false,
+   "classificacao": "14 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Título original: The Driver. Direção de Walter Hill. Estados Unidos, 1978, 91 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/cacador-de-morte?city=rio-de-janeiro",
+   "link_espaco": "https://www.grupoestacao.com.br/",
+   "trecho_fonte": "Ingresso.com · Estação Claro Rio · Caçador De Morte · 2026-11-21 11:00 Sala 5 R$ 22,80",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-34-34343"
+  },
+  {
+   "titulo": "Contos Paralelos",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Estação Claro Rio",
+   "endereco": "Rua Voluntários da Pátria, 35",
+   "bairro": "Botafogo",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-19",
+     "hora": "16:15"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "16:15"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "16:15"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "16:15"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "16:15"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "16:15"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "16:15"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 39,90 a R$ 53,58 (preço da plataforma)",
+   "preco_min": 39.9,
+   "preco_max": 53.58,
+   "gratis": false,
+   "classificacao": "14 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Título original: Histoires parallèles. Direção de Asghar Farhadi. França, Itália, Bélgica, Arábia Saudita, Estados Unidos, 2026, 139 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/contos-paralelos?city=rio-de-janeiro",
+   "link_espaco": "https://www.grupoestacao.com.br/",
+   "trecho_fonte": "Ingresso.com · Estação Claro Rio · Contos Paralelos · 2026-11-19 16:15 Sala 2 R$ 53,58; 2026-11-20 16:15 Sala 2 R$ 53,58; 2026-11-21 16:15 Sala 2 R$ 53,58; 2026-11-22 16:15 Sala 2 R$ 53,58; 2026-11-23 16:15 Sala 2 R$ 39,90; 2026-11-24 16:15 Sala 2 R$ 39,90; 2026-11-25 16:15 Sala 2 R$ 39,90",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-34-33252"
+  },
+  {
+   "titulo": "Eu Sou O Rocky",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Estação Claro Rio",
+   "endereco": "Rua Voluntários da Pátria, 35",
+   "bairro": "Botafogo",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-19",
+     "hora": "16:05"
+    },
+    {
+     "data": "2026-11-19",
+     "hora": "18:35"
+    },
+    {
+     "data": "2026-11-19",
+     "hora": "21:05"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "16:05"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "18:35"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "21:05"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "16:05"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "18:35"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "21:05"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "16:05"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "18:35"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "21:05"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "16:05"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "18:35"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "21:05"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "16:05"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "18:35"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "21:05"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "16:05"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "18:35"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "21:05"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 19,38 a R$ 53,58 (preço da plataforma)",
+   "preco_min": 19.38,
+   "preco_max": 53.58,
+   "gratis": false,
+   "classificacao": "12 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Título original: I Play Rocky. Direção de Peter Farrelly. Estados Unidos, 2026, 128 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/eu-sou-o-rocky?city=rio-de-janeiro",
+   "link_espaco": "https://www.grupoestacao.com.br/",
+   "trecho_fonte": "Ingresso.com · Estação Claro Rio · Eu Sou O Rocky · 2026-11-19 16:05 Sala 5 R$ 53,58; 2026-11-19 18:35 Sala 5 R$ 53,58; 2026-11-19 21:05 Sala 5 R$ 53,58; 2026-11-20 16:05 Sala 5 R$ 53,58; 2026-11-20 18:35 Sala 5 R$ 53,58; 2026-11-20 21:05 Sala 5 R$ 53,58; 2026-11-21 16:05 Sala 5 R$ 53,58; 2026-11-21 18:35 Sala 5 R$ 53,58; 2026-11-21 21:05 Sala 5 R$ 53,58; 2026-11-22 16:05 Sala 5 R$ 53,58; 2026-11-22 18:35 Sala 5 R$ 53,58; 2026-11-22 21:05 Sala 5 R$ 53,58; 2026-11-23 16:05 Sala 5 R$ 39,90; 2026-11-23 18:35 Sala 5 R$ 39,90; 2026-11-23 21:05 Sala 5 R$ 19,38; 2026-11-24 16:05 Sala 5 R$ 39,90; 2026-11-24 18:35 Sala 5 R$ 39,90; 2026-11-24 21:05 Sala 5 R$ 19,38; 2026-11-25 16:05 Sala 5 R$ 39,90; 2026-11-25 18:35 Sala 5 R$ 39,90; 2026-11-25 21:05 Sala 5 R$ 19,38",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-34-32254"
+  },
+  {
+   "titulo": "Eu Vou Ter Saudades De Você",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Estação Claro Rio",
+   "endereco": "Rua Voluntários da Pátria, 35",
+   "bairro": "Botafogo",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-23",
+     "hora": "14:10"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "14:10"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 22,80 (preço da plataforma)",
+   "preco_min": 22.8,
+   "preco_max": 22.8,
+   "gratis": false,
+   "classificacao": "16 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Direção de Daniel Ribeiro. Brasil, 2025, 87 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/eu-vou-ter-saudades-de-voce?city=rio-de-janeiro",
+   "link_espaco": "https://www.grupoestacao.com.br/",
+   "trecho_fonte": "Ingresso.com · Estação Claro Rio · Eu Vou Ter Saudades De Você · 2026-11-23 14:10 Sala 2 R$ 22,80; 2026-11-24 14:10 Sala 2 R$ 22,80",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-34-34362"
+  },
+  {
+   "titulo": "Feito Pipa",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Estação Claro Rio",
+   "endereco": "Rua Voluntários da Pátria, 35",
+   "bairro": "Botafogo",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-19",
+     "hora": "17:25"
+    },
+    {
+     "data": "2026-11-19",
+     "hora": "21:00"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "13:45"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "17:25"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "21:00"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "13:45"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "17:25"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "21:00"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "13:45"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "17:25"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "21:00"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "13:45"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "17:25"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "13:45"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "17:25"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "21:00"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "13:45"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "17:25"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "21:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 19,38 a R$ 53,58 (preço da plataforma)",
+   "preco_min": 19.38,
+   "preco_max": 53.58,
+   "gratis": false,
+   "classificacao": "14 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Direção de Allan Deberton. Brasil, 2026, 93 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/feito-pipa?city=rio-de-janeiro",
+   "link_espaco": "https://www.grupoestacao.com.br/",
+   "trecho_fonte": "Ingresso.com · Estação Claro Rio · Feito Pipa · 2026-11-19 17:25 Sala 4 R$ 53,58; 2026-11-19 21:00 Sala 4 R$ 53,58; 2026-11-20 13:45 Sala 4 R$ 53,58; 2026-11-20 17:25 Sala 4 R$ 53,58; 2026-11-20 21:00 Sala 4 R$ 53,58; 2026-11-21 13:45 Sala 4 R$ 53,58; 2026-11-21 17:25 Sala 4 R$ 53,58; 2026-11-21 21:00 Sala 4 R$ 53,58; 2026-11-22 13:45 Sala 4 R$ 53,58; 2026-11-22 17:25 Sala 4 R$ 53,58; 2026-11-22 21:00 Sala 4 R$ 53,58; 2026-11-23 13:45 Sala 4 R$ 39,90; 2026-11-23 17:25 Sala 4 R$ 39,90; 2026-11-24 13:45 Sala 4 R$ 39,90; 2026-11-24 17:25 Sala 4 R$ 39,90; 2026-11-24 21:00 Sala 4 R$ 19,38; 2026-11-25 13:45 Sala 4 R$ 39,90; 2026-11-25 17:25 Sala 4 R$ 39,90; 2026-11-25 21:00 Sala 4 R$ 19,38",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-34-32251"
+  },
+  {
+   "titulo": "Fogaréu",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Estação Claro Rio",
+   "endereco": "Rua Voluntários da Pátria, 35",
+   "bairro": "Botafogo",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-19",
+     "hora": "18:45"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "14:10"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "18:45"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "14:10"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "18:45"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "14:10"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "18:45"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "18:55"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "18:55"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "18:55"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 39,90 a R$ 53,58 (preço da plataforma)",
+   "preco_min": 39.9,
+   "preco_max": 53.58,
+   "gratis": false,
+   "classificacao": "16 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Direção de Flávia Neves. Brasil, França, 2023, 100 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/fogareu?city=rio-de-janeiro",
+   "link_espaco": "https://www.grupoestacao.com.br/",
+   "trecho_fonte": "Ingresso.com · Estação Claro Rio · Fogaréu · 2026-11-19 18:45 Sala 1 R$ 53,58; 2026-11-20 14:10 Sala 1 R$ 53,58; 2026-11-20 18:45 Sala 1 R$ 53,58; 2026-11-21 14:10 Sala 1 R$ 53,58; 2026-11-21 18:45 Sala 1 R$ 53,58; 2026-11-22 14:10 Sala 1 R$ 53,58; 2026-11-22 18:45 Sala 1 R$ 53,58; 2026-11-23 18:55 Sala 2 R$ 39,90; 2026-11-24 18:55 Sala 2 R$ 39,90; 2026-11-25 18:55 Sala 2 R$ 39,90",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-34-25476"
+  },
+  {
+   "titulo": "Ganja E Hess",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Estação Claro Rio",
+   "endereco": "Rua Voluntários da Pátria, 35",
+   "bairro": "Botafogo",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-20",
+     "hora": "23:59"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 22,80 (preço da plataforma)",
+   "preco_min": 22.8,
+   "preco_max": 22.8,
+   "gratis": false,
+   "classificacao": "14 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Título original: Ganja and Hess. Direção de Bill Gunn. 1973, 112 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/ganja-e-hess?city=rio-de-janeiro",
+   "link_espaco": "https://www.grupoestacao.com.br/",
+   "trecho_fonte": "Ingresso.com · Estação Claro Rio · Ganja E Hess · 2026-11-20 23:59 Sala 5 R$ 22,80",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-34-34475"
+  },
+  {
+   "titulo": "Godzilla Minus Zero",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Estação Claro Rio",
+   "endereco": "Rua Voluntários da Pátria, 35",
+   "bairro": "Botafogo",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-19",
+     "hora": "23:59"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "11:00"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "23:59"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "11:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 22,80 (preço da plataforma)",
+   "preco_min": 22.8,
+   "preco_max": 22.8,
+   "gratis": false,
+   "classificacao": "16 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Direção de Takashi Yamazaki. Japão, 2026, 125 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/godzilla-minus-zero?city=rio-de-janeiro",
+   "link_espaco": "https://www.grupoestacao.com.br/",
+   "trecho_fonte": "Ingresso.com · Estação Claro Rio · Godzilla Minus Zero · 2026-11-19 23:59 Sala 4 R$ 22,80; 2026-11-20 11:00 Sala 4 R$ 22,80; 2026-11-20 23:59 Sala 4 R$ 22,80; 2026-11-21 11:00 Sala 4 R$ 22,80",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-34-33172"
+  },
+  {
+   "titulo": "I Love Boosters",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Estação Claro Rio",
+   "endereco": "Rua Voluntários da Pátria, 35",
+   "bairro": "Botafogo",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-19",
+     "hora": "20:45"
+    },
+    {
+     "data": "2026-11-19",
+     "hora": "23:59"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "11:00"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "20:45"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "23:59"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "11:00"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "20:45"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "11:00"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "20:45"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 22,80 a R$ 53,58 (preço da plataforma)",
+   "preco_min": 22.8,
+   "preco_max": 53.58,
+   "gratis": false,
+   "classificacao": "16 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Direção de Boots Riley. Estados Unidos, 2026, 114 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/i-love-boosters?city=rio-de-janeiro",
+   "link_espaco": "https://www.grupoestacao.com.br/",
+   "trecho_fonte": "Ingresso.com · Estação Claro Rio · I Love Boosters · 2026-11-19 20:45 Sala 1 R$ 53,58; 2026-11-19 23:59 Sala 1 R$ 22,80; 2026-11-20 11:00 Sala 1 R$ 22,80; 2026-11-20 20:45 Sala 1 R$ 53,58; 2026-11-20 23:59 Sala 1 R$ 22,80; 2026-11-21 11:00 Sala 1 R$ 22,80; 2026-11-21 20:45 Sala 1 R$ 53,58; 2026-11-22 11:00 Sala 1 R$ 22,80; 2026-11-22 20:45 Sala 1 R$ 53,58",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-34-33420"
+  },
+  {
+   "titulo": "Jim Queen",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Estação Claro Rio",
+   "endereco": "Rua Voluntários da Pátria, 35",
+   "bairro": "Botafogo",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-19",
+     "hora": "21:05"
+    },
+    {
+     "data": "2026-11-19",
+     "hora": "23:59"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "11:00"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "21:05"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "23:59"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "11:00"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "21:05"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "11:00"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "21:05"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "21:05"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "21:05"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 19,38 a R$ 53,58 (preço da plataforma)",
+   "preco_min": 19.38,
+   "preco_max": 53.58,
+   "gratis": false,
+   "classificacao": "18 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Direção de Nicolas Athané, Marco Nguyen. França, Bélgica, 2026, 85 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/jim-queen?city=rio-de-janeiro",
+   "link_espaco": "https://www.grupoestacao.com.br/",
+   "trecho_fonte": "Ingresso.com · Estação Claro Rio · Jim Queen · 2026-11-19 21:05 Sala 2 R$ 53,58; 2026-11-19 23:59 Sala 2 R$ 22,80; 2026-11-20 11:00 Sala 2 R$ 22,80; 2026-11-20 21:05 Sala 2 R$ 53,58; 2026-11-20 23:59 Sala 2 R$ 22,80; 2026-11-21 11:00 Sala 2 R$ 22,80; 2026-11-21 21:05 Sala 2 R$ 53,58; 2026-11-22 11:00 Sala 2 R$ 22,80; 2026-11-22 21:05 Sala 2 R$ 53,58; 2026-11-24 21:05 Sala 2 R$ 19,38; 2026-11-25 21:05 Sala 2 R$ 19,38",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-34-33519"
+  },
+  {
+   "titulo": "Josephine - Fragmentos De Um Crime",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Estação Claro Rio",
+   "endereco": "Rua Voluntários da Pátria, 35",
+   "bairro": "Botafogo",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-19",
+     "hora": "18:35"
+    },
+    {
+     "data": "2026-11-19",
+     "hora": "20:55"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "13:55"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "18:35"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "20:55"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "13:55"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "18:35"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "20:55"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "13:55"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "18:35"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "20:55"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "13:55"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "18:35"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "20:55"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "13:55"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "18:35"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "20:55"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "13:55"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "18:35"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "20:55"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 19,38 a R$ 53,58 (preço da plataforma)",
+   "preco_min": 19.38,
+   "preco_max": 53.58,
+   "gratis": false,
+   "classificacao": "16 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Título original: Josephine. Direção de Beth de Araújo. Estados Unidos, 2026, 119 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/josephine-fragmentos-de-um-crime?city=rio-de-janeiro",
+   "link_espaco": "https://www.grupoestacao.com.br/",
+   "trecho_fonte": "Ingresso.com · Estação Claro Rio · Josephine - Fragmentos De Um Crime · 2026-11-19 18:35 Sala 3 R$ 53,58; 2026-11-19 20:55 Sala 3 R$ 53,58; 2026-11-20 13:55 Sala 3 R$ 53,58; 2026-11-20 18:35 Sala 3 R$ 53,58; 2026-11-20 20:55 Sala 3 R$ 53,58; 2026-11-21 13:55 Sala 3 R$ 53,58; 2026-11-21 18:35 Sala 3 R$ 53,58; 2026-11-21 20:55 Sala 3 R$ 53,58; 2026-11-22 13:55 Sala 3 R$ 53,58; 2026-11-22 18:35 Sala 3 R$ 53,58; 2026-11-22 20:55 Sala 3 R$ 53,58; 2026-11-23 13:55 Sala 3 R$ 39,90; 2026-11-23 18:35 Sala 3 R$ 39,90; 2026-11-23 20:55 Sala 3 R$ 19,38; 2026-11-24 13:55 Sala 3 R$ 39,90; 2026-11-24 18:35 Sala 3 R$ 39,90; 2026-11-24 20:55 Sala 3 R$ 19,38; 2026-11-25 13:55 Sala 3 R$ 39,90; 2026-11-25 18:35 Sala 3 R$ 39,90; 2026-11-25 20:55 Sala 3 R$ 19,38",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-34-34108"
+  },
+  {
+   "titulo": "O Bosque Selvagem",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Estação Claro Rio",
+   "endereco": "Rua Voluntários da Pátria, 35",
+   "bairro": "Botafogo",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-19",
+     "hora": "16:10"
+    },
+    {
+     "data": "2026-11-19",
+     "hora": "23:59"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "16:10"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "16:10"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "16:10"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 22,80 a R$ 53,58 (preço da plataforma)",
+   "preco_min": 22.8,
+   "preco_max": 53.58,
+   "gratis": false,
+   "classificacao": "14 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Título original: Wildwood. Direção de Travis Knight. Estados Unidos, 2026, 130 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/o-bosque-selvagem?city=rio-de-janeiro",
+   "link_espaco": "https://www.grupoestacao.com.br/",
+   "trecho_fonte": "Ingresso.com · Estação Claro Rio · O Bosque Selvagem · 2026-11-19 16:10 Sala 1 R$ 53,58; 2026-11-19 23:59 Sala 5 R$ 22,80; 2026-11-20 16:10 Sala 1 R$ 53,58; 2026-11-21 16:10 Sala 1 R$ 53,58; 2026-11-22 16:10 Sala 1 R$ 53,58",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-34-32814"
+  },
+  {
+   "titulo": "O Caso Dos Irmãos Naves",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Estação Claro Rio",
+   "endereco": "Rua Voluntários da Pátria, 35",
+   "bairro": "Botafogo",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-23",
+     "hora": "21:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 19,38 (preço da plataforma)",
+   "preco_min": 19.38,
+   "preco_max": 19.38,
+   "gratis": false,
+   "classificacao": "14 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Direção de Luiz Sérgio Person. Brasil, 1967, 92 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/o-caso-dos-irmaos-naves?city=rio-de-janeiro",
+   "link_espaco": "https://www.grupoestacao.com.br/",
+   "trecho_fonte": "Ingresso.com · Estação Claro Rio · O Caso Dos Irmãos Naves · 2026-11-23 21:00 Sala 2 R$ 19,38",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-34-3119"
+  },
+  {
+   "titulo": "O Cozinheiro, O Ladrão, Sua Mulher E O Amante",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Estação Claro Rio",
+   "endereco": "Rua Voluntários da Pátria, 35",
+   "bairro": "Botafogo",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-22",
+     "hora": "11:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 22,80 (preço da plataforma)",
+   "preco_min": 22.8,
+   "preco_max": 22.8,
+   "gratis": false,
+   "classificacao": "18 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Título original: The Cook, the Thief, His Wife & Her Lover. Direção de Peter Greenaway. Reino Unido, 1989, 124 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/o-cozinheiro-o-ladrao-sua-mulher-e-o-amante?city=rio-de-janeiro",
+   "link_espaco": "https://www.grupoestacao.com.br/",
+   "trecho_fonte": "Ingresso.com · Estação Claro Rio · O Cozinheiro, O Ladrão, Sua Mulher E O Amante · 2026-11-22 11:00 Sala 5 R$ 22,80",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-34-32191"
+  },
+  {
+   "titulo": "O Projeto",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Estação Claro Rio",
+   "endereco": "Rua Voluntários da Pátria, 35",
+   "bairro": "Botafogo",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-20",
+     "hora": "14:10"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 53,58 (preço da plataforma)",
+   "preco_min": 53.58,
+   "preco_max": 53.58,
+   "gratis": false,
+   "classificacao": "12 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Direção de Sabrina Fidalgo, Yvan Rodic. Brasil, 2026, 95 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/o-projeto?city=rio-de-janeiro",
+   "link_espaco": "https://www.grupoestacao.com.br/",
+   "trecho_fonte": "Ingresso.com · Estação Claro Rio · O Projeto · 2026-11-20 14:10 Sala 2 R$ 53,58",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-34-34355"
+  },
+  {
+   "titulo": "O Retrato De Dorian Gray",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Estação Claro Rio",
+   "endereco": "Rua Voluntários da Pátria, 35",
+   "bairro": "Botafogo",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-20",
+     "hora": "11:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 22,80 (preço da plataforma)",
+   "preco_min": 22.8,
+   "preco_max": 22.8,
+   "gratis": false,
+   "classificacao": "14 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Título original: The Picture of Dorian Gray. Direção de Albert Lewin. 1945, 111 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/o-retrato-de-dorian-gray?city=rio-de-janeiro",
+   "link_espaco": "https://www.grupoestacao.com.br/",
+   "trecho_fonte": "Ingresso.com · Estação Claro Rio · O Retrato De Dorian Gray · 2026-11-20 11:00 Sala 5 R$ 22,80",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-34-34420"
+  },
+  {
+   "titulo": "Ran (Relançamento)",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Estação Claro Rio",
+   "endereco": "Rua Voluntários da Pátria, 35",
+   "bairro": "Botafogo",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-20",
+     "hora": "11:00"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "11:00"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "11:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 22,80 (preço da plataforma)",
+   "preco_min": 22.8,
+   "preco_max": 22.8,
+   "gratis": false,
+   "classificacao": "14 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Título original: Ran. Direção de Akira Kurosawa. Japão, 1985, 160 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/ran-relancamento?city=rio-de-janeiro",
+   "link_espaco": "https://www.grupoestacao.com.br/",
+   "trecho_fonte": "Ingresso.com · Estação Claro Rio · Ran (Relançamento) · 2026-11-20 11:00 Sala 3 R$ 22,80; 2026-11-21 11:00 Sala 3 R$ 22,80; 2026-11-22 11:00 Sala 3 R$ 22,80",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-34-33518"
+  },
+  {
+   "titulo": "Razão E Sensibilidade",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Estação Claro Rio",
+   "endereco": "Rua Voluntários da Pátria, 35",
+   "bairro": "Botafogo",
+   "regiao": "Zona Sul",
+   "sessoes": [
+    {
+     "data": "2026-11-21",
+     "hora": "13:45"
+    },
+    {
+     "data": "2026-11-22",
+     "hora": "13:45"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "13:45"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 39,90 a R$ 53,58 (preço da plataforma)",
+   "preco_min": 39.9,
+   "preco_max": 53.58,
+   "gratis": false,
+   "classificacao": "10 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Título original: Sense and Sensibility. Direção de Georgia Oakley. Reino Unido, 2026, 132 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/razao-e-sensibilidade?city=rio-de-janeiro",
+   "link_espaco": "https://www.grupoestacao.com.br/",
+   "trecho_fonte": "Ingresso.com · Estação Claro Rio · Razão E Sensibilidade · 2026-11-21 13:45 Sala 2 R$ 53,58; 2026-11-22 13:45 Sala 2 R$ 53,58; 2026-11-25 13:45 Sala 2 R$ 39,90",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-34-33136"
+  },
+  {
+   "titulo": "Camisas Negras",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Ponto Cine",
+   "endereco": "Estrada do Camboatá, 2.300",
+   "bairro": "Guadalupe",
+   "regiao": "Zona Norte",
+   "sessoes": [
+    {
+     "data": "2026-11-19",
+     "hora": "18:10"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "18:10"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "18:10"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "18:10"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "18:10"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "18:10"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 11,40 (preço da plataforma)",
+   "preco_min": 11.4,
+   "preco_max": 11.4,
+   "gratis": false,
+   "classificacao": "12 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Direção de Jefferson Mello. Brasil, 2026, 96 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/camisas-negras?city=rio-de-janeiro",
+   "link_espaco": "",
+   "trecho_fonte": "Ingresso.com · Ponto Cine · Camisas Negras · 2026-11-19 18:10 Sala 1 R$ 11,40; 2026-11-20 18:10 Sala 1 R$ 11,40; 2026-11-21 18:10 Sala 1 R$ 11,40; 2026-11-23 18:10 Sala 1 R$ 11,40; 2026-11-24 18:10 Sala 1 R$ 11,40; 2026-11-25 18:10 Sala 1 R$ 11,40",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-1519-34268"
+  },
+  {
+   "titulo": "Feito Pipa",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Ponto Cine",
+   "endereco": "Estrada do Camboatá, 2.300",
+   "bairro": "Guadalupe",
+   "regiao": "Zona Norte",
+   "sessoes": [
+    {
+     "data": "2026-11-20",
+     "hora": "14:00"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "14:00"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "14:00"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "14:00"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "14:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 11,40 (preço da plataforma)",
+   "preco_min": 11.4,
+   "preco_max": 11.4,
+   "gratis": false,
+   "classificacao": "14 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Direção de Allan Deberton. Brasil, 2026, 93 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/feito-pipa?city=rio-de-janeiro",
+   "link_espaco": "",
+   "trecho_fonte": "Ingresso.com · Ponto Cine · Feito Pipa · 2026-11-20 14:00 Sala 1 R$ 11,40; 2026-11-21 14:00 Sala 1 R$ 11,40; 2026-11-23 14:00 Sala 1 R$ 11,40; 2026-11-24 14:00 Sala 1 R$ 11,40; 2026-11-25 14:00 Sala 1 R$ 11,40",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-1519-32251"
+  },
+  {
+   "titulo": "Malês (Relançamento)",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Ponto Cine",
+   "endereco": "Estrada do Camboatá, 2.300",
+   "bairro": "Guadalupe",
+   "regiao": "Zona Norte",
+   "sessoes": [
+    {
+     "data": "2026-11-19",
+     "hora": "16:00"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "16:00"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "16:00"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "16:00"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "16:00"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "16:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 11,40 (preço da plataforma)",
+   "preco_min": 11.4,
+   "preco_max": 11.4,
+   "gratis": false,
+   "classificacao": "16 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Título original: Malês. Direção de Antonio Pitanga. Brasil, 2024, 114 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/males-relancamento?city=rio-de-janeiro",
+   "link_espaco": "",
+   "trecho_fonte": "Ingresso.com · Ponto Cine · Malês (Relançamento) · 2026-11-19 16:00 Sala 1 R$ 11,40; 2026-11-20 16:00 Sala 1 R$ 11,40; 2026-11-21 16:00 Sala 1 R$ 11,40; 2026-11-23 16:00 Sala 1 R$ 11,40; 2026-11-24 16:00 Sala 1 R$ 11,40; 2026-11-25 16:00 Sala 1 R$ 11,40",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-1519-32918"
+  },
+  {
+   "titulo": "Verão Da Lata",
+   "areas": [
+    "Cinema"
+   ],
+   "tipo": "evento",
+   "local": "Ponto Cine",
+   "endereco": "Estrada do Camboatá, 2.300",
+   "bairro": "Guadalupe",
+   "regiao": "Zona Norte",
+   "sessoes": [
+    {
+     "data": "2026-11-19",
+     "hora": "20:00"
+    },
+    {
+     "data": "2026-11-20",
+     "hora": "20:00"
+    },
+    {
+     "data": "2026-11-21",
+     "hora": "20:00"
+    },
+    {
+     "data": "2026-11-23",
+     "hora": "20:00"
+    },
+    {
+     "data": "2026-11-24",
+     "hora": "20:00"
+    },
+    {
+     "data": "2026-11-25",
+     "hora": "20:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "R$ 11,40 (preço da plataforma)",
+   "preco_min": 11.4,
+   "preco_max": 11.4,
+   "gratis": false,
+   "classificacao": "18 anos",
+   "acessibilidade": "",
+   "na_rua": false,
+   "sinopse": "Direção de Santiago Dellape. Brasil, 2026, 85 min.",
+   "fonte": "Ingresso.com (extração do Largo)",
+   "link": "https://www.ingresso.com/filme/verao-da-lata?city=rio-de-janeiro",
+   "link_espaco": "",
+   "trecho_fonte": "Ingresso.com · Ponto Cine · Verão Da Lata · 2026-11-19 20:00 Sala 1 R$ 11,40; 2026-11-20 20:00 Sala 1 R$ 11,40; 2026-11-21 20:00 Sala 1 R$ 11,40; 2026-11-23 20:00 Sala 1 R$ 11,40; 2026-11-24 20:00 Sala 1 R$ 11,40; 2026-11-25 20:00 Sala 1 R$ 11,40",
+   "nota_redacao": "Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
+   "automatica": true,
+   "id": "2026-11-19-cine-1519-33717"
+  }
+ ]
+}
