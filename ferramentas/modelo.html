@@ -345,7 +345,7 @@ function card(it,k,porque){
     <p style="font-size:13px;color:var(--tinta2)">${esc(e.endereco)} – ${esc(e.bairro)} · ${esc(e.regiao)}</p>
     <div class="acoes">${e.tipo==="evento"?`<button class="btn cheio" data-ics="${e.id}|${it.hora}">${t("agenda")}</button>`:""}
      <a class="btn" href="${mapa}" target="_blank" rel="noopener">${t("chegar")}</a>
-     <a class="btn" href="${esc(e.link)}" target="_blank" rel="noopener">${t("fonte")}</a></div></div></li>`;
+     ${e.link?`<a class="btn" href="${esc(e.link)}" target="_blank" rel="noopener">${t("fonte")}</a>`:""}</div></div></li>`;
 }
 // título do dia: "A boa da segunda, 16/11" (da para dias úteis, do para sábado e domingo)
 const DIAS_LONGOS = {pt:["do domingo","da segunda","da terça","da quarta","da quinta","da sexta","do sábado"],

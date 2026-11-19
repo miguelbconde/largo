@@ -38,7 +38,7 @@ D={
  (i("Domingo recreativo"),"Brincadeira de graça para as crianças de Santa Cruz, todo domingo."),
 ],
 "2026-11-23":[
- (i("Lançamento: Migrantes da Descolonização"),"Um livro sobre os portugueses e luso-angolanos que chegaram ao Brasil depois de 1974, com a autora, no Centro."),
+ (i("Ensaio de rua do Paraíso do Tuiuti"),"A temporada de ensaios para o Carnaval 2027 começou: o Tuiuti toma o Campo de São Cristóvão, de graça."),
  (i("Lançamento: Música em Pauta"),"Crítica de música reunida em livro, com a autora, numa segunda à noite em Ipanema."),
 ],
 "2026-11-24":[

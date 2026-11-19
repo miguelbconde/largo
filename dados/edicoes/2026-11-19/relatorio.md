@@ -1,16 +1,16 @@
 # Relatório da edição — Edição de 19 a 25 de novembro de 2026
 
-- Eventos e exposições: **532** (494 eventos com 4832 sessões; 38 em cartaz)
-- Grátis: **80** · preço popular (até R$ 40): **90**
-- Conferidos sem ressalva: **524** · a confirmar: **8**
+- Eventos e exposições: **540** (502 eventos com 4840 sessões; 38 em cartaz)
+- Grátis: **88** · preço popular (até R$ 40): **90**
+- Conferidos sem ressalva: **532** · a confirmar: **8**
 
 ## Distribuição por região
 
-- Centro: 75
+- Centro: 78
 - Zona Sul: 150
 - Zona Sudoeste: 130
-- Zona Norte: 127
-- Zona Oeste: 50
+- Zona Norte: 131
+- Zona Oeste: 51
 
 ## Conferente independente (IA)
 
@@ -132,6 +132,14 @@
 - [baixa] **Clube do Livro Trill: As Vacas Não Me Olham Mais na Cara, de Dora Freind** (2026-11-19-168) — Preço não informado na fonte
 - [baixa] **Debate de lançamento: As Três Mulheres do Alencar** (2026-11-19-169) — Preço não informado na fonte
 - [baixa] **Muato – DERÊ: Concerto sobre o Pagode** (2026-11-19-170) — Preço não informado na fonte
+- [media] **Ensaio de rua do Paraíso do Tuiuti** (2026-11-19-171) — Link oficial ausente
+- [media] **Ensaio de rua da Unidos de Vila Isabel** (2026-11-19-172) — Link oficial ausente
+- [media] **Ensaio de rua da Unidos da Tijuca** (2026-11-19-173) — Link oficial ausente
+- [media] **Ensaio de rua do Acadêmicos do Salgueiro** (2026-11-19-174) — Link oficial ausente
+- [media] **Ensaio de rua da Mocidade Independente** (2026-11-19-175) — Link oficial ausente
+- [media] **Ensaio de rua da Imperatriz Leopoldinense** (2026-11-19-176) — Link oficial ausente
+- [media] **Ensaio de rua da Estação Primeira de Mangueira** (2026-11-19-177) — Link oficial ausente
+- [media] **Ensaio de rua da Portela** (2026-11-19-178) — Link oficial ausente
 
 ## Destaques (A boa)
 
@@ -139,7 +147,7 @@
 - **20/11**: 12º Cortejo da Tia Ciata; Festival Terreiro 2026 – Dia da Consciência Negra; A Menina Dança; Cabeça de Porco – Retratos de um Território (Mostra do Impossível); Orquestra Agogô Carioca; Quintal do Renatin
 - **21/11**: Rolé Estácio – Berço do Samba; Baú da Dona Ivone Lara, com Bruno Castro e Áurea Martins; A Cura da Terra – Pequenas Revoluções; Baile Charme do Projeto Black Music Soul; Fora do Quadro; FIPAZO – Festival de Pole Dance, Aéreos e Danças da Zona Oeste
 - **22/11**: Amanhecer Rio – Festival Cultura e Cuidado; Mensageiras da Cultura – 50 anos da Kotekitai; Quintal; Festival Quem Dança é Mais Feliz; Equina; Domingo recreativo para crianças
-- **23/11**: Lançamento: Migrantes da Descolonização; Lançamento: Música em Pauta
+- **23/11**: Ensaio de rua do Paraíso do Tuiuti; Lançamento: Música em Pauta
 - **24/11**: O Último Dia da Minha Vida; Priscilla em 2L em A Cara da Mãe e o P@u do Pai; Alice no País das Maravilhas: O Despertar da União – O Musical; A poesia brasileira na Coleção Ciranda da Poesia – ciclo de conferências; Seminário Estadual: Por uma Educação Antirracista
 - **25/11**: Rap & Repente – Artes do Improviso; Amanda Mendonça canta Djavan; Mesa-redonda: O Mundo que se Quer Esconder das Crianças; O Último Dia da Minha Vida
 
@@ -232,6 +240,14 @@ Regras de curadoria:
 - **Clube do Livro Trill: As Vacas Não Me Olham Mais na Cara, de Dora Freind** — A fonte não informa preço. O endereço não está no texto coletado; é o endereço público do espaço.
 - **Debate de lançamento: As Três Mulheres do Alencar** — Lido na ronda feita no computador da coordenação editorial (a nuvem não conseguiu abrir o site). A fonte não informa preço. Sobre o lugar, a fonte só diz “na livraria da EdUERJ, localizada no térreo do campus Maracanã”; o número 524 é o endereço do campus, que aparece em outras páginas do mesmo site.
 - **Muato – DERÊ: Concerto sobre o Pagode** — A coleta não trouxe o preço.
+- **Ensaio de rua do Paraíso do Tuiuti** — Fonte: agenda semanal dos ensaios divulgada em post e enviada à coordenação editorial em 19/11, sem data de publicação; o horário é o de início ou de concentração. Sexta, 20/11, é feriado.
+- **Ensaio de rua da Unidos de Vila Isabel** — Fonte: agenda semanal dos ensaios divulgada em post e enviada à coordenação editorial em 19/11, sem data de publicação; o horário é o de início ou de concentração. Sexta, 20/11, é feriado.
+- **Ensaio de rua da Unidos da Tijuca** — Fonte: agenda semanal dos ensaios divulgada em post e enviada à coordenação editorial em 19/11, sem data de publicação; o horário é o de início ou de concentração. Sexta, 20/11, é feriado.
+- **Ensaio de rua do Acadêmicos do Salgueiro** — Fonte: agenda semanal dos ensaios divulgada em post e enviada à coordenação editorial em 19/11, sem data de publicação; o horário é o de início ou de concentração. Sexta, 20/11, é feriado.
+- **Ensaio de rua da Mocidade Independente** — Fonte: agenda semanal dos ensaios divulgada em post e enviada à coordenação editorial em 19/11, sem data de publicação; o horário é o de início ou de concentração. Sexta, 20/11, é feriado.
+- **Ensaio de rua da Imperatriz Leopoldinense** — Fonte: agenda semanal dos ensaios divulgada em post e enviada à coordenação editorial em 19/11, sem data de publicação; o horário é o de início ou de concentração. Sexta, 20/11, é feriado.
+- **Ensaio de rua da Estação Primeira de Mangueira** — Fonte: agenda semanal dos ensaios divulgada em post e enviada à coordenação editorial em 19/11, sem data de publicação; o horário é o de início ou de concentração. Sexta, 20/11, é feriado.
+- **Ensaio de rua da Portela** — Fonte: agenda semanal dos ensaios divulgada em post e enviada à coordenação editorial em 19/11, sem data de publicação; o horário é o de início ou de concentração. Sexta, 20/11, é feriado.
 - **Camisas Negras** — Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.
 - **Feito Pipa** — Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.
 - **Jogos Vorazes: Amanhecer Na Colheita** — Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.

@@ -913,6 +913,54 @@ e["sinopse"] = "Tarde que junta o samba de Leci Brandão a diferentes gerações
 e = achar("Casa da Mônica"); e["nota_redacao"] = "Fecha no feriado de 20/11."
 e["trecho_fonte"] += " || Biblioteca Parque Estadual Av. Pres. Vargas, 1261 – Centro, Rio de Janeiro – RJ"
 
+# =========== PROGRAMAÇÃO RECEBIDA DIRETAMENTE (19/11): ensaios de rua das escolas de samba ===========
+# Post enviado pela coordenação editorial, sem data de publicação, com a agenda semanal dos ensaios das
+# escolas do Grupo Especial. Dias da semana viram datas da edição. Ficam de fora, por estarem fora do
+# município: União de Maricá (Maricá), Beija-Flor (Nilópolis), Viradouro (Niterói) e Grande Rio (Duque de Caxias).
+L.update({
+ "tuiuti": ("Campo de São Cristóvão (em frente ao Colégio Pedro II)", "Campo de São Cristóvão", "São Cristóvão", "Centro"),
+ "boulevard28": ("Boulevard 28 de Setembro", "Boulevard 28 de Setembro", "Vila Isabel", "Zona Norte"),
+ "viad1": ("Via D1 (Rua Geógrafo Milton Santos)", "Rua Geógrafo Milton Santos", "Santo Cristo", "Centro"),
+ "maxwell": ("Rua Maxwell", "Rua Maxwell, 581", "Andaraí", "Zona Norte"),
+ "aryfranco": ("Avenida Ministro Ary Franco", "Avenida Ministro Ary Franco", "Padre Miguel", "Zona Oeste"),
+ "euclidesfaria": ("Rua Euclides Faria", "Rua Euclides Faria", "Ramos", "Zona Norte"),
+ "viscniteroi": ("Rua Visconde de Niterói", "Rua Visconde de Niterói", "Mangueira", "Centro"),
+ "claranunes": ("Rua Clara Nunes, esquina com Estrada do Portela", "Rua Clara Nunes, esquina com Estrada do Portela", "Madureira", "Zona Norte"),
+})
+POST = ("Agenda dos ensaios de rua do Grupo Especial (programação recebida pela coordenação editorial)", "")
+NOTA_ENSAIO = ("Fonte: agenda semanal dos ensaios divulgada em post e enviada à coordenação editorial em 19/11, sem data de publicação; "
+               "o horário é o de início ou de concentração. Sexta, 20/11, é feriado.")
+for titulo, local, dia_hora, trecho, sinopse in [
+    ("Ensaio de rua do Paraíso do Tuiuti", "tuiuti", "23 19:00",
+     "SEGUNDA-FEIRA: • Paraíso do Tuiuti • São Cristóvão (Campo de São Cristóvão, em frente ao Pedro II), a partir das 19h.",
+     "O Paraíso do Tuiuti ensaia no Campo de São Cristóvão, preparando o Carnaval 2027. Entrada gratuita."),
+    ("Ensaio de rua da Unidos de Vila Isabel", "boulevard28", "25 20:00",
+     "QUARTA-FEIRA: • Unidos de Vila Isabel • Vila Isabel (Boulevard 28 de Setembro), a partir das 20h.",
+     "A Vila Isabel leva o ensaio para o Boulevard 28 de Setembro, preparando o Carnaval 2027."),
+    ("Ensaio de rua da Unidos da Tijuca", "viad1", "19 19:00",
+     "QUINTA-FEIRA: • Unidos da Tijuca • Santo Cristo (Via D1 / Rua Geógrafo Milton Santos), a partir das 19h.",
+     "A Unidos da Tijuca ensaia na Via D1, em Santo Cristo, preparando o Carnaval 2027."),
+    ("Ensaio de rua do Acadêmicos do Salgueiro", "maxwell", "19 20:00",
+     "QUINTA-FEIRA: • Acadêmicos do Salgueiro • Andaraí (Rua Maxwell, 581), a partir das 20h.",
+     "O Salgueiro ensaia na Rua Maxwell, no Andaraí, preparando o Carnaval 2027."),
+    ("Ensaio de rua da Mocidade Independente", "aryfranco", "21 18:00",
+     "SÁBADO: • Mocidade Independente • Padre Miguel / Bangu (Av. Ministro Ary Franco), concentração às 18h.",
+     "A Mocidade de Padre Miguel ensaia na Avenida Ministro Ary Franco, preparando o Carnaval 2027."),
+    ("Ensaio de rua da Imperatriz Leopoldinense", "euclidesfaria", "22 16:00",
+     "DOMINGO: • Imperatriz Leopoldinense • Ramos (Rua Euclides Faria), a partir das 16h.",
+     "A Imperatriz ensaia na Rua Euclides Faria, em Ramos, preparando o Carnaval 2027."),
+    ("Ensaio de rua da Estação Primeira de Mangueira", "viscniteroi", "22 17:00",
+     "DOMINGO: • Estação Primeira de Mangueira • Mangueira (Rua Visconde de Niterói), a partir das 17h.",
+     "A Mangueira ensaia na Rua Visconde de Niterói, preparando o Carnaval 2027."),
+    ("Ensaio de rua da Portela", "claranunes", "22 18:00",
+     "DOMINGO: • Portela • Madureira (Esquina da Rua Clara Nunes com Estrada do Portela), a partir das 18h.",
+     "A Portela ensaia em Madureira, na esquina da Rua Clara Nunes com a Estrada do Portela, preparando o Carnaval 2027."),
+]:
+    ev(titulo, "Festas & Feiras|Música", local, sinopse,
+       "A temporada de preparação para o Carnaval 2027 já começou e as escolas do Grupo Especial do Rio estão tomando as ruas com entrada gratuita [...] " + trecho,
+       POST, sessoes=D(dia_hora), rua=True, nota=NOTA_ENSAIO, **G)
+
+
 for i, e in enumerate(EV, 1):
     e["id"] = f"2026-11-19-{i:03d}"
 pasta = os.path.join(RAIZ, "dados", "edicoes", EDICAO["id"])

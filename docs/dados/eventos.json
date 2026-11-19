@@ -5637,6 +5637,270 @@
    "status": "conferido"
   },
   {
+   "titulo": "Ensaio de rua do Paraíso do Tuiuti",
+   "areas": [
+    "Festas & Feiras",
+    "Música"
+   ],
+   "tipo": "evento",
+   "local": "Campo de São Cristóvão (em frente ao Colégio Pedro II)",
+   "endereco": "Campo de São Cristóvão",
+   "bairro": "São Cristóvão",
+   "regiao": "Centro",
+   "sessoes": [
+    {
+     "data": "2026-11-23",
+     "hora": "19:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "Grátis",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "",
+   "acessibilidade": "",
+   "na_rua": true,
+   "sinopse": "O Paraíso do Tuiuti ensaia no Campo de São Cristóvão, preparando o Carnaval 2027. Entrada gratuita.",
+   "fonte": "Agenda dos ensaios de rua do Grupo Especial (programação recebida pela coordenação editorial)",
+   "link": "",
+   "trecho_fonte": "A temporada de preparação para o Carnaval 2027 já começou e as escolas do Grupo Especial do Rio estão tomando as ruas com entrada gratuita [...] SEGUNDA-FEIRA: • Paraíso do Tuiuti • São Cristóvão (Campo de São Cristóvão, em frente ao Pedro II), a partir das 19h.",
+   "id": "2026-11-19-171",
+   "faixa": "gratis",
+   "status": "conferido"
+  },
+  {
+   "titulo": "Ensaio de rua da Unidos de Vila Isabel",
+   "areas": [
+    "Festas & Feiras",
+    "Música"
+   ],
+   "tipo": "evento",
+   "local": "Boulevard 28 de Setembro",
+   "endereco": "Boulevard 28 de Setembro",
+   "bairro": "Vila Isabel",
+   "regiao": "Zona Norte",
+   "sessoes": [
+    {
+     "data": "2026-11-25",
+     "hora": "20:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "Grátis",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "",
+   "acessibilidade": "",
+   "na_rua": true,
+   "sinopse": "A Vila Isabel leva o ensaio para o Boulevard 28 de Setembro, preparando o Carnaval 2027.",
+   "fonte": "Agenda dos ensaios de rua do Grupo Especial (programação recebida pela coordenação editorial)",
+   "link": "",
+   "trecho_fonte": "A temporada de preparação para o Carnaval 2027 já começou e as escolas do Grupo Especial do Rio estão tomando as ruas com entrada gratuita [...] QUARTA-FEIRA: • Unidos de Vila Isabel • Vila Isabel (Boulevard 28 de Setembro), a partir das 20h.",
+   "id": "2026-11-19-172",
+   "faixa": "gratis",
+   "status": "conferido"
+  },
+  {
+   "titulo": "Ensaio de rua da Unidos da Tijuca",
+   "areas": [
+    "Festas & Feiras",
+    "Música"
+   ],
+   "tipo": "evento",
+   "local": "Via D1 (Rua Geógrafo Milton Santos)",
+   "endereco": "Rua Geógrafo Milton Santos",
+   "bairro": "Santo Cristo",
+   "regiao": "Centro",
+   "sessoes": [
+    {
+     "data": "2026-11-19",
+     "hora": "19:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "Grátis",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "",
+   "acessibilidade": "",
+   "na_rua": true,
+   "sinopse": "A Unidos da Tijuca ensaia na Via D1, em Santo Cristo, preparando o Carnaval 2027.",
+   "fonte": "Agenda dos ensaios de rua do Grupo Especial (programação recebida pela coordenação editorial)",
+   "link": "",
+   "trecho_fonte": "A temporada de preparação para o Carnaval 2027 já começou e as escolas do Grupo Especial do Rio estão tomando as ruas com entrada gratuita [...] QUINTA-FEIRA: • Unidos da Tijuca • Santo Cristo (Via D1 / Rua Geógrafo Milton Santos), a partir das 19h.",
+   "id": "2026-11-19-173",
+   "faixa": "gratis",
+   "status": "conferido"
+  },
+  {
+   "titulo": "Ensaio de rua do Acadêmicos do Salgueiro",
+   "areas": [
+    "Festas & Feiras",
+    "Música"
+   ],
+   "tipo": "evento",
+   "local": "Rua Maxwell",
+   "endereco": "Rua Maxwell, 581",
+   "bairro": "Andaraí",
+   "regiao": "Zona Norte",
+   "sessoes": [
+    {
+     "data": "2026-11-19",
+     "hora": "20:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "Grátis",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "",
+   "acessibilidade": "",
+   "na_rua": true,
+   "sinopse": "O Salgueiro ensaia na Rua Maxwell, no Andaraí, preparando o Carnaval 2027.",
+   "fonte": "Agenda dos ensaios de rua do Grupo Especial (programação recebida pela coordenação editorial)",
+   "link": "",
+   "trecho_fonte": "A temporada de preparação para o Carnaval 2027 já começou e as escolas do Grupo Especial do Rio estão tomando as ruas com entrada gratuita [...] QUINTA-FEIRA: • Acadêmicos do Salgueiro • Andaraí (Rua Maxwell, 581), a partir das 20h.",
+   "id": "2026-11-19-174",
+   "faixa": "gratis",
+   "status": "conferido"
+  },
+  {
+   "titulo": "Ensaio de rua da Mocidade Independente",
+   "areas": [
+    "Festas & Feiras",
+    "Música"
+   ],
+   "tipo": "evento",
+   "local": "Avenida Ministro Ary Franco",
+   "endereco": "Avenida Ministro Ary Franco",
+   "bairro": "Padre Miguel",
+   "regiao": "Zona Oeste",
+   "sessoes": [
+    {
+     "data": "2026-11-21",
+     "hora": "18:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "Grátis",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "",
+   "acessibilidade": "",
+   "na_rua": true,
+   "sinopse": "A Mocidade de Padre Miguel ensaia na Avenida Ministro Ary Franco, preparando o Carnaval 2027.",
+   "fonte": "Agenda dos ensaios de rua do Grupo Especial (programação recebida pela coordenação editorial)",
+   "link": "",
+   "trecho_fonte": "A temporada de preparação para o Carnaval 2027 já começou e as escolas do Grupo Especial do Rio estão tomando as ruas com entrada gratuita [...] SÁBADO: • Mocidade Independente • Padre Miguel / Bangu (Av. Ministro Ary Franco), concentração às 18h.",
+   "id": "2026-11-19-175",
+   "faixa": "gratis",
+   "status": "conferido"
+  },
+  {
+   "titulo": "Ensaio de rua da Imperatriz Leopoldinense",
+   "areas": [
+    "Festas & Feiras",
+    "Música"
+   ],
+   "tipo": "evento",
+   "local": "Rua Euclides Faria",
+   "endereco": "Rua Euclides Faria",
+   "bairro": "Ramos",
+   "regiao": "Zona Norte",
+   "sessoes": [
+    {
+     "data": "2026-11-22",
+     "hora": "16:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "Grátis",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "",
+   "acessibilidade": "",
+   "na_rua": true,
+   "sinopse": "A Imperatriz ensaia na Rua Euclides Faria, em Ramos, preparando o Carnaval 2027.",
+   "fonte": "Agenda dos ensaios de rua do Grupo Especial (programação recebida pela coordenação editorial)",
+   "link": "",
+   "trecho_fonte": "A temporada de preparação para o Carnaval 2027 já começou e as escolas do Grupo Especial do Rio estão tomando as ruas com entrada gratuita [...] DOMINGO: • Imperatriz Leopoldinense • Ramos (Rua Euclides Faria), a partir das 16h.",
+   "id": "2026-11-19-176",
+   "faixa": "gratis",
+   "status": "conferido"
+  },
+  {
+   "titulo": "Ensaio de rua da Estação Primeira de Mangueira",
+   "areas": [
+    "Festas & Feiras",
+    "Música"
+   ],
+   "tipo": "evento",
+   "local": "Rua Visconde de Niterói",
+   "endereco": "Rua Visconde de Niterói",
+   "bairro": "Mangueira",
+   "regiao": "Centro",
+   "sessoes": [
+    {
+     "data": "2026-11-22",
+     "hora": "17:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "Grátis",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "",
+   "acessibilidade": "",
+   "na_rua": true,
+   "sinopse": "A Mangueira ensaia na Rua Visconde de Niterói, preparando o Carnaval 2027.",
+   "fonte": "Agenda dos ensaios de rua do Grupo Especial (programação recebida pela coordenação editorial)",
+   "link": "",
+   "trecho_fonte": "A temporada de preparação para o Carnaval 2027 já começou e as escolas do Grupo Especial do Rio estão tomando as ruas com entrada gratuita [...] DOMINGO: • Estação Primeira de Mangueira • Mangueira (Rua Visconde de Niterói), a partir das 17h.",
+   "id": "2026-11-19-177",
+   "faixa": "gratis",
+   "status": "conferido"
+  },
+  {
+   "titulo": "Ensaio de rua da Portela",
+   "areas": [
+    "Festas & Feiras",
+    "Música"
+   ],
+   "tipo": "evento",
+   "local": "Rua Clara Nunes, esquina com Estrada do Portela",
+   "endereco": "Rua Clara Nunes, esquina com Estrada do Portela",
+   "bairro": "Madureira",
+   "regiao": "Zona Norte",
+   "sessoes": [
+    {
+     "data": "2026-11-22",
+     "hora": "18:00"
+    }
+   ],
+   "cartaz": null,
+   "preco_texto": "Grátis",
+   "preco_min": null,
+   "preco_max": null,
+   "gratis": true,
+   "classificacao": "",
+   "acessibilidade": "",
+   "na_rua": true,
+   "sinopse": "A Portela ensaia em Madureira, na esquina da Rua Clara Nunes com a Estrada do Portela, preparando o Carnaval 2027.",
+   "fonte": "Agenda dos ensaios de rua do Grupo Especial (programação recebida pela coordenação editorial)",
+   "link": "",
+   "trecho_fonte": "A temporada de preparação para o Carnaval 2027 já começou e as escolas do Grupo Especial do Rio estão tomando as ruas com entrada gratuita [...] DOMINGO: • Portela • Madureira (Esquina da Rua Clara Nunes com Estrada do Portela), a partir das 18h.",
+   "id": "2026-11-19-178",
+   "faixa": "gratis",
+   "status": "conferido"
+  },
+  {
    "titulo": "Camisas Negras",
    "areas": [
     "Cinema"
