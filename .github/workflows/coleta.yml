@@ -6,19 +6,22 @@ on:
   push:
     paths:
       - "ferramentas/coleta/coletar.py"
+      - "ferramentas/coleta/plataformas.py"
       - ".github/workflows/coleta.yml"
 permissions:
   contents: write
 jobs:
   ronda:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 35
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - run: python3 ferramentas/coleta/coletar.py
+      - name: Extração das plataformas de ingresso (Ingresso.com e Sympla)
+        run: python3 ferramentas/coleta/plataformas.py coleta-bruta || echo "extração das plataformas falhou; a ronda segue"
       - name: Guardar o texto bruto num ramo temporário (fora do site e da linha principal; substituído a cada ronda)
         run: |
           cd coleta-bruta
@@ -39,7 +42,7 @@ jobs:
         run: |
           git config user.name "largo-coleta"
           git config user.email "largo-coleta@users.noreply.github.com"
-          git add dados/coleta/resumo.json dados/coleta/resumo.md
+          git add dados/coleta/resumo.json dados/coleta/resumo.md dados/coleta/plataformas.md || true
           git commit -m "Ronda das fontes: resumo (automático)" || echo "nada mudou"
           git pull --rebase origin main
           git push origin HEAD:main

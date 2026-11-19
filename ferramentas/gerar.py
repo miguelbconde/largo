@@ -178,6 +178,9 @@ def main(edicao_id):
     pasta = os.path.join(RAIZ, "dados", "edicoes", edicao_id)
     base = json.load(open(os.path.join(pasta, "eventos.json"), encoding="utf-8"))
     ed, eventos = base["edicao"], base["eventos"]
+    cine_path = os.path.join(pasta, "cinema.json")  # fichas automáticas da Ingresso.com (ferramentas/redacao/cinema.py)
+    if os.path.exists(cine_path):
+        eventos = eventos + json.load(open(cine_path, encoding="utf-8"))["fichas"]
 
     conf_path = os.path.join(pasta, "conferencia.json")
     conf = json.load(open(conf_path, encoding="utf-8")) if os.path.exists(conf_path) else {"resultado": []}
