@@ -1,11 +1,13 @@
 # Diretrizes políticas do Largo
-*versão 0.2 · 19/11/2026 · documento de trabalho, a ser discutido e emendado*
+*versão 0.3 · 19/11/2026 · documento de trabalho, a ser discutido e emendado*
 
 Este documento reúne as ideias em que o Largo se apoia, o que cada uma muda na prática e como falamos disso em público. Serve de base para a página "Sobre nós", para a página de leituras e para textos de apresentação, pedidos à Prefeitura e conversas com parceiros.
 
 **Como foi feito.** Parte de doze livros enviados pela coordenação editorial em 19/11/2026. A leitura foi dirigida: sumário e introdução de todos, os capítulos mais próximos do projeto e passagens localizadas por busca. Não é fichamento página a página. As citações vêm sempre em português, em tradução nossa, e cada uma foi conferida contra o original. Os arquivos são digitais e não trazem número de página, por isso as citações vão localizadas por capítulo; para uso acadêmico, convém conferir a página na edição impressa.
 
 **Mudança da versão 0.2.** Saiu a distinção entre moradores e visitantes, que não corresponde ao que o projeto pensa: a cidade é de todos, de quem mora e de quem chega. O tom geral foi baixado, e as citações passaram a vir só em português.
+
+**Mudança da versão 0.3.** Entrou a posição diante das plataformas de venda de ingresso (seção 2.9 e item 10 da seção 3).
 
 ---
 
@@ -19,7 +21,7 @@ O projeto não apoia candidato, partido ou governo.
 
 ---
 
-## 2. Oito ideias que nos ajudam a pensar
+## 2. Nove ideias que nos ajudam a pensar
 
 Cada item traz a ideia, de onde ela vem e o que ela muda no Largo.
 
@@ -83,6 +85,14 @@ Lefebvre ligava o direito à cidade a um direito à centralidade. Andy Merrifiel
 
 **No Largo:** a areninha de Santa Cruz com o mesmo peso da casa do Leblon; meta de 40% de fontes fora do eixo Centro–Zona Sul; painel de regiões a cada edição; bairro sempre visível.
 
+### 2.9 Quem cerca a informação: as plataformas de ingresso
+
+As ideias anteriores ganham endereço certo quando olhamos para as plataformas de venda de ingresso (Sympla, Ingresso.com, Ticketmaster, Eventim e outras). Elas se tornaram a passagem obrigatória entre o público e boa parte da programação da cidade, inclusive a que acontece em espaços públicos e é paga com dinheiro público. A informação de interesse geral (o que acontece, onde, quando e por quanto) fica guardada dentro delas. Elas exigem cadastro para vender, acumulam os dados de quem compra e não devolvem nada disso em formato aberto. O cadastro organizado da vida cultural, que é um bem comum, vira patrimônio de empresa.
+
+É o que Shaw e Graham descrevem (seção 2.3): quem organiza a informação sobre a cidade decide o que aparece. É também o que Zuboff aponta (seção 2.6): a experiência de quem sai de casa vira matéria-prima. E é o que Kohn observa na rede (seção 2.4): o acesso passa a ser mediado por quem cobra pedágio. Por isso entendemos as plataformas de ingresso como o principal ponto de sustentação de um regime privado sobre a informação de acesso à cidade, e é a esse arranjo que o Largo se contrapõe.
+
+**No Largo:** não fazemos parceria, acordo de dados nem afiliação com essas plataformas, e não dependemos delas. A informação vem de quem faz a programação: os espaços, os produtores, os coletivos e o poder público. As páginas públicas das plataformas servem só para conferir preço e horário. Quando a única forma de comprar é por uma delas, damos o link, limpo e sem código de comissão, porque quem lê precisa chegar ao ingresso. E pedimos, como contrapartida pública, que a programação feita com dinheiro público seja publicada em formato aberto.
+
 ### Um método: expor, propor, politizar
 
 Peter Marcuse resume assim o que a reflexão pode fazer pela prática: "expor, propor e politizar" (Marcuse 2012, cap. 3). Expor as raízes de um problema, propor soluções concretas com quem é afetado, e deixar claras as consequências políticas. Ele insiste em que mostrar que há alternativa já ajuda.
@@ -104,6 +114,7 @@ O registro é de esclarecimento e de abertura, com uma defesa discreta de causa.
 7. **Transparência sem alarde.** Quem faz, como se sustenta, que ferramentas usa, inclusive inteligência artificial.
 8. **Palavras.** Preferir: aberto, de graça, bem comum, sem catraca, público, gente, vizinhos, visitantes. Evitar: usuário, consumidor, público-alvo, conteúdo, engajamento. Os termos acadêmicos (neoliberalismo, mercantilização) ficam para a página de leituras.
 9. **Citações.** Sempre em português. Poucas, curtas, e só quando dizem melhor do que nós diríamos. No "Sobre nós", no máximo um nome.
+10. **Com as plataformas de ingresso, firmeza sem alvo pessoal.** A crítica é ao modelo: informação de interesse público guardada como mercadoria. Quem vende ingresso por elas, quase sempre um produtor pequeno, não tem outra opção e não é o alvo. Dizemos o que fazem com dados e informação com base em fatos verificáveis (cadastro exigido, ausência de dados abertos), sem atribuir a elas o que não podemos provar.
 
 ---
 
@@ -127,6 +138,7 @@ Convém dizê-los com naturalidade, quando perguntarem ou quando couber.
 - **A curadoria é feita por uma inteligência artificial comercial.** Com regras públicas, dupla checagem, correção aberta e possibilidade de veto humano.
 - **A licença permite uso comercial.** Uma empresa pode reaproveitar nossos dados, desde que mantenha aberto o que fizer com eles.
 - **Divulgar um lugar também o valoriza.** Neil Brenner observa que iniciativas de "cidade aberta" podem acabar reforçando desigualdades, porque a vitalidade de um lugar vira ganho para os donos dos imóveis em volta (Brenner 2017, cap. 2). Não temos resposta completa. O que fazemos é distribuir a atenção pela cidade e ouvir os espaços.
+- **Ainda passamos por elas.** Conferimos preços nas páginas públicas das plataformas de ingresso e damos o link quando é o único caminho para comprar. Não há como contorná-las por completo enquanto a programação não for publicada de outro jeito. O que evitamos é a dependência: nenhuma informação da agenda existe só porque uma plataforma a forneceu.
 - **Há uma atividade paga.** Os Roteiros do Largo, com regras já definidas no plano diretor.
 - **Sem rastreador, não temos números de leitura.** Só podemos mostrar o que oferecemos.
 
