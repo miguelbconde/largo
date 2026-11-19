@@ -1,14 +1,14 @@
 # Ronda das fontes — resumo
 
-Feita em 2026-11-19 04:47 UTC, em 225 segundos, no serviço de automação do GitHub.
+Feita em 2026-11-19 04:51 UTC, em 143 segundos, no serviço de automação do GitHub.
 O texto recolhido dos sites não entra na linha principal do repositório nem no site: fica num ramo temporário (coleta-bruta), substituído a cada ronda, só para a redação das fichas.
 
 ## Situação
 
-- coletada: **52**
+- coletada: **53**
 - não respondeu: **16**
 - coletada, mas sem datas à vista: **13**
-- recusou a visita: **9**
+- recusou a visita: **8**
 - em espera: **1**
 
 ## Fonte a fonte
@@ -30,6 +30,7 @@ O texto recolhido dos sites não entra na linha principal do repositório nem no
 | Centro Cultural Arte Sesc | coletada | texto de 14 página(s) |
 | Centro Cultural Correios RJ | coletada | feed (15 itens), feed (15 itens), texto de 13 página(s) |
 | Centro Cultural Justiça Federal (CCJF) | coletada | texto de 12 página(s) |
+| Circo Crescer e Viver | coletada | feed (8 itens), texto de 8 página(s) |
 | D-Edge Rio | coletada | feed (3 itens), texto de 1 página(s) |
 | EAV Parque Lage | coletada | texto de 12 página(s) |
 | EcoVilla Ri Happy | coletada | texto de 3 página(s) |
@@ -41,6 +42,7 @@ O texto recolhido dos sites não entra na linha principal do repositório nem no
 | Galeria Athena | coletada | texto de 3 página(s) |
 | Grupo Estação (Botafogo, Gávea, Rio) | coletada | feed (7 itens), texto de 14 página(s) |
 | IMS Rio (Instituto Moreira Salles) | coletada | feed (5 itens), calendário WordPress (40 eventos), texto de 14 página(s) |
+| Jardim Botânico do Rio de Janeiro | coletada | texto de 4 página(s) |
 | LIESA / Rio Carnaval | coletada | feed (20 itens), texto de 2 página(s) |
 | Livraria da Travessa | coletada | texto de 14 página(s) |
 | MAM Rio (Museu de Arte Moderna) | coletada | feed (2 itens), texto de 14 página(s) |
@@ -54,7 +56,6 @@ O texto recolhido dos sites não entra na linha principal do repositório nem no
 | Pinakotheke Cultural | coletada | texto de 14 página(s) |
 | Portas Vilaseca Galeria | coletada | texto de 6 página(s) |
 | Qualistage | coletada | texto de 11 página(s) |
-| Real Gabinete Português de Leitura | coletada | texto de 12 página(s) |
 | Rio Scenarium | coletada | texto de 2 página(s) |
 | Sala Cecília Meireles | coletada | texto de 12 página(s) |
 | Teatro Bangu Shopping | coletada | texto de 13 página(s) |
@@ -68,7 +69,7 @@ O texto recolhido dos sites não entra na linha principal do repositório nem no
 | Theatro Municipal do Rio de Janeiro | coletada | feed (9 itens), texto de 5 página(s) |
 | Vivo Rio | coletada | texto de 12 página(s) |
 | Beco das Garrafas | coletada, mas sem datas à vista (a programação pode ser carregada depois) | texto de 2 página(s) |
-| Caixa Cultural Rio de Janeiro | coletada, mas sem datas à vista (a programação pode ser carregada depois) | texto de 1 página(s) |
+| Blue Note Rio | coletada, mas sem datas à vista (a programação pode ser carregada depois) | texto de 3 página(s) |
 | Casa do Choro | coletada, mas sem datas à vista (a programação pode ser carregada depois) | texto de 1 página(s) |
 | Cinesystem Belas Artes Botafogo | coletada, mas sem datas à vista (a programação pode ser carregada depois) | texto de 1 página(s) |
 | Circo Voador | coletada, mas sem datas à vista (a programação pode ser carregada depois) | texto de 1 página(s) |
@@ -88,7 +89,6 @@ O texto recolhido dos sites não entra na linha principal do repositório nem no
 | Teatro dos Quatro | não respondeu: URLError: <urlopen error [Errno -2] Name or service not known> |  |
 | Trapiche Gamboa | não respondeu: URLError: <urlopen error [Errno -2] Name or service not known> |  |
 | Z42 Arte | não respondeu: URLError: <urlopen error [Errno -2] Name or service not known> |  |
-| Jardim Botânico do Rio de Janeiro | não respondeu: URLError: <urlopen error [Errno 101] Network is unreachable> |  |
 | Lapa 40 Graus | não respondeu: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.lapa40graus. |  |
 | Livraria Argumento | não respondeu: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.livrariaargu |  |
 | Galeria Nara Roesler | não respondeu: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1011)> |  |
@@ -97,11 +97,11 @@ O texto recolhido dos sites não entra na linha principal do repositório nem no
 | É Tudo Verdade | não respondeu: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)> |  |
 | Imperator (Centro Cultural João Nogueira) | não respondeu: URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1011)> |  |
 | Centro Cultural da UERJ (Teatro Odylo Costa Filho e outros) | não respondeu: URLError: <urlopen error timed out> |  |
+| Real Gabinete Português de Leitura | não respondeu: URLError: <urlopen error timed out> |  |
 | Anita Schwartz Galeria de Arte | recusou a visita (código 403) |  |
 | Biblioteca Nacional | recusou a visita (código 403) |  |
-| Blue Note Rio | recusou a visita (código 403) |  |
+| Caixa Cultural Rio de Janeiro | recusou a visita (código 403) |  |
 | Cineclube Macunaíma (ABI) | recusou a visita (código 403) |  |
-| Circo Crescer e Viver | recusou a visita (código 403) |  |
 | Solar de Botafogo | recusou a visita (código 403) |  |
 | Teatro Rival Petrobras | recusou a visita (código 403) |  |
 | Fundação Casa de Rui Barbosa | recusou a visita (código 404) |  |
