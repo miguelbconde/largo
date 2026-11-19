@@ -367,11 +367,18 @@ def coletar(grupo):
         r["degraus"].append(f"dados estruturados ({len(ev)} eventos)")
         partes += ["## EVENTOS (dados estruturados da página)"] + ["- " + e for e in ev] + [""]
     com_datas = 0
-    repetidas = set()          # linhas de menu e rodapé, que se repetem em todas as páginas do site
-    for endereco, rotulo, hh, teto in paginas:
-        linhas = texto_limpo(hh).split("\n")
-        novas = [l for l in linhas if l not in repetidas]
-        repetidas.update(l for l in linhas if len(l) < 140)
+    # menu e rodapé: linhas da página inicial que se repetem em quase todas as páginas do site.
+    # (Valores curtos como "Livre" ou "20h" podem se repetir entre eventos e NÃO são descartados por isso.)
+    from collections import Counter
+    textos = [texto_limpo(hh).split("\n") for _, _, hh, _ in paginas]
+    frequencia = Counter(l for linhas in textos for l in set(linhas))
+    da_inicial = set(textos[0])
+    dado = re.compile(r"\d|livre|anos|r\$|gr[aá]t|gratuit|entrada|ingresso", re.I)   # isto nunca é descartado
+    repetidas = {l for l, n in frequencia.items()
+                 if l in da_inicial and n >= 0.9 * len(paginas) and len(l) < 200 and not dado.search(l)} if len(paginas) >= 3 else set()
+    for (endereco, rotulo, hh, teto), linhas in zip(paginas, textos):
+        primeira = endereco == paginas[0][0]
+        novas = linhas if primeira else [l for l in linhas if l not in repetidas]
         t = "\n".join(novas)
         if len(t) > teto:
             t = t[:teto].rsplit("\n", 1)[0] + "\n[… cortado]"
