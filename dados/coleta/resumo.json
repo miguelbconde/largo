@@ -1,7 +1,7 @@
 {
  "origem": "nuvem",
- "feito_em": "2026-11-19 04:30 UTC",
- "segundos": 104,
+ "feito_em": "2026-11-19 04:33 UTC",
+ "segundos": 118,
  "fontes": [
   {
    "ids": [
@@ -61,15 +61,14 @@
     "Centro"
    ],
    "degraus": [
-    "texto de 5 página(s)"
+    "texto de 4 página(s)"
    ],
-   "caracteres": 63881,
+   "caracteres": 51703,
    "url_final": "https://www.gov.br/arquivonacional/pt-br",
    "paginas": [
     "https://www.gov.br/arquivonacional/pt-br",
     "https://www.gov.br/arquivonacional/pt-br/sites_eventos",
     "https://www.gov.br/arquivonacional/pt-br/siga/agenda",
-    "https://www.gov.br/arquivonacional/pt-br/sites_eventos/SNA",
     "https://www.gov.br/arquivonacional/pt-br/sites_eventos/mow"
    ],
    "mencoes_de_data": 11,
@@ -106,7 +105,7 @@
     "feed (10 itens)",
     "texto de 3 página(s)"
    ],
-   "caracteres": 23561,
+   "caracteres": 23532,
    "url_final": "https://cultura.rj.gov.br",
    "paginas": [
     "https://cultura.rj.gov.br",
@@ -126,9 +125,17 @@
    "regioes": [
     "Centro"
    ],
-   "degraus": [],
-   "caracteres": 0,
-   "situacao": "recusou a visita (código 403)"
+   "degraus": [
+    "texto de 1 página(s)"
+   ],
+   "caracteres": 269,
+   "url_final": "https://www.caixacultural.gov.br/Paginas/default.aspx",
+   "paginas": [
+    "https://www.caixacultural.gov.br/Paginas/default.aspx"
+   ],
+   "mencoes_de_data": 0,
+   "situacao": "coletada, mas sem datas à vista (a programação pode ser carregada depois)",
+   "arquivo": "F014.txt"
   },
   {
    "ids": [
@@ -186,7 +193,7 @@
    "degraus": [
     "texto de 5 página(s)"
    ],
-   "caracteres": 19862,
+   "caracteres": 19822,
    "url_final": "https://ccbb.com.br/rio-de-janeiro/",
    "paginas": [
     "https://ccbb.com.br/rio-de-janeiro/",
@@ -195,7 +202,7 @@
     "https://ccbb.com.br/rio-de-janeiro/programacao/entre-sim-e-o-nunca/",
     "https://ccbb.com.br/rio-de-janeiro/programacao/samba-do-sacramento/"
    ],
-   "mencoes_de_data": 106,
+   "mencoes_de_data": 107,
    "situacao": "coletada",
    "arquivo": "F019.txt"
   },
@@ -477,9 +484,21 @@
    "regioes": [
     "Centro"
    ],
-   "degraus": [],
-   "caracteres": 0,
-   "situacao": "não respondeu: URLError: <urlopen error timed out>"
+   "degraus": [
+    "texto de 5 página(s)"
+   ],
+   "caracteres": 26157,
+   "url_final": "https://www.realgabinete.com.br",
+   "paginas": [
+    "https://www.realgabinete.com.br",
+    "https://www.realgabinete.com.br/Agenda",
+    "https://www.realgabinete.com.br/Agenda/Eventos-e-Noticias-Anteriores",
+    "https://www.realgabinete.com.br/Agenda/xxi-dialogos-de-poesia-de-lingua-portuguesa",
+    "https://www.realgabinete.com.br/Agenda/exposi231227o-converg234ncia-lus237ada-50-anos-da-revista-do-rgpl"
+   ],
+   "mencoes_de_data": 36,
+   "situacao": "coletada",
+   "arquivo": "F049.txt"
   },
   {
    "ids": [
@@ -633,9 +652,22 @@
    "regioes": [
     "Zona Sul"
    ],
-   "degraus": [],
-   "caracteres": 0,
-   "situacao": "recusou a visita (código 403)"
+   "degraus": [
+    "feed (1 itens)",
+    "texto de 5 página(s)"
+   ],
+   "caracteres": 70388,
+   "url_final": "https://www.anitaschwartz.com.br/",
+   "paginas": [
+    "https://www.anitaschwartz.com.br/",
+    "https://www.anitaschwartz.com.br/exposicoes/",
+    "https://www.anitaschwartz.com.br/exposicoes/14087/",
+    "https://www.anitaschwartz.com.br/exposicoes/quimera/",
+    "https://www.anitaschwartz.com.br/exposicoes/ventar-o-tempo/"
+   ],
+   "mencoes_de_data": 245,
+   "situacao": "coletada",
+   "arquivo": "F065.txt"
   },
   {
    "ids": [
@@ -674,7 +706,7 @@
    "degraus": [
     "texto de 2 página(s)"
    ],
-   "caracteres": 7291,
+   "caracteres": 7287,
    "url_final": "https://becodasgarrafas.com.br",
    "paginas": [
     "https://becodasgarrafas.com.br",
@@ -1078,18 +1110,17 @@
     "Zona Sul"
    ],
    "degraus": [
-    "texto de 5 página(s)"
+    "texto de 4 página(s)"
    ],
-   "caracteres": 12996,
+   "caracteres": 11564,
    "url_final": "https://www.gov.br/jbrj/pt-br",
    "paginas": [
     "https://www.gov.br/jbrj/pt-br",
     "https://www.gov.br/jbrj/pt-br/acesso-a-informacao/acoes-e-programas",
-    "https://www.gov.br/jbrj/pt-br/acesso-a-informacao/programa-de-gestao-e-desempenho-pgd",
     "https://www.gov.br/jbrj/pt-br/assuntos/visitacao/ingressos",
     "https://www.gov.br/jbrj/pt-br/assuntos/visitacao/horarios-e-ingressos"
    ],
-   "mencoes_de_data": 27,
+   "mencoes_de_data": 25,
    "situacao": "coletada",
    "arquivo": "F093.txt"
   },
@@ -1363,13 +1394,13 @@
    "degraus": [
     "texto de 2 página(s)"
    ],
-   "caracteres": 853,
+   "caracteres": 848,
    "url_final": "https://silviacintra.com.br",
    "paginas": [
     "https://silviacintra.com.br",
     "https://silviacintra.com.br/exposicoes/"
    ],
-   "mencoes_de_data": 1,
+   "mencoes_de_data": 0,
    "situacao": "coletada, mas sem datas à vista (a programação pode ser carregada depois)",
    "arquivo": "F112.txt"
   },

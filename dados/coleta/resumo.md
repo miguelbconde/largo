@@ -1,14 +1,14 @@
 # Ronda das fontes — resumo
 
-Feita em 2026-11-19 04:30 UTC, em 104 segundos, no serviço de automação do GitHub.
-O texto recolhido dos sites não fica no repositório: é guardado à parte, por 14 dias, só para a redação das fichas.
+Feita em 2026-11-19 04:33 UTC, em 118 segundos, no serviço de automação do GitHub.
+O texto recolhido dos sites não entra na linha principal do repositório nem no site: fica num ramo temporário (coleta-bruta), substituído a cada ronda, só para a redação das fichas.
 
 ## Situação
 
-- coletada: **54**
-- não respondeu: **16**
-- coletada, mas sem datas à vista: **12**
-- recusou a visita: **8**
+- coletada: **56**
+- não respondeu: **15**
+- coletada, mas sem datas à vista: **13**
+- recusou a visita: **6**
 - em espera: **1**
 
 ## Fonte a fonte
@@ -17,7 +17,8 @@ O texto recolhido dos sites não fica no repositório: é guardado à parte, por
 |---|---|---|
 | A Gentil Carioca | coletada | texto de 3 página(s) |
 | Academia Brasileira de Letras (ABL) | coletada | texto de 5 página(s) |
-| Arquivo Nacional | coletada | texto de 5 página(s) |
+| Anita Schwartz Galeria de Arte | coletada | feed (1 itens), texto de 5 página(s) |
+| Arquivo Nacional | coletada | texto de 4 página(s) |
 | ArtRio | coletada | texto de 5 página(s) |
 | Biblioteca Parque Estadual; Bibliotecas Parque de Manguinhos e Rocinha | coletada | feed (10 itens), texto de 3 página(s) |
 | CCBB Rio | coletada | texto de 5 página(s) |
@@ -42,7 +43,7 @@ O texto recolhido dos sites não fica no repositório: é guardado à parte, por
 | Galeria Athena | coletada | texto de 2 página(s) |
 | Grupo Estação (Botafogo, Gávea, Rio) | coletada | feed (7 itens), texto de 5 página(s) |
 | IMS Rio (Instituto Moreira Salles) | coletada | feed (5 itens), calendário WordPress (40 eventos), texto de 5 página(s) |
-| Jardim Botânico do Rio de Janeiro | coletada | texto de 5 página(s) |
+| Jardim Botânico do Rio de Janeiro | coletada | texto de 4 página(s) |
 | LIESA / Rio Carnaval | coletada | feed (20 itens), texto de 2 página(s) |
 | Livraria da Travessa | coletada | texto de 5 página(s) |
 | MAM Rio (Museu de Arte Moderna) | coletada | feed (2 itens), texto de 4 página(s) |
@@ -57,6 +58,7 @@ O texto recolhido dos sites não fica no repositório: é guardado à parte, por
 | Pinakotheke Cultural | coletada | texto de 4 página(s) |
 | Portas Vilaseca Galeria | coletada | texto de 5 página(s) |
 | Qualistage | coletada | texto de 5 página(s) |
+| Real Gabinete Português de Leitura | coletada | texto de 5 página(s) |
 | Rio Scenarium | coletada | texto de 2 página(s) |
 | Sala Cecília Meireles | coletada | texto de 5 página(s) |
 | Teatro Bangu Shopping | coletada | texto de 5 página(s) |
@@ -71,6 +73,7 @@ O texto recolhido dos sites não fica no repositório: é guardado à parte, por
 | Vivo Rio | coletada | texto de 5 página(s) |
 | Beco das Garrafas | coletada, mas sem datas à vista (a programação pode ser carregada depois) | texto de 2 página(s) |
 | Blue Note Rio | coletada, mas sem datas à vista (a programação pode ser carregada depois) | texto de 3 página(s) |
+| Caixa Cultural Rio de Janeiro | coletada, mas sem datas à vista (a programação pode ser carregada depois) | texto de 1 página(s) |
 | Casa do Choro | coletada, mas sem datas à vista (a programação pode ser carregada depois) | texto de 1 página(s) |
 | Cinesystem Belas Artes Botafogo | coletada, mas sem datas à vista (a programação pode ser carregada depois) | texto de 1 página(s) |
 | Circo Voador | coletada, mas sem datas à vista (a programação pode ser carregada depois) | texto de 1 página(s) |
@@ -97,10 +100,7 @@ O texto recolhido dos sites não fica no repositório: é guardado à parte, por
 | É Tudo Verdade | não respondeu: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)> |  |
 | Imperator (Centro Cultural João Nogueira) | não respondeu: URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1011)> |  |
 | Centro Cultural da UERJ (Teatro Odylo Costa Filho e outros) | não respondeu: URLError: <urlopen error timed out> |  |
-| Real Gabinete Português de Leitura | não respondeu: URLError: <urlopen error timed out> |  |
-| Anita Schwartz Galeria de Arte | recusou a visita (código 403) |  |
 | Biblioteca Nacional | recusou a visita (código 403) |  |
-| Caixa Cultural Rio de Janeiro | recusou a visita (código 403) |  |
 | Cineclube Macunaíma (ABI) | recusou a visita (código 403) |  |
 | Solar de Botafogo | recusou a visita (código 403) |  |
 | Teatro Rival Petrobras | recusou a visita (código 403) |  |
