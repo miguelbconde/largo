@@ -1,0 +1,103 @@
+[
+ {
+  "plataforma": "sympla",
+  "url": "https://discovery-next.svc.sympla.com.br/_next/static/chunks/app/eventos/page-14dc5065956e4075.js",
+  "status": 200,
+  "tipo": "application/javascript; charset=UTF-8",
+  "tamanho": 748,
+  "arquivo": "sympla-00.txt",
+  "jsonld_blocos": 0,
+  "jsonld_eventos": 0,
+  "next_data": false,
+  "nuxt": false,
+  "apis_citadas": [],
+  "parece_bloqueio": false
+ },
+ {
+  "plataforma": "sympla",
+  "url": "https://www.sympla.com.br/eventos/rio-de-janeiro-rj?page=2",
+  "status": 200,
+  "tipo": "text/html; charset=utf-8",
+  "tamanho": 469462,
+  "arquivo": "sympla-01.txt",
+  "jsonld_blocos": 0,
+  "jsonld_eventos": 0,
+  "next_data": false,
+  "nuxt": false,
+  "apis_citadas": [
+   "https://discovery-next.svc.sympla.com.b",
+   "https://discovery-next.svc.sympla.com.br"
+  ],
+  "parece_bloqueio": false
+ },
+ {
+  "plataforma": "ingresso",
+  "url": "https://api-content.ingresso.com/v0/sessions/city/2/theater/34?partnership=home",
+  "status": 200,
+  "tipo": "application/json; charset=utf-8",
+  "tamanho": 616438,
+  "arquivo": "ingresso-00.txt",
+  "jsonld_blocos": 0,
+  "jsonld_eventos": 0,
+  "next_data": false,
+  "nuxt": false,
+  "apis_citadas": [],
+  "parece_bloqueio": false
+ },
+ {
+  "plataforma": "ingresso",
+  "url": "https://api-content.ingresso.com/v0/sessions/city/2/theater/506?partnership=home",
+  "status": 200,
+  "tipo": "application/json; charset=utf-8",
+  "tamanho": 565297,
+  "arquivo": "ingresso-01.txt",
+  "jsonld_blocos": 0,
+  "jsonld_eventos": 0,
+  "next_data": false,
+  "nuxt": false,
+  "apis_citadas": [],
+  "parece_bloqueio": false
+ },
+ {
+  "plataforma": "ingresso",
+  "url": "https://api-content.ingresso.com/v0/sessions/city/2/theater/728?partnership=home",
+  "status": 404,
+  "tipo": "application/json; charset=utf-8",
+  "tamanho": 179,
+  "arquivo": "ingresso-02.txt",
+  "jsonld_blocos": 0,
+  "jsonld_eventos": 0,
+  "next_data": false,
+  "nuxt": false,
+  "apis_citadas": [],
+  "parece_bloqueio": false
+ },
+ {
+  "plataforma": "eventim",
+  "url": "https://www.eventim.com.br/robots.txt",
+  "status": 0,
+  "tipo": "",
+  "tamanho": 42,
+  "arquivo": "eventim-00.txt",
+  "jsonld_blocos": 0,
+  "jsonld_eventos": 0,
+  "next_data": false,
+  "nuxt": false,
+  "apis_citadas": [],
+  "parece_bloqueio": false
+ },
+ {
+  "plataforma": "eventim",
+  "url": "https://www.eventim.com.br/",
+  "status": 0,
+  "tipo": "",
+  "tamanho": 42,
+  "arquivo": "eventim-01.txt",
+  "jsonld_blocos": 0,
+  "jsonld_eventos": 0,
+  "next_data": false,
+  "nuxt": false,
+  "apis_citadas": [],
+  "parece_bloqueio": false
+ }
+]

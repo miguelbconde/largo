@@ -1,0 +1,11 @@
+URL: https://api-content.ingresso.com/v0/sessions/city/2/theater/728?partnership=home
+FINAL: https://api-content.ingresso.com/v0/sessions/city/2/theater/728?partnership=home
+STATUS: 404
+TIPO: application/json; charset=utf-8
+
+{
+  "type": "https://tools.ietf.org/html/rfc9110#section-15.5.5",
+  "title": "Not Found",
+  "status": 404,
+  "traceId": "00-d1b40d629f76fbf1762b1b1e6f111f2c-5d1079c872f3b7b5-01"
+}
