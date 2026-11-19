@@ -61,26 +61,31 @@ O mapa completo está em `dados/fontes.csv`. Ele tem 274 entradas, cada uma com 
 |---|---|---|
 | **Núcleo** (203) | Espinha dorsal, coletada toda semana | Rede municipal (PDF semanal da SMC), equipamentos estaduais e federais, Sesc, centros culturais, teatros, cinemas de rua, cineclubes, rodas de samba, livrarias, galerias |
 | **Radar** (17) | Descobrir o que escapou ao Núcleo; nunca copiar texto | RioShow, Veja Rio, Time Out, agregadores, Agenda do Samba |
-| **Apoio** (24) | Só para confirmar preço e horário, em página pública; nunca porta de entrada (ver estratégia abaixo) | Plataformas de ingresso (Sympla, Eventim etc.) |
+| **Plataformas** (24) | Fonte a liberar: extração prioritária dos fatos sobre eventos, devolvidos em formato aberto (ver estratégia abaixo) | Plataformas de ingresso (Sympla, Ingresso.com, Ticketmaster, Eventim etc.) |
 | **Arquivada** (30) | Avaliada e deixada de fora, com o motivo anotado | Portais nacionais, feiras de consumo, duplicatas, fontes fora do município |
 
 **Fonte-mestra:** a Secretaria Municipal de Cultura publica toda semana, em `cultura.prefeitura.rio/agendacultural`, um PDF com a programação de **toda a rede municipal**: 13 arenas e areninhas, centros culturais, teatros, museus e bibliotecas, organizada por região. Testamos a edição de 12 a 18/11/2026: são cerca de 60 atividades, quase todas com endereço, horário, preço e classificação. Sozinha, essa fonte cobre mais da metade dos equipamentos das Zonas Norte, Oeste e Sudoeste do nosso mapa.
 
 **Canal aberto de envio:** vamos criar um formulário ou e-mail para espaços, coletivos, rodas e cineclubes enviarem a programação diretamente. É o caminho principal para quem só existe no Instagram e é coerente com a ideia de agenda como bem comum.
 
-### Estratégia diante das plataformas de ingresso (decisão de 19/11/2026)
+### Estratégia diante das plataformas de ingresso (decisão de 19/11/2026, corrigida no mesmo dia)
 
-**A posição.** As plataformas de ingresso guardam como patrimônio próprio uma informação de interesse público (o que acontece na cidade, onde, quando e por quanto) e restringem o acesso a ela. São o principal ponto de sustentação do regime privado sobre a informação cultural a que o Largo se contrapõe. A fundamentação está nas diretrizes políticas, seção 2.9.
+**A posição.** As plataformas de ingresso guardam como capital próprio uma informação de interesse público (o que acontece na cidade, onde, quando e por quanto) e restringem o acesso a ela para monetizá-la. São o principal ponto de sustentação do regime privado sobre a informação cultural a que o Largo se contrapõe. Nossa resposta é tratar essa informação como bem comum: extraí-la e devolvê-la ao público em formato aberto. A fundamentação está nas diretrizes políticas, seção 2.9.
 
 **O que isso muda:**
-1. **Sem parceria.** Nenhuma carta, acordo de dados, afiliação ou chave de acesso negociada. Também não buscamos as interfaces de programação que algumas oferecem (a da Sympla só mostra os eventos do próprio produtor; a da Ticketmaster exige cadastro e aceite de termos). O Largo não pode depender de quem queremos contestar.
-2. **Ir à fonte.** A informação nasce em quem programa. A coleta mira os sites dos espaços, o PDF da Secretaria, os produtores e os coletivos. Quando um evento só aparece numa plataforma, buscamos a confirmação no espaço ou no produtor antes de publicar.
-3. **Apoio mínimo.** As plataformas continuam na camada de Apoio só para conferir preço e horário em página pública, com leitura educada (poucas visitas, sem contornar bloqueios). Nenhuma ficha existe só porque uma plataforma a forneceu.
-4. **Link limpo.** Na ficha, o link principal é sempre o do espaço ou do produtor. O link de compra numa plataforma aparece só quando é o único caminho para o ingresso, sem código de comissão nem rastreamento.
-5. **Canal de envio com mais peso.** Oferecer aos espaços e produtores um jeito simples de mandar a programação direto ao Largo (formulário e modelo de planilha), para que divulgar não dependa de vender por uma plataforma. Tudo o que chega por ali sai em dados abertos.
-6. **Expor.** Medir, a cada edição, quantos eventos só têm preço ou horário à vista dentro de uma plataforma, e quantos deles acontecem em espaço público ou com dinheiro público. É o retrato do cercamento, publicado junto com o painel de regiões.
-7. **Propor e politizar.** Somar ao pedido de dados abertos à Prefeitura (Lei de Acesso à Informação) uma proposta pública: a programação feita com dinheiro público (equipamentos públicos, editais, leis de incentivo) deve ser publicada em formato aberto, como contrapartida, independentemente de onde o ingresso é vendido. O exemplo de Lisboa (seção 10) serve de precedente.
-8. **Cuidado legal.** Datas, horários e preços são fatos. Ainda assim, os termos de uso das plataformas costumam restringir a leitura automática; por isso o uso fica no mínimo descrito acima. Se houver contestação, procurar orientação jurídica antes de responder.
+1. **Extração como prioridade.** As plataformas deixam de ser só Apoio e passam a ser fonte a liberar. Encontrar meios de extrair a programação do Rio de Sympla, Ingresso.com, Ticketmaster, Eventim e demais é objetivo central do projeto.
+2. **Sem parceria nem dependência.** Nenhuma carta, acordo de dados, afiliação ou comissão. Os meios de extração são nossos e documentados em aberto, para que qualquer pessoa possa repeti-los.
+3. **O que se extrai: só fatos sobre eventos.** Nome, data, horário, local, preço, classificação e link. Nunca dados de pessoas (compradores, avaliações, perfis). Textos de divulgação não são copiados: as sinopses continuam nossas.
+4. **Como se extrai: às claras.** O coletor se identifica como LargoBot, com o endereço do projeto; lê só páginas e dados acessíveis sem login; visita com intervalo, sem sobrecarregar ninguém. Usamos o que já está exposto (dados estruturados nas páginas, interfaces de programação públicas, chaves gratuitas quando houver).
+5. **Devolução ao comum.** O que for extraído entra na base sob ODbL, com a origem anotada em cada ficha. É a prova prática de que a informação pode circular aberta.
+6. **Ir à fonte continua valendo.** A informação nasce em quem programa. Quando dá, a ficha é conferida com o espaço ou o produtor; a fonte do espaço prevalece em caso de divergência. Na ficha, o link principal é o do espaço; o de compra aparece limpo, sem código de comissão.
+7. **Expor.** A cada edição, medir quantos eventos só tinham preço ou horário à vista dentro de uma plataforma, e quantos deles acontecem em espaço público ou com dinheiro público. É o retrato do cercamento, publicado junto com o painel de regiões e, agora, junto com os próprios dados liberados.
+8. **Propor e politizar.** Somar ao pedido de dados abertos à Prefeitura (Lei de Acesso à Informação) uma proposta pública: a programação feita com dinheiro público deve ser publicada em formato aberto, como contrapartida, independentemente de onde o ingresso é vendido. O exemplo de Lisboa (seção 10) serve de precedente.
+9. **Riscos conhecidos.** Datas, horários e preços são fatos, e fatos não têm dono. Mas os termos de uso das plataformas costumam proibir a leitura automática; a lei de direitos autorais protege a seleção e a organização de bases de dados; e as plataformas podem bloquear o coletor. Antes de dar escala ou visibilidade pública à extração, buscar orientação jurídica (clínicas de direito digital de universidades e organizações de direitos digitais costumam atender projetos sem fins lucrativos).
+
+**Decisões em aberto (coordenação editorial):**
+- **Regras para robôs.** Hoje o coletor obedece às regras que cada site publica para leitores automáticos. Se uma plataforma proibir a leitura nessas regras, seguimos obedecendo ou abrimos exceção para elas, como ato deliberado e público?
+- **Chaves de acesso.** Usar interfaces que exigem cadastro e aceite de termos (como a da Ticketmaster) dá dados mais limpos, mas nos prende a termos delas. Usar ou não?
 
 **Equilíbrio territorial (situação atual):** no Núcleo, 55 fontes ficam nas Zonas Norte, Oeste e Sudoeste, contra 127 no Centro e na Zona Sul. A meta da primeira fase é chegar a pelo menos **40%** de fontes fora do eixo Centro–Zona Sul. A cada edição publicaremos um pequeno painel de distribuição por região.
 
@@ -244,7 +249,7 @@ A coleta e a atualização do site passam a ser diárias.
 4. **Publicar** (você cria uma conta gratuita de hospedagem; eu guio cada passo).
 5. **Ampliar o território**: buscar ativamente fontes nas Zonas Norte, Oeste e Sudoeste até a meta de 40%.
 6. **Roteiros do Largo**: depois do aceite da parceira, criar a retranca e a página dos roteiros (seção 7).
-7. **Plataformas de ingresso** (estratégia da seção 5): marcar nas fichas quando a informação só existe numa plataforma; montar o indicador de cercamento; formulário e modelo de planilha para espaços e produtores; redigir a proposta pública de contrapartida em dados abertos, junto com o pedido à Prefeitura.
+7. **Plataformas de ingresso** (estratégia da seção 5): testar a extração das quatro maiores (Sympla, Ingresso.com, Ticketmaster, Eventim) e acoplá-la à coleta diária; marcar a origem nas fichas; montar o indicador de cercamento; buscar orientação jurídica; redigir a proposta pública de contrapartida em dados abertos, junto com o pedido à Prefeitura.
 
 ## 12. Decisões
 
@@ -263,7 +268,7 @@ A coleta e a atualização do site passam a ser diárias.
 **Tomadas (19/11/2026):**
 - Aparência: o site passa a ter modo claro (areia, mar e sol) e modo escuro (mar no fundo), com botão para alternar; substitui a decisão de 17/11 sobre o Estudo B. Uma linha sinuosa de desenho próprio toma o lugar dos fios duplos, e o dia selecionado vira uma forma orgânica (ver guia de design, versão 1.1).
 
-- Plataformas de ingresso: sem parceria, sem acordo de dados e sem afiliação. Ficam na camada de Apoio, só para conferir preço e horário em página pública. A estratégia passa a ser ir à fonte, expor o cercamento e propor dados abertos como contrapartida do dinheiro público (seção 5; diretrizes políticas, seção 2.9).
+- Plataformas de ingresso: a informação que guardam é bem comum. Extraí-la e devolvê-la em formato aberto passa a ser prioridade do projeto, sem parceria nem afiliação, só com fatos sobre eventos e nunca dados de pessoas. Duas decisões em aberto: regras para robôs e chaves de acesso (seção 5; diretrizes políticas, seção 2.9).
 
 **Pendente:**
 - Nome definitivo do projeto.

@@ -7,7 +7,7 @@ Este documento reúne as ideias em que o Largo se apoia, o que cada uma muda na 
 
 **Mudança da versão 0.2.** Saiu a distinção entre moradores e visitantes, que não corresponde ao que o projeto pensa: a cidade é de todos, de quem mora e de quem chega. O tom geral foi baixado, e as citações passaram a vir só em português.
 
-**Mudança da versão 0.3.** Entrou a posição diante das plataformas de venda de ingresso (seção 2.9 e item 10 da seção 3).
+**Mudança da versão 0.3.** Entrou a posição diante das plataformas de venda de ingresso: a informação que elas guardam é bem comum, e extraí-la e devolvê-la em formato aberto faz parte do projeto (seção 2.9, item 10 da seção 3 e seção 5).
 
 ---
 
@@ -91,7 +91,7 @@ As ideias anteriores ganham endereço certo quando olhamos para as plataformas d
 
 É o que Shaw e Graham descrevem (seção 2.3): quem organiza a informação sobre a cidade decide o que aparece. É também o que Zuboff aponta (seção 2.6): a experiência de quem sai de casa vira matéria-prima. E é o que Kohn observa na rede (seção 2.4): o acesso passa a ser mediado por quem cobra pedágio. Por isso entendemos as plataformas de ingresso como o principal ponto de sustentação de um regime privado sobre a informação de acesso à cidade, e é a esse arranjo que o Largo se contrapõe.
 
-**No Largo:** não fazemos parceria, acordo de dados nem afiliação com essas plataformas, e não dependemos delas. A informação vem de quem faz a programação: os espaços, os produtores, os coletivos e o poder público. As páginas públicas das plataformas servem só para conferir preço e horário. Quando a única forma de comprar é por uma delas, damos o link, limpo e sem código de comissão, porque quem lê precisa chegar ao ingresso. E pedimos, como contrapartida pública, que a programação feita com dinheiro público seja publicada em formato aberto.
+**No Largo:** tratamos essa informação como o que ela é, um bem comum. Extraímos das plataformas os fatos sobre os eventos (o quê, onde, quando, por quanto) e os devolvemos ao público em formato aberto, com a origem anotada. Nunca extraímos dados de pessoas. Não fazemos parceria, acordo nem afiliação, e não dependemos delas: os meios de extração são nossos e ficam documentados em aberto. Damos o link de compra limpo, sem comissão, porque quem lê precisa chegar ao ingresso. E pedimos, como contrapartida pública, que a programação feita com dinheiro público seja publicada em formato aberto.
 
 ### Um método: expor, propor, politizar
 
@@ -138,7 +138,7 @@ Convém dizê-los com naturalidade, quando perguntarem ou quando couber.
 - **A curadoria é feita por uma inteligência artificial comercial.** Com regras públicas, dupla checagem, correção aberta e possibilidade de veto humano.
 - **A licença permite uso comercial.** Uma empresa pode reaproveitar nossos dados, desde que mantenha aberto o que fizer com eles.
 - **Divulgar um lugar também o valoriza.** Neil Brenner observa que iniciativas de "cidade aberta" podem acabar reforçando desigualdades, porque a vitalidade de um lugar vira ganho para os donos dos imóveis em volta (Brenner 2017, cap. 2). Não temos resposta completa. O que fazemos é distribuir a atenção pela cidade e ouvir os espaços.
-- **Ainda passamos por elas.** Conferimos preços nas páginas públicas das plataformas de ingresso e damos o link quando é o único caminho para comprar. Não há como contorná-las por completo enquanto a programação não for publicada de outro jeito. O que evitamos é a dependência: nenhuma informação da agenda existe só porque uma plataforma a forneceu.
+- **Extrair das plataformas tem custo e risco.** Os termos de uso delas costumam proibir a leitura automática, e elas podem nos bloquear ou contestar. Sustentamos que fatos sobre a vida da cidade não têm dono, extraímos só esses fatos, às claras e sem sobrecarregar ninguém, e buscamos orientação jurídica antes de dar escala à extração.
 - **Há uma atividade paga.** Os Roteiros do Largo, com regras já definidas no plano diretor.
 - **Sem rastreador, não temos números de leitura.** Só podemos mostrar o que oferecemos.
 
