@@ -1,7 +1,7 @@
 {
  "origem": "nuvem",
- "feito_em": "2026-11-19 20:14 UTC",
- "segundos": 207,
+ "feito_em": "2026-11-19 21:48 UTC",
+ "segundos": 183,
  "fontes": [
   {
    "ids": [
@@ -78,9 +78,9 @@
     "Centro"
    ],
    "degraus": [
-    "texto de 6 página(s)"
+    "texto de 12 página(s)"
    ],
-   "caracteres": 30537,
+   "caracteres": 51496,
    "url_final": "https://www.gov.br/arquivonacional/pt-br",
    "paginas": [
     "https://www.gov.br/arquivonacional/pt-br",
@@ -88,9 +88,15 @@
     "https://www.gov.br/arquivonacional/pt-br/servicos/atendimento",
     "https://www.gov.br/arquivonacional/pt-br/servicos/atendimento/atendimento-1",
     "https://www.gov.br/arquivonacional/pt-br/servicos/atendimento/bases-de-dados-e-instrumentos-de-pesquisa",
-    "https://www.gov.br/arquivonacional/pt-br/acesso-a-informacao/institucional/acervo"
+    "https://www.gov.br/arquivonacional/pt-br/acesso-a-informacao/institucional/acervo",
+    "https://www.gov.br/arquivonacional/pt-br/servicos/atendimento/satisfacao",
+    "https://www.gov.br/arquivonacional/pt-br/servicos/atendimento/reproducao-de-documentos-e-emissao-de-certidoes",
+    "https://www.gov.br/arquivonacional/pt-br/servicos/gestao-de-documentos",
+    "https://www.gov.br/arquivonacional/pt-br/servicos/gestao-de-documentos/decreto",
+    "https://www.gov.br/arquivonacional/pt-br/servicos/gestao-de-documentos/orientacao-tecnica-1",
+    "https://www.gov.br/arquivonacional/pt-br/servicos/gestao-de-documentos/legislacao"
    ],
-   "mencoes_de_data": 15,
+   "mencoes_de_data": 69,
    "situacao": "coletada",
    "arquivo": "F005.txt"
   },
@@ -124,7 +130,7 @@
     "feed (10 itens)",
     "texto de 7 página(s)"
    ],
-   "caracteres": 41005,
+   "caracteres": 40933,
    "url_final": "https://cultura.rj.gov.br",
    "paginas": [
     "https://cultura.rj.gov.br",
@@ -216,7 +222,7 @@
    "degraus": [
     "texto de 12 página(s)"
    ],
-   "caracteres": 38082,
+   "caracteres": 38090,
    "url_final": "https://ccbb.com.br/rio-de-janeiro/",
    "paginas": [
     "https://ccbb.com.br/rio-de-janeiro/",
@@ -232,7 +238,7 @@
     "https://ccbb.com.br/rio-de-janeiro/programacao/21o-festival-de-cinema-italiano-no-brasil/",
     "https://ccbb.com.br/rio-de-janeiro/programacao/yokai-parade-seres-sobrenaturais-do-japao/"
    ],
-   "mencoes_de_data": 317,
+   "mencoes_de_data": 324,
    "situacao": "coletada",
    "arquivo": "F019.txt"
   },
@@ -694,18 +700,15 @@
     "Centro"
    ],
    "degraus": [
-    "texto de 5 página(s)"
+    "texto de 2 página(s)"
    ],
-   "caracteres": 7017,
+   "caracteres": 3143,
    "url_final": "https://teatrorivalrefit.com.br",
    "paginas": [
     "https://teatrorivalrefit.com.br",
-    "https://teatrorivalrefit.com.br/",
-    "https://teatrorivalrefit.com.br/page/2/",
-    "https://teatrorivalrefit.com.br/page/3/",
-    "https://teatrorivalrefit.com.br/page/60/"
+    "https://teatrorivalrefit.com.br/eventos/"
    ],
-   "mencoes_de_data": 43,
+   "mencoes_de_data": 10,
    "situacao": "coletada",
    "arquivo": "F062.txt"
   },
@@ -825,7 +828,7 @@
    "degraus": [
     "texto de 2 página(s)"
    ],
-   "caracteres": 7296,
+   "caracteres": 7299,
    "url_final": "https://becodasgarrafas.com.br",
    "paginas": [
     "https://becodasgarrafas.com.br",
@@ -920,26 +923,15 @@
     "Zona Sul"
    ],
    "degraus": [
-    "texto de 12 página(s)"
+    "texto de 1 página(s)"
    ],
-   "caracteres": 91964,
+   "caracteres": 285,
    "url_final": "https://casafirjan.com.br/",
    "paginas": [
-    "https://casafirjan.com.br/",
-    "https://casafirjan.com.br/agenda",
-    "https://casafirjan.com.br/noticias/casa-firjan-inaugura-exposicao-para-construir-futuros",
-    "https://casafirjan.com.br/a-casa-firjan/quem-somos",
-    "https://casafirjan.com.br/a-casa-firjan/exposicoes-e-atividades",
-    "https://casafirjan.com.br/a-casa-firjan/exposicoes-e-atividades/exposicoes",
-    "https://casafirjan.com.br/a-casa-firjan/exposicoes-e-atividades/atividades",
-    "https://casafirjan.com.br/fab-lab/o-que-e-fab-lab",
-    "https://casafirjan.com.br/noticias/inscreva-se-no-fab-lab-open-day-e-vivencie-cultura-maker-na-casa-firjan",
-    "https://casafirjan.com.br/fab-lab/fab-lab-para-empresas",
-    "https://casafirjan.com.br/palestras-debates-entrevistas/podcasts",
-    "https://casafirjan.com.br/palestras-debates-e-entrevistas/podcast/lab-de-tendencias"
+    "https://casafirjan.com.br/"
    ],
-   "mencoes_de_data": 64,
-   "situacao": "coletada",
+   "mencoes_de_data": 0,
+   "situacao": "coletada, mas sem datas à vista (a programação pode ser carregada depois)",
    "arquivo": "F074.txt"
   },
   {
@@ -954,12 +946,12 @@
    "degraus": [
     "texto de 13 página(s)"
    ],
-   "caracteres": 28051,
+   "caracteres": 28846,
    "url_final": "https://www.evaklabin.org.br/pt",
    "paginas": [
     "https://www.evaklabin.org.br/pt",
     "https://www.evaklabin.org.br/pt/eventos",
-    "https://www.evaklabin.org.br/pt/programacao/oficina/oficinas-de-novembro-2",
+    "https://www.evaklabin.org.br/pt/programacao/oficina/erika-palomino",
     "https://www.evaklabin.org.br/pt/sobre/eva-klabin",
     "https://www.evaklabin.org.br/pt/sobre/casa-museu",
     "https://www.evaklabin.org.br/pt/sobre/quem-somos",
@@ -971,7 +963,7 @@
     "https://www.evaklabin.org.br/pt/explore/educacao",
     "https://www.evaklabin.org.br/pt/explore/musica"
    ],
-   "mencoes_de_data": 57,
+   "mencoes_de_data": 60,
    "situacao": "coletada",
    "arquivo": "F075.txt"
   },
@@ -987,12 +979,13 @@
    "degraus": [
     "texto de 12 página(s)"
    ],
-   "caracteres": 49241,
+   "caracteres": 50008,
    "url_final": "https://casarobertomarinho.org.br",
    "paginas": [
     "https://casarobertomarinho.org.br",
     "https://casarobertomarinho.org.br/acontece?locale=pt-BR",
     "https://casarobertomarinho.org.br/exposicao/58?locale=pt-BR",
+    "https://casarobertomarinho.org.br/acontece/638?locale=pt-BR",
     "https://casarobertomarinho.org.br/acontece/637?locale=pt-BR",
     "https://casarobertomarinho.org.br/acontece/636?locale=pt-BR",
     "https://casarobertomarinho.org.br/acontece/635?locale=pt-BR",
@@ -1000,10 +993,9 @@
     "https://casarobertomarinho.org.br/acontece/633?locale=pt-BR",
     "https://casarobertomarinho.org.br/acontece/632?locale=pt-BR",
     "https://casarobertomarinho.org.br/acontece/630?locale=pt-BR",
-    "https://casarobertomarinho.org.br/acontece/631?locale=pt-BR",
-    "https://casarobertomarinho.org.br/acontece/629?locale=pt-BR"
+    "https://casarobertomarinho.org.br/acontece/631?locale=pt-BR"
    ],
-   "mencoes_de_data": 490,
+   "mencoes_de_data": 524,
    "situacao": "coletada",
    "arquivo": "F076.txt"
   },
@@ -1212,7 +1204,7 @@
     "feed (7 itens)",
     "texto de 14 página(s)"
    ],
-   "caracteres": 35191,
+   "caracteres": 35164,
    "url_final": "https://grupoestacao.com.br",
    "paginas": [
     "https://grupoestacao.com.br",
@@ -1244,11 +1236,11 @@
     "Zona Sul"
    ],
    "degraus": [
-    "feed (5 itens)",
+    "feed (6 itens)",
     "calendário WordPress (40 eventos)",
     "texto de 14 página(s)"
    ],
-   "caracteres": 71323,
+   "caracteres": 71558,
    "url_final": "https://ims.com.br",
    "paginas": [
     "https://ims.com.br",
@@ -1282,7 +1274,7 @@
    "degraus": [
     "texto de 4 página(s)"
    ],
-   "caracteres": 5912,
+   "caracteres": 6248,
    "url_final": "https://www.gov.br/jbrj/pt-br",
    "paginas": [
     "https://www.gov.br/jbrj/pt-br",
@@ -1607,7 +1599,7 @@
    "degraus": [
     "texto de 4 página(s)"
    ],
-   "caracteres": 1743,
+   "caracteres": 1751,
    "url_final": "https://silviacintra.com.br",
    "paginas": [
     "https://silviacintra.com.br",
@@ -1615,7 +1607,7 @@
     "https://silviacintra.com.br/en/exhibitions/",
     "https://silviacintra.com.br/exposicoes/o-silencio/"
    ],
-   "mencoes_de_data": 0,
+   "mencoes_de_data": 1,
    "situacao": "coletada, mas sem datas à vista (a programação pode ser carregada depois)",
    "arquivo": "F112.txt"
   },
@@ -1630,7 +1622,7 @@
    ],
    "degraus": [],
    "caracteres": 0,
-   "situacao": "recusou a visita (código 403)"
+   "situacao": "recusou a visita (código 522)"
   },
   {
    "ids": [
@@ -2109,7 +2101,7 @@
    "degraus": [
     "texto de 14 página(s)"
    ],
-   "caracteres": 63263,
+   "caracteres": 63269,
    "url_final": "https://www.travessa.com.br/eventos",
    "paginas": [
     "https://www.travessa.com.br/eventos",
@@ -2206,7 +2198,7 @@
    "degraus": [
     "texto de 5 página(s)"
    ],
-   "caracteres": 26285,
+   "caracteres": 26286,
    "url_final": "https://firjan.com.br/atracoes/",
    "paginas": [
     "https://firjan.com.br/atracoes/",

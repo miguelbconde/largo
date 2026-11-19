@@ -1,13 +1,13 @@
 # Ronda das fontes — resumo
 
-Feita em 2026-11-19 20:14 UTC, em 207 segundos, no serviço de automação do GitHub.
+Feita em 2026-11-19 21:48 UTC, em 183 segundos, no serviço de automação do GitHub.
 O texto recolhido dos sites não entra na linha principal do repositório nem no site: fica num ramo temporário (coleta-bruta), substituído a cada ronda, só para a redação das fichas.
 
 ## Situação
 
-- coletada: **56**
+- coletada: **55**
+- coletada, mas sem datas à vista: **15**
 - não respondeu: **15**
-- coletada, mas sem datas à vista: **14**
 - recusou a visita: **4**
 - em espera: **2**
 
@@ -18,13 +18,12 @@ O texto recolhido dos sites não entra na linha principal do repositório nem no
 | A Gentil Carioca | coletada | texto de 13 página(s) |
 | Academia Brasileira de Letras (ABL) | coletada | texto de 12 página(s) |
 | Anita Schwartz Galeria de Arte | coletada | feed (1 itens), texto de 12 página(s) |
-| Arquivo Nacional | coletada | texto de 6 página(s) |
+| Arquivo Nacional | coletada | texto de 12 página(s) |
 | ArtRio | coletada | texto de 12 página(s) |
 | Biblioteca Parque Estadual; Bibliotecas Parque de Manguinhos e Rocinha | coletada | feed (10 itens), texto de 7 página(s) |
 | CCBB Rio | coletada | texto de 12 página(s) |
 | Carioca da Gema | coletada | feed (20 itens), texto de 2 página(s) |
 | Carpintaria (Fortes D'Aloia & Gabriel) | coletada | texto de 9 página(s) |
-| Casa Firjan | coletada | texto de 12 página(s) |
 | Casa Museu Eva Klabin | coletada | texto de 13 página(s) |
 | Casa Roberto Marinho | coletada | texto de 12 página(s) |
 | Casa da Ciência da UFRJ | coletada | texto de 3 página(s) |
@@ -42,7 +41,7 @@ O texto recolhido dos sites não entra na linha principal do repositório nem no
 | Fórum de Ciência e Cultura da UFRJ | coletada | feed (1 itens), texto de 12 página(s) |
 | Galeria Athena | coletada | texto de 3 página(s) |
 | Grupo Estação (Botafogo, Gávea, Rio) | coletada | feed (7 itens), texto de 14 página(s) |
-| IMS Rio (Instituto Moreira Salles) | coletada | feed (5 itens), calendário WordPress (40 eventos), texto de 14 página(s) |
+| IMS Rio (Instituto Moreira Salles) | coletada | feed (6 itens), calendário WordPress (40 eventos), texto de 14 página(s) |
 | Jardim Botânico do Rio de Janeiro | coletada | texto de 4 página(s) |
 | LIESA / Rio Carnaval | coletada | feed (20 itens), texto de 2 página(s) |
 | Livraria da Travessa | coletada | texto de 14 página(s) |
@@ -65,7 +64,7 @@ O texto recolhido dos sites não entra na linha principal do repositório nem no
 | Teatro Multiplan | coletada | texto de 10 página(s) |
 | Teatro Poeira & Poeirinha | coletada | texto de 4 página(s) |
 | Teatro Riachuelo Rio | coletada | texto de 2 página(s) |
-| Teatro Rival Petrobras | coletada | texto de 5 página(s) |
+| Teatro Rival Petrobras | coletada | texto de 2 página(s) |
 | Teatro TotalEnergies (antigo PetraGold) | coletada | dados estruturados (5 eventos), texto de 2 página(s) |
 | Teatro das Artes | coletada | dados estruturados (19 eventos), texto de 11 página(s) |
 | Teatros Firjan SESI | coletada | texto de 5 página(s) |
@@ -74,6 +73,7 @@ O texto recolhido dos sites não entra na linha principal do repositório nem no
 | Beco das Garrafas | coletada, mas sem datas à vista (a programação pode ser carregada depois) | texto de 2 página(s) |
 | Blue Note Rio | coletada, mas sem datas à vista (a programação pode ser carregada depois) | texto de 3 página(s) |
 | Caixa Cultural Rio de Janeiro | coletada, mas sem datas à vista (a programação pode ser carregada depois) | texto de 1 página(s) |
+| Casa Firjan | coletada, mas sem datas à vista (a programação pode ser carregada depois) | texto de 1 página(s) |
 | Casa do Choro | coletada, mas sem datas à vista (a programação pode ser carregada depois) | texto de 1 página(s) |
 | Cinesystem Belas Artes Botafogo | coletada, mas sem datas à vista (a programação pode ser carregada depois) | texto de 1 página(s) |
 | Circo Voador | coletada, mas sem datas à vista (a programação pode ser carregada depois) | texto de 1 página(s) |
@@ -103,6 +103,6 @@ O texto recolhido dos sites não entra na linha principal do repositório nem no
 | Imperator (Centro Cultural João Nogueira) | não respondeu: URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1011)> |  |
 | Centro Cultural da UERJ (Teatro Odylo Costa Filho e outros) | não respondeu: URLError: <urlopen error timed out> |  |
 | Biblioteca Nacional | recusou a visita (código 403) |  |
-| Solar de Botafogo | recusou a visita (código 403) |  |
 | Fundação Casa de Rui Barbosa | recusou a visita (código 404) |  |
 | Teatro João Caetano; Teatro Glaucio Gill; Teatro Armando Gonzaga; Teat | recusou a visita (código 503) |  |
+| Solar de Botafogo | recusou a visita (código 522) |  |
