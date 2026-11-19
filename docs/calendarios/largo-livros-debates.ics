@@ -8,94 +8,125 @@ X-WR-TIMEZONE:America/Sao_Paulo
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:2026-11-15-015-0@largo.rio.br
-DTSTAMP:20261117T093221Z
-DTSTART:20261116T173000Z
-DTEND:20261116T193000Z
-SUMMARY:Carnaval: Memória para o Amanhã
-LOCATION:Museu do Amanhã\, Praça Mauá\, 1 – Centro
-DESCRIPTION:Roda de conversa sobre o carnaval como guardião da memória 
- de povos e territórios pouco representados.\n\nGrátis · Livre\n\nFont
+UID:2026-11-19-034-0@largo.rio.br
+DTSTAMP:20261119T035807Z
+DTSTART:20261121T170000Z
+DTEND:20261121T190000Z
+SUMMARY:Na capoeira de Carybé
+LOCATION:Centro Municipal de Arte Hélio Oiticica\, Rua Luís de Camões\
+ , 68 – Centro
+DESCRIPTION:Conversa sobre a história da capoeira\, criada por pessoas e
+ scravizadas no Brasil colonial como forma de resistência. Atividade da 
+ programação de férias.\n\nGrátis · Livre\n\nFonte: https://cultura.
+ prefeitura.rio/agendacultural/\nLargo — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Livros & Debates
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-038-0@largo.rio.br
+DTSTAMP:20261119T035807Z
+DTSTART:20261121T170000Z
+DTEND:20261121T190000Z
+SUMMARY:Encontro com Vanessa Gomes\, autora de “Fora do Lugar”
+LOCATION:Biblioteca José Bonifácio (Muhcab)\, Rua Pedro Ernesto\, 80 
+ – Gamboa
+DESCRIPTION:A escritora conversa sobre literatura\, racismo\, identidade 
+ e violência contra a mulher a partir do seu romance.\n\nGrátis\n\nFont
  e: https://cultura.prefeitura.rio/agendacultural/\nLargo — agenda cult
  ural aberta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
 CATEGORIES:Livros & Debates
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-15-018-0@largo.rio.br
-DTSTAMP:20261117T093221Z
-DTSTART:20261115T120000Z
-DTEND:20261115T140000Z
-SUMMARY:Lançamento: Vivências Pedagógicas – Terreiros e Escolas na L
- uta Antirracista
-LOCATION:Muhcab – Museu da História e da Cultura Afro-Brasileira\, Rua
-  Pedro Ernesto\, 80 – Gamboa
-DESCRIPTION:Livro organizado por Gisele Rose sobre o encontro entre escol
- a e saberes de terreiro no combate ao racismo.\n\nGrátis · Livre\n\nFo
- nte: https://cultura.prefeitura.rio/agendacultural/\nLargo — agenda cu
- ltural aberta do Rio
-URL:https://cultura.prefeitura.rio/agendacultural/
-CATEGORIES:Livros & Debates
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-15-031-0@largo.rio.br
-DTSTAMP:20261117T093221Z
-DTSTART:20261117T180000Z
-DTEND:20261117T200000Z
-SUMMARY:Clube de Leitura Infantil – Consciência Negra
-LOCATION:Biblioteca Municipal Moacyr Teixeira\,  – 
-DESCRIPTION:Leituras de livros infantis sobre a temática negra.\n\nPreç
- o não informado · Livre\n\nATENÇÃO: informação a confirmar na font
- e.\n\nFonte: https://cultura.prefeitura.rio/agendacultural/\nLargo — a
- genda cultural aberta do Rio
-URL:https://cultura.prefeitura.rio/agendacultural/
-CATEGORIES:Infantil\,Livros & Debates
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-15-031-1@largo.rio.br
-DTSTAMP:20261117T093221Z
-DTSTART:20261118T180000Z
-DTEND:20261118T200000Z
-SUMMARY:Clube de Leitura Infantil – Consciência Negra
-LOCATION:Biblioteca Municipal Moacyr Teixeira\,  – 
-DESCRIPTION:Leituras de livros infantis sobre a temática negra.\n\nPreç
- o não informado · Livre\n\nATENÇÃO: informação a confirmar na font
- e.\n\nFonte: https://cultura.prefeitura.rio/agendacultural/\nLargo — a
- genda cultural aberta do Rio
-URL:https://cultura.prefeitura.rio/agendacultural/
-CATEGORIES:Infantil\,Livros & Debates
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-15-031-2@largo.rio.br
-DTSTAMP:20261117T093221Z
+UID:2026-11-19-039-0@largo.rio.br
+DTSTAMP:20261119T035807Z
 DTSTART:20261119T180000Z
 DTEND:20261119T200000Z
-SUMMARY:Clube de Leitura Infantil – Consciência Negra
-LOCATION:Biblioteca Municipal Moacyr Teixeira\,  – 
-DESCRIPTION:Leituras de livros infantis sobre a temática negra.\n\nPreç
- o não informado · Livre\n\nATENÇÃO: informação a confirmar na font
- e.\n\nFonte: https://cultura.prefeitura.rio/agendacultural/\nLargo — a
- genda cultural aberta do Rio
+SUMMARY:Clube literário infantil
+LOCATION:Biblioteca Municipal José de Alencar\, Rua Monte Alegre\, 306 (
+ anexo ao Centro Cultural Laurinda Santos Lobo) – Santa Teresa
+DESCRIPTION:Encontro semanal de leitura de livros infantis sobre inclusã
+ o e diversidade.\n\nGrátis · Livre\n\nFonte: https://cultura.prefeitur
+ a.rio/agendacultural/\nLargo — agenda cultural aberta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
 CATEGORIES:Infantil\,Livros & Debates
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-15-048-0@largo.rio.br
-DTSTAMP:20261117T093221Z
-DTSTART:20261115T120000Z
-DTEND:20261115T140000Z
-SUMMARY:Encontro Anual de Mulheres Tèmiloju Brasil
-LOCATION:Areninha Cultural Carlos Zéfiro\, Estrada Marechal Alencastro\,
-  s/nº – Anchieta
-DESCRIPTION:Roda de conversa com mulheres e lideranças comunitárias sob
- re trajetórias femininas.\n\nGrátis · Livre\n\nFonte: https://cultura
- .prefeitura.rio/agendacultural/\nLargo — agenda cultural aberta do Rio
+UID:2026-11-19-040-0@largo.rio.br
+DTSTAMP:20261119T035807Z
+DTSTART:20261125T130000Z
+DTEND:20261125T150000Z
+SUMMARY:Mesa-redonda: O Mundo que se Quer Esconder das Crianças
+LOCATION:Biblioteca Municipal Annita Porto Martins\, Rua Sampaio Viana\, 
+ 357 – Rio Comprido
+DESCRIPTION:As autoras Nilma Lacerda e Fabíola Farias discutem o incômo
+ do na literatura infantil\, tema do livro que escreveram juntas.\n\nGrá
+ tis · 18 anos\n\nFonte: https://cultura.prefeitura.rio/agendacultural/\
+ nLargo — agenda cultural aberta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
 CATEGORIES:Livros & Debates
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-15-066-0@largo.rio.br
-DTSTAMP:20261117T093221Z
+UID:2026-11-19-042-0@largo.rio.br
+DTSTAMP:20261119T035807Z
+DTSTART:20261119T160000Z
+DTEND:20261119T180000Z
+SUMMARY:Roda de conversa com Vanessa Gomes sobre “Fora do Lugar”
+LOCATION:Biblioteca Municipal Maria Firmina dos Reis\, Rua Afonso Cavalca
+ nti\, 455 – Cidade Nova
+DESCRIPTION:A professora e escritora fala do seu romance\, que acompanha 
+ a trajetória de Júlia\, mulher negra\, e trata de racismo\, violência
+  contra a mulher e identidade.\n\nGrátis · Livre\n\nFonte: https://cul
+ tura.prefeitura.rio/agendacultural/\nLargo — agenda cultural aberta do
+  Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Livros & Debates
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-045-0@largo.rio.br
+DTSTAMP:20261119T035807Z
+DTSTART:20261121T190000Z
+DTEND:20261121T210000Z
+SUMMARY:Encontro literário: Maria e o Segredo da Poupança
+LOCATION:Biblioteca Municipal Ziraldo (Cidade das Artes)\, Av. das Améri
+ cas\, 5.300 – Barra da Tijuca
+DESCRIPTION:Encontro em torno do livro “Maria e o Segredo da Poupança
+ ”.\n\nGrátis\n\nFonte: https://cultura.prefeitura.rio/agendacultural/
+ \nLargo — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Livros & Debates\,Infantil
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-077-0@largo.rio.br
+DTSTAMP:20261119T035807Z
+DTSTART:20261119T173000Z
+DTEND:20261119T193000Z
+SUMMARY:Poexistência: Consciência Negra
+LOCATION:Biblioteca Municipal Marques Rebelo\, Rua Guapeni\, 61 – Tijuca
+DESCRIPTION:Sarau aberto em que cada pessoa pode ler textos seus ou de ou
+ tros autores\, com um poeta convidado. O tema de novembro é a Consciên
+ cia Negra.\n\nGrátis · 16 anos\n\nFonte: https://cultura.prefeitura.ri
+ o/agendacultural/\nLargo — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Livros & Debates
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-089-0@largo.rio.br
+DTSTAMP:20261119T035807Z
+DTSTART:20261119T180000Z
+DTEND:20261119T200000Z
+SUMMARY:Clube de Leitura Infantil – mês da Consciência Negra
+LOCATION:Espaço de Leitura Moacyr Teixeira\, Rua Doze\, s/nº – Santa 
+ Cruz
+DESCRIPTION:Leitura de livros infantis sobre a temática negra.\n\nGráti
+ s · Livre\n\nFonte: https://cultura.prefeitura.rio/agendacultural/\nLar
+ go — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Infantil\,Livros & Debates
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-111-0@largo.rio.br
+DTSTAMP:20261119T035807Z
 DTSTART:20261125T203000Z
 DTEND:20261125T223000Z
 SUMMARY:Clube de Leitura CCBB com Raphael Montes

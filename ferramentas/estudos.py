@@ -132,7 +132,25 @@ G3 = G2 + """
 .qb::before{width:.5em;height:.44em;border-radius:58% 42% 50% 50% / 46% 56% 44% 54%}
 """.replace("TRACO", TRACO)
 for _l, _n, _c in [("g1", "Estudo G1", G1), ("g2", "Estudo G2", G2), ("g3", "Estudo G3", G3)]:
-    ESTUDOS[_l] = {"nome": _n, "tema": ("#f8f4ec", "#143b70"), "css": _c}
+    ESTUDOS[_l] = {"arquivado": True, "nome": _n, "tema": ("#f8f4ec", "#143b70"), "css": _c}
+
+# ---- Estudos H (19/11/2026): bordas esfumadas nas caixas de "A boa". Partem do site com F e G1 aplicados. ----
+# H1: a caixa mantém o fundo, mas a borda se dissolve num halo da mesma cor. Sem barra; um ponto laranja junto do horário.
+H1 = """
+#destaques .ev{border-left:none;border-radius:22px;margin:30px 6px;padding:14px 16px;background:var(--papel2);
+  box-shadow:0 0 16px 12px var(--papel2)}
+#destaques .quando::before{content:"";display:inline-block;width:.55em;height:.55em;border-radius:50%;background:var(--sol);margin-right:.45em;vertical-align:.05em}
+"""
+# H2: mancha de aquarela. O fundo é mais forte num canto e se desfaz até sumir na página; cada caixa com um desenho um pouco diferente.
+H2 = """
+#destaques .ev{border-left:none;border-radius:0;margin:4px -18px;padding:26px 34px;
+  background:radial-gradient(ellipse closest-side at 46% 50%, var(--papel2) 0 62%, transparent 100%)}
+#destaques .ev:nth-child(even){background:radial-gradient(ellipse closest-side at 54% 50%, var(--papel2) 0 58%, transparent 100%)}
+#destaques .ev:nth-child(3n){background:radial-gradient(ellipse closest-side at 50% 46%, var(--papel2) 0 66%, transparent 100%)}
+#destaques .quando::before{content:"";display:inline-block;width:.55em;height:.55em;border-radius:50%;background:var(--sol);margin-right:.45em;vertical-align:.05em}
+"""
+for _l, _n, _c in [("h1", "Estudo H1", H1), ("h2", "Estudo H2", H2)]:
+    ESTUDOS[_l] = {"arquivado": True, "nome": _n, "tema": ("#f8f4ec", "#143b70"), "css": _c}
 
 # A escolha de modo fica guardada só no aparelho da pessoa. Sem escolha, vale a configuração do aparelho.
 TEMA_CEDO = """(function(){try{var m=localStorage.getItem('largo:tema');if(m==='claro'||m==='escuro')document.documentElement.dataset.tema=m}catch(e){}})();"""

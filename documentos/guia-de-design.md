@@ -288,6 +288,8 @@ O que os guias de uso de cor dizem, e vale como regra: azul e laranja são cores
 
 Ressalva registrada: o que mais diz "Rio" tende a ser a marca, ainda por desenhar; a mesma curva pode nascer nela.
 
+**Estudos H (19/11/2026): bordas esfumadas.** Ideia da coordenação editorial: caixas de "A boa" sem demarcação nítida, com o fundo se dissolvendo na página. Duas prévias em `docs/estudo-h1` (borda que vira halo) e `docs/estudo-h2` (mancha de aquarela), ambas sem a barra laranja, trocada por um ponto junto do horário. **Decisão:** fica como está, sem esfumado. As prévias ficam como registro.
+
 **Passos seguintes, quando for a hora:**
 1. Dois ou três estudos da mesma tela (o dia de hoje, no celular), lado a lado.
 2. Medir contraste e testar com letra ampliada e leitor de tela.

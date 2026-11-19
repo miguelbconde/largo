@@ -8,59 +8,90 @@ X-WR-TIMEZONE:America/Sao_Paulo
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:2026-11-15-027-0@largo.rio.br
-DTSTAMP:20261117T093221Z
-DTSTART:20261115T180000Z
-DTEND:20261115T200000Z
-SUMMARY:Dominguinho – João Gomes\, Jota.pê e Mestrinho
+UID:2026-11-19-044-0@largo.rio.br
+DTSTAMP:20261119T035807Z
+DTSTART:20261119T220000Z
+DTEND:20261120T000000Z
+SUMMARY:Banda Sinfônica Nacional apresenta Clássicos
 LOCATION:Cidade das Artes\, Av. das Américas\, 5.300 – Barra da Tijuca
-DESCRIPTION:Segunda etapa da turnê que reúne os três artistas numa gra
- nde roda de forró.\n\nR$ 180 a R$ 360 · 18 anos\n\nFonte: https://cult
- ura.prefeitura.rio/agendacultural/\nLargo — agenda cultural aberta do 
- Rio
+DESCRIPTION:Concerto da Banda Sinfônica Nacional.\n\nPreço não informa
+ do\n\nFonte: https://cultura.prefeitura.rio/agendacultural/\nLargo — a
+ genda cultural aberta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
 CATEGORIES:Música
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-15-028-0@largo.rio.br
-DTSTAMP:20261117T093221Z
-DTSTART:20261115T190000Z
-DTEND:20261115T210000Z
-SUMMARY:Canta o Brasil | Corais
-LOCATION:Cidade das Artes\, Av. das Américas\, 5.300 – Barra da Tijuca
-DESCRIPTION:Todos os corais do projeto do maestro Luiz Lima reunidos numa
-  só apresentação.\n\nR$ 40 a R$ 80 · Livre\n\nFonte: https://cultura
- .prefeitura.rio/agendacultural/\nLargo — agenda cultural aberta do Rio
+UID:2026-11-19-045-0@largo.rio.br
+DTSTAMP:20261119T035807Z
+DTSTART:20261121T190000Z
+DTEND:20261121T210000Z
+SUMMARY:Encontro literário: Maria e o Segredo da Poupança
+LOCATION:Biblioteca Municipal Ziraldo (Cidade das Artes)\, Av. das Améri
+ cas\, 5.300 – Barra da Tijuca
+DESCRIPTION:Encontro em torno do livro “Maria e o Segredo da Poupança
+ ”.\n\nGrátis\n\nFonte: https://cultura.prefeitura.rio/agendacultural/
+ \nLargo — agenda cultural aberta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
-CATEGORIES:Música
+CATEGORIES:Livros & Debates\,Infantil
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-15-032-0@largo.rio.br
-DTSTAMP:20261117T093221Z
-DTSTART:20261115T170000Z
-DTEND:20261115T190000Z
-SUMMARY:Consciência – Baile o Charme
+UID:2026-11-19-047-0@largo.rio.br
+DTSTAMP:20261119T035807Z
+DTSTART:20261122T140000Z
+DTEND:20261122T160000Z
+SUMMARY:Festival Quem Dança é Mais Feliz
 LOCATION:Areninha Cultural Jacob do Bandolim\, Praça do Barro Vermelho (
  Praça Geraldo Simonard)\, s/nº – Pechincha
-DESCRIPTION:Baile charme em celebração à cultura negra\, com música\,
-  dança e elegância.\n\nR$ 10 · Livre\n\nFonte: https://cultura.prefei
- tura.rio/agendacultural/\nLargo — agenda cultural aberta do Rio
+DESCRIPTION:Festival de dança que reúne diferentes estilos numa manhã 
+ de domingo na areninha do Pechincha.\n\nGrátis · Livre\n\nFonte: https
+ ://cultura.prefeitura.rio/agendacultural/\nLargo — agenda cultural abe
+ rta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-048-0@largo.rio.br
+DTSTAMP:20261119T035807Z
+DTSTART:20261120T180000Z
+DTEND:20261120T200000Z
+SUMMARY:Orquestra Agogô Carioca
+LOCATION:Centro Cultural Professora Dyla Sylvia de Sá\, Rua Barão\, 1.1
+ 80 – Praça Seca
+DESCRIPTION:A orquestra de agogôs se apresenta sob a regência de Sidcle
+ y Fernandes\, mestre de agogô do carnaval carioca.\n\nGrátis · Livre\
+ n\nFonte: https://cultura.prefeitura.rio/agendacultural/\nLargo — agen
+ da cultural aberta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
 CATEGORIES:Música
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-15-033-0@largo.rio.br
-DTSTAMP:20261117T093221Z
-DTSTART:20261118T170000Z
-DTEND:20261118T190000Z
-SUMMARY:Ecos da Diáspora: Medida Provisória
+UID:2026-11-19-049-0@largo.rio.br
+DTSTAMP:20261119T035807Z
+DTSTART:20261121T140000Z
+DTEND:20261121T160000Z
+SUMMARY:Baile Charme do Projeto Black Music Soul
 LOCATION:Centro Cultural Professora Dyla Sylvia de Sá\, Rua Barão\, 1.1
  80 – Praça Seca
-DESCRIPTION:Exibição do filme de Lázaro Ramos no projeto Ecos da Diás
- pora\, com o Cine Praça Seca.\n\nGrátis · 14 anos\n\nFonte: https://c
- ultura.prefeitura.rio/agendacultural/\nLargo — agenda cultural aberta 
- do Rio
+DESCRIPTION:Baile de charme\, tradição da cultura negra e urbana do Rio
+ \, em plena manhã de sábado na Praça Seca.\n\nGrátis · Livre\n\nFon
+ te: https://cultura.prefeitura.rio/agendacultural/\nLargo — agenda cul
+ tural aberta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
-CATEGORIES:Cinema
+CATEGORIES:Festas & Feiras\,Música
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-050-0@largo.rio.br
+DTSTAMP:20261119T035807Z
+DTSTART:20261125T170000Z
+DTEND:20261125T190000Z
+SUMMARY:Rap & Repente – Artes do Improviso
+LOCATION:Centro Cultural Professora Dyla Sylvia de Sá\, Rua Barão\, 1.1
+ 80 – Praça Seca
+DESCRIPTION:Encontro entre duas tradições de rima e improviso\, com con
+ versa sobre origens e processos de criação\, pensado para o público j
+ ovem.\n\nGrátis · 12 anos\n\nFonte: https://cultura.prefeitura.rio/age
+ ndacultural/\nLargo — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Música
 END:VEVENT
 END:VCALENDAR

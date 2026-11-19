@@ -8,30 +8,151 @@ X-WR-TIMEZONE:America/Sao_Paulo
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:2026-11-15-051-0@largo.rio.br
-DTSTAMP:20261117T093221Z
-DTSTART:20261115T150000Z
-DTEND:20261115T170000Z
-SUMMARY:Acorda & Samba convida João Martins
+UID:2026-11-19-081-0@largo.rio.br
+DTSTAMP:20261119T035807Z
+DTSTART:20261121T220000Z
+DTEND:20261122T000000Z
+SUMMARY:Felipe Ferreira – Novo
 LOCATION:Areninha Cultural Hermeto Pascoal\, Praça Primeiro de Maio\, s/
  nº – Bangu
-DESCRIPTION:Roda de samba com convidado\, feira de artesãos locais e roc
- k no encerramento.\n\nGrátis · 14 anos\n\nFonte: https://cultura.prefe
- itura.rio/agendacultural/\nLargo — agenda cultural aberta do Rio
+DESCRIPTION:Stand-up do humorista da Pavuna\, conhecido pelos vídeos nas
+  redes.\n\nR$ 35 a R$ 60 · 16 anos\n\nFonte: https://cultura.prefeitura
+ .rio/agendacultural/\nLargo — agenda cultural aberta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
-CATEGORIES:Música
+CATEGORIES:Teatro
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-15-053-0@largo.rio.br
-DTSTAMP:20261117T093221Z
-DTSTART:20261115T130000Z
-DTEND:20261115T150000Z
+UID:2026-11-19-083-0@largo.rio.br
+DTSTAMP:20261119T035807Z
+DTSTART:20261119T230000Z
+DTEND:20261120T010000Z
+SUMMARY:KD O Show
+LOCATION:Arena Cultural Abelardo Barbosa – Chacrinha\, Rua Soldado Elis
+ eu Hipólito\, s/nº – Pedra de Guaratiba
+DESCRIPTION:Kwesny e Daniel Lopes fazem um show de humor que muda a cada 
+ noite\, com a plateia ditando o rumo.\n\nR$ 35 · 14 anos\n\nFonte: http
+ s://cultura.prefeitura.rio/agendacultural/\nLargo — agenda cultural ab
+ erta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-084-0@largo.rio.br
+DTSTAMP:20261119T035807Z
+DTSTART:20261121T170000Z
+DTEND:20261121T190000Z
+SUMMARY:FIPAZO – Festival de Pole Dance\, Aéreos e Danças da Zona Oes
+ te
+LOCATION:Arena Cultural Abelardo Barbosa – Chacrinha\, Rua Soldado Elis
+ eu Hipólito\, s/nº – Pedra de Guaratiba
+DESCRIPTION:Terceira edição do festival não competitivo que reúne art
+ istas de Pedra de Guaratiba e de outras regiões em números de pole dan
+ ce\, circo e dança.\n\nR$ 30 · 16 anos\n\nFonte: https://cultura.prefe
+ itura.rio/agendacultural/\nLargo — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-084-1@largo.rio.br
+DTSTAMP:20261119T035807Z
+DTSTART:20261122T170000Z
+DTEND:20261122T190000Z
+SUMMARY:FIPAZO – Festival de Pole Dance\, Aéreos e Danças da Zona Oes
+ te
+LOCATION:Arena Cultural Abelardo Barbosa – Chacrinha\, Rua Soldado Elis
+ eu Hipólito\, s/nº – Pedra de Guaratiba
+DESCRIPTION:Terceira edição do festival não competitivo que reúne art
+ istas de Pedra de Guaratiba e de outras regiões em números de pole dan
+ ce\, circo e dança.\n\nR$ 30 · 16 anos\n\nFonte: https://cultura.prefe
+ itura.rio/agendacultural/\nLargo — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-085-0@largo.rio.br
+DTSTAMP:20261119T035807Z
+DTSTART:20261124T210000Z
+DTEND:20261124T230000Z
+SUMMARY:Alice no País das Maravilhas: O Despertar da União – O Musical
+LOCATION:Arena Cultural Abelardo Barbosa – Chacrinha\, Rua Soldado Elis
+ eu Hipólito\, s/nº – Pedra de Guaratiba
+DESCRIPTION:Entre o reino da Rainha Vermelha e o da Rainha Branca\, Alice
+  descobre que a maior batalha é saber quem ela é.\n\nR$ 50 · Livre\n\
+ nFonte: https://cultura.prefeitura.rio/agendacultural/\nLargo — agenda
+  cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-086-0@largo.rio.br
+DTSTAMP:20261119T035807Z
+DTSTART:20261122T130000Z
+DTEND:20261122T150000Z
 SUMMARY:Domingo recreativo para crianças
 LOCATION:Areninha Cultural Sandra de Sá\, Rua Doze\, 1 – Santa Cruz
-DESCRIPTION:Jogos\, brincadeiras e pintura para a criançada\, todo domin
- go.\n\nGrátis · Livre\n\nFonte: https://cultura.prefeitura.rio/agendac
- ultural/\nLargo — agenda cultural aberta do Rio
+DESCRIPTION:Jogos\, brincadeiras e pintura conduzidos pela equipe da aren
+ inha\, todo domingo.\n\nGrátis · Livre\n\nFonte: https://cultura.prefe
+ itura.rio/agendacultural/\nLargo — agenda cultural aberta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
 CATEGORIES:Infantil
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-087-0@largo.rio.br
+DTSTAMP:20261119T035807Z
+DTSTART:20261120T180000Z
+DTEND:20261120T200000Z
+SUMMARY:Celebração da Diversidade – Dia da Consciência Negra
+LOCATION:Areninha Cultural Gilberto Gil\, Av. Marechal Fontenelle\, 5.000
+  – Realengo
+DESCRIPTION:Evento da programação do Dia da Consciência Negra na areni
+ nha de Realengo. A fonte não detalha as atrações.\n\nR$ 20 a R$ 40\, 
+ ou 1 lata de leite em pó · Livre\n\nFonte: https://cultura.prefeitura.
+ rio/agendacultural/\nLargo — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Festas & Feiras
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-088-0@largo.rio.br
+DTSTAMP:20261119T035807Z
+DTSTART:20261121T220000Z
+DTEND:20261122T000000Z
+SUMMARY:No Ritmo do Circo
+LOCATION:Areninha Cultural Gilberto Gil\, Av. Marechal Fontenelle\, 5.000
+  – Realengo
+DESCRIPTION:Espetáculo de circo na areninha de Realengo. A fonte não tr
+ az mais detalhes.\n\nR$ 40 · Livre\n\nFonte: https://cultura.prefeitura
+ .rio/agendacultural/\nLargo — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Teatro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-089-0@largo.rio.br
+DTSTAMP:20261119T035807Z
+DTSTART:20261119T180000Z
+DTEND:20261119T200000Z
+SUMMARY:Clube de Leitura Infantil – mês da Consciência Negra
+LOCATION:Espaço de Leitura Moacyr Teixeira\, Rua Doze\, s/nº – Santa 
+ Cruz
+DESCRIPTION:Leitura de livros infantis sobre a temática negra.\n\nGráti
+ s · Livre\n\nFonte: https://cultura.prefeitura.rio/agendacultural/\nLar
+ go — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Infantil\,Livros & Debates
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-096-0@largo.rio.br
+DTSTAMP:20261119T035807Z
+DTSTART:20261120T160000Z
+DTEND:20261120T180000Z
+SUMMARY:Festival Terreiro 2026 – Dia da Consciência Negra
+LOCATION:Praça das Juras\, Praça das Juras (referência: Nave do Conhec
+ imento de Padre Miguel) – Padre Miguel
+DESCRIPTION:Do começo da tarde à meia-noite na praça: samba\, jongo e 
+ cultura popular\, com Sombrinha\, Jongo da Serrinha e o festival infanti
+ l Terreirinho. Do Terreiro de Crioulo.\n\nGrátis (ingresso colaborativo
+  opcional)\n\nFonte: https://cultura.prefeitura.rio/agendacultural/\nLar
+ go — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Música\,Festas & Feiras\,Infantil
 END:VEVENT
 END:VCALENDAR

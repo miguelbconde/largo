@@ -8,291 +8,232 @@ X-WR-TIMEZONE:America/Sao_Paulo
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:2026-11-15-004-0@largo.rio.br
-DTSTAMP:20261117T093221Z
-DTSTART:20261115T220000Z
-DTEND:20261116T000000Z
-SUMMARY:Nada sob Controle
-LOCATION:Teatro Municipal Café Pequeno\, Av. Ataulfo de Paiva\, 269 – 
- Leblon
-DESCRIPTION:Comédia circense do Circo Teatro Saltimbanco\, com palhaços
- \, desencontros e improviso na tradição do circo brasileiro.\n\nR$ 15 
- a R$ 30 · 14 anos\n\nATENÇÃO: informação a confirmar na fonte.\n\nF
- onte: https://cultura.prefeitura.rio/agendacultural/\nLargo — agenda c
- ultural aberta do Rio
-URL:https://cultura.prefeitura.rio/agendacultural/
-CATEGORIES:Teatro\,Infantil
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-15-004-1@largo.rio.br
-DTSTAMP:20261117T093221Z
-DTSTART:20261120T230000Z
-DTEND:20261121T010000Z
-SUMMARY:Nada sob Controle
-LOCATION:Teatro Municipal Café Pequeno\, Av. Ataulfo de Paiva\, 269 – 
- Leblon
-DESCRIPTION:Comédia circense do Circo Teatro Saltimbanco\, com palhaços
- \, desencontros e improviso na tradição do circo brasileiro.\n\nR$ 15 
- a R$ 30 · 14 anos\n\nATENÇÃO: informação a confirmar na fonte.\n\nF
- onte: https://cultura.prefeitura.rio/agendacultural/\nLargo — agenda c
- ultural aberta do Rio
-URL:https://cultura.prefeitura.rio/agendacultural/
-CATEGORIES:Teatro\,Infantil
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-15-004-2@largo.rio.br
-DTSTAMP:20261117T093221Z
-DTSTART:20261121T230000Z
-DTEND:20261122T010000Z
-SUMMARY:Nada sob Controle
-LOCATION:Teatro Municipal Café Pequeno\, Av. Ataulfo de Paiva\, 269 – 
- Leblon
-DESCRIPTION:Comédia circense do Circo Teatro Saltimbanco\, com palhaços
- \, desencontros e improviso na tradição do circo brasileiro.\n\nR$ 15 
- a R$ 30 · 14 anos\n\nATENÇÃO: informação a confirmar na fonte.\n\nF
- onte: https://cultura.prefeitura.rio/agendacultural/\nLargo — agenda c
- ultural aberta do Rio
-URL:https://cultura.prefeitura.rio/agendacultural/
-CATEGORIES:Teatro\,Infantil
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-15-004-3@largo.rio.br
-DTSTAMP:20261117T093221Z
-DTSTART:20261122T220000Z
-DTEND:20261123T000000Z
-SUMMARY:Nada sob Controle
-LOCATION:Teatro Municipal Café Pequeno\, Av. Ataulfo de Paiva\, 269 – 
- Leblon
-DESCRIPTION:Comédia circense do Circo Teatro Saltimbanco\, com palhaços
- \, desencontros e improviso na tradição do circo brasileiro.\n\nR$ 15 
- a R$ 30 · 14 anos\n\nATENÇÃO: informação a confirmar na fonte.\n\nF
- onte: https://cultura.prefeitura.rio/agendacultural/\nLargo — agenda c
- ultural aberta do Rio
-URL:https://cultura.prefeitura.rio/agendacultural/
-CATEGORIES:Teatro\,Infantil
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-15-007-0@largo.rio.br
-DTSTAMP:20261117T093221Z
-DTSTART:20261115T180000Z
-DTEND:20261115T200000Z
-SUMMARY:O Salto – 20 Anos
+UID:2026-11-19-007-0@largo.rio.br
+DTSTAMP:20261119T035807Z
+DTSTART:20261120T140000Z
+DTEND:20261120T160000Z
+SUMMARY:A Menina Dança
 LOCATION:Teatro de Fantoches e Marionetes Carlos Werneck de Carvalho\, At
  erro do Flamengo\, altura do Posto 3 – Flamengo
-DESCRIPTION:O palhaço Migué Bruguelo promete três saltos de olhos vend
- ados — e até lá tudo pode acontecer.\n\nGrátis · Livre\n\nFonte: h
- ttps://cultura.prefeitura.rio/agendacultural/\nLargo — agenda cultural
-  aberta do Rio
+DESCRIPTION:Dança-teatro para crianças sobre Maria Felipa de Oliveira\,
+  marisqueira negra e heroína da Independência da Bahia\, com maracatu\
+ , jongo\, maculelê e samba de roda.\n\nGrátis · Livre\n\nATENÇÃO: i
+ nformação a confirmar na fonte.\n\nFonte: https://cultura.prefeitura.r
+ io/agendacultural/\nLargo — agenda cultural aberta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
 CATEGORIES:Infantil\,Teatro
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-15-013-0@largo.rio.br
-DTSTAMP:20261117T093221Z
-DTSTART:20261115T140000Z
-DTEND:20261115T160000Z
-SUMMARY:Zuzuê Contos Africanos
-LOCATION:Teatro Municipal Ruth de Souza\, Rua Murtinho Nobre\, 169 – Sa
- nta Teresa
-DESCRIPTION:Narração de histórias afro-diaspóricas\, com Libras integ
- rada à cena. Cerca de 50 minutos.\n\nR$ 20 a R$ 40 · Livre\n\nFonte: h
- ttps://cultura.prefeitura.rio/agendacultural/\nLargo — agenda cultural
-  aberta do Rio
-URL:https://cultura.prefeitura.rio/agendacultural/
-CATEGORIES:Infantil\,Teatro
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-15-013-1@largo.rio.br
-DTSTAMP:20261117T093221Z
+UID:2026-11-19-019-0@largo.rio.br
+DTSTAMP:20261119T035807Z
 DTSTART:20261121T140000Z
 DTEND:20261121T160000Z
 SUMMARY:Zuzuê Contos Africanos
 LOCATION:Teatro Municipal Ruth de Souza\, Rua Murtinho Nobre\, 169 – Sa
  nta Teresa
-DESCRIPTION:Narração de histórias afro-diaspóricas\, com Libras integ
- rada à cena. Cerca de 50 minutos.\n\nR$ 20 a R$ 40 · Livre\n\nFonte: h
- ttps://cultura.prefeitura.rio/agendacultural/\nLargo — agenda cultural
-  aberta do Rio
+DESCRIPTION:Paulinha Cavalcanti\, Anderson Barreto e Árvore Vicente narr
+ am histórias afro-diaspóricas\, com Libras integrada à cena. Cerca de
+  50 minutos.\n\nR$ 20 a R$ 40 · Livre\n\nFonte: https://cultura.prefeit
+ ura.rio/agendacultural/\nLargo — agenda cultural aberta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
 CATEGORIES:Infantil\,Teatro
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-15-013-2@largo.rio.br
-DTSTAMP:20261117T093221Z
+UID:2026-11-19-019-1@largo.rio.br
+DTSTAMP:20261119T035807Z
 DTSTART:20261122T140000Z
 DTEND:20261122T160000Z
 SUMMARY:Zuzuê Contos Africanos
 LOCATION:Teatro Municipal Ruth de Souza\, Rua Murtinho Nobre\, 169 – Sa
  nta Teresa
-DESCRIPTION:Narração de histórias afro-diaspóricas\, com Libras integ
- rada à cena. Cerca de 50 minutos.\n\nR$ 20 a R$ 40 · Livre\n\nFonte: h
- ttps://cultura.prefeitura.rio/agendacultural/\nLargo — agenda cultural
-  aberta do Rio
+DESCRIPTION:Paulinha Cavalcanti\, Anderson Barreto e Árvore Vicente narr
+ am histórias afro-diaspóricas\, com Libras integrada à cena. Cerca de
+  50 minutos.\n\nR$ 20 a R$ 40 · Livre\n\nFonte: https://cultura.prefeit
+ ura.rio/agendacultural/\nLargo — agenda cultural aberta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
 CATEGORIES:Infantil\,Teatro
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-15-031-0@largo.rio.br
-DTSTAMP:20261117T093221Z
-DTSTART:20261117T180000Z
-DTEND:20261117T200000Z
-SUMMARY:Clube de Leitura Infantil – Consciência Negra
-LOCATION:Biblioteca Municipal Moacyr Teixeira\,  – 
-DESCRIPTION:Leituras de livros infantis sobre a temática negra.\n\nPreç
- o não informado · Livre\n\nATENÇÃO: informação a confirmar na font
- e.\n\nFonte: https://cultura.prefeitura.rio/agendacultural/\nLargo — a
- genda cultural aberta do Rio
+UID:2026-11-19-029-0@largo.rio.br
+DTSTAMP:20261119T035807Z
+DTSTART:20261121T130000Z
+DTEND:20261121T150000Z
+SUMMARY:Bebês no MAR – exposição Guilherme Kid
+LOCATION:Museu de Arte do Rio (MAR)\, Praça Mauá\, 5 – Centro
+DESCRIPTION:Visita educativa para bebês de 0 a 2 anos e suas famílias. 
+ É preciso se inscrever pelo link nas redes do museu.\n\nGrátis (com in
+ scrição) · Livre\n\nFonte: https://cultura.prefeitura.rio/agendacultu
+ ral/\nLargo — agenda cultural aberta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
-CATEGORIES:Infantil\,Livros & Debates
+CATEGORIES:Infantil\,Artes Visuais
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-15-031-1@largo.rio.br
-DTSTAMP:20261117T093221Z
-DTSTART:20261118T180000Z
-DTEND:20261118T200000Z
-SUMMARY:Clube de Leitura Infantil – Consciência Negra
-LOCATION:Biblioteca Municipal Moacyr Teixeira\,  – 
-DESCRIPTION:Leituras de livros infantis sobre a temática negra.\n\nPreç
- o não informado · Livre\n\nATENÇÃO: informação a confirmar na font
- e.\n\nFonte: https://cultura.prefeitura.rio/agendacultural/\nLargo — a
- genda cultural aberta do Rio
+UID:2026-11-19-029-1@largo.rio.br
+DTSTAMP:20261119T035807Z
+DTSTART:20261121T140000Z
+DTEND:20261121T160000Z
+SUMMARY:Bebês no MAR – exposição Guilherme Kid
+LOCATION:Museu de Arte do Rio (MAR)\, Praça Mauá\, 5 – Centro
+DESCRIPTION:Visita educativa para bebês de 0 a 2 anos e suas famílias. 
+ É preciso se inscrever pelo link nas redes do museu.\n\nGrátis (com in
+ scrição) · Livre\n\nFonte: https://cultura.prefeitura.rio/agendacultu
+ ral/\nLargo — agenda cultural aberta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
-CATEGORIES:Infantil\,Livros & Debates
+CATEGORIES:Infantil\,Artes Visuais
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-15-031-2@largo.rio.br
-DTSTAMP:20261117T093221Z
+UID:2026-11-19-039-0@largo.rio.br
+DTSTAMP:20261119T035807Z
 DTSTART:20261119T180000Z
 DTEND:20261119T200000Z
-SUMMARY:Clube de Leitura Infantil – Consciência Negra
-LOCATION:Biblioteca Municipal Moacyr Teixeira\,  – 
-DESCRIPTION:Leituras de livros infantis sobre a temática negra.\n\nPreç
- o não informado · Livre\n\nATENÇÃO: informação a confirmar na font
- e.\n\nFonte: https://cultura.prefeitura.rio/agendacultural/\nLargo — a
- genda cultural aberta do Rio
+SUMMARY:Clube literário infantil
+LOCATION:Biblioteca Municipal José de Alencar\, Rua Monte Alegre\, 306 (
+ anexo ao Centro Cultural Laurinda Santos Lobo) – Santa Teresa
+DESCRIPTION:Encontro semanal de leitura de livros infantis sobre inclusã
+ o e diversidade.\n\nGrátis · Livre\n\nFonte: https://cultura.prefeitur
+ a.rio/agendacultural/\nLargo — agenda cultural aberta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
 CATEGORIES:Infantil\,Livros & Debates
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-15-035-0@largo.rio.br
-DTSTAMP:20261117T093221Z
-DTSTART:20261115T190000Z
-DTEND:20261115T210000Z
-SUMMARY:Quintal
-LOCATION:Teatro Municipal Ziembinski\, Rua Heitor Beltrão\, s/nº – Ti
- juca
-DESCRIPTION:Cinco crianças do subúrbio lutam para salvar o quintal onde
-  brincam da especulação imobiliária.\n\nR$ 20 a R$ 40 · Livre\n\nFon
- te: https://cultura.prefeitura.rio/agendacultural/\nLargo — agenda cul
- tural aberta do Rio
+UID:2026-11-19-045-0@largo.rio.br
+DTSTAMP:20261119T035807Z
+DTSTART:20261121T190000Z
+DTEND:20261121T210000Z
+SUMMARY:Encontro literário: Maria e o Segredo da Poupança
+LOCATION:Biblioteca Municipal Ziraldo (Cidade das Artes)\, Av. das Améri
+ cas\, 5.300 – Barra da Tijuca
+DESCRIPTION:Encontro em torno do livro “Maria e o Segredo da Poupança
+ ”.\n\nGrátis\n\nFonte: https://cultura.prefeitura.rio/agendacultural/
+ \nLargo — agenda cultural aberta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
-CATEGORIES:Infantil\,Teatro
+CATEGORIES:Livros & Debates\,Infantil
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-15-035-1@largo.rio.br
-DTSTAMP:20261117T093221Z
+UID:2026-11-19-054-0@largo.rio.br
+DTSTAMP:20261119T035807Z
 DTSTART:20261121T190000Z
 DTEND:20261121T210000Z
 SUMMARY:Quintal
 LOCATION:Teatro Municipal Ziembinski\, Rua Heitor Beltrão\, s/nº – Ti
  juca
-DESCRIPTION:Cinco crianças do subúrbio lutam para salvar o quintal onde
-  brincam da especulação imobiliária.\n\nR$ 20 a R$ 40 · Livre\n\nFon
- te: https://cultura.prefeitura.rio/agendacultural/\nLargo — agenda cul
- tural aberta do Rio
+DESCRIPTION:Cinco crianças do subúrbio estão prestes a perder o quinta
+ l onde brincam para um condomínio de luxo. Infantojuvenil sobre a memó
+ ria dos bairros e o direito de brincar. Último fim de semana.\n\nR$ 20 
+ a R$ 40 · Livre\n\nFonte: https://cultura.prefeitura.rio/agendacultural
+ /\nLargo — agenda cultural aberta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
 CATEGORIES:Infantil\,Teatro
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-15-035-2@largo.rio.br
-DTSTAMP:20261117T093221Z
+UID:2026-11-19-054-1@largo.rio.br
+DTSTAMP:20261119T035807Z
 DTSTART:20261122T190000Z
 DTEND:20261122T210000Z
 SUMMARY:Quintal
 LOCATION:Teatro Municipal Ziembinski\, Rua Heitor Beltrão\, s/nº – Ti
  juca
-DESCRIPTION:Cinco crianças do subúrbio lutam para salvar o quintal onde
-  brincam da especulação imobiliária.\n\nR$ 20 a R$ 40 · Livre\n\nFon
- te: https://cultura.prefeitura.rio/agendacultural/\nLargo — agenda cul
- tural aberta do Rio
+DESCRIPTION:Cinco crianças do subúrbio estão prestes a perder o quinta
+ l onde brincam para um condomínio de luxo. Infantojuvenil sobre a memó
+ ria dos bairros e o direito de brincar. Último fim de semana.\n\nR$ 20 
+ a R$ 40 · Livre\n\nFonte: https://cultura.prefeitura.rio/agendacultural
+ /\nLargo — agenda cultural aberta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
 CATEGORIES:Infantil\,Teatro
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-15-037-0@largo.rio.br
-DTSTAMP:20261117T093221Z
-DTSTART:20261115T190000Z
-DTEND:20261115T210000Z
-SUMMARY:SuperAções
+UID:2026-11-19-055-0@largo.rio.br
+DTSTAMP:20261119T035807Z
+DTSTART:20261120T190000Z
+DTEND:20261120T210000Z
+SUMMARY:A Menina Dança
 LOCATION:Teatro Municipal de Guignol da Tijuca\, Praça Comandante Xavier
   de Brito\, s/nº – Tijuca
-DESCRIPTION:Monólogo circense-musical: um homem-banda toca até 11 instr
- umentos ao mesmo tempo e se equilibra em pernas de pau.\n\nGrátis · Li
- vre\n\nFonte: https://cultura.prefeitura.rio/agendacultural/\nLargo — 
- agenda cultural aberta do Rio
+DESCRIPTION:Dança-teatro para crianças sobre Maria Felipa de Oliveira\,
+  marisqueira negra e heroína da Independência da Bahia\, com maracatu\
+ , jongo\, maculelê e samba de roda.\n\nGrátis · Livre\n\nFonte: https
+ ://cultura.prefeitura.rio/agendacultural/\nLargo — agenda cultural abe
+ rta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
-CATEGORIES:Infantil\,Música
+CATEGORIES:Infantil\,Teatro
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-15-039-0@largo.rio.br
-DTSTAMP:20261117T093221Z
-DTSTART:20261115T190000Z
-DTEND:20261115T210000Z
-SUMMARY:Pérolas Negras – Histórias da Mãe África
+UID:2026-11-19-060-0@largo.rio.br
+DTSTAMP:20261119T035807Z
+DTSTART:20261122T190000Z
+DTEND:20261122T210000Z
+SUMMARY:Meu Amigo Tempo – O Tempo Também Brinca
 LOCATION:Centro da Música Carioca Artur da Távola\, Rua Conde de Bonfim
  \, 824 – Tijuca
-DESCRIPTION:A Cia. Mimos conta três histórias da tradição oral africa
- na com mímica\, objetos e música ao vivo.\n\nR$ 20 a R$ 40 · Livre\n\
- nFonte: https://cultura.prefeitura.rio/agendacultural/\nLargo — agenda
-  cultural aberta do Rio
-URL:https://cultura.prefeitura.rio/agendacultural/
-CATEGORIES:Infantil\,Teatro
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-15-043-0@largo.rio.br
-DTSTAMP:20261117T093221Z
-DTSTART:20261115T180000Z
-DTEND:20261115T200000Z
-SUMMARY:Aladdin – Um Novo Mundo
-LOCATION:Arena Carioca Dicró\, Rua Flora Lobo\, Parque Ary Barroso\, s/n
- º – Penha Circular
-DESCRIPTION:Montagem infantil da história do jovem que encontra uma lâm
- pada mágica.\n\nR$ 20 a R$ 40 · Livre\n\nFonte: https://cultura.prefei
- tura.rio/agendacultural/\nLargo — agenda cultural aberta do Rio
-URL:https://cultura.prefeitura.rio/agendacultural/
-CATEGORIES:Infantil\,Teatro
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-15-049-0@largo.rio.br
-DTSTAMP:20261117T093221Z
-DTSTART:20261116T200000Z
-DTEND:20261116T220000Z
-SUMMARY:Cine Jorge Amado: Autoestima de Crianças Negras
-LOCATION:Biblioteca Municipal Jorge Amado (Areninha Herbert Vianna)\, Rua
-  Ivanildo Alves\, s/nº – Maré
-DESCRIPTION:Exibição sobre a formação da identidade étnica e o empod
- eramento de crianças negras.\n\nGrátis · Livre\n\nFonte: https://cult
- ura.prefeitura.rio/agendacultural/\nLargo — agenda cultural aberta do 
- Rio
-URL:https://cultura.prefeitura.rio/agendacultural/
-CATEGORIES:Cinema\,Infantil
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-15-053-0@largo.rio.br
-DTSTAMP:20261117T093221Z
-DTSTART:20261115T130000Z
-DTEND:20261115T150000Z
-SUMMARY:Domingo recreativo para crianças
-LOCATION:Areninha Cultural Sandra de Sá\, Rua Doze\, 1 – Santa Cruz
-DESCRIPTION:Jogos\, brincadeiras e pintura para a criançada\, todo domin
- go.\n\nGrátis · Livre\n\nFonte: https://cultura.prefeitura.rio/agendac
- ultural/\nLargo — agenda cultural aberta do Rio
+DESCRIPTION:A escritora Luana Rodrigues conduz brincadeiras e uma Caixa d
+ as Memórias antes de contar as histórias do seu livro “Meu Amigo Tem
+ po”. No Domingo das Crianças.\n\nR$ 10 a R$ 20 · Livre\n\nFonte: htt
+ ps://cultura.prefeitura.rio/agendacultural/\nLargo — agenda cultural a
+ berta do Rio
 URL:https://cultura.prefeitura.rio/agendacultural/
 CATEGORIES:Infantil
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-15-064-0@largo.rio.br
-DTSTAMP:20261117T093221Z
+UID:2026-11-19-065-0@largo.rio.br
+DTSTAMP:20261119T035807Z
+DTSTART:20261121T130000Z
+DTEND:20261121T150000Z
+SUMMARY:Contação de histórias: Mapa do Tesouro
+LOCATION:Arena Cultural Dicró\, Rua Flora Lobo\, Parque Ary Barroso\, s/
+ nº – Penha Circular
+DESCRIPTION:Um pirata sai atrás de ouro e\, no caminho\, encontra o meni
+ no Dayo e sua avó\, que vive perto do rio. Com Juliana Dandarilê\, na 
+ Agroflorestinha da arena.\n\nGrátis · Livre\n\nFonte: https://cultura.
+ prefeitura.rio/agendacultural/\nLargo — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Infantil
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-086-0@largo.rio.br
+DTSTAMP:20261119T035807Z
+DTSTART:20261122T130000Z
+DTEND:20261122T150000Z
+SUMMARY:Domingo recreativo para crianças
+LOCATION:Areninha Cultural Sandra de Sá\, Rua Doze\, 1 – Santa Cruz
+DESCRIPTION:Jogos\, brincadeiras e pintura conduzidos pela equipe da aren
+ inha\, todo domingo.\n\nGrátis · Livre\n\nFonte: https://cultura.prefe
+ itura.rio/agendacultural/\nLargo — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Infantil
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-089-0@largo.rio.br
+DTSTAMP:20261119T035807Z
+DTSTART:20261119T180000Z
+DTEND:20261119T200000Z
+SUMMARY:Clube de Leitura Infantil – mês da Consciência Negra
+LOCATION:Espaço de Leitura Moacyr Teixeira\, Rua Doze\, s/nº – Santa 
+ Cruz
+DESCRIPTION:Leitura de livros infantis sobre a temática negra.\n\nGráti
+ s · Livre\n\nFonte: https://cultura.prefeitura.rio/agendacultural/\nLar
+ go — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Infantil\,Livros & Debates
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-096-0@largo.rio.br
+DTSTAMP:20261119T035807Z
+DTSTART:20261120T160000Z
+DTEND:20261120T180000Z
+SUMMARY:Festival Terreiro 2026 – Dia da Consciência Negra
+LOCATION:Praça das Juras\, Praça das Juras (referência: Nave do Conhec
+ imento de Padre Miguel) – Padre Miguel
+DESCRIPTION:Do começo da tarde à meia-noite na praça: samba\, jongo e 
+ cultura popular\, com Sombrinha\, Jongo da Serrinha e o festival infanti
+ l Terreirinho. Do Terreiro de Crioulo.\n\nGrátis (ingresso colaborativo
+  opcional)\n\nFonte: https://cultura.prefeitura.rio/agendacultural/\nLar
+ go — agenda cultural aberta do Rio
+URL:https://cultura.prefeitura.rio/agendacultural/
+CATEGORIES:Música\,Festas & Feiras\,Infantil
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-109-0@largo.rio.br
+DTSTAMP:20261119T035807Z
 DTSTART:20261121T190000Z
 DTEND:20261121T210000Z
 SUMMARY:Sudi – O Elogio da Surdez
@@ -308,8 +249,8 @@ URL:https://ccbb.com.br/rio-de-janeiro/programacao/sudi-o-elogio-da-surde
 CATEGORIES:Infantil\,Teatro
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-15-064-1@largo.rio.br
-DTSTAMP:20261117T093221Z
+UID:2026-11-19-109-1@largo.rio.br
+DTSTAMP:20261119T035807Z
 DTSTART:20261122T190000Z
 DTEND:20261122T210000Z
 SUMMARY:Sudi – O Elogio da Surdez
