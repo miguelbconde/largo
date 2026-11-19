@@ -175,7 +175,7 @@ def ics(nome, eventos, carimbo, so_sessoes=None):
 
 # ---------------------------------------------------------------- buscadores
 # Endereço público do site. Trocar aqui quando o domínio próprio estiver no ar.
-SITE = "https://miguelbconde.github.io/largo/"
+SITE = "https://miguelbconde.github.io/todososrios/"  # provisório, até todososrios.rio entrar no ar
 URL_LANG = {"pt": SITE, "en": SITE + "en/", "es": SITE + "es/"}
 CAB = {
     "pt": ("Todos os Rios · O que fazer no Rio hoje — agenda cultural gratuita e aberta",

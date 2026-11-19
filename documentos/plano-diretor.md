@@ -206,7 +206,7 @@ A coleta e a curadoria podem rodar como uma **tarefa agendada** feita por mim, c
 ### Mudança no modo de trabalho (17/11/2026)
 
 O app Claude foi desinstalado do computador do projeto. O trabalho passa a ser feito só pelo navegador. Consequências:
-- **O projeto mora no GitHub**, em `github.com/miguelbconde/largo` (repositório público, criado em 17/11/2026). Ele substitui a pasta do computador e o `.zip`. O site publicado fica na pasta `docs/` e os documentos em `documentos/`. Imagens de referência de terceiros ficam fora do repositório.
+- **O projeto mora no GitHub**, em `github.com/miguelbconde/todososrios` (repositório público, criado em 17/11/2026). Ele substitui a pasta do computador e o `.zip`. O site publicado fica na pasta `docs/` e os documentos em `documentos/`. Imagens de referência de terceiros ficam fora do repositório.
 - **Sem o navegador do computador para a coleta.** Os sites que bloqueiam o acesso a partir da nuvem, como o da Secretaria Municipal de Cultura, dependem de a coordenação editorial baixar o PDF semanal e anexá-lo na conversa (cerca de um minuto por semana). O pedido de dados abertos à Prefeitura fica ainda mais importante.
 - Os sites que abrem pela nuvem continuam sendo lidos diretamente.
 

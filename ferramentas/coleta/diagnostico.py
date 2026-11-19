@@ -14,7 +14,7 @@ from concurrent.futures import ThreadPoolExecutor
 from urllib.parse import urljoin, urlparse
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-AGENTE = "TodosOsRiosBot/0.1 (agenda cultural aberta do Rio; +https://github.com/miguelbconde/largo)"
+AGENTE = "TodosOsRiosBot/0.1 (agenda cultural aberta do Rio; +https://github.com/miguelbconde/todososrios)"
 LIMITE = 600_000  # bytes lidos por página, no máximo
 
 

@@ -6,7 +6,7 @@ Este documento descreve como a programação sai das fontes e chega ao site. Val
 
 ## 0. Antes de começar
 
-1. O projeto mora em `github.com/miguelbconde/largo`. Se não houver um clone local, ligue o repositório (com permissão de envio) e clone.
+1. O projeto mora em `github.com/miguelbconde/todososrios`. Se não houver um clone local, ligue o repositório (com permissão de envio) e clone.
 2. Leia `CLAUDE.md`, as seções 4 (critérios editoriais) e 8 (dupla checagem) de `documentos/plano-diretor.md`, e este protocolo inteiro.
 3. Descubra a data de hoje no fuso de Brasília. A edição vai de quinta a quarta: o identificador da edição é a data da quinta-feira mais recente (hoje, se for quinta), no formato `AAAA-MM-DD`.
 4. Regras que não mudam:
