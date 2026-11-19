@@ -7,7 +7,8 @@ O QUE FAZ
     1. feed (RSS/Atom) do site;
     2. eventos em dados estruturados (as fichas que os sites embutem para os buscadores);
     3. calendário de eventos do WordPress, quando o site oferece;
-    4. texto da página inicial e de até 4 páginas de programação ligadas a ela.
+    4. texto da página inicial, de até 3 páginas de programação ligadas a ela e de até 10
+       páginas de eventos individuais ligadas a essas (onde costumam estar hora e preço).
   Não interpreta nada: só recolhe. A redação das fichas e a dupla checagem vêm depois.
 
 O QUE NÃO FAZ
@@ -46,7 +47,9 @@ NO_REPOSITORIO = os.path.exists(os.path.join(RAIZ, "dados", "fontes.csv"))
 
 ESPERA = 25              # segundos por visita
 MAX_PAGINA = 14_000      # caracteres de texto guardados por página
-MAX_PAGINAS_PROG = 4     # páginas de programação seguidas a partir da inicial
+MAX_PAGINAS_PROG = 3     # páginas de listagem (programação, agenda...) seguidas a partir da inicial
+MAX_DETALHES = 10        # páginas de eventos individuais seguidas a partir das listagens
+MAX_DETALHE = 6_000      # caracteres guardados por página de evento
 MAX_ITENS = 40           # itens por feed ou por calendário
 DIAS_FEED = 45           # itens de feed mais antigos que isso ficam de fora
 PAUSA = 1.0              # segundos entre visitas ao mesmo site
@@ -160,6 +163,23 @@ def links_de_programacao(h, endereco):
             achados.append((caminho.strip("/").count("/"), len(caminho), link, rotulo))
     achados.sort()
     return [(l, r) for _, _, l, r in achados[:MAX_PAGINAS_PROG]]
+
+
+def links_de_detalhe(h, endereco, ja_vistos):
+    """Links para páginas de eventos individuais, na ordem em que aparecem na listagem."""
+    host = urlparse(endereco).netloc.replace("www.", "")
+    fundo = urlparse(endereco).path.strip("/").count("/")
+    saida = []
+    for m in re.finditer(r'<a\b[^>]*href=["\']([^"\']+)["\']', h, re.I):
+        link = urljoin(endereco, html.unescape(m.group(1)).strip()).split("#")[0]
+        chave = link.rstrip("/")
+        caminho = urlparse(link).path
+        if urlparse(link).netloc.replace("www.", "") != host or NAO_PROG.search(link) or chave in ja_vistos:
+            continue
+        if caminho.strip("/").count("/") > fundo or (PROG.search(caminho) and len(caminho.strip("/")) > 12):
+            ja_vistos.add(chave)
+            saida.append(link)
+    return saida
 
 
 def feeds_da_pagina(h, endereco):
@@ -317,25 +337,46 @@ def coletar(grupo):
             r["degraus"].append(f"calendário WordPress ({len(cal)} eventos)")
             partes += ["## EVENTOS (calendário do site)"] + ["- " + c for c in cal] + [""]
 
-    # degrau 4: texto das páginas
-    paginas = [(final, "página inicial", h)]
+    # degrau 4: texto das páginas (inicial, listagens e eventos individuais)
+    paginas = [(final, "página inicial", h, MAX_PAGINA)]
+    vistos = {final.rstrip("/")}
+    detalhes = []
     for link, rotulo in links_de_programacao(h, final):
+        time.sleep(PAUSA)
+        if link.rstrip("/") in vistos or not permitido(link):
+            continue
+        vistos.add(link.rstrip("/"))
+        s3, f3, t3, h3 = baixar(link)
+        if s3 == 200 and "html" in (t3 or "html").lower():
+            paginas.append((f3, "listagem: " + (rotulo or "programação"), h3, MAX_PAGINA))
+            ev += eventos_estruturados(h3)
+            detalhes += links_de_detalhe(h3, f3, vistos)
+    if len(paginas) == 1:      # nenhuma listagem achada: os eventos podem estar ligados direto na inicial
+        detalhes = links_de_detalhe(h, final, vistos)
+        detalhes = [l for l in detalhes if PROG.search(urlparse(l).path)]
+    for link in detalhes[:MAX_DETALHES]:
         time.sleep(PAUSA)
         if not permitido(link):
             continue
-        s3, f3, t3, h3 = baixar(link)
-        if s3 == 200 and "html" in (t3 or "html").lower():
-            paginas.append((f3, rotulo or "programação", h3))
-            ev += eventos_estruturados(h3)
+        s4, f4, t4, h4 = baixar(link, 500_000)
+        if s4 == 200 and "html" in (t4 or "html").lower():
+            paginas.append((f4, "evento", h4, MAX_DETALHE))
+            ev += eventos_estruturados(h4)
     ev = list(dict.fromkeys(ev))[:MAX_ITENS]
     if ev:
         r["degraus"].append(f"dados estruturados ({len(ev)} eventos)")
         partes += ["## EVENTOS (dados estruturados da página)"] + ["- " + e for e in ev] + [""]
     com_datas = 0
-    for endereco, rotulo, hh in paginas:
-        t = texto_limpo(hh, MAX_PAGINA)
+    repetidas = set()          # linhas de menu e rodapé, que se repetem em todas as páginas do site
+    for endereco, rotulo, hh, teto in paginas:
+        linhas = texto_limpo(hh).split("\n")
+        novas = [l for l in linhas if l not in repetidas]
+        repetidas.update(l for l in linhas if len(l) < 140)
+        t = "\n".join(novas)
+        if len(t) > teto:
+            t = t[:teto].rsplit("\n", 1)[0] + "\n[… cortado]"
         com_datas += len(re.findall(r"\b\d{1,2}/\d{1,2}(?:/\d{2,4})?\b|\b\d{1,2} de (?:janeiro|fevereiro|março|abril|maio|junho|julho|agosto|setembro|outubro|novembro|dezembro)\b|\b\d{1,2}h(?:\d{2})?\b", t, re.I))
-        partes += [f"## PÁGINA: {rotulo} — {endereco}", t, ""]
+        partes += [f"## PÁGINA ({rotulo}) — {endereco}", t, ""]
     r["degraus"].append(f"texto de {len(paginas)} página(s)")
     r["paginas"] = [p[0] for p in paginas]
     r["mencoes_de_data"] = com_datas
