@@ -206,6 +206,7 @@ def main(edicao_id):
     carimbo = dt.datetime.now(dt.timezone.utc).strftime("%Y%m%dT%H%M%SZ")
 
     # calendários: geral, grátis, por área, por região
+    todos, eventos = eventos, [e for e in eventos if not e.get("automatica")]  # a grade de cinema tem calendário próprio
     feeds = {"largo-geral.ics": ("Largo · Agenda cultural do Rio", eventos),
              "largo-gratis.ics": ("Largo · Grátis", [e for e in eventos if e["gratis"]])}
     feeds["largo-na-rua.ics"] = ("Largo · Na rua", [e for e in eventos if e.get("na_rua")])
@@ -217,6 +218,12 @@ def main(edicao_id):
         feeds[f"largo-{slug(r)}.ics"] = (f"Largo · {r}", [e for e in eventos if e["regiao"] == r])
     for nome, (titulo, lista) in feeds.items():
         open(os.path.join(out, "calendarios", nome), "w", encoding="utf-8", newline="").write(ics(titulo, lista, carimbo))
+    grade = [e for e in todos if e.get("automatica")]
+    if grade:
+        feeds["largo-cinema-grade.ics"] = ("Largo · Grade dos cinemas", grade)
+        open(os.path.join(out, "calendarios", "largo-cinema-grade.ics"), "w", encoding="utf-8", newline="").write(
+            ics("Largo · Grade dos cinemas", grade, carimbo))
+    eventos = todos
     feeds = {"largo-destaques.ics": ("Largo · A boa (destaques)", []), **feeds}
     open(os.path.join(out, "calendarios", "largo-destaques.ics"), "w", encoding="utf-8", newline="").write(
         ics("Largo · A boa (destaques)", eventos, carimbo, so_sessoes=sess_dest))
@@ -238,7 +245,8 @@ def main(edicao_id):
 
     # site
     modelo = open(os.path.join(RAIZ, "ferramentas", "modelo.html"), encoding="utf-8").read()
-    dados_site = json.dumps({"edicao": ed, "eventos": publicos, "destaques": destaques["dias"],
+    site_ev = [{k: v for k, v in e.items() if not (e.get("automatica") and k in ("trecho_fonte", "fonte", "link_espaco"))} for e in publicos]
+    dados_site = json.dumps({"edicao": ed, "eventos": site_ev, "destaques": destaques["dias"],
                              "feeds": {k: v[0] for k, v in feeds.items()}}, ensure_ascii=False)
     dados_site = dados_site.replace("</", "<\\/")
     html = modelo.replace("/*__DADOS__*/null", dados_site)

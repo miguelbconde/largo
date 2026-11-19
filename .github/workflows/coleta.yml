@@ -7,6 +7,7 @@ on:
     paths:
       - "ferramentas/coleta/coletar.py"
       - "ferramentas/coleta/plataformas.py"
+      - "ferramentas/coleta/triagem_sympla.py"
       - ".github/workflows/coleta.yml"
 permissions:
   contents: write
@@ -21,7 +22,8 @@ jobs:
           python-version: "3.12"
       - run: python3 ferramentas/coleta/coletar.py
       - name: Extração das plataformas de ingresso (Ingresso.com e Sympla)
-        run: python3 ferramentas/coleta/plataformas.py coleta-bruta || echo "extração das plataformas falhou; a ronda segue"
+        run: |
+          python3 ferramentas/coleta/plataformas.py coleta-bruta && python3 ferramentas/coleta/triagem_sympla.py coleta-bruta || echo "extração das plataformas falhou; a ronda segue"
       - name: Guardar o texto bruto num ramo temporário (fora do site e da linha principal; substituído a cada ronda)
         run: |
           cd coleta-bruta

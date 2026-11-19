@@ -9,7 +9,7 @@ para robôs que elas publicam (decisão editorial de 19/11/2026).
 
 Saídas (na pasta de texto bruto da ronda, fora da linha principal):
   plataformas.json        dados estruturados das duas plataformas
-  FPLAT_sympla.txt        uma linha por evento da Sympla, legível pela peneira (redação com critério editorial)
+  (a lista da Sympla para a redação é feita depois, por triagem_sympla.py)
 E na linha principal, só números: dados/coleta/plataformas.md
 Uso: python3 plataformas.py <pasta de saída>
 """
@@ -19,19 +19,24 @@ RAIZ = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 AGENTE = "Mozilla/5.0 (compatible; LargoBot/0.1; agenda cultural aberta do Rio; +https://github.com/miguelbconde/largo)"
 PAUSA = 2
 
-# Cinemas no escopo editorial: cinemas de rua, de arte e públicos. Multiplex de shopping fica de fora
-# da agenda (protocolo de coleta: "grades diárias de cinema comercial" não entram).
-# id na Ingresso.com: (nome, endereço, bairro, região, site próprio)
-CINEMAS = {
-    "34":   ("Estação Claro Rio", "Rua Voluntários da Pátria, 35", "Botafogo", "Zona Sul", "https://www.grupoestacao.com.br/"),
-    "33":   ("Estação Claro Botafogo", "Rua Voluntários da Pátria, 88", "Botafogo", "Zona Sul", "https://www.grupoestacao.com.br/"),
-    "506":  ("Estação Claro Gávea", "Rua Marquês de São Vicente, 52 (Shopping da Gávea)", "Gávea", "Zona Sul", "https://www.grupoestacao.com.br/"),
-    "1304": ("Cine Odeon", "Praça Floriano, 7", "Centro", "Centro", ""),
-    "1463": ("Cine Santa Teresa", "Rua Paschoal Carlos Magno, 136", "Santa Teresa", "Centro", "https://www.cinesantateresa.com.br/"),
-    "1627": ("CineCarioca José Wilker", "Rua das Laranjeiras, 307", "Laranjeiras", "Zona Sul", ""),
-    "1046": ("CineCarioca Méier", "Rua Dias da Cruz, 170", "Méier", "Zona Norte", ""),
-    "1519": ("Ponto Cine", "Estrada do Camboatá, 2.300", "Guadalupe", "Zona Norte", ""),
+# Todos os cinemas da cidade na Ingresso.com entram (decisão editorial de 19/11/2026: cinema de shopping
+# também é cinema). A região sai do bairro; bairro desconhecido fica sem região e aparece no relatório.
+REGIAO_BAIRRO = {
+    "Centro": "Centro", "Santa Teresa": "Centro", "Lapa": "Centro",
+    "Botafogo": "Zona Sul", "Gávea": "Zona Sul", "Laranjeiras": "Zona Sul", "Leblon": "Zona Sul",
+    "São Conrado": "Zona Sul", "Catete": "Zona Sul", "Flamengo": "Zona Sul", "Copacabana": "Zona Sul",
+    "Ipanema": "Zona Sul", "Humaitá": "Zona Sul", "Urca": "Zona Sul", "Glória": "Zona Sul",
+    "Barra da Tijuca": "Zona Sudoeste", "Recreio": "Zona Sudoeste", "Recreio dos Bandeirantes": "Zona Sudoeste",
+    "Jacarepaguá": "Zona Sudoeste", "Taquara": "Zona Sudoeste", "Tanque": "Zona Sudoeste", "Freguesia": "Zona Sudoeste",
+    "Guadalupe": "Zona Norte", "Méier": "Zona Norte", "Vila Kosmos": "Zona Norte", "Ilha do Governador": "Zona Norte",
+    "Irajá": "Zona Norte", "Madureira": "Zona Norte", "Del Castilho": "Zona Norte", "Vila Isabel": "Zona Norte",
+    "Tijuca": "Zona Norte", "Cachambi": "Zona Norte", "Penha": "Zona Norte", "Maracanã": "Zona Norte",
+    "Bangu": "Zona Oeste", "Campo Grande": "Zona Oeste", "Campo Dos Afonsos": "Zona Oeste",
+    "Campo dos Afonsos": "Zona Oeste", "Realengo": "Zona Oeste", "Santa Cruz": "Zona Oeste",
 }
+FORA = ("MEG - MULTIPLATFORM",)  # não é cinema
+SITES = {"34": "https://www.grupoestacao.com.br/", "506": "https://www.grupoestacao.com.br/",
+         "33": "https://www.grupoestacao.com.br/", "1463": "https://www.cinesantateresa.com.br/"}
 CIDADE_INGRESSO = "2"  # Rio de Janeiro
 SYMPLA_PAGINAS = 100
 
@@ -63,6 +68,17 @@ def ingresso():
     st, cartaz = jbaixar(f"{base}/events/city/{CIDADE_INGRESSO}?partnership=home")
     fichas_filme = {str(f["id"]): f for f in (cartaz or [])}
     filmes, sessoes, falhas = {}, [], []
+    st, lista = jbaixar(f"{base}/theaters/city/{CIDADE_INGRESSO}?partnership=home")
+    CINEMAS = {}
+    for t in lista or []:
+        if not t.get("enabled", True) or any(t.get("name", "").startswith(x) for x in FORA):
+            continue
+        bairro = (t.get("neighborhood") or "").strip()
+        end = " ".join(x for x in [(t.get("address") or "").strip().title() if (t.get("address") or "").isupper() else (t.get("address") or "").strip(),
+                                    str(t.get("number") or "").strip()] if x)
+        CINEMAS[str(t["id"])] = (t["name"].strip(), end, bairro, REGIAO_BAIRRO.get(bairro, ""), SITES.get(str(t["id"]), ""))
+    if not CINEMAS:
+        falhas.append(f"lista de cinemas (código {st})")
     for cid, (nome, end, bairro, reg, site) in CINEMAS.items():
         st, dias = jbaixar(f"{base}/sessions/city/{CIDADE_INGRESSO}/theater/{cid}?partnership=home")
         if st != 200 or not isinstance(dias, list):
@@ -101,6 +117,7 @@ def ingresso():
             f["pais"] = (d.get("countryOrigin") or "").strip()
             f["ano"] = f["ano"] or d.get("releaseYear")
     cinemas = {cid: dict(zip(("nome", "endereco", "bairro", "regiao", "site"), v)) for cid, v in CINEMAS.items()}
+    falhas += [f"bairro sem região: {v[0]} ({v[2]})" for v in CINEMAS.values() if not v[3]]
     return {"cinemas": cinemas, "filmes": filmes, "sessoes": sessoes, "falhas": falhas}
 
 
@@ -172,19 +189,13 @@ def main(saida):
     sym = sympla()
     json.dump({"feito_em": feito, "ingresso": ing, "sympla": sym},
               open(os.path.join(saida, "plataformas.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    with open(os.path.join(saida, "FPLAT_sympla.txt"), "w", encoding="utf-8") as f:
-        f.write("FPLAT_sympla | Sympla (extração do Largo) | https://www.sympla.com.br/eventos/rio-de-janeiro-rj\n## Eventos\n")
-        for e in sorted(sym["eventos"], key=lambda e: e["inicio"]):
-            di, hi = hora_rio(e["inicio"]); df, hf = hora_rio(e["fim"])
-            f.write(f"{di} {hi} até {df} {hf} | {e['titulo']} | {e['local']}, {e['endereco']} {e['bairro']} | "
-                    f"organizador: {e['organizador']} | {e['link']}\n")
     por_cinema = {}
     for s in ing["sessoes"]:
         por_cinema[s["cinema_id"]] = por_cinema.get(s["cinema_id"], 0) + 1
     linhas = [f"# Extração das plataformas — {feito[:10]}", "",
               "Números da última ronda. Os dados brutos ficam no ramo `coleta-bruta` (`plataformas.json`).", "",
               f"## Ingresso.com (cinema): {len(ing['sessoes'])} sessões, {len(ing['filmes'])} filmes", ""]
-    linhas += [f"- {CINEMAS[c][0]}: {por_cinema.get(c, 0)} sessões" for c in CINEMAS]
+    linhas += [f"- {v['nome']}: {por_cinema.get(c, 0)} sessões" for c, v in ing["cinemas"].items()]
     linhas += [f"- Falhou: {x}" for x in ing["falhas"]]
     linhas += ["", f"## Sympla: {len(sym['eventos'])} eventos no Rio ({sym['paginas_lidas']} páginas lidas)", ""]
     linhas += [f"- Falhou: {x}" for x in sym["falhas"]] or ["- Sem falhas."]

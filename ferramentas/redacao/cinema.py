@@ -63,7 +63,7 @@ def main(edicao, caminho):
             gratis=False, classificacao=f.get("classificacao", ""), acessibilidade="", na_rua=False,
             sinopse=descricao(f), fonte="Ingresso.com (extração do Largo)",
             link=f.get("link") or c.get("site") or "", link_espaco=c.get("site", ""),
-            trecho_fonte=trecho[:1500],
+            trecho_fonte=trecho[:600],
             nota_redacao="Ficha montada automaticamente a partir dos dados da Ingresso.com, sem redação de IA.",
             automatica=True, id=f"{edicao}-cine-{cid}-{fid}"))
     json.dump({"feito_em": p.get("feito_em"), "fichas": fichas},
