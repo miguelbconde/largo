@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Coletor do Largo — ronda semanal das fontes de programação.
+"""Coletor do Largo — ronda diária das fontes de programação.
 
 O QUE FAZ
   Visita as fontes do cadastro (dados/fontes.csv) que têm site e guarda, para cada uma,
@@ -21,7 +21,7 @@ BOAS MANEIRAS
   publica para leitores automáticos (robots.txt). Faz poucas visitas por site, com pausa.
 
 USO
-  Na nuvem (serviço de automação do GitHub), toda semana:
+  Na nuvem (serviço de automação do GitHub), todo dia:
       python3 ferramentas/coleta/coletar.py
   No computador da coordenação editorial, para as fontes que recusam a nuvem:
       python coletar.py

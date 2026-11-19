@@ -8,3 +8,4 @@
 - Não coloque no repositório imagens de terceiros (páginas de jornal, capas de disco, fotos).
 - O site da Secretaria Municipal de Cultura bloqueia acesso da nuvem: peça o PDF semanal à coordenação editorial.
 - Ao terminar uma sessão com mudanças, atualize também os documentos do Projeto no claude.ai.
+- Para coletar, redigir e publicar (todo dia ou ao abrir edição), siga `documentos/protocolo-de-coleta.md`.

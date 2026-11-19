@@ -212,6 +212,16 @@ A coleta mecânica prevista na seção 7 está montada. Um programa comum (`ferr
 - **Primeiro cotejo (19/11/2026):** as duas rondas renderam 49 fichas novas para a edição de 19 a 25/11, de 23 fontes, todas com dia, hora e lugar tirados da fonte e passadas pelo conferente. Limites que apareceram: muitos sites não mostram preço nem horário de visitação na página que o coletor alcança; exposições de galeria quase nunca trazem horário; grades diárias de cinema (Grupo Estação, IMS) ficaram de fora; o IMS Rio está fechado para obras. O que a ronda acha fora do eixo Centro–Zona Sul ainda é pouco: é o retrato do cadastro, não da cidade.
 - **Sesc:** o endereço geral do Sesc RJ (`sescrio.org.br`) entrou na mesma lista de espera do endereço de cultura, para o coletor não ler um e pular o outro.
 
+### Atualização diária (decisão de 19/11/2026)
+
+A coleta e a atualização do site passam a ser diárias.
+
+- **Ronda da nuvem:** todo dia por volta das 4h (antes era só às quartas).
+- **Tarefa agendada do Claude:** todo dia por volta das 6h, numa conversa nova, segue o passo a passo de `documentos/protocolo-de-coleta.md`: lê a ronda, redige só o que mudou, confere, gera o site, envia ao repositório e manda o relatório de exceções.
+- **Só o que mudou:** a peneira guarda, em `dados/coleta/vistos.json`, códigos das linhas já lidas (não o texto dos sites) e mostra apenas o que é novo. Num dia sem novidade, a tarefa termina em poucos minutos e não mexe no site.
+- **Quinta-feira:** a tarefa abre a edição nova. Para isso precisa do PDF semanal da Secretaria Municipal de Cultura, que a coordenação editorial põe na pasta `entrada/` do repositório (pelo próprio site do GitHub) ou anexa numa conversa. Sem o PDF, a edição abre com a rede municipal incompleta.
+- **O que continua fora da tarefa:** a ronda no computador da coordenação e a programação recebida diretamente, que dependem de anexo numa conversa.
+
 ## 11. Próximos passos
 
 1. **Verificar as fontes do Núcleo** (status "a verificar"): confirmar endereços, canais e métodos, e desdobrar as linhas agrupadas.
