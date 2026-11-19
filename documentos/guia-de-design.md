@@ -1,6 +1,6 @@
 # Guia de design — Todos os Rios
 
-*Em 19/11/2026 o projeto trocou o nome provisório Largo por Todos os Rios. As referências abaixo a "Largo" e ao "Mar Largo" são da fase anterior e ficam como registro; a marca atual é a palavra "Todos os Rios" com o ponto na cor de destaque.*
+*Em 19/11/2026 o projeto trocou o nome provisório Largo por Todos os Rios. As referências abaixo a "Largo" e ao "Mar Largo" são da fase anterior e ficam como registro; a marca atual está descrita em "Marca Todos os Rios", na seção 4.*
 versão 1.1 · 19/11/2026 · **Site: Estudo F (modo claro e modo escuro, com botão) mais linha sinuosa e dia selecionado em forma orgânica (G1)**
 
 Este guia orienta qualquer trabalho futuro na aparência do site. Ele registra de onde vem a linguagem visual, o que aproveitamos de cada referência e o que fica de fora. Deve ser lido antes de qualquer mudança de layout.
@@ -190,7 +190,7 @@ Preocupação registrada pela coordenação editorial: o diálogo com a tradiç�
 | Destaques ("A boa") | Caixa com barra vermelha | Título maior e o único uso forte do vermelho |
 | Grátis | Etiqueta verde | A resolver sem depender de cor (ver 2.2) |
 | Tipografia | Serifada nos títulos, sem serifa no texto | Manter o par ou testar grotesca em tudo; decidir nos estudos |
-| Marca | Palavra "Todos os Rios" com ponto na cor de destaque (antes "Largo") | Palavra + símbolo modular redesenhável |
+| Marca | "todos os" pequeno sobre "Rios." grande, ponto de sol (antes "Largo") | Palavra + símbolo modular redesenhável |
 | Motivo gráfico | Nenhum | Módulos de mosaico em marca e ícones |
 
 **Estudo A (17/11/2026).** Primeira aplicação da direção, publicada como prévia separada, sem substituir o site. Arquivos: `ferramentas/modelo-estudo-a.html` e `ferramentas/estudo_a.css`.
@@ -291,6 +291,8 @@ O que os guias de uso de cor dizem, e vale como regra: azul e laranja são cores
 Ressalva registrada: o que mais diz "Rio" tende a ser a marca, ainda por desenhar; a mesma curva pode nascer nela.
 
 **Estudos H (19/11/2026): bordas esfumadas.** Ideia da coordenação editorial: caixas de "A boa" sem demarcação nítida, com o fundo se dissolvendo na página. Duas prévias em `docs/estudo-h1` (borda que vira halo) e `docs/estudo-h2` (mancha de aquarela), ambas sem a barra laranja, trocada por um ponto junto do horário. **Decisão:** fica como está, sem esfumado. As prévias ficam como registro.
+
+**Marca Todos os Rios (decisão de 19/11/2026).** Quatro estudos em `docs/estudo-marca/`: A (nome em uma linha), B (símbolo de afluentes), C (empilhado) e D (linha que engrossa). A coordenação editorial escolheu o **C**: "todos os" pequeno, em sem serifa, caixa-alta e bem espaçado, sobre "Rios" grande na serifa do site, com o ponto em cor de sol nos dois modos (`#d96c14` no claro, `#ffb469` no escuro). O "todos os" guarda um eco dos rótulos espaçados do SDJB (seção 2.6). O espaçamento e a caixa-alta são feitos pelo estilo da página: no texto, a palavra é "todos os", para leitores de tela lerem certo. O símbolo de afluentes (B) fica arquivado como possível ícone.
 
 **Passos seguintes, quando for a hora:**
 1. Dois ou três estudos da mesma tela (o dia de hoje, no celular), lado a lado.
