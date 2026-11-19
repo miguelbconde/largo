@@ -1,5 +1,5 @@
 # Guia de design — Largo
-versão 0.7 · 17/11/2026 · **Estudo B (segunda paleta) aplicado ao site principal, por enquanto**
+versão 0.8 · 18/11/2026 · **Estudo B (segunda paleta) aplicado ao site principal, por enquanto; Estudos C e D em avaliação**
 
 Este guia orienta qualquer trabalho futuro na aparência do site. Ele registra de onde vem a linguagem visual, o que aproveitamos de cada referência e o que fica de fora. Deve ser lido antes de qualquer mudança de layout.
 
@@ -239,6 +239,15 @@ Isso substitui a tríade preto, branco e vermelho das seções 2.2 e 2.7. A regr
 Contraste medido no claro: texto 13,7:1; secundário 6,5:1; mar 7,6:1; mata 7,4:1; terra 7,2:1. No escuro, todos acima de 7:1.
 
 **Decisão de 17/11/2026.** A coordenação editorial aprovou a segunda paleta "por enquanto". O Estudo B passou a ser o modelo do site (`ferramentas/modelo.html`); o modelo anterior ficou guardado em `ferramentas/modelo-original.html`. **Regra nova:** nada de emojis ou ícones com cara de clipart. O ícone de calendário saiu da lista de calendários. Ícones, se vierem, terão desenho próprio (ver 2.4 e 2.8).
+
+**Estudos C e D (18/11/2026).** Proposta da coordenação editorial: explorar o azul do mar com o bege da areia e um laranja de sol e calor, e testar também o azul como fundo. São prévias separadas, geradas por `ferramentas/estudos.py` a partir do site publicado, em `docs/estudo-c/` e `docs/estudo-d/`. O site principal não mudou.
+
+O que os guias de uso de cor dizem, e vale como regra: azul e laranja são cores opostas e funcionam bem juntas desde que uma domine e a outra só pontue; laranja e amarelo não alcançam contraste de leitura sobre fundo claro, então entram como forma (ponto, barra, etiqueta cheia), nunca como letra; fundo amarelado junto do azul volta a produzir o "caldo de cana".
+
+- **Estudo C (areia + sol).** Paleta da paisagem mantida. Entra o **Sol** (`#d96c14` no claro, `#f29a45` no escuro) com uma função só: marcar "A boa" (ponto antes do título e barra dos destaques). O mar continua em marca, links, horários e seleção. Contraste do laranja como forma: 3,1:1 sobre a areia.
+- **Estudo D (mar no fundo).** Fundo azul `#17437d`, caixas `#113564`, texto areia `#fbf7ee`, laranja claro `#ffb469` como cor que organiza (ponto da marca, horários, links, dia selecionado). "Grátis" em etiqueta clara cheia; preço popular em etiqueta de contorno. O verde e o marrom saem. Contraste medido: texto 9,2:1; secundário 6,8:1; laranja 5,6:1. No escuro, fundo `#0f2444`, todos acima de 8:1.
+
+Aguardam avaliação da coordenação editorial.
 
 **Passos seguintes, quando for a hora:**
 1. Dois ou três estudos da mesma tela (o dia de hoje, no celular), lado a lado.
