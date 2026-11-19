@@ -1,0 +1,29 @@
+name: Teste das plataformas de ingresso
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ferramentas/coleta/plataformas_teste.py
+      - .github/workflows/plataformas-teste.yml
+permissions:
+  contents: write
+jobs:
+  teste:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: SAIDA=/tmp/saida python3 ferramentas/coleta/plataformas_teste.py
+      - name: Guardar as respostas brutas num ramo separado (fora do site)
+        run: |
+          cd /tmp/saida
+          git init -q -b teste-plataformas
+          git config user.name "largo-coleta"
+          git config user.email "largo-coleta@users.noreply.github.com"
+          git add -A
+          git commit -qm "Teste das plataformas (bruto, temporário)"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}" teste-plataformas
