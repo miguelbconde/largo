@@ -214,7 +214,7 @@ O app Claude foi desinstalado do computador do projeto. O trabalho passa a ser f
 
 Sempre que, numa conversa nova, o assunto for a coleta ou as fontes de programação, o Claude lembra a coordenação editorial do que precisa receber:
 1. **O PDF semanal da Secretaria Municipal de Cultura** (cultura.prefeitura.rio/agendacultural, sai na quarta ou quinta), anexado na conversa.
-2. **O repositório `miguelbconde/largo`**: se ele não estiver ligado à conversa, o Claude pede para ligá-lo.
+2. **O repositório `miguelbconde/todososrios`**: se ele não estiver ligado à conversa, o Claude pede para ligá-lo.
 3. **Qualquer programação recebida diretamente** de espaços e coletivos (mensagens, flyers, capturas de tela).
 
 O Claude também avisa quais fontes não conseguiu abrir naquela semana, para que a coordenação decida se vale buscar à mão.
@@ -279,5 +279,8 @@ A coleta e a atualização do site passam a ser diárias.
 
 - Nome: **Todos os Rios**, no lugar do provisório Largo. Endereços todososrios.rio e todososrios.com.br, registrados pela coordenação editorial em seu nome (CPF). "A boa" continua; "Roteiros do Largo" passam a se chamar Roteiros.
 
+- Repositório renomeado (19/11/2026): `github.com/miguelbconde/todososrios`; endereço provisório do site `miguelbconde.github.io/todososrios`. O todososrios.com.br tem repositório próprio (`miguelbconde/todososrios-com-br`), só com a página que encaminha para o site; enquanto o .rio não sai, encaminha para o endereço provisório.
+
 **Pendente:**
-- Ligar os domínios ao site e trocar a constante `SITE` de `ferramentas/gerar.py`.
+- todososrios.rio: a INWX ainda não concluiu o registro (faltava o CPF, informado em 19/11). Quando sair: cadastrar o DNS na INWX, pôr o arquivo CNAME em `docs/`, trocar a constante `SITE` de `ferramentas/gerar.py` e apontar o encaminhamento do .com.br para o .rio.
+- todososrios.com.br: DNS cadastrado no Registro.br e Pages ligado em 19/11; falta marcar "Enforce HTTPS" quando ficar disponível.
