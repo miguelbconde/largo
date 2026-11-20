@@ -1,7 +1,7 @@
 {
  "origem": "nuvem",
- "feito_em": "2026-11-19 21:48 UTC",
- "segundos": 183,
+ "feito_em": "2026-11-20 08:30 UTC",
+ "segundos": 182,
  "fontes": [
   {
    "ids": [
@@ -48,7 +48,7 @@
    "degraus": [
     "texto de 12 página(s)"
    ],
-   "caracteres": 34724,
+   "caracteres": 34668,
    "url_final": "https://academia.org.br/eventos",
    "paginas": [
     "https://academia.org.br/eventos",
@@ -78,9 +78,9 @@
     "Centro"
    ],
    "degraus": [
-    "texto de 12 página(s)"
+    "texto de 10 página(s)"
    ],
-   "caracteres": 51496,
+   "caracteres": 47242,
    "url_final": "https://www.gov.br/arquivonacional/pt-br",
    "paginas": [
     "https://www.gov.br/arquivonacional/pt-br",
@@ -89,14 +89,12 @@
     "https://www.gov.br/arquivonacional/pt-br/servicos/atendimento/atendimento-1",
     "https://www.gov.br/arquivonacional/pt-br/servicos/atendimento/bases-de-dados-e-instrumentos-de-pesquisa",
     "https://www.gov.br/arquivonacional/pt-br/acesso-a-informacao/institucional/acervo",
-    "https://www.gov.br/arquivonacional/pt-br/servicos/atendimento/satisfacao",
-    "https://www.gov.br/arquivonacional/pt-br/servicos/atendimento/reproducao-de-documentos-e-emissao-de-certidoes",
     "https://www.gov.br/arquivonacional/pt-br/servicos/gestao-de-documentos",
     "https://www.gov.br/arquivonacional/pt-br/servicos/gestao-de-documentos/decreto",
     "https://www.gov.br/arquivonacional/pt-br/servicos/gestao-de-documentos/orientacao-tecnica-1",
     "https://www.gov.br/arquivonacional/pt-br/servicos/gestao-de-documentos/legislacao"
    ],
-   "mencoes_de_data": 69,
+   "mencoes_de_data": 65,
    "situacao": "coletada",
    "arquivo": "F005.txt"
   },
@@ -130,7 +128,7 @@
     "feed (10 itens)",
     "texto de 7 página(s)"
    ],
-   "caracteres": 40933,
+   "caracteres": 40941,
    "url_final": "https://cultura.rj.gov.br",
    "paginas": [
     "https://cultura.rj.gov.br",
@@ -179,7 +177,7 @@
     "feed (20 itens)",
     "texto de 2 página(s)"
    ],
-   "caracteres": 10354,
+   "caracteres": 11401,
    "url_final": "https://www.barcariocadagema.com.br/",
    "paginas": [
     "https://www.barcariocadagema.com.br/",
@@ -222,7 +220,7 @@
    "degraus": [
     "texto de 12 página(s)"
    ],
-   "caracteres": 38090,
+   "caracteres": 38060,
    "url_final": "https://ccbb.com.br/rio-de-janeiro/",
    "paginas": [
     "https://ccbb.com.br/rio-de-janeiro/",
@@ -238,7 +236,7 @@
     "https://ccbb.com.br/rio-de-janeiro/programacao/21o-festival-de-cinema-italiano-no-brasil/",
     "https://ccbb.com.br/rio-de-janeiro/programacao/yokai-parade-seres-sobrenaturais-do-japao/"
    ],
-   "mencoes_de_data": 324,
+   "mencoes_de_data": 326,
    "situacao": "coletada",
    "arquivo": "F019.txt"
   },
@@ -256,7 +254,7 @@
     "feed (15 itens)",
     "texto de 13 página(s)"
    ],
-   "caracteres": 71553,
+   "caracteres": 71568,
    "url_final": "https://www.correios.com.br/",
    "paginas": [
     "https://www.correios.com.br/",
@@ -273,7 +271,7 @@
     "https://www.correios.com.br/enviar/precisa-de-ajuda/guia-de-enderecamento/guia-de-enderecamento",
     "https://www.correios.com.br/enviar/precisa-de-ajuda/correios-de-a-a-z"
    ],
-   "mencoes_de_data": 36,
+   "mencoes_de_data": 37,
    "situacao": "coletada",
    "arquivo": "F020.txt"
   },
@@ -348,23 +346,23 @@
     "feed (10 itens)",
     "texto de 12 página(s)"
    ],
-   "caracteres": 39118,
+   "caracteres": 36056,
    "url_final": "https://www.abi.org.br/",
    "paginas": [
     "https://www.abi.org.br/",
-    "https://www.abi.org.br/mostra-de-cinema-indigena-na-abi/",
-    "https://www.abi.org.br/institucional/historia/",
-    "https://www.abi.org.br/institucional/historia/presidentes/",
-    "https://www.abi.org.br/institucional/datas-da-abi/",
-    "https://www.abi.org.br/institucional/o-predio-da-abi/",
-    "https://www.abi.org.br/institucional/direcao/",
+    "http://www.abi.org.br/tabela-de-eventos-alugueis-de-auditorios/",
+    "http://www.abi.org.br/institucional/historia/",
+    "http://www.abi.org.br/institucional/historia/presidentes/",
+    "http://www.abi.org.br/institucional/datas-da-abi/",
+    "http://www.abi.org.br/institucional/o-predio-da-abi/",
+    "http://www.abi.org.br/institucional/direcao/",
     "http://www.abi.org.br/institucional/direcao/diretoria/",
     "http://www.abi.org.br/institucional/direcao/conselho-deliberativo/",
     "http://www.abi.org.br/institucional/direcao/conselho-consultivo/",
     "http://www.abi.org.br/institucional/direcao/conselho-fiscal/",
     "http://www.abi.org.br/institucional/direcao/comissoes/"
    ],
-   "mencoes_de_data": 11,
+   "mencoes_de_data": 6,
    "situacao": "coletada",
    "arquivo": "F028.txt"
   },
@@ -431,7 +429,7 @@
     "feed (3 itens)",
     "texto de 1 página(s)"
    ],
-   "caracteres": 5539,
+   "caracteres": 5536,
    "url_final": "https://www.d-edge.com.br/",
    "paginas": [
     "https://www.d-edge.com.br/"
@@ -465,7 +463,7 @@
    "degraus": [
     "texto de 13 página(s)"
    ],
-   "caracteres": 26548,
+   "caracteres": 26458,
    "url_final": "https://fundicaoprogresso.com.br",
    "paginas": [
     "https://fundicaoprogresso.com.br",
@@ -626,7 +624,7 @@
    "degraus": [
     "texto de 12 página(s)"
    ],
-   "caracteres": 27503,
+   "caracteres": 27546,
    "url_final": "https://salaceciliameireles.rj.gov.br",
    "paginas": [
     "https://salaceciliameireles.rj.gov.br",
@@ -700,15 +698,19 @@
     "Centro"
    ],
    "degraus": [
-    "texto de 2 página(s)"
+    "texto de 6 página(s)"
    ],
-   "caracteres": 3143,
+   "caracteres": 8238,
    "url_final": "https://teatrorivalrefit.com.br",
    "paginas": [
     "https://teatrorivalrefit.com.br",
-    "https://teatrorivalrefit.com.br/eventos/"
+    "https://teatrorivalrefit.com.br/eventos/",
+    "https://teatrorivalrefit.com.br/",
+    "https://teatrorivalrefit.com.br/page/2/",
+    "https://teatrorivalrefit.com.br/page/3/",
+    "https://teatrorivalrefit.com.br/page/60/"
    ],
-   "mencoes_de_data": 10,
+   "mencoes_de_data": 43,
    "situacao": "coletada",
    "arquivo": "F062.txt"
   },
@@ -828,7 +830,7 @@
    "degraus": [
     "texto de 2 página(s)"
    ],
-   "caracteres": 7299,
+   "caracteres": 7111,
    "url_final": "https://becodasgarrafas.com.br",
    "paginas": [
     "https://becodasgarrafas.com.br",
@@ -850,7 +852,7 @@
    "degraus": [
     "texto de 3 página(s)"
    ],
-   "caracteres": 4332,
+   "caracteres": 4225,
    "url_final": "https://bluenoterio.com.br",
    "paginas": [
     "https://bluenoterio.com.br",
@@ -923,15 +925,27 @@
     "Zona Sul"
    ],
    "degraus": [
-    "texto de 1 página(s)"
+    "texto de 13 página(s)"
    ],
-   "caracteres": 285,
+   "caracteres": 97899,
    "url_final": "https://casafirjan.com.br/",
    "paginas": [
-    "https://casafirjan.com.br/"
+    "https://casafirjan.com.br/",
+    "https://casafirjan.com.br/agenda",
+    "https://casafirjan.com.br/noticias/casa-firjan-inaugura-exposicao-para-construir-futuros",
+    "https://casafirjan.com.br/a-casa-firjan/quem-somos",
+    "https://casafirjan.com.br/a-casa-firjan/exposicoes-e-atividades",
+    "https://casafirjan.com.br/a-casa-firjan/exposicoes-e-atividades/exposicoes",
+    "https://casafirjan.com.br/a-casa-firjan/exposicoes-e-atividades/atividades",
+    "https://casafirjan.com.br/fab-lab/o-que-e-fab-lab",
+    "https://casafirjan.com.br/noticias/inscreva-se-no-fab-lab-open-day-e-vivencie-cultura-maker-na-casa-firjan",
+    "https://casafirjan.com.br/fab-lab/fab-lab-para-empresas",
+    "https://casafirjan.com.br/palestras-debates-e-entrevistas/aquario-casa-firjan",
+    "https://casafirjan.com.br/palestras-debates-entrevistas/podcasts",
+    "https://casafirjan.com.br/palestras-debates-e-entrevistas/podcast/lab-de-tendencias"
    ],
-   "mencoes_de_data": 0,
-   "situacao": "coletada, mas sem datas à vista (a programação pode ser carregada depois)",
+   "mencoes_de_data": 81,
+   "situacao": "coletada",
    "arquivo": "F074.txt"
   },
   {
@@ -1204,7 +1218,7 @@
     "feed (7 itens)",
     "texto de 14 página(s)"
    ],
-   "caracteres": 35164,
+   "caracteres": 34815,
    "url_final": "https://grupoestacao.com.br",
    "paginas": [
     "https://grupoestacao.com.br",
@@ -1222,7 +1236,7 @@
     "https://grupoestacao.com.br/filme/fogareu/",
     "https://grupoestacao.com.br/filme/josephine-fragmentos-de-um-crime/"
    ],
-   "mencoes_de_data": 106,
+   "mencoes_de_data": 102,
    "situacao": "coletada",
    "arquivo": "F091.txt"
   },
@@ -1240,7 +1254,7 @@
     "calendário WordPress (40 eventos)",
     "texto de 14 página(s)"
    ],
-   "caracteres": 71558,
+   "caracteres": 71291,
    "url_final": "https://ims.com.br",
    "paginas": [
     "https://ims.com.br",
@@ -1272,18 +1286,16 @@
     "Zona Sul"
    ],
    "degraus": [
-    "texto de 4 página(s)"
+    "texto de 2 página(s)"
    ],
-   "caracteres": 6248,
+   "caracteres": 4750,
    "url_final": "https://www.gov.br/jbrj/pt-br",
    "paginas": [
     "https://www.gov.br/jbrj/pt-br",
-    "https://www.gov.br/jbrj/pt-br/acesso-a-informacao/acoes-e-programas",
-    "https://www.gov.br/jbrj/pt-br/assuntos/visitacao/ingressos",
-    "https://www.gov.br/jbrj/pt-br/acesso-a-informacao/programa-de-gestao-e-desempenho-pgd"
+    "https://www.gov.br/jbrj/pt-br/acesso-a-informacao/acoes-e-programas"
    ],
-   "mencoes_de_data": 6,
-   "situacao": "coletada",
+   "mencoes_de_data": 2,
+   "situacao": "coletada, mas sem datas à vista (a programação pode ser carregada depois)",
    "arquivo": "F093.txt"
   },
   {
@@ -1519,7 +1531,7 @@
    "degraus": [
     "texto de 14 página(s)"
    ],
-   "caracteres": 43629,
+   "caracteres": 43612,
    "url_final": "https://pinakotheke.com.br",
    "paginas": [
     "https://pinakotheke.com.br",
@@ -1553,7 +1565,7 @@
    "degraus": [
     "texto de 6 página(s)"
    ],
-   "caracteres": 13557,
+   "caracteres": 13578,
    "url_final": "https://portasvilaseca.com.br/pt",
    "paginas": [
     "https://portasvilaseca.com.br/pt",
@@ -1599,7 +1611,7 @@
    "degraus": [
     "texto de 4 página(s)"
    ],
-   "caracteres": 1751,
+   "caracteres": 2084,
    "url_final": "https://silviacintra.com.br",
    "paginas": [
     "https://silviacintra.com.br",
@@ -1622,7 +1634,7 @@
    ],
    "degraus": [],
    "caracteres": 0,
-   "situacao": "recusou a visita (código 522)"
+   "situacao": "recusou a visita (código 403)"
   },
   {
    "ids": [
@@ -1756,7 +1768,7 @@
    "degraus": [
     "texto de 12 página(s)"
    ],
-   "caracteres": 34018,
+   "caracteres": 32675,
    "url_final": "https://vivorio.com.br",
    "paginas": [
     "https://vivorio.com.br",
@@ -1767,12 +1779,12 @@
     "https://vivorio.com.br/eventos/leandro-karnal/",
     "https://vivorio.com.br/eventos/pitty/",
     "https://vivorio.com.br/eventos/tarja-turunen/",
-    "https://vivorio.com.br/eventos/ca7riel-paco-amoroso/",
     "https://vivorio.com.br/eventos/mundo-torajo/",
     "https://vivorio.com.br/eventos/natal-do-bita-com-orquestra-petrobras-sinfonica/",
-    "https://vivorio.com.br/eventos/kysha-e-mine/"
+    "https://vivorio.com.br/eventos/kysha-e-mine/",
+    "https://vivorio.com.br/eventos/baby-do-brasil/"
    ],
-   "mencoes_de_data": 79,
+   "mencoes_de_data": 76,
    "situacao": "coletada",
    "arquivo": "F126.txt"
   },
@@ -1802,13 +1814,13 @@
     "feed (1 itens)",
     "texto de 2 página(s)"
    ],
-   "caracteres": 7558,
+   "caracteres": 7305,
    "url_final": "https://espacohall.com.br",
    "paginas": [
     "https://espacohall.com.br",
     "https://espacohall.com.br/agenda/"
    ],
-   "mencoes_de_data": 23,
+   "mencoes_de_data": 21,
    "situacao": "coletada",
    "arquivo": "F133.txt"
   },
@@ -2066,10 +2078,10 @@
     "Várias"
    ],
    "degraus": [
-    "feed (1 itens)",
+    "feed (2 itens)",
     "texto de 12 página(s)"
    ],
-   "caracteres": 34983,
+   "caracteres": 35638,
    "url_final": "https://forum.ufrj.br",
    "paginas": [
     "https://forum.ufrj.br",
@@ -2101,7 +2113,7 @@
    "degraus": [
     "texto de 14 página(s)"
    ],
-   "caracteres": 63269,
+   "caracteres": 63230,
    "url_final": "https://www.travessa.com.br/eventos",
    "paginas": [
     "https://www.travessa.com.br/eventos",
