@@ -235,15 +235,14 @@ A coleta mecânica prevista na seção 7 está montada. Um programa comum (`ferr
 - **Primeiro cotejo (19/11/2026):** as duas rondas renderam 49 fichas novas para a edição de 19 a 25/11, de 23 fontes, todas com dia, hora e lugar tirados da fonte e passadas pelo conferente. Limites que apareceram: muitos sites não mostram preço nem horário de visitação na página que o coletor alcança; exposições de galeria quase nunca trazem horário; grades diárias de cinema (Grupo Estação, IMS) ficaram de fora; o IMS Rio está fechado para obras. O que a ronda acha fora do eixo Centro–Zona Sul ainda é pouco: é o retrato do cadastro, não da cidade.
 - **Sesc:** o endereço geral do Sesc RJ (`sescrio.org.br`) entrou na mesma lista de espera do endereço de cultura, para o coletor não ler um e pular o outro.
 
-### Atualização diária (decisão de 19/11/2026)
+### Atualização diária, versão 2 (decisão de 21/11/2026)
 
-A coleta e a atualização do site passam a ser diárias.
+A tarefa diária de 19/11 parou em 20 e 21/11: o plano de uso acabou antes de ela começar, ela ainda apontava para o nome antigo do repositório e, sem ela, nada se publicava. Foi apagada e o sistema foi refeito do zero, com uma regra: **se o Claude falhar num dia, o site não para.**
 
-- **Ronda da nuvem:** todo dia por volta das 4h (antes era só às quartas).
-- **Tarefa agendada do Claude:** todo dia por volta das 6h, numa conversa nova, segue o passo a passo de `documentos/protocolo-de-coleta.md`: lê a ronda, redige só o que mudou, confere, gera o site, envia ao repositório e manda o relatório de exceções.
-- **Só o que mudou:** a peneira guarda, em `dados/coleta/vistos.json`, códigos das linhas já lidas (não o texto dos sites) e mostra apenas o que é novo. Num dia sem novidade, a tarefa termina em poucos minutos e não mexe no site.
-- **Quinta-feira:** a tarefa abre a edição nova. Para isso precisa do PDF semanal da Secretaria Municipal de Cultura, que a coordenação editorial põe na pasta `entrada/` do repositório (pelo próprio site do GitHub) ou anexa numa conversa. Sem o PDF, a edição abre com a rede municipal incompleta.
-- **O que continua fora da tarefa:** a ronda no computador da coordenação e a programação recebida diretamente, que dependem de anexo numa conversa.
+- **Base permanente:** as fichas da redação ficam em `dados/fichas.json`, com todas as sessões. A edição de quinta a quarta não é mais escrita à mão: o robô a monta a partir da base, de hoje em diante, e às quintas a edição nova abre sozinha.
+- **Robô (sem IA, gratuito, no GitHub):** depois da ronda das 4h17, monta a edição, refaz o cinema, completa "A boa" pela regra fixa nos dias sem destaque da redação, publica o site e escreve o boletim de saúde (`dados/coleta/saude.md`). Se a ronda falhar, se as plataformas vierem vazias ou se o Claude passar 2 dias sem entregar, abre um aviso no GitHub, que chega por e-mail.
+- **Claude (tarefa diária curta):** lê só o que é novo, redige até 25 fichas por dia, confere, traduz, escolhe "A boa" e entrega com `ferramentas/entregar.py`, que recusa a ficha com problema grave. O que passar do teto fica em `dados/coleta/pendentes.json`, para o dia seguinte. Quem publica é o robô.
+- Passo a passo em `documentos/protocolo-de-coleta.md` (versão 3); divisão de tarefas em `documentos/divisao-de-tarefas.md`.
 
 ## 11. Próximos passos
 
@@ -280,6 +279,9 @@ A coleta e a atualização do site passam a ser diárias.
 - Nome: **Todos os Rios**, no lugar do provisório Largo. Endereços todososrios.rio e todososrios.com.br, registrados pela coordenação editorial em seu nome (CPF). "A boa" continua; "Roteiros do Largo" passam a se chamar Roteiros.
 
 - Repositório renomeado (19/11/2026): `github.com/miguelbconde/todososrios`; endereço provisório do site `miguelbconde.github.io/todososrios`. O todososrios.com.br tem repositório próprio (`miguelbconde/todososrios-com-br`), só com a página que encaminha para o site; enquanto o .rio não sai, encaminha para o endereço provisório.
+
+**Tomadas (21/11/2026):**
+- Atualização diária refeita do zero: robô publica sozinho; o Claude só entrega fichas, com teto diário; alarme por e-mail (seção 10).
 
 **Pendente:**
 - todososrios.rio: a INWX ainda não concluiu o registro (faltava o CPF, informado em 19/11). Quando sair: cadastrar o DNS na INWX, pôr o arquivo CNAME em `docs/`, trocar a constante `SITE` de `ferramentas/gerar.py` e apontar o encaminhamento do .com.br para o .rio.

@@ -1,3 +1,5 @@
 coleta-bruta/
 coleta-largo-pc-*/
 *.zip
+__pycache__/
+alarmes.txt

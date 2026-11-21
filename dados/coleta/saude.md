@@ -1,0 +1,31 @@
+# Boletim de saúde — 2026-11-21
+
+## Ronda das fontes
+
+- Feita em: 2026-11-21 08:22 UTC
+- Lidas com datas: **53** de 91 visitadas
+- não respondeu: 19
+- coletada, mas sem datas à vista: 14
+- recusou a visita: 3
+- em espera: 2
+
+## Plataformas de ingresso
+
+- Ingresso.com: 7088 sessões de cinema
+- Sympla: 2137 eventos no Rio
+
+## Redação (tarefa diária do Claude)
+
+- Última entrega: 2026-11-19
+  - 2026-11-19: 178 novas, 0 corrigidas, 0 recusadas
+
+## Edição no ar
+
+- Fichas da redação de hoje até 2026-11-25: **130**
+- Por região: Centro 51, Zona Sul 33, Zona Norte 23, Zona Sudoeste 15, Zona Oeste 8
+- Fora da Zona Sul: 75%
+- Grátis: 65
+
+## Alarmes
+
+- a tarefa diária do Claude não entrega fichas desde 2026-11-19; o site segue no ar, mas só com o que o robô monta sozinho

@@ -1,5 +1,4 @@
 {
- "conferidos": 150,
  "resultado": [
   {
    "id": "2026-11-19-001",
@@ -26,21 +25,6 @@
    "resolucao": "Mantido: “(Planetário)” é o nome do teatro no cadastro do projeto, para ajudar a achar o lugar."
   },
   {
-   "id": "2026-11-19-007",
-   "titulo": "A Menina Dança",
-   "campo": "sessoes",
-   "veredito": "duvida",
-   "detalhe": "As fontes divergem no horário: a semanal diz \"Sexta-feira (20/11), às 11h\"; a do Novembro Negro diz \"20/11 (sexta, feriado), às 10h, no Teatro Carlos Werneck\". A ficha publica 11h (o redator anotou a divergência em nota_redacao)."
-  },
-  {
-   "id": "2026-11-19-007",
-   "titulo": "A Menina Dança",
-   "campo": "acessibilidade",
-   "veredito": "duvida",
-   "detalhe": "A fonte do Novembro Negro informa \"Acessibilidade: uma apresentação em Libras e fones\", sem dizer qual das apresentações. A ficha deixa o campo vazio (vale também para a ficha 056, do Guignol da Tijuca).",
-   "resolucao": "Mantido vazio: a fonte não diz qual apresentação tem Libras."
-  },
-  {
    "id": "2026-11-19-008",
    "titulo": "Exposição principal do Museu Histórico da Cidade",
    "campo": "sinopse",
@@ -57,62 +41,6 @@
    "resolucao": "Corrigido: sinopse reduzida ao que a fonte informa."
   },
   {
-   "id": "2026-11-19-015",
-   "titulo": "Festa, Fé e Luta (Mostra do Impossível)",
-   "campo": "preco_texto",
-   "veredito": "duvida",
-   "detalhe": "As fontes não fecham: a semanal dá para a Mostra \"R$ 5 a R$ 10\" e não repete preço na linha do espetáculo; a do Novembro Negro diz \"Majoritariamente gratuito; apenas uma sessão com ingressos a preços populares (R$ 10 a inteira e R$ 5 a meia)\", sem dizer qual sessão. A ficha publica \"Grátis ou até R$ 10 (ver programação)\", com preco_min 5, preco_max 10 e gratis=false. Não dá para saber se esta sessão é paga.",
-   "resolucao": "Mantido: o texto “Grátis ou até R$ 10 (ver programação)” cobre o que as duas fontes dizem, e a ficha leva à programação oficial da mostra."
-  },
-  {
-   "id": "2026-11-19-015",
-   "titulo": "Festa, Fé e Luta (Mostra do Impossível)",
-   "campo": "classificacao",
-   "veredito": "duvida",
-   "detalhe": "A semanal dá \"10 anos\" (linha da Mostra); a do Novembro Negro dá \"Classificação indicativa: Livre\". A ficha usa 10 anos.",
-   "resolucao": "Mantido: entre “10 anos” e “Livre”, fica a mais restritiva."
-  },
-  {
-   "id": "2026-11-19-016",
-   "titulo": "Sortilégios – leitura dramatizada (Mostra do Impossível)",
-   "campo": "sessoes",
-   "veredito": "duvida",
-   "detalhe": "A semanal escreve \"Sexta-feira (19/11), às 18h\" (19/11 é quinta: dia da semana e data não batem). A do Novembro Negro lista a leitura em \"20/11 (sexta-feira) ... 18h\". A ficha usa 20/11 às 18h, que é a leitura mais provável, mas a fonte semanal é contraditória.",
-   "resolucao": "Mantido: 20/11 é sexta e o PDF do Novembro Negro confirma a data; o “19/11” do PDF semanal é erro de digitação."
-  },
-  {
-   "id": "2026-11-19-016",
-   "titulo": "Sortilégios – leitura dramatizada (Mostra do Impossível)",
-   "campo": "classificacao",
-   "veredito": "duvida",
-   "detalhe": "A ficha traz \"10 anos\", herdado da linha geral da Mostra na semanal; a linha da leitura não dá classificação e a do Novembro Negro dá \"Livre\" para a Mostra.",
-   "resolucao": "Mantido: entre “10 anos” e “Livre”, fica a mais restritiva."
-  },
-  {
-   "id": "2026-11-19-017",
-   "titulo": "Cabeça de Porco – Retratos de um Território (Mostra do Impossível)",
-   "campo": "sessoes",
-   "veredito": "duvida",
-   "detalhe": "A semanal escreve \"Sexta-feira (19/11), às 19h\" (19/11 é quinta). A do Novembro Negro lista o espetáculo em \"20/11 (sexta-feira) ... 19h\". A ficha usa 20/11 às 19h; fonte semanal contraditória.",
-   "resolucao": "Mantido: 20/11 é sexta e o PDF do Novembro Negro confirma a data; o “19/11” do PDF semanal é erro de digitação."
-  },
-  {
-   "id": "2026-11-19-017",
-   "titulo": "Cabeça de Porco – Retratos de um Território (Mostra do Impossível)",
-   "campo": "preco_texto",
-   "veredito": "duvida",
-   "detalhe": "Mesmo caso da ficha 015: semanal \"R$ 5 a R$ 10\" para a Mostra; Novembro Negro \"Majoritariamente gratuito; apenas uma sessão com ingressos a preços populares\", sem dizer qual. A ficha publica \"Grátis ou até R$ 10 (ver programação)\", min 5, max 10, gratis=false.",
-   "resolucao": "Mantido: o texto “Grátis ou até R$ 10 (ver programação)” cobre o que as duas fontes dizem, e a ficha leva à programação oficial da mostra."
-  },
-  {
-   "id": "2026-11-19-017",
-   "titulo": "Cabeça de Porco – Retratos de um Território (Mostra do Impossível)",
-   "campo": "classificacao",
-   "veredito": "duvida",
-   "detalhe": "Semanal: \"10 anos\" (linha da Mostra); Novembro Negro: \"Livre\". A ficha usa 10 anos.",
-   "resolucao": "Mantido: entre “10 anos” e “Livre”, fica a mais restritiva."
-  },
-  {
    "id": "2026-11-19-020",
    "titulo": "Providência 130: Histórias que Fazem Território",
    "campo": "cartaz",
@@ -121,36 +49,12 @@
    "resolucao": "Mantido: 17/11/2027. A exposição abre em 19/11/2026 e o próprio PDF do Novembro Negro marca a sua data como “conferir”."
   },
   {
-   "id": "2026-11-19-026",
-   "titulo": "Samba da Dida Bar",
-   "campo": "gratis",
-   "veredito": "duvida",
-   "detalhe": "A fonte (as duas) diz \"Entrada colaborativa\", não \"Grátis\". A ficha repete o texto certo em preco_texto, mas marca gratis=true; entrada colaborativa não é necessariamente gratuita.",
-   "resolucao": "Mantido: pelo plano diretor, contribuição voluntária conta como grátis, sinalizada como “Entrada colaborativa”."
-  },
-  {
-   "id": "2026-11-19-026",
-   "titulo": "Samba da Dida Bar",
-   "campo": "sinopse",
-   "veredito": "nao_encontrado",
-   "detalhe": "A ficha chama o Muhcab de \"museu da Pequena África\" e o evento de \"roda de samba\". Nenhuma das fontes usa \"Pequena África\" para o Muhcab (o termo aparece para o Calouste e para o Morro da Providência) nem fala em \"roda\"; dizem só que o evento \"celebra a tradição do samba\".",
-   "resolucao": "Corrigido: retirados “roda” e “museu da Pequena África”."
-  },
-  {
    "id": "2026-11-19-028",
    "titulo": "Protagonismos: Memória, Orgulho e Identidade",
    "campo": "sinopse",
    "veredito": "nao_encontrado",
    "detalhe": "A ficha diz \"Exposição de longa duração do museu da Pequena África sobre personalidades e lutas negras\". A fonte traz só o título e o horário (\"Exposição “Protagonismos: Memória, Orgulho e Identidade” Terça-feira a domingo, das 10h às 17h. Grátis. Livre.\"), sem descrição. Tudo na sinopse é acréscimo.",
    "resolucao": "Corrigido: sinopse reduzida ao que a fonte informa."
-  },
-  {
-   "id": "(retirada)",
-   "titulo": "Seminário Estadual: Por uma Educação Antirracista",
-   "campo": "titulo",
-   "veredito": "duvida",
-   "detalhe": "Na fonte semanal o seminário está dentro da seção \"ATIVIDADES FORMATIVAS (CURSOS, OFICINAS, WORKSHOPS)\", que pelo critério editorial fica de fora. Os dados da ficha conferem (24/11, das 10h às 15h, Grátis, Livre), mas vale decidir se o evento deve entrar. A do Novembro Negro avisa \"evento sujeito a alterações\" e não informa valor.",
-   "resolucao": "Corrigido: evento retirado da edição (seção de atividades formativas; a outra fonte avisa “sujeito a alterações”)."
   },
   {
    "id": "2026-11-19-030",
@@ -216,21 +120,6 @@
    "resolucao": "Corrigido: “Arena Cultural Dicró”."
   },
   {
-   "id": "2026-11-19-068",
-   "titulo": "Música Terapia – Banda Filarmônica Maestro Nunes",
-   "campo": "preco_texto",
-   "veredito": "duvida",
-   "detalhe": "As fontes divergem: a semanal diz \"INGRESSO: R$ 30,00 (meia)\"; a do Novembro Negro diz \"R$ 40,00 (inteira) / R$ 20,00 (meia)\". A ficha publica R$ 20 a R$ 40 (Novembro Negro); o redator anotou a escolha."
-  },
-  {
-   "id": "2026-11-19-068",
-   "titulo": "Música Terapia – Banda Filarmônica Maestro Nunes",
-   "campo": "endereco",
-   "veredito": "nao_encontrado",
-   "detalhe": "A ficha acrescenta \"(Parque de Madureira)\" ao endereço. A fonte dá só \"Rua Bernardino de Andrade 200, Madureira\".",
-   "resolucao": "Mantido: “Parque de Madureira” vem do cadastro do projeto e ajuda a achar o lugar."
-  },
-  {
    "id": "2026-11-19-069",
    "titulo": "Urban Charme – Mostra de Charme (10 anos)",
    "campo": "endereco",
@@ -247,42 +136,12 @@
    "resolucao": "Corrigido: “em Madureira”."
   },
   {
-   "id": "2026-11-19-079",
-   "titulo": "Tem Jongo no Beco Novais",
-   "campo": "bairro",
-   "veredito": "nao_encontrado",
-   "detalhe": "A fonte do Novembro Negro dá só \"Local: Areninha Cultural João Bosco\", sem endereço, bairro ou região. A ficha traz bairro \"Vista Alegre\" e região \"Zona Norte\", com endereço vazio. Nota do redator: \"A fonte não dá o endereço da Areninha João Bosco. O bairro (Vista Alegre) vem do cadastro de fontes do projeto.\""
-  },
-  {
-   "id": "2026-11-19-080",
-   "titulo": "Encontro de Baluartes e Futuros Bambas",
-   "campo": "endereco",
-   "veredito": "nao_encontrado",
-   "detalhe": "A fonte do Novembro Negro traz só o nome \"Arena Cultural Jovelina Pérola Negra\", sem endereço, bairro ou região. A ficha usa \"Praça Ênio, s/nº\", Pavuna, Zona Norte. Nota do redator: \"Usei “Praça Ênio, s/nº, Pavuna”, encontrado numa página de terceiros (Buser), não em fonte oficial.\""
-  },
-  {
    "id": "2026-11-19-082",
    "titulo": "Ônibus Biblioteca – Livros nas Praças",
    "campo": "cartaz",
    "veredito": "duvida",
    "detalhe": "A fonte diz \"Até 27 de novembro, às 11h\", sem dizer em quais dias da semana nem em que praça (\"Livros nas Praças\"), dentro do bloco da Areninha Hermeto Pascoal. A ficha trata como atividade diária \"A partir das 11h\" na areninha; a fonte diz \"às 11h\" e não confirma que é todo dia.",
    "resolucao": "Corrigido: horário passa a “Às 11h (a fonte não informa os dias)”."
-  },
-  {
-   "id": "2026-11-19-087",
-   "titulo": "Celebração da Diversidade – Dia da Consciência Negra",
-   "campo": "preco_texto",
-   "veredito": "duvida",
-   "detalhe": "As fontes divergem: a semanal diz \"R$ 20 ou 1 lata de leite em pó\"; a do Novembro Negro diz \"R$ 40,00 (inteira) / R$ 20,00 (meia), com alternativa de ingresso mediante doação de uma lata de leite em pó\". A ficha publica \"R$ 20 a R$ 40, ou 1 lata de leite em pó\".",
-   "resolucao": "Mantido: o texto “R$ 20 a R$ 40, ou 1 lata de leite em pó” cobre as duas fontes."
-  },
-  {
-   "id": "2026-11-19-089",
-   "titulo": "Clube de Leitura Infantil – mês da Consciência Negra",
-   "campo": "endereco",
-   "veredito": "nao_encontrado",
-   "detalhe": "A fonte do Novembro Negro traz só \"Espaço de Leitura Moacyr Teixeira\", sem endereço, bairro ou região. A ficha usa \"Rua Doze, s/nº\", Santa Cruz, Zona Oeste. Nota do redator: \"Usei o do regulamento das bibliotecas da SMC (“Espaço de Leitura Moacyr Teixeira, Rua 12, s/n, Santa Cruz”).\"",
-   "resolucao": "Mantido: endereço do regulamento das bibliotecas da SMC (“Rua 12, s/n, Santa Cruz”)."
   },
   {
    "id": "2026-11-19-093",
@@ -307,60 +166,6 @@
    "veredito": "duvida",
    "detalhe": "A ficha deixa o preço vazio e gratis=false. A fonte não dá preço da exposição, mas diz que a Mostra é \"Majoritariamente gratuito; apenas uma sessão com ingressos a preços populares\"; o mais provável é que a exposição seja gratuita, sem confirmação expressa.",
    "resolucao": "Mantido: preço fica como não informado."
-  },
-  {
-   "id": "2026-11-19-095",
-   "titulo": "Cabaret – Edição Especial Consciência Negra",
-   "campo": "bairro",
-   "veredito": "nao_encontrado",
-   "detalhe": "A fonte dá só \"Local: Rua Carmo Neto, 143\", sem bairro. A ficha traz \"Cidade Nova\", região Centro. Nota do redator: \"A fonte não dá o bairro. “Cidade Nova” vem do cadastro de fontes do projeto.\"",
-   "resolucao": "Mantido: a rua vem da fonte; o bairro, do cadastro do projeto."
-  },
-  {
-   "id": "2026-11-19-097",
-   "titulo": "WD – Eclipse Tour",
-   "campo": "sessoes",
-   "veredito": "duvida",
-   "detalhe": "Apontamento da redação: a sessão de 19/11 vem do PDF semanal anterior (“12 e 19/11”). O PDF desta semana lista só “A Cura da Terra” e “Superiores” no mesmo teatro e não cita o show. Pode ter sido cancelado ou apenas omitido."
-  },
-  {
-   "id": "2026-11-19-121",
-   "titulo": "Dança, Identidade e Resistência – aulão do Ballet Manguinhos",
-   "campo": "bairro",
-   "veredito": "nao_encontrado",
-   "detalhe": "A fonte (Novembro Negro) só diz \"Local: Biblioteca Parque de Manguinhos\", sem endereço nem bairro. A ficha traz bairro \"Manguinhos\" (e região Zona Norte), deduzido do nome do equipamento. A nota_redacao explica apenas a falta do endereço (\"A fonte não dá o endereço da Biblioteca Parque de Manguinhos\"), não a origem do bairro. O único endereço próximo na fonte é o da sede do Ballet Manguinhos (\"Avenida dos Democráticos, 535, Higienópolis\"), que é de outra atividade."
-  },
-  {
-   "id": "2026-11-19-129",
-   "titulo": "OSB Jovem – Legado em Harmonia",
-   "campo": "preco_texto",
-   "veredito": "nao_encontrado",
-   "detalhe": "A ficha traz R$ 30 a R$ 60 (meia R$ 15 a R$ 30). Em F192, a linha \"Plateia: R$60 (R$30 meia) | Frisa: R$50 (R$25 meia) | Camarote: R$40 (R$20 meia) | Galeria: R$30 (R$15 meia)\" vem ANTES do bloco da OSB Jovem e pertence ao concerto anterior da lista (na Cidade das Artes); o bloco de 19/11 termina em \"Local: Theatro Municipal do Rio de Janeiro (Praça Floriano, S/N – Centro – Rio de Janeiro)\" seguido só de \"Ingressos\", sem valores. F063 também não dá preço. Preço (e preco_min/preco_max) sem apoio na fonte.",
-   "resolucao": "Corrigido: preço retirado; a linha de valores era de outro concerto da lista."
-  },
-  {
-   "id": "2026-11-19-129",
-   "titulo": "OSB Jovem – Legado em Harmonia",
-   "campo": "trecho_fonte",
-   "veredito": "diverge",
-   "detalhe": "O trecho cola a linha de preços logo depois de \"Rodrigo Herculano , oboé [...]\" como se fosse do mesmo concerto; em F192 essa linha está no \"SERVIÇO\" de outro evento, antes do título \"OSB Jovem | Legado em Harmonia\".",
-   "resolucao": "Corrigido: a linha de preços saiu do trecho."
-  },
-  {
-   "id": "2026-11-19-152",
-   "titulo": "CA7RIEL & Paco Amoroso – Free Spirits World Tour",
-   "campo": "preco_texto",
-   "veredito": "diverge",
-   "detalhe": "A ficha deixa o preço vazio e a nota diz que a coleta não trouxe preço. F126 (página do evento) traz \"INGRESSOS A PARTIR DE: R$ 245 (meia) R$ 490 (inteira)\".",
-   "resolucao": "Corrigido: R$ 490 (meia R$ 245)."
-  },
-  {
-   "id": "2026-11-19-152",
-   "titulo": "CA7RIEL & Paco Amoroso – Free Spirits World Tour",
-   "campo": "classificacao",
-   "veredito": "diverge",
-   "detalhe": "A ficha deixa vazio e a nota diz que a coleta não trouxe classificação. F126 traz \"Classificação Etária 18\" na página do evento.",
-   "resolucao": "Corrigido: 18 anos."
   },
   {
    "id": "2026-11-19-138",
@@ -401,22 +206,6 @@
    "veredito": "diverge",
    "detalhe": "A ficha traz só \"R$ 10 (meia R$ 5), só na bilheteria\". F066 (ArtRio) acrescenta \"Às quartas-feiras, a entrada é franca para todos os públicos.\" e \"Aos domingos, “ingresso família” a R$10 para grupos de quatro pessoas.\" A quarta gratuita (25/11 cai na edição) não aparece na ficha.",
    "resolucao": "Corrigido: acrescentado “grátis às quartas”."
-  },
-  {
-   "id": "2026-11-19-147",
-   "titulo": "O Nome do Bebê",
-   "campo": "classificacao",
-   "veredito": "diverge",
-   "detalhe": "A ficha deixa vazio. F114 traz \"Classificação etária: 12 anos. Menores a partir de 10 anos entram acompanhados dos pais ou responsáveis.\"",
-   "resolucao": "Corrigido: 12 anos."
-  },
-  {
-   "id": "2026-11-19-147",
-   "titulo": "O Nome do Bebê",
-   "campo": "sinopse",
-   "veredito": "diverge",
-   "detalhe": "A nota diz que a coleta não trouxe a sinopse, e a ficha só fala da temporada. F114 traz a sinopse completa: \"a comédia O Nome do Bebê, com Bianca Bin e grande elenco\", \"da dupla francesa Matthieu Delaporte e Alexandre de la Patellière\", \"A direção é de Elias Andreato\". A nota está errada (o preço, de fato, não aparece).",
-   "resolucao": "Corrigido: sinopse refeita a partir da fonte."
   },
   {
    "id": "2026-11-19-148",
@@ -523,14 +312,6 @@
    "resolucao": "Sem mudança: a ficha confere com a fonte certa (site da galeria A Gentil Carioca); o erro era só na indicação do arquivo dada ao conferente."
   },
   {
-   "id": "2026-11-19-169",
-   "titulo": "Debate de lançamento: As Três Mulheres do Alencar",
-   "campo": "trecho_fonte",
-   "veredito": "duvida",
-   "detalhe": "A segunda parte do trecho (\"R. São Francisco Xavier, 524, Térreo, Bloco F – Sala T031\") existe em F152, mas é o endereço do gabinete da reitoria (vem sob \"Contato do gabinete: Campus Francisco Negrão de Lima Pavilhão João Lyra Filho\"), não o da livraria. Sobre o local do debate a fonte só diz \"na livraria da EdUERJ, localizada no térreo do campus Maracanã\". O número 524 é o do campus, mas a fonte não dá endereço da livraria.",
-   "resolucao": "Corrigido: saiu do trecho o endereço que era de outro setor; a ficha passa a dizer “campus Maracanã, térreo”."
-  },
-  {
    "id": "2026-11-19-163",
    "titulo": "O Grande Encontro – Leci Brandão, Sandro Luiz, Tião Casemiro e Luan Pureza",
    "campo": "sinopse",
@@ -546,58 +327,5 @@
    "detalhe": "O endereço da ficha está certo, mas a nota erra ao dizer que ele não está no texto coletado: F013 traz \"Biblioteca Parque Estadual Av. Pres. Vargas, 1261 – Centro, Rio de Janeiro – RJ, 20071-004\".",
    "resolucao": "Corrigido: a nota estava errada; o endereço consta na fonte e entrou no trecho."
   }
- ],
- "omissoes": [
-  {
-   "evento": "Areninha Literária (Mês da Consciência Negra)",
-   "fonte": "semanal",
-   "quando_onde": "Quinta 19/11, às 10h, Biblioteca Municipal Milton Santos (na Areninha Jacob do Bandolim, Pechincha). Grátis. Livre.",
-   "observacao": "Caso duvidoso. A semanal descreve como roda de leitura \"em parceria com as escolas municipais... para alunos do ensino fundamental\" (parece atividade escolar), mas a do Novembro Negro apresenta como roda de conversa com autores negros (\"A biblioteca traz autores negros para o evento\"), sem restringir o público. A semanal grafa a data como \"(1911)\"."
-  },
-  {
-   "evento": "Projeto Social Emily Santos apresenta O Reino Encantado",
-   "fonte": "semanal",
-   "quando_onde": "Sábado 21/11, às 11h, Arena Cultural Fernando Torres (Madureira). R$ 20 a R$ 40. Livre.",
-   "observacao": "Caso duvidoso. Espetáculo de dança com ingresso e horário, aberto ao público. Pode ter ficado de fora por ser apresentação de projeto social/escola de dança, mas a fonte não diz que é interna."
-  },
-  {
-   "evento": "5º Festival Dançar e Sonhar – A Magia do Cinema",
-   "fonte": "semanal",
-   "quando_onde": "Domingo 22/11, às 10h, Arena Cultural Fernando Torres (Madureira). R$ 35 a R$ 70. Livre.",
-   "observacao": "Caso duvidoso. A fonte descreve como \"espetáculo de dança\" com ingresso; não diz que é de academia ou escola. Se foi excluído por parecer festival de escola de dança, a fonte não confirma."
-  },
-  {
-   "evento": "Circo em Movimento – Estúdio Acroarte",
-   "fonte": "semanal",
-   "quando_onde": "Sábado 21/11, às 18h, Areninha Cultural Renato Russo (Cocotá, Ilha do Governador). R$ 15. Livre.",
-   "observacao": "Caso duvidoso. \"Espetáculo para toda a família... apresentado por alunas e artistas da Acroarte\": tem cara de apresentação de academia (critério de exclusão), mas é vendido ao público como espetáculo. Para comparar: \"No Ritmo do Circo\" (ficha 089) entrou sem descrição nenhuma."
-  },
-  {
-   "evento": "Concurso Cultural “Arrasa, Garota!”",
-   "fonte": "semanal",
-   "quando_onde": "Quinta 19/11, às 13h, Areninha Cultural Gilberto Gil (Realengo). Grátis. Livre.",
-   "observacao": "Caso duvidoso. A fonte chama de \"concurso cultural\" e não descreve; não dá para saber se é concurso de beleza (critério de exclusão) ou de talentos."
-  },
-  {
-   "evento": "Encontros de Literatura Afetuosa",
-   "fonte": "semanal",
-   "quando_onde": "Segunda 23/11, das 14h às 16h (segundas, até 30/11), Biblioteca Municipal Marques Rebelo (Tijuca). Grátis. 18 anos.",
-   "observacao": "Caso duvidoso. Encontro de biblioterapia para pessoas 60+, na programação regular da biblioteca (não está na seção de atividades formativas). Pode ser lido como grupo terapêutico/oficina, e não como programação cultural."
-  },
-  {
-   "evento": "Mediação Cultural (público espontâneo)",
-   "fonte": "semanal",
-   "quando_onde": "Terça a sábado, das 10h às 18h, Centro de Arte Hélio Oiticica (Centro). Grátis. Livre.",
-   "observacao": "Caso duvidoso. É um serviço de visita mediada permanente, não um evento; listado só porque visitas mediadas de outros museus viraram ficha (021 e 030)."
-  },
-  "[ronda de 19/11] Carioca da Gema – Branka, ter. 24/11 (F016, listagem SHOWS: \"Branka ter., 24 de nov.\"; sem horário na coleta)",
-  "[ronda de 19/11] Carioca da Gema – Samba d'Jorge de Jorge Barbosa, qua. 25/11 (F016, listagem SHOWS; sem horário na coleta)",
-  "[ronda de 19/11] Theatro Municipal – Ópera do Meio-Dia, Rigoletto versão pocket, gratuito, 25/11 (F063: \"Uma pausa para Verdi: Rigoletto ocupa a hora do almoço no TMRJ – 9, 10, 25 e 26/11\")",
-  "[ronda de 19/11] Casa Firjan – Economia Criativa no Brasil: conceitos, debates e perspectivas, qua. 25/11, 15h (F074; lançamento de relatório técnico, talvez fora do critério editorial)",
-  "[ronda de 19/11] Livraria da Travessa Shopping Leblon – Desligue a tela e se ligue no seu filho, Ilan Brenman, autógrafos e bate-papo com Daniel Becker, qui. 19/11, 19h (F189)",
-  "[ronda de 19/11] Livraria da Travessa Shopping Leblon – Momentos à Mesa, Juliana Gueiros, autógrafos, ter. 24/11, 19h (F189)",
-  "[ronda de 19/11] Livraria da Travessa Ipanema – Pelas Esquinas da Justiça, Cristina Gaulia, autógrafos, qua. 25/11, 19h (F189)",
-  "[ronda de 19/11] Livraria da Travessa BarraShopping – autógrafos em 19/11 (Medicação, Dr. Murari), 23/11 (Seja o empresário que o seu negócio precisa) e 24/11 (Sono Infantil sem Extremos), todos às 19h (F189; títulos de saúde/negócios, talvez fora do critério)",
-  "[ronda de 19/11] Observação: só vi as 50 fichas novas; alguns destes eventos podem já estar em fichas antigas da edição."
  ]
 }

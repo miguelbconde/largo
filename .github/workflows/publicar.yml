@@ -1,0 +1,32 @@
+name: Publicar fichas novas
+# Quando a tarefa diária do Claude entrega fichas (dados/fichas.json e afins), o robô remonta e publica o site.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "dados/fichas.json"
+      - "dados/destaques.json"
+      - "dados/conferencia.json"
+      - "dados/traducoes.json"
+      - "ferramentas/montar.py"
+      - "ferramentas/gerar.py"
+      - "ferramentas/modelo.html"
+permissions:
+  contents: write
+concurrency:
+  group: publicacao
+  cancel-in-progress: false
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Montar e publicar
+        run: bash ferramentas/publicar.sh "Site atualizado com as fichas entregues (automático)"

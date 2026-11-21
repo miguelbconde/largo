@@ -11,12 +11,18 @@ on:
       - ".github/workflows/coleta.yml"
 permissions:
   contents: write
+  issues: write
+concurrency:
+  group: publicacao
+  cancel-in-progress: false
 jobs:
   ronda:
     runs-on: ubuntu-latest
     timeout-minutes: 35
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -40,11 +46,17 @@ jobs:
           git add -A
           git commit -qm "Texto bruto da ronda (temporário; substituído a cada ronda)"
           git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" coleta-bruta
-      - name: Guardar só o resumo no repositório
+      - name: Montar a edição do dia, o boletim de saúde e publicar o site (robô, sem IA)
+        run: bash ferramentas/publicar.sh "Ronda das fontes e site do dia (automático)" coleta-bruta/plataformas.json
+      - name: Alarme por e-mail (aviso no GitHub)
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          git config user.name "largo-coleta"
-          git config user.email "largo-coleta@users.noreply.github.com"
-          git add dados/coleta/resumo.json dados/coleta/resumo.md dados/coleta/plataformas.md || true
-          git commit -m "Ronda das fontes: resumo (automático)" || echo "nada mudou"
-          git pull --rebase origin main
-          git push origin HEAD:main
+          aberto=$(gh issue list --state open --search "Alarme do robô in:title" --json number --jq '.[0].number')
+          if grep -q "ALARME" alarmes.txt 2>/dev/null; then
+            corpo=$(printf "O robô do Todos os Rios encontrou um problema na rodada de hoje:\n\n%s\n\nO que fazer: abrir uma conversa no Projeto e colar este aviso. Detalhes em dados/coleta/saude.md." "$(grep ALARME alarmes.txt | sed 's/^ALARME: /- /')")
+            if [ -n "$aberto" ]; then gh issue comment "$aberto" --body "$corpo"; else gh issue create --title "Alarme do robô: $(date -u +%d/%m)" --body "$corpo"; fi
+          elif [ -n "$aberto" ]; then
+            gh issue close "$aberto" --comment "Resolvido: a rodada de hoje terminou sem alarmes."
+          fi
