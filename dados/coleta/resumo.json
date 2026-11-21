@@ -1,7 +1,7 @@
 {
  "origem": "nuvem",
- "feito_em": "2026-11-20 08:30 UTC",
- "segundos": 182,
+ "feito_em": "2026-11-21 08:22 UTC",
+ "segundos": 168,
  "fontes": [
   {
    "ids": [
@@ -77,26 +77,9 @@
    "regioes": [
     "Centro"
    ],
-   "degraus": [
-    "texto de 10 página(s)"
-   ],
-   "caracteres": 47242,
-   "url_final": "https://www.gov.br/arquivonacional/pt-br",
-   "paginas": [
-    "https://www.gov.br/arquivonacional/pt-br",
-    "https://www.gov.br/arquivonacional/pt-br/sites_eventos",
-    "https://www.gov.br/arquivonacional/pt-br/servicos/atendimento",
-    "https://www.gov.br/arquivonacional/pt-br/servicos/atendimento/atendimento-1",
-    "https://www.gov.br/arquivonacional/pt-br/servicos/atendimento/bases-de-dados-e-instrumentos-de-pesquisa",
-    "https://www.gov.br/arquivonacional/pt-br/acesso-a-informacao/institucional/acervo",
-    "https://www.gov.br/arquivonacional/pt-br/servicos/gestao-de-documentos",
-    "https://www.gov.br/arquivonacional/pt-br/servicos/gestao-de-documentos/decreto",
-    "https://www.gov.br/arquivonacional/pt-br/servicos/gestao-de-documentos/orientacao-tecnica-1",
-    "https://www.gov.br/arquivonacional/pt-br/servicos/gestao-de-documentos/legislacao"
-   ],
-   "mencoes_de_data": 65,
-   "situacao": "coletada",
-   "arquivo": "F005.txt"
+   "degraus": [],
+   "caracteres": 0,
+   "situacao": "não respondeu: URLError: <urlopen error [Errno 104] Connection reset by peer>"
   },
   {
    "ids": [
@@ -128,7 +111,7 @@
     "feed (10 itens)",
     "texto de 7 página(s)"
    ],
-   "caracteres": 40941,
+   "caracteres": 40910,
    "url_final": "https://cultura.rj.gov.br",
    "paginas": [
     "https://cultura.rj.gov.br",
@@ -177,7 +160,7 @@
     "feed (20 itens)",
     "texto de 2 página(s)"
    ],
-   "caracteres": 11401,
+   "caracteres": 8635,
    "url_final": "https://www.barcariocadagema.com.br/",
    "paginas": [
     "https://www.barcariocadagema.com.br/",
@@ -196,17 +179,9 @@
    "regioes": [
     "Centro"
    ],
-   "degraus": [
-    "texto de 1 página(s)"
-   ],
-   "caracteres": 1732,
-   "url_final": "https://casadochoro.com.br",
-   "paginas": [
-    "https://casadochoro.com.br"
-   ],
-   "mencoes_de_data": 0,
-   "situacao": "coletada, mas sem datas à vista (a programação pode ser carregada depois)",
-   "arquivo": "F017.txt"
+   "degraus": [],
+   "caracteres": 0,
+   "situacao": "não respondeu: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>"
   },
   {
    "ids": [
@@ -220,7 +195,7 @@
    "degraus": [
     "texto de 12 página(s)"
    ],
-   "caracteres": 38060,
+   "caracteres": 38066,
    "url_final": "https://ccbb.com.br/rio-de-janeiro/",
    "paginas": [
     "https://ccbb.com.br/rio-de-janeiro/",
@@ -236,7 +211,7 @@
     "https://ccbb.com.br/rio-de-janeiro/programacao/21o-festival-de-cinema-italiano-no-brasil/",
     "https://ccbb.com.br/rio-de-janeiro/programacao/yokai-parade-seres-sobrenaturais-do-japao/"
    ],
-   "mencoes_de_data": 326,
+   "mencoes_de_data": 324,
    "situacao": "coletada",
    "arquivo": "F019.txt"
   },
@@ -346,7 +321,7 @@
     "feed (10 itens)",
     "texto de 12 página(s)"
    ],
-   "caracteres": 36056,
+   "caracteres": 36588,
    "url_final": "https://www.abi.org.br/",
    "paginas": [
     "https://www.abi.org.br/",
@@ -362,7 +337,7 @@
     "http://www.abi.org.br/institucional/direcao/conselho-fiscal/",
     "http://www.abi.org.br/institucional/direcao/comissoes/"
    ],
-   "mencoes_de_data": 6,
+   "mencoes_de_data": 8,
    "situacao": "coletada",
    "arquivo": "F028.txt"
   },
@@ -376,10 +351,9 @@
     "Centro"
    ],
    "degraus": [
-    "feed (8 itens)",
     "texto de 8 página(s)"
    ],
-   "caracteres": 28151,
+   "caracteres": 25105,
    "url_final": "https://circocrescereviver.org.br",
    "paginas": [
     "https://circocrescereviver.org.br",
@@ -392,7 +366,7 @@
     "https://circocrescereviver.org.br/apoie-o-circo/patrocinios/"
    ],
    "mencoes_de_data": 0,
-   "situacao": "coletada",
+   "situacao": "coletada, mas sem datas à vista (a programação pode ser carregada depois)",
    "arquivo": "F029.txt"
   },
   {
@@ -429,7 +403,7 @@
     "feed (3 itens)",
     "texto de 1 página(s)"
    ],
-   "caracteres": 5536,
+   "caracteres": 1542,
    "url_final": "https://www.d-edge.com.br/",
    "paginas": [
     "https://www.d-edge.com.br/"
@@ -463,7 +437,7 @@
    "degraus": [
     "texto de 13 página(s)"
    ],
-   "caracteres": 26458,
+   "caracteres": 26451,
    "url_final": "https://fundicaoprogresso.com.br",
    "paginas": [
     "https://fundicaoprogresso.com.br",
@@ -570,7 +544,7 @@
    "degraus": [
     "texto de 12 página(s)"
    ],
-   "caracteres": 31891,
+   "caracteres": 31454,
    "url_final": "https://www.realgabinete.com.br",
    "paginas": [
     "https://www.realgabinete.com.br",
@@ -698,13 +672,12 @@
     "Centro"
    ],
    "degraus": [
-    "texto de 6 página(s)"
+    "texto de 5 página(s)"
    ],
-   "caracteres": 8238,
+   "caracteres": 7017,
    "url_final": "https://teatrorivalrefit.com.br",
    "paginas": [
     "https://teatrorivalrefit.com.br",
-    "https://teatrorivalrefit.com.br/eventos/",
     "https://teatrorivalrefit.com.br/",
     "https://teatrorivalrefit.com.br/page/2/",
     "https://teatrorivalrefit.com.br/page/3/",
@@ -798,7 +771,7 @@
    "degraus": [
     "texto de 12 página(s)"
    ],
-   "caracteres": 56716,
+   "caracteres": 55944,
    "url_final": "https://artrio.com",
    "paginas": [
     "https://artrio.com",
@@ -814,7 +787,7 @@
     "https://artrio.com/agenda-cultural/fortes-daloia-joao-maria-gusmao",
     "https://artrio.com/agenda-cultural/fortes-daloia-sarah-morris"
    ],
-   "mencoes_de_data": 727,
+   "mencoes_de_data": 717,
    "situacao": "coletada",
    "arquivo": "F066.txt"
   },
@@ -830,7 +803,7 @@
    "degraus": [
     "texto de 2 página(s)"
    ],
-   "caracteres": 7111,
+   "caracteres": 6892,
    "url_final": "https://becodasgarrafas.com.br",
    "paginas": [
     "https://becodasgarrafas.com.br",
@@ -1135,7 +1108,7 @@
    ],
    "degraus": [],
    "caracteres": 0,
-   "situacao": "recusou a visita (código 404)"
+   "situacao": "não respondeu: URLError: <urlopen error [Errno 104] Connection reset by peer>"
   },
   {
    "ids": [
@@ -1218,7 +1191,7 @@
     "feed (7 itens)",
     "texto de 14 página(s)"
    ],
-   "caracteres": 34815,
+   "caracteres": 34696,
    "url_final": "https://grupoestacao.com.br",
    "paginas": [
     "https://grupoestacao.com.br",
@@ -1236,7 +1209,7 @@
     "https://grupoestacao.com.br/filme/fogareu/",
     "https://grupoestacao.com.br/filme/josephine-fragmentos-de-um-crime/"
    ],
-   "mencoes_de_data": 102,
+   "mencoes_de_data": 98,
    "situacao": "coletada",
    "arquivo": "F091.txt"
   },
@@ -1250,11 +1223,11 @@
     "Zona Sul"
    ],
    "degraus": [
-    "feed (6 itens)",
+    "feed (5 itens)",
     "calendário WordPress (40 eventos)",
     "texto de 14 página(s)"
    ],
-   "caracteres": 71291,
+   "caracteres": 70726,
    "url_final": "https://ims.com.br",
    "paginas": [
     "https://ims.com.br",
@@ -1285,18 +1258,9 @@
    "regioes": [
     "Zona Sul"
    ],
-   "degraus": [
-    "texto de 2 página(s)"
-   ],
-   "caracteres": 4750,
-   "url_final": "https://www.gov.br/jbrj/pt-br",
-   "paginas": [
-    "https://www.gov.br/jbrj/pt-br",
-    "https://www.gov.br/jbrj/pt-br/acesso-a-informacao/acoes-e-programas"
-   ],
-   "mencoes_de_data": 2,
-   "situacao": "coletada, mas sem datas à vista (a programação pode ser carregada depois)",
-   "arquivo": "F093.txt"
+   "degraus": [],
+   "caracteres": 0,
+   "situacao": "não respondeu: URLError: <urlopen error [Errno 104] Connection reset by peer>"
   },
   {
    "ids": [
@@ -1611,7 +1575,7 @@
    "degraus": [
     "texto de 4 página(s)"
    ],
-   "caracteres": 2084,
+   "caracteres": 1770,
    "url_final": "https://silviacintra.com.br",
    "paginas": [
     "https://silviacintra.com.br",
@@ -1619,7 +1583,7 @@
     "https://silviacintra.com.br/en/exhibitions/",
     "https://silviacintra.com.br/exposicoes/o-silencio/"
    ],
-   "mencoes_de_data": 1,
+   "mencoes_de_data": 0,
    "situacao": "coletada, mas sem datas à vista (a programação pode ser carregada depois)",
    "arquivo": "F112.txt"
   },
@@ -1677,7 +1641,7 @@
     "dados estruturados (19 eventos)",
     "texto de 11 página(s)"
    ],
-   "caracteres": 38233,
+   "caracteres": 38239,
    "url_final": "https://teatrodasartes.com.br",
    "paginas": [
     "https://teatrodasartes.com.br",
@@ -1768,7 +1732,7 @@
    "degraus": [
     "texto de 12 página(s)"
    ],
-   "caracteres": 32675,
+   "caracteres": 32637,
    "url_final": "https://vivorio.com.br",
    "paginas": [
     "https://vivorio.com.br",
@@ -1836,7 +1800,7 @@
    "degraus": [
     "texto de 5 página(s)"
    ],
-   "caracteres": 25997,
+   "caracteres": 25857,
    "url_final": "https://farmasiarena.com.br",
    "paginas": [
     "https://farmasiarena.com.br",
@@ -1845,7 +1809,7 @@
     "https://farmasiarena.com.br/eventos-esportivos/",
     "https://farmasiarena.com.br/proximos-eventos/"
    ],
-   "mencoes_de_data": 12,
+   "mencoes_de_data": 9,
    "situacao": "coletada",
    "arquivo": "F134.txt"
   },
@@ -1890,7 +1854,7 @@
     "feed (10 itens)",
     "texto de 13 página(s)"
    ],
-   "caracteres": 18719,
+   "caracteres": 18777,
    "url_final": "https://museudopontal.org.br",
    "paginas": [
     "https://museudopontal.org.br",
@@ -1923,12 +1887,11 @@
    "degraus": [
     "texto de 11 página(s)"
    ],
-   "caracteres": 80900,
+   "caracteres": 80919,
    "url_final": "https://qualistage.com.br",
    "paginas": [
     "https://qualistage.com.br",
     "https://qualistage.com.br/eventos",
-    "https://qualistage.com.br/evento/439/marcelo-falcao",
     "https://qualistage.com.br/evento/437/dino-fonseca",
     "https://qualistage.com.br/evento/436/sandro-luiz",
     "https://qualistage.com.br/evento/400/seal",
@@ -1936,9 +1899,10 @@
     "https://qualistage.com.br/evento/431/gipsy-kings-part-sidney-magal",
     "https://qualistage.com.br/evento/435/geriatricus",
     "https://qualistage.com.br/evento/441/ferrugem",
-    "https://qualistage.com.br/evento/423/mauricio-manieri"
+    "https://qualistage.com.br/evento/423/mauricio-manieri",
+    "https://qualistage.com.br/evento/443/di-ferrero-e-thiago-castanho-e-marcao-britto-charlie-brown-jr"
    ],
-   "mencoes_de_data": 42,
+   "mencoes_de_data": 31,
    "situacao": "coletada",
    "arquivo": "F137.txt"
   },
@@ -2113,7 +2077,7 @@
    "degraus": [
     "texto de 14 página(s)"
    ],
-   "caracteres": 63230,
+   "caracteres": 63295,
    "url_final": "https://www.travessa.com.br/eventos",
    "paginas": [
     "https://www.travessa.com.br/eventos",
