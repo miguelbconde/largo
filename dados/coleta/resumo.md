@@ -1,6 +1,6 @@
 # Ronda das fontes — resumo
 
-Feita em 2026-11-21 08:22 UTC, em 168 segundos, no serviço de automação do GitHub.
+Feita em 2026-11-21 11:31 UTC, em 189 segundos, no serviço de automação do GitHub.
 O texto recolhido dos sites não entra na linha principal do repositório nem no site: fica num ramo temporário (coleta-bruta), substituído a cada ronda, só para a redação das fichas.
 
 ## Situação

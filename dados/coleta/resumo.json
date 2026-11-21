@@ -1,7 +1,7 @@
 {
  "origem": "nuvem",
- "feito_em": "2026-11-21 08:22 UTC",
- "segundos": 168,
+ "feito_em": "2026-11-21 11:31 UTC",
+ "segundos": 189,
  "fontes": [
   {
    "ids": [
@@ -111,7 +111,7 @@
     "feed (10 itens)",
     "texto de 7 página(s)"
    ],
-   "caracteres": 40910,
+   "caracteres": 40918,
    "url_final": "https://cultura.rj.gov.br",
    "paginas": [
     "https://cultura.rj.gov.br",
@@ -160,7 +160,7 @@
     "feed (20 itens)",
     "texto de 2 página(s)"
    ],
-   "caracteres": 8635,
+   "caracteres": 8564,
    "url_final": "https://www.barcariocadagema.com.br/",
    "paginas": [
     "https://www.barcariocadagema.com.br/",
@@ -195,7 +195,7 @@
    "degraus": [
     "texto de 12 página(s)"
    ],
-   "caracteres": 38066,
+   "caracteres": 38128,
    "url_final": "https://ccbb.com.br/rio-de-janeiro/",
    "paginas": [
     "https://ccbb.com.br/rio-de-janeiro/",
@@ -211,7 +211,7 @@
     "https://ccbb.com.br/rio-de-janeiro/programacao/21o-festival-de-cinema-italiano-no-brasil/",
     "https://ccbb.com.br/rio-de-janeiro/programacao/yokai-parade-seres-sobrenaturais-do-japao/"
    ],
-   "mencoes_de_data": 324,
+   "mencoes_de_data": 322,
    "situacao": "coletada",
    "arquivo": "F019.txt"
   },
@@ -403,7 +403,7 @@
     "feed (3 itens)",
     "texto de 1 página(s)"
    ],
-   "caracteres": 1542,
+   "caracteres": 5539,
    "url_final": "https://www.d-edge.com.br/",
    "paginas": [
     "https://www.d-edge.com.br/"
@@ -484,7 +484,7 @@
     "feed (20 itens)",
     "texto de 2 página(s)"
    ],
-   "caracteres": 8467,
+   "caracteres": 8464,
    "url_final": "https://www.riocarnaval.com/",
    "paginas": [
     "https://www.riocarnaval.com/",
@@ -803,7 +803,7 @@
    "degraus": [
     "texto de 2 página(s)"
    ],
-   "caracteres": 6892,
+   "caracteres": 6895,
    "url_final": "https://becodasgarrafas.com.br",
    "paginas": [
     "https://becodasgarrafas.com.br",
@@ -1575,7 +1575,7 @@
    "degraus": [
     "texto de 4 página(s)"
    ],
-   "caracteres": 1770,
+   "caracteres": 1740,
    "url_final": "https://silviacintra.com.br",
    "paginas": [
     "https://silviacintra.com.br",
@@ -2077,7 +2077,7 @@
    "degraus": [
     "texto de 14 página(s)"
    ],
-   "caracteres": 63295,
+   "caracteres": 63316,
    "url_final": "https://www.travessa.com.br/eventos",
    "paginas": [
     "https://www.travessa.com.br/eventos",

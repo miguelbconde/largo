@@ -2,7 +2,7 @@
 
 ## Ronda das fontes
 
-- Feita em: 2026-11-21 08:22 UTC
+- Feita em: 2026-11-21 11:31 UTC
 - Lidas com datas: **53** de 91 visitadas
 - não respondeu: 19
 - coletada, mas sem datas à vista: 14
@@ -11,8 +11,8 @@
 
 ## Plataformas de ingresso
 
-- Ingresso.com: 0 sessões de cinema
-- Sympla: 0 eventos no Rio
+- Ingresso.com: 7088 sessões de cinema
+- Sympla: 2131 eventos no Rio
 
 ## Redação (tarefa diária do Claude)
 
