@@ -282,6 +282,7 @@ A tarefa diária de 19/11 parou em 20 e 21/11: o plano de uso acabou antes de el
 
 **Tomadas (21/11/2026):**
 - Atualização diária refeita do zero: robô publica sozinho; o Claude só entrega fichas, com teto diário; alarme por e-mail (seção 10).
+- Fichas automáticas da rede municipal: a Sympla traz, com dia, hora e endereço, boa parte da programação de arenas, areninhas e teatros da Prefeitura (organizador "Município do Rio de Janeiro"). O robô publica sozinho a parte segura (shows, tributos, cineclubes, rodas de conversa, comédia, teatros municipais); dança, circo, oficinas e espetáculos de areninha, quase sempre apresentações de escola, ficam com a redação, que também pode vetar o que o robô publicou. O PDF da Secretaria continua sendo a fonte principal da rede, mas a semana já não fica vazia sem ele.
 
 **Pendente:**
 - todososrios.rio: a INWX ainda não concluiu o registro (faltava o CPF, informado em 19/11). Quando sair: cadastrar o DNS na INWX, pôr o arquivo CNAME em `docs/`, trocar a constante `SITE` de `ferramentas/gerar.py` e apontar o encaminhamento do .com.br para o .rio.

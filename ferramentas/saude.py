@@ -43,6 +43,10 @@ def main(plat=None):
     if plat and n_sym == 0:
         alarmes.append("a extração da Sympla veio vazia")
 
+    robo = base.ler(os.path.join(base.DADOS, "robo.json"), {"fichas": [], "sem_local": {}})
+    linhas += ["", "## Fichas automáticas (sem IA)", "",
+               f"- Rede municipal pela Sympla: {len(robo['fichas'])} fichas",
+               "- Locais da Sympla que o robô ainda não reconhece: " + (", ".join(f"{k} ({v})" for k, v in robo.get("sem_local", {}).items()) or "nenhum")]
     linhas += ["", "## Redação (tarefa diária do Claude)", ""]
     ent = base.ler(base.ARQ_ENTREGAS, {"entregas": []})["entregas"]
     ultima = max((e["data"] for e in ent), default="nunca")

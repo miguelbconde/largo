@@ -28,13 +28,14 @@ Meta de longo prazo: cada fonte que o robô aprende a ler sozinho sai da fila do
 - Publica de novo sempre que o Claude entrega fichas.
 - Escreve o **boletim de saúde** (`dados/coleta/saude.md`).
 - **Alarme:** se a ronda falhar, se as plataformas vierem vazias ou se o Claude passar 2 dias sem entregar, abre um aviso no GitHub ("Alarme do robô"), que chega por e-mail. O aviso se fecha sozinho quando tudo volta ao normal.
-- *A fazer:* transformar direto em fichas os sites que publicam dados organizados.
+- Transforma em ficha, sozinho, os eventos da rede municipal que a Sympla publica com dia e hora certos e que ele reconhece com segurança: shows, tributos, cineclubes, rodas de conversa, comédia e teatros municipais. A sinopse é uma linha de fatos; o Claude pode vetar ou trocar por sinopse própria.
 
 ### 2. Claude, tarefa diária (todo dia de manhã, sem conversa)
 
 - Lê só o que é novo na ronda desde ontem, mais as pendências do dia anterior.
 - Às quintas e sextas, incorpora o PDF da Secretaria, se ele estiver na pasta `entrada/`.
 - Decide o que entra pelos critérios editoriais, redige até **25 fichas novas por dia**, passa pela dupla checagem e traduz.
+- Revê os títulos das fichas automáticas novas: veta o que não cabe e dá sinopse própria às melhores.
 - Escolhe "A boa" dos dias que ainda não têm destaque.
 - Entrega à base. A entrega recusa sozinha a ficha com problema grave, como data inválida, falta de endereço ou dado pessoal.
 - Manda à coordenação o relatório de exceções.
@@ -102,13 +103,13 @@ No máximo 10 linhas, em português simples:
 - Fontes lidas com datas, sobre o total visitado.
 - Fichas entregues por dia e fichas recusadas.
 - Parcela de fichas fora da Zona Sul e de fichas grátis.
-- *A acrescentar:* fichas montadas pelo robô sem IA, sobre o total.
+- Fichas automáticas da rede municipal (Sympla) e locais que o robô ainda não reconhece.
 
 ## Plano de reconstrução
 
 1. ~~Diagnóstico~~ (21/11).
 2. ~~Robô publica sozinho, com alarme~~ (21/11).
-3. **Fontes organizadas:** o robô lê sem IA os sites com dados organizados. Próxima conversa.
+3. **Fontes organizadas:** feito em parte (21/11). O robô já lê sozinho a rede municipal na Sympla. Os dados organizados dos sites ainda são fracos demais para virar ficha sem erro. Próximos candidatos: temporadas da Sympla e sites que montam a agenda depois de abrir (Circo Voador, Blue Note, Caixa Cultural).
 4. ~~Nova tarefa diária enxuta~~ (21/11).
 5. ~~Tarefa antiga apagada~~ (21/11).
 6. **Revisar depois de uma semana** de funcionamento: teto de fichas, horário da tarefa, consumo do plano.

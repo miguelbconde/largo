@@ -5,9 +5,10 @@ Roda todo dia no GitHub, depois da ronda das fontes, e de novo sempre que chegam
 1. Descobre a edição de hoje (quinta a quarta). Às quintas a edição nova abre sozinha.
 2. Tira da base (dados/fichas.json) tudo o que cai na edição, de hoje em diante: sessões que já
    passaram saem e exposições encerradas somem.
-3. Refaz a grade de cinema a partir da extração da Ingresso.com, quando ela vem junto.
-4. Completa "A boa" dos dias sem destaque escolhido pela redação, com uma regra fixa e pública.
-5. Gera o site, os calendários, os dados abertos e o relatório (ferramentas/gerar.py).
+3. Lê da Sympla os eventos de data única da rede municipal que reconhece com segurança (robo_sympla.py).
+4. Refaz a grade de cinema a partir da extração da Ingresso.com, quando ela vem junto.
+5. Completa "A boa" dos dias sem destaque escolhido pela redação, com uma regra fixa e pública.
+6. Gera o site, os calendários, os dados abertos e o relatório (ferramentas/gerar.py).
 
 Uso: python3 ferramentas/montar.py [caminho do plataformas.json]
 """
@@ -53,7 +54,7 @@ def porque_automatico(e):
 def escolher_destaques(eventos, dia, n=6):
     """Regra fixa para os dias sem destaque da redação: diversidade de regiões, áreas e espaços,
     prioridade para o grátis e o barato, para espaços públicos e para fora da Zona Sul."""
-    pool = [e for e in eventos if e["tipo"] == "evento" and not e.get("automatica") and e["status"] == "conferido"
+    pool = [e for e in eventos if e["tipo"] == "evento" and not e.get("automatica") and not e.get("robo") and e["status"] == "conferido"
             and any(s["data"] == dia for s in e["sessoes"])]
 
     def nota(e):
@@ -77,7 +78,18 @@ def main(plataformas=None):
     pasta = os.path.join(base.DADOS, "edicoes", ed["id"])
     os.makedirs(pasta, exist_ok=True)
 
+    if plataformas and os.path.exists(plataformas):  # fichas automáticas da rede municipal (Sympla), refeitas a cada ronda
+        import robo_sympla
+        try:
+            robo_sympla.main(plataformas)
+        except Exception as erro:  # o robô da Sympla nunca impede a publicação
+            print("ALARME: o leitor automático da Sympla falhou:", erro)
     fichas = base.ler(base.ARQ_FICHAS, {"fichas": []})["fichas"]
+    ids_base = {f["id"] for f in fichas}
+    vetos = {v["id"] for v in base.ler(os.path.join(base.DADOS, "vetos.json"), {"vetos": []})["vetos"]}
+    robo = [f for f in base.ler(os.path.join(base.DADOS, "robo.json"), {"fichas": []})["fichas"]
+            if f["id"] not in ids_base and f["id"] not in vetos]  # a ficha da redação, se houver, vale mais
+    fichas = fichas + robo
     conf = base.ler(base.ARQ_CONF, {"resultado": []})["resultado"]
     dest_base = base.ler(base.ARQ_DEST, {"dias": {}})
 
@@ -128,6 +140,7 @@ def main(plataformas=None):
 
     gerar.main(ed["id"])
     print(f"Edição {ed['id']} montada para {dia}: {len(eventos)} fichas da redação"
+          + f" (das quais {len([e for e in eventos if e.get('robo')])} automáticas da Sympla)"
           + (f"; A boa pela regra fixa em {', '.join(auto)}" if auto else ""))
 
 

@@ -14,6 +14,7 @@ Formato da entrega (todas as chaves são opcionais):
 {
   "fichas": [ {ficha completa; sem "id" para ficha nova, com "id" para corrigir uma existente} ],
   "remover": [ {"id": "...", "motivo": "cancelado pela fonte em 22/11"} ],
+  "vetar": [ {"id": "...", "motivo": "apresentação de escola"} ],   (fichas automáticas do robô, em dados/robo.json)
   "apontamentos": [ {"id": "...", "titulo": "...", "campo": "...", "veredito": "diverge|nao_encontrado|duvida",
                      "detalhe": "...", "resolucao": "Corrigido: ... | Mantido: ... | (vazio = a confirmar)"} ],
   "destaques": { "AAAA-MM-DD": [ {"id": "...", "porque": "..."} ] },
@@ -119,14 +120,21 @@ def main(caminho):
         if r.get("id") in por_id:
             por_id.pop(r["id"]); log["removidas"] += 1
 
-    novos_ap = [a for a in ent.get("apontamentos", []) if a.get("id") in por_id]
+    if ent.get("vetar"):
+        arq = os.path.join(base.DADOS, "vetos.json")
+        v = base.ler(arq, {"vetos": []})
+        v["vetos"] += [dict(x, data=dia) for x in ent["vetar"] if x.get("id")]
+        base.gravar(arq, v); log["vetadas"] = len(ent["vetar"])
+
+    robo_ids = {f["id"] for f in base.ler(os.path.join(base.DADOS, "robo.json"), {"fichas": []})["fichas"]}
+    novos_ap = [a for a in ent.get("apontamentos", []) if a.get("id") in por_id or a.get("id") in robo_ids]
     chaves = {(a["id"], a.get("campo")) for a in novos_ap}
     conf["resultado"] = [a for a in conf["resultado"] if (a["id"], a.get("campo")) not in chaves] + novos_ap
     ignorados = [a for a in ent.get("apontamentos", []) if a.get("id") not in por_id]
 
     for k, l in ent.get("destaques", {}).items():
         if k >= dia:
-            dest["dias"][k] = [x for x in l if x.get("id") in por_id]
+            dest["dias"][k] = [x for x in l if x.get("id") in por_id or x.get("id") in robo_ids]
 
     if ent.get("traducoes"):
         sys.path.insert(0, os.path.join(base.RAIZ, "ferramentas", "redacao"))
@@ -150,7 +158,7 @@ def main(caminho):
     base.gravar(base.ARQ_ENTREGAS, reg)
 
     print(f"Entrega de {dia}: {log['novas']} novas, {log['corrigidas']} corrigidas, {log['removidas']} removidas, "
-          f"{len(log['recusadas'])} recusadas.")
+          f"{len(log['recusadas'])} recusadas, {log.get('vetadas', 0)} automáticas vetadas.")
     for r in log["recusadas"]:
         print("  RECUSADA:", r["titulo"], "—", "; ".join(r["motivos"]))
     for a in ignorados:

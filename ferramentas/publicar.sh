@@ -17,7 +17,7 @@ for tentativa in 1 2 3; do
     git reset -q --hard origin/main; cp "$guarda"/* dados/coleta/ 2>/dev/null || true
   fi
   python3 ferramentas/saude.py $plat >> alarmes.txt 2>&1 || echo "ALARME: o boletim de saúde falhou" >> alarmes.txt
-  git add dados/coleta dados/edicoes dados/traducoes.json docs
+  git add dados/coleta dados/edicoes dados/traducoes.json dados/robo.json docs
   git commit -qm "$msg" || { echo "nada mudou"; exit 0; }
   if git push -q origin HEAD:main; then echo "publicado"; exit 0; fi
   echo "a linha principal mudou durante a montagem; recomeçando ($tentativa)"

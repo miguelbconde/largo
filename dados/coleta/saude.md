@@ -12,7 +12,12 @@
 ## Plataformas de ingresso
 
 - Ingresso.com: 7088 sessões de cinema
-- Sympla: 2131 eventos no Rio
+- Sympla: 2137 eventos no Rio
+
+## Fichas automáticas (sem IA)
+
+- Rede municipal pela Sympla: 25 fichas
+- Locais da Sympla que o robô ainda não reconhece: nenhum
 
 ## Redação (tarefa diária do Claude)
 

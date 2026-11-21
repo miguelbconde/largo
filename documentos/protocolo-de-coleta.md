@@ -11,6 +11,7 @@ Quem executa não tem memória das conversas anteriores: tudo o que precisa est�
 | **Ronda** (`.github/workflows/coleta.yml`) | Visita as fontes, extrai Ingresso.com e Sympla, guarda o texto bruto no ramo `coleta-bruta`, monta a edição, publica o site, escreve o boletim de saúde e dispara alarme se algo falhar | todo dia, 4h17, no GitHub, sem IA |
 | **Base de fichas** (`dados/fichas.json`) | Guarda todas as fichas da redação, com todas as sessões. Nunca se edita à mão | permanente |
 | **Robô** (`ferramentas/montar.py`) | Monta a edição de quinta a quarta a partir da base, de hoje em diante; refaz o cinema; completa "A boa" pela regra fixa nos dias sem destaque da redação; gera o site | em cada ronda e em cada entrega |
+| **Fichas automáticas da rede municipal** (`ferramentas/robo_sympla.py`, grava `dados/robo.json`) | Da Sympla, transforma em ficha, sem IA, os eventos de data única organizados pelo Município do Rio que reconhece com segurança: shows, tributos, homenagens, cineclubes, rodas de conversa, comédia e o que acontece nos teatros municipais. Dança, circo, oficinas e "espetáculos" de arena e areninha (quase sempre apresentação de escola) ficam para a redação. A sinopse é só uma linha de fatos | em cada ronda |
 | **Entrega** (`ferramentas/entregar.py`) | Checa e põe na base as fichas, apontamentos, destaques e traduções que o Claude redigiu | tarefa diária do Claude |
 | **Publicação** (`.github/workflows/publicar.yml`) | Quando a base chega ao repositório, remonta e publica o site | automático |
 
@@ -45,6 +46,7 @@ Confira em `/home/claude/bruta/resumo.json` (campo `feito_em`, em UTC) se a rond
 2. **PDF da Secretaria Municipal de Cultura** em `entrada/`, se houver um que ainda não aparece no campo `nota` de `dados/entregas.json`. Ele é a fonte principal da rede municipal: arenas, areninhas, lonas, teatros, bibliotecas e museus. Um PDF rende mais que 25 fichas: comece pelos eventos mais próximos e deixe o resto em pendentes. Cite o nome do arquivo na `nota` da entrega.
 3. **Linhas novas de `novo.txt`** (marcadas com ★), nesta ordem: equipamentos públicos e espaços fora da Zona Sul; o que é grátis ou a preço popular; o grupo "PRIORIDADE" da Sympla (`FPLAT_sympla`); o resto; o grupo "cultural" da Sympla. Do grupo "a verificar", leia só os títulos.
 4. **Cancelamentos e mudanças** em eventos que já estão na base: corrija ou remova.
+5. **Fichas automáticas novas** (`dados/robo.json`, as que têm `"robo": true`): leia só os títulos das que ainda não viu (compare com `dados/coleta/robo-vistos.json`, que guarda os códigos já revistos). Vete em `"vetar"` o que não cabe nos critérios (apresentação de escola, atividade que não é cultural). Se sobrar teto, escolha as melhores e entregue a ficha completa com sinopse própria, mesmo título e mesmo local, lendo o evento na Sympla pelo `FPLAT_sympla.txt`: a ficha da redação passa a valer no lugar da automática. Depois grave em `robo-vistos.json` os códigos revistos, como `{"vistos": ["f-..."]}`. A Sympla não informa preço nessa listagem: não invente.
 
 Para completar hora, preço, endereço ou classificação, faça buscas pontuais no arquivo da fonte (`grep`). Não leia arquivos inteiros.
 
@@ -56,6 +58,7 @@ Para completar hora, preço, endereço ou classificação, faça buscas pontuais
 - Atividades entre evento e oficina (aula-baile, aulão aberto, encontro com inscrição, seminário) entram. Oficinas gratuitas e abertas para crianças também.
 - Livrarias: entram lançamentos literários, clubes de leitura e debates. Autógrafos de autoajuda, negócios, saúde e direito ficam de fora.
 - Ficam de fora: cursos pagos, eventos corporativos, festas de boate, esporte, o que é só online e o que parece apresentação de escola ou academia.
+- **Não redija de novo o que o robô já publicou** (fichas com `"robo": true` em `dados/robo.json`), a não ser para dar a sinopse própria (item 5 acima).
 - **Cinema não se redige:** a grade sai sozinha da Ingresso.com. Mostras e sessões especiais fora dela (cineclubes, Cinemateca do MAM) se redigem normalmente.
 - Sympla: se o evento estiver no site do próprio espaço, a fonte é o espaço. Se só a Sympla tem, a fonte é "Sympla (extração do Todos os Rios)" e o link é o do evento, sem código acrescentado. Registre na nota se o organizador é um órgão público. **Nunca copie e-mail ou outro dado pessoal** (o programa recusa).
 - Quando o site dá só "a partir de R$ X", escreva assim no `preco_texto` e ponha X em `preco_min` e `preco_max`. Não invente a inteira.
@@ -95,7 +98,7 @@ Para cada sinopse nova e cada "por que ir" novo, escreva as versões em inglês 
 6. Envie só a base. O site é publicado pelo robô:
    ```
    git checkout -- docs dados/edicoes 2>/dev/null; git clean -fdq dados/edicoes
-   git add dados/fichas.json dados/conferencia.json dados/destaques.json dados/entregas.json dados/traducoes.json dados/coleta/vistos.json dados/coleta/pendentes.json
+   git add dados/fichas.json dados/conferencia.json dados/destaques.json dados/entregas.json dados/traducoes.json dados/vetos.json dados/coleta/vistos.json dados/coleta/pendentes.json dados/coleta/robo-vistos.json
    git commit -m "Entrega de <dd/mm>: N fichas novas, M corrigidas"
    git pull --rebase origin main && git push origin HEAD:main
    ```
@@ -128,7 +131,8 @@ Num dia sem exceções, uma linha basta.
 
 ## 4. O que ainda não está resolvido
 
-- O robô ainda não transforma em fichas, sozinho, os sites que publicam dados organizados (marcação de eventos, calendários). É a próxima melhoria (etapa 3 da divisão de tarefas).
+- Os dados organizados dos próprios sites ainda são fracos para virar ficha sozinhos (21/11): o IMS não diz em que cidade é cada sessão, o Teatro das Artes só dá o período da temporada e o TotalEnergies não traz datas. Por isso o robô lê, por enquanto, só a Sympla da rede municipal e a Ingresso.com.
+- Temporadas da Sympla (vários dias, sem dizer quais) e locais que o robô não reconhece ficam para a redação. Para ensinar um local novo ao robô, acrescente-o em `dados/locais.json` (local, endereco, bairro, regiao, apelidos).
 - Sites que só montam a programação depois de abrir (Circo Voador, Blue Note, Caixa Cultural, MIS e outros) chegam vazios.
 - Ticketmaster barra robôs e Eventim não responde da nuvem.
 - O cadastro tem endereços errados, anotados em `dados/fontes.csv` com "Ronda 19/11".
