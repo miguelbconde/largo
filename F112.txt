@@ -1,0 +1,69 @@
+# F112 | Silvia Cintra + Box 4
+# endereço: https://silviacintra.com.br
+# coletado em 2026-11-21 11:45 UTC
+
+## PÁGINA (página inicial) — https://silviacintra.com.br
+Silvia Cintra+Box4
+Galeria
+Artistas
+Exposições
+Feiras
+Notícias
+Contato
+pt
+en
+Artistas representados
+<img itemprop="image" class="image image--lazyload push__thumbnail"
+src="https://silviacintra.com.br/content/uploads/2023/04/elvis-almeida-area-transicional-2026-transitional-space-acrilica-sobre-tela-acrylic-on-canvas-120-x-90-cm-472-x-354-in-unica-copiar.jpg"
+[… cortado]
+
+## PÁGINA (listagem: Exposições) — https://silviacintra.com.br/exposicoes/
+Exposições — Silvia Cintra+Box4
+Galeria
+Artistas
+Exposições
+Feiras
+Notícias
+Contato
+Exposição Atual
+Exposições passadas
+Silvia Cintra+Box4
+Rua das Acácias 104, Gávea - Rio de Janeiro
+<img itemprop="image" class="image image--lazyload push__thumbnail"
+src="https://silviacintra.com.br/content/uploads/2026/11/img_9750-copiar.jpg"
+[… cortado]
+
+## PÁGINA (evento) — https://silviacintra.com.br/en/exhibitions/
+Exhibitions — Silvia Cintra+Box4
+Gallery
+Artists
+Exhibitions
+Fairs
+News
+Contact
+Current exhibition
+Past exhibitions
+Silvia Cintra+Box4
+Acácias ST, 104, Gávea - Rio de Janeiro
+<img itemprop="image" class="image image--lazyload push__thumbnail"
+src="https://silviacintra.com.br/content/uploads/2026/11/img_9750-copiar.jpg"
+[… cortado]
+
+## PÁGINA (evento) — https://silviacintra.com.br/exposicoes/o-silencio/
+O Silêncio — Silvia Cintra+Box4
+Galeria
+Artistas
+Exposições
+Feiras
+Notícias
+Contato
+Exposição
+Silvia Cintra+Box4
+Rua das Acácias 104, Gávea - Rio de Janeiro
+O Silêncio
+Miguel Rio Branco
+01.10.2026 —
+06.11.2026
+<img itemprop="image" class="image image--lazyload work__image"
+src="https://silviacintra.com.br/content/uploads/2026/11/img_9750-copiar.jpg"
+[… cortado]
